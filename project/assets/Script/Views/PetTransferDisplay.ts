@@ -36,7 +36,7 @@ export function petTransferProgress(total: number, maximum = PET_TRANSFER_MAX): 
 }
 
 export function petBuffLevel(level: number, maximum = PET_BUFF_MAX): string {
-    return `${boundedInteger(level, maximum)}/${maximum}`
+    return `Lv${boundedInteger(level, maximum)}/${maximum}`
 }
 
 export function petBuffValue(parameters: Array<number | string>, level: number): number {

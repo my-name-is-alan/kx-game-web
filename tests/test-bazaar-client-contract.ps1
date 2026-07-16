@@ -28,7 +28,12 @@ function Get-ProtocolRequest {
     return $match.Groups["request"].Value
 }
 
-$protocol = Get-Content -Raw (Join-Path $root "project/tools/common/protos/activityProto.lua")
+$activityProtocol = Get-Content -Raw (Join-Path $root "project/tools/common/protos/activityProto.lua")
+$bazaarProtocolPath = Join-Path $root "project/tools/common/protos/bazaarProto.lua"
+if (-not (Test-Path -LiteralPath $bazaarProtocolPath -PathType Leaf)) { throw "bazaarProto.lua is missing" }
+$bazaarProtocol = Get-Content -Raw $bazaarProtocolPath
+$protocol = $activityProtocol + "`n" + $bazaarProtocol
+$parser = Get-Content -Raw (Join-Path $root "project/tools/common/protos/parser.lua")
 $shop = Get-Content -Raw (Join-Path $root "project/assets/Script/Views/LyActivityShop.ts")
 $buy = Get-Content -Raw (Join-Path $root "project/assets/Script/Views/LyActivityShopBuy.ts")
 
@@ -40,6 +45,8 @@ foreach ($field in @("currentPaymentKind", "remainingOrderItems", "nextTierBound
     Assert-Match $protocol "(?m)^\s*$field\s+\d+\s*:" "client protocol shop field $field is missing"
 }
 Assert-Match $protocol '(?m)^bazaarQuotePurchase\s+%d\s*\{' "bazaarQuotePurchase protocol is missing"
+Assert-NotMatch $activityProtocol '(?m)^bazaarQuotePurchase\s+%d\s*\{' "append-only Bazaar request must not renumber activity protocols"
+Assert-Match $parser 'table\.insert\(protoFiles, "hdhiveProto"\)\s*table\.insert\(protoFiles, "bazaarProto"\)' "Bazaar protocol must be appended after every existing protocol module"
 
 foreach ($requestName in @("bazaarQuotePurchase", "shopBuy", "bazaarVoucherBuy")) {
     $request = Get-ProtocolRequest $protocol $requestName
@@ -55,8 +62,11 @@ foreach ($field in @("isDynamicBazaar", "policyVersion", "unitItemCount", "curre
 foreach ($kind in @("original", "money", "stone", "voucher", "blocked")) {
     Assert-Match $shop "[`"']$kind[`"']" "client payment kind $kind is unsupported"
 }
-Assert-Match $shop 'activityShop\s*&&\s*activityShop\.policyVersion' "dynamic snapshot is not guarded by activityShop.policyVersion"
+Assert-Match $shop 'typeof activityShop\.policyVersion != "string"' "dynamic snapshot is not guarded by a typed activityShop.policyVersion"
 Assert-Match $shop 'activityShop\.policyItems' "dynamic unit item count is not read from activityShop.policyItems"
+Assert-Match $shop 'isCompleteBazaarSnapshot' "partial dynamic snapshots are not rejected"
+Assert-Match $shop 'policyItem\.enabled' "dynamic mode does not require an explicit item policy"
+Assert-Match $shop 'policyItem\.paymentKind' "dynamic mode does not verify the matching payment kind"
 Assert-Match $shop 'directPolicyItem\s*&&\s*Number\(directPolicyItem\.entryId\)\s*==\s*id' "keyed policy lookup does not verify the entry id"
 Assert-Match $shop 'remainingOrderItems\s*/\s*unitItemCount' "dynamic selectable groups do not use the server policy unit"
 Assert-Match $shop 'currentPaymentKind' "current payment kind is not read"
@@ -79,6 +89,10 @@ Assert-Match $buy 'isDynamicBazaar\s*\?\s*"shopBuy"' "dynamic purchase is not ro
 Assert-Match $buy 'currentPaymentKind\s*==\s*"blocked"' "blocked dynamic rows are not disabled"
 Assert-Match $buy 'btn_buy\.enabled\s*=\s*false' "purchase is not disabled while awaiting a quote"
 Assert-Match $buy '坊市配置已更新，请重新登录' "version mismatch message is missing"
+Assert-Match $buy 'policyMismatchLatched' "version mismatch is not terminal for the dialog"
+Assert-Match $buy 'if \(policyMismatchLatched\) return' "stale policy continues sending quote or purchase requests"
+Assert-Match $buy 'formatBazaarError' "protocol errors are not mapped to user-facing messages"
+Assert-NotMatch $buy 'UtilsUI\.showMsgTip\(args\.bazaarError\)' "raw internal Bazaar error codes leak to players"
 Assert-NotMatch $buy '(?i)retryBazaar|bazaarRetry' "version mismatch must not retry"
 Assert-NotMatch $buy '\b(price|trustedPrice|clientPrice)\s*:' "purchase payload contains a client-trusted price"
 Assert-Match $buy '"bazaarVoucherBuy"' "legacy voucher purchase route was removed"

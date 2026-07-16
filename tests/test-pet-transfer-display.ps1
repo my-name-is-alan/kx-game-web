@@ -3,13 +3,7 @@ $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $PSScriptRoot
 $viewsRoot = Join-Path $root "project/assets/Script/Views"
 $helperPath = Join-Path $viewsRoot "PetTransferDisplay.ts"
-$viewFiles = @(
-    "LyPet.ts",
-    "LyPetDevourpet.ts",
-    "LyPetTisp.ts",
-    "LyPetRefreshBuff.ts",
-    "LyBuddyChoose.ts"
-)
+$viewFiles = @("LyPet.ts", "LyPetDevourpet.ts", "LyPetTisp.ts", "LyPetRefreshBuff.ts", "LyBuddyChoose.ts")
 
 if (-not (Test-Path $helperPath)) {
     throw "PetTransferDisplay.ts is missing"
@@ -39,12 +33,12 @@ foreach ($name in $viewFiles) {
         $text -match 'devourLevel\s*%\s*5') {
         throw "$name still calculates unbounded star resources directly"
     }
+    if ($text -notmatch 'petTransferProgress\(') {
+        throw "$name does not display the exact extended transfer progress"
+    }
 }
 
 $allViews = ($viewFiles | ForEach-Object { Get-Content -Raw (Join-Path $viewsRoot $_) }) -join "`n"
-if ($allViews -notmatch 'petTransferProgress\(') {
-    throw "extended total progress is not displayed numerically"
-}
 if ($allViews -notmatch 'petBuffLevel\(') {
     throw "extended passive levels are not displayed through the bounded formatter"
 }
@@ -57,6 +51,19 @@ if ($tips -notmatch 'petBuffValue\(' -or $tips -match 'buffParams\[buffData\.buf
 $utilsUI = Get-Content -Raw (Join-Path $root "project/assets/Script/Kernel/UtilsUI.ts")
 if ($utilsUI -notmatch 'petBuffLevel\(buffData\.buffLevel\)') {
     throw "shared pet passive renderer does not display the 999 level limit"
+}
+
+$devour = Get-Content -Raw (Join-Path $viewsRoot "LyPetDevourpet.ts")
+if ($devour -notmatch 'Math\.min\(PET_TRANSFER_MAX,[\s\S]*?this\.devourerPet\.devourLevel[\s\S]*?preyPet\.devourLevel[\s\S]*?\+ 1\)') {
+    throw "transfer preview must add target total, material total, and the current transfer before clamping"
+}
+if ($helper -notmatch 'return `Lv\$\{boundedInteger\(level, maximum\)\}/\$\{maximum\}`') {
+    throw "passive level formatter must use LvN/999"
+}
+
+$metaPath = "$helperPath.meta"
+if (-not (Test-Path -LiteralPath $metaPath -PathType Leaf)) {
+    throw "PetTransferDisplay.ts.meta is missing"
 }
 
 Write-Output "PET_TRANSFER_DISPLAY_OK"

@@ -1252,21 +1252,6 @@ shopBuy %d {
     
 }
 
-#坊市只读权威报价
-bazaarQuotePurchase %d {
-    request {
-        id 0: integer
-        num 1: integer #购买策略组数
-        policyVersion 2: string #客户端当前看到的会话策略版本
-    }
-    response {
-        errorcode 0: integer
-        quote 4: bazaarQuote
-        policyVersion 5: string
-        bazaarError 6: string
-    }
-}
-
 #坊市代金券购买
 bazaarVoucherBuy %d {
     request {

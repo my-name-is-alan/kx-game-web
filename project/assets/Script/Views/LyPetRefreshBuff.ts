@@ -7,7 +7,7 @@
 import * as fgui from "fairygui-cc";
 import { ViewLayer } from "../Kernel/ViewLayer";
 import { UtilsTool } from "../Kernel/UtilsTool";
-import { applyPetTransferStars, petBuffLevel } from "./PetTransferDisplay";
+import { applyPetTransferStars, petBuffLevel, petTransferProgress } from "./PetTransferDisplay";
 import { GameServer } from "../Kernel/GameServer";
 import { UtilsUI } from "../Kernel/UtilsUI";
 import { ViewDispatcher } from "../Kernel/ViewDispatcher";
@@ -55,6 +55,8 @@ export class LyPetRefreshBuff extends ViewLayer {
 
 
         this.initialize()
+        this.uiPanel.getChild("label_str129").text = StrVal.LYPET.STR129
+            + "  " + petTransferProgress(this.petProto.devourLevel)
         let pet = LocaleData.getPetProto(this.petProto.protoId)
         new SpinePlayer().loadSpineByModelId((spp: SpinePlayer) => {
             spp.playAnimation(VarVal.SPINE_ANI_NAME.stand, true);

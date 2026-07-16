@@ -19,6 +19,27 @@ import { AudioManager } from "../Kernel/AudioManager";
 import { PlatformAPI } from "../Kernel/PlatformAPI";
 import { LyPayExquisite, PayExquisitePage } from "./LyPayExquisite";
 
+export type BazaarPaymentKind = "original" | "money" | "stone" | "voucher" | "blocked";
+
+export interface BazaarQuoteSnapshot {
+    actualItems:number,
+    nextDailyItemCount:number,
+    moneyCost:number,
+    stoneCost:number,
+    voucherCost:number,
+}
+
+export interface BazaarPolicyItemSnapshot {
+    entryId:number,
+    enabled:boolean,
+    unitItemCount:number,
+    dailyRemainingItems:number,
+    remainingOrderItems:number,
+    paymentKind:BazaarPaymentKind,
+    nextBoundary?:number,
+    quote?:BazaarQuoteSnapshot,
+}
+
 export interface ShopBuyData {
     show_type:number, // 当前显示的折扣类型，非本身折扣类型
     buy_max:number, // 可购买
@@ -34,10 +55,10 @@ export interface ShopBuyData {
     isDynamicBazaar:boolean,
     policyVersion:string,
     unitItemCount:number,
-    currentPaymentKind:string,
+    currentPaymentKind:BazaarPaymentKind,
     remainingOrderItems:number,
     nextTierBoundary:number,
-    quote:any,
+    quote:BazaarQuoteSnapshot | null,
 }
 
 export class LyActivityShop extends ViewLayer {
@@ -245,12 +266,41 @@ export class LyActivityShop extends ViewLayer {
         });
     }
 
-    public static normalizeBazaarPaymentKind(kind:any):string {
+    public static normalizeBazaarPaymentKind(kind:any):BazaarPaymentKind {
         let value = String(kind || "").toLowerCase();
         if (value == "original" || value == "money" || value == "stone" || value == "voucher" || value == "blocked") {
             return value;
         }
         return "blocked";
+    }
+
+    private static isCompleteBazaarSnapshot(activityShop:any, shopData:any,
+        policyItem:BazaarPolicyItemSnapshot | null, id:number):boolean {
+        if (!activityShop || typeof activityShop.policyVersion != "string"
+            || activityShop.policyVersion.length == 0 || !policyItem
+            || Number(policyItem.entryId) != id || typeof policyItem.enabled != "boolean") return false;
+        let rawPaymentKind = String(policyItem.paymentKind || "");
+        if (!["original", "money", "stone", "voucher", "blocked"].includes(rawPaymentKind)) return false;
+        let paymentKind = LyActivityShop.normalizeBazaarPaymentKind(rawPaymentKind);
+        if (paymentKind != LyActivityShop.normalizeBazaarPaymentKind(shopData.currentPaymentKind)) return false;
+        let unit = Number(policyItem.unitItemCount);
+        let remaining = Number(policyItem.remainingOrderItems);
+        let shopRemaining = Number(shopData.remainingOrderItems);
+        let dailyRemaining = Number(policyItem.dailyRemainingItems);
+        let shopDailyRemaining = Number(shopData.dailyRemainingItems);
+        if (!Number.isSafeInteger(unit) || unit <= 0
+            || !Number.isSafeInteger(remaining) || remaining < 0 || remaining % unit != 0
+            || !Number.isSafeInteger(shopRemaining) || shopRemaining != remaining
+            || !Number.isSafeInteger(dailyRemaining) || dailyRemaining < 0
+            || !Number.isSafeInteger(shopDailyRemaining) || shopDailyRemaining != dailyRemaining) return false;
+        if (policyItem.enabled && paymentKind != "blocked" && remaining >= unit) {
+            let quote:any = policyItem.quote || shopData.quote;
+            if (!quote || !Number.isSafeInteger(Number(quote.actualItems)) || Number(quote.actualItems) != unit) return false;
+            for (let field of ["moneyCost", "stoneCost", "voucherCost"]) {
+                if (!Number.isSafeInteger(Number(quote[field])) || Number(quote[field]) < 0) return false;
+            }
+        }
+        return true;
     }
 
     public static formatBazaarPaymentKind(kind:string):string {
@@ -341,26 +391,21 @@ export class LyActivityShop extends ViewLayer {
             for (let i = 0; i < shopDatas.length; i++) {
                 let shopData = shopDatas[i];
                 if (shopData.id == id) {
-                    if (activityShop && activityShop.policyVersion != null
-                        && String(activityShop.policyVersion).length > 0
-                        && shopData.currentPaymentKind != null) {
+                    let policyItem:BazaarPolicyItemSnapshot | null = LyActivityShop.getBazaarPolicyItem(activityShop, id);
+                    if (LyActivityShop.isCompleteBazaarSnapshot(activityShop, shopData, policyItem, id)) {
                         isDynamicBazaar = true;
                         policyVersion = String(activityShop.policyVersion);
-                        let policyItem = LyActivityShop.getBazaarPolicyItem(activityShop, id);
-                        if (policyItem && Number(policyItem.unitItemCount) > 0) {
-                            unitItemCount = Math.max(Math.floor(Number(policyItem.unitItemCount)), 1);
-                        }
-                        currentPaymentKind = LyActivityShop.normalizeBazaarPaymentKind(shopData.currentPaymentKind);
-                        remainingOrderItems = Number(shopData.remainingOrderItems);
-                        if (!Number.isFinite(remainingOrderItems)) remainingOrderItems = 0;
-                        remainingOrderItems = Math.max(Math.floor(remainingOrderItems), 0);
-                        nextTierBoundary = Number(shopData.nextTierBoundary);
+                        unitItemCount = Number(policyItem!.unitItemCount);
+                        currentPaymentKind = policyItem!.enabled
+                            ? LyActivityShop.normalizeBazaarPaymentKind(policyItem!.paymentKind) : "blocked";
+                        remainingOrderItems = Number(policyItem!.remainingOrderItems);
+                        nextTierBoundary = Number(policyItem!.nextBoundary);
                         if (!Number.isFinite(nextTierBoundary)) nextTierBoundary = 0;
                         nextTierBoundary = Math.max(Math.floor(nextTierBoundary), 0);
-                        quote = shopData.quote || null;
+                        quote = policyItem!.quote || shopData.quote || null;
                         buy_max = Math.floor(remainingOrderItems / unitItemCount);
                         buy_remain = buy_max;
-                        dailyRemainingItems = Number(shopData.dailyRemainingItems || remainingOrderItems);
+                        dailyRemainingItems = Number(policyItem!.dailyRemainingItems);
                         normalRemainingItems = Number(shopData.normalRemainingItems || 0);
                         maxVoucherCount = Number(shopData.maxVoucherCount || 0);
                         mode = currentPaymentKind == "voucher" ? 2 : (currentPaymentKind == "blocked" ? 3 : 1);

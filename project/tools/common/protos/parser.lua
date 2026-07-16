@@ -52,6 +52,7 @@ sort(protoFiles)
 table.insert(protoFiles, 1, "characterproto")
 -- 新协议追加在全部 c2s 末尾，不打乱既有协议号（须与服务端 parser.lua 一致）
 table.insert(protoFiles, "hdhiveProto")
+table.insert(protoFiles, "bazaarProto")
 
 for _, name in ipairs(protoFiles) do
 

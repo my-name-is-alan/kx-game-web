@@ -143,6 +143,7 @@ export class LyActivityShopBuy extends ViewLayer {
         let quoteRequestSequence = 0;
         let lastRequestedQuoteCount = -1;
         let quoteReady = !isDynamicBazaar;
+        let policyMismatchLatched = false;
 
         let isPolicyVersionMismatch = (args:any):boolean => {
             if (!args) return false;
@@ -154,14 +155,15 @@ export class LyActivityShopBuy extends ViewLayer {
 
         let showBazaarRequestError = (args:any):void => {
             if (isPolicyVersionMismatch(args)) {
+                policyMismatchLatched = true;
+                quoteRequestSequence++;
+                quoteReady = false;
+                btn_buy.enabled = false;
+                label_cost.text = "配置已更新";
                 UtilsUI.showMsgTip("坊市配置已更新，请重新登录");
                 return;
             }
-            if (args && args.bazaarError) {
-                UtilsUI.showMsgTip(args.bazaarError);
-            } else {
-                UtilsUI.showMsgTip(args ? args.errorcode : -1);
-            }
+            UtilsUI.showMsgTip(formatBazaarError(args));
         }
 
         let updateRewardCount = (actualItems:number):void => {
@@ -181,6 +183,7 @@ export class LyActivityShopBuy extends ViewLayer {
 
         let requestDynamicQuote = (selectedCount:number):void => {
             if (!isDynamicBazaar) return;
+            if (policyMismatchLatched) return;
             if (currentPaymentKind == "blocked") {
                 quoteReady = false;
                 btn_buy.enabled = false;
@@ -227,6 +230,7 @@ export class LyActivityShopBuy extends ViewLayer {
             updateRewardCount(unitItemCount * slider_count.value);
             label_num.text = UtilsTool.stringFormat(StrVal.ACTIVITY_SHOPBUY.STR4, [slider_count.value]);
             if (isDynamicBazaar) {
+                if (policyMismatchLatched) return;
                 requestDynamicQuote(slider_count.value);
             } else {
                 let need = set_need * slider_count.value;
@@ -262,6 +266,7 @@ export class LyActivityShopBuy extends ViewLayer {
         onValueChange();
 
         btn_buy.onClick(() => {
+            if (policyMismatchLatched) return;
             if (params.shopItem) {
                 if (isDynamicBazaar && (!quoteReady || currentPaymentKind == "blocked")) return;
                 UtilsUI.lockWait();
@@ -280,7 +285,8 @@ export class LyActivityShopBuy extends ViewLayer {
                         UtilsUI.showItemReward({bonuseString:GameServerData.getInstance().bonusesResultsToString([args.bonusesResult])});
                         btn_back.fireClick();
                     } else {
-                        UtilsUI.showMsgTip(args.errorcode);
+                        if (isDynamicBazaar) showBazaarRequestError(args);
+                        else UtilsUI.showMsgTip(args.errorcode);
                     }
                 }, isDynamicBazaar ? "shopBuy" : (isVoucherPurchase ? "bazaarVoucherBuy" : "shopBuy"),
                 isDynamicBazaar ? {
@@ -302,4 +308,19 @@ export class LyActivityShopBuy extends ViewLayer {
     public getIsViewMask():boolean {
         return false;
     }
+}
+
+const BAZAAR_ERROR_MESSAGES:Record<string, string> = {
+    BAZAAR_DISABLED: "该商品当前不可购买",
+    BAZAAR_BLOCKED: "该商品已进入禁止购买阶梯",
+    BAZAAR_PER_ORDER_LIMIT: "超过本次购买上限",
+    BAZAAR_DAILY_LIMIT: "超过今日购买上限",
+    BAZAAR_POLICY_INVALID: "坊市配置异常，请稍后重试",
+    PARAM_ERROR: "购买数量无效",
+};
+
+function formatBazaarError(args:any):string | number {
+    let code = args && typeof args.bazaarError == "string" ? args.bazaarError : "";
+    return BAZAAR_ERROR_MESSAGES[code]
+        || (args && Number.isFinite(Number(args.errorcode)) ? Number(args.errorcode) : -1);
 }

@@ -897,6 +897,7 @@ export class LyPet extends ViewLayer {
 
                 obj.getChild("group_isLock").visible = val.isLock == 1
                 obj.getChild("label_level").text = UtilsTool.stringFormat(StrVal.LYPET.STR9, [val.level])
+                    + "  " + petTransferProgress(val.devourLevel)
                 let img_icon: fgui.GLoader = obj.getChild("img_icon")
                 let pet = LocaleData.getPetProto(val.protoId)
                 let showInfo = LocaleData.getModelShowInfo(String(pet.modelId));
