@@ -274,8 +274,9 @@ export class LyPet extends ViewLayer {
         btn_refreshBuff.text = StrVal.LYPET.STR15
         btn_refreshBuff.onClick(() => {
             let data = this.petAll[this.petPosition]
-            if (data.devourLevel < 5) {
-                UtilsUI.showMsgTip(UtilsTool.stringFormat(StrVal.LYPET.STR16, [5 - data.devourLevel]))
+            const washProgress = Number(data.tier || 0) + Number(data.devourLevel || 0)
+            if (washProgress < 4) {
+                UtilsUI.showMsgTip(UtilsTool.stringFormat(StrVal.LYPET.STR16, [4 - washProgress]))
             } else {
                 ViewDispatcher.pushViewEvent(null, ViewDispatcher.EVENT_PUSH, LyPetRefreshBuff, 0, { petProto: data, petPosition: this.petPosition });
             }

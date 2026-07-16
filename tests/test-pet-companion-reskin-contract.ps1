@@ -47,6 +47,13 @@ Assert-Equal (($groups.costID) -join "|") "1,120012,5|1,120012,10;1,120013,15|1,
 $errorCodes = Get-Content -Raw (Join-Path $root "project/assets/Script/Values/PErrCode.ts")
 Assert-Matches $errorCodes 'pet_clear_skill_not_level\s*=\s*775' "client level error code must match the server"
 
+$petView = Get-Content -Raw (Join-Path $root "project/assets/Script/Views/LyPet.ts")
+Assert-Matches $petView 'const\s+washProgress\s*=\s*Number\(data\.tier\s*\|\|\s*0\)\s*\+\s*Number\(data\.devourLevel\s*\|\|\s*0\)' "wash entry must use the same tier plus transfer progress rule as the server"
+Assert-Matches $petView 'if\s*\(washProgress\s*<\s*4\)' "wash entry must unlock at combined progress four"
+if ($petView -match 'data\.devourLevel\s*<\s*5') {
+    throw "client still uses the obsolete devourLevel-only wash threshold"
+}
+
 $gameServerData = Get-Content -Raw (Join-Path $root "project/assets/Script/Kernel/GameServerData.ts")
 $exploreHandler = [regex]::Match($gameServerData, 'public on_explore\(args: any\): void\{(?s:.*?)\r?\n\s*\}\r?\n\s*public on_addExploreStamina').Value
 if ([string]::IsNullOrEmpty($exploreHandler)) {
