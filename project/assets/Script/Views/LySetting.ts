@@ -67,7 +67,7 @@ export class LySetting extends ViewLayer {
 
         this.img_avatarBorder = uiPanel.getChild("img_avatarBorder")
         let label_uid: fgui.GLabel = uiPanel.getChild("label_uid")
-        label_uid.text = UtilsTool.stringFormat(StrVal.LYSETTING.STR2, [fullInfo.base.uid])
+        label_uid.text = UtilsTool.stringFormat(StrVal.LYSETTING.STR2, [fullInfo.base.guid])
 
         let label_server: fgui.GLabel = uiPanel.getChild("label_server")
         label_server.text = UtilsTool.stringFormat(StrVal.LYSETTING.STR25, [GameServer.getLoginParams().serverItem.name])
@@ -102,7 +102,7 @@ export class LySetting extends ViewLayer {
                 } else {
                     UtilsUI.showMsgTip(StrVal.LYSETTING.STR32);
                 }
-            }, String(fullInfo.base.uid))
+            }, String(fullInfo.base.guid))
         })
 
         let btn_langyacifu: fgui.GButton = uiPanel.getChild("btn_langyacifu")

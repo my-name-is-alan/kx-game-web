@@ -369,6 +369,7 @@ cdkey %d {
 	response {
 		errorcode 0 : integer
         bonusesResult 1:bonusesResult
+		replayed 2:integer # 1 表示幂等重放，客户端不得再次入账
 	}
 }
 

@@ -972,7 +972,9 @@ export class GameServerData {
 		ViewDispatcher.pushViewEvent(null, ViewDispatcher.EVENT_UPDATE, LySetting, 0, {});
 	}
 	public on_cdkey(args: any): void{
-		this.insertbonusesResult(args.bonusesResult);
+		if (args.replayed !== 1 && args.bonusesResult) {
+			this.insertbonusesResult(args.bonusesResult);
+		}
 	}
 	
 	public on_levelUpAppearance(args: any, sarg: any): void {

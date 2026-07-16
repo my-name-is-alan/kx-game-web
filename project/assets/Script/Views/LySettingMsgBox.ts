@@ -90,18 +90,38 @@ export class LySettingMsgBox extends ViewLayer {
             label_code.promptText = StrVal.LYSETTING.STR22;
             let btn_code: fgui.GButton = uiPanel.getChild("btn_code")
             btn_code.text = StrVal.LYSETTING.STR21
+            let requestInFlight: boolean = false
+            let finishRequest = () => {
+                requestInFlight = false
+                btn_code.touchable = true
+                UtilsUI.unlockWait();
+            }
             btn_code.onClick(() => {
-                let cdkey: string = label_code.text
+                if (requestInFlight) { return; }
+                let cdkey: string = (label_code.text || "").trim()
+                if (!cdkey) {
+                    UtilsUI.showMsgTip(StrVal.LYSETTING.STR22);
+                    return;
+                }
+                requestInFlight = true
+                btn_code.touchable = false
                 UtilsUI.lockWait();
-                GameServer.getInstance().send((args: any) => {
-                    UtilsUI.unlockWait();
-                    if (args.errorcode == 0) {
-                        UtilsUI.showItemReward({ bonuseString: GameServerData.getInstance().bonusesResultsToString([args.bonusesResult]) });
-                        ViewDispatcher.pushViewEvent(null, ViewDispatcher.EVENT_DESTROY, LySettingMsgBox, 0, null);
-                    } else {
-                        UtilsUI.showMsgTip(args.errorcode);
-                    }
-                }, "cdkey", { cdkey: cdkey });
+                try {
+                    GameServer.getInstance().send((args: any) => {
+                        finishRequest();
+                        if (args.errorcode == 0) {
+                            if (args.replayed !== 1 && args.bonusesResult) {
+                                UtilsUI.showItemReward({ bonuseString: GameServerData.getInstance().bonusesResultsToString([args.bonusesResult]) });
+                            }
+                            ViewDispatcher.pushViewEvent(null, ViewDispatcher.EVENT_DESTROY, LySettingMsgBox, 0, null);
+                        } else {
+                            UtilsUI.showMsgTip(args.errorcode);
+                        }
+                    }, "cdkey", { cdkey: cdkey });
+                } catch (error) {
+                    finishRequest();
+                    UtilsUI.showMsgTip(String(error));
+                }
             })
         } else if (params.type == 4) {
             group_code.visible = true
