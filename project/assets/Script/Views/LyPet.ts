@@ -29,6 +29,7 @@ import { AudioManager } from "../Kernel/AudioManager";
 import { LyPayExquisite, PayExquisitePage } from "./LyPayExquisite";
 import { LyPetRecruitpet } from "./LyPetRecruitpet";
 import { LyPayUniteWeekCard } from "./LyPayUniteWeekCard";
+import { applyPetTransferStars, petTransferProgress } from "./PetTransferDisplay";
 
 export class LyPet extends ViewLayer {
     public constructor() {
@@ -709,27 +710,8 @@ export class LyPet extends ViewLayer {
                 starArr.push(starItem)
             }
             let group_starAll: fgui.GGroup = this.uiPanel.getChild("group_starAll")
-            let iiii = petData.devourLevel
-            if (iiii >= 1) {
-                let stagNum: number = Math.floor(iiii / 5)
-                let starNum: number = iiii % 5
-                for (let i = 0; i < starArr.length; i++) {
-                    let element = starArr[i];
-                    element.visible = true
-                    if (i < starNum) {
-                        element.url = UtilsTool.stringFormat("ui://LyPet/star_{0}", [stagNum]);
-                    } else {
-                        if (stagNum > 0) {
-                            element.url = UtilsTool.stringFormat("ui://LyPet/star_{0}", [stagNum - 1]);
-                        } else {
-                            element.visible = false
-                        }
-                    }
-                }
-                group_starAll.visible = true
-            } else {
-                group_starAll.visible = false
-            }
+            applyPetTransferStars(starArr, petData.devourLevel)
+            group_starAll.visible = petData.devourLevel >= 1
             if (this.oldPet != pet.modelId) {
                 new SpinePlayer().loadSpineByModelId((spp: SpinePlayer) => {
                     spp.playAnimation(VarVal.SPINE_ANI_NAME.stand, true);
@@ -742,6 +724,7 @@ export class LyPet extends ViewLayer {
             } else {
                 label_petLevel.text = UtilsTool.stringFormat(StrVal.LYPET.STR9, [petData.level])
             }
+            label_petLevel.text += "  " + petTransferProgress(petData.devourLevel)
             let label_petAttr1: fgui.GLabel = this.uiPanel.getChild("label_petAttr1")
             label_petAttr1.text = UtilsTool.stringFormat(StrVal.LYPET.STR1, [petData.healthPercentage])
             let label_petAttr2: fgui.GLabel = this.uiPanel.getChild("label_petAttr2")
@@ -923,22 +906,7 @@ export class LyPet extends ViewLayer {
                     let starItem: fgui.GLoader = obj.getChild("img_star" + i)
                     starArr.push(starItem)
                 }
-                let iiii = val.devourLevel
-                let stagNum: number = Math.floor(iiii / 5)
-                let starNum: number = iiii % 5
-                for (let i = 0; i < starArr.length; i++) {
-                    let element = starArr[i];
-                    element.visible = true
-                    if (i < starNum) {
-                        element.url = UtilsTool.stringFormat("ui://LyPet/starSmall_{0}", [stagNum]);
-                    } else {
-                        if (stagNum > 0) {
-                            element.url = UtilsTool.stringFormat("ui://LyPet/starSmall_{0}", [stagNum - 1]);
-                        } else {
-                            element.visible = false
-                        }
-                    }
-                }
+                applyPetTransferStars(starArr, val.devourLevel, "starSmall_")
             } else if (index < this.fullInfo.base.petBackpackCapacity) {
                 c1.selectedIndex = 1
             } else if (index == this.fullInfo.base.petBackpackCapacity) {

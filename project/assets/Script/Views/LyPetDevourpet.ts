@@ -17,6 +17,7 @@ import { LyPet } from "./LyPet";
 import { LyPetTisp } from "./LyPetTisp";
 import { VarVal } from "../Values/VarVal";
 import { SpinePlayer } from "../Kernel/SpinePlayer";
+import { applyPetTransferStars } from "./PetTransferDisplay";
 
 export class LyPetDevourpet extends ViewLayer {
     public constructor() {
@@ -268,22 +269,7 @@ export class LyPetDevourpet extends ViewLayer {
             let starItem: fgui.GLoader = group_star.getChild("img_star" + i)
             starArr.push(starItem)
         }
-        let iiii = petData.devourLevel
-        let stagNum: number = Math.floor(iiii / 5)
-        let starNum: number = iiii % 5
-        for (let i = 0; i < starArr.length; i++) {
-            let element = starArr[i];
-            element.visible = true
-            if (i < starNum) {
-                element.url = UtilsTool.stringFormat("ui://LyPet/star_{0}", [stagNum]);
-            } else {
-                if (stagNum > 0) {
-                    element.url = UtilsTool.stringFormat("ui://LyPet/star_{0}", [stagNum - 1]);
-                } else {
-                    element.visible = false
-                }
-            }
-        }
+        applyPetTransferStars(starArr, petData.devourLevel)
     }
 
 

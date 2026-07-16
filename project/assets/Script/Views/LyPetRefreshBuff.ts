@@ -7,6 +7,7 @@
 import * as fgui from "fairygui-cc";
 import { ViewLayer } from "../Kernel/ViewLayer";
 import { UtilsTool } from "../Kernel/UtilsTool";
+import { applyPetTransferStars, petBuffLevel } from "./PetTransferDisplay";
 import { GameServer } from "../Kernel/GameServer";
 import { UtilsUI } from "../Kernel/UtilsUI";
 import { ViewDispatcher } from "../Kernel/ViewDispatcher";
@@ -65,22 +66,7 @@ export class LyPetRefreshBuff extends ViewLayer {
             starArr.push(starItem)
         }
 
-        let iiii = this.petProto.devourLevel
-        let stagNum: number = Math.floor(iiii / 5)
-        let starNum: number = iiii % 5
-        for (let i = 0; i < starArr.length; i++) {
-            let element = starArr[i];
-            element.visible = true
-            if (i < starNum) {
-                element.url = UtilsTool.stringFormat("ui://LyPet/star_{0}", [stagNum]);
-            } else {
-                if (stagNum > 0) {
-                    element.url = UtilsTool.stringFormat("ui://LyPet/star_{0}", [stagNum - 1]);
-                } else {
-                    element.visible = false
-                }
-            }
-        }
+        applyPetTransferStars(starArr, this.petProto.devourLevel)
     }
     private lockArr: number[] = [0, 0, 0, 0]
     private initialize() {
@@ -272,7 +258,7 @@ export class LyPetRefreshBuff extends ViewLayer {
 
             title.strokeColor = colorStr
             title.text = buff.buffName
-            label_level.text = item1.buffLevel
+            label_level.text = petBuffLevel(item1.buffLevel)
             img_quality.url = UtilsTool.stringFormat("ui://CCommon/frame_fangkuaidi{0}", [buff.buffQuality]);
             let group_level: fgui.GGraph = group_buff.getChild("group_level")
             group_level.visible = true

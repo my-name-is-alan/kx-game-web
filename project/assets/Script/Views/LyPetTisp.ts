@@ -13,6 +13,7 @@ import { StrVal } from "../Values/StrVal";
 import { LocaleData } from "../Kernel/LocaleData";
 import { VarVal } from "../Values/VarVal";
 import { SpinePlayer } from "../Kernel/SpinePlayer";
+import { applyPetTransferStars } from "./PetTransferDisplay";
 
 export class LyPetTisp extends ViewLayer {
     public constructor() {
@@ -122,44 +123,14 @@ export class LyPetTisp extends ViewLayer {
                 let starItem: fgui.GLoader = group_starOld.getChild("img_star" + i)
                 starOldArr.push(starItem)
             }
-            let oldIndex = _params.oldPet.devourLevel
-            let stagOldNum: number = Math.floor(oldIndex / 5)
-            let starOldNum: number = oldIndex % 5
-            for (let i = 0; i < starOldArr.length; i++) {
-                let element = starOldArr[i];
-                element.visible = true
-                if (i < starOldNum) {
-                    element.url = UtilsTool.stringFormat("ui://LyPet/star_{0}", [stagOldNum]);
-                } else {
-                    if (stagOldNum > 0) {
-                        element.url = UtilsTool.stringFormat("ui://LyPet/star_{0}", [stagOldNum - 1]);
-                    } else {
-                        element.visible = false
-                    }
-                }
-            }
+            applyPetTransferStars(starOldArr, _params.oldPet.devourLevel)
             let group_starNew: fgui.GComponent = this.uiPanel.getChild("group_starNew")
             let starNewArr: fgui.GLoader[] = []
             for (let i = 1; i < 6; i++) {
                 let starItem: fgui.GLoader = group_starNew.getChild("img_star" + i)
                 starNewArr.push(starItem)
             }
-            let newIndex = _params.pet.devourLevel
-            let stagNewNum: number = Math.floor(newIndex / 5)
-            let starNewNum: number = newIndex % 5
-            for (let i = 0; i < starNewArr.length; i++) {
-                let element = starNewArr[i];
-                element.visible = true
-                if (i < starNewNum) {
-                    element.url = UtilsTool.stringFormat("ui://LyPet/star_{0}", [stagNewNum]);
-                } else {
-                    if (stagNewNum > 0) {
-                        element.url = UtilsTool.stringFormat("ui://LyPet/star_{0}", [stagNewNum - 1]);
-                    } else {
-                        element.visible = false
-                    }
-                }
-            }
+            applyPetTransferStars(starNewArr, _params.pet.devourLevel)
 
         } else if (_params.type == 3) {
             let group_levelpet: fgui.GGroup = this.uiPanel.getChild("group_levelpet")

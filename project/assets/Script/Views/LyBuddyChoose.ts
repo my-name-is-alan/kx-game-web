@@ -17,6 +17,7 @@ import { Color, color, math } from "cc";
 import { GameServer } from "../Kernel/GameServer";
 import { GuideManager } from "../Kernel/GuideManager";
 import { LocaleUser } from "../Kernel/LocaleUser";
+import { applyPetTransferStars } from "./PetTransferDisplay";
 
 export class LyBuddyChoose extends ViewLayer {
     public constructor() {
@@ -165,26 +166,7 @@ export class LyBuddyChoose extends ViewLayer {
                      let starItem: fgui.GLoader = child.getChild("img_star" + i)
                      starArr.push(starItem)
                  }
-                 let iiii = petData.own.devourLevel
-                 if (iiii >= 1) {
-                     let stagNum: number = Math.floor(iiii / 5)
-                     let starNum: number = iiii % 5
-                     for (let i = 0; i < starArr.length; i++) {
-                         let element = starArr[i];
-                         element.visible = true
-                         if (i < starNum) {
-                             element.url = UtilsTool.stringFormat("ui://LyPet/star_{0}", [stagNum]);
-                         } else {
-                             if (stagNum > 0) {
-                                 element.url = UtilsTool.stringFormat("ui://LyPet/star_{0}", [stagNum - 1]);
-                             } else {
-                                 element.visible = false
-                             }
-                         }
-                     }
-                 } else {
-                     
-                 }
+                 applyPetTransferStars(starArr, petData.own.devourLevel)
                  group_noOwn.visible = false
                  img_up.visible = petData.isUp
                  if (petData.isUp) {
