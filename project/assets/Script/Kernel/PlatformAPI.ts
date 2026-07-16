@@ -134,43 +134,48 @@ export class PlatformAPI {
 
     // 固定默认口令已移除，生产环境不允许使用默认密码
     private static accessToken:string = null;
-    private static hdhiveAuthEpoch:number = 0;
+    private static hdhiveAuthGeneration:number = 0;
     private static hdhiveSessionGateEpoch:number = 0;
     private static hdhiveSessionGate:HdhiveSessionGate<any> = new HdhiveSessionGate<any>();
     private static hdhiveSessionTransport:HdhiveSessionTransportQueue = new HdhiveSessionTransportQueue();
     private static hdhiveRefreshTimer:number = null;
     private static loggingOut:boolean = false;
 
-    private static replaceAccessToken(accessToken:string):void {
-        PlatformAPI.accessToken = accessToken || null;
+    private static replaceAccessToken(accessToken:string, generationAlreadyAdvanced?:number):void {
+        let nextAccessToken = accessToken || null;
+        if (PlatformAPI.accessToken !== nextAccessToken
+            && generationAlreadyAdvanced !== PlatformAPI.hdhiveAuthGeneration) {
+            PlatformAPI.advanceHdhiveAuthGeneration();
+        }
+        PlatformAPI.accessToken = nextAccessToken;
     }
 
-    private static advanceHdhiveAuthEpoch():number {
-        PlatformAPI.hdhiveAuthEpoch++;
-        PlatformAPI.hdhiveSessionGateEpoch = PlatformAPI.hdhiveAuthEpoch;
+    private static advanceHdhiveAuthGeneration():number {
+        PlatformAPI.hdhiveAuthGeneration++;
+        PlatformAPI.hdhiveSessionGateEpoch = PlatformAPI.hdhiveAuthGeneration;
         PlatformAPI.hdhiveSessionGate = new HdhiveSessionGate<any>();
-        return PlatformAPI.hdhiveAuthEpoch;
+        return PlatformAPI.hdhiveAuthGeneration;
     }
 
     private static beginHdhiveAuthAttempt():number {
         PlatformAPI.cancelHdhiveRefreshTimer();
-        return PlatformAPI.advanceHdhiveAuthEpoch();
+        return PlatformAPI.advanceHdhiveAuthGeneration();
     }
 
-    private static isHdhiveAuthEpochCurrent(epoch:number):boolean {
-        return epoch === PlatformAPI.hdhiveAuthEpoch;
+    private static isHdhiveAuthGenerationCurrent(generation:number):boolean {
+        return generation === PlatformAPI.hdhiveAuthGeneration;
     }
 
-    private static captureHdhiveAuthContext():{ epoch:number, token:string } {
+    private static captureHdhiveAuthContext():{ generation:number, token:string } {
         return {
-            epoch: PlatformAPI.hdhiveAuthEpoch,
+            generation: PlatformAPI.hdhiveAuthGeneration,
             token: PlatformAPI.accessToken,
         };
     }
 
-    private static isHdhiveAuthContextCurrent(context:{ epoch:number, token:string }):boolean {
+    private static isHdhiveAuthContextCurrent(context:{ generation:number, token:string }):boolean {
         return !!context
-            && context.epoch === PlatformAPI.hdhiveAuthEpoch
+            && context.generation === PlatformAPI.hdhiveAuthGeneration
             && context.token === PlatformAPI.accessToken;
     }
 
@@ -180,8 +185,8 @@ export class PlatformAPI {
 
     public static clearAccessToken():void {
         PlatformAPI.cancelHdhiveRefreshTimer();
-        PlatformAPI.advanceHdhiveAuthEpoch();
-        PlatformAPI.replaceAccessToken(null);
+        let generation = PlatformAPI.advanceHdhiveAuthGeneration();
+        PlatformAPI.replaceAccessToken(null, generation);
         PlatformAPI.hdhiveBoundCache = { bound: false };
         PlatformAPI.setHdhivePointsCache(0);
     }
@@ -198,7 +203,7 @@ export class PlatformAPI {
     }
 
     private static applyHdhiveSession(session:any, expectedEpoch:number):string {
-        if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(expectedEpoch)) {
+        if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(expectedEpoch)) {
             return "HDHive session attempt is no longer current";
         }
         if (!session || !session.accessToken) {
@@ -212,7 +217,7 @@ export class PlatformAPI {
             return "invalid HDHive session: invalid expiresIn";
         }
 
-        PlatformAPI.replaceAccessToken(String(session.accessToken));
+        PlatformAPI.replaceAccessToken(String(session.accessToken), expectedEpoch);
         PlatformAPI.userInfo = {
             userId: session.userId,
             userPass: "",
@@ -228,12 +233,12 @@ export class PlatformAPI {
 
     private static scheduleHdhiveRefresh(expiresInSeconds:number, expectedEpoch:number):void {
         PlatformAPI.cancelHdhiveRefreshTimer();
-        if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(expectedEpoch)) {
+        if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(expectedEpoch)) {
             return;
         }
         PlatformAPI.hdhiveRefreshTimer = ScriptTimer.setTimeout(() => {
             PlatformAPI.hdhiveRefreshTimer = null;
-            if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(expectedEpoch)) {
+            if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(expectedEpoch)) {
                 return;
             }
             let authContext = PlatformAPI.captureHdhiveAuthContext();
@@ -252,19 +257,19 @@ export class PlatformAPI {
             callback(null, "HDHive session refresh blocked during logout");
             return;
         }
-        let requestEpoch = PlatformAPI.hdhiveAuthEpoch;
+        let requestEpoch = PlatformAPI.hdhiveAuthGeneration;
         let gate = PlatformAPI.hdhiveSessionGate;
         if (PlatformAPI.hdhiveSessionGateEpoch != requestEpoch) {
             PlatformAPI.hdhiveSessionGateEpoch = requestEpoch;
             gate = PlatformAPI.hdhiveSessionGate = new HdhiveSessionGate<any>();
         }
         gate.run((done:HdhiveSessionDone<any>) => {
-            if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(requestEpoch)) {
+            if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(requestEpoch)) {
                 done(null, "HDHive session refresh attempt is no longer current");
                 return;
             }
             PlatformAPI.hdhiveSessionTransport.enqueue((releaseTransport:() => void) => {
-                if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(requestEpoch)) {
+                if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(requestEpoch)) {
                     releaseTransport();
                     done(null, "HDHive session refresh attempt is no longer current");
                     return;
@@ -279,7 +284,7 @@ export class PlatformAPI {
                     done(value, error || "");
                 };
                 let sendRefresh = (attempt:number):void => {
-                    if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(requestEpoch)) {
+                    if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(requestEpoch)) {
                         complete(null, "HDHive session refresh attempt is no longer current");
                         return;
                     }
@@ -304,7 +309,7 @@ export class PlatformAPI {
                                     return;
                                 }
                                 let session:any = typeof args.data == "string" ? JSON.parse(args.data) : args.data;
-                                if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(requestEpoch)) {
+                                if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(requestEpoch)) {
                                     complete(null, "HDHive session refresh attempt is no longer current");
                                     return;
                                 }
@@ -325,7 +330,7 @@ export class PlatformAPI {
                 sendRefresh(0);
             });
         }, (session:any, error:string) => {
-            if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(requestEpoch)) {
+            if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(requestEpoch)) {
                 callback(null, error || "HDHive session refresh attempt is no longer current");
                 return;
             }
@@ -334,20 +339,20 @@ export class PlatformAPI {
     }
 
     private static restoreHdhiveSessionThenServerList(callback:Function, isFirst:boolean, expectedEpoch:number):void {
-        if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(expectedEpoch)) {
+        if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(expectedEpoch)) {
             return;
         }
         UtilsUI.lockWait();
         PlatformAPI.refreshHdhiveGameSession((session:any, error:string) => {
             UtilsUI.unlockWait();
-            if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(expectedEpoch)) {
+            if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(expectedEpoch)) {
                 return;
             }
             if (error || !session) {
                 PlatformAPI.userInfo = null;
                 PlatformAPI.serverInfo = null;
                 PlatformAPI.clearAccessToken();
-                PlatformAPI.showLoginAccountUI(callback, isFirst, PlatformAPI.hdhiveAuthEpoch);
+                PlatformAPI.showLoginAccountUI(callback, isFirst, PlatformAPI.hdhiveAuthGeneration);
                 return;
             }
             PlatformAPI.getGameServerList(callback);
@@ -758,7 +763,7 @@ export class PlatformAPI {
             callback({errmsg: StrVal.PLATFORM.STR104});
             return;
         }
-        let requestEpoch = PlatformAPI.hdhiveAuthEpoch;
+        let requestEpoch = PlatformAPI.hdhiveAuthGeneration;
         let requestUserId = PlatformAPI.userInfo.userId;
         let requestAccessToken = PlatformAPI.accessToken;
         if (isUseCurr && PlatformAPI.serverInfo) {
@@ -771,7 +776,7 @@ export class PlatformAPI {
                 if (!isSkipLockWait) {
                     UtilsUI.unlockWait()
                 };
-                if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(requestEpoch)) {
+                if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(requestEpoch)) {
                     return;
                 }
                 if (response) {
@@ -819,7 +824,7 @@ export class PlatformAPI {
             return;
         }
         let requestEpoch = expectedEpoch == null ? PlatformAPI.beginHdhiveAuthAttempt() : expectedEpoch;
-        if (!PlatformAPI.isHdhiveAuthEpochCurrent(requestEpoch)) {
+        if (!PlatformAPI.isHdhiveAuthGenerationCurrent(requestEpoch)) {
             return;
         }
         if (!code || code.length == 0) {
@@ -834,7 +839,7 @@ export class PlatformAPI {
         }
         UtilsUI.lockWait();
         PlatformAPI.hdhiveSessionTransport.enqueue((releaseTransport:() => void) => {
-            if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(requestEpoch)) {
+            if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(requestEpoch)) {
                 releaseTransport();
                 UtilsUI.unlockWait();
                 return;
@@ -850,7 +855,7 @@ export class PlatformAPI {
                 HttpClient.once((response:any, error:string) => {
                     finishRequest();
                     UtilsUI.unlockWait();
-                    if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(requestEpoch)) {
+                    if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(requestEpoch)) {
                         return;
                     }
                     if (!response) {
@@ -883,7 +888,7 @@ export class PlatformAPI {
             } catch (requestError) {
                 finishRequest();
                 UtilsUI.unlockWait();
-                if (PlatformAPI.isHdhiveAuthEpochCurrent(requestEpoch) && !PlatformAPI.loggingOut) {
+                if (PlatformAPI.isHdhiveAuthGenerationCurrent(requestEpoch) && !PlatformAPI.loggingOut) {
                     callback({errmsg: requestError instanceof Error ? requestError.message : StrVal.PLATFORM.STR101});
                 }
             }
@@ -1031,11 +1036,11 @@ export class PlatformAPI {
      * 使用游戏内账号登录界面。
      */
 	private static showLoginAccountUI(callback:Function, isFirst:boolean, expectedEpoch:number):void {
-		if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(expectedEpoch)) {
+		if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(expectedEpoch)) {
 			return;
 		}
 		ViewDispatcher.pushViewEvent(null, ViewDispatcher.EVENT_PUSH, LyLoginAccount, 0, {callback:(data:any) => {
-			if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthEpochCurrent(expectedEpoch)) {
+			if (PlatformAPI.loggingOut || !PlatformAPI.isHdhiveAuthGenerationCurrent(expectedEpoch)) {
 				return;
 			}
 			if (data.errmsg) {
@@ -1109,16 +1114,16 @@ export class PlatformAPI {
         }
         PlatformAPI.loggingOut = true;
         PlatformAPI.cancelHdhiveRefreshTimer();
-        PlatformAPI.advanceHdhiveAuthEpoch();
+        PlatformAPI.advanceHdhiveAuthGeneration();
 
         let continueWithNativeLogout = (serverLogoutConfirmed:boolean):void => {
             PlatformAPI.userInfo = null;
             PlatformAPI.serverInfo = null;
             PlatformAPI.clearAccessToken();
-            let nativeEpoch = PlatformAPI.hdhiveAuthEpoch;
+            let nativeEpoch = PlatformAPI.hdhiveAuthGeneration;
 
             PlatformAPI.callNative((args:any) => {
-                if (!PlatformAPI.isHdhiveAuthEpochCurrent(nativeEpoch)) {
+                if (!PlatformAPI.isHdhiveAuthGenerationCurrent(nativeEpoch)) {
                     return;
                 }
                 args = args || {};
