@@ -1,5 +1,6 @@
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
+$OutputEncoding = New-Object System.Text.UTF8Encoding($false)
 
 $root = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
 $dataRoot = Join-Path $root "project/assets/resources/data"
