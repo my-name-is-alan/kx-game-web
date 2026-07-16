@@ -54,4 +54,9 @@ if ($tips -notmatch 'petBuffValue\(' -or $tips -match 'buffParams\[buffData\.buf
     throw "passive effect tips do not support levels above ten"
 }
 
+$utilsUI = Get-Content -Raw (Join-Path $root "project/assets/Script/Kernel/UtilsUI.ts")
+if ($utilsUI -notmatch 'petBuffLevel\(buffData\.buffLevel\)') {
+    throw "shared pet passive renderer does not display the 999 level limit"
+}
+
 Write-Output "PET_TRANSFER_DISPLAY_OK"
