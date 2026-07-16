@@ -56,11 +56,17 @@ foreach ($dropId in @("300305", "300306")) {
 
 $strVal = Get-Content -Raw (Join-Path $root "project/assets/Script/Values/StrVal.ts")
 $guideManager = Get-Content -Raw (Join-Path $root "project/assets/Script/Kernel/GuideManager.ts")
+$guideGetItem = Get-Content -Raw (Join-Path $root "project/assets/Script/Views/LyGuideGetItem.ts")
 if ($strVal -notmatch 'GUIDE_TYPE\.ACTIVITY_SHOP.*"商铺"' -or $strVal -notmatch 'GUIDE_TYPE\.INVASION.*"魔教来袭"') {
     throw "client acquisition labels are missing"
 }
 if ($guideManager -notmatch 'guideType == VarVal\.GUIDE_TYPE\.INVASION') {
     throw "client Invasion guide route is missing"
+}
+if ($guideGetItem -notmatch 'getType == VarVal\.GUIDE_TYPE\.ACTIVITY_SHOP' -or
+    $guideGetItem -notmatch 'shopShows\[i\]\.itemId == equalId' -or
+    $guideGetItem -notmatch 'showLyActivityShopBuy\(shopItem') {
+    throw "client bazaar acquisition route cannot open the matching material purchase"
 }
 
 Write-Output "PET_REFRESH_ACQUISITION_CLIENT_OK"
