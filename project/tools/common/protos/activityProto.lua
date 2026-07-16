@@ -995,6 +995,58 @@ local types = [[
     curPhase            1: integer         # 当前阶段
 }
 
+.bazaarTier {
+    from 0: integer
+    to 1: integer
+    paymentKind 2: string
+    costPerGroup 3: integer
+}
+
+.bazaarQuoteSegment {
+    from 0: integer
+    to 1: integer
+    paymentKind 2: string
+    itemCount 3: integer
+    groupCount 4: integer
+    costPerGroup 5: integer
+    cost 6: integer
+}
+
+.bazaarQuote {
+    actualItems 0: integer
+    nextDailyItemCount 1: integer
+    segments 2: *bazaarQuoteSegment
+    moneyCost 3: integer
+    stoneCost 4: integer
+    voucherCost 5: integer
+}
+
+.bazaarItemPolicy {
+    entryId 0: integer
+    enabled 1: boolean
+    unitItemCount 2: integer
+    perOrderLimit 3: integer
+    dailyItemLimit 4: integer
+    resetDaily 5: boolean
+    dailyRemainingItems 6: integer
+    currentTier 7: bazaarTier
+    nextBoundary 8: integer
+    remainingOrderItems 9: integer
+    paymentKind 10: string
+    quote 11: bazaarQuote
+}
+
+.bazaarState {
+    mode 0: integer
+    normalRemainingItems 1: integer
+    dailyRemainingItems 2: integer
+    maxVoucherCount 3: integer
+    currentPaymentKind 4: string
+    nextTierBoundary 5: integer
+    remainingOrderItems 6: integer
+    quote 7: bazaarQuote
+}
+
 #坊市数据
 .shopList {
     id 0: integer                          # id
@@ -1014,11 +1066,17 @@ local types = [[
     normalRemainingItems 14: integer       # 普通阶段剩余实际物品数
     dailyRemainingItems 15: integer        # 当日剩余实际物品数
     maxVoucherCount 16: integer            # 当前最多可使用代金券数
+    currentPaymentKind 17: string          # 当前权威支付方式
+    nextTierBoundary 18: integer           # 下一阶梯累计物品边界
+    remainingOrderItems 19: integer        # 当前单可购买实际物品数
+    quote 20: bazaarQuote                  # 一个策略单位的服务端预览报价
 }
 
 #坊市数据
 .activityShop {
     shopList  0: *shopList
+    policyVersion 1: string
+    policyItems 2: *bazaarItemPolicy(entryId)
 }
 
 ]]
@@ -1180,24 +1238,49 @@ shopBuy %d {
     request {
         id 0 : integer #购买ID 102活动中shop节点的id
         num 1:integer #购买数量
+        policyVersion 2: string #客户端当前看到的会话策略版本
     }
 
     response {
         errorcode 0 : integer
         bonusesResult 2:bonusesResult 
+        bazaarState 3: bazaarState
+        quote 4: bazaarQuote
+        policyVersion 5: string
+        bazaarError 6: string
     }
     
+}
+
+#坊市只读权威报价
+bazaarQuotePurchase %d {
+    request {
+        id 0: integer
+        num 1: integer #购买策略组数
+        policyVersion 2: string #客户端当前看到的会话策略版本
+    }
+    response {
+        errorcode 0: integer
+        quote 4: bazaarQuote
+        policyVersion 5: string
+        bazaarError 6: string
+    }
 }
 
 #坊市代金券购买
 bazaarVoucherBuy %d {
     request {
         id 0 : integer #活动102的shop条目ID
-        num 1: integer #代金券张数，每张固定兑换100个实际物品
+        num 1: integer #购买策略组数，实际物品数由服务端策略决定
+        policyVersion 2: string #客户端当前看到的会话策略版本
     }
     response {
         errorcode 0 : integer
         bonusesResult 2:bonusesResult
+        bazaarState 3: bazaarState
+        quote 4: bazaarQuote
+        policyVersion 5: string
+        bazaarError 6: string
     }
 }
 

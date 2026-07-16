@@ -31,6 +31,13 @@ export interface ShopBuyData {
     normalRemainingItems:number,
     dailyRemainingItems:number,
     maxVoucherCount:number,
+    isDynamicBazaar:boolean,
+    policyVersion:string,
+    unitItemCount:number,
+    currentPaymentKind:string,
+    remainingOrderItems:number,
+    nextTierBoundary:number,
+    quote:any,
 }
 
 export class LyActivityShop extends ViewLayer {
@@ -98,13 +105,17 @@ export class LyActivityShop extends ViewLayer {
         list_item.itemRenderer = (index:number, child:fgui.GComponent) => {
             let shopItem = this.shopShows[index];
             let shopData = LyActivityShop.getShopBuyData(shopItem);
+            let displayItemCount = shopData.isDynamicBazaar ? shopData.unitItemCount : shopItem.count;
+            if (shopData.isDynamicBazaar && shopData.quote && Number(shopData.quote.actualItems) > 0) {
+                displayItemCount = Number(shopData.quote.actualItems);
+            }
 
             let bonuseItem:BonuseItem;
             if (!LocaleData.isItem(shopItem.itemId)) {
                 let bonusType = LocaleData.getShopItemBonusType(shopItem.itemId);
-                bonuseItem = UtilsUI.getBonuseItem(bonusType, null, null, shopItem.count);
+                bonuseItem = UtilsUI.getBonuseItem(bonusType, null, null, displayItemCount);
             } else {
-                bonuseItem = UtilsUI.getBonuseItem(VarVal.bonusType.item, null, shopItem.itemId, shopItem.count);
+                bonuseItem = UtilsUI.getBonuseItem(VarVal.bonusType.item, null, shopItem.itemId, displayItemCount);
             }
             let label_name:fgui.GTextField = child.getChild("label_name");
             label_name.text = bonuseItem.name;
@@ -120,7 +131,10 @@ export class LyActivityShop extends ViewLayer {
             let c2 = child.getController("c2");
 
             let selIdx = 0;
-            if (shopData.mode == 2) {
+            if (shopData.isDynamicBazaar) {
+                c1.selectedIndex = 0;
+                selIdx = 0;
+            } else if (shopData.mode == 2) {
                 c1.selectedIndex = 0;
                 selIdx = 0;
             } else if (shopData.show_type == VarVal.Discount_Type.free) {
@@ -153,7 +167,16 @@ export class LyActivityShop extends ViewLayer {
 
             btn_buy.visible = true;
             let label_limit:fgui.GTextField = child.getChild("label_limit");
-            if (shopData.buy_max <= 0) { // 不限制购买数量。
+            if (shopData.isDynamicBazaar) {
+                let nextTier = shopData.nextTierBoundary > 0 ? String(shopData.nextTierBoundary) : "无";
+                label_limit.text = "支付：" + LyActivityShop.formatBazaarPaymentKind(shopData.currentPaymentKind)
+                    + "  剩余额度：" + shopData.remainingOrderItems
+                    + "  下一阶梯：" + nextTier;
+                if (shopData.currentPaymentKind == "blocked" || shopData.buy_remain <= 0) {
+                    btn_buy.visible = false;
+                    selIdx = 2;
+                }
+            } else if (shopData.buy_max <= 0) { // 不限制购买数量。
                 label_limit.text = "";
             } else if (shopData.buy_remain <= 0) { // 售罄。
                 label_limit.text = "";
@@ -169,7 +192,11 @@ export class LyActivityShop extends ViewLayer {
             let label_need:fgui.GTextField = child.getChild("label_need");
             let label_need1:fgui.GTextField = child.getChild("label_need1");
             let label_need2:fgui.GTextField = child.getChild("label_need2");
-            if (selIdx == 0) {
+            if (shopData.isDynamicBazaar) {
+                label_need.text = LyActivityShop.formatBazaarQuote(shopData.quote);
+                label_need1.text = "";
+                label_need2.text = "";
+            } else if (selIdx == 0) {
                 label_need.text = String(shopData.src_price);
             } else if (selIdx == 1) {
                 label_need1.text = String(shopData.src_price);
@@ -209,7 +236,56 @@ export class LyActivityShop extends ViewLayer {
      * @param doneCall 购买成功回调
      */
     public static showLyActivityShopBuy(shopItem:any, maxCount:number, doneCall?:Function) {
-        ViewDispatcher.pushViewEvent(null, ViewDispatcher.EVENT_PUSH, LyActivityShopBuy, 0, {shopItem:shopItem, maxCount:maxCount, doneCall:doneCall});
+        let shopData = LyActivityShop.getShopBuyData(shopItem);
+        ViewDispatcher.pushViewEvent(null, ViewDispatcher.EVENT_PUSH, LyActivityShopBuy, 0, {
+            shopItem:shopItem,
+            shopData:shopData,
+            maxCount:maxCount,
+            doneCall:doneCall
+        });
+    }
+
+    public static normalizeBazaarPaymentKind(kind:any):string {
+        let value = String(kind || "").toLowerCase();
+        if (value == "original" || value == "money" || value == "stone" || value == "voucher" || value == "blocked") {
+            return value;
+        }
+        return "blocked";
+    }
+
+    public static formatBazaarPaymentKind(kind:string):string {
+        let paymentKind = LyActivityShop.normalizeBazaarPaymentKind(kind);
+        if (paymentKind == "original") return "原价";
+        if (paymentKind == "money") return "灵石";
+        if (paymentKind == "stone") return "玉璧";
+        if (paymentKind == "voucher") return "代金券";
+        return "不可购买";
+    }
+
+    public static formatBazaarQuote(quote:any):string {
+        if (!quote) return "以服务端结算为准";
+        let moneyCost = Math.max(Math.floor(Number(quote.moneyCost) || 0), 0);
+        let stoneCost = Math.max(Math.floor(Number(quote.stoneCost) || 0), 0);
+        let voucherCost = Math.max(Math.floor(Number(quote.voucherCost) || 0), 0);
+        return "灵石" + moneyCost + " / 玉璧" + stoneCost + " / 代金券" + voucherCost;
+    }
+
+    private static getBazaarPolicyItem(activityShop:any, id:number):any {
+        if (!activityShop || !activityShop.policyItems) return null;
+        let policyItems = activityShop.policyItems;
+        let directPolicyItem = policyItems[id];
+        if (directPolicyItem && Number(directPolicyItem.entryId) == id) return directPolicyItem;
+        if (Array.isArray(policyItems)) {
+            for (let i = 0; i < policyItems.length; i++) {
+                if (policyItems[i] && Number(policyItems[i].entryId) == id) return policyItems[i];
+            }
+        } else {
+            for (let key in policyItems) {
+                let policyItem = policyItems[key];
+                if (policyItem && Number(policyItem.entryId) == id) return policyItem;
+            }
+        }
+        return null;
     }
 
     /**
@@ -250,13 +326,48 @@ export class LyActivityShop extends ViewLayer {
         let dailyRemainingItems = 9990000;
         let maxVoucherCount = 0;
         let itemCount = Math.max(Math.floor(Number(shopItem.count) || 1), 1);
+        let isDynamicBazaar = false;
+        let policyVersion = "";
+        let unitItemCount = itemCount;
+        let currentPaymentKind = "original";
+        let remainingOrderItems = 0;
+        let nextTierBoundary = 0;
+        let quote:any = null;
 
         let activityState = GameServerData.getInstance().getActivityState(VarVal.ACTIVITY_ID.SHOP);
-        if (activityState && activityState.data) {
-            let shopDatas:Array<any> = activityState.data.activityShop.shopList;
+        if (activityState && activityState.data && activityState.data.activityShop) {
+            let activityShop = activityState.data.activityShop;
+            let shopDatas:Array<any> = activityShop.shopList || [];
             for (let i = 0; i < shopDatas.length; i++) {
                 let shopData = shopDatas[i];
                 if (shopData.id == id) {
+                    if (activityShop && activityShop.policyVersion != null
+                        && String(activityShop.policyVersion).length > 0
+                        && shopData.currentPaymentKind != null) {
+                        isDynamicBazaar = true;
+                        policyVersion = String(activityShop.policyVersion);
+                        let policyItem = LyActivityShop.getBazaarPolicyItem(activityShop, id);
+                        if (policyItem && Number(policyItem.unitItemCount) > 0) {
+                            unitItemCount = Math.max(Math.floor(Number(policyItem.unitItemCount)), 1);
+                        }
+                        currentPaymentKind = LyActivityShop.normalizeBazaarPaymentKind(shopData.currentPaymentKind);
+                        remainingOrderItems = Number(shopData.remainingOrderItems);
+                        if (!Number.isFinite(remainingOrderItems)) remainingOrderItems = 0;
+                        remainingOrderItems = Math.max(Math.floor(remainingOrderItems), 0);
+                        nextTierBoundary = Number(shopData.nextTierBoundary);
+                        if (!Number.isFinite(nextTierBoundary)) nextTierBoundary = 0;
+                        nextTierBoundary = Math.max(Math.floor(nextTierBoundary), 0);
+                        quote = shopData.quote || null;
+                        buy_max = Math.floor(remainingOrderItems / unitItemCount);
+                        buy_remain = buy_max;
+                        dailyRemainingItems = Number(shopData.dailyRemainingItems || remainingOrderItems);
+                        normalRemainingItems = Number(shopData.normalRemainingItems || 0);
+                        maxVoucherCount = Number(shopData.maxVoucherCount || 0);
+                        mode = currentPaymentKind == "voucher" ? 2 : (currentPaymentKind == "blocked" ? 3 : 1);
+                        show_type = VarVal.Discount_Type.normal;
+                        off_per = 1;
+                    }
+                    if (!isDynamicBazaar) {
                     mode = Number(shopData.mode || 1);
                     dailyPaidItemCount = Number(shopData.dailyPaidItemCount || 0);
                     normalRemainingItems = Number(shopData.normalRemainingItems);
@@ -314,6 +425,7 @@ export class LyActivityShop extends ViewLayer {
                         buy_remain = Math.floor(normalRemainingItems / itemCount);
                         off_per = 1;
                     }
+                    }
                     break;
                 }
             }
@@ -333,6 +445,13 @@ export class LyActivityShop extends ViewLayer {
             ,normalRemainingItems: normalRemainingItems
             ,dailyRemainingItems: dailyRemainingItems
             ,maxVoucherCount: maxVoucherCount
+            ,isDynamicBazaar: isDynamicBazaar
+            ,policyVersion: policyVersion
+            ,unitItemCount: unitItemCount
+            ,currentPaymentKind: currentPaymentKind
+            ,remainingOrderItems: remainingOrderItems
+            ,nextTierBoundary: nextTierBoundary
+            ,quote: quote
         }
         return data;
     }

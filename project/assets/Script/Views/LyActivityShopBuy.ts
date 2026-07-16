@@ -56,13 +56,26 @@ export class LyActivityShopBuy extends ViewLayer {
         let set_need:number; // 单组价格
         let curr_coin:number; // 当前拥有消耗道具数量
         let isVoucherPurchase:boolean = false;
+        let shopData:any = null;
+        let isDynamicBazaar:boolean = false;
+        let policyVersion:string = "";
+        let currentPaymentKind:string = "original";
 
         if (params.shopItem) {
-            let shopData = LyActivityShop.getShopBuyData(params.shopItem);
-            isVoucherPurchase = shopData.mode == 2;
-            let costType = isVoucherPurchase ? VarVal.bonusType.chance : VarVal.bonusType.stone;
-            let rewardCount = isVoucherPurchase ? 100 : params.shopItem.count;
-            costBonuseItem = UtilsUI.getBonuseItem(costType, null, null, isVoucherPurchase ? "1" : params.shopItem.stone);
+            shopData = params.shopData || LyActivityShop.getShopBuyData(params.shopItem);
+            isDynamicBazaar = shopData.isDynamicBazaar === true;
+            policyVersion = isDynamicBazaar ? String(shopData.policyVersion || "") : "";
+            currentPaymentKind = LyActivityShop.normalizeBazaarPaymentKind(shopData.currentPaymentKind);
+            isVoucherPurchase = !isDynamicBazaar && shopData.mode == 2;
+            let costType = VarVal.bonusType.stone;
+            if (isDynamicBazaar && currentPaymentKind == "money") {
+                costType = VarVal.bonusType.money;
+            } else if ((isDynamicBazaar && currentPaymentKind == "voucher") || isVoucherPurchase) {
+                costType = VarVal.bonusType.chance;
+            }
+            let rewardCount = isDynamicBazaar ? shopData.unitItemCount : (isVoucherPurchase ? 100 : params.shopItem.count);
+            let displayCost = isDynamicBazaar ? "0" : (isVoucherPurchase ? "1" : params.shopItem.stone);
+            costBonuseItem = UtilsUI.getBonuseItem(costType, null, null, displayCost);
             if (!LocaleData.isItem(params.shopItem.itemId)) {
                 let bonusType = LocaleData.getShopItemBonusType(params.shopItem.itemId);
                 bonuseItem = UtilsUI.getBonuseItem(bonusType, null, null, rewardCount);
@@ -73,7 +86,7 @@ export class LyActivityShopBuy extends ViewLayer {
             }
             quality = bonuseItem.proto.quality;
 
-            set_need = isVoucherPurchase ? 1 : shopData.dst_price;
+            set_need = isDynamicBazaar ? 0 : (isVoucherPurchase ? 1 : shopData.dst_price);
             curr_coin = GameServerData.getInstance().getValueTypeCount(costType);
         } else {
             let shopBuy:ShopBuy = params.shopBuy;
@@ -119,28 +132,107 @@ export class LyActivityShopBuy extends ViewLayer {
         
         let label_cost:fgui.GTextField = group_main.getChild("label_cost");
         let loader_icon:fgui.GLoader3D = group_main.getChild("loader_icon");
+        let btn_buy:fgui.GButton = group_main.getChild("btn_buy");
+        btn_buy.text = StrVal.ACTIVITY_SHOPBUY.STR5;
         if (costBonuseItem.type == VarVal.bonusType.item) {
             loader_icon.url = UtilsUI.getItemIconUrl(costBonuseItem.proto);
         } else {
             loader_icon.url = UtilsUI.getItemIconUrl(costBonuseItem.type);
         }
 
-        let onValueChange:Function = () => {
+        let quoteRequestSequence = 0;
+        let lastRequestedQuoteCount = -1;
+        let quoteReady = !isDynamicBazaar;
+
+        let isPolicyVersionMismatch = (args:any):boolean => {
+            if (!args) return false;
+            if (args.bazaarError == "BAZAAR_POLICY_VERSION_MISMATCH") return true;
+            return args.policyVersion != null
+                && String(args.policyVersion).length > 0
+                && String(args.policyVersion) != policyVersion;
+        }
+
+        let showBazaarRequestError = (args:any):void => {
+            if (isPolicyVersionMismatch(args)) {
+                UtilsUI.showMsgTip("坊市配置已更新，请重新登录");
+                return;
+            }
+            if (args && args.bazaarError) {
+                UtilsUI.showMsgTip(args.bazaarError);
+            } else {
+                UtilsUI.showMsgTip(args ? args.errorcode : -1);
+            }
+        }
+
+        let updateRewardCount = (actualItems:number):void => {
+            let displayCount = Math.max(Math.floor(Number(actualItems) || 0), 0);
             if (slider_count.value <= 0) {
                 slider_count.value = 1;
             }
             let __bonuseItem:BonuseItem = {
                 type: bonuseItem.type,
                 proto: bonuseItem.proto,
-                count: String(Number(bonuseItem.count) * slider_count.value),
+                count: String(displayCount),
                 name: bonuseItem.name,
                 desc: bonuseItem.desc
             }
             UtilsUI.setUIGroupItem(__bonuseItem, group_item, null, true);
+        }
+
+        let requestDynamicQuote = (selectedCount:number):void => {
+            if (!isDynamicBazaar) return;
+            if (currentPaymentKind == "blocked") {
+                quoteReady = false;
+                btn_buy.enabled = false;
+                label_cost.text = "不可购买";
+                return;
+            }
+            if (selectedCount == lastRequestedQuoteCount) return;
+            lastRequestedQuoteCount = selectedCount;
+            quoteReady = false;
+            btn_buy.enabled = false;
+            label_cost.text = "报价中...";
+            quoteRequestSequence++;
+            let requestSequence = quoteRequestSequence;
+            GameServer.getInstance().send((args:any) => {
+                if (requestSequence !== quoteRequestSequence) return;
+                if (isPolicyVersionMismatch(args)) {
+                    showBazaarRequestError(args);
+                    return;
+                }
+                if (args && args.errorcode == 0 && args.quote) {
+                    let quote = args.quote;
+                    let moneyCost = Math.max(Math.floor(Number(quote.moneyCost) || 0), 0);
+                    let stoneCost = Math.max(Math.floor(Number(quote.stoneCost) || 0), 0);
+                    let voucherCost = Math.max(Math.floor(Number(quote.voucherCost) || 0), 0);
+                    label_cost.text = "灵石" + moneyCost + " / 玉璧" + stoneCost + " / 代金券" + voucherCost;
+                    updateRewardCount(Number(quote.actualItems));
+                    quoteReady = true;
+                    btn_buy.enabled = true;
+                } else {
+                    showBazaarRequestError(args);
+                }
+            }, "bazaarQuotePurchase", {
+                id:Number(params.shopItem.id),
+                num:selectedCount,
+                policyVersion:policyVersion
+            });
+        }
+
+        let onValueChange:Function = () => {
+            if (slider_count.value <= 0) {
+                slider_count.value = 1;
+            }
+            let unitItemCount = isDynamicBazaar ? Number(shopData.unitItemCount) : Number(bonuseItem.count);
+            updateRewardCount(unitItemCount * slider_count.value);
             label_num.text = UtilsTool.stringFormat(StrVal.ACTIVITY_SHOPBUY.STR4, [slider_count.value]);
-            let need = set_need * slider_count.value;
-            label_cost.text = UtilsTool.stringFormat("{0}/{1}", [curr_coin, need]);
-            label_cost.color = UtilsUI.getEnoughColor(need > 0 ? (curr_coin >= need) : true)
+            if (isDynamicBazaar) {
+                requestDynamicQuote(slider_count.value);
+            } else {
+                let need = set_need * slider_count.value;
+                label_cost.text = UtilsTool.stringFormat("{0}/{1}", [curr_coin, need]);
+                label_cost.color = UtilsUI.getEnoughColor(need > 0 ? (curr_coin >= need) : true)
+            }
         }
         slider_count.on(fgui.Event.STATUS_CHANGED, onValueChange);
         btn_sub.onClick(() => {
@@ -157,7 +249,9 @@ export class LyActivityShopBuy extends ViewLayer {
         })
 
         // 初始化当前购买数量
-        if (set_need > 0) {
+        if (isDynamicBazaar) {
+            slider_maxvalue = Math.max(Math.floor(Number(params.maxCount) || 0), 1);
+        } else if (set_need > 0) {
             slider_maxvalue = Math.max(Math.floor(curr_coin / set_need), 1);
         } else {
             slider_maxvalue = params.maxCount;
@@ -167,13 +261,18 @@ export class LyActivityShopBuy extends ViewLayer {
         slider_count.value = 1;
         onValueChange();
 
-        let btn_buy:fgui.GButton = group_main.getChild("btn_buy");
-        btn_buy.text = StrVal.ACTIVITY_SHOPBUY.STR5;
         btn_buy.onClick(() => {
             if (params.shopItem) {
+                if (isDynamicBazaar && (!quoteReady || currentPaymentKind == "blocked")) return;
                 UtilsUI.lockWait();
                 GameServer.getInstance().send((args: any) => {
                     UtilsUI.unlockWait();
+                    if (isDynamicBazaar && isPolicyVersionMismatch(args)) {
+                        quoteReady = false;
+                        btn_buy.enabled = false;
+                        showBazaarRequestError(args);
+                        return;
+                    }
                     if (args.errorcode == 0) {
                         if (params.doneCall) {
                             params.doneCall(slider_count.value);
@@ -183,7 +282,12 @@ export class LyActivityShopBuy extends ViewLayer {
                     } else {
                         UtilsUI.showMsgTip(args.errorcode);
                     }
-                }, isVoucherPurchase ? "bazaarVoucherBuy" : "shopBuy", {
+                }, isDynamicBazaar ? "shopBuy" : (isVoucherPurchase ? "bazaarVoucherBuy" : "shopBuy"),
+                isDynamicBazaar ? {
+                    id:Number(params.shopItem.id),
+                    num:slider_count.value,
+                    policyVersion:policyVersion
+                } : {
                     id:Number(params.shopItem.id),
                     num:slider_count.value
                 });
