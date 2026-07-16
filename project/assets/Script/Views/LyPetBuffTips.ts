@@ -10,6 +10,7 @@ import { UtilsTool } from "../Kernel/UtilsTool";
 import { ViewDispatcher } from "../Kernel/ViewDispatcher";
 import { StrVal } from "../Values/StrVal";
 import { LocaleData } from "../Kernel/LocaleData";
+import { petBuffValue } from "./PetTransferDisplay";
 
 export class LyPetBuffTips extends ViewLayer {
     public constructor() {
@@ -46,7 +47,7 @@ export class LyPetBuffTips extends ViewLayer {
 
         let label_dec: fgui.GLabel = this.uiPanel.getChild("label_dec")
         let buffParams = buff.buffParam.split(",")
-        label_dec.text = UtilsTool.stringFormat(StrVal.LYPET.STR109, [buff.buffName, buffParams[buffData.buffLevel - 1]])
+        label_dec.text = UtilsTool.stringFormat(StrVal.LYPET.STR109, [buff.buffName, petBuffValue(buffParams, buffData.buffLevel)])
 
         let pos = this.getUiPanel().globalToLocal(_params.pos.x, _params.pos.y);
         let cx = pos.x - this.uiPanel.width;

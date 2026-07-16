@@ -38,3 +38,18 @@ export function petTransferProgress(total: number, maximum = PET_TRANSFER_MAX): 
 export function petBuffLevel(level: number, maximum = PET_BUFF_MAX): string {
     return `${boundedInteger(level, maximum)}/${maximum}`
 }
+
+export function petBuffValue(parameters: Array<number | string>, level: number): number {
+    const values = (parameters || []).map(value => Number(value))
+    const boundedLevel = Math.max(1, Math.floor(Number(level) || 1))
+    const configured = values[boundedLevel - 1]
+    if (Number.isFinite(configured)) {
+        return configured
+    }
+    const last = values.length > 0 && Number.isFinite(values[values.length - 1]) ? values[values.length - 1] : 0
+    if (values.length < 2 || boundedLevel <= values.length) {
+        return last
+    }
+    const previous = Number.isFinite(values[values.length - 2]) ? values[values.length - 2] : last
+    return last + (last - previous) * (boundedLevel - values.length)
+}

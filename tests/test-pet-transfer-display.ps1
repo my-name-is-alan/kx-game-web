@@ -21,7 +21,8 @@ foreach ($expected in @(
     "PET_LEGACY_VISUAL_MAX = 40",
     "function petTransferVisual",
     "function petTransferProgress",
-    "function petBuffLevel"
+    "function petBuffLevel",
+    "function petBuffValue"
 )) {
     if ($helper -notmatch [regex]::Escape($expected)) {
         throw "transfer display helper is missing: $expected"
@@ -46,6 +47,11 @@ if ($allViews -notmatch 'petTransferProgress\(') {
 }
 if ($allViews -notmatch 'petBuffLevel\(') {
     throw "extended passive levels are not displayed through the bounded formatter"
+}
+
+$tips = Get-Content -Raw (Join-Path $viewsRoot "LyPetBuffTips.ts")
+if ($tips -notmatch 'petBuffValue\(' -or $tips -match 'buffParams\[buffData\.buffLevel\s*-\s*1\]') {
+    throw "passive effect tips do not support levels above ten"
 }
 
 Write-Output "PET_TRANSFER_DISPLAY_OK"
