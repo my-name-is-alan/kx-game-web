@@ -49,8 +49,8 @@
   <item id="10047" type="1" score="" conditionType="2" conditionParam="5" bonusesId="200001" desc="分解5件装备" goto="" name="" clanContribution="" activeScore="" clanExp="" subType="" guideId="" guideDesc=""/>
   <item id="10048" type="1" score="" conditionType="3" conditionParam="14" bonusesId="200008" desc="通关主线冒险2-4" goto="" name="" clanContribution="" activeScore="" clanExp="" subType="" guideId="" guideDesc=""/>
   <item id="10049" type="1" score="" conditionType="16" conditionParam="1" bonusesId="200009" desc="在镖局采集1次自己的资源" goto="" name="" clanContribution="" activeScore="" clanExp="" subType="" guideId="" guideDesc=""/>
-  <item id="10050" type="1" score="" conditionType="23" conditionParam="2" bonusesId="200001" desc="镖局雇佣2名镖师" goto="" name="" clanContribution="" activeScore="" clanExp="" subType="" guideId="10006" guideDesc="刚刚获得的饷银可以用来雇佣更多镖师！"/>
-  <item id="10051" type="1" score="" conditionType="17" conditionParam="1" bonusesId="200001" desc="在镖局采集1次他人的资源" goto="" name="" clanContribution="" activeScore="" clanExp="" subType="" guideId="10005" guideDesc="该去其他镖局碰碰运气了，说不定能遇到什么宝贝"/>
+  <item id="10050" type="1" score="" conditionType="23" conditionParam="2" bonusesId="200001" desc="镖局雇佣2名镖师" goto="" name="" clanContribution="" activeScore="" clanExp="" subType="" guideId="" guideDesc=""/>
+  <item id="10051" type="1" score="" conditionType="17" conditionParam="1" bonusesId="200001" desc="在镖局采集1次他人的资源" goto="" name="" clanContribution="" activeScore="" clanExp="" subType="" guideId="" guideDesc=""/>
   <item id="10052" type="1" score="" conditionType="1" conditionParam="10" bonusesId="200001" desc="钓鱼10次" goto="" name="" clanContribution="" activeScore="" clanExp="" subType="" guideId="" guideDesc=""/>
   <item id="10053" type="1" score="" conditionType="22" conditionParam="300" bonusesId="200001" desc="分解装备获得300云英" goto="" name="" clanContribution="" activeScore="" clanExp="" subType="" guideId="" guideDesc=""/>
   <item id="10054" type="1" score="" conditionType="5" conditionParam="15" bonusesId="200001" desc="升级至15级" goto="" name="" clanContribution="" activeScore="" clanExp="" subType="" guideId="" guideDesc=""/>

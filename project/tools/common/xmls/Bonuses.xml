@@ -34,14 +34,6 @@
     <item id="12020" bonusesId="12007" dropType="4" rateCount="0" condType="0" condParam="0" type="1" protoId="120014" count="10" point="0" rate="0" maxCount="0" isCondition="0"/>
     <item id="12021" bonusesId="12008" dropType="4" rateCount="0" condType="0" condParam="0" type="1" protoId="120001" count="50" point="0" rate="0" maxCount="0" isCondition="0"/>
     <item id="12022" bonusesId="12008" dropType="4" rateCount="0" condType="0" condParam="0" type="4" protoId="0" count="0" point="50" rate="0" maxCount="0" isCondition="0"/>
-    <item id="20001" bonusesId="201" dropType="3" rateCount="0" condType="0" condParam="0" type="0" protoId="0" count="0" point="0" rate="500" maxCount="0" isCondition="0" isChange="1" fixStart="3" fixStop="6"/>
-    <item id="20002" bonusesId="201" dropType="3" rateCount="0" condType="0" condParam="0" type="2" protoId="0" count="0" point="2000" rate="500" maxCount="0" isCondition="0" isChange="1"/>
-    <item id="20003" bonusesId="201" dropType="3" rateCount="0" condType="0" condParam="0" type="2" protoId="120001" count="0" point="3000" rate="5000" maxCount="0" isCondition="0" isFix="1"/>
-    <item id="20004" bonusesId="201" dropType="3" rateCount="0" condType="0" condParam="0" type="1" protoId="120001" count="120001" point="0" rate="3000" maxCount="0" isCondition="0" isFix="1"/>
-    <item id="20005" bonusesId="201" dropType="3" rateCount="0" condType="0" condParam="0" type="2" protoId="5000" count="0" point="5000" rate="500" maxCount="0" isCondition="0" isFix="1"/>
-    <item id="20006" bonusesId="201" dropType="3" rateCount="0" condType="0" condParam="0" type="2" protoId="5000" count="0" point="5000" rate="500" maxCount="0" isCondition="0" isFix="1"/>
-    <item id="20007" bonusesId="201" dropType="3" rateCount="0" condType="1" condParam="4" type="2" protoId="5000" count="0" point="5000" rate="500" maxCount="0" isCondition="1"/>
-    <item id="20008" bonusesId="201" dropType="3" rateCount="0" condType="1" condParam="4" type="2" protoId="5000" count="0" point="5000" rate="500" maxCount="0" isCondition="1"/>
     <item id="30001" bonusesId="301" dropType="3" rateCount="0" condType="0" condParam="0" type="2" protoId="0" count="0" point="5000" rate="2000" maxCount="0" isCondition="0" isFix="1" fixStart="1" fixStop="4"/>
     <item id="30002" bonusesId="301" dropType="3" rateCount="0" condType="0" condParam="0" type="2" protoId="0" count="0" point="5000" rate="2000" maxCount="0" isCondition="0" isFix="1"/>
     <item id="30003" bonusesId="301" dropType="3" rateCount="0" condType="0" condParam="0" type="2" protoId="0" count="0" point="5000" rate="2000" maxCount="0" isCondition="0" isFix="1"/>

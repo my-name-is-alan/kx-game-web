@@ -92,6 +92,8 @@
     <item id="15" baseValueLower="64000000" baseValueUpper="128000000" prePowerLower="61600" prePowerUpper="86000" preValuePowerExpr="61600+24400*(a-64000000)/64000000"/>
     <item id="16" baseValueLower="128000000" baseValueUpper="256000000" prePowerLower="86000" prePowerUpper="120000" preValuePowerExpr="86000+34000*(a-128000000)/128000000"/>
     <item id="17" baseValueLower="256000000" baseValueUpper="512000000" prePowerLower="120000" prePowerUpper="168000" preValuePowerExpr="120000+48000*(a-256000000)/256000000"/>
-    <item id="18" baseValueLower="512000000" baseValueUpper="1000000000" prePowerLower="168000" prePowerUpper="235000" preValuePowerExpr="168000+67000*(a-512000000)/512000000"/>
+    <item id="18" baseValueLower="512000000" baseValueUpper="1024000000" prePowerLower="168000" prePowerUpper="235000" preValuePowerExpr="168000+67000*(a-512000000)/512000000"/>
+    <item id="19" baseValueLower="1024000000" baseValueUpper="2048000000" prePowerLower="235000" prePowerUpper="310000" preValuePowerExpr="235000+75000*(a-1024000000)/1024000000"/>
+    <item id="20" baseValueLower="2048000000" baseValueUpper="4096000000" prePowerLower="310000" prePowerUpper="400000" preValuePowerExpr="310000+90000*(a-2048000000)/2048000000"/>
   </combat>
 </root>
