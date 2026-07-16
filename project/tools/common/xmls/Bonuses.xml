@@ -2590,6 +2590,8 @@
     <item id="300302" bonusesId="300301" dropType="1" rateCount="0" condType="0" condParam="0" type="1" protoId="120001" count="5" point="0" rate="1077" maxCount="0" isCondition="0"/>
     <item id="300303" bonusesId="300301" dropType="1" rateCount="0" condType="0" condParam="0" type="1" protoId="120009" count="4" point="0" rate="4885" maxCount="0" isCondition="0"/>
     <item id="300304" bonusesId="300301" dropType="1" rateCount="0" condType="0" condParam="0" type="4" protoId="0" count="0" point="2" rate="1269" maxCount="0" isCondition="0"/>
+    <item id="300305" bonusesId="300301" dropType="1" rateCount="0" condType="0" condParam="0" type="1" protoId="120012" count="1" point="0" rate="400" maxCount="0" isCondition="0"/>
+    <item id="300306" bonusesId="300301" dropType="1" rateCount="0" condType="0" condParam="0" type="1" protoId="120013" count="1" point="0" rate="200" maxCount="0" isCondition="0"/>
     <item id="310001" bonusesId="310001" dropType="4" rateCount="0" condType="0" condParam="0" type="1" protoId="120014" count="60" point="0" rate="0" maxCount="0" isCondition="0"/>
     <item id="310002" bonusesId="310001" dropType="4" rateCount="0" condType="0" condParam="0" type="4" protoId="0" count="0" point="300" rate="0" maxCount="0" isCondition="0"/>
     <item id="310003" bonusesId="310002" dropType="4" rateCount="0" condType="0" condParam="0" type="1" protoId="120014" count="40" point="0" rate="0" maxCount="0" isCondition="0"/>
