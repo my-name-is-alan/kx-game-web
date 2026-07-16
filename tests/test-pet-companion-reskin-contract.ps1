@@ -48,7 +48,7 @@ $errorCodes = Get-Content -Raw (Join-Path $root "project/assets/Script/Values/PE
 Assert-Matches $errorCodes 'pet_clear_skill_not_level\s*=\s*775' "client level error code must match the server"
 
 $gameServerData = Get-Content -Raw (Join-Path $root "project/assets/Script/Kernel/GameServerData.ts")
-$exploreHandler = [regex]::Match($gameServerData, 'public on_explore\(args: any\): void\{(?s:.*?)\n\s*\}\n\s*public on_addExploreStamina').Value
+$exploreHandler = [regex]::Match($gameServerData, 'public on_explore\(args: any\): void\{(?s:.*?)\r?\n\s*\}\r?\n\s*public on_addExploreStamina').Value
 if ([string]::IsNullOrEmpty($exploreHandler)) {
     throw "could not locate on_explore handler"
 }

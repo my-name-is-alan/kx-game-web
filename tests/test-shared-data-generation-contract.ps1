@@ -32,6 +32,22 @@ $soulSand = Get-One $items._root[0]._item { $_.id -eq "120040" } "generated item
 if ($ice.icon -ne "Props-xuanbing") { throw "item 120030 must use the matching xuanbing icon" }
 if ($soulSand.getParam -ne "35") { throw "item 120040 must retain its valid acquisition guide" }
 
+$activitiesXml = [xml](Get-Content -Raw (Join-Path $root "project/tools/common/xmls/Activities.xml"))
+$activitiesJson = Get-Content -Raw (Join-Path $root "project/assets/resources/data/Activities.json") | ConvertFrom-Json
+$xmlBazaar = @($activitiesXml.root.activity | Where-Object { $_.id -eq "102" }).shop.item
+$jsonBazaar = @(($activitiesJson._root[0]._activity | Where-Object { $_.id -eq "102" })._shop[0]._item)
+if ($xmlBazaar.Count -ne $jsonBazaar.Count) {
+    throw "generated Activities.json bazaar row count differs from Activities.xml"
+}
+foreach ($xmlRow in $xmlBazaar) {
+    $jsonRow = Get-One $jsonBazaar { $_.id -eq $xmlRow.id } "generated bazaar row $($xmlRow.id) is missing"
+    foreach ($attribute in $xmlRow.Attributes) {
+        if ($jsonRow.($attribute.Name) -cne $attribute.Value) {
+            throw "generated bazaar row $($xmlRow.id) field $($attribute.Name) differs from Activities.xml"
+        }
+    }
+}
+
 $tasks = Get-Content -Raw (Join-Path $root "project/assets/resources/data/Task.json") | ConvertFrom-Json
 foreach ($activeEscortTaskId in @("10050", "10051")) {
     if (@($tasks._root[0]._item | Where-Object { $_.id -eq $activeEscortTaskId }).Count -ne 1) {
