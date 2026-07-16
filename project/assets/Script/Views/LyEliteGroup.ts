@@ -221,12 +221,13 @@ export class LyEliteGroup extends ViewLayer {
                 let tlevel = 0
                 let canUpNumber = 0 //可升级
                 let canJhNumber = 0
-                let isTopLevel = tlevel == LocaleData.getOneTypeEncyclopedia(element.resonance_id).length ? 2:1
                 this.jhEncyclopedia.forEach(element3 => {
                     if (element3.resonanceId == element.resonance_id) {
                         tlevel = element3.resonanceLevel
                     }
                 });
+                let maxLevel = LocaleData.getOneTypeEncyclopedia(element.resonance_id).length
+                let isTopLevel = tlevel >= maxLevel ? 2:1
                 let xml = LocaleData.getEliteMonsterEncyclopediaById(element.resonance_id, tlevel == 0 ? 1:tlevel);
                 let maxNmuber =  xml.associated_monster_id_group.split(",").length
                 let eliteMonsterArr: any[] = []
