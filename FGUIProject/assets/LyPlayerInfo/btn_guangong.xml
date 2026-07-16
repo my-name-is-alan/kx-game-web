@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="326,60" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n5_kqmq" name="n5" src="kqmq1r" fileName="res2/frame_name of escort agency.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_kqmq" name="title" xy="0,0" size="326,60" font="ui://27utqbizps391v" fontSize="24" color="#9f581a" align="center" vAlign="middle" autoSize="none" singleLine="true" text="切换门客">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="586,132">
+  <displayList>
+    <image id="n38_tojh" name="n38" src="fml9w" fileName="res/frame_in control interface.png" xy="0,12" size="589,110"/>
+    <image id="n39_tojh" name="n39" src="fml962" fileName="ui/icon_me.png" pkg="27utqbiz" xy="16,25"/>
+    <image id="n55_chaq" name="n55" src="fml916" fileName="res/pic_escorter1.png" xy="54,14" size="70,70" aspect="true"/>
+    <image id="n53_chaq" name="n53" src="chaq5m" fileName="res/frame_quantity.png" xy="55,69"/>
+    <text id="n42_tojh" name="label_time" xy="15,85" size="167,32" fontSize="20" color="#d63326" vAlign="middle" autoSize="none" text="正在采集 02：46"/>
+    <component id="n45_tojh" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="189,27" scale="0.8,0.8"/>
+    <image id="n47_tojh" name="n47" src="fml917" fileName="res/pic_escorter2.png" xy="326,17" size="69,69" aspect="true"/>
+    <component id="n49_tojh" name="btn_summon" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="461,73" size="108,30">
+      <Button titleFontSize="20"/>
+    </component>
+    <component id="n50_tojh" name="btn_go" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="462,31" size="108,30">
+      <Button title="召回" titleFontSize="20"/>
+    </component>
+    <text id="n48_tojh" name="label_name" xy="284,84" size="167,32" fontSize="20" color="#7f6c51" align="center" vAlign="middle" autoSize="shrink" text="目前"/>
+    <image id="n56_chaq" name="img_other" src="fml916" fileName="res/pic_escorter1.png" xy="326,15" size="70,70" group="n60_chaq" aspect="true"/>
+    <image id="n59_chaq" name="n59" src="chaq5m" fileName="res/frame_quantity.png" xy="328,69" group="n60_chaq"/>
+    <text id="n58_chaq" name="label_other" xy="335,64" size="62,29" group="n60_chaq" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="1"/>
+    <group id="n60_chaq" name="group_other" xy="326,15" size="76,78" advanced="true"/>
+    <image id="n52_qqqp" name="winleft" src="fml913" fileName="res/dec_point to escort.png" xy="277,31" visible="false" flip="hz"/>
+    <image id="n43_tojh" name="winright" src="fml913" fileName="res/dec_point to escort.png" xy="153,33" visible="false"/>
+    <text id="n57_chaq" name="label_me" xy="61,64" size="62,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="1"/>
+  </displayList>
+</component>

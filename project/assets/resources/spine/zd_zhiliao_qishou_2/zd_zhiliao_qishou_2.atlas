@@ -1,0 +1,160 @@
+
+zd_zhiliao_qishou_2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lxyz_plizi_000
+  rotate: false
+  xy: 2, 743
+  size: 148, 137
+  orig: 298, 240
+  offset: 81, 36
+  index: -1
+lxyz_plizi_001
+  rotate: false
+  xy: 843, 731
+  size: 171, 146
+  orig: 298, 240
+  offset: 57, 29
+  index: -1
+lxyz_plizi_002
+  rotate: false
+  xy: 545, 423
+  size: 167, 167
+  orig: 298, 240
+  offset: 54, 25
+  index: -1
+lxyz_plizi_003
+  rotate: true
+  xy: 377, 428
+  size: 165, 166
+  orig: 298, 240
+  offset: 65, 25
+  index: -1
+lxyz_plizi_004
+  rotate: true
+  xy: 749, 578
+  size: 151, 163
+  orig: 298, 240
+  offset: 81, 27
+  index: -1
+lxyz_plizi_005
+  rotate: false
+  xy: 201, 435
+  size: 174, 158
+  orig: 298, 240
+  offset: 63, 30
+  index: -1
+lxyz_plizi_006
+  rotate: false
+  xy: 2, 439
+  size: 197, 155
+  orig: 298, 240
+  offset: 46, 35
+  index: -1
+lxyz_plizi_007
+  rotate: false
+  xy: 548, 592
+  size: 199, 143
+  orig: 298, 240
+  offset: 44, 45
+  index: -1
+lxyz_plizi_008
+  rotate: false
+  xy: 366, 880
+  size: 193, 134
+  orig: 298, 240
+  offset: 54, 52
+  index: -1
+lxyz_plizi_009
+  rotate: false
+  xy: 182, 881
+  size: 182, 133
+  orig: 298, 240
+  offset: 65, 52
+  index: -1
+lxyz_plizi_010
+  rotate: false
+  xy: 2, 882
+  size: 178, 132
+  orig: 298, 240
+  offset: 67, 52
+  index: -1
+lxyz_plizi_011
+  rotate: false
+  xy: 561, 880
+  size: 174, 134
+  orig: 298, 240
+  offset: 68, 52
+  index: -1
+lxyz_plizi_012
+  rotate: false
+  xy: 737, 879
+  size: 167, 135
+  orig: 298, 240
+  offset: 71, 52
+  index: -1
+lxyz_plizi_013
+  rotate: false
+  xy: 152, 742
+  size: 165, 137
+  orig: 298, 240
+  offset: 68, 52
+  index: -1
+lxyz_plizi_014
+  rotate: false
+  xy: 319, 740
+  size: 168, 138
+  orig: 298, 240
+  offset: 66, 52
+  index: -1
+lxyz_plizi_015
+  rotate: false
+  xy: 489, 739
+  size: 174, 139
+  orig: 298, 240
+  offset: 64, 52
+  index: -1
+lxyz_plizi_016
+  rotate: false
+  xy: 665, 737
+  size: 176, 140
+  orig: 298, 240
+  offset: 65, 52
+  index: -1
+lxyz_plizi_017
+  rotate: false
+  xy: 184, 596
+  size: 180, 142
+  orig: 298, 240
+  offset: 65, 52
+  index: -1
+lxyz_plizi_018
+  rotate: false
+  xy: 366, 595
+  size: 180, 142
+  orig: 298, 240
+  offset: 66, 52
+  index: -1
+lxyz_plizi_021
+  rotate: false
+  xy: 2, 598
+  size: 180, 142
+  orig: 298, 240
+  offset: 68, 53
+  index: -1
+lxyz_plizi_019
+  rotate: false
+  xy: 2, 598
+  size: 180, 142
+  orig: 298, 240
+  offset: 68, 53
+  index: -1
+lxyz_plizi_020
+  rotate: false
+  xy: 2, 598
+  size: 180, 142
+  orig: 298, 240
+  offset: 68, 53
+  index: -1

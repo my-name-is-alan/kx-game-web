@@ -1,0 +1,90 @@
+
+ui_zhujiemian_jueseshengji.png
+size: 1848,813
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ui_sj1/ui_sj1_00
+  rotate: false
+  xy: 1333, 144
+  size: 118, 175
+  orig: 414, 662
+  offset: 145, 72
+  index: -1
+images/ui_sj1/ui_sj1_02
+  rotate: false
+  xy: 1471, 477
+  size: 375, 334
+  orig: 414, 662
+  offset: 4, 55
+  index: -1
+images/ui_sj1/ui_sj1_04
+  rotate: false
+  xy: 1471, 57
+  size: 373, 418
+  orig: 414, 662
+  offset: 4, 53
+  index: -1
+images/ui_sj1/ui_sj1_06
+  rotate: false
+  xy: 1103, 321
+  size: 366, 490
+  orig: 414, 662
+  offset: 5, 60
+  index: -1
+images/ui_sj1/ui_sj1_08
+  rotate: false
+  xy: 790, 310
+  size: 311, 501
+  orig: 414, 662
+  offset: 51, 64
+  index: -1
+images/ui_sj1/ui_sj1_10
+  rotate: false
+  xy: 254, 306
+  size: 301, 505
+  orig: 414, 662
+  offset: 54, 64
+  index: -1
+images/ui_sj1/ui_sj1_12
+  rotate: true
+  xy: 2, 7
+  size: 291, 502
+  orig: 414, 662
+  offset: 64, 66
+  index: -1
+images/ui_sj1/ui_sj1_14
+  rotate: true
+  xy: 506, 18
+  size: 286, 504
+  orig: 414, 662
+  offset: 69, 68
+  index: -1
+images/ui_sj1/ui_sj1_16
+  rotate: false
+  xy: 2, 300
+  size: 250, 511
+  orig: 414, 662
+  offset: 85, 72
+  index: -1
+images/ui_sj1/ui_sj1_18
+  rotate: false
+  xy: 557, 307
+  size: 231, 504
+  orig: 414, 662
+  offset: 93, 79
+  index: -1
+images/ui_sj1/ui_sj1_20
+  rotate: false
+  xy: 1157, 2
+  size: 174, 317
+  orig: 414, 662
+  offset: 111, 216
+  index: -1
+images/ui_sj1/ui_sj1_22
+  rotate: false
+  xy: 1012, 65
+  size: 143, 243
+  orig: 414, 662
+  offset: 127, 252
+  index: -1

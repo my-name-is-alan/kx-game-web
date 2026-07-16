@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="670,204">
+  <displayList>
+    <loader id="n38_a0tr" name="loader_bg" xy="6,4" size="658,195" url="ui://xebnjiy5a0tr11" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n45_sw6b" name="img_diban" src="sw6b60" fileName="czjmzh/frame_baidi.png" xy="382,141" size="200,32">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n43_a0tr" name="label_des" xy="477,141" size="10,32" fontSize="22" color="#409730" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n44_lain" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="634,11" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+</component>

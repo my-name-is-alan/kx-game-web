@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n31_kluz" name="n31" src="h2833" fileName="res/bg_zhizunbaoxia.png" xy="0,-183">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n30_kluz" name="group_main" src="kluzq" fileName="group_main.xml" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n35_kluz" name="group_golds" src="kluzr" fileName="group_golds.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n33_kluz" name="btn_jiangchi" src="kluzd" fileName="btn_jiangchi.xml" xy="520,1224">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n34_kluz" name="btn_zhibao" src="kluze" fileName="btn_zhibao.xml" xy="630,1224">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n32_kluz" name="btn_close" src="h2832" fileName="btn_close.xml" xy="20,1230">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n13_l2d7" name="btn_close" src="l2d76f" fileName="LyActivationOpen/btn_back.xml" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_l2d7" name="group_activationOpen" src="l2d76g" fileName="LyActivationOpen/group_activationOpen.xml" xy="62,497" size="630,340">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

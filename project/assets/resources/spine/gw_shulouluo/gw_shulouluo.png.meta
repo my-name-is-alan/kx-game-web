@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "ee3f6d60-0cc9-46a5-919d-4fca05fa3fae",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "ee3f6d60-0cc9-46a5-919d-4fca05fa3fae@6c48a",
+      "displayName": "gw_shulouluo",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ee3f6d60-0cc9-46a5-919d-4fca05fa3fae",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": true,
+    "redirect": "ee3f6d60-0cc9-46a5-919d-4fca05fa3fae@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "64GrRo595FX43Kk7ckKU9U"
+    }
+  }
+}

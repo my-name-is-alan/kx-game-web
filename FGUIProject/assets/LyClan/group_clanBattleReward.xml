@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,801">
+  <displayList>
+    <loader id="n0_era2" name="n0" xy="27,30" size="696,774" url="ui://qnktu1ilpugclw" align="center" vAlign="middle" fill="scaleFree"/>
+    <image id="n1_era2" name="n1" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="192,67" size="374,38"/>
+    <richtext id="n2_era2" name="label_bxl" xy="321,64" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="帮派旗帜"/>
+    <component id="n3_era2" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,0"/>
+    <component id="n4_era2" name="btn_clanDuelClaimReward" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="407,705" size="188,50">
+      <Button title="全部领取" titleFontSize="28"/>
+    </component>
+    <graph id="n7_era2" name="n7" xy="57,119" size="640,243" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <graph id="n8_era2" name="n8" xy="57,434" size="640,242" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <image id="n9_era2" name="n9" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="192,383" size="374,38"/>
+    <richtext id="n10_era2" name="label_str122" xy="321,380" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="帮派旗帜"/>
+    <component id="n11_era2" name="btn_calnPopup3" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="159,699" size="188,55">
+      <Button title="奖励预览" titleFontSize="28"/>
+    </component>
+    <list id="n12_era2" name="list_reward" xy="82,461" size="650,208" scale="0.9,0.9" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n13_era2" name="list_log" xy="92,141" size="580,196" overflow="scroll" lineGap="7" defaultItem="ui://8rnw66xwera28t" autoClearItems="true"/>
+    <text id="n14_rajy" name="label_noLog" xy="293,208" size="164,54" font="ui://27utqbizps391v" fontSize="40" text="暂无日志"/>
+  </displayList>
+</component>

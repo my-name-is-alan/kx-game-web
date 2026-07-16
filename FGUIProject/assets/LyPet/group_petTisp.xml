@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="882,612" designImageOffsetX="68" designImageOffsetY="-433" designImageAlpha="100">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n127_sbhh" name="n127" src="qav23t" fileName="ui/frame_tupojinjie3.png" pkg="27utqbiz" xy="182,10"/>
+    <loader3D id="n41_i809" name="loader_spine" xy="431,234" size="20,20" scale="0.7,0.7" animation="" skin="" loop="true"/>
+    <image id="n125_sbhh" name="n125" src="sbhh13u" fileName="ui/frame_bottom2.png" pkg="27utqbiz" xy="69,217" size="747,462"/>
+    <image id="n129_sbhh" name="n129" src="sbhh13w" fileName="ui/frame_title1.png" pkg="27utqbiz" xy="66,90"/>
+    <image id="n57_sbhh" name="n57" src="sbhha4" fileName="res1/word_zhaohuanchenggong.png" xy="281,159" group="n14_i809"/>
+    <text id="n9_i809" name="label_attr1" xy="370,381" size="149,32" group="n14_i809" fontSize="22" color="#ffffff" vAlign="middle" text="生命               +4"/>
+    <text id="n12_i809" name="label_attr2" xy="370,429" size="149,32" group="n14_i809" fontSize="22" color="#ffffff" vAlign="middle" text="生命               +4"/>
+    <text id="n13_i809" name="label_attr3" xy="370,475" size="149,32" group="n14_i809" fontSize="22" color="#ffffff" vAlign="middle" text="生命               +4"/>
+    <text id="n27_i809" name="label_1str65" xy="383,331" size="120,40" group="n14_i809" font="ui://27utqbizps391v" fontSize="29" color="#dfd58a" text="主角加成"/>
+    <image id="n28_i809" name="n28" src="i8096i" fileName="res1/frame_fubiaotidianzhuangshi2.png" xy="222,347" group="n14_i809"/>
+    <group id="n14_i809" name="group_recruitpet" xy="222,159" size="442,348" visible="false" advanced="true"/>
+    <text id="n7_i809" name="label_2str65" xy="382,331" size="120,40" group="n19_i809" font="ui://27utqbizps391v" fontSize="29" color="#dfd58a" text="主角加成"/>
+    <image id="n8_i809" name="n8" src="i8096i" fileName="res1/frame_fubiaotidianzhuangshi2.png" xy="221,347" size="442,12" group="n19_i809"/>
+    <text id="n16_i809" name="label_attrOldAttr1" xy="360,383" size="95,32" group="n29_i809" fontSize="22" color="#ffffff" align="right" vAlign="middle" autoSize="none" text="+4"/>
+    <image id="n21_i809" name="n21" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="474,386" size="38,24" group="n29_i809"/>
+    <text id="n24_i809" name="label_attrNew1" xy="521,383" size="51,32" group="n29_i809" fontSize="22" color="#dfd58a" vAlign="middle" text="+6%"/>
+    <text id="n55_rdn4" name="label_attrOldName1" xy="258,383" size="102,32" group="n29_i809" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" text="生命"/>
+    <group id="n29_i809" name="n29" xy="258,383" size="314,32" group="n19_i809"/>
+    <text id="n30_i809" name="label_attrOldName2" xy="258,430" size="102,32" group="n33_i809" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" text="生命"/>
+    <text id="n53_rdn4" name="label_attrOldAttr2" xy="361,430" size="94,32" group="n33_i809" fontSize="22" color="#ffffff" align="right" vAlign="middle" autoSize="none" text="+4"/>
+    <image id="n31_i809" name="n31" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="474,434" size="38,24" group="n33_i809"/>
+    <text id="n32_i809" name="label_attrNew2" xy="521,431" size="51,32" group="n33_i809" fontSize="22" color="#dfd58a" vAlign="middle" text="+6%"/>
+    <group id="n33_i809" name="n33" xy="258,430" size="314,33" group="n19_i809"/>
+    <text id="n34_i809" name="label_attrOldAttr3" xy="360,477" size="95,32" group="n37_i809" fontSize="22" color="#ffffff" align="right" vAlign="middle" autoSize="none" text="+4"/>
+    <image id="n35_i809" name="n35" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="474,480" size="38,24" group="n37_i809"/>
+    <text id="n36_i809" name="label_attrNew3" xy="521,477" size="51,32" group="n37_i809" fontSize="22" color="#dfd58a" vAlign="middle" text="+6%"/>
+    <text id="n54_rdn4" name="label_attrOldName3" xy="258,477" size="101,32" group="n37_i809" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" text="生命 "/>
+    <group id="n37_i809" name="n37" xy="258,477" size="314,32" group="n19_i809"/>
+    <image id="n40_i809" name="n40" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="437,286" size="38,24" group="n19_i809">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n91_sbhh" name="n91" src="sbhha8" fileName="res1/frame_nametiao4.png" xy="190,281" size="237,38" group="n46_i809"/>
+    <component id="n42_i809" name="group_starOld" src="i8097j" fileName="group_star1.xml" xy="213,285" size="130,26" group="n46_i809"/>
+    <group id="n46_i809" name="n46" xy="190,281" size="237,38" group="n19_i809" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n92_sbhh" name="n92" src="sbhha8" fileName="res1/frame_nametiao4.png" xy="492,281" size="237,38" group="n47_i809"/>
+    <component id="n45_i809" name="group_starNew" src="i8097j" fileName="group_star1.xml" xy="515,285" size="130,26" group="n47_i809"/>
+    <group id="n47_i809" name="n47" xy="492,281" size="237,38" group="n19_i809" advanced="true">
+      <gearXY controller="c1" pages="0,1" values="492,281|350,281"/>
+    </group>
+    <image id="n130_erkz" name="n130" src="erkzab" fileName="res1/word_chuangongwancheng.png" xy="281,155" group="n19_i809"/>
+    <group id="n19_i809" name="group_devourpet" xy="190,155" size="539,354" visible="false" advanced="true"/>
+    <text id="n94_sbhh" name="label_str139" xy="388,433" size="120,40" group="n119_sbhh" font="ui://27utqbizps391v" fontSize="29" color="#dfd58a" vAlign="middle" text="技能效果"/>
+    <image id="n95_sbhh" name="n95" src="i8096i" fileName="res1/frame_fubiaotidianzhuangshi2.png" xy="227,449" size="442,12" group="n119_sbhh"/>
+    <text id="n98_sbhh" name="label_attrLevel1" xy="266,368" size="58,36" group="n100_sbhh" fontSize="26" color="#9ddc63" vAlign="middle" text="+6%"/>
+    <text id="n99_sbhh" name="label_attrName1" xy="208,368" size="56,36" group="n100_sbhh" fontSize="26" color="#ffffff" vAlign="middle" text="生命"/>
+    <group id="n100_sbhh" name="n100" xy="208,368" size="116,36" group="n119_sbhh"/>
+    <text id="n101_sbhh" name="label_attrName2" xy="377,368" size="56,36" group="n105_sbhh" fontSize="26" color="#ffffff" vAlign="middle" text="生命"/>
+    <text id="n104_sbhh" name="label_attrLevel2" xy="435,368" size="58,36" group="n105_sbhh" fontSize="26" color="#9ddc63" vAlign="middle" text="+6%"/>
+    <group id="n105_sbhh" name="n105" xy="377,368" size="116,36" group="n119_sbhh"/>
+    <text id="n108_sbhh" name="label_attrLevel3" xy="610,368" size="58,36" group="n110_sbhh" fontSize="26" color="#9ddc63" vAlign="middle" text="+6%"/>
+    <text id="n109_sbhh" name="label_attrName3" xy="546,368" size="62,36" group="n110_sbhh" fontSize="26" color="#ffffff" vAlign="middle" text="生命 "/>
+    <group id="n110_sbhh" name="n110" xy="546,368" size="122,36" group="n119_sbhh"/>
+    <image id="n111_sbhh" name="n111" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="437,326" size="38,24" group="n119_sbhh">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n112_sbhh" name="n112" src="sbhha8" fileName="res1/frame_nametiao4.png" xy="199,322" size="237,38" group="n114_sbhh"/>
+    <text id="n121_sbhh" name="label_level" xy="265,317" size="63,40" group="n114_sbhh" font="ui://27utqbizps391v" fontSize="29" color="#ffffff" vAlign="middle" strokeColor="#e58f0c" text="19级"/>
+    <group id="n114_sbhh" name="n114" xy="199,317" size="237,42" group="n119_sbhh" advanced="true"/>
+    <image id="n115_sbhh" name="n115" src="sbhha8" fileName="res1/frame_nametiao4.png" xy="496,322" size="237,38" group="n117_sbhh"/>
+    <text id="n122_sbhh" name="label_newLevel" xy="572,318" size="63,40" group="n117_sbhh" font="ui://27utqbizps391v" fontSize="29" color="#ffffff" vAlign="middle" strokeColor="#e58f0c" text="19级"/>
+    <group id="n117_sbhh" name="n117" xy="496,318" size="237,42" group="n119_sbhh" advanced="true"/>
+    <text id="n120_sbhh" name="label_skill" xy="207,480" size="489,109" group="n119_sbhh" fontSize="26" color="#ffffff" autoSize="shrink" text="间隔4回合释放1次技能间隔4回合释放1次技能间隔4回放1次技能间隔4回合释放1次技能间隔4回合释放1次技能"/>
+    <image id="n123_sbhh" name="n123" src="sbhhaa" fileName="res1/word_shengjichenggong.png" xy="281,154" group="n119_sbhh"/>
+    <group id="n119_sbhh" name="group_levelpet" xy="199,154" size="534,435" visible="false" advanced="true"/>
+    <loader id="n2_i809" name="img_quality" xy="265,-8" size="61,263" group="n4_i809" aspect="true" scale="1.1,0.8" url="ui://eawofj71rode9y" fill="scaleFree"/>
+    <richtext id="n3_i809" name="label_petName" xy="269,15" size="52,132" group="n4_i809" font="ui://27utqbizps391v" fontSize="32" color="#904a44" align="center" leading="0" ubb="true" autoSize="none" text=""/>
+    <list id="n52_puo9" name="list_buff" xy="260,518" size="491,126" group="n4_i809" scale="0.75,0.75" visible="false" layout="row" colGap="7" defaultItem="ui://27utqbizuun63m" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n4_i809" name="n4" xy="260,-8" size="491,652" advanced="true"/>
+  </displayList>
+</component>

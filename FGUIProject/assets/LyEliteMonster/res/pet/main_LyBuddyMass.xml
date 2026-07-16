@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="772,1176">
+  <controller name="page" exported="true" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <image id="n1_me8j" name="n1" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="704,1102" alpha="0.998"/>
+    <richtext id="n2_me8j" name="label_title" xy="23,30" size="210,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="门客">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <image id="n21_me8j" name="n21" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="455,40" size="197,32"/>
+    <text id="n22_me8j" name="label_emailNumber" xy="472,42" size="163,29" fontSize="18" color="#70d36b" align="center" vAlign="middle" autoSize="none" text="当前"/>
+    <component id="n9_me8j" name="btn_attack" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="31,1089" size="120,43" group="n10_me8j" aspect="true">
+      <Button title="排行" titleFontSize="28" controller="page" page="4"/>
+    </component>
+    <component id="n6_me8j" name="btn_task" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="159,1089" size="120,43" group="n10_me8j" aspect="true">
+      <Button title="排行" titleFontSize="28" controller="page" page="1"/>
+    </component>
+    <component id="n7_me8j" name="btn_money" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="287,1089" size="120,43" group="n10_me8j" aspect="true">
+      <Button title="排行" titleFontSize="28" controller="page" page="2"/>
+    </component>
+    <component id="n8_me8j" name="btn_total" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="415,1089" size="120,43" group="n10_me8j" aspect="true">
+      <Button title="排行" titleFontSize="28" controller="page" page="3"/>
+    </component>
+    <component id="n5_me8j" name="btn_rank" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="543,1089" size="120,43" group="n10_me8j" aspect="true">
+      <Button checked="true" title="排行" titleFontSize="28" controller="page" page="0"/>
+    </component>
+    <group id="n10_me8j" name="group_btn" xy="31,1089" size="632,43" advanced="true" layout="hz" lineGap="-15" colGap="8" excludeInvisibles="true"/>
+    <image id="n11_me8j" name="n11" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="553,925"/>
+    <component id="n13_me8j" name="btn_what" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="178,20" visible="false"/>
+    <component id="n19_me8j" name="pageRank" src="ltem40" fileName="res/attack/LyEliteRank.xml" xy="22,108" controller="btn_change,1,c1,1">
+      <gearDisplay controller="page" pages="0"/>
+    </component>
+    <component id="n23_me8j" name="pageTask" src="me8jpr" fileName="res/pet/pageTask.xml" xy="17,102" controller="c1,0">
+      <gearDisplay controller="page" pages="1"/>
+    </component>
+    <component id="n28_me8j" name="pageMoney" src="me8jr5" fileName="res/pet/pageMoney.xml" xy="17,72">
+      <gearDisplay controller="page" pages="2"/>
+    </component>
+    <component id="n31_me8j" name="pageDarw" src="me8jrf" fileName="res/pet/pageDarw.xml" xy="16,114">
+      <gearDisplay controller="page" pages="3"/>
+    </component>
+    <component id="n88_me8j" name="btn_point" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="430,6"/>
+    <component id="n87_me8j" name="pageSend" src="me8jrl" fileName="res/pet/pageSend.xml" xy="24,113" size="686,957">
+      <gearDisplay controller="page" pages="4"/>
+    </component>
+    <component id="n12_me8j" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="637,38">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

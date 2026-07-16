@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qy0p8c70">
+  <resources>
+    <component id="u2xm1" name="LyActivityMonsterTower.xml" path="/" exported="true"/>
+    <component id="u2xm2" name="group_main.xml" path="/"/>
+    <component id="qhxy3" name="LyActivityMonsterTowerReward.xml" path="/" exported="true"/>
+    <component id="qhxy4" name="group_reward.xml" path="/"/>
+    <component id="qhxy5" name="group_rewarditem.xml" path="/"/>
+    <component id="qhxy6" name="LyActivityMonsterTowerRank.xml" path="/" exported="true"/>
+    <component id="qhxy7" name="group_rank.xml" path="/"/>
+    <component id="qhxy8" name="group_rankitem.xml" path="/"/>
+    <component id="qhxy9" name="group_attr.xml" path="/"/>
+    <component id="qhxya" name="btn_item.xml" path="/itemframe/"/>
+    <component id="qhxyd" name="group_attr8.xml" path="/"/>
+    <component id="j5ize" name="LyActivityMonsterTowerAddVal.xml" path="/" exported="true"/>
+    <component id="j5izf" name="group_addval.xml" path="/"/>
+    <component id="xq64g" name="LyActivityMonsterTowerAddValMin.xml" path="/" exported="true"/>
+    <component id="xq64h" name="group_addvalmin.xml" path="/"/>
+    <component id="xq64i" name="LyActivityMonsterTowerOneKey.xml" path="/" exported="true"/>
+    <component id="xq64j" name="group_onekey.xml" path="/"/>
+    <image id="v8pen" name="fex_choose buff.png" path="/itemframe/"/>
+    <image id="v8peo" name="fex_choose buff0.png" path="/itemframe/"/>
+    <image id="v8pep" name="frame_buff0.png" path="/itemframe/" exported="true"/>
+    <image id="v8peq" name="frame_buff under public4.png" path="/res/"/>
+    <image id="n1sgv" name="frame_buff1.png" path="/itemframe/" exported="true"/>
+    <image id="n1sgw" name="frame_buff2.png" path="/itemframe/" exported="true"/>
+    <image id="n1sgx" name="frame_buff3.png" path="/itemframe/" exported="true"/>
+    <image id="n1sgy" name="frame_buff4.png" path="/itemframe/" exported="true"/>
+    <image id="riamz" name="icon_jiachengyushe.png" path="/res/"/>
+    <component id="riam10" name="btn_autoattr.xml" path="/"/>
+    <image id="bza813" name="dec_arrow.png" path="/itemframe/"/>
+    <image id="bza814" name="frame_buff-subscript1.png" path="/itemframe/" exported="true"/>
+    <image id="bza815" name="frame_buff-subscript2.png" path="/itemframe/" exported="true"/>
+    <image id="bza816" name="frame_buff-subscript3.png" path="/itemframe/" exported="true"/>
+    <image id="bza817" name="frame_buff-subscript4.png" path="/itemframe/" exported="true"/>
+    <image id="bza818" name="frame_buff.png" path="/itemframe/" exported="true"/>
+    <component id="n4fq19" name="btn_chapter.xml" path="/"/>
+    <image id="n4fq1a" name="icon_paihangjiangli.png" path="/res/"/>
+    <component id="n4fq1b" name="btn_chapter2.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

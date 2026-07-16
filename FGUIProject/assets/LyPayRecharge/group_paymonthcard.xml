@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1074">
+  <displayList>
+    <component id="n4_lu9o" name="group_month" src="lu9o4n" fileName="group_paymonthcard1.xml" xy="224,537" pivot="0.5,0.5" anchor="true"/>
+    <graph id="n6_lu9o" name="group_mask" xy="0,-463" size="750,2000" touchable="false" type="rect" lineColor="#80000000" fillColor="#80000000">
+      <relation target="" sidePair="width-width,center-center,middle-middle"/>
+    </graph>
+    <component id="n5_lu9o" name="group_life" src="lu9o4q" fileName="group_paymonthcard2.xml" xy="526,537" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+</component>

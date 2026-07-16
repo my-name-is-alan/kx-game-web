@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <config>
+    <item id="1" activityId="120" desc="0" detail="1.帮派规则-&#10;①　雾隐岛凶险万分，少侠需要以帮派为单位进入.&#10;②　当活动正式开启时，玩家的帮派将会被锁定，不论玩家被踢还是帮派解散都不会影响到活动中的组队&#10;③　可以进入玩法的时间为每日10：00~22：00。&#10;@2.分层规则-&#10;①　玩法分为三层，少侠在每一层均会遇到不同的怪物和事件，随着层数增加，战斗难度和奖励也会增加.&#10;②　每达到10次探索，会获得一次抉择的机会，玩家可以在此时选择升层&#10;③　少侠在前两层只会遇到怪物，到三层将会遇到其他的少侠.&#10;④　在3层的每次探索会获得安全时间，在安全时间内不会被其他玩家探索到。&#10;⑤　每名少侠都有精力，每次被其他少侠攻击将会减少精力，精力为0后将会掉回到2层。&#10;@3.体力规则-&#10;①　少侠每次探索消耗1~3点体力，层数越高消耗体力越多&#10;②　体力随着时间恢复，达到上限后将不会再恢复。&#10;③　可以使用道具恢复体力&#10;@4.战斗规则-&#10;①　打败怪物会获得魂力丹&#10;②　魂力丹会增加少侠在南荒秘境的属性，数值为怪物属性的1%。&#10;③　战斗模式采用通用战斗，战斗属性=基础属性+魂力丹加成。&#10;@5.标记规则-&#10;①　遇到强大的怪物，可以对怪物进行标记。&#10;②　标记后同帮派的队友可以对目标进行协助攻击，每次协助后会有一定冷却时间。&#10;③　每次协助需要消耗1次协助次数。&#10;④　协助次数无法补充，每日0点刷新。&#10;⑤　被标记的怪物被协助击杀后，少侠可以在日志界面领取奖励。&#10;⑥　队友协助获得的奖励为固定奖励。&#10;@6.排行榜-&#10;①　积分排行:根据个人在活动期间累积获得的积分进行排名;积分相同时，按照达成时间进行排名，先达者优胜。&#10;②　帮派排行:少侠每次进入第三层以后可获得雾隐血刃，击败高战力怪物和其他少侠也将掉落雾隐血刃。少侠被击败后雾隐血刃也会部分掉落。&#10;③   根据帮派全员在活动期间累积获得的雾隐血刃的数量进行排名;数量相同时，按照达成时间进行排名，先达者优胜。&#10;@7.排行奖励-&#10;①　活动结束后，根据积分排行榜的排名领取对应的排行奖励，该奖励可直接领取也可以在活动结束后会通过邮件补发。&#10;②　活动结束后，根据帮派排行榜的排名领取对应的排行奖励，该奖励可直接领取也可以在活动结束后会通过邮件补发。" openDate="4" cdTime="10" durationTime="10:00-22:00" durationDays="3" energyValueId="217" energyItemId="110026" energyRecoveryTime="30" energyMax="30" addEnergy="120033" addEnergyNum="5" hpPercent="0.01" intervalTime="2" safeTime="60" markupRatioHp="0.01" markupRatioD="0.01" markupRatioA="0.01" markupRatioS="0.01" assistanceFrequency="20" integralMarkup="0.1" pRankValueId="221" pRankItemId="110030" rankingValueId="218" rankingItemId="110027" failRatio="0.3" silverBox="219" goldenBox="220" silverKey="120034" goldenKey="120035" silverBonuse="376002" goldenBonuse="376001" skipNeed="1000" helpBonuse="300" pMailTitle="雾隐岛个人排行补发" pMailText="尊敬的少侠：您在雾隐岛活动中排名第%s，现发现您奖励未领取，我们将派出人员星夜兼程将奖励送到您手中，请您查收" gMailTitle="雾隐岛帮派排行补发" gMailText="尊敬的少侠：您的帮派在雾隐岛活动中排名第%s，现发现您奖励未领取，我们将派出人员星夜兼程将奖励送到您手中，请您查收。"/>
+  </config>
+  <monster>
+    <item id="1" monsterId="7000001" group="1" openDays="1;30" bonuses="370101" encounterWeight="50" descText="1" countItem="110017" countValue="208" pRankNum="100" GRankNum="0"/>
+    <item id="2" monsterId="7000002" group="1" openDays="1;30" bonuses="370121" encounterWeight="30" descText="2" countItem="110018" countValue="209" pRankNum="200" GRankNum="0"/>
+    <item id="3" monsterId="7000003" group="1" openDays="1;30" bonuses="370131-370132" encounterWeight="20" descText="3" countItem="110019" countValue="210" pRankNum="400" GRankNum="0"/>
+    <item id="4" monsterId="7000004" group="2" openDays="1;30" bonuses="370141" encounterWeight="50" descText="4" countItem="110020" countValue="211" pRankNum="200" GRankNum="0"/>
+    <item id="5" monsterId="7000005" group="2" openDays="1;30" bonuses="370151" encounterWeight="25" descText="5" countItem="110021" countValue="212" pRankNum="400" GRankNum="0"/>
+    <item id="6" monsterId="7000006" group="2" openDays="1;30" bonuses="370161-370162" encounterWeight="25" descText="6" countItem="110022" countValue="213" pRankNum="800" GRankNum="0"/>
+    <item id="7" monsterId="7000007" group="3" openDays="1;30" bonuses="370171-370172" encounterWeight="20" descText="7" countItem="110023" countValue="214" pRankNum="300" GRankNum="1"/>
+    <item id="8" monsterId="7000008" group="3" openDays="1;30" bonuses="370181-370182-370183" encounterWeight="20" descText="8" countItem="110024" countValue="215" pRankNum="600" GRankNum="1"/>
+    <item id="9" monsterId="7000009" group="3" openDays="1;30" bonuses="370191-370192-370193" encounterWeight="20" descText="9" countItem="110025" countValue="216" pRankNum="1200" GRankNum="1"/>
+    <item id="10" monsterId="7000001" group="1" openDays="31;60" bonuses="370111" encounterWeight="50" descText="1" countItem="110017" countValue="208" pRankNum="100" GRankNum="0"/>
+    <item id="11" monsterId="7000002" group="1" openDays="31;60" bonuses="370121" encounterWeight="30" descText="2" countItem="110018" countValue="209" pRankNum="200" GRankNum="0"/>
+    <item id="12" monsterId="7000003" group="1" openDays="31;60" bonuses="370131-370132" encounterWeight="20" descText="3" countItem="110019" countValue="210" pRankNum="400" GRankNum="0"/>
+    <item id="13" monsterId="7000004" group="2" openDays="31;60" bonuses="370141" encounterWeight="50" descText="4" countItem="110020" countValue="211" pRankNum="200" GRankNum="0"/>
+    <item id="14" monsterId="7000005" group="2" openDays="31;60" bonuses="370151" encounterWeight="25" descText="5" countItem="110021" countValue="212" pRankNum="400" GRankNum="0"/>
+    <item id="15" monsterId="7000006" group="2" openDays="31;60" bonuses="370161-370162" encounterWeight="25" descText="6" countItem="110022" countValue="213" pRankNum="800" GRankNum="0"/>
+    <item id="16" monsterId="7000007" group="3" openDays="31;60" bonuses="370171-370172" encounterWeight="20" descText="7" countItem="110023" countValue="214" pRankNum="300" GRankNum="1"/>
+    <item id="17" monsterId="7000008" group="3" openDays="31;60" bonuses="370181-370182-370183" encounterWeight="20" descText="8" countItem="110024" countValue="215" pRankNum="600" GRankNum="1"/>
+    <item id="18" monsterId="7000009" group="3" openDays="31;60" bonuses="370191-370192-370193" encounterWeight="20" descText="9" countItem="110025" countValue="216" pRankNum="1200" GRankNum="1"/>
+    <item id="19" monsterId="7000001" group="1" openDays="61;90" bonuses="370111" encounterWeight="50" descText="1" countItem="110017" countValue="208" pRankNum="100" GRankNum="0"/>
+    <item id="20" monsterId="7000002" group="1" openDays="61;90" bonuses="370121" encounterWeight="30" descText="2" countItem="110018" countValue="209" pRankNum="200" GRankNum="0"/>
+    <item id="21" monsterId="7000003" group="1" openDays="61;90" bonuses="370131-370132" encounterWeight="20" descText="3" countItem="110019" countValue="210" pRankNum="400" GRankNum="0"/>
+    <item id="22" monsterId="7000004" group="2" openDays="61;90" bonuses="370141" encounterWeight="50" descText="4" countItem="110020" countValue="211" pRankNum="200" GRankNum="0"/>
+    <item id="23" monsterId="7000005" group="2" openDays="61;90" bonuses="370151" encounterWeight="25" descText="5" countItem="110021" countValue="212" pRankNum="400" GRankNum="0"/>
+    <item id="24" monsterId="7000006" group="2" openDays="61;90" bonuses="370161-370162" encounterWeight="25" descText="6" countItem="110022" countValue="213" pRankNum="800" GRankNum="0"/>
+    <item id="25" monsterId="7000007" group="3" openDays="61;90" bonuses="370171-370172" encounterWeight="20" descText="7" countItem="110023" countValue="214" pRankNum="300" GRankNum="1"/>
+    <item id="26" monsterId="7000008" group="3" openDays="61;90" bonuses="370181-370182-370183" encounterWeight="20" descText="8" countItem="110024" countValue="215" pRankNum="600" GRankNum="1"/>
+    <item id="27" monsterId="7000009" group="3" openDays="61;90" bonuses="370191-370192-370193" encounterWeight="20" descText="9" countItem="110025" countValue="216" pRankNum="1200" GRankNum="1"/>
+    <item id="28" monsterId="7000001" group="1" openDays="91;120" bonuses="370111" encounterWeight="50" descText="1" countItem="110017" countValue="208" pRankNum="100" GRankNum="0"/>
+    <item id="29" monsterId="7000002" group="1" openDays="91;120" bonuses="370121" encounterWeight="30" descText="2" countItem="110018" countValue="209" pRankNum="200" GRankNum="0"/>
+    <item id="30" monsterId="7000003" group="1" openDays="91;120" bonuses="370131-370132" encounterWeight="20" descText="3" countItem="110019" countValue="210" pRankNum="400" GRankNum="0"/>
+    <item id="31" monsterId="7000004" group="2" openDays="91;120" bonuses="370141" encounterWeight="50" descText="4" countItem="110020" countValue="211" pRankNum="200" GRankNum="0"/>
+    <item id="32" monsterId="7000005" group="2" openDays="91;120" bonuses="370151" encounterWeight="25" descText="5" countItem="110021" countValue="212" pRankNum="400" GRankNum="0"/>
+    <item id="33" monsterId="7000006" group="2" openDays="91;120" bonuses="370161-370162" encounterWeight="25" descText="6" countItem="110022" countValue="213" pRankNum="800" GRankNum="0"/>
+    <item id="34" monsterId="7000007" group="3" openDays="91;120" bonuses="370171-370172" encounterWeight="20" descText="7" countItem="110023" countValue="214" pRankNum="300" GRankNum="1"/>
+    <item id="35" monsterId="7000008" group="3" openDays="91;120" bonuses="370181-370182-370183" encounterWeight="20" descText="8" countItem="110024" countValue="215" pRankNum="600" GRankNum="1"/>
+    <item id="36" monsterId="7000009" group="3" openDays="91;120" bonuses="370191-370192-370193" encounterWeight="20" descText="9" countItem="110025" countValue="216" pRankNum="1200" GRankNum="1"/>
+    <item id="37" monsterId="7000001" group="1" openDays="121;150" bonuses="370111" encounterWeight="50" descText="1" countItem="110017" countValue="208" pRankNum="100" GRankNum="0"/>
+    <item id="38" monsterId="7000002" group="1" openDays="121;150" bonuses="370121" encounterWeight="30" descText="2" countItem="110018" countValue="209" pRankNum="200" GRankNum="0"/>
+    <item id="39" monsterId="7000003" group="1" openDays="121;150" bonuses="370131-370132" encounterWeight="20" descText="3" countItem="110019" countValue="210" pRankNum="400" GRankNum="0"/>
+    <item id="40" monsterId="7000004" group="2" openDays="121;150" bonuses="370141" encounterWeight="50" descText="4" countItem="110020" countValue="211" pRankNum="200" GRankNum="0"/>
+    <item id="41" monsterId="7000005" group="2" openDays="121;150" bonuses="370151" encounterWeight="25" descText="5" countItem="110021" countValue="212" pRankNum="400" GRankNum="0"/>
+    <item id="42" monsterId="7000006" group="2" openDays="121;150" bonuses="370161-370162" encounterWeight="25" descText="6" countItem="110022" countValue="213" pRankNum="800" GRankNum="0"/>
+    <item id="43" monsterId="7000007" group="3" openDays="121;150" bonuses="370171-370172" encounterWeight="20" descText="7" countItem="110023" countValue="214" pRankNum="300" GRankNum="1"/>
+    <item id="44" monsterId="7000008" group="3" openDays="121;150" bonuses="370181-370182-370183" encounterWeight="20" descText="8" countItem="110024" countValue="215" pRankNum="600" GRankNum="1"/>
+    <item id="45" monsterId="7000009" group="3" openDays="121;150" bonuses="370191-370192-370193" encounterWeight="20" descText="9" countItem="110025" countValue="216" pRankNum="1200" GRankNum="1"/>
+    <item id="46" monsterId="7000001" group="1" openDays="151;99999" bonuses="370111" encounterWeight="50" descText="1" countItem="110017" countValue="208" pRankNum="100" GRankNum="0"/>
+    <item id="47" monsterId="7000002" group="1" openDays="151;99999" bonuses="370121" encounterWeight="30" descText="2" countItem="110018" countValue="209" pRankNum="200" GRankNum="0"/>
+    <item id="48" monsterId="7000003" group="1" openDays="151;99999" bonuses="370131-370132" encounterWeight="20" descText="3" countItem="110019" countValue="210" pRankNum="400" GRankNum="0"/>
+    <item id="49" monsterId="7000004" group="2" openDays="151;99999" bonuses="370141" encounterWeight="50" descText="4" countItem="110020" countValue="211" pRankNum="200" GRankNum="0"/>
+    <item id="50" monsterId="7000005" group="2" openDays="151;99999" bonuses="370151" encounterWeight="25" descText="5" countItem="110021" countValue="212" pRankNum="400" GRankNum="0"/>
+    <item id="51" monsterId="7000006" group="2" openDays="151;99999" bonuses="370161-370162" encounterWeight="25" descText="6" countItem="110022" countValue="213" pRankNum="800" GRankNum="0"/>
+    <item id="52" monsterId="7000007" group="3" openDays="151;99999" bonuses="370171-370172" encounterWeight="20" descText="7" countItem="110023" countValue="214" pRankNum="300" GRankNum="1"/>
+    <item id="53" monsterId="7000008" group="3" openDays="151;99999" bonuses="370181-370182-370183" encounterWeight="20" descText="8" countItem="110024" countValue="215" pRankNum="600" GRankNum="1"/>
+    <item id="54" monsterId="7000009" group="3" openDays="151;99999" bonuses="370191-370192-370193" encounterWeight="20" descText="9" countItem="110025" countValue="216" pRankNum="1200" GRankNum="1"/>
+  </monster>
+  <specialEvents>
+    <item id="1" name="暴怒浓雾" desc="金宝箱1层" openDays="1;30" type="1" bonuses="0" pRankNum="1500" group="1" encounterWeight="0" descText="11" payId="0" value="220" duration="0"/>
+    <item id="2" name="暴怒浓雾" desc="金宝箱2层" openDays="1;30" type="1" bonuses="0" pRankNum="3000" group="2" encounterWeight="2" descText="11" payId="0" value="220" duration="0"/>
+    <item id="3" name="暴怒浓雾" desc="金箱子3层" openDays="1;30" type="1" bonuses="0" pRankNum="4500" group="3" encounterWeight="2" descText="11" payId="0" value="220" duration="0"/>
+    <item id="4" name="扭曲雾灵" desc="银宝箱1层" openDays="1;30" type="1" bonuses="0" pRankNum="1000" group="1" encounterWeight="2" descText="12" payId="0" value="219" duration="0"/>
+    <item id="5" name="扭曲雾灵" desc="银宝箱2层" openDays="1;30" type="1" bonuses="0" pRankNum="2000" group="2" encounterWeight="2" descText="12" payId="0" value="219" duration="0"/>
+    <item id="6" name="扭曲雾灵" desc="银宝箱3层" openDays="1;30" type="1" bonuses="0" pRankNum="3000" group="3" encounterWeight="2" descText="12" payId="0" value="219" duration="0"/>
+    <item id="7" name="雾中呢喃" desc="商人1层" openDays="1;30" type="2" bonuses="0" pRankNum="1000" group="1" encounterWeight="1" descText="31" payId="1001;1002;1003" value="0" duration="1"/>
+    <item id="8" name="雾中呢喃" desc="商人2层" openDays="1;30" type="2" bonuses="0" pRankNum="2000" group="2" encounterWeight="1" descText="31" payId="1001;1002;1003" value="0" duration="1"/>
+    <item id="9" name="雾中呢喃" desc="商人3层" openDays="1;30" type="2" bonuses="0" pRankNum="3000" group="3" encounterWeight="2" descText="31" payId="1001;1002;1003" value="0" duration="1"/>
+    <item id="10" name="前人遗物" desc="洞穴1层" openDays="1;30" type="3" bonuses="370108-370001" pRankNum="400" group="1" encounterWeight="17" descText="13" payId="0" value="0" duration="0"/>
+    <item id="11" name="前人遗物" desc="洞穴2层" openDays="1;30" type="3" bonuses="370109-370002" pRankNum="800" group="2" encounterWeight="15" descText="13" payId="0" value="0" duration="0"/>
+    <item id="12" name="前人遗物" desc="洞穴3层" openDays="1;30" type="3" bonuses="370110-370003-370104" pRankNum="1200" group="3" encounterWeight="14" descText="13" payId="0" value="0" duration="0"/>
+    <item id="13" name="暴怒浓雾" desc="金宝箱1层" openDays="31;60" type="1" bonuses="0" pRankNum="1500" group="1" encounterWeight="0" descText="11" payId="0" value="220" duration="0"/>
+    <item id="14" name="暴怒浓雾" desc="金宝箱2层" openDays="31;60" type="1" bonuses="0" pRankNum="3000" group="2" encounterWeight="2" descText="11" payId="0" value="220" duration="0"/>
+    <item id="15" name="暴怒浓雾" desc="金箱子3层" openDays="31;60" type="1" bonuses="0" pRankNum="4500" group="3" encounterWeight="2" descText="11" payId="0" value="220" duration="0"/>
+    <item id="16" name="扭曲雾灵" desc="银宝箱1层" openDays="31;60" type="1" bonuses="0" pRankNum="1500" group="1" encounterWeight="2" descText="12" payId="0" value="219" duration="0"/>
+    <item id="17" name="扭曲雾灵" desc="银宝箱2层" openDays="31;60" type="1" bonuses="0" pRankNum="3000" group="2" encounterWeight="2" descText="12" payId="0" value="219" duration="0"/>
+    <item id="18" name="扭曲雾灵" desc="银宝箱3层" openDays="31;60" type="1" bonuses="0" pRankNum="4500" group="3" encounterWeight="2" descText="12" payId="0" value="219" duration="0"/>
+    <item id="19" name="雾中呢喃" desc="商人1层" openDays="31;60" type="2" bonuses="0" pRankNum="1000" group="1" encounterWeight="1" descText="31" payId="1001;1002;1003" value="0" duration="1"/>
+    <item id="20" name="雾中呢喃" desc="商人2层" openDays="31;60" type="2" bonuses="0" pRankNum="2000" group="2" encounterWeight="1" descText="31" payId="1001;1002;1003" value="0" duration="1"/>
+    <item id="21" name="雾中呢喃" desc="商人3层" openDays="31;60" type="2" bonuses="0" pRankNum="3000" group="3" encounterWeight="2" descText="31" payId="1001;1002;1003" value="0" duration="1"/>
+    <item id="22" name="前人遗物" desc="洞穴1层" openDays="31;60" type="3" bonuses="370001" pRankNum="400" group="1" encounterWeight="17" descText="13" payId="0" value="0" duration="0"/>
+    <item id="23" name="前人遗物" desc="洞穴2层" openDays="31;60" type="3" bonuses="370002" pRankNum="800" group="2" encounterWeight="15" descText="13" payId="0" value="0" duration="0"/>
+    <item id="24" name="前人遗物" desc="洞穴3层" openDays="31;60" type="3" bonuses="370003" pRankNum="1200" group="3" encounterWeight="14" descText="13" payId="0" value="0" duration="0"/>
+    <item id="25" name="暴怒浓雾" desc="金宝箱1层" openDays="61;9999" type="1" bonuses="0" pRankNum="1500" group="1" encounterWeight="0" descText="11" payId="0" value="220" duration="0"/>
+    <item id="26" name="暴怒浓雾" desc="金宝箱2层" openDays="61;9999" type="1" bonuses="0" pRankNum="3000" group="2" encounterWeight="2" descText="11" payId="0" value="220" duration="0"/>
+    <item id="27" name="暴怒浓雾" desc="金箱子3层" openDays="61;9999" type="1" bonuses="0" pRankNum="4500" group="3" encounterWeight="2" descText="11" payId="0" value="220" duration="0"/>
+    <item id="28" name="扭曲雾灵" desc="银宝箱1层" openDays="61;9999" type="1" bonuses="0" pRankNum="1500" group="1" encounterWeight="2" descText="12" payId="0" value="219" duration="0"/>
+    <item id="29" name="扭曲雾灵" desc="银宝箱2层" openDays="61;9999" type="1" bonuses="0" pRankNum="3000" group="2" encounterWeight="2" descText="12" payId="0" value="219" duration="0"/>
+    <item id="30" name="扭曲雾灵" desc="银宝箱3层" openDays="61;9999" type="1" bonuses="0" pRankNum="4500" group="3" encounterWeight="2" descText="12" payId="0" value="219" duration="0"/>
+    <item id="31" name="雾中呢喃" desc="商人1层" openDays="61;9999" type="2" bonuses="0" pRankNum="1000" group="1" encounterWeight="1" descText="31" payId="1001;1002;1003" value="0" duration="1"/>
+    <item id="32" name="雾中呢喃" desc="商人2层" openDays="61;9999" type="2" bonuses="0" pRankNum="2000" group="2" encounterWeight="1" descText="31" payId="1001;1002;1003" value="0" duration="1"/>
+    <item id="33" name="雾中呢喃" desc="商人3层" openDays="61;9999" type="2" bonuses="0" pRankNum="3000" group="3" encounterWeight="2" descText="31" payId="1001;1002;1003" value="0" duration="1"/>
+    <item id="34" name="前人遗物" desc="洞穴1层" openDays="61;9999" type="3" bonuses="370001" pRankNum="400" group="1" encounterWeight="17" descText="13" payId="0" value="0" duration="0"/>
+    <item id="35" name="前人遗物" desc="洞穴2层" openDays="61;9999" type="3" bonuses="370002" pRankNum="800" group="2" encounterWeight="15" descText="13" payId="0" value="0" duration="0"/>
+    <item id="36" name="前人遗物" desc="洞穴3层" openDays="61;9999" type="3" bonuses="370003" pRankNum="1200" group="3" encounterWeight="14" descText="13" payId="0" value="0" duration="0"/>
+  </specialEvents>
+  <playerBonuses>
+    <item id="1" name="雾中相逢" group="3" openDays="1;30" bonuses="370105-370106-370107" pRankNumFail="1000" pRankNumWin="1200" descText="21"/>
+    <item id="2" name="雾中相逢" group="3" openDays="31;60" bonuses="370105-370106-370107" pRankNumFail="1000" pRankNumWin="1200" descText="21"/>
+    <item id="3" name="雾中相逢" group="3" openDays="61;99999" bonuses="370105-370106-370107" pRankNumFail="1000" pRankNumWin="1200" descText="21"/>
+  </playerBonuses>
+  <groupProbability>
+    <item group="1" name="受难村庄" exploration="1;999999" monsterWeight="80;80" specialWeight="20;20" battleWeight="0;0" refusalBonuses="375001" refusalPRankNum="500" refusalGRankNum="0" img_battle="bg_langyabang_wudao1"/>
+    <item group="2" name="雾隐外围" exploration="1;999999" monsterWeight="80;80" specialWeight="20;20" battleWeight="0;0" refusalBonuses="375002" refusalPRankNum="1000" refusalGRankNum="0" img_battle="bg_langyabang_wudao2"/>
+    <item group="3" name="雾隐核心" exploration="10;999999" monsterWeight="80;60" specialWeight="20;20" battleWeight="0;20" refusalBonuses="375003" refusalPRankNum="2500" refusalGRankNum="1" img_battle="bg_langyabang_wudao3"/>
+  </groupProbability>
+  <personReward>
+    <item id="1" min="1" max="1" openDays="1,30;31,60;61,9999" bonuseID="373001;373001;373001" titleReward="3"/>
+    <item id="2" min="2" max="2" openDays="1,30;31,60;61,9999" bonuseID="373002;373002;373002" titleReward="0"/>
+    <item id="3" min="3" max="3" openDays="1,30;31,60;61,9999" bonuseID="373003;373003;373003" titleReward="0"/>
+    <item id="4" min="4" max="6" openDays="1,30;31,60;61,9999" bonuseID="373004;373004;373004" titleReward="0"/>
+    <item id="5" min="7" max="10" openDays="1,30;31,60;61,9999" bonuseID="373005;373005;373005" titleReward="0"/>
+    <item id="6" min="11" max="20" openDays="1,30;31,60;61,9999" bonuseID="373006;373006;373006" titleReward="0"/>
+    <item id="7" min="21" max="30" openDays="1,30;31,60;61,9999" bonuseID="373007;373007;373007" titleReward="0"/>
+    <item id="8" min="31" max="50" openDays="1,30;31,60;61,9999" bonuseID="373008;373008;373008" titleReward="0"/>
+    <item id="9" min="51" max="100" openDays="1,30;31,60;61,9999" bonuseID="373009;373009;373009" titleReward="0"/>
+    <item id="10" min="101" max="200" openDays="1,30;31,60;61,9999" bonuseID="373010;373010;373010" titleReward="0"/>
+    <item id="11" min="201" max="99999" openDays="1,30;31,60;61,9999" bonuseID="373011;373011;373011" titleReward="0"/>
+  </personReward>
+  <groupReward>
+    <item id="1" min="1" max="1" openDays="1,30;31,60;61,9999" bonuseID="374001;374001;374001"/>
+    <item id="2" min="2" max="2" openDays="1,30;31,60;61,9999" bonuseID="374002;374002;374002"/>
+    <item id="3" min="3" max="3" openDays="1,30;31,60;61,9999" bonuseID="374003;374003;374003"/>
+    <item id="4" min="4" max="4" openDays="1,30;31,60;61,9999" bonuseID="374004;374004;374004"/>
+    <item id="5" min="5" max="5" openDays="1,30;31,60;61,9999" bonuseID="374005;374005;374005"/>
+  </groupReward>
+  <payGift>
+    <item index="1" activityId="120" id="1" type="0" param="0" num="0" refreshType="2" name="免费领取" maxBuyCount="1" bonusesId="371101" energy="0"/>
+    <item index="2" activityId="120" id="2" type="4" param="0" num="0" refreshType="2" name="广告领取" maxBuyCount="3" bonusesId="371102" energy="5"/>
+    <item index="3" activityId="120" id="3" type="3" param="0" num="398" refreshType="2" name="雾隐玉璧礼包" maxBuyCount="2" bonusesId="371103" energy="5"/>
+    <item index="4" activityId="120" id="4" type="2" param="330" num="0" refreshType="2" name="雾隐助力礼包" maxBuyCount="1" bonusesId="371104" energy="0"/>
+    <item index="5" activityId="120" id="5" type="2" param="331" num="0" refreshType="2" name="雾隐畅通礼包" maxBuyCount="3" bonusesId="371105" energy="0"/>
+    <item index="6" activityId="120" id="6" type="2" param="332" num="0" refreshType="2" name="雾隐进阶礼包" maxBuyCount="3" bonusesId="371106" energy="0"/>
+    <item index="7" activityId="120" id="7" type="2" param="333" num="0" refreshType="2" name="雾隐高级礼包" maxBuyCount="3" bonusesId="371107" energy="0"/>
+    <item index="8" activityId="120" id="8" type="2" param="334" num="0" refreshType="2" name="雾隐豪华礼包" maxBuyCount="3" bonusesId="371108" energy="0"/>
+    <item index="9" activityId="120" id="9" type="2" param="335" num="0" refreshType="2" name="雾隐高贵礼包" maxBuyCount="1" bonusesId="371109" energy="0"/>
+    <item index="10" activityId="120" id="10" type="2" param="336" num="0" refreshType="2" name="雾隐无限礼包" maxBuyCount="1" bonusesId="371110" energy="0"/>
+    <item index="1001" activityId="120" id="1001" type="2" param="340" num="0" refreshType="1" name="雾隐岛商人包68" maxBuyCount="1" bonusesId="372101" energy="0"/>
+    <item index="1002" activityId="120" id="1002" type="2" param="341" num="0" refreshType="1" name="雾隐岛商人包128" maxBuyCount="1" bonusesId="372102" energy="0"/>
+    <item index="1003" activityId="120" id="1003" type="2" param="342" num="0" refreshType="1" name="雾隐岛商人包328" maxBuyCount="1" bonusesId="372103" energy="0"/>
+  </payGift>
+  <text>
+    <item id="1" titleText="击败奖励（概率获得）" descText="心智迷失的村落遗民，徘徊迷雾，攻击路人" name="失心村民" spine="gw_pangshuifei"/>
+    <item id="2" titleText="击败奖励（概率获得）" descText="曾守土的勇士，今成无魂之兵，盲目攻击" name="失心民兵" spine="gw_pangshuifei"/>
+    <item id="3" titleText="击败奖励（概率获得）" descText="正义之魂失落，化为迷雾中的游荡武者" name="失心侠士" spine="gw_pangshuifei"/>
+    <item id="4" titleText="击败奖励（概率获得）" descText="灵魂破碎，狂乱无度，曾经的亡命之徒愈发暴躁" name="丧魄狂徒" spine="gw_pangshuifei"/>
+    <item id="5" titleText="击败奖励（概率获得）" descText="昔日英豪，今丧魂魄，失控的武力威胁" name="丧魄豪侠" spine="gw_pangshuifei"/>
+    <item id="6" titleText="击败奖励（概率获得）" descText="江湖好手携带魔刀之魂，力量失控，四处肆虐" name="丧魄魔刀" spine="gw_pangshuifei"/>
+    <item id="7" titleText="击败奖励（概率获得）" descText="琴声惑人心智，操控迷雾，令人闻风丧胆" name="乱心琴魔" spine="gw_pangshuifei"/>
+    <item id="8" titleText="击败奖励（概率获得）" descText="武学巅峰，却因疯癫失控，威胁四方" name="癫狂宗师" spine="gw_pangshuifei"/>
+    <item id="9" titleText="击败奖励（概率获得）" descText="迷雾深处，白猿身影，智慧与野性的结合体" name="神秘白猿" spine="gw_pangshuifei"/>
+    <item id="11" titleText="奖励预览" descText="愤怒之魂，凝聚不散，化作实体，力量狂暴，难以驾驭" name="怒魄" spine="gw_pangshuifei"/>
+    <item id="12" titleText="奖励预览" descText="飘渺无依，游荡于世的灵魂，无形无质，难以捉摸。" name="游魂" spine="gw_pangshuifei"/>
+    <item id="13" titleText="奖励预览（概率获得）" descText="古老岁月中遗留下的神秘物品，承载着往昔的记忆与力量，等待着有缘人的发现与传承。" name="前人遗物" spine="gw_pangshuifei"/>
+    <item id="21" titleText="击败奖励（概率获得）" descText="隐匿于迷雾中，身份成谜的高手" name="神秘玩家" spine="gw_pangshuifei"/>
+    <item id="31" titleText="0" descText="雾中出现一个行色匆匆的少女，她说一定要看看他带来的东西，对我们的目标至关重要" name="雾中轻语" spine="gw_pangshuifei"/>
+  </text>
+  <task>
+    <item id="1" type="1" timeLimit="12:30" bonusesID="377001" objective="10"/>
+    <item id="2" type="2" timeLimit="0" bonusesID="2" objective="20"/>
+    <item id="3" type="2" timeLimit="0" bonusesID="3" objective="40"/>
+  </task>
+</root>

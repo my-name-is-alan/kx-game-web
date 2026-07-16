@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="560,348" designImage="ui://30lp993aug9j20" designImageOffsetX="-103" designImageOffsetY="-667">
+  <displayList>
+    <image id="n1_gur8" name="n1" src="rvb52y" fileName="ui/frame_tihuanzhanshi.png" pkg="27utqbiz" xy="0,2" size="560,346"/>
+    <image id="n45_gur8" name="n45" src="rvb53c" fileName="ui/dec_tihuanzhanshi_frame_top_left_corner.png" pkg="27utqbiz" xy="21,51"/>
+    <loader id="n2_gur8" name="Loader_qu" xy="20,5" size="519,46" url="ui://27utqbizrvb53a" fill="scaleFree"/>
+    <graph id="n44_gur8" name="n44" xy="30,59" size="497,268" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <text id="n46_gur8" name="label_str105" xy="218,8" size="124,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" vAlign="middle" strokeColor="#000000" autoClearText="true" text="灵脉详情"/>
+    <list id="n49_krp3" name="list_gen" xy="56,77" size="442,232" overflow="scroll" lineGap="5" defaultItem="ui://30lp993aug9j21">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

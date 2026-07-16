@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="146,208" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader3D id="n7_92au" name="loader_effect" xy="70,4" size="1,1" animation="" skin="" loop="true"/>
+    <image id="n0_a0tr" name="n0" src="a0tr79" fileName="ui/frame_tab_unselected.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_a0tr" name="n1" src="a0tr78" fileName="ui/frame_tab_selected.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_a0tr" name="n2" src="a0tr79" fileName="ui/frame_tab_unselected.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_a0tr" name="n3" src="a0tr78" fileName="ui/frame_tab_selected.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_a0tr" name="title" xy="-1,34" size="146,95" font="ui://27utqbizps391v" fontSize="36" color="#e7bc7d" align="center" vAlign="middle" autoSize="none" singleLine="true" text="玉璧">
+      <gearColor controller="button" pages="0,1,2,3" values="#e7bc7d,#000000|#42231f,#000000|#e7bc7d,#000000|#42231f,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n6_adf1" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="100,36" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

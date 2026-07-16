@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "e05e5d58-1b33-4772-9e7f-318c0c76bcab",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "e05e5d58-1b33-4772-9e7f-318c0c76bcab@6c48a",
+      "displayName": "LyBackPack_atlas0",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e05e5d58-1b33-4772-9e7f-318c0c76bcab",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": true,
+    "redirect": "e05e5d58-1b33-4772-9e7f-318c0c76bcab@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "7atZzzvEpLeZeg6DVxO9KA"
+    }
+  }
+}

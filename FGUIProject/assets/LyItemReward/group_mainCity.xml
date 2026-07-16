@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,460">
+  <displayList>
+    <image id="n22_85qw" name="n22" src="85qwu1ah" fileName="ui/frame_gongxihuodedi.png" xy="-8,10"/>
+    <list id="n2_ewyh" name="list_item" xy="364,264" pivot="0.5,0.5" anchor="true" size="600,233" group="n8_tkum" scale="1.2,1.2" layout="row" overflow="scroll" scroll="horizontal" colGap="20" defaultItem="ui://27utqbizo6qjf" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n8_tkum" name="group_outani" xy="64,147" size="600,233" advanced="true"/>
+    <richtext id="n11_qav2" name="label_dec" xy="132,59" size="476,61" fontSize="26" color="#eed57e" align="center" vAlign="middle" ubb="true" autoSize="none" text="您本次造成了[color=#27FF88]19.26亿[/color]伤害"/>
+    <loader3D id="n9_ui7m" name="loader_spine2" xy="372,-26" size="2,2" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <image id="n14_85qw" name="n14" src="85qwu1ad" fileName="res/word_jishachenggong2.png" xy="198,-79"/>
+    <image id="n19_85qw" name="n19" src="85qwu1aq" fileName="ui/word_jishachenggong.png" xy="201,-79"/>
+    <text id="n20_85qw" name="n20" xy="242,443" size="243,45" fontSize="22" color="#d8c295" align="center" vAlign="middle" autoSize="none" text="点击空白处关闭界面"/>
+  </displayList>
+</component>

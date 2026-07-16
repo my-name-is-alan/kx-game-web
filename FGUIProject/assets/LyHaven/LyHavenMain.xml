@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="766,1229">
+  <controller name="page" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="自家"/>
+    <remark page="1" value="别人家"/>
+  </controller>
+  <displayList>
+    <image id="n18_fml9" name="n18" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="703,1216" group="n35_tojh"/>
+    <image id="n27_tojh" name="n27" src="tojh1g" fileName="res/bg_biaoju.png" xy="23,102" group="n35_tojh"/>
+    <richtext id="n34_tojh" name="label_title" xy="22,30" size="210,56" group="n35_tojh" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" autoClearText="true" text="门客"/>
+    <component id="n3_agvw" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="641,41" group="n35_tojh"/>
+    <component id="n11_agvw" name="item1" src="agvwe" fileName="pro.xml" xy="80,393" group="n17_w4ma">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n12_w4ma" name="item2" src="agvwe" fileName="pro.xml" xy="186,393" group="n17_w4ma">
+      <ProgressBar max="100" min="100"/>
+    </component>
+    <component id="n13_w4ma" name="item3" src="agvwe" fileName="pro.xml" xy="292,393" group="n17_w4ma">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n14_w4ma" name="item4" src="agvwe" fileName="pro.xml" xy="398,393" group="n17_w4ma">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n15_w4ma" name="item5" src="agvwe" fileName="pro.xml" xy="504,393" group="n17_w4ma">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n16_w4ma" name="item6" src="agvwe" fileName="pro.xml" xy="610,393" group="n17_w4ma">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <group id="n17_w4ma" name="n17" xy="80,393" size="540,380" group="n35_tojh" advanced="true" layout="hz" colGap="96"/>
+    <component id="n20_fml9" name="btn_what" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="98,25" group="n35_tojh"/>
+    <image id="n26_fml9" name="n26" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="548,1021" group="n35_tojh"/>
+    <component id="n22_fml9" name="btn_manage" src="fml91d" fileName="btn_manage.xml" xy="193,896" group="n28_tojh"/>
+    <image id="n24_fml9" name="n24" src="fml91e" fileName="res/frame_control-escorter1.png" xy="309,976" group="n28_tojh"/>
+    <text id="n23_fml9" name="n23" xy="326,970" size="52,34" group="n28_tojh" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#bb922f" strokeSize="2" autoClearText="true" text="管理"/>
+    <group id="n28_tojh" name="n28" xy="193,896" size="320,126" group="n35_tojh" advanced="true"/>
+    <component id="n37_ky0p" name="btn_record" src="ky0p53" fileName="btn_comm.xml" xy="31,1075" group="n35_tojh">
+      <Button icon="ui://rtusdzu1ky0p4x"/>
+    </component>
+    <component id="n38_ky0p" name="btn_refresh" src="ky0p53" fileName="btn_comm.xml" xy="119,1076" group="n35_tojh">
+      <gearDisplay controller="page" pages="0"/>
+      <Button icon="ui://rtusdzu1ky0p4y"/>
+    </component>
+    <component id="n39_ky0p" name="btn_pot" src="ky0p53" fileName="btn_comm.xml" xy="210,1077" group="n35_tojh">
+      <gearDisplay controller="page" pages="0"/>
+      <Button icon="ui://rtusdzu1ky0p4w"/>
+    </component>
+    <component id="n40_ky0p" name="btn_find" src="ky0p53" fileName="btn_comm.xml" xy="474,1076" group="n35_tojh">
+      <gearXY controller="page" pages="0,1" values="474,1076|589,1076"/>
+      <Button icon="ui://rtusdzu1ky0p4z"/>
+    </component>
+    <component id="n41_ky0p" name="btn_trusteeship" src="ky0p53" fileName="btn_comm.xml" xy="573,1069" group="n35_tojh">
+      <gearDisplay controller="page" pages="0"/>
+    </component>
+    <image id="n54_pe7y" name="n54" src="pe7y58" fileName="res/frame_name of escort agency.png" xy="193,120" group="n46_ky0p"/>
+    <text id="n45_ky0p" name="label_name" xy="236,131" pivot="0.5,0.5" size="246,39" group="n46_ky0p" font="ui://27utqbizps391v" fontSize="28" color="#9f581a" align="center" vAlign="middle" letterSpacing="-2" text="玩家XX的镖局局局局"/>
+    <group id="n46_ky0p" name="group_name" xy="193,120" size="326,60" group="n35_tojh" visible="false" advanced="true"/>
+    <component id="n52_sex8" name="btn_adRefresh" src="sex854" fileName="btn_adRefresh.xml" pkg="27utqbiz" xy="56,920" group="n48_ky0p"/>
+    <group id="n48_ky0p" name="group_ad" xy="56,920" size="82,82" group="n35_tojh" advanced="true">
+      <gearDisplay controller="page" pages="0"/>
+    </group>
+    <group id="n35_tojh" name="n35" xy="0,0" size="766,1229" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

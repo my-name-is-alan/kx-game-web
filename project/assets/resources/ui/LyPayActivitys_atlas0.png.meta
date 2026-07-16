@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "e2d8941a-ed9f-474a-b04d-a45c8eb9e65d",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "e2d8941a-ed9f-474a-b04d-a45c8eb9e65d@6c48a",
+      "displayName": "LyPayActivitys_atlas0",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e2d8941a-ed9f-474a-b04d-a45c8eb9e65d",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": true,
+    "redirect": "e2d8941a-ed9f-474a-b04d-a45c8eb9e65d@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "7atZzzvEpLeZeg6DVxO9KA"
+    }
+  }
+}

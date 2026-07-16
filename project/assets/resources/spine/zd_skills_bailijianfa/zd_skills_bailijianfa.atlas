@@ -1,0 +1,97 @@
+
+zd_skills_bailijianfa.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bljf_fs/bljf_fs_00
+  rotate: false
+  xy: 293, 712
+  size: 79, 126
+  orig: 234, 240
+  offset: 79, 57
+  index: -1
+images/bljf_fs/bljf_fs_02
+  rotate: true
+  xy: 2, 568
+  size: 223, 212
+  orig: 234, 240
+  offset: 6, 15
+  index: -1
+images/bljf_fs/bljf_fs_04
+  rotate: false
+  xy: 2, 793
+  size: 221, 227
+  orig: 234, 240
+  offset: 7, 7
+  index: -1
+images/bljf_fs/bljf_fs_06
+  rotate: false
+  xy: 2, 355
+  size: 201, 211
+  orig: 234, 240
+  offset: 6, 23
+  index: -1
+images/bljf_fs/bljf_fs_08
+  rotate: true
+  xy: 2, 159
+  size: 194, 168
+  orig: 234, 240
+  offset: 9, 35
+  index: -1
+images/bljf_jcx/bljf_jcx_00
+  rotate: false
+  xy: 2, 2
+  size: 156, 47
+  orig: 204, 120
+  offset: 5, 43
+  index: -1
+images/bljf_jcx/bljf_jcx_02
+  rotate: true
+  xy: 225, 840
+  size: 180, 67
+  orig: 204, 120
+  offset: 4, 23
+  index: -1
+images/bljf_jcx/bljf_jcx_04
+  rotate: true
+  xy: 283, 197
+  size: 191, 93
+  orig: 204, 120
+  offset: 4, 20
+  index: -1
+images/bljf_jcx/bljf_jcx_06
+  rotate: false
+  xy: 2, 51
+  size: 196, 106
+  orig: 204, 120
+  offset: 4, 8
+  index: -1
+images/bljf_jcx/bljf_jcx_08
+  rotate: true
+  xy: 172, 167
+  size: 186, 109
+  orig: 204, 120
+  offset: 5, 5
+  index: -1
+images/bljf_jcx/bljf_jcx_10
+  rotate: false
+  xy: 200, 60
+  size: 182, 105
+  orig: 204, 120
+  offset: 7, 7
+  index: -1
+images/bljf_jcx/bljf_jcx_12
+  rotate: true
+  xy: 205, 390
+  size: 176, 104
+  orig: 204, 120
+  offset: 8, 8
+  index: -1
+images/bljf_jcx/bljf_jcx_14
+  rotate: true
+  xy: 216, 613
+  size: 178, 75
+  orig: 204, 120
+  offset: 8, 37
+  index: -1

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="386,23" extention="ProgressBar">
+  <displayList>
+    <graph id="n0_eohi" name="n0" xy="0,0" size="386,23" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_eohi" name="bar" xy="3,3" size="380,18" type="rect" lineSize="0" fillColor="#ffff9900"/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

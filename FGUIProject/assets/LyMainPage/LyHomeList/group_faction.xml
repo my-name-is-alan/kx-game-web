@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,70">
+  <displayList>
+    <component id="n0_av7q" name="btn_challenge" src="svlp4b" fileName="LyChallengeList/btn_challenge.xml" xy="0,0"/>
+  </displayList>
+</component>

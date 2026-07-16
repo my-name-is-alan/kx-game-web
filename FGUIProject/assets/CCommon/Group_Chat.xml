@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="751,41">
+  <displayList>
+    <loader id="n40_h8md" name="graph_back" xy="0,0" size="750,41" url="ui://27utqbizq8va6l" fill="scaleFree"/>
+    <image id="n41_h8md" name="n41" src="j3rv3l" fileName="ui/icon_chat.png" xy="16,4" size="39,30" aspect="true" scale="1.1,1.1"/>
+    <richtext id="n42_h8md" name="label_content" xy="73,6" size="674,29" touchable="false" fontSize="20" color="#ffffff" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="&#xA;"/>
+  </displayList>
+</component>

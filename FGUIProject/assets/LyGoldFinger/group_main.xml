@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n29_kluz" name="loader_icon" xy="175,200" size="400,460"/>
+    <loader3D id="n3_kluz" name="loader_spine_bj" xy="374,666" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <loader3D id="n30_ro4e" name="loader_spine_frame" xy="374,666" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <loader3D id="n31_ro4e" name="loader_spine_main" xy="374,492" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <loader3D id="n32_ro4e" name="loader_spine_star" xy="374,666" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <image id="n9_kluz" name="n9" src="kluzh" fileName="res/frame_fengexian.png" xy="213,77"/>
+    <image id="n14_kluz" name="n14" src="kluzm" fileName="res/frame_xiaobiaotidi.png" xy="54,140" visible="false"/>
+    <image id="n12_kluz" name="n12" src="kluzl" fileName="res/frame_mingpai.png" xy="668,388"/>
+    <image id="n20_kluz" name="n20" src="kluzn" fileName="res/frame_zhuangshidian.png" xy="168,775">
+      <relation target="n17_kluz" sidePair="right-left"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <image id="n16_kluz" name="n16" src="kluzi" fileName="res/frame_fengexian2.png" xy="103,800">
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <image id="n21_kluz" name="n21" src="kluzn" fileName="res/frame_zhuangshidian.png" xy="211,975">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="n19_kluz" sidePair="right-left"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <image id="n18_kluz" name="n18" src="kluzi" fileName="res/frame_fengexian2.png" xy="103,1000">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <loader id="n4_kluz" name="loader_name" xy="562,301" size="100,100" url="ui://j6s22r8hkluz6" align="center" vAlign="middle" clearOnPublish="true"/>
+    <component id="n11_kluz" name="btn_reward" src="kluzk" fileName="btn_reward.xml" xy="580,78"/>
+    <component id="n26_kluz" name="btn_pump1" src="kluzp" fileName="btn_pump.xml" xy="50,1080">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n27_kluz" name="btn_pump5" src="kluzp" fileName="btn_pump.xml" xy="404,1080">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <image id="n5_kluz" name="n5" src="bh805e" fileName="ui/frame_progress bar_all.png" pkg="27utqbiz" xy="120,828" size="533,20">
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <component id="n6_kluz" name="bar_progress" src="kluza" fileName="bar_progress.xml" xy="120,828" size="510,20">
+      <relation target="" sidePair="bottom-bottom"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n10_kluz" name="label_title" xy="301,58" size="148,49" font="ui://27utqbizps391v" fontSize="36" color="#f4e9d5" align="center" vAlign="middle" autoClearText="true" text="寻龙分金">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n15_kluz" name="label_time" xy="227,144" size="295,34" visible="false" fontSize="24" color="#ffc29e" align="center" vAlign="middle" ubb="true" autoClearText="true" text="至宝刷新倒计时：[color=#48D667]00:00:00[/color]">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n13_kluz" name="label_right" xy="681,444" size="30,179" fontSize="24" color="#ffc29e" align="center" leading="0" autoSize="height" autoClearText="true" text="分解经验翻倍"/>
+    <text id="n17_kluz" name="label_desc1" xy="201,770" size="348,34" fontSize="24" color="#ffc29e" align="center" vAlign="middle" leading="0" autoClearText="true" text="每抽增加10点，每充1元增加1点">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n19_kluz" name="label_desc2" xy="241,970" size="268,34" fontSize="24" color="#fff2db" align="center" vAlign="middle" leading="0" autoClearText="true" text="造化值满后必得造化至宝">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <loader id="n22_kluz" name="loader_icon1" xy="185,1038" size="40,40" fill="scaleFree">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+      <relation target="n23_kluz" sidePair="right-left"/>
+    </loader>
+    <loader id="n24_kluz" name="loader_icon5" xy="535,1038" size="40,40" fill="scaleFree">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+      <relation target="n25_kluz" sidePair="right-left"/>
+    </loader>
+    <text id="n23_kluz" name="label_need1" xy="230,1045" size="10,29" fontSize="20" color="#221e17" vAlign="middle" bold="true" text="">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n25_kluz" name="label_need5" xy="580,1045" size="10,29" fontSize="20" color="#221e17" align="center" vAlign="middle" bold="true" text="">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <loader3D id="n33_8inj" name="loader_spine_exp" xy="374,837" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </loader3D>
+  </displayList>
+</component>

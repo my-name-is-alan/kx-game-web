@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <shop>
+    <item id="101" type="101" desc="耀核兑换" conditionID="2111" costStr="21,500" bonuseStr="1,1,15000047" pos="1" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="102" type="101" desc="耀核兑换" conditionID="2111" costStr="21,40" bonuseStr="1,2,15000005" pos="2" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="103" type="101" desc="耀核兑换" conditionID="2111" costStr="21,50" bonuseStr="2,20000" pos="3" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="104" type="101" desc="耀核兑换" conditionID="2111" costStr="21,15" bonuseStr="1,5,15000006" pos="4" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="105" type="101" desc="耀核兑换" conditionID="2111" costStr="21,45" bonuseStr="1,5,15000007" pos="5" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="106" type="101" desc="耀核兑换" conditionID="2111" costStr="21,45" bonuseStr="1,3,15000008" pos="6" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="107" type="101" desc="耀核兑换" conditionID="2111" costStr="21,15" bonuseStr="1,3,15000010" pos="7" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="108" type="101" desc="耀核兑换" conditionID="2111" costStr="21,30" bonuseStr="1,3,15000011" pos="8" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="109" type="101" desc="耀核兑换" conditionID="2111" costStr="21,60" bonuseStr="1,3,15000012" pos="9" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="110" type="101" desc="耀核兑换" conditionID="2111" costStr="21,9" bonuseStr="1,3,15000019" pos="10" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="111" type="101" desc="耀核兑换" conditionID="2111" costStr="21,27" bonuseStr="1,3,15000020" pos="11" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="112" type="101" desc="耀核兑换" conditionID="2111" costStr="21,45" bonuseStr="1,3,15000021" pos="12" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="113" type="101" desc="耀核兑换" conditionID="2111" costStr="21,90" bonuseStr="1,3,15000022" pos="13" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="114" type="101" desc="耀核兑换" conditionID="2111" costStr="21,9" bonuseStr="1,3,15000024" pos="14" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="115" type="101" desc="耀核兑换" conditionID="2111" costStr="21,27" bonuseStr="1,3,15000025" pos="15" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="116" type="101" desc="耀核兑换" conditionID="2111" costStr="21,45" bonuseStr="1,3,15000026" pos="16" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="117" type="101" desc="耀核兑换" conditionID="2111" costStr="21,90" bonuseStr="1,3,15000027" pos="17" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="118" type="101" desc="耀核兑换" conditionID="2111" costStr="21,9" bonuseStr="1,3,15000029" pos="18" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="119" type="101" desc="耀核兑换" conditionID="2111" costStr="21,27" bonuseStr="1,3,15000030" pos="19" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="120" type="101" desc="耀核兑换" conditionID="2111" costStr="21,45" bonuseStr="1,3,15000031" pos="20" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="121" type="101" desc="耀核兑换" conditionID="2111" costStr="21,90" bonuseStr="1,3,15000032" pos="21" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="122" type="101" desc="耀核兑换" conditionID="2111" costStr="21,9" bonuseStr="1,3,15000034" pos="22" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="123" type="101" desc="耀核兑换" conditionID="2111" costStr="21,27" bonuseStr="1,3,15000035" pos="23" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="124" type="101" desc="耀核兑换" conditionID="2111" costStr="21,45" bonuseStr="1,3,15000036" pos="24" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="125" type="101" desc="耀核兑换" conditionID="2111" costStr="21,90" bonuseStr="1,3,15000037" pos="25" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="126" type="101" desc="耀核兑换" conditionID="2111" costStr="21,9" bonuseStr="1,3,15000039" pos="26" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="127" type="101" desc="耀核兑换" conditionID="2111" costStr="21,27" bonuseStr="1,3,15000040" pos="27" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="128" type="101" desc="耀核兑换" conditionID="2111" costStr="21,45" bonuseStr="1,3,15000041" pos="28" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="129" type="101" desc="耀核兑换" conditionID="2111" costStr="21,90" bonuseStr="1,3,15000042" pos="29" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="0"/>
+    <item id="301" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000019" bonuseStr="1,1,15000020" pos="1" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1301"/>
+    <item id="302" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000024" bonuseStr="1,1,15000020" pos="2" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1301"/>
+    <item id="303" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000029" bonuseStr="1,1,15000020" pos="3" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1301"/>
+    <item id="304" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000034" bonuseStr="1,1,15000020" pos="4" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1301"/>
+    <item id="305" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000039" bonuseStr="1,1,15000020" pos="5" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1301"/>
+    <item id="306" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000019" bonuseStr="1,1,15000025" pos="6" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1302"/>
+    <item id="307" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000024" bonuseStr="1,1,15000025" pos="7" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1302"/>
+    <item id="308" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000029" bonuseStr="1,1,15000025" pos="8" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1302"/>
+    <item id="309" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000034" bonuseStr="1,1,15000025" pos="9" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1302"/>
+    <item id="310" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000039" bonuseStr="1,1,15000025" pos="10" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1302"/>
+    <item id="311" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000019" bonuseStr="1,1,15000030" pos="11" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1303"/>
+    <item id="312" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000024" bonuseStr="1,1,15000030" pos="12" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1303"/>
+    <item id="313" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000029" bonuseStr="1,1,15000030" pos="13" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1303"/>
+    <item id="314" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000034" bonuseStr="1,1,15000030" pos="14" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1303"/>
+    <item id="315" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000039" bonuseStr="1,1,15000030" pos="15" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1303"/>
+    <item id="316" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000019" bonuseStr="1,1,15000035" pos="16" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1304"/>
+    <item id="317" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000024" bonuseStr="1,1,15000035" pos="17" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1304"/>
+    <item id="318" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000029" bonuseStr="1,1,15000035" pos="18" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1304"/>
+    <item id="319" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000034" bonuseStr="1,1,15000035" pos="19" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1304"/>
+    <item id="320" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000039" bonuseStr="1,1,15000035" pos="20" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1304"/>
+    <item id="321" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000019" bonuseStr="1,1,15000040" pos="21" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1305"/>
+    <item id="322" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000024" bonuseStr="1,1,15000040" pos="22" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1305"/>
+    <item id="323" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000029" bonuseStr="1,1,15000040" pos="23" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1305"/>
+    <item id="324" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000034" bonuseStr="1,1,15000040" pos="24" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1305"/>
+    <item id="325" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000039" bonuseStr="1,1,15000040" pos="25" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1305"/>
+    <item id="326" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000020" bonuseStr="1,1,15000021" pos="26" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1306"/>
+    <item id="327" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000025" bonuseStr="1,1,15000021" pos="27" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1306"/>
+    <item id="328" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000030" bonuseStr="1,1,15000021" pos="28" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1306"/>
+    <item id="329" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000035" bonuseStr="1,1,15000021" pos="29" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1306"/>
+    <item id="330" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000040" bonuseStr="1,1,15000021" pos="30" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1306"/>
+    <item id="331" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000020" bonuseStr="1,1,15000026" pos="31" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1307"/>
+    <item id="332" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000025" bonuseStr="1,1,15000026" pos="32" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1307"/>
+    <item id="333" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000030" bonuseStr="1,1,15000026" pos="33" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1307"/>
+    <item id="334" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000035" bonuseStr="1,1,15000026" pos="34" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1307"/>
+    <item id="335" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000040" bonuseStr="1,1,15000026" pos="35" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1307"/>
+    <item id="336" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000020" bonuseStr="1,1,15000031" pos="36" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1308"/>
+    <item id="337" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000025" bonuseStr="1,1,15000031" pos="37" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1308"/>
+    <item id="338" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000030" bonuseStr="1,1,15000031" pos="38" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1308"/>
+    <item id="339" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000035" bonuseStr="1,1,15000031" pos="39" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1308"/>
+    <item id="340" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000040" bonuseStr="1,1,15000031" pos="40" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1308"/>
+    <item id="341" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000020" bonuseStr="1,1,15000036" pos="41" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1309"/>
+    <item id="342" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000025" bonuseStr="1,1,15000036" pos="42" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1309"/>
+    <item id="343" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000030" bonuseStr="1,1,15000036" pos="43" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1309"/>
+    <item id="344" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000035" bonuseStr="1,1,15000036" pos="44" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1309"/>
+    <item id="345" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000040" bonuseStr="1,1,15000036" pos="45" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1309"/>
+    <item id="346" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000020" bonuseStr="1,1,15000041" pos="46" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1310"/>
+    <item id="347" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000025" bonuseStr="1,1,15000041" pos="47" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1310"/>
+    <item id="348" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000030" bonuseStr="1,1,15000041" pos="48" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1310"/>
+    <item id="349" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000035" bonuseStr="1,1,15000041" pos="49" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1310"/>
+    <item id="350" type="301" desc="兑换商店" conditionID="0" costStr="1,3,15000040" bonuseStr="1,1,15000041" pos="50" buyCntMaxAll="0" buyCntMaxDay="0" discount="0" groupID="1310"/>
+  </shop>
+  <config>
+    <item id="1" resetTime="5:00"/>
+  </config>
+  <condition>
+    <item id="2111" type="2" paramList="1;1;1" desc="1-1-1解锁"/>
+    <item id="2112" type="2" paramList="1;1;2" desc="1-1-2解锁"/>
+    <item id="2113" type="2" paramList="1;1;3" desc="1-1-3解锁"/>
+    <item id="2114" type="2" paramList="1;2;1" desc="1-2-1解锁"/>
+  </condition>
+</root>

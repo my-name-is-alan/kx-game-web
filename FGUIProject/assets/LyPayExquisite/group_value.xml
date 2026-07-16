@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,36">
+  <displayList>
+    <image id="n5_sril" name="n5" src="srilc" fileName="giftdaily/frame_economy.png" xy="0,0"/>
+    <loader id="n7_sril" name="loader_icon" xy="1,-7" size="50,50" url="ui://kl5mxoqph2695k" align="center" vAlign="middle" fill="scale"/>
+    <text id="n8_sril" name="label_count" xy="55,1" size="88,34" fontSize="24" color="#fff8b9" align="center" vAlign="middle" autoClearText="true" text="123456">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

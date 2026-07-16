@@ -1,0 +1,41 @@
+
+zq_baihe.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ChiB_1
+  rotate: false
+  xy: 69, 154
+  size: 91, 193
+  orig: 91, 193
+  offset: 0, 0
+  index: -1
+ChiB_2
+  rotate: false
+  xy: 2, 349
+  size: 136, 147
+  orig: 136, 147
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 43
+  size: 304, 65
+  orig: 304, 65
+  offset: 0, 0
+  index: -1
+jiao_L
+  rotate: false
+  xy: 2, 2
+  size: 110, 39
+  orig: 121, 39
+  offset: 0, 0
+  index: -1
+jiao_R
+  rotate: true
+  xy: 69, 43
+  size: 109, 39
+  orig: 121, 39
+  offset: 0, 0
+  index: -1

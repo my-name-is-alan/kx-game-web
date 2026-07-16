@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="652,148">
+  <displayList>
+    <image id="n63_m4h7" name="n63" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="0,13" size="639,135"/>
+    <component id="n55_cvor" name="group_title" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="273,0" scale="0.934,0.934"/>
+    <text id="n57_cvor" name="label_name" xy="155,33" size="124,34" fontSize="24" color="#16191a" autoSize="shrink" text="慕数"/>
+    <image id="n58_cvor" name="n58" src="kpgndu18u" fileName="res/frame_force of arms.png" xy="461,9" size="176,74" aspect="true"/>
+    <text id="n59_cvor" name="label_combatPower" xy="514,23" size="138,39" font="ui://27utqbizvkas4q" fontSize="22" color="#cc6600" vAlign="middle" leading="0" letterSpacing="-8" text="531231"/>
+    <text id="n60_cvor" name="y111" xy="148,94" size="114,34" fontSize="22" color="#16191a" autoSize="none" text="生命："/>
+    <component id="n61_m4h7" name="pro_hp" src="jhmn2n" fileName="ProgressBar1.xml" xy="217,99" size="368,20" touchable="false">
+      <ProgressBar value="15" max="100"/>
+    </component>
+    <component id="n62_m4h7" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="25,30"/>
+  </displayList>
+</component>

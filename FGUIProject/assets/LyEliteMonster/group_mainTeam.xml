@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n24_psu8" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n26_s742" name="n26" xy="52,461" pivot="0.5,0.5" size="646,412" group="n27_dbzf" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <component id="n10_j2yt" name="label_xuhao0" src="j2yt2" fileName="group_team.xml" xy="74,490" group="n23_j2yt"/>
+    <component id="n21_j2yt" name="label_xuhao1" src="j2yt2" fileName="group_team.xml" xy="74,610" group="n23_j2yt"/>
+    <component id="n22_j2yt" name="label_xuhao2" src="j2yt2" fileName="group_team.xml" xy="74,733" group="n23_j2yt"/>
+    <group id="n23_j2yt" name="n23" xy="74,490" size="604,345" group="n27_dbzf" advanced="true"/>
+    <group id="n27_dbzf" name="n27" xy="52,461" size="646,412" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

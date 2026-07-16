@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,150">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="已挑战"/>
+    <remark page="1" value="挑战"/>
+    <remark page="2" value="未战胜"/>
+    <remark page="3" value="未解锁"/>
+  </controller>
+  <displayList>
+    <graph id="n20_kcwh" name="n20" xy="0,0" size="640,150" type="rect" lineSize="0" fillColor="#fff4eee5" corner="10"/>
+    <image id="n26_qav2" name="n26" src="j3rv3z" fileName="ui/frame_basic profile.png" pkg="27utqbiz" xy="41,1"/>
+    <loader id="n25_isiv" name="img_icon" xy="58,22" size="87,82" align="center" vAlign="middle"/>
+    <image id="n21_kcwh" name="n21" src="rp9118" fileName="res2/frame_nametiao.png" xy="35,110"/>
+    <text id="n9_fj2b" name="label_stage" xy="36,108" size="130,34" fontSize="24" color="#f5f4ef" align="center" vAlign="middle" autoSize="shrink" text="合体后期"/>
+    <text id="n14_fj2b" name="n14" xy="435,59" size="180,32" fontSize="22" color="#cc5f57" vAlign="middle" text="前一关胜出后解锁">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <text id="n16_fj2b" name="label_condition1" xy="443,54" size="165,32" group="n17_fj2b" fontSize="22" color="#cc5f57" align="center" vAlign="middle" autoSize="none" text="好感度60级解锁"/>
+    <text id="n27_qav2" name="label_condition2" xy="443,88" size="165,32" group="n17_fj2b" fontSize="22" color="#cc5f57" align="center" vAlign="middle" autoSize="none" text="角色336级解锁"/>
+    <image id="n24_kcwh" name="n24" src="rp911m" fileName="res2/icon_lock.png" xy="503,32" group="n17_fj2b"/>
+    <group id="n17_fj2b" name="n17" xy="443,32" size="165,88" advanced="true">
+      <gearDisplay controller="c1" pages="3"/>
+    </group>
+    <list id="n19_z4ul" name="list_prop" xy="213,33" size="226,100" scale="0.83,0.83" layout="row" colGap="8" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+    </list>
+    <component id="n22_kcwh" name="btn_battle" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="417,47">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="挑战"/>
+    </component>
+    <image id="n23_kcwh" name="n23" src="kcwh2e" fileName="res2/frame_yitongguan.png" xy="445,46">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="53vimota">
+  <resources>
+    <component id="cymh0" name="LyGuideDetail.xml" path="/" exported="true"/>
+    <component id="cymh1" name="group_main.xml" path="/"/>
+    <component id="cymh2" name="group_content.xml" path="/"/>
+    <component id="s7423" name="group_des.xml" path="/" exported="true"/>
+    <component id="eern4" name="LyGuideGetItem.xml" path="/" exported="true"/>
+    <component id="eern5" name="group_getitem.xml" path="/"/>
+    <component id="eern8" name="group_getitem_item.xml" path="/"/>
+    <image id="yab39" name="icon_tiaozhuananniu.png" path="/res/"/>
+    <component id="yab3b" name="btn_goto.xml" path="/"/>
+    <component id="ul33c" name="LyGuideDesc.xml" path="/" exported="true"/>
+    <component id="ul33d" name="group_descitem.xml" path="/"/>
+    <component id="ul33e" name="group_desc.xml" path="/"/>
+    <component id="ves4f" name="FmGuideFifgtPower.xml" path="/" exported="true"/>
+    <component id="ves4g" name="group_power.xml" path="/"/>
+    <component id="hnc7h" name="main.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

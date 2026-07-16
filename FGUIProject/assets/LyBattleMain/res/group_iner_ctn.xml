@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,938">
+  <displayList>
+    <loader id="n0_sbhj" name="loader_back" xy="0,42" size="750,854" url="ui://f7l7y9v7pl2sg" clearOnPublish="true"/>
+    <graph id="n5_yb1m" name="init_entity1" xy="227,675" pivot="0.5,1" anchor="true" size="100,200" scale="0.85,0.85" type="rect"/>
+    <graph id="n4_yb1m" name="init_entity3" xy="120,745" pivot="0.5,1" anchor="true" size="100,200" type="rect"/>
+    <graph id="n6_yb1m" name="init_entity5" xy="210,825" pivot="0.5,1" anchor="true" size="100,200" scale="0.85,0.85" type="rect"/>
+    <graph id="n7_yb1m" name="init_entity0" xy="523,678" pivot="0.5,1" anchor="true" size="100,200" scale="0.85,0.85" type="rect"/>
+    <graph id="n8_yb1m" name="init_entity2" xy="630,745" pivot="0.5,1" anchor="true" size="100,200" type="rect"/>
+    <graph id="n9_yb1m" name="init_entity4" xy="560,825" pivot="0.5,1" anchor="true" size="100,200" scale="0.85,0.85" type="rect"/>
+  </displayList>
+</component>

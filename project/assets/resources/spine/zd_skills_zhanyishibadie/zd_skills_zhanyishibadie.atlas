@@ -1,0 +1,69 @@
+
+zd_skills_zhanyishibadie.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/zysbd_xl/zysbd_xl_00
+  rotate: false
+  xy: 2, 214
+  size: 192, 215
+  orig: 240, 240
+  offset: 18, 13
+  index: -1
+images/zysbd_xl/zysbd_xl_02
+  rotate: false
+  xy: 2, 431
+  size: 195, 216
+  orig: 240, 240
+  offset: 17, 11
+  index: -1
+images/zysbd_xl/zysbd_xl_04
+  rotate: false
+  xy: 2, 649
+  size: 213, 217
+  orig: 240, 240
+  offset: 18, 18
+  index: -1
+images/zysbd_xl/zysbd_xl_06
+  rotate: false
+  xy: 2, 2
+  size: 210, 210
+  orig: 240, 240
+  offset: 15, 15
+  index: -1
+images/zysbd_xl/zysbd_xl_08
+  rotate: false
+  xy: 196, 219
+  size: 210, 210
+  orig: 240, 240
+  offset: 15, 15
+  index: -1
+images/zysbd_xl/zysbd_xl_10
+  rotate: false
+  xy: 199, 439
+  size: 208, 208
+  orig: 240, 240
+  offset: 16, 16
+  index: -1
+images/zysbd_xl/zysbd_xl_12
+  rotate: false
+  xy: 217, 662
+  size: 204, 204
+  orig: 240, 240
+  offset: 18, 18
+  index: -1
+images/zysbd_xl/zysbd_xl_14
+  rotate: false
+  xy: 214, 17
+  size: 200, 200
+  orig: 240, 240
+  offset: 20, 20
+  index: -1
+images/zysbd_xl/zysbd_xl_16
+  rotate: false
+  xy: 408, 255
+  size: 182, 182
+  orig: 240, 240
+  offset: 29, 29
+  index: -1

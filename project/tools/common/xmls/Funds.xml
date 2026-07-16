@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root id="1" detail="基金">
+  <level id="1" name="修为基金" desc="提升修为等级，领取奖励" detail="修为基金" needLevel="1" icon="xxx">
+    <item id="1" condition="30" bonuseID="260001" extraBonuseID="260002"/>
+    <item id="2" condition="50" bonuseID="260003" extraBonuseID="260004"/>
+    <item id="3" condition="70" bonuseID="260005" extraBonuseID="260006"/>
+    <item id="4" condition="80" bonuseID="260007" extraBonuseID="260008"/>
+    <item id="5" condition="85" bonuseID="260009" extraBonuseID="260010"/>
+    <item id="6" condition="90" bonuseID="260011" extraBonuseID="260012"/>
+    <item id="7" condition="95" bonuseID="260013" extraBonuseID="260014"/>
+    <item id="8" condition="100" bonuseID="260015" extraBonuseID="260016"/>
+    <item id="9" condition="105" bonuseID="260017" extraBonuseID="260018"/>
+    <item id="10" condition="110" bonuseID="260019" extraBonuseID="260020"/>
+    <item id="11" condition="115" bonuseID="260021" extraBonuseID="260022"/>
+    <item id="12" condition="120" bonuseID="260023" extraBonuseID="260024"/>
+    <item id="13" condition="125" bonuseID="260025" extraBonuseID="260026"/>
+    <item id="14" condition="130" bonuseID="260027" extraBonuseID="260028"/>
+    <item id="15" condition="135" bonuseID="260029" extraBonuseID="260030"/>
+    <item id="16" condition="140" bonuseID="260031" extraBonuseID="260032"/>
+    <item id="17" condition="145" bonuseID="260033" extraBonuseID="260034"/>
+    <item id="18" condition="150" bonuseID="260035" extraBonuseID="260036"/>
+    <item id="19" condition="155" bonuseID="260037" extraBonuseID="260038"/>
+  </level>
+  <stage id="2" name="冒险基金" desc="xxx" detail="冒险基金" needLevel="1" icon="xxx">
+    <item id="1" condition="30" bonuseID="260101" extraBonuseID="260102"/>
+    <item id="2" condition="34" bonuseID="260103" extraBonuseID="260104"/>
+    <item id="3" condition="38" bonuseID="260105" extraBonuseID="260106"/>
+    <item id="4" condition="42" bonuseID="260107" extraBonuseID="260108"/>
+    <item id="5" condition="46" bonuseID="260109" extraBonuseID="260110"/>
+    <item id="6" condition="50" bonuseID="260111" extraBonuseID="260112"/>
+    <item id="7" condition="54" bonuseID="260113" extraBonuseID="260114"/>
+    <item id="8" condition="58" bonuseID="260115" extraBonuseID="260116"/>
+    <item id="9" condition="62" bonuseID="260117" extraBonuseID="260118"/>
+    <item id="10" condition="66" bonuseID="260119" extraBonuseID="260120"/>
+    <item id="11" condition="70" bonuseID="260121" extraBonuseID="260122"/>
+    <item id="12" condition="74" bonuseID="260123" extraBonuseID="260124"/>
+    <item id="13" condition="78" bonuseID="260125" extraBonuseID="260126"/>
+    <item id="14" condition="82" bonuseID="260127" extraBonuseID="260128"/>
+    <item id="15" condition="86" bonuseID="260129" extraBonuseID="260130"/>
+    <item id="16" condition="90" bonuseID="260131" extraBonuseID="260132"/>
+    <item id="17" condition="94" bonuseID="260133" extraBonuseID="260134"/>
+    <item id="18" condition="98" bonuseID="260135" extraBonuseID="260136"/>
+    <item id="19" condition="102" bonuseID="260137" extraBonuseID="260138"/>
+    <item id="20" condition="106" bonuseID="260139" extraBonuseID="260140"/>
+    <item id="21" condition="110" bonuseID="260141" extraBonuseID="260142"/>
+    <item id="22" condition="114" bonuseID="260143" extraBonuseID="260144"/>
+    <item id="23" condition="118" bonuseID="260145" extraBonuseID="260146"/>
+    <item id="24" condition="122" bonuseID="260147" extraBonuseID="260148"/>
+    <item id="25" condition="126" bonuseID="260149" extraBonuseID="260150"/>
+    <item id="26" condition="130" bonuseID="260151" extraBonuseID="260152"/>
+    <item id="27" condition="134" bonuseID="260153" extraBonuseID="260154"/>
+    <item id="28" condition="138" bonuseID="260155" extraBonuseID="260156"/>
+    <item id="29" condition="142" bonuseID="260157" extraBonuseID="260158"/>
+  </stage>
+  <evolution id="3" name="仙树基金" desc="xxx" detail="仙树基金" needLevel="1" icon="xxx">
+    <item id="1" condition="5" bonuseID="260201" extraBonuseID="260202"/>
+    <item id="2" condition="6" bonuseID="260203" extraBonuseID="260204"/>
+    <item id="3" condition="7" bonuseID="260205" extraBonuseID="260206"/>
+    <item id="4" condition="8" bonuseID="260207" extraBonuseID="260208"/>
+    <item id="5" condition="9" bonuseID="260209" extraBonuseID="260210"/>
+    <item id="6" condition="10" bonuseID="260211" extraBonuseID="260212"/>
+    <item id="7" condition="11" bonuseID="260213" extraBonuseID="260214"/>
+    <item id="8" condition="12" bonuseID="260215" extraBonuseID="260216"/>
+    <item id="9" condition="13" bonuseID="260217" extraBonuseID="260218"/>
+    <item id="10" condition="15" bonuseID="260219" extraBonuseID="260220"/>
+  </evolution>
+  <tower id="4" name="镇妖塔基金" desc="xxx" detail="镇妖塔基金" needLevel="1" icon="xxx">
+    <item id="1" condition="20" bonuseID="260301" extraBonuseID="260302"/>
+    <item id="2" condition="40" bonuseID="260303" extraBonuseID="260304"/>
+    <item id="3" condition="60" bonuseID="260305" extraBonuseID="260306"/>
+    <item id="4" condition="80" bonuseID="260307" extraBonuseID="260308"/>
+    <item id="5" condition="100" bonuseID="260309" extraBonuseID="260310"/>
+    <item id="6" condition="120" bonuseID="260311" extraBonuseID="260312"/>
+    <item id="7" condition="140" bonuseID="260313" extraBonuseID="260314"/>
+    <item id="8" condition="160" bonuseID="260315" extraBonuseID="260316"/>
+    <item id="9" condition="180" bonuseID="260317" extraBonuseID="260318"/>
+    <item id="10" condition="200" bonuseID="260319" extraBonuseID="260320"/>
+    <item id="11" condition="250" bonuseID="260321" extraBonuseID="260322"/>
+    <item id="12" condition="300" bonuseID="260323" extraBonuseID="260324"/>
+    <item id="13" condition="350" bonuseID="260325" extraBonuseID="260326"/>
+    <item id="14" condition="375" bonuseID="260327" extraBonuseID="260328"/>
+    <item id="15" condition="400" bonuseID="260329" extraBonuseID="260330"/>
+  </tower>
+  <dhama id="5" name="法宝基金" desc="xxx" detail="法宝基金" needLevel="10000" icon="xxx">
+    <item id="1" condition="2" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="2" condition="3" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="3" condition="4" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="4" condition="5" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="5" condition="6" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="6" condition="7" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="7" condition="8" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="8" condition="9" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="9" condition="10" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="10" condition="11" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="11" condition="12" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="12" condition="13" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="13" condition="14" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="14" condition="15" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="15" condition="16" bonuseID="10001" extraBonuseID="10002"/>
+    <item id="16" condition="17" bonuseID="10001" extraBonuseID="10002"/>
+  </dhama>
+</root>

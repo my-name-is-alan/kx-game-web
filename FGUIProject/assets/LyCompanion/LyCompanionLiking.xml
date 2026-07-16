@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetY="-222">
+  <controller name="c1" pages="0,,1," selected="0">
+    <remark page="0" value="天赋"/>
+    <remark page="1" value="属性"/>
+  </controller>
+  <displayList>
+    <component id="n0_g0zl" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n20_rp91" name="main" src="ql4f43" fileName="group_companionLikingMain.xml" xy="26,212">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

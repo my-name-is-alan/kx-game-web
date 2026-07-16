@@ -1,0 +1,173 @@
+
+zd_skills_kuihuadianxueshou.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/khdxs_dxs1/khdxs_dxs1_00
+  rotate: false
+  xy: 240, 760
+  size: 318, 132
+  orig: 1200, 300
+  offset: 859, 85
+  index: -1
+images/khdxs_dxs1/khdxs_dxs1_01
+  rotate: false
+  xy: 2, 2
+  size: 721, 240
+  orig: 1200, 300
+  offset: 476, 31
+  index: -1
+images/khdxs_hit1/khdxs_hit1_00
+  rotate: false
+  xy: 659, 244
+  size: 282, 232
+  orig: 300, 300
+  offset: 8, 33
+  index: -1
+images/khdxs_hit1/khdxs_hit1_02
+  rotate: false
+  xy: 560, 712
+  size: 190, 180
+  orig: 300, 300
+  offset: 55, 59
+  index: -1
+images/khdxs_hit1/khdxs_hit1_04
+  rotate: false
+  xy: 2, 643
+  size: 200, 200
+  orig: 300, 300
+  offset: 50, 50
+  index: -1
+images/khdxs_hit1/khdxs_hit1_06
+  rotate: false
+  xy: 204, 549
+  size: 209, 209
+  orig: 300, 300
+  offset: 46, 45
+  index: -1
+images/khdxs_hit1/khdxs_hit1_08
+  rotate: false
+  xy: 629, 478
+  size: 214, 214
+  orig: 300, 300
+  offset: 43, 43
+  index: -1
+images/khdxs_hit1/khdxs_hit1_10
+  rotate: false
+  xy: 2, 331
+  size: 216, 216
+  orig: 300, 300
+  offset: 42, 42
+  index: -1
+images/khdxs_hit1/khdxs_hit1_12
+  rotate: false
+  xy: 439, 259
+  size: 218, 217
+  orig: 300, 300
+  offset: 41, 41
+  index: -1
+images/khdxs_hit1/khdxs_hit1_14
+  rotate: false
+  xy: 220, 280
+  size: 217, 216
+  orig: 300, 300
+  offset: 42, 42
+  index: -1
+images/khdxs_hit1/khdxs_hit1_16
+  rotate: false
+  xy: 415, 498
+  size: 212, 212
+  orig: 300, 300
+  offset: 44, 44
+  index: -1
+images/khdxs_hit1/khdxs_hit1_18
+  rotate: false
+  xy: 752, 694
+  size: 198, 198
+  orig: 300, 300
+  offset: 51, 51
+  index: -1
+images/khdxs_hit1/khdxs_hit1_20
+  rotate: false
+  xy: 76, 866
+  size: 26, 26
+  orig: 300, 300
+  offset: 137, 137
+  index: -1
+images/khdxs_hit1/khdxs_hit1_22
+  rotate: false
+  xy: 52, 870
+  size: 22, 22
+  orig: 300, 300
+  offset: 139, 139
+  index: -1
+images/khdxs_hit1/khdxs_hit1_24
+  rotate: false
+  xy: 32, 874
+  size: 18, 18
+  orig: 300, 300
+  offset: 141, 141
+  index: -1
+images/khdxs_hit1/khdxs_hit1_26
+  rotate: false
+  xy: 132, 854
+  size: 38, 38
+  orig: 300, 300
+  offset: 131, 131
+  index: -1
+images/khdxs_hit1/khdxs_hit1_28
+  rotate: false
+  xy: 104, 866
+  size: 26, 26
+  orig: 300, 300
+  offset: 137, 137
+  index: -1
+images/khdxs_hit1/khdxs_hit1_30
+  rotate: false
+  xy: 14, 876
+  size: 16, 16
+  orig: 300, 300
+  offset: 142, 142
+  index: -1
+images/khdxs_hit1/khdxs_hit1_32
+  rotate: false
+  xy: 6, 886
+  size: 6, 6
+  orig: 300, 300
+  offset: 147, 147
+  index: -1
+images/khdxs_hit1/khdxs_hit1_34
+  rotate: false
+  xy: 2, 890
+  size: 2, 2
+  orig: 300, 300
+  offset: 149, 149
+  index: -1
+images/khdxs_xw1
+  rotate: true
+  xy: 172, 845
+  size: 47, 66
+  orig: 48, 66
+  offset: 1, 0
+  index: -1
+
+zd_skills_kuihuadianxueshou2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/khdxs_dxs1/khdxs_dxs1_02
+  rotate: false
+  xy: 2, 2
+  size: 763, 240
+  orig: 1200, 300
+  offset: 437, 31
+  index: -1
+images/khdxs_dxs1/khdxs_dxs1_03
+  rotate: false
+  xy: 2, 244
+  size: 934, 252
+  orig: 1200, 300
+  offset: 266, 25
+  index: -1

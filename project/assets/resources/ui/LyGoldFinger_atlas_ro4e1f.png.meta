@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "e4a643d6-444e-49f8-83e6-f648e1515fcd",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "e4a643d6-444e-49f8-83e6-f648e1515fcd@6c48a",
+      "displayName": "LyGoldFinger_atlas_ro4e1f",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e4a643d6-444e-49f8-83e6-f648e1515fcd",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": true,
+    "redirect": "e4a643d6-444e-49f8-83e6-f648e1515fcd@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "7atZzzvEpLeZeg6DVxO9KA"
+    }
+  }
+}

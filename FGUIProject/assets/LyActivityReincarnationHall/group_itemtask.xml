@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,150">
+  <displayList>
+    <image id="n18_upe3" name="n18" src="upe3m" fileName="res/frame_neirongdiban.png" xy="11,0"/>
+    <text id="n1_gdpi" name="label_name" xy="50,8" size="10,34" font="ui://27utqbizps391v" fontSize="24" color="#4c473e" vAlign="middle" text=""/>
+    <text id="n21_upe3" name="label_desc" xy="50,66" size="10,29" font="ui://27utqbizps391v" fontSize="20" color="#4c473e" vAlign="middle" text=""/>
+    <image id="n20_upe3" name="n20" src="bh805e" fileName="ui/frame_progress bar_all.png" pkg="27utqbiz" xy="48,103" size="300,20"/>
+    <component id="n19_upe3" name="bar_count" src="upe3n" fileName="bar_progress.xml" xy="48,103" size="280,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <list id="n2_gdpi" name="list_item" xy="340,5" size="380,160" layout="flow_hz" scroll="horizontal" margin="0,0,30,30" colGap="10" defaultItem="ui://cv8q519nupe3o" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

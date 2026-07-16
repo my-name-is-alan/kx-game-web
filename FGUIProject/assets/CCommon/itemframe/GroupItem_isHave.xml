@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="88,90">
+  <displayList>
+    <component id="n0_sjma" name="item" src="ewyha" fileName="itemframe/GroupItem.xml" xy="7,8" scale="0.8,0.8"/>
+    <image id="n1_sjma" name="n1" src="hl7112" fileName="ui/frame_challenger.png" xy="0,5" group="n3_sjma"/>
+    <text id="n2_sjma" name="label_str28_1" xy="2,0" size="21,84" group="n3_sjma" fontSize="16" color="#fff1cc" align="center" vAlign="middle" autoSize="none" text="已拥有"/>
+    <group id="n3_sjma" name="group_have" xy="0,0" size="24,87" advanced="true"/>
+  </displayList>
+</component>

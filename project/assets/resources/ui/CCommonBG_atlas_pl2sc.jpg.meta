@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "91603196-cc39-4833-ad91-97ce5b717c0d",
+  "files": [
+    ".jpg",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "91603196-cc39-4833-ad91-97ce5b717c0d@6c48a",
+      "displayName": "CCommonBG_atlas_pl2sc",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "91603196-cc39-4833-ad91-97ce5b717c0d",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": false,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": true,
+    "redirect": "91603196-cc39-4833-ad91-97ce5b717c0d@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "7atZzzvEpLeZeg6DVxO9KA"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qaf45ant">
+  <resources>
+    <component id="ijfm0" name="btn_close1.xml" path="/res/"/>
+    <image id="ijfm2" name="btn_small.png" path="/res/"/>
+    <image id="ijfm3" name="btn_big.png" path="/res/"/>
+    <component id="ijfm4" name="btn_big.xml" path="/res/"/>
+    <component id="ijfm5" name="btn_small3.xml" path="/res/"/>
+    <image id="ijfm9" name="frame_chaozhi.png" path="/res/"/>
+    <component id="ijfmh" name="LyPaySevenGiftGroup4.xml" path="/" exported="true"/>
+    <component id="ijfmi" name="group_main.xml" path="/"/>
+    <image id="ijfmk" name="bg_meirilibao4.png" path="/res/" atlas="alone_npot"/>
+    <image id="ijfml" name="btn_close4.png" path="/res/"/>
+    <image id="ijfmm" name="frame_daoju4.png" path="/res/"/>
+    <image id="ijfmn" name="frame_name4.png" path="/res/"/>
+    <image id="ijfmq" name="frame_xinxi.png" path="/res/"/>
+    <image id="ijfms" name="frame_zhongshenyici4.png" path="/res/"/>
+    <image id="ijfmt" name="btn_small4.png" path="/res/"/>
+    <image id="g0p7u" name="frame_mijidi.png" path="/res/"/>
+    <component id="g0p7v" name="group_skill.xml" path="/"/>
+    <image id="g0p7w" name="frame_kaifuxianding4ng.png" path="/res/"/>
+    <component id="iscax" name="group_rate.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

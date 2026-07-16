@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="693,926" designImageOffsetX="-26" designImageOffsetY="-449">
+  <controller name="c1" pages="0,,1,,2," selected="2"/>
+  <displayList>
+    <image id="n86_hhz9" name="n86" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,29" size="697,881"/>
+    <component id="n91_hhz9" name="group_item" src="k70ee2" fileName="group_theurgy.xml" xy="55,106"/>
+    <loader id="n95_hhz9" name="loader_bg" xy="267,109" size="392,350" url="ui://yhkdb7e3hhz9e4"/>
+    <image id="n100_hhz9" name="n100" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="40,639" size="617,222" alpha="0.6"/>
+    <image id="n101_hhz9" name="n101" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="39,501" size="619,78" alpha="0.6"/>
+    <image id="n105_hhz9" name="n105" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="171,601" size="391,11"/>
+    <image id="n106_hhz9" name="n106" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="171,471" size="391,11"/>
+    <text id="n107_hhz9" name="label_stage" xy="506,132" size="86,36" font="ui://27utqbizps391v" fontSize="26" vAlign="middle" autoSize="none" text="1级"/>
+    <text id="n60_p5o4" name="label_name" xy="300,120" size="216,54" font="ui://27utqbizps391v" fontSize="40" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" text="护体金光决">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n61_p5o4" name="label_des1" xy="300,202" size="351,34" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="1级">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n63_p5o4" name="label_skillDes" xy="301,252" size="338,106" fontSize="22" color="#767676" autoSize="none" text="第一回合">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <richtext id="n66_p5o4" name="n66" xy="277,586" size="151,39" font="ui://27utqbizps391v" fontSize="28" align="center" vAlign="middle" autoSize="none" text="印记效果">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n69_p5o4" name="n69" xy="245,456" size="214,39" font="ui://27utqbizps391v" fontSize="28" align="center" vAlign="middle" autoSize="none" text="当前上阵效果">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n70_p5o4" name="label_gj" xy="76,525" size="100,32" fontSize="22" color="#2b841c" align="center" vAlign="middle" text="攻击+621">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n71_p5o4" name="label_sm" xy="288,525" size="48,32" fontSize="22" color="#2b841c" align="center" vAlign="middle" text="生命">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n72_p5o4" name="label_fy" xy="497,525" size="48,32" fontSize="22" color="#2b841c" align="center" vAlign="middle" text="防御">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n87_hhz9" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="638,-5"/>
+    <image id="n88_hhz9" name="n88" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="162,60" size="376,38"/>
+    <text id="n89_hhz9" name="label_title" xy="305,56" size="94,43" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="详情"/>
+    <image id="n122_krp3" name="n122" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="300,243"/>
+    <text id="n123_krp3" name="n123" xy="264,737" size="164,54" fontSize="40" text="暂无印记">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <component id="n124_s8na" name="loader_yj1" src="s8napj" fileName="group_seal1.xml" xy="166,691">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <gearXY controller="c1" pages="1" values="281,691" default="166,691"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n125_s8na" name="loader_yj2" src="s8napj" fileName="group_seal1.xml" xy="409,691">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

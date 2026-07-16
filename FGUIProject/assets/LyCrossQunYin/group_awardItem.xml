@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="625,120">
+  <displayList>
+    <image id="n6_hl71" name="n6" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="0,0" size="625,120"/>
+    <list id="n7_hl71" name="list_rankItem" xy="172,12" size="240,100" layout="row" overflow="scroll" scroll="horizontal" lineGap="51" colGap="10" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n17_hl71" name="label_top" xy="3,44" size="151,36" visible="false" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" text="100"/>
+    <image id="n18_wgjo" name="group_top1" src="ltemkh" fileName="itemrank/frame_ranking_01.png" pkg="27utqbiz" xy="45,25" visible="false"/>
+    <image id="n19_wgjo" name="group_top2" src="ltemki" fileName="itemrank/frame_ranking_02.png" pkg="27utqbiz" xy="45,25" visible="false"/>
+    <image id="n20_wgjo" name="group_top3" src="ltemkj" fileName="itemrank/frame_ranking_03.png" pkg="27utqbiz" xy="45,25" visible="false"/>
+  </displayList>
+</component>

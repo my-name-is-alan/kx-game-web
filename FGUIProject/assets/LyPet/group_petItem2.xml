@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="206,457" overflow="hidden" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <component id="n28_szl0" name="group_petItem" src="rg028b" fileName="group_petItem1.xml" xy="103,228" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+  <Button mode="Radio"/>
+  <transition name="ani">
+    <item time="0" type="Alpha" target="n28_szl0" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Scale" target="n28_szl0" tween="true" startValue="0,0" endValue="1,1" duration="6"/>
+  </transition>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="313,254">
+  <controller name="part" exported="true" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <image id="n36_k70e" name="n36" src="k70e5n" fileName="res/frame_mijitianjiadi.png" xy="92,28"/>
+    <loader id="n34_k70e" name="loader_qua" xy="93,29" size="182,179" group="n37_hhz9" url="ui://yhkdb7e3k70ee1"/>
+    <loader id="n35_k70e" name="loader_icon" xy="106,40" size="159,159" group="n37_hhz9" aspect="true" url="ui://yhkdb7e3k70eb1" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n27_k70e" name="loaer_stage" xy="53,12" size="50,50" group="n28_k70e" url="ui://yhkdb7e3k70e4v" align="center" vAlign="middle"/>
+    <text id="n15_p5o4" name="label_name" xy="62,57" size="31,151" group="n28_k70e" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" align="center" leading="6" letterSpacing="10" autoSize="none" strokeColor="#ac7a10" strokeSize="2" text="寒梅"/>
+    <text id="n16_p5o4" name="label_stage" xy="45,16" pivot="1,0" size="67,39" group="n28_k70e" font="ui://27utqbizps391v" fontSize="26" color="#ffffff" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" autoClearText="true" text="1"/>
+    <group id="n28_k70e" name="n28" xy="45,12" size="67,196" group="n37_hhz9" advanced="true">
+      <gearXY controller="part" pages="0,1,2,3" values="45,12|256,12|36,22|266,22"/>
+    </group>
+    <loader id="n17_l87x" name="loader_seal1" xy="147,180" size="34,32" group="n29_k70e" url="ui://yhkdb7e3k70e5o" fill="scaleFree" autoSize="true"/>
+    <loader id="n18_l87x" name="loader_seal2" xy="190,180" size="34,32" group="n29_k70e" url="ui://yhkdb7e3k70e5o" fill="scaleFree" autoSize="true"/>
+    <group id="n29_k70e" name="n29" xy="147,180" size="77,32" group="n37_hhz9" advanced="true" layout="hz" colGap="9" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n37_hhz9" name="all" xy="45,12" size="230,200" advanced="true"/>
+    <image id="n38_kmfd" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="235,39" visible="false">
+      <gearXY controller="part" pages="1,3" values="105,39|105,39" default="235,39"/>
+    </image>
+    <loader id="n24_k70e" name="loader_part" xy="94,42" size="38,38" group="n26_k70e" url="ui://yhkdb7e3k70e4z"/>
+    <text id="n25_k70e" name="label_partName" xy="94,39" size="38,44" group="n26_k70e" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="绝学"/>
+    <group id="n26_k70e" name="n26" xy="94,39" size="38,44" advanced="true">
+      <gearXY controller="part" pages="0,1,2,3" values="94,39|228,37|83,52|242,51"/>
+    </group>
+  </displayList>
+</component>

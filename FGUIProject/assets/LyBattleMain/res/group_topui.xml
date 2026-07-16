@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,440" opaque="false">
+  <displayList>
+    <image id="n7_huv2" name="n7" src="huv21f" fileName="res/frame_bar_all.png" xy="62,403" size="120,16"/>
+    <component id="n6_huv2" name="bar_blood" src="huv21l" fileName="res/bar_blood.xml" xy="120,411" pivot="0.5,0.5" anchor="true" size="100,10">
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n5_huv2" name="img_anger_back" src="huv21f" fileName="res/frame_bar_all.png" xy="62,418" size="120,16">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n4_huv2" name="bar_anger" src="huv21k" fileName="res/bar_anger.xml" xy="120,426" pivot="0.5,0.5" anchor="true" size="100,10">
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <loader3D id="n8_9frc" name="loader_spine_anger" xy="119,425" size="2,2" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <list id="n3_ni3j" name="list_bufficon" xy="123,400" pivot="0.5,1" anchor="true" size="128,400" touchable="false" layout="flow_hz" overflow="hidden" defaultItem="ui://o2pyykjcni3j12" vAlign="bottom" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

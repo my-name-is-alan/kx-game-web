@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1173" designImageOffsetY="-202">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n40_l7ic" name="n40" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="24,-50" size="702,1123"/>
+    <loader id="n48_ljrs" name="n48" xy="59,900" size="632,84" url="ui://27utqbizltemkr"/>
+    <image id="n91_d2gn" name="n91" src="i2pz3l" fileName="hall/frame_paimingdi.png" xy="91,910"/>
+    <richtext id="n41_l7ic" name="label_title" xy="43,-20" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="帮派奖励"/>
+    <component id="n39_l7ic" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,-10"/>
+    <list id="n58_ljrs" name="list_clan" xy="41,54" size="667,840" overflow="scroll" lineGap="10" defaultItem="ui://shg18arii2pz3m" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n73_ljrs" name="list_my" xy="41,54" size="668,840" overflow="scroll" lineGap="10" defaultItem="ui://shg18arii2pz3k" autoClearItems="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n46_ljrs" name="btn_bp" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="33,1063">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n47_ljrs" name="btn_gr" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="201,1063">
+      <Button controller="c1" page="1"/>
+    </component>
+    <text id="n88_g6rs" name="label_rank" xy="113,924" size="18,34" fontSize="24" color="#fff6ed" vAlign="middle" strokeColor="#b98331" autoClearText="true" text="1">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n90_g6rs" name="label_score" xy="194,923" size="141,37" fontSize="26" color="#16191a" vAlign="middle" autoClearText="true" text="退敌数：{0}"/>
+    <component id="n54_ljrs" name="btn_take" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="464,916" size="191,54" visible="false">
+      <Button title="领取" titleFontSize="30"/>
+    </component>
+    <image id="n42_l7ic" name="n42" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="578,875"/>
+    <image id="n92_d2gn" name="img_paster" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="479,915"/>
+    <text id="n93_d2gn" name="label_take" xy="420,921" size="277,44" font="ui://27utqbizps391v" fontSize="32" color="#f3ffec" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n94_ahj3" name="label_desc" xy="208,997" size="334,29" fontSize="20" color="#e86146" vAlign="middle" autoClearText="true" text="*活动结束后，奖励会以邮件形式发放">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

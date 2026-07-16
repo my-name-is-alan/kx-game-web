@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="716,973">
+  <displayList>
+    <image id="n90_iqt4" name="n90" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,33" size="698,940">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n95_iqt4" name="loader_bg" xy="264,116" size="392,350" url="ui://yhkdb7e3hhz9e4"/>
+    <image id="n104_iqt4" name="n104" src="hhz9ep" fileName="res/frame_neirongdiban2.png" xy="40,507" size="616,78"/>
+    <image id="n105_iqt4" name="n105" src="hhz9ep" fileName="res/frame_neirongdiban2.png" xy="38,645" size="619,221"/>
+    <text id="n69_p5o4" name="n69" xy="260,463" size="182,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="当前上阵效果"/>
+    <text id="n70_p5o4" name="label_gj" xy="286,516" size="212,36" fontSize="22" color="#2b841c" autoSize="none" text="防御"/>
+    <text id="n71_p5o4" name="label_sm" xy="496,513" size="212,38" fontSize="22" color="#2b841c" vAlign="middle" autoSize="none" text="生命"/>
+    <text id="n72_p5o4" name="label_fy" xy="76,515" size="212,33" fontSize="22" color="#2b841c" vAlign="middle" autoSize="none" text="攻击"/>
+    <text id="n80_cxr1" name="label_des2" xy="75,653" size="262,34" fontSize="22" color="#858585" autoSize="none" text="1级"/>
+    <text id="n81_cxr1" name="n81" xy="76,773" size="151,34" fontSize="22" color="#858585" vAlign="middle" autoSize="none" text="满级"/>
+    <text id="n82_cxr1" name="label_skillDes2" xy="76,683" size="551,84" fontSize="22" color="#858585" autoSize="none" text="每一回合"/>
+    <text id="n83_cxr1" name="label_gj2" xy="498,795" size="160,44" fontSize="22" color="#858585" vAlign="middle" autoSize="none" text="攻击"/>
+    <text id="n86_cxr1" name="label_sm2" xy="288,795" size="212,44" fontSize="22" color="#858585" vAlign="middle" autoSize="none" text="生命"/>
+    <text id="n87_cxr1" name="label_fy2" xy="76,795" size="212,44" fontSize="22" color="#858585" vAlign="middle" autoSize="none" text="攻击"/>
+    <text id="n91_iqt4" name="label_title" xy="288,64" size="117,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="门客羁绊"/>
+    <image id="n92_iqt4" name="n92" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="171,595" size="375,0"/>
+    <component id="n93_iqt4" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="638,0"/>
+    <component id="n94_iqt4" name="group_item" src="k70ee2" fileName="group_theurgy.xml" xy="52,116"/>
+    <text id="n96_iqt4" name="label_stage" xy="508,139" size="86,36" font="ui://27utqbizps391v" fontSize="26" vAlign="middle" autoSize="none" text="1级"/>
+    <text id="n97_iqt4" name="label_name" xy="298,126" size="216,54" font="ui://27utqbizps391v" fontSize="40" color="#6ab4ff" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" text="护体金光决"/>
+    <text id="n98_iqt4" name="label_des1" xy="297,209" size="357,34" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="1级"/>
+    <image id="n100_iqt4" name="n100" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="170,477" size="391,11"/>
+    <image id="n101_iqt4" name="n101" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="169,607" size="391,11"/>
+    <text id="n102_iqt4" name="n79" xy="260,591" size="182,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="满级预览"/>
+    <image id="n106_iqt4" name="n106" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="160,66" size="376,38"/>
+    <component id="n107_iqt4" name="btn_up" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="471,887" size="188,52"/>
+    <component id="n108_kx2g" name="label_skillDes" src="k3c2pl" fileName="label_skillDes_Com.xml" xy="301,261" size="338,111"/>
+  </displayList>
+</component>

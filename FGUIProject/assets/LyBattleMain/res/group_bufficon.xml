@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="32,32">
+  <displayList>
+    <loader id="n0_ni3j" name="loader_icon" xy="0,0" size="32,32" url="ui://27utqbizi6m8qq" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+  </displayList>
+</component>

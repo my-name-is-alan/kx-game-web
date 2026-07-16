@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="506,115" overflow="scroll" scroll="horizontal" scrollBarFlags="384">
+  <displayList>
+    <component id="n97_isy4" name="pro_score" src="rgswqx" fileName="pro_times.xml" xy="39,96" size="1700,14" group="n104_rgsw">
+      <ProgressBar value="60" max="200"/>
+    </component>
+    <list id="n103_isy4" name="list_item" xy="9,20" size="504,95" group="n104_rgsw" layout="row" colGap="22" defaultItem="ui://yhkdb7e3rgswr0" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n104_rgsw" name="n104" xy="9,20" size="1730,95"/>
+  </displayList>
+</component>

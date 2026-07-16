@@ -1,0 +1,76 @@
+
+ui_chefu_xiaoji_bei.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_Z
+  rotate: false
+  xy: 2, 160
+  size: 97, 92
+  orig: 97, 92
+  offset: 0, 0
+  index: -1
+chibang_L
+  rotate: true
+  xy: 187, 151
+  size: 30, 18
+  orig: 30, 18
+  offset: 0, 0
+  index: -1
+chibang_R
+  rotate: false
+  xy: 207, 135
+  size: 30, 18
+  orig: 30, 18
+  offset: 0, 0
+  index: -1
+eye_L_bei
+  rotate: false
+  xy: 209, 187
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+eye_R_bei
+  rotate: false
+  xy: 209, 155
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+foot_L_Bei
+  rotate: false
+  xy: 157, 156
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+foot_R_Bei
+  rotate: false
+  xy: 157, 129
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+jiguang
+  rotate: false
+  xy: 209, 219
+  size: 43, 33
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+yan
+  rotate: true
+  xy: 101, 128
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+yifu
+  rotate: false
+  xy: 101, 183
+  size: 106, 69
+  orig: 106, 69
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,97 @@
+
+zd_skills_ranmudao_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/rmd_hwdg/rmd_hwdg_00
+  rotate: false
+  xy: 2, 721
+  size: 276, 116
+  orig: 340, 170
+  offset: 49, 6
+  index: -1
+images/effect/rmd_hwdg/rmd_hwdg_02
+  rotate: false
+  xy: 301, 535
+  size: 302, 154
+  orig: 340, 170
+  offset: 12, 7
+  index: -1
+images/effect/rmd_hwdg/rmd_hwdg_04
+  rotate: false
+  xy: 2, 549
+  size: 297, 144
+  orig: 340, 170
+  offset: 15, 16
+  index: -1
+images/effect/rmd_hwdg/rmd_hwdg_06
+  rotate: false
+  xy: 416, 691
+  size: 274, 130
+  orig: 340, 170
+  offset: 20, 23
+  index: -1
+images/effect/rmd_hwdg/rmd_hwdg_08
+  rotate: false
+  xy: 555, 823
+  size: 243, 112
+  orig: 340, 170
+  offset: 28, 30
+  index: -1
+images/effect/rmd_xl/rmd_xl_00
+  rotate: true
+  xy: 438, 824
+  size: 111, 115
+  orig: 150, 150
+  offset: 18, 19
+  index: -1
+images/effect/rmd_xl/rmd_xl_02
+  rotate: false
+  xy: 692, 674
+  size: 135, 135
+  orig: 150, 150
+  offset: 6, 6
+  index: -1
+images/effect/rmd_xl/rmd_xl_04
+  rotate: false
+  xy: 800, 811
+  size: 135, 124
+  orig: 150, 150
+  offset: 7, 15
+  index: -1
+images/effect/rmd_xl/rmd_xl_06
+  rotate: false
+  xy: 192, 839
+  size: 115, 96
+  orig: 150, 150
+  offset: 19, 24
+  index: -1
+images/effect/rmd_xl/rmd_xl_08
+  rotate: false
+  xy: 280, 695
+  size: 134, 128
+  orig: 150, 150
+  offset: 10, 9
+  index: -1
+images/effect/rmd_xl/rmd_xl_10
+  rotate: false
+  xy: 309, 825
+  size: 127, 110
+  orig: 150, 150
+  offset: 15, 15
+  index: -1
+images/effect/rmd_xl/rmd_xl_12
+  rotate: false
+  xy: 81, 849
+  size: 109, 86
+  orig: 150, 150
+  offset: 24, 27
+  index: -1
+images/effect/rmd_xl/rmd_xl_14
+  rotate: true
+  xy: 2, 871
+  size: 64, 77
+  orig: 150, 150
+  offset: 42, 28
+  index: -1

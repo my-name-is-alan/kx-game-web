@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n0_f4zx" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_jm82" name="group_main" src="tn2s43" fileName="leichong/group_payallentry.xml" xy="0,117">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

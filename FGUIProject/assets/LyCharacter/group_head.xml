@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="644,961" designImageOffsetX="-51" designImageOffsetY="-490" designImageAlpha="84">
+  <controller name="c1" pages="0,,1,,2," selected="1"/>
+  <displayList>
+    <image id="n90_ar1l" name="n90" src="ar1l1t" fileName="res/bg_baixianglou2.png" xy="0,0"/>
+    <image id="n111_psu4" name="n111" src="psu42r" fileName="res1/btn_biaoqian3.png" xy="-18,188" size="680,116"/>
+    <image id="n110_psu4" name="n110" src="psu42o" fileName="res1/frame_baixiangloudiban.png" xy="0,276" size="644,554"/>
+    <text id="n51_ilda" name="n51" xy="539,18" size="92,32" visible="false" fontSize="22" color="#16191a" text="累计加成"/>
+    <image id="n112_psu4" name="n112" src="iuxmet" fileName="ui/frame_chuzhandihei.png" pkg="27utqbiz" xy="5,11" size="246,37" alpha="0.3"/>
+    <text id="n50_ilda" name="label_num" xy="18,13" size="158,29" fontSize="20" color="#ffffff" vAlign="middle" strokeColor="#6c6c6c" autoClearText="true" text="已拥有：100/100"/>
+    <text id="n57_ilda" name="label_syz" xy="276,897" size="94,42" font="ui://27utqbizps391v" fontSize="30" color="#7a7a7a" align="center" vAlign="middle" autoClearText="true" text="使用中"/>
+    <component id="n75_p30y" name="btn_unlock" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="229,893" size="188,53">
+      <Button title="解锁1" titleFontSize="30"/>
+    </component>
+    <component id="n97_i2m0" name="group_needItem" src="i2m029" fileName="group_needItem.xml" xy="269,852"/>
+    <component id="n72_kyb4" name="btn_alter" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="227,893" size="188,53">
+      <Button title="幻化1" titleFontSize="30"/>
+    </component>
+    <text id="n53_ilda" name="label_name" xy="190,80" size="100,34" group="n58_ilda" font="ui://27utqbizps391v" fontSize="24" color="#6c6c6c" vAlign="middle" autoClearText="true" text="头像名字"/>
+    <text id="n54_ilda" name="label_dec" xy="190,113" size="196,34" group="n58_ilda" font="ui://27utqbizps391v" fontSize="24" color="#6c6c6c" vAlign="middle" autoClearText="true" text="解锁阿里大家打架"/>
+    <text id="n74_kyb4" name="label_attr" xy="190,146" size="196,34" group="n58_ilda" font="ui://27utqbizps391v" fontSize="24" color="#6c6c6c" vAlign="middle" autoClearText="true" text="描述阿里大家打架"/>
+    <component id="n82_ar1l" name="btn_icon" src="ar1l1o" fileName="btn_headIcon.xml" xy="22,39" group="n58_ilda"/>
+    <loader id="n93_ar1l" name="img_bubbleIcon" xy="46,86" size="136,60" group="n96_ar1l" url="ui://li7lbnd9ar1l13"/>
+    <text id="n94_ar1l" name="n94" xy="82,98" size="56,36" group="n96_ar1l" fontSize="26" color="#f86d8f" text="你好"/>
+    <group id="n96_ar1l" name="group_bubble" xy="46,86" size="136,60" group="n58_ilda" visible="false" advanced="true"/>
+    <group id="n58_ilda" name="n58" xy="22,39" size="364,153" advanced="true"/>
+    <list id="n73_kyb4" name="list_headIcon1" xy="11,310" size="622,504" layout="flow_hz" overflow="scroll" defaultItem="ui://li7lbnd9kyb4g" align="center" autoClearItems="true" scrollItemToViewOnClick="false">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+    </list>
+    <list id="n98_i2m0" name="list_headIcon2" xy="11,348" size="622,482" layout="flow_hz" overflow="scroll" lineGap="-12" colGap="-6" defaultItem="ui://li7lbnd9ar1l1o" autoClearItems="true" scrollItemToViewOnClick="false">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n99_i2m0" name="list_headIcon3" xy="15,317" size="614,496" layout="flow_hz" overflow="scroll" lineGap="-8" colGap="30" defaultItem="ui://li7lbnd9ar1l1v" autoClearItems="true" scrollItemToViewOnClick="false">
+      <gearDisplay controller="c1" pages="2"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n83_ar1l" name="btn_attr" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="460,-15" visible="false"/>
+    <image id="n101_i2m0" name="n101" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="112,313" size="420,38" group="n103_i2m0"/>
+    <text id="n102_i2m0" name="n102" xy="233,310" size="178,39" group="n103_i2m0" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="活动"/>
+    <group id="n103_i2m0" name="n103" xy="112,310" size="420,41" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n107_psu4" name="btn_head" src="psu42i" fileName="btn_common1.xml" xy="154,218">
+      <Button icon="ui://li7lbnd9psu42k" controller="c1" page="0"/>
+    </component>
+    <component id="n108_psu4" name="btn_bubble" src="psu42i" fileName="btn_common1.xml" xy="414,218" touchable="false">
+      <Button icon="ui://li7lbnd9psu42n" controller="c1" page="2"/>
+    </component>
+    <component id="n109_psu4" name="btn_headK" src="psu42i" fileName="btn_common1.xml" xy="284,218" touchable="false">
+      <Button checked="true" icon="ui://li7lbnd9psu42j" controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="206,394">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <image id="n0_sril" name="n0" src="srily" fileName="recharge/frame_chongzhi.png" xy="0,0"/>
+    <image id="n4_omjr" name="n4" src="omjr2s" fileName="recharge/frame_worship.png" xy="-8,0">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </image>
+    <image id="n7_omjr" name="n7" src="omjr2r" fileName="recharge/frame_give.png" xy="18,256">
+      <gearDisplay controller="c1" pages="2,3"/>
+    </image>
+    <loader id="n1_sril" name="loader_icon" xy="53,89" size="100,100" touchable="false" align="center" vAlign="middle"/>
+    <text id="n5_omjr" name="label_tip" xy="2,22" size="35,140" font="ui://27utqbizps391v" fontSize="28" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="height" strokeColor="#794614" text="首充加赠">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </text>
+    <richtext id="n2_sril" name="label_count" xy="51,215" size="103,34" fontSize="24" color="#794614" ubb="true" autoClearText="true" text="x 30 玉璧">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n6_omjr" name="label_give" xy="47,253" size="111,34" fontSize="24" color="#794614" ubb="true" autoClearText="true" text="赠     1000">
+      <gearDisplay controller="c1" pages="2,3"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n3_sril" name="label_rmb" xy="74,314" size="57,47" fontSize="34" color="#794614" align="center" vAlign="middle" autoClearText="true" text="6元">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n8_t09v" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="88,-20" visible="false"/>
+  </displayList>
+</component>

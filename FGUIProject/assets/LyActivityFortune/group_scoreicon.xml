@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,76">
+  <displayList>
+    <image id="n9_8em0" name="n9" src="jw70d" fileName="res/frame_difendikuang.png" xy="1,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n10_8em0" name="loader_icon" xy="0,0" size="76,76" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <image id="n12_zy5s" name="n12" src="ef0l1y" fileName="ui/frame_time.png" pkg="27utqbiz" xy="-2,88" size="80,28">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n11_zy5s" name="label_score" xy="33,87" size="10,29" font="ui://27utqbizps391v" fontSize="20" color="#ffffff" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

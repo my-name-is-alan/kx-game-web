@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="416,141">
+  <displayList>
+    <image id="n18_h8u4" name="n18" src="luwhw" fileName="res/frame_chaojilianjie.png" xy="4,0"/>
+    <image id="n10_h8u4" name="n10" src="luwh9" fileName="ui/frame_jingcui.png" pkg="27utqbiz" xy="183,7"/>
+    <text id="n11_h8u4" name="label_socre" xy="208,10" size="48,29" fontSize="20" color="#2c841c" vAlign="middle" text="20分"/>
+    <text id="n12_h8u4" name="label_time" xy="286,10" size="99,29" fontSize="20" color="#2c841c" vAlign="middle" autoSize="none" text="0"/>
+    <loader id="n17_h8u4" name="img_join" xy="336,2" size="76,46" visible="false" url="ui://hvrla2w2luwha"/>
+    <loader id="n16_h8u4" name="img_me" xy="336,2" size="76,46" visible="false" url="ui://hvrla2w2luwhi"/>
+    <loader id="n21_h8u4" name="loader_bg" xy="20,9" size="100,30" url="ui://fuzg58b6luwhh" autoSize="true"/>
+    <list id="n13_h8u4" name="list_qx" xy="21,48" size="312,83" layout="flow_hz" overflow="scroll" lineGap="6" colGap="14" defaultItem="ui://fuzg58b6h8u433">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n23_h8u4" name="n23" xy="303,97" size="104,32" fontSize="22" color="#5f4c33" align="center" vAlign="middle" autoSize="none" underline="true" text="点击参与"/>
+  </displayList>
+</component>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="li7lbnd9">
+  <resources>
+    <component id="ilda0" name="LyCharacter.xml" path="/" exported="true"/>
+    <image id="ilda2" name="memory_btn_common2.png" path="/res/"/>
+    <image id="ilda3" name="frame_vice_title.png" path="/res/" scale="9grid" scale9grid="129,9,7,18"/>
+    <component id="ilda4" name="label_attr.xml" path="/"/>
+    <component id="ilda8" name="btn_icon.xml" path="/"/>
+    <component id="ilda9" name="group_model.xml" path="/"/>
+    <component id="ildaa" name="group_head.xml" path="/"/>
+    <component id="ildab" name="btn_icon2.xml" path="/" exported="true"/>
+    <component id="ildac" name="group_title.xml" path="/"/>
+    <component id="ildae" name="group_effects.xml" path="/"/>
+    <component id="kyb4g" name="group_headItem.xml" path="/"/>
+    <component id="jis8h" name="LyChangeCharacter.xml" path="/" exported="true"/>
+    <component id="jis8j" name="btn_stageItem.xml" path="/"/>
+    <image id="ar1lk" name="frame_js.png" path="/res/"/>
+    <image id="ar1ll" name="frame_dialog-box.png" path="/res/" scale="9grid" scale9grid="43,22,86,44"/>
+    <image id="ar1lm" name="frame_curtain_unselectd.png" path="/res/"/>
+    <image id="ar1ln" name="frame_badge.png" path="/res/"/>
+    <image id="ar1lo" name="fex_tab_selected.png" path="/res/"/>
+    <image id="ar1lp" name="fex_select2.png" path="/res/" scale="9grid" scale9grid="25,25,5,6"/>
+    <image id="ar1lq" name="fex_select1.png" path="/res/" scale="9grid" scale9grid="5,5,10,10"/>
+    <image id="ar1lr" name="fex_light.png" path="/res/"/>
+    <image id="ar1ls" name="btn_state.png" path="/res/"/>
+    <image id="ar1lt" name="btn_special.png" path="/res/"/>
+    <image id="ar1lu" name="btn_face.png" path="/res/"/>
+    <image id="ar1lv" name="btn_edging.png" path="/res/"/>
+    <image id="ar1lw" name="btn_dialog.png" path="/res/"/>
+    <image id="ar1lx" name="btn_badge.png" path="/res/"/>
+    <image id="ar1ly" name="btn_activity.png" path="/res/"/>
+    <image id="ar1lz" name="word_others_unselected.png" path="/res/"/>
+    <image id="ar1l10" name="word_others_selected.png" path="/res/"/>
+    <image id="ar1l11" name="word_name_unselected.png" path="/res/"/>
+    <image id="ar1l12" name="icon_badge.png" path="/res/"/>
+    <image id="ar1l13" name="icon_dialog box.png" path="/res/"/>
+    <image id="ar1l14" name="icon_edging-box.png" path="/res/"/>
+    <image id="ar1l15" name="icon_fex.png" path="/res/"/>
+    <image id="ar1l17" name="icon_play.png" path="/res/"/>
+    <image id="ar1l18" name="frame_tab_long.png" path="/res/"/>
+    <image id="ar1l1b" name="word_face_selected.png" path="/res/"/>
+    <image id="ar1l1c" name="word_face_unselected.png" path="/res/"/>
+    <image id="ar1l1d" name="word_image_selected.png" path="/res/"/>
+    <image id="ar1l1e" name="word_image_unselected.png" path="/res/"/>
+    <image id="ar1l1f" name="word_name_selected.png" path="/res/"/>
+    <image id="ar1l1h" name="frame_tab_short.png" path="/res/"/>
+    <component id="ar1l1j" name="btn_common.xml" path="/"/>
+    <component id="ar1l1o" name="btn_headIcon.xml" path="/" exported="true"/>
+    <image id="ar1l1s" name="bg_baixianglou1.png" path="/res/"/>
+    <image id="ar1l1t" name="bg_baixianglou2.png" path="/res/"/>
+    <component id="ar1l1v" name="btn_bubbleIcon.xml" path="/" exported="true"/>
+    <component id="ar1l1y" name="btn_icon3.xml" path="/" exported="true"/>
+    <component id="ar1l20" name="btn_normal1.xml" path="/"/>
+    <component id="ar1l21" name="btn_normal2.xml" path="/"/>
+    <component id="ar1l22" name="btn_normal3.xml" path="/"/>
+    <component id="ar1l23" name="btn_normal4.xml" path="/"/>
+    <component id="ar1l26" name="btn_stageItem1.xml" path="/"/>
+    <image id="ne2h27" name="frame_title.png" path="/res/"/>
+    <image id="siyn28" name="icon_lock.png" path="/res/"/>
+    <component id="i2m029" name="group_needItem.xml" path="/"/>
+    <image id="yqrs2a" name="pic_character1.png" path="/res/"/>
+    <image id="yqrs2b" name="pic_character2.png" path="/res/"/>
+    <image id="yqrs2c" name="pic_character3.png" path="/res/"/>
+    <image id="wgjo2d" name="frame_gundongdi.png" path="/res/" scale="9grid" scale9grid="157,64,316,145"/>
+    <component id="psu42e" name="group_character.xml" path="/"/>
+    <component id="psu42i" name="btn_common1.xml" path="/"/>
+    <image id="psu42j" name="btn_touxiangkuangoyeqian.png" path="/res1/"/>
+    <image id="psu42k" name="btn_touxiangyeqian.png" path="/res1/"/>
+    <image id="psu42l" name="btn_xunzhangyeqian.png" path="/res1/"/>
+    <image id="psu42m" name="btn_chenghaoyeqian.png" path="/res1/"/>
+    <image id="psu42n" name="btn_qipaoyeqian.png" path="/res1/"/>
+    <image id="psu42o" name="frame_baixiangloudiban.png" path="/res1/" scale="9grid" scale9grid="161,70,322,140"/>
+    <image id="psu42p" name="btn_huodongyeqian.png" path="/res1/"/>
+    <image id="psu42q" name="btn_jingjieyeqian.png" path="/res1/"/>
+    <image id="psu42r" name="btn_biaoqian3.png" path="/res1/" scale="9grid" scale9grid="270,28,42,58"/>
+    <image id="psu42t" name="bg_baixianglou1.png" path="/res1/"/>
+    <image id="psu42u" name="bg_baixianglou2.png" path="/res1/"/>
+    <image id="psu42x" name="Props_liaotianqipao_1.png" path="/res1/" scale="9grid" scale9grid="45,22,42,44"/>
+    <image id="psu42z" name="frame_touxiangxuanzhongkuang.png" path="/res1/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

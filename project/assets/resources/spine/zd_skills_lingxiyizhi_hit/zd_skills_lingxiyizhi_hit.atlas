@@ -1,0 +1,125 @@
+
+zd_skills_lingxiyizhi_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lxyz_hit/lxyz_hit_000
+  rotate: false
+  xy: 681, 764
+  size: 241, 206
+  orig: 250, 250
+  offset: 4, 21
+  index: -1
+images/lxyz_hit/lxyz_hit_002
+  rotate: false
+  xy: 421, 600
+  size: 201, 166
+  orig: 250, 250
+  offset: 24, 41
+  index: -1
+images/lxyz_hit/lxyz_hit_004
+  rotate: false
+  xy: 420, 431
+  size: 172, 167
+  orig: 250, 250
+  offset: 39, 41
+  index: -1
+images/lxyz_hit/lxyz_hit_006
+  rotate: false
+  xy: 2, 657
+  size: 233, 186
+  orig: 250, 250
+  offset: 16, 32
+  index: -1
+images/lxyz_hit/lxyz_hit_008
+  rotate: false
+  xy: 437, 768
+  size: 242, 202
+  orig: 250, 250
+  offset: 8, 22
+  index: -1
+images/lxyz_hit/lxyz_hit_010
+  rotate: false
+  xy: 2, 475
+  size: 180, 180
+  orig: 250, 250
+  offset: 35, 35
+  index: -1
+images/lxyz_hit/lxyz_hit_012
+  rotate: false
+  xy: 237, 479
+  size: 181, 181
+  orig: 250, 250
+  offset: 35, 34
+  index: -1
+images/lxyz_hit/lxyz_hit_014
+  rotate: false
+  xy: 237, 662
+  size: 182, 181
+  orig: 250, 250
+  offset: 34, 34
+  index: -1
+images/lxyz_hit/lxyz_hit_016
+  rotate: false
+  xy: 624, 584
+  size: 178, 178
+  orig: 250, 250
+  offset: 36, 36
+  index: -1
+images/lxyz_hit/lxyz_hit_018
+  rotate: false
+  xy: 804, 596
+  size: 166, 166
+  orig: 250, 250
+  offset: 42, 42
+  index: -1
+images/lxyz_hit/lxyz_hit_020
+  rotate: false
+  xy: 184, 331
+  size: 153, 146
+  orig: 250, 250
+  offset: 48, 58
+  index: -1
+images/lxyz_hit/lxyz_hit_022
+  rotate: false
+  xy: 594, 437
+  size: 154, 145
+  orig: 250, 250
+  offset: 48, 58
+  index: -1
+images/lxyz_hit/lxyz_hit_024
+  rotate: false
+  xy: 804, 450
+  size: 155, 144
+  orig: 250, 250
+  offset: 48, 59
+  index: -1
+images/lxyz_hit/lxyz_hit_026
+  rotate: false
+  xy: 2, 330
+  size: 153, 143
+  orig: 250, 250
+  offset: 51, 60
+  index: -1
+images/lxyz_hit/lxyz_hit_028
+  rotate: true
+  xy: 750, 334
+  size: 114, 141
+  orig: 250, 250
+  offset: 51, 62
+  index: -1
+images/lxyz_hit/lxyz_hit_030
+  rotate: false
+  xy: 924, 963
+  size: 7, 7
+  orig: 250, 250
+  offset: 122, 121
+  index: -1
+images/lxyz_zidan/lxyz_zidan_002
+  rotate: false
+  xy: 2, 845
+  size: 433, 125
+  orig: 600, 150
+  offset: 167, 13
+  index: -1

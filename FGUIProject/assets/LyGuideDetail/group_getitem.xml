@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,500">
+  <displayList>
+    <image id="n22_qj9z" name="n22" src="rvb52y" fileName="ui/frame_tihuanzhanshi.png" pkg="27utqbiz" xy="0,0" size="440,500"/>
+    <loader id="n23_qj9z" name="loader_title" xy="20,6" size="400,46" url="ui://27utqbizrvb52z" clearOnPublish="true"/>
+    <text id="n24_qj9z" name="label_name" xy="39,8" size="361,44" font="ui://27utqbizps391v" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#1d8fb9" text="葫芦果">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n29_qj9z" name="label_have" xy="390,65" size="10,26" fontSize="18" color="#16191a" align="right" vAlign="middle" text="">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <image id="n28_qj9z" name="n28" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="148,100"/>
+    <text id="n10_pwnl" name="label_desc" xy="150,110" size="260,82" fontSize="18" color="#16191a" autoSize="none" text=""/>
+    <component id="n8_pwnl" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="36,70">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <image id="n40_yab3" name="n40" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="27,210" size="386,38">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n39_yab3" name="label_tips" xy="214,214" size="10,29" font="ui://27utqbizps391v" fontSize="20" color="#16191a" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n37_eern" name="list_item" xy="30,258" size="380,220" overflow="scroll" lineGap="5" defaultItem="ui://53vimotaeern8">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <text id="n41_gopa" name="label_warn" xy="215,350" size="10,32" fontSize="22" color="#16191a" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

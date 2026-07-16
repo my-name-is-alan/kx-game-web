@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n116_v3t5" name="btn_mask" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n121_kuu9" name="main" src="kuu92a" fileName="LyMailOpenMain.xml" xy="30,234">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

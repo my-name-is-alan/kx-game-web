@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,130">
+  <displayList>
+    <component id="n0_o6qj" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="50,50" pivot="0.5,0.5" anchor="true"/>
+    <text id="n1_o6qj" name="label_name" xy="-14,98" size="131,32" font="ui://27utqbizps391v" fontSize="22" align="center" vAlign="middle" autoSize="ellipsis" autoClearText="true" text="123">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <transition name="t0" options="4" autoPlayRepeat="0">
+    <item time="0" type="Pivot" target="n0_o6qj" value="0.5,0.5"/>
+    <item time="0" type="Rotation" target="n0_o6qj" tween="true" startValue="0" endValue="20" duration="5" ease="Linear"/>
+    <item time="5" type="Rotation" target="n0_o6qj" tween="true" startValue="20" endValue="20" duration="5" ease="Linear"/>
+    <item time="10" type="Rotation" target="n0_o6qj" tween="true" startValue="20" endValue="-20" duration="5"/>
+    <item time="15" type="Rotation" target="n0_o6qj" tween="true" startValue="-20" endValue="0" duration="5" ease="Linear"/>
+    <item time="20" type="Rotation" target="n0_o6qj" tween="true" startValue="0" endValue="0" duration="4" ease="Linear"/>
+  </transition>
+</component>

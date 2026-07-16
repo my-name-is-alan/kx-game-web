@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,470">
+  <displayList>
+    <component id="n30_qj9z" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="399,-78"/>
+    <image id="n22_qj9z" name="n22" src="rvb52y" fileName="ui/frame_tihuanzhanshi.png" pkg="27utqbiz" xy="0,0" size="440,470"/>
+    <image id="n39_opzk" name="n39" src="rvb53c" fileName="ui/dec_tihuanzhanshi_frame_top_left_corner.png" pkg="27utqbiz" xy="21,53"/>
+    <image id="n38_opzk" name="n38" src="rvb53d" fileName="ui/dec_tihuanzhanshi_frame_low_right_corner.png" pkg="27utqbiz" xy="292,373"/>
+    <loader id="n23_qj9z" name="loader_title" xy="20,6" size="400,46" url="ui://27utqbizrvb52z" clearOnPublish="true"/>
+    <text id="n24_qj9z" name="label_name" xy="39,8" size="361,44" font="ui://27utqbizps391v" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#1d8fb9" text="葫芦果">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n29_qj9z" name="label_have" xy="390,65" size="10,26" fontSize="18" color="#16191a" align="right" vAlign="middle" text="">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <image id="n28_qj9z" name="n28" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="148,100"/>
+    <text id="n10_pwnl" name="label_desc" xy="150,110" size="260,100" fontSize="18" color="#16191a" autoSize="none" text=""/>
+    <component id="n8_pwnl" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="36,70">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <image id="n37_i6m8" name="n37" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="30,220" size="380,100"/>
+    <text id="n18_f8bh" name="label_num" xy="288,230" size="88,27" fontSize="18" color="#2b841c" text="数量：100">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <component id="n34_qj9z" name="btn_sub" src="bh805d" fileName="btn_reduct2.xml" pkg="27utqbiz" xy="40,270"/>
+    <component id="n33_qj9z" name="btn_add" src="bh805c" fileName="btn_add2.xml" pkg="27utqbiz" xy="368,270"/>
+    <image id="n35_qj9z" name="n35" src="bh805e" fileName="ui/frame_progress bar_all.png" pkg="27utqbiz" xy="90,277" size="252,20"/>
+    <component id="n16_f8bh" name="slider_count" src="f8bh7" fileName="slider_count.xml" xy="90,277" size="252,20">
+      <relation target="" sidePair="center-center"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <loader id="n36_w6la" name="loader_icon" xy="140,350" size="40,40" fill="scaleFree"/>
+    <text id="n17_f8bh" name="label_cost" xy="190,354" size="10,32" fontSize="22" color="#68a564" vAlign="middle" text="">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <component id="n31_qj9z" name="btn_buy" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="113,400"/>
+  </displayList>
+</component>

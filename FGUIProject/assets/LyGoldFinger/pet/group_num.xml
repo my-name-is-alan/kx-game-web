@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="97,42">
+  <displayList>
+    <text id="n19_81of" name="label_gold" xy="42,0" size="55,42" fontSize="30" color="#ffffff" align="center" vAlign="middle" strokeColor="#3e3e3e" strokeSize="2" text="301"/>
+    <loader id="n20_81of" name="loader_icon" xy="0,2" size="38,40" url="ui://27utqbizi5tz7o" fill="scale"/>
+  </displayList>
+  <relation target="n19_81of" sidePair="rightext-right"/>
+</component>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="678,970">
+  <displayList>
+    <graph id="n19_hwu4" name="n19" xy="9,194" size="628,767" group="n16_cwvx" type="rect"/>
+    <graph id="n92_sgzj" name="n92" xy="3,182" size="672,789" group="n16_cwvx" type="rect"/>
+    <graph id="n93_sgzj" name="n93" xy="28,208" size="598,100" group="n16_cwvx" type="rect" fillColor="#ffcccccc"/>
+    <list id="n3_cwvx" name="list_attr1" xy="36,216" size="580,85" group="n16_cwvx" layout="flow_hz" overflow="hidden" colGap="40" defaultItem="ui://2uzp0flsf7m431">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n94_sgzj" name="n94" xy="28,313" size="598,88" group="n16_cwvx" type="rect" fillColor="#ffcccccc"/>
+    <list id="n6_cwvx" name="list_attr2" xy="36,315" size="580,83" group="n16_cwvx" layout="flow_hz" overflow="hidden" colGap="40" defaultItem="ui://2uzp0flsf7m431">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n95_sgzj" name="n95" xy="28,406" size="598,88" group="n16_cwvx" type="rect" fillColor="#ffcccccc"/>
+    <list id="n11_cwvx" name="list_attr3" xy="36,409" size="580,79" group="n16_cwvx" layout="flow_hz" overflow="hidden" colGap="40" defaultItem="ui://2uzp0flsf7m431">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n96_sgzj" name="n96" xy="28,498" size="598,396" group="n16_cwvx" type="rect" fillColor="#ffcccccc"/>
+    <list id="n13_cwvx" name="list_attr4" xy="36,505" size="580,250" group="n16_cwvx" layout="flow_hz" overflow="hidden" colGap="40" defaultItem="ui://2uzp0flsf7m431">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n84_j26y" name="btn_ok" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="402,897" group="n16_cwvx">
+      <Button title="挑战"/>
+    </component>
+    <text id="n32_crah" name="n32" xy="222,718" size="363,27" group="n35_crah" fontSize="18" color="#ffff00" strokeColor="#666666" text="怪物id（若填了，则使用怪物替换以上参数）"/>
+    <graph id="n33_crah" name="n33" xy="32,718" size="180,30" group="n35_crah" type="rect"/>
+    <text id="n34_crah" name="label_monsterid" xy="32,718" size="180,30" group="n35_crah" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n35_crah" name="group_monster" xy="32,718" size="553,30" group="n16_cwvx" advanced="true"/>
+    <text id="n28_crah" name="n28" xy="222,748" size="387,24" group="n31_crah" fontSize="16" text="类型 1普通PVE  2普通PVP 3特殊PVP斗法 4群英榜PVP"/>
+    <graph id="n29_crah" name="n29" xy="32,748" size="180,30" group="n31_crah" type="rect"/>
+    <text id="n30_crah" name="label_type" xy="32,748" size="180,30" group="n31_crah" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n31_crah" name="group_type" xy="32,748" size="577,30" group="n16_cwvx" advanced="true"/>
+    <text id="n21_crah" name="n21" xy="222,800" size="219,27" group="n23_crah" fontSize="18" text="精怪3个id例如：0,0,20001"/>
+    <graph id="n22_crah" name="n22" xy="32,800" size="180,30" group="n23_crah" type="rect"/>
+    <text id="n20_crah" name="label_eliteids" xy="32,800" size="180,30" group="n23_crah" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n23_crah" name="n23" xy="32,800" size="409,30" group="n16_cwvx" advanced="true"/>
+    <text id="n24_crah" name="n24" xy="222,830" size="57,27" group="n27_crah" fontSize="18" text="宠物id"/>
+    <graph id="n25_crah" name="n25" xy="32,830" size="180,30" group="n27_crah" type="rect"/>
+    <text id="n26_crah" name="label_petid" xy="32,830" size="180,30" group="n27_crah" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n27_crah" name="n27" xy="32,830" size="247,30" group="n16_cwvx" advanced="true"/>
+    <text id="n47_ngrn" name="n47" xy="222,860" size="131,27" group="n50_ngrn" fontSize="18" text="神通id：0,0,0,0"/>
+    <graph id="n48_ngrn" name="n48" xy="32,860" size="180,30" group="n50_ngrn" type="rect"/>
+    <text id="n49_ngrn" name="label_divineid" xy="32,860" size="180,30" group="n50_ngrn" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n50_ngrn" name="n50" xy="32,860" size="321,30" group="n16_cwvx" advanced="true"/>
+    <graph id="n42_r68b" name="red_ziji" xy="22,908" size="100,60" group="n16_cwvx" type="rect" fillColor="#ffff0000"/>
+    <component id="n39_hpss" name="btn_ziji" src="hpss3g" fileName="btn_test1.xml" xy="32,916" group="n16_cwvx">
+      <Button title="自己"/>
+    </component>
+    <graph id="n43_r68b" name="red_diren" xy="111,908" size="100,60" group="n16_cwvx" type="rect" fillColor="#ffff0000"/>
+    <component id="n40_hpss" name="btn_diren" src="hpss3g" fileName="btn_test1.xml" xy="122,916" group="n16_cwvx">
+      <Button title="敌人"/>
+    </component>
+    <component id="n41_hpss" name="btn_tongbu" src="hpss3g" fileName="btn_test1.xml" xy="252,916" group="n16_cwvx">
+      <Button title="同步"/>
+    </component>
+    <component id="n44_r68b" name="btn_check" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="50,724" group="n46_r68b"/>
+    <text id="n45_r68b" name="n45" xy="100,735" size="220,27" group="n46_r68b" fontSize="18" text="“自己”使用游戏内的属性"/>
+    <group id="n46_r68b" name="group_check" xy="50,724" size="270,50" group="n16_cwvx" advanced="true"/>
+    <graph id="n83_iact" name="n83" xy="0,0" size="678,197" group="n16_cwvx" type="rect" fillColor="#ffffffcc"/>
+    <text id="n85_jk97" name="n85" xy="577,100" size="57,27" group="n88_jk97" fontSize="18" text="buffID"/>
+    <graph id="n86_jk97" name="n86" xy="387,100" size="180,30" group="n88_jk97" type="rect"/>
+    <text id="n87_jk97" name="label_show_buffid" xy="387,100" size="180,30" group="n88_jk97" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n88_jk97" name="n88" xy="387,100" size="247,30" group="n16_cwvx" advanced="true"/>
+    <text id="n75_iact" name="n75" xy="577,130" size="76,27" group="n78_iact" fontSize="18" text="动画文件"/>
+    <graph id="n76_iact" name="n76" xy="387,130" size="180,30" group="n78_iact" type="rect"/>
+    <text id="n77_iact" name="label_show_spine" xy="387,130" size="180,30" group="n78_iact" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n78_iact" name="n78" xy="387,130" size="266,30" group="n16_cwvx" advanced="true"/>
+    <text id="n79_iact" name="n79" xy="577,160" size="76,27" group="n82_iact" fontSize="18" text="坐骑文件"/>
+    <graph id="n80_iact" name="n80" xy="387,160" size="180,30" group="n82_iact" type="rect"/>
+    <text id="n81_iact" name="label_show_mount" xy="387,160" size="180,30" group="n82_iact" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n82_iact" name="n82" xy="387,160" size="266,30" group="n16_cwvx" advanced="true"/>
+    <text id="n51_iact" name="n51" xy="222,10" size="306,27" group="n54_iact" fontSize="18" text="表现效果类型（1-近战2-子弹3-下落）"/>
+    <graph id="n52_iact" name="n52" xy="32,10" size="180,30" group="n54_iact" type="rect"/>
+    <text id="n53_iact" name="label_showval1" xy="32,10" size="180,30" group="n54_iact" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n54_iact" name="n54" xy="32,10" size="496,30" group="n16_cwvx" advanced="true"/>
+    <text id="n55_iact" name="n55" xy="222,40" size="276,27" group="n58_iact" fontSize="18" text="起手动作名（填错则使用attack）"/>
+    <graph id="n56_iact" name="n56" xy="32,40" size="180,30" group="n58_iact" type="rect"/>
+    <text id="n57_iact" name="label_showval2" xy="32,40" size="180,30" group="n58_iact" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n58_iact" name="n58" xy="32,40" size="466,30" group="n16_cwvx" advanced="true"/>
+    <text id="n59_iact" name="n59" xy="222,70" size="367,27" group="n62_iact" fontSize="18" text="起手特效名,挂点;...（1-脚2-胸3-头4-武器口）"/>
+    <graph id="n60_iact" name="n60" xy="32,70" size="180,30" group="n62_iact" type="rect"/>
+    <text id="n61_iact" name="label_showval3" xy="32,70" size="180,30" group="n62_iact" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n62_iact" name="n62" xy="32,70" size="557,30" group="n16_cwvx" advanced="true"/>
+    <text id="n63_iact" name="n63" xy="222,100" size="135,27" group="n66_iact" fontSize="18" text="子弹特效名,挂点"/>
+    <graph id="n64_iact" name="n64" xy="32,100" size="180,30" group="n66_iact" type="rect"/>
+    <text id="n65_iact" name="label_showval4" xy="32,100" size="180,30" group="n66_iact" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n66_iact" name="n66" xy="32,100" size="325,30" group="n16_cwvx" advanced="true"/>
+    <text id="n67_iact" name="n67" xy="222,130" size="135,27" group="n70_iact" fontSize="18" text="下落特效名,挂点"/>
+    <graph id="n68_iact" name="n68" xy="32,130" size="180,30" group="n70_iact" type="rect"/>
+    <text id="n69_iact" name="label_showval5" xy="32,130" size="180,30" group="n70_iact" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n70_iact" name="n70" xy="32,130" size="325,30" group="n16_cwvx" advanced="true"/>
+    <text id="n71_iact" name="n71" xy="222,160" size="135,27" group="n74_iact" fontSize="18" text="击中特效名,挂点"/>
+    <graph id="n72_iact" name="n72" xy="32,160" size="180,30" group="n74_iact" type="rect"/>
+    <text id="n73_iact" name="label_showval6" xy="32,160" size="180,30" group="n74_iact" fontSize="20" autoSize="none" text="" input="true"/>
+    <group id="n74_iact" name="n74" xy="32,160" size="325,30" group="n16_cwvx" advanced="true"/>
+    <component id="n89_k7ww" name="btn_sidecheck" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="548,0" group="n91_k7ww"/>
+    <text id="n90_k7ww" name="n90" xy="598,9" size="76,27" group="n91_k7ww" fontSize="18" text="替换左侧"/>
+    <group id="n91_k7ww" name="group_testside" xy="548,0" size="126,50" group="n16_cwvx" advanced="true"/>
+    <group id="n16_cwvx" name="n16" xy="0,0" size="678,972" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

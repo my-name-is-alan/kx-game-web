@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="40,40">
+  <displayList>
+    <image id="n1_i2mk" name="n1" src="i2mkat" fileName="res2/btn_qiehuandian2.png" xy="0,0"/>
+    <image id="n0_i2mk" name="n0" src="i2mkas" fileName="res2/btn_qiehuandian.png" xy="0,0"/>
+  </displayList>
+</component>

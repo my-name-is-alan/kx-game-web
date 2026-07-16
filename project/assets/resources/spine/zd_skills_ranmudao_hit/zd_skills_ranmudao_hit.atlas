@@ -1,0 +1,83 @@
+
+zd_skills_ranmudao_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/rmd_mz/rmd_mz_00
+  rotate: true
+  xy: 251, 570
+  size: 196, 198
+  orig: 280, 280
+  offset: 42, 42
+  index: -1
+images/effect/rmd_mz/rmd_mz_02
+  rotate: true
+  xy: 263, 768
+  size: 244, 247
+  orig: 280, 280
+  offset: 18, 18
+  index: -1
+images/effect/rmd_mz/rmd_mz_04
+  rotate: true
+  xy: 2, 533
+  size: 244, 247
+  orig: 280, 280
+  offset: 18, 18
+  index: -1
+images/effect/rmd_mz/rmd_mz_06
+  rotate: true
+  xy: 512, 768
+  size: 244, 247
+  orig: 280, 280
+  offset: 18, 18
+  index: -1
+images/effect/rmd_mz/rmd_mz_08
+  rotate: false
+  xy: 761, 772
+  size: 251, 240
+  orig: 280, 280
+  offset: 9, 22
+  index: -1
+images/effect/rmd_mz/rmd_mz_10
+  rotate: false
+  xy: 2, 779
+  size: 259, 233
+  orig: 280, 280
+  offset: 3, 25
+  index: -1
+images/effect/rmd_mz/rmd_mz_12
+  rotate: false
+  xy: 761, 557
+  size: 216, 213
+  orig: 280, 280
+  offset: 35, 35
+  index: -1
+images/effect/rmd_mz/rmd_mz_14
+  rotate: false
+  xy: 451, 594
+  size: 180, 172
+  orig: 280, 280
+  offset: 61, 49
+  index: -1
+images/effect/rmd_zd/rmd_zd_00
+  rotate: true
+  xy: 633, 619
+  size: 147, 122
+  orig: 160, 136
+  offset: 4, 7
+  index: -1
+images/effect/rmd_zd/rmd_zd_02
+  rotate: true
+  xy: 633, 475
+  size: 142, 122
+  orig: 160, 136
+  offset: 4, 7
+  index: -1
+images/effect/rmd_zd/rmd_zd_04
+  rotate: false
+  xy: 451, 470
+  size: 142, 122
+  orig: 160, 136
+  offset: 4, 7
+  index: -1

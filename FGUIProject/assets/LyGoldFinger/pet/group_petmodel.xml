@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="148,212">
+  <displayList>
+    <loader id="n30_inps" name="img_quality" xy="0,0" size="148,212" touchable="false" url="ui://eawofj71i8097f" fill="scaleFree"/>
+    <loader3D id="n51_us2v" name="loader_spine" xy="70,170" size="20,20" scale="0.4,0.4" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

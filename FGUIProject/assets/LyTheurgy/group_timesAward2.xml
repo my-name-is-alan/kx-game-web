@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="61,99">
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n105_rgsw" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="0,0" group="n103_rgsw" scale="0.6,0.6"/>
+    <image id="n102_isy4" name="n102" src="rgswr1" fileName="xz1/mk_mo01.png" xy="7,67" group="n104_rgsw">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n99_isy4" name="n99" src="rgswr2" fileName="xz1/mk_mo02.png" xy="7,67" group="n104_rgsw">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <text id="n100_isy4" name="label_score" xy="12,66" size="38,29" group="n104_rgsw" font="ui://27utqbizps391v" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="210">
+      <gearColor controller="c1" pages="1" values="#d4d4d4,#000000" default="#ffffff,#000000"/>
+    </text>
+    <group id="n104_rgsw" name="n104" xy="7,66" size="54,33" group="n103_rgsw"/>
+    <group id="n103_rgsw" name="n103" xy="0,0" size="100,100" advanced="true"/>
+  </displayList>
+</component>

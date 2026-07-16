@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="712,905">
+  <displayList>
+    <image id="n38_j655" name="n38" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,23" size="698,882"/>
+    <component id="n40_j655" name="group_dragCom" src="j6552j" fileName="group_drag.xml" xy="31,56" size="639,715"/>
+    <text id="n73_j655" name="label_time" xy="285,772" size="133,34" fontSize="22" color="#3b942a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="00:50:23"/>
+    <component id="n39_j655" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="634,0"/>
+    <component id="n74_d087" name="btn_refresh" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="245,808" size="216,58"/>
+  </displayList>
+</component>

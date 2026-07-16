@@ -1,0 +1,104 @@
+
+cj_xuantiezhongjian.png
+size: 815,815
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+j_light1_1
+  rotate: true
+  xy: 368, 343
+  size: 154, 258
+  orig: 162, 261
+  offset: 0, 3
+  index: -1
+j_light1_2
+  rotate: false
+  xy: 673, 598
+  size: 139, 215
+  orig: 154, 236
+  offset: 0, 17
+  index: -1
+j_light1_3
+  rotate: true
+  xy: 522, 72
+  size: 85, 128
+  orig: 152, 349
+  offset: 4, 215
+  index: -1
+j_light1_4
+  rotate: true
+  xy: 2, 22
+  size: 202, 390
+  orig: 216, 392
+  offset: 12, 2
+  index: -1
+j_light2
+  rotate: true
+  xy: 673, 548
+  size: 48, 79
+  orig: 52, 83
+  offset: 1, 2
+  index: -1
+jian
+  rotate: false
+  xy: 2, 226
+  size: 364, 587
+  orig: 395, 614
+  offset: 31, 0
+  index: -1
+lightning1_1
+  rotate: true
+  xy: 368, 499
+  size: 314, 200
+  orig: 314, 200
+  offset: 0, 0
+  index: -1
+lightning1_2
+  rotate: false
+  xy: 394, 159
+  size: 287, 78
+  orig: 288, 78
+  offset: 0, 0
+  index: -1
+lightning2
+  rotate: false
+  xy: 570, 516
+  size: 101, 297
+  orig: 102, 297
+  offset: 0, 0
+  index: -1
+lightning3
+  rotate: true
+  xy: 628, 371
+  size: 143, 185
+  orig: 143, 190
+  offset: 0, 5
+  index: -1
+lightning4
+  rotate: true
+  xy: 368, 244
+  size: 97, 310
+  orig: 111, 315
+  offset: 14, 5
+  index: -1
+z_light1
+  rotate: true
+  xy: 394, 61
+  size: 96, 126
+  orig: 98, 128
+  offset: 1, 1
+  index: -1
+z_light2
+  rotate: false
+  xy: 680, 239
+  size: 99, 130
+  orig: 104, 135
+  offset: 2, 3
+  index: -1
+ziti
+  rotate: false
+  xy: 683, 110
+  size: 97, 127
+  orig: 97, 129
+  offset: 0, 1
+  index: -1

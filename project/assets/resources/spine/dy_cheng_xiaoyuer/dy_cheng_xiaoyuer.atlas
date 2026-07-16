@@ -1,0 +1,286 @@
+
+dy_cheng_xiaoyuer.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiaoyu001
+  rotate: true
+  xy: 239, 2
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+xiaoyu002
+  rotate: true
+  xy: 263, 5
+  size: 4, 11
+  orig: 4, 11
+  offset: 0, 0
+  index: -1
+xiaoyuer0
+  rotate: false
+  xy: 394, 356
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+xiaoyuer1
+  rotate: true
+  xy: 58, 48
+  size: 21, 85
+  orig: 21, 85
+  offset: 0, 0
+  index: -1
+xiaoyuer10
+  rotate: false
+  xy: 124, 306
+  size: 97, 115
+  orig: 98, 115
+  offset: 0, 0
+  index: -1
+xiaoyuer11
+  rotate: true
+  xy: 318, 4
+  size: 125, 143
+  orig: 125, 171
+  offset: 0, 23
+  index: -1
+xiaoyuer12
+  rotate: false
+  xy: 421, 405
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+xiaoyuer13
+  rotate: false
+  xy: 252, 4
+  size: 9, 5
+  orig: 9, 5
+  offset: 0, 0
+  index: -1
+xiaoyuer14
+  rotate: false
+  xy: 113, 2
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+xiaoyuer15
+  rotate: false
+  xy: 178, 72
+  size: 40, 52
+  orig: 40, 54
+  offset: 0, 0
+  index: -1
+xiaoyuer16
+  rotate: false
+  xy: 394, 396
+  size: 25, 39
+  orig: 25, 39
+  offset: 0, 0
+  index: -1
+xiaoyuer17
+  rotate: false
+  xy: 354, 530
+  size: 29, 80
+  orig: 29, 80
+  offset: 0, 0
+  index: -1
+xiaoyuer18
+  rotate: false
+  xy: 145, 2
+  size: 52, 67
+  orig: 52, 67
+  offset: 0, 0
+  index: -1
+xiaoyuer19
+  rotate: true
+  xy: 300, 329
+  size: 96, 92
+  orig: 104, 92
+  offset: 5, 0
+  index: -1
+xiaoyuer2
+  rotate: true
+  xy: 294, 512
+  size: 98, 58
+  orig: 98, 58
+  offset: 0, 0
+  index: -1
+xiaoyuer20
+  rotate: false
+  xy: 2, 302
+  size: 120, 308
+  orig: 130, 309
+  offset: 0, 1
+  index: -1
+xiaoyuer21
+  rotate: false
+  xy: 2, 48
+  size: 54, 252
+  orig: 54, 252
+  offset: 0, 0
+  index: -1
+xiaoyuer22
+  rotate: true
+  xy: 124, 423
+  size: 187, 168
+  orig: 187, 168
+  offset: 0, 0
+  index: -1
+xiaoyuer23
+  rotate: false
+  xy: 178, 126
+  size: 23, 178
+  orig: 23, 178
+  offset: 0, 0
+  index: -1
+xiaoyuer24
+  rotate: true
+  xy: 261, 309
+  size: 10, 40
+  orig: 10, 40
+  offset: 0, 0
+  index: -1
+xiaoyuer25
+  rotate: false
+  xy: 199, 5
+  size: 38, 65
+  orig: 44, 65
+  offset: 1, 0
+  index: -1
+xiaoyuer26
+  rotate: true
+  xy: 390, 437
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1
+xiaoyuer27
+  rotate: false
+  xy: 354, 479
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+xiaoyuer28
+  rotate: false
+  xy: 2, 2
+  size: 38, 44
+  orig: 38, 44
+  offset: 0, 0
+  index: -1
+xiaoyuer29
+  rotate: true
+  xy: 394, 325
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1
+xiaoyuer3
+  rotate: true
+  xy: 354, 431
+  size: 46, 34
+  orig: 48, 34
+  offset: 0, 0
+  index: -1
+xiaoyuer30
+  rotate: false
+  xy: 84, 3
+  size: 27, 14
+  orig: 27, 14
+  offset: 0, 0
+  index: -1
+xiaoyuer31
+  rotate: false
+  xy: 294, 131
+  size: 143, 176
+  orig: 143, 176
+  offset: 0, 0
+  index: -1
+xiaoyuer32
+  rotate: false
+  xy: 42, 4
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+xiaoyuer33
+  rotate: false
+  xy: 332, 429
+  size: 20, 81
+  orig: 20, 81
+  offset: 0, 0
+  index: -1
+xiaoyuer34
+  rotate: false
+  xy: 223, 309
+  size: 36, 112
+  orig: 36, 112
+  offset: 0, 0
+  index: -1
+xiaoyuer35
+  rotate: true
+  xy: 84, 19
+  size: 27, 57
+  orig: 27, 57
+  offset: 0, 0
+  index: -1
+xiaoyuer36
+  rotate: true
+  xy: 58, 71
+  size: 229, 118
+  orig: 229, 118
+  offset: 0, 0
+  index: -1
+xiaoyuer37
+  rotate: false
+  xy: 2, 612
+  size: 359, 410
+  orig: 419, 468
+  offset: 45, 19
+  index: -1
+xiaoyuer4
+  rotate: false
+  xy: 203, 127
+  size: 89, 177
+  orig: 90, 178
+  offset: 1, 0
+  index: -1
+xiaoyuer5
+  rotate: true
+  xy: 220, 74
+  size: 51, 81
+  orig: 51, 81
+  offset: 0, 0
+  index: -1
+xiaoyuer6
+  rotate: true
+  xy: 261, 321
+  size: 100, 37
+  orig: 100, 37
+  offset: 0, 0
+  index: -1
+xiaoyuer7
+  rotate: true
+  xy: 294, 427
+  size: 83, 36
+  orig: 83, 36
+  offset: 0, 0
+  index: -1
+xiaoyuer8
+  rotate: false
+  xy: 239, 11
+  size: 77, 61
+  orig: 77, 61
+  offset: 0, 0
+  index: -1
+xiaoyuer9
+  rotate: true
+  xy: 113, 7
+  size: 10, 27
+  orig: 10, 27
+  offset: 0, 0
+  index: -1

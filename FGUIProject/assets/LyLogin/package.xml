@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2rd1913i">
+  <resources>
+    <component id="963n0" name="LyLogin.xml" path="/" exported="true"/>
+    <component id="n7tl4" name="LyLoginAccount.xml" path="/" exported="true"/>
+    <component id="n7tl5" name="group_loginaccount.xml" path="/"/>
+    <component id="830v6" name="LyLoginServerList.xml" path="/serverlist/" exported="true"/>
+    <component id="830v7" name="LyLoginNotice.xml" path="/" exported="true"/>
+    <component id="7rrcg" name="btn_notice2.xml" path="/"/>
+    <component id="7rrch" name="group_notice.xml" path="/"/>
+    <image id="k0i1k" name="btn_gonggao.png" path="/res/"/>
+    <image id="k0i1l" name="btn_qiehuanzhanghao.png" path="/res/"/>
+    <image id="k0i1n" name="frame_shilingtixing.png" path="/res/"/>
+    <component id="k0i1o" name="btn_notice.xml" path="/"/>
+    <component id="k0i1p" name="btn_sign.xml" path="/"/>
+    <image id="k0i1r" name="btn_kaishichuangdang.png" path="/res/"/>
+    <image id="k0i1s" name="frame_genghuanqufu.png" path="/res/"/>
+    <component id="k0i1u" name="btn_enter.xml" path="/"/>
+    <component id="k0i1v" name="btn_loginserver.xml" path="/"/>
+    <component id="crwdw" name="group_serverlist.xml" path="/serverlist/"/>
+    <image id="crwdy" name="frame_fuwuqidiban.png" path="/serverlist/"/>
+    <image id="crwdz" name="frame_fuwuqifengexian.png" path="/serverlist/"/>
+    <image id="crwd10" name="frame_tuijianfuuwuqi.png" path="/serverlist/"/>
+    <image id="crwd11" name="frame_wodefuwuqi.png" path="/serverlist/"/>
+    <component id="crwd12" name="btn_server.xml" path="/serverlist/" exported="true"/>
+    <component id="crwd13" name="btn_server_real.xml" path="/serverlist/" exported="true"/>
+    <image id="crwd14" name="icon_baoman.png" path="/serverlist/" exported="true"/>
+    <image id="crwd15" name="icon_liuchang.png" path="/serverlist/" exported="true"/>
+    <image id="crwd16" name="icon_weihu.png" path="/serverlist/" exported="true"/>
+    <image id="crwd17" name="icon_xinfu.png" path="/serverlist/"/>
+    <component id="o1e819" name="group_loginNotice.xml" path="/"/>
+    <image id="sx1c1a" name="btn_qinglihuancun.png" path="/res/"/>
+    <component id="sx1c1b" name="btn_clear.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

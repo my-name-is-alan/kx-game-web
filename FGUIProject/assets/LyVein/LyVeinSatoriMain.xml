@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="716,837">
+  <displayList>
+    <image id="n27_j2mx" name="n27" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,34" size="698,803"/>
+    <image id="n31_j2mx" name="n31" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="167,125" size="499,157"/>
+    <image id="n43_j2mx" name="n43" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="28,621" size="634,88"/>
+    <text id="n11_gqn0" name="label_itemDes" xy="186,174" size="468,95" fontSize="18" color="#16191a" autoSize="none" text="凝聚">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n12_gqn0" name="label_nowLearn" xy="600,138" size="69,29" fontSize="20" color="#2b841c" vAlign="middle" autoSize="none" text="3187"/>
+    <list id="n13_gqn0" name="list_gl" xy="22,336" size="651,276" layout="flow_vt" colGap="22" lineItemCount="5" defaultItem="ui://2qr0czbagqn03h" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n19_gqn0" name="group_needItem" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="297,715">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <image id="n29_j2mx" name="n29" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="135,73" size="418,38"/>
+    <text id="n28_j2mx" name="label_title" xy="289,66" size="117,50" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="门客羁绊"/>
+    <component id="n30_j2mx" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="638,0"/>
+    <text id="n32_j2mx" name="label_itemName" xy="183,131" size="184,42" font="ui://27utqbizps391v" fontSize="30" color="#16191a" vAlign="middle" letterSpacing="-2" autoSize="none" text="万年葫芦"/>
+    <text id="n33_j2mx" name="n4" xy="511,137" size="115,29" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="当前悟性："/>
+    <image id="n37_j2mx" name="n37" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="192,313"/>
+    <component id="n38_j2mx" name="btn_add" src="bh805c" fileName="btn_add2.xml" pkg="27utqbiz" xy="563,662"/>
+    <component id="n39_j2mx" name="btn_jian" src="bh805d" fileName="btn_reduct2.xml" pkg="27utqbiz" xy="94,662"/>
+    <text id="n40_j2mx" name="n5" xy="293,303" size="115,29" font="ui://27utqbizps391v" fontSize="19" color="#16191a" align="center" vAlign="middle" autoSize="none" text="当前悟性："/>
+    <component id="n41_j2mx" name="btn_use" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="244,756"/>
+    <text id="n42_j2mx" name="label_useNumber" xy="423,631" size="116,29" fontSize="20" color="#2b841c" vAlign="middle" text="使用数量：1"/>
+    <component id="n46_s52d" name="pro_number" src="hvzws9" fileName="Slider1.xml" pkg="27utqbiz" xy="150,671" size="393,20">
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n48_dbzf" name="loader_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="44,152"/>
+    <loader3D id="n49_h7sm" name="loader_spine" xy="348,465" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

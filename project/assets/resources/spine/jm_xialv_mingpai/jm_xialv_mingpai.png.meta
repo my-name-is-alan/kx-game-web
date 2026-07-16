@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "1b5cd8eb-88a4-49e1-aef7-2728e09a8daa",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "1b5cd8eb-88a4-49e1-aef7-2728e09a8daa@6c48a",
+      "displayName": "jm_xialv_mingpai",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1b5cd8eb-88a4-49e1-aef7-2728e09a8daa",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": true,
+    "redirect": "1b5cd8eb-88a4-49e1-aef7-2728e09a8daa@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "64GrRo595FX43Kk7ckKU9U"
+    }
+  }
+}

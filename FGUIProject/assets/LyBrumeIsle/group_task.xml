@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="198,171">
+  <displayList>
+    <image id="n53_mchc" name="n53" src="mchcdu1a9" fileName="ui/btn_zhujiemianyuan.png" pkg="27utqbiz" xy="37,0"/>
+    <loader id="n54_mchc" name="loader_icon" xy="60,23" size="77,77" aspect="true" align="center" vAlign="middle"/>
+    <text id="n52_mchc" name="n52" xy="51,1" size="97,34" font="ui://27utqbizps391v" fontSize="24" color="#fcfcc6" vAlign="middle" letterSpacing="-1" strokeColor="#8f4817" strokeSize="2" text="限时任务"/>
+    <image id="n48_mchc" name="img_get" src="mchcnw" fileName="res/frame_yilingqu.png" xy="50,43" visible="false"/>
+    <image id="n50_mchc" name="n50" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="11,110" size="179,61"/>
+    <image id="n57_mchc" name="img_lose" src="mchcnx" fileName="res/frame_yishixiao.png" xy="49,29" visible="false"/>
+    <richtext id="n51_mchc" name="label_taskDes" xy="-2,112" size="202,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" strokeColor="#16191a" strokeSize="2" autoClearText="true" text="在雾隐核心探索"/>
+    <text id="n55_mchc" name="label_number" xy="120,69" size="16,30" fontSize="21" color="#ffffff" vAlign="middle" letterSpacing="-1" strokeColor="#16191a" strokeSize="2" text="5"/>
+    <text id="n56_mchc" name="label_time" xy="0,139" size="198,30" fontSize="20" color="#74d644" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#16191a" strokeSize="2" text="截止时间:12:30:00"/>
+    <image id="n58_mchc" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="120,31" visible="false"/>
+  </displayList>
+</component>

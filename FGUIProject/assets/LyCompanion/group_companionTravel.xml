@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="634,726">
+  <displayList>
+    <image id="n0_ln3o" name="n0" src="k1vlm3" fileName="res/frame_public3.png" pkg="qnktu1il" xy="0,0" size="634,726"/>
+    <text id="n12_ln3o" name="label_str47" xy="229,439" size="172,34" alpha="0.64" fontSize="24" color="#16191a" vAlign="middle" text="可能偶遇的兽友"/>
+    <image id="n1_ln3o" name="n1" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="107,28" size="419,38"/>
+    <text id="n2_ln3o" name="label_title" xy="221,26" size="191,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="切磋"/>
+    <text id="n3_ln3o" name="label_str46" xy="231,75" size="172,34" alpha="0.64" fontSize="24" color="#16191a" vAlign="middle" text="可能获得的奖励"/>
+    <graph id="n4_ln3o" name="n4" xy="25,118" size="584,303" type="rect" lineSize="0" lineColor="#ffe4e8e2" fillColor="#ffe4e8e2"/>
+    <list id="n5_ln3o" name="list_bonuses" xy="68,149" size="497,265" layout="flow_hz" overflow="scroll" lineGap="20" colGap="32" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n6_ln3o" name="n6" xy="25,485" size="584,193" type="rect" lineSize="0" lineColor="#ffe4e8e2" fillColor="#ffe4e8e2"/>
+    <list id="n10_ln3o" name="list_companion" xy="91,514" size="463,157" layout="row" overflow="scroll" scroll="horizontal" colGap="68" defaultItem="ui://l32lh3odln3o3e">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

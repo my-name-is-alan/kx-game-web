@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <component id="n0_ne2h" name="GroupItem" src="ewyha" fileName="itemframe/GroupItem.xml" xy="0,0" pkg="27utqbiz"/>
+    <component id="n7_evn5" name="n7" src="v3t50" fileName="btn_back.xml" xy="0,0" size="101,101" group="n6_ne2h" alpha="0.6" touchable="false" pkg="27utqbiz"/>
+    <image id="n8_ef0l" name="n8" src="ar1l16" fileName="ui/icon_lock.png" xy="55,7" group="n6_ne2h" pkg="27utqbiz"/>
+    <group id="n6_ne2h" name="group_suo" xy="0,0" size="101,101" advanced="true"/>
+    <component id="n9_gxu0" name="n9" src="v3t50" fileName="btn_back.xml" xy="0,0" size="100,99" group="n11_gxu0" alpha="0.6" touchable="false" pkg="27utqbiz"/>
+    <image id="n10_gxu0" name="n10" src="u71x12" fileName="ui/img_gou.png" xy="34,30" group="n11_gxu0" pkg="27utqbiz"/>
+    <group id="n11_gxu0" name="group_isget" xy="0,0" size="100,99" visible="false" advanced="true"/>
+  </displayList>
+  <transition name="t0" options="4">
+    <item time="0" type="Pivot" target="n0_ne2h" value="0.5,0.5"/>
+    <item time="0" type="Rotation" target="n0_ne2h" tween="true" startValue="0" endValue="20" duration="5" ease="Linear"/>
+    <item time="5" type="Rotation" target="n0_ne2h" tween="true" startValue="20" endValue="20" duration="5" ease="Linear"/>
+    <item time="10" type="Rotation" target="n0_ne2h" tween="true" startValue="20" endValue="-20" duration="5"/>
+    <item time="15" type="Rotation" target="n0_ne2h" tween="true" startValue="-20" endValue="0" duration="5" ease="Linear"/>
+    <item time="20" type="Rotation" target="n0_ne2h" tween="true" startValue="0" endValue="0" duration="4" ease="Linear"/>
+  </transition>
+</component>

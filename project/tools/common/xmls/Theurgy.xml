@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root levelUpItemId="120006" deriveItemId="120020" deriveItemUseAmount="20" deriveFragAmount="50" seal1Level="25" seal2Level="50" mergeSealAmount="3" resetStoneAmount="100" guaranteedCount="200" gameplayGuide="一、秘籍养成-1.秘籍是修行者在对敌时的强大手段，出战的秘籍能在战斗时发挥不同作用。&lt;br/&gt;2.秘籍分为绝学、内功、灵犀、外功不同类型的秘籍会有不同的触发条件。但出战的秘籍都能带来属性加成。&lt;br/&gt;3.消耗残章，能提升秘籍的等级，等级提升后出战属性加成会提升。在达到等级上限时，需要突破来进行进阶。&lt;br/&gt;4.通过参悟可以获得新秘籍，重复获得的秘籍将转化为碎片，碎片可以用于突破秘籍的阶级。&lt;br/&gt;@二、秘籍效果-1.绝学:在战斗中消耗怒气释放。&lt;br/&gt;2.内功:在战斗中通过攻击触发。&lt;br/&gt;3.灵犀:在战斗中通过侠侣触发。&lt;br/&gt;4.外功:在战斗中被动触发。&lt;br/&gt;@三、印记-1.秘籍达到指定等级后会开启印记槽位印记槽位可以装备不同的印记。&lt;br/&gt;2.印记装备后，会获得属性加成。&lt;br/&gt;3个同品质同类型的印记可以进行融合，会获得更高级的印记。&lt;br/&gt;" specialItemID="120041">
+  <theurgy>
+    <item id="30001" name="寒梅傲剑决" type="1" quality="4" icon="hanmeiaojianjue" icon2="hanmeiaojianjue" qualityWeight="5" phaseSkillId="3000101,3000102,3000103,3000104,3000105,3000106,3000107,3000108,3000109,3000110,3000111,3000112,3000113,3000114,3000115,3000116,3000117,3000118,3000119,3000120,3000121,3000122,3000123,3000124,3000125" getParam="16"/>
+    <item id="30002" name="灵犀一指" type="1" quality="4" icon="lingxiyizhi" icon2="lingxiyizhi" qualityWeight="4" phaseSkillId="3000201,3000202,3000203,3000204,3000205,3000206,3000207,3000208,3000209,3000210,3000211,3000212,3000213,3000214,3000215,3000216,3000217,3000218,3000219,3000220,3000221,3000222,3000223,3000224,3000225" getParam="16"/>
+    <item id="30003" name="太极神剑" type="1" quality="4" icon="taijishenjian" icon2="taijishenjian" qualityWeight="2" phaseSkillId="3000301,3000302,3000303,3000304,3000305,3000306,3000307,3000308,3000309,3000310,3000311,3000312,3000313,3000314,3000315,3000316,3000317,3000318,3000319,3000320,3000321,3000322,3000323,3000324,3000325" getParam="16"/>
+    <item id="30004" name="蚀日剑法" type="1" quality="4" icon="shirijianfa" icon2="shirijianfa" qualityWeight="5" phaseSkillId="3000401,3000402,3000403,3000404,3000405,3000406,3000407,3000408,3000409,3000410,3000411,3000412,3000413,3000414,3000415,3000416,3000417,3000418,3000419,3000420,3000421,3000422,3000423,3000424,3000425" getParam="16"/>
+    <item id="30005" name="火凤涅槃" type="1" quality="4" icon="huofengniepan" icon2="huofengniepan" qualityWeight="5" phaseSkillId="3000501,3000502,3000503,3000504,3000505,3000506,3000507,3000508,3000509,3000510,3000511,3000512,3000513,3000514,3000515,3000516,3000517,3000518,3000519,3000520,3000521,3000522,3000523,3000524,3000525" getParam="16"/>
+    <item id="30006" name="万剑归宗" type="1" quality="4" icon="wanjianguizong" icon2="wanjianguizong" qualityWeight="2" phaseSkillId="3000601,3000602,3000603,3000604,3000605,3000606,3000607,3000608,3000609,3000610,3000611,3000612,3000613,3000614,3000615,3000616,3000617,3000618,3000619,3000620,3000621,3000622,3000623,3000624,3000625" getParam="16"/>
+    <item id="30007" name="灭神绝意刀" type="1" quality="4" icon="mieshenjueyidao" icon2="mieshenjueyidao" qualityWeight="5" phaseSkillId="3000701,3000702,3000703,3000704,3000705,3000706,3000707,3000708,3000709,3000710,3000711,3000712,3000713,3000714,3000715,3000716,3000717,3000718,3000719,3000720,3000721,3000722,3000723,3000724,3000725" getParam="16"/>
+    <item id="30008" name="燃木刀" type="1" quality="3" icon="ranmudao" icon2="ranmudao" qualityWeight="5" phaseSkillId="3000801,3000802,3000803,3000804,3000805,3000806,3000807,3000808,3000809,3000810,3000811,3000812,3000813,3000814,3000815,3000816,3000817,3000818,3000819,3000820,3000821,3000822,3000823,3000824,3000825" getParam="16"/>
+    <item id="30009" name="极乐天刀" type="1" quality="3" icon="jiletiandao" icon2="jiletiandao" qualityWeight="5" phaseSkillId="3000901,3000902,3000903,3000904,3000905,3000906,3000907,3000908,3000909,3000910,3000911,3000912,3000913,3000914,3000915,3000916,3000917,3000918,3000919,3000920,3000921,3000922,3000923,3000924,3000925" getParam="16"/>
+    <item id="30010" name="金刚不坏决" type="1" quality="3" icon="jingangbuhuaijue" icon2="jingangbuhuaijue" qualityWeight="5" phaseSkillId="3001001,3001002,3001003,3001004,3001005,3001006,3001007,3001008,3001009,3001010,3001011,3001012,3001013,3001014,3001015,3001016,3001017,3001018,3001019,3001020,3001021,3001022,3001023,3001024,3001025" getParam="16"/>
+    <item id="30011" name="天蝠啜血刺" type="1" quality="3" icon="tianfuchuoxueci" icon2="tianfuchuoxueci" qualityWeight="5" phaseSkillId="3001101,3001102,3001103,3001104,3001105,3001106,3001107,3001108,3001109,3001110,3001111,3001112,3001113,3001114,3001115,3001116,3001117,3001118,3001119,3001120,3001121,3001122,3001123,3001124,3001125" getParam="16"/>
+    <item id="30012" name="龟息术" type="1" quality="3" icon="guixishu" icon2="guixishu" qualityWeight="5" phaseSkillId="3001201,3001202,3001203,3001204,3001205,3001206,3001207,3001208,3001209,3001210,3001211,3001212,3001213,3001214,3001215,3001216,3001217,3001218,3001219,3001220,3001221,3001222,3001223,3001224,3001225" getParam="16"/>
+    <item id="30013" name="葵花点穴手" type="1" quality="2" icon="kuihuadianxueshou" icon2="kuihuadianxueshou" qualityWeight="5" phaseSkillId="3001301,3001302,3001303,3001304,3001305,3001306,3001307,3001308,3001309,3001310,3001311,3001312,3001313,3001314,3001315,3001316,3001317,3001318,3001319,3001320,3001321,3001322,3001323,3001324,3001325" getParam="16"/>
+    <item id="30014" name="八卦连环掌" type="1" quality="2" icon="bagualianhuanzhang" icon2="bagualianhuanzhang" qualityWeight="5" phaseSkillId="3001401,3001402,3001403,3001404,3001405,3001406,3001407,3001408,3001409,3001410,3001411,3001412,3001413,3001414,3001415,3001416,3001417,3001418,3001419,3001420,3001421,3001422,3001423,3001424,3001425" getParam="16"/>
+    <item id="30015" name="百砺剑法" type="1" quality="2" icon="bailijianfa" icon2="bailijianfa" qualityWeight="5" phaseSkillId="3001501,3001502,3001503,3001504,3001505,3001506,3001507,3001508,3001509,3001510,3001511,3001512,3001513,3001514,3001515,3001516,3001517,3001518,3001519,3001520,3001521,3001522,3001523,3001524,3001525" getParam="16"/>
+    <item id="30016" name="无影脚" type="1" quality="2" icon="wuyingjiao" icon2="wuyingjiao" qualityWeight="5" phaseSkillId="3001601,3001602,3001603,3001604,3001605,3001606,3001607,3001608,3001609,3001610,3001611,3001612,3001613,3001614,3001615,3001616,3001617,3001618,3001619,3001620,3001621,3001622,3001623,3001624,3001625" getParam="16"/>
+    <item id="30017" name="撼山拳" type="1" quality="1" icon="hanshanquan" icon2="hanshanquan" qualityWeight="5" phaseSkillId="3001701,3001702,3001703,3001704,3001705,3001706,3001707,3001708,3001709,3001710,3001711,3001712,3001713,3001714,3001715,3001716,3001717,3001718,3001719,3001720,3001721,3001722,3001723,3001724,3001725" getParam="16"/>
+    <item id="30018" name="络筋决" type="1" quality="1" icon="luojingjue" icon2="luojingjue" qualityWeight="5" phaseSkillId="3001801,3001802,3001803,3001804,3001805,3001806,3001807,3001808,3001809,3001810,3001811,3001812,3001813,3001814,3001815,3001816,3001817,3001818,3001819,3001820,3001821,3001822,3001823,3001824,3001825" getParam="16"/>
+    <item id="30019" name="沾衣十八跌" type="1" quality="1" icon="zhanyishibadie" icon2="zhanyishibadie" qualityWeight="5" phaseSkillId="3001901,3001902,3001903,3001904,3001905,3001906,3001907,3001908,3001909,3001910,3001911,3001912,3001913,3001914,3001915,3001916,3001917,3001918,3001919,3001920,3001921,3001922,3001923,3001924,3001925" getParam="16"/>
+    <item id="30020" name="拈花指" type="2" quality="4" icon="nianhuazhi" icon2="nhz" qualityWeight="5" phaseSkillId="3002001,3002002,3002003,3002004,3002005,3002006,3002007,3002008,3002009,3002010,3002011,3002012,3002013,3002014,3002015,3002016,3002017,3002018,3002019,3002020,3002021,3002022,3002023,3002024,3002025" getParam="16"/>
+    <item id="30021" name="连星夺魄" type="2" quality="4" icon="lianxingduopo" icon2="qxj" qualityWeight="5" phaseSkillId="3002101,3002102,3002103,3002104,3002105,3002106,3002107,3002108,3002109,3002110,3002111,3002112,3002113,3002114,3002115,3002116,3002117,3002118,3002119,3002120,3002121,3002122,3002123,3002124,3002125" getParam="16"/>
+    <item id="30022" name="混元无极" type="2" quality="4" icon="hunyuanwuji" icon2="hywj" qualityWeight="5" phaseSkillId="3002201,3002202,3002203,3002204,3002205,3002206,3002207,3002208,3002209,3002210,3002211,3002212,3002213,3002214,3002215,3002216,3002217,3002218,3002219,3002220,3002221,3002222,3002223,3002224,3002225" getParam="16"/>
+    <item id="30023" name="星辰夜风" type="2" quality="4" icon="xingchenyefeng" icon2="xcyf" qualityWeight="5" phaseSkillId="3002301,3002302,3002303,3002304,3002305,3002306,3002307,3002308,3002309,3002310,3002311,3002312,3002313,3002314,3002315,3002316,3002317,3002318,3002319,3002320,3002321,3002322,3002323,3002324,3002325" getParam="16"/>
+    <item id="30024" name="逍遥势" type="2" quality="4" icon="xiaoyaoshi" icon2="xys" qualityWeight="5" phaseSkillId="3002401,3002402,3002403,3002404,3002405,3002406,3002407,3002408,3002409,3002410,3002411,3002412,3002413,3002414,3002415,3002416,3002417,3002418,3002419,3002420,3002421,3002422,3002423,3002424,3002425" getParam="16"/>
+    <item id="30025" name="阳关三叠" type="2" quality="4" icon="yangguansandie" icon2="ygsd" qualityWeight="4" phaseSkillId="3002501,3002502,3002503,3002504,3002505,3002506,3002507,3002508,3002509,3002510,3002511,3002512,3002513,3002514,3002515,3002516,3002517,3002518,3002519,3002520,3002521,3002522,3002523,3002524,3002525" getParam="16"/>
+    <item id="30026" name="七伤拳" type="2" quality="4" icon="qishangquan" icon2="qsq" qualityWeight="5" phaseSkillId="3002601,3002602,3002603,3002604,3002605,3002606,3002607,3002608,3002609,3002610,3002611,3002612,3002613,3002614,3002615,3002616,3002617,3002618,3002619,3002620,3002621,3002622,3002623,3002624,3002625" getParam="16"/>
+    <item id="30027" name="曜日灼云" type="2" quality="3" icon="yaorizhuoyun" icon2="yrzy" qualityWeight="5" phaseSkillId="3002701,3002702,3002703,3002704,3002705,3002706,3002707,3002708,3002709,3002710,3002711,3002712,3002713,3002714,3002715,3002716,3002717,3002718,3002719,3002720,3002721,3002722,3002723,3002724,3002725" getParam="16"/>
+    <item id="30028" name="飞瀑凌空" type="2" quality="3" icon="feipulingkong" icon2="fplk" qualityWeight="5" phaseSkillId="3002801,3002802,3002803,3002804,3002805,3002806,3002807,3002808,3002809,3002810,3002811,3002812,3002813,3002814,3002815,3002816,3002817,3002818,3002819,3002820,3002821,3002822,3002823,3002824,3002825" getParam="16"/>
+    <item id="30029" name="雀摇金尾" type="2" quality="3" icon="queyaojinwei" icon2="qyjw" qualityWeight="5" phaseSkillId="3002901,3002902,3002903,3002904,3002905,3002906,3002907,3002908,3002909,3002910,3002911,3002912,3002913,3002914,3002915,3002916,3002917,3002918,3002919,3002920,3002921,3002922,3002923,3002924,3002925" getParam="16"/>
+    <item id="30030" name="旭日神功" type="2" quality="3" icon="jiuyangshengong" icon2="jysg" qualityWeight="5" phaseSkillId="3003001,3003002,3003003,3003004,3003005,3003006,3003007,3003008,3003009,3003010,3003011,3003012,3003013,3003014,3003015,3003016,3003017,3003018,3003019,3003020,3003021,3003022,3003023,3003024,3003025" getParam="16"/>
+    <item id="30031" name="雨落燕反" type="2" quality="3" icon="yuluoyanfan" icon2="ylyf" qualityWeight="5" phaseSkillId="3003101,3003102,3003103,3003104,3003105,3003106,3003107,3003108,3003109,3003110,3003111,3003112,3003113,3003114,3003115,3003116,3003117,3003118,3003119,3003120,3003121,3003122,3003123,3003124,3003125" getParam="16"/>
+    <item id="30032" name="擂鼓式" type="2" quality="2" icon="leigushi" icon2="lgs" qualityWeight="5" phaseSkillId="3003201,3003202,3003203,3003204,3003205,3003206,3003207,3003208,3003209,3003210,3003211,3003212,3003213,3003214,3003215,3003216,3003217,3003218,3003219,3003220,3003221,3003222,3003223,3003224,3003225" getParam="16"/>
+    <item id="30033" name="吸星大法" type="2" quality="2" icon="xixingdafa" icon2="xxdf" qualityWeight="5" phaseSkillId="3003301,3003302,3003303,3003304,3003305,3003306,3003307,3003308,3003309,3003310,3003311,3003312,3003313,3003314,3003315,3003316,3003317,3003318,3003319,3003320,3003321,3003322,3003323,3003324,3003325" getParam="16"/>
+    <item id="30034" name="毒鼎邪攻" type="2" quality="2" icon="dudingxiegong" icon2="ddxg" qualityWeight="5" phaseSkillId="3003401,3003402,3003403,3003404,3003405,3003406,3003407,3003408,3003409,3003410,3003411,3003412,3003413,3003414,3003415,3003416,3003417,3003418,3003419,3003420,3003421,3003422,3003423,3003424,3003425" getParam="16"/>
+    <item id="30035" name="清心决" type="2" quality="2" icon="qingxinjue" icon2="qxz" qualityWeight="5" phaseSkillId="3003501,3003502,3003503,3003504,3003505,3003506,3003507,3003508,3003509,3003510,3003511,3003512,3003513,3003514,3003515,3003516,3003517,3003518,3003519,3003520,3003521,3003522,3003523,3003524,3003525" getParam="16"/>
+    <item id="30036" name="摧心" type="2" quality="1" icon="cuixin" icon2="cx" qualityWeight="5" phaseSkillId="3003601,3003602,3003603,3003604,3003605,3003606,3003607,3003608,3003609,3003610,3003611,3003612,3003613,3003614,3003615,3003616,3003617,3003618,3003619,3003620,3003621,3003622,3003623,3003624,3003625" getParam="16"/>
+    <item id="30037" name="卸甲" type="2" quality="1" icon="xiejia" icon2="xj" qualityWeight="5" phaseSkillId="3003701,3003702,3003703,3003704,3003705,3003706,3003707,3003708,3003709,3003710,3003711,3003712,3003713,3003714,3003715,3003716,3003717,3003718,3003719,3003720,3003721,3003722,3003723,3003724,3003725" getParam="16"/>
+    <item id="30038" name="混元气" type="2" quality="1" icon="hunyuanqi" icon2="hyq" qualityWeight="5" phaseSkillId="3003801,3003802,3003803,3003804,3003805,3003806,3003807,3003808,3003809,3003810,3003811,3003812,3003813,3003814,3003815,3003816,3003817,3003818,3003819,3003820,3003821,3003822,3003823,3003824,3003825" getParam="16"/>
+    <item id="30039" name="破月弄影" type="3" quality="4" icon="poyuenongying" icon2="pyny" qualityWeight="5" phaseSkillId="3003901,3003902,3003903,3003904,3003905,3003906,3003907,3003908,3003909,3003910,3003911,3003912,3003913,3003914,3003915,3003916,3003917,3003918,3003919,3003920,3003921,3003922,3003923,3003924,3003925" getParam="16"/>
+    <item id="30040" name="清心咒" type="3" quality="4" icon="qingxinzhou" icon2="qxz" qualityWeight="5" phaseSkillId="3004001,3004002,3004003,3004004,3004005,3004006,3004007,3004008,3004009,3004010,3004011,3004012,3004013,3004014,3004015,3004016,3004017,3004018,3004019,3004020,3004021,3004022,3004023,3004024,3004025" getParam="16"/>
+    <item id="30041" name="凋残" type="3" quality="4" icon="diaocan" icon2="dc" qualityWeight="5" phaseSkillId="3004101,3004102,3004103,3004104,3004105,3004106,3004107,3004108,3004109,3004110,3004111,3004112,3004113,3004114,3004115,3004116,3004117,3004118,3004119,3004120,3004121,3004122,3004123,3004124,3004125" getParam="16"/>
+    <item id="30042" name="玉女剑法" type="3" quality="4" icon="yunvjianfa" icon2="ynjf" qualityWeight="5" phaseSkillId="3004201,3004202,3004203,3004204,3004205,3004206,3004207,3004208,3004209,3004210,3004211,3004212,3004213,3004214,3004215,3004216,3004217,3004218,3004219,3004220,3004221,3004222,3004223,3004224,3004225" getParam="16"/>
+    <item id="30043" name="云销雨霁" type="3" quality="4" icon="yunxiaoyuji" icon2="yxyj" qualityWeight="5" phaseSkillId="3004301,3004302,3004303,3004304,3004305,3004306,3004307,3004308,3004309,3004310,3004311,3004312,3004313,3004314,3004315,3004316,3004317,3004318,3004319,3004320,3004321,3004322,3004323,3004324,3004325" getParam="16"/>
+    <item id="30044" name="凤凰于飞" type="3" quality="4" icon="fenghuangyufei" icon2="fhyf" qualityWeight="5" phaseSkillId="3004401,3004402,3004403,3004404,3004405,3004406,3004407,3004408,3004409,3004410,3004411,3004412,3004413,3004414,3004415,3004416,3004417,3004418,3004419,3004420,3004421,3004422,3004423,3004424,3004425" getParam="16"/>
+    <item id="30045" name="星月彤辉" type="3" quality="4" icon="xingyuetonghui" icon2="xyth" qualityWeight="5" phaseSkillId="3004501,3004502,3004503,3004504,3004505,3004506,3004507,3004508,3004509,3004510,3004511,3004512,3004513,3004514,3004515,3004516,3004517,3004518,3004519,3004520,3004521,3004522,3004523,3004524,3004525" getParam="16"/>
+    <item id="30046" name="云开月明" type="3" quality="3" icon="yunkaiyueming" icon2="ykym" qualityWeight="5" phaseSkillId="3004601,3004602,3004603,3004604,3004605,3004606,3004607,3004608,3004609,3004610,3004611,3004612,3004613,3004614,3004615,3004616,3004617,3004618,3004619,3004620,3004621,3004622,3004623,3004624,3004625" getParam="16"/>
+    <item id="30047" name="枫火" type="3" quality="3" icon="fenghuo" icon2="fh" qualityWeight="5" phaseSkillId="3004701,3004702,3004703,3004704,3004705,3004706,3004707,3004708,3004709,3004710,3004711,3004712,3004713,3004714,3004715,3004716,3004717,3004718,3004719,3004720,3004721,3004722,3004723,3004724,3004725" getParam="16"/>
+    <item id="30048" name="北冥神功" type="3" quality="3" icon="beimingshengong" icon2="bmsg" qualityWeight="5" phaseSkillId="3004801,3004802,3004803,3004804,3004805,3004806,3004807,3004808,3004809,3004810,3004811,3004812,3004813,3004814,3004815,3004816,3004817,3004818,3004819,3004820,3004821,3004822,3004823,3004824,3004825" getParam="16"/>
+    <item id="30049" name="星落云散" type="3" quality="3" icon="xingluoyunsan" icon2="xlys" qualityWeight="5" phaseSkillId="3004901,3004902,3004903,3004904,3004905,3004906,3004907,3004908,3004909,3004910,3004911,3004912,3004913,3004914,3004915,3004916,3004917,3004918,3004919,3004920,3004921,3004922,3004923,3004924,3004925" getParam="16"/>
+    <item id="30050" name="雨落千仞" type="3" quality="3" icon="yuluoqianren" icon2="ylqr" qualityWeight="5" phaseSkillId="3005001,3005002,3005003,3005004,3005005,3005006,3005007,3005008,3005009,3005010,3005011,3005012,3005013,3005014,3005015,3005016,3005017,3005018,3005019,3005020,3005021,3005022,3005023,3005024,3005025" getParam="16"/>
+    <item id="30051" name="月度迷津" type="3" quality="2" icon="yuedumijing" icon2="ydmj" qualityWeight="5" phaseSkillId="3005101,3005102,3005103,3005104,3005105,3005106,3005107,3005108,3005109,3005110,3005111,3005112,3005113,3005114,3005115,3005116,3005117,3005118,3005119,3005120,3005121,3005122,3005123,3005124,3005125" getParam="16"/>
+    <item id="30052" name="执手携游" type="3" quality="2" icon="zhishouxieyou" icon2="zsxy" qualityWeight="5" phaseSkillId="3005201,3005202,3005203,3005204,3005205,3005206,3005207,3005208,3005209,3005210,3005211,3005212,3005213,3005214,3005215,3005216,3005217,3005218,3005219,3005220,3005221,3005222,3005223,3005224,3005225" getParam="16"/>
+    <item id="30053" name="防微杜渐" type="3" quality="2" icon="fangweidujian" icon2="fwdj" qualityWeight="5" phaseSkillId="3005301,3005302,3005303,3005304,3005305,3005306,3005307,3005308,3005309,3005310,3005311,3005312,3005313,3005314,3005315,3005316,3005317,3005318,3005319,3005320,3005321,3005322,3005323,3005324,3005325" getParam="16"/>
+    <item id="30054" name="落井下石" type="3" quality="2" icon="luojingxiashi" icon2="ljxs" qualityWeight="5" phaseSkillId="3005401,3005402,3005403,3005404,3005405,3005406,3005407,3005408,3005409,3005410,3005411,3005412,3005413,3005414,3005415,3005416,3005417,3005418,3005419,3005420,3005421,3005422,3005423,3005424,3005425" getParam="16"/>
+    <item id="30055" name="拂柳回风" type="3" quality="1" icon="fuliuhuifeng" icon2="flhf" qualityWeight="5" phaseSkillId="3005501,3005502,3005503,3005504,3005505,3005506,3005507,3005508,3005509,3005510,3005511,3005512,3005513,3005514,3005515,3005516,3005517,3005518,3005519,3005520,3005521,3005522,3005523,3005524,3005525" getParam="16"/>
+    <item id="30056" name="连心决" type="3" quality="1" icon="lianxinjue" icon2="lxj" qualityWeight="5" phaseSkillId="3005601,3005602,3005603,3005604,3005605,3005606,3005607,3005608,3005609,3005610,3005611,3005612,3005613,3005614,3005615,3005616,3005617,3005618,3005619,3005620,3005621,3005622,3005623,3005624,3005625" getParam="16"/>
+    <item id="30057" name="凌虚步" type="3" quality="1" icon="lingxubu" icon2="lxb" qualityWeight="5" phaseSkillId="3005701,3005702,3005703,3005704,3005705,3005706,3005707,3005708,3005709,3005710,3005711,3005712,3005713,3005714,3005715,3005716,3005717,3005718,3005719,3005720,3005721,3005722,3005723,3005724,3005725" getParam="16"/>
+    <item id="30058" name="伏龙探日" type="4" quality="4" icon="fulongtanri" icon2="fltr" qualityWeight="5" phaseSkillId="3005801,3005802,3005803,3005804,3005805,3005806,3005807,3005808,3005809,3005810,3005811,3005812,3005813,3005814,3005815,3005816,3005817,3005818,3005819,3005820,3005821,3005822,3005823,3005824,3005825" getParam="16"/>
+    <item id="30059" name="来鸿去燕" type="4" quality="4" icon="laihongquyan" icon2="lhqy" qualityWeight="5" phaseSkillId="3005901,3005902,3005903,3005904,3005905,3005906,3005907,3005908,3005909,3005910,3005911,3005912,3005913,3005914,3005915,3005916,3005917,3005918,3005919,3005920,3005921,3005922,3005923,3005924,3005925" getParam="16"/>
+    <item id="30060" name="虚危化生" type="4" quality="4" icon="xuweihuasheng" icon2="xwhs" qualityWeight="5" phaseSkillId="3006001,3006002,3006003,3006004,3006005,3006006,3006007,3006008,3006009,3006010,3006011,3006012,3006013,3006014,3006015,3006016,3006017,3006018,3006019,3006020,3006021,3006022,3006023,3006024,3006025" getParam="16"/>
+    <item id="30061" name="踏月摘星" type="4" quality="4" icon="tayuezhaixing" icon2="tyzx" qualityWeight="2" phaseSkillId="3006101,3006102,3006103,3006104,3006105,3006106,3006107,3006108,3006109,3006110,3006111,3006112,3006113,3006114,3006115,3006116,3006117,3006118,3006119,3006120,3006121,3006122,3006123,3006124,3006125" getParam="16"/>
+    <item id="30062" name="三分归元气" type="4" quality="4" icon="sanfenguiyuanqi" icon2="sfgyq" qualityWeight="5" phaseSkillId="3006201,3006202,3006203,3006204,3006205,3006206,3006207,3006208,3006209,3006210,3006211,3006212,3006213,3006214,3006215,3006216,3006217,3006218,3006219,3006220,3006221,3006222,3006223,3006224,3006225" getParam="16"/>
+    <item id="30063" name="乾坤大挪移" type="4" quality="4" icon="qiankundanuoyi" icon2="qkdny" qualityWeight="2" phaseSkillId="3006301,3006302,3006303,3006304,3006305,3006306,3006307,3006308,3006309,3006310,3006311,3006312,3006313,3006314,3006315,3006316,3006317,3006318,3006319,3006320,3006321,3006322,3006323,3006324,3006325" getParam="16"/>
+    <item id="30064" name="赤凤燃天" type="4" quality="4" icon="chifengrantian" icon2="cfrt" qualityWeight="5" phaseSkillId="3006401,3006402,3006403,3006404,3006405,3006406,3006407,3006408,3006409,3006410,3006411,3006412,3006413,3006414,3006415,3006416,3006417,3006418,3006419,3006420,3006421,3006422,3006423,3006424,3006425" getParam="16"/>
+    <item id="30065" name="同心决" type="4" quality="3" icon="tongxinjue" icon2="txj" qualityWeight="5" phaseSkillId="3006501,3006502,3006503,3006504,3006505,3006506,3006507,3006508,3006509,3006510,3006511,3006512,3006513,3006514,3006515,3006516,3006517,3006518,3006519,3006520,3006521,3006522,3006523,3006524,3006525" getParam="16"/>
+    <item id="30066" name="潜龙一动" type="4" quality="3" icon="qianlongyidong" icon2="qlyd" qualityWeight="5" phaseSkillId="3006601,3006602,3006603,3006604,3006605,3006606,3006607,3006608,3006609,3006610,3006611,3006612,3006613,3006614,3006615,3006616,3006617,3006618,3006619,3006620,3006621,3006622,3006623,3006624,3006625" getParam="16"/>
+    <item id="30067" name="不动如山" type="4" quality="3" icon="budongrushan" icon2="bdrs" qualityWeight="5" phaseSkillId="3006701,3006702,3006703,3006704,3006705,3006706,3006707,3006708,3006709,3006710,3006711,3006712,3006713,3006714,3006715,3006716,3006717,3006718,3006719,3006720,3006721,3006722,3006723,3006724,3006725" getParam="16"/>
+    <item id="30068" name="金刚经" type="4" quality="3" icon="jingangjing" icon2="jgj" qualityWeight="5" phaseSkillId="3006801,3006802,3006803,3006804,3006805,3006806,3006807,3006808,3006809,3006810,3006811,3006812,3006813,3006814,3006815,3006816,3006817,3006818,3006819,3006820,3006821,3006822,3006823,3006824,3006825" getParam="16"/>
+    <item id="30069" name="鸳鸯游天" type="4" quality="3" icon="yuanyangyoutian" icon2="yyyt" qualityWeight="5" phaseSkillId="3006901,3006902,3006903,3006904,3006905,3006906,3006907,3006908,3006909,3006910,3006911,3006912,3006913,3006914,3006915,3006916,3006917,3006918,3006919,3006920,3006921,3006922,3006923,3006924,3006925" getParam="16"/>
+    <item id="30070" name="绵里藏针" type="4" quality="2" icon="mianlicangzhen" icon2="mlcz" qualityWeight="5" phaseSkillId="3007001,3007002,3007003,3007004,3007005,3007006,3007007,3007008,3007009,3007010,3007011,3007012,3007013,3007014,3007015,3007016,3007017,3007018,3007019,3007020,3007021,3007022,3007023,3007024,3007025" getParam="16"/>
+    <item id="30071" name="卷云决" type="4" quality="2" icon="juanyunjue" icon2="jyj" qualityWeight="5" phaseSkillId="3007101,3007102,3007103,3007104,3007105,3007106,3007107,3007108,3007109,3007110,3007111,3007112,3007113,3007114,3007115,3007116,3007117,3007118,3007119,3007120,3007121,3007122,3007123,3007124,3007125" getParam="16"/>
+    <item id="30072" name="飞将势" type="4" quality="2" icon="feijiangshi" icon2="fjs" qualityWeight="5" phaseSkillId="3007201,3007202,3007203,3007204,3007205,3007206,3007207,3007208,3007209,3007210,3007211,3007212,3007213,3007214,3007215,3007216,3007217,3007218,3007219,3007220,3007221,3007222,3007223,3007224,3007225" getParam="16"/>
+    <item id="30073" name="杜鹃啼血" type="4" quality="2" icon="dujuantixue" icon2="djtx" qualityWeight="5" phaseSkillId="3007301,3007302,3007303,3007304,3007305,3007306,3007307,3007308,3007309,3007310,3007311,3007312,3007313,3007314,3007315,3007316,3007317,3007318,3007319,3007320,3007321,3007322,3007323,3007324,3007325" getParam="16"/>
+    <item id="30074" name="五禽戏" type="4" quality="1" icon="wuqingxi" icon2="wqx" qualityWeight="5" phaseSkillId="3007401,3007402,3007403,3007404,3007405,3007406,3007407,3007408,3007409,3007410,3007411,3007412,3007413,3007414,3007415,3007416,3007417,3007418,3007419,3007420,3007421,3007422,3007423,3007424,3007425" getParam="16"/>
+    <item id="30075" name="铁布衫" type="4" quality="1" icon="tiebushan" icon2="tbs" qualityWeight="5" phaseSkillId="3007501,3007502,3007503,3007504,3007505,3007506,3007507,3007508,3007509,3007510,3007511,3007512,3007513,3007514,3007515,3007516,3007517,3007518,3007519,3007520,3007521,3007522,3007523,3007524,3007525" getParam="16"/>
+    <item id="30076" name="凌波步" type="4" quality="1" icon="lingbobu" icon2="lbb" qualityWeight="5" phaseSkillId="3007601,3007602,3007603,3007604,3007605,3007606,3007607,3007608,3007609,3007610,3007611,3007612,3007613,3007614,3007615,3007616,3007617,3007618,3007619,3007620,3007621,3007622,3007623,3007624,3007625" getParam="16"/>
+  </theurgy>
+  <quality>
+    <item id="1" quality="观形" weight="6408" sealNumber="1"/>
+    <item id="2" quality="悟意" weight="3206" sealNumber="1"/>
+    <item id="3" quality="融神" weight="321" sealNumber="2"/>
+    <item id="4" quality="化境" weight="65" sealNumber="2"/>
+  </quality>
+  <type>
+    <item id="1" name="绝学" attr="17,20,21"/>
+    <item id="2" name="内功" attr="24,25,28"/>
+    <item id="3" name="灵犀" attr="23,26,27"/>
+    <item id="4" name="外功" attr="18,19,22"/>
+  </type>
+  <theurgyLevel>
+    <item level="1" money="200" amount="70" strength="10" health="380" defense="2"/>
+    <item level="2" money="400" amount="85" strength="19" health="760" defense="3"/>
+    <item level="3" money="600" amount="100" strength="29" health="1150" defense="5"/>
+    <item level="4" money="800" amount="115" strength="38" health="1530" defense="6"/>
+    <item level="5" money="1000" amount="125" strength="48" health="1910" defense="8"/>
+    <item level="6" money="1200" amount="140" strength="57" health="2290" defense="10"/>
+    <item level="7" money="1400" amount="155" strength="67" health="2680" defense="11"/>
+    <item level="8" money="1600" amount="170" strength="76" health="3060" defense="13"/>
+    <item level="9" money="1800" amount="185" strength="86" health="3440" defense="14"/>
+    <item level="10" money="2000" amount="195" strength="96" health="3820" defense="16"/>
+    <item level="11" money="2200" amount="210" strength="105" health="4200" defense="18"/>
+    <item level="12" money="2400" amount="225" strength="115" health="4590" defense="19"/>
+    <item level="13" money="2600" amount="240" strength="124" health="4970" defense="21"/>
+    <item level="14" money="2800" amount="255" strength="134" health="5350" defense="22"/>
+    <item level="15" money="3000" amount="265" strength="143" health="5730" defense="24"/>
+    <item level="16" money="3200" amount="280" strength="153" health="6120" defense="25"/>
+    <item level="17" money="3400" amount="295" strength="162" health="6500" defense="27"/>
+    <item level="18" money="3600" amount="310" strength="172" health="6880" defense="29"/>
+    <item level="19" money="3800" amount="325" strength="182" health="7260" defense="30"/>
+    <item level="20" money="4000" amount="340" strength="191" health="7650" defense="32"/>
+    <item level="21" money="4200" amount="350" strength="201" health="8030" defense="33"/>
+    <item level="22" money="4400" amount="365" strength="210" health="8410" defense="35"/>
+    <item level="23" money="4600" amount="380" strength="220" health="8790" defense="37"/>
+    <item level="24" money="4800" amount="395" strength="229" health="9170" defense="38"/>
+    <item level="25" money="5000" amount="410" strength="239" health="9560" defense="40"/>
+    <item level="26" money="5200" amount="420" strength="248" health="9940" defense="41"/>
+    <item level="27" money="5400" amount="500" strength="258" health="10320" defense="43"/>
+    <item level="28" money="5600" amount="575" strength="268" health="10700" defense="45"/>
+    <item level="29" money="5800" amount="650" strength="277" health="11090" defense="46"/>
+    <item level="30" money="6000" amount="730" strength="287" health="11470" defense="48"/>
+    <item level="31" money="6200" amount="805" strength="296" health="11850" defense="49"/>
+    <item level="32" money="6400" amount="885" strength="306" health="12230" defense="51"/>
+    <item level="33" money="6600" amount="960" strength="315" health="12610" defense="53"/>
+    <item level="34" money="6800" amount="1035" strength="325" health="13000" defense="54"/>
+    <item level="35" money="7000" amount="1115" strength="334" health="13380" defense="56"/>
+    <item level="36" money="7200" amount="1190" strength="344" health="13760" defense="57"/>
+    <item level="37" money="7400" amount="1265" strength="354" health="14140" defense="59"/>
+    <item level="38" money="7600" amount="1345" strength="363" health="14530" defense="61"/>
+    <item level="39" money="7800" amount="1420" strength="373" health="14910" defense="62"/>
+    <item level="40" money="8000" amount="1495" strength="382" health="15290" defense="64"/>
+    <item level="41" money="8200" amount="1575" strength="392" health="15670" defense="65"/>
+    <item level="42" money="8400" amount="1650" strength="401" health="16050" defense="67"/>
+    <item level="43" money="8600" amount="1725" strength="411" health="16440" defense="69"/>
+    <item level="44" money="8800" amount="1805" strength="421" health="16820" defense="70"/>
+    <item level="45" money="9000" amount="1880" strength="430" health="17200" defense="72"/>
+    <item level="46" money="9200" amount="1955" strength="440" health="17580" defense="73"/>
+    <item level="47" money="9400" amount="2035" strength="449" health="17970" defense="75"/>
+    <item level="48" money="9600" amount="2110" strength="459" health="18350" defense="76"/>
+    <item level="49" money="9800" amount="2190" strength="468" health="18730" defense="78"/>
+    <item level="50" money="10000" amount="2265" strength="478" health="19110" defense="80"/>
+    <item level="51" money="10200" amount="2340" strength="487" health="19500" defense="81"/>
+    <item level="52" money="10400" amount="2420" strength="497" health="19880" defense="83"/>
+    <item level="53" money="10600" amount="2495" strength="507" health="20260" defense="84"/>
+    <item level="54" money="10800" amount="2570" strength="516" health="20640" defense="86"/>
+    <item level="55" money="11000" amount="2650" strength="526" health="21020" defense="88"/>
+    <item level="56" money="11200" amount="2725" strength="535" health="21410" defense="89"/>
+    <item level="57" money="11400" amount="2800" strength="545" health="21790" defense="91"/>
+    <item level="58" money="11600" amount="2880" strength="554" health="22170" defense="92"/>
+    <item level="59" money="11800" amount="2955" strength="564" health="22550" defense="94"/>
+    <item level="60" money="12000" amount="3030" strength="573" health="22940" defense="96"/>
+    <item level="61" money="12200" amount="3110" strength="583" health="23320" defense="97"/>
+    <item level="62" money="12400" amount="3185" strength="593" health="23700" defense="99"/>
+    <item level="63" money="12600" amount="3260" strength="602" health="24080" defense="100"/>
+    <item level="64" money="12800" amount="3340" strength="612" health="24460" defense="102"/>
+    <item level="65" money="13000" amount="3415" strength="621" health="24850" defense="104"/>
+    <item level="66" money="13200" amount="3490" strength="631" health="25230" defense="105"/>
+    <item level="67" money="13400" amount="3570" strength="640" health="25610" defense="107"/>
+    <item level="68" money="13600" amount="3645" strength="650" health="25990" defense="108"/>
+    <item level="69" money="13800" amount="3725" strength="659" health="26380" defense="110"/>
+    <item level="70" money="14000" amount="3800" strength="669" health="26760" defense="112"/>
+    <item level="71" money="14200" amount="3875" strength="679" health="27140" defense="113"/>
+    <item level="72" money="14400" amount="3955" strength="688" health="27520" defense="115"/>
+    <item level="73" money="14600" amount="4030" strength="698" health="27910" defense="116"/>
+    <item level="74" money="14800" amount="4105" strength="707" health="28290" defense="118"/>
+    <item level="75" money="15000" amount="4185" strength="717" health="28670" defense="120"/>
+    <item level="76" money="15200" amount="4260" strength="726" health="29050" defense="121"/>
+    <item level="77" money="15400" amount="4335" strength="736" health="29430" defense="123"/>
+    <item level="78" money="15600" amount="4415" strength="745" health="29820" defense="124"/>
+    <item level="79" money="15800" amount="4490" strength="755" health="30200" defense="126"/>
+    <item level="80" money="16000" amount="4565" strength="765" health="30580" defense="127"/>
+    <item level="81" money="16200" amount="4645" strength="774" health="30960" defense="129"/>
+    <item level="82" money="16400" amount="4720" strength="784" health="31350" defense="131"/>
+    <item level="83" money="16600" amount="4795" strength="793" health="31730" defense="132"/>
+    <item level="84" money="16800" amount="4875" strength="803" health="32110" defense="134"/>
+    <item level="85" money="17000" amount="4950" strength="812" health="32490" defense="135"/>
+    <item level="86" money="17200" amount="5030" strength="822" health="32870" defense="137"/>
+    <item level="87" money="17400" amount="5105" strength="831" health="33260" defense="139"/>
+    <item level="88" money="17600" amount="5180" strength="841" health="33640" defense="140"/>
+    <item level="89" money="17800" amount="5260" strength="851" health="34020" defense="142"/>
+    <item level="90" money="18000" amount="5335" strength="860" health="34400" defense="143"/>
+    <item level="91" money="18200" amount="5410" strength="870" health="34790" defense="145"/>
+    <item level="92" money="18400" amount="5490" strength="879" health="35170" defense="147"/>
+    <item level="93" money="18600" amount="5565" strength="889" health="35550" defense="148"/>
+    <item level="94" money="18800" amount="5640" strength="898" health="35930" defense="150"/>
+    <item level="95" money="19000" amount="5720" strength="908" health="36310" defense="151"/>
+    <item level="96" money="19200" amount="5795" strength="917" health="36700" defense="153"/>
+    <item level="97" money="19400" amount="5870" strength="927" health="37080" defense="155"/>
+    <item level="98" money="19600" amount="5950" strength="937" health="37460" defense="156"/>
+    <item level="99" money="19800" amount="6025" strength="946" health="37840" defense="158"/>
+    <item level="100" money="20000" amount="6100" strength="956" health="38230" defense="159"/>
+    <item level="101" money="20200" amount="6180" strength="965" health="38610" defense="161"/>
+    <item level="102" money="20400" amount="6255" strength="975" health="38991" defense="163"/>
+    <item level="103" money="20600" amount="6335" strength="984" health="39370" defense="164"/>
+    <item level="104" money="20800" amount="6410" strength="994" health="39760" defense="166"/>
+    <item level="105" money="21000" amount="6485" strength="1003" health="40140" defense="167"/>
+    <item level="106" money="21200" amount="6565" strength="1013" health="40520" defense="169"/>
+    <item level="107" money="21400" amount="6640" strength="1023" health="40900" defense="170"/>
+    <item level="108" money="21600" amount="6715" strength="1032" health="41280" defense="172"/>
+    <item level="109" money="21800" amount="6795" strength="1042" health="41670" defense="174"/>
+    <item level="110" money="22000" amount="6870" strength="1051" health="42050" defense="175"/>
+    <item level="111" money="22200" amount="6945" strength="1061" health="42430" defense="177"/>
+    <item level="112" money="22400" amount="7025" strength="1070" health="42810" defense="178"/>
+    <item level="113" money="22600" amount="7100" strength="1080" health="43200" defense="180"/>
+    <item level="114" money="22800" amount="7175" strength="1090" health="43580" defense="182"/>
+    <item level="115" money="23000" amount="7255" strength="1099" health="43960" defense="183"/>
+    <item level="116" money="23200" amount="7330" strength="1109" health="44340" defense="185"/>
+    <item level="117" money="23400" amount="7405" strength="1118" health="44720" defense="186"/>
+    <item level="118" money="23600" amount="7485" strength="1128" health="45110" defense="188"/>
+    <item level="119" money="23800" amount="7560" strength="1137" health="45490" defense="190"/>
+    <item level="120" money="24000" amount="7635" strength="1147" health="45870" defense="191"/>
+    <item level="121" money="24200" amount="7715" strength="1156" health="46250" defense="193"/>
+    <item level="122" money="24400" amount="7790" strength="1166" health="46640" defense="194"/>
+    <item level="123" money="24600" amount="7867" strength="1176" health="47020" defense="196"/>
+    <item level="124" money="24800" amount="7944" strength="1185" health="47400" defense="197"/>
+    <item level="125" money="25000" amount="8020" strength="1195" health="47790" defense="199"/>
+    <item level="126" money="25200" amount="8097" strength="1204" health="48170" defense="200"/>
+    <item level="127" money="25400" amount="8174" strength="1214" health="48550" defense="202"/>
+    <item level="128" money="25600" amount="8251" strength="1223" health="48930" defense="204"/>
+    <item level="129" money="25800" amount="8327" strength="1233" health="49320" defense="205"/>
+    <item level="130" money="26000" amount="8404" strength="1242" health="49700" defense="207"/>
+    <item level="131" money="26200" amount="8481" strength="1252" health="50080" defense="208"/>
+    <item level="132" money="26400" amount="8558" strength="1262" health="50460" defense="210"/>
+    <item level="133" money="26600" amount="8634" strength="1271" health="50850" defense="211"/>
+    <item level="134" money="26800" amount="8711" strength="1281" health="51230" defense="213"/>
+    <item level="135" money="27000" amount="8788" strength="1290" health="51610" defense="215"/>
+    <item level="136" money="27200" amount="8865" strength="1300" health="51990" defense="216"/>
+    <item level="137" money="27400" amount="8942" strength="1309" health="52370" defense="218"/>
+    <item level="138" money="27600" amount="9018" strength="1319" health="52760" defense="219"/>
+    <item level="139" money="27800" amount="9095" strength="1328" health="53140" defense="221"/>
+    <item level="140" money="28000" amount="9172" strength="1338" health="53520" defense="223"/>
+    <item level="141" money="28200" amount="9249" strength="1348" health="53900" defense="224"/>
+    <item level="142" money="28400" amount="9325" strength="1357" health="54290" defense="226"/>
+    <item level="143" money="28600" amount="9402" strength="1367" health="54670" defense="227"/>
+    <item level="144" money="28800" amount="9479" strength="1376" health="55050" defense="229"/>
+    <item level="145" money="29000" amount="9556" strength="1386" health="55430" defense="230"/>
+    <item level="146" money="29200" amount="9633" strength="1395" health="55820" defense="232"/>
+    <item level="147" money="29400" amount="9709" strength="1405" health="56200" defense="234"/>
+    <item level="148" money="29600" amount="9786" strength="1414" health="56580" defense="235"/>
+    <item level="149" money="29800" amount="9863" strength="1424" health="56960" defense="237"/>
+    <item level="150" money="30000" amount="9940" strength="1434" health="57340" defense="238"/>
+    <item level="151" money="30200" amount="10016" strength="1443" health="57730" defense="240"/>
+    <item level="152" money="30400" amount="10093" strength="1453" health="58110" defense="242"/>
+    <item level="153" money="30600" amount="10170" strength="1462" health="58490" defense="243"/>
+    <item level="154" money="30800" amount="10247" strength="1472" health="58870" defense="245"/>
+    <item level="155" money="31000" amount="10323" strength="1481" health="59260" defense="246"/>
+    <item level="156" money="31200" amount="10400" strength="1491" health="59640" defense="248"/>
+    <item level="157" money="31400" amount="10477" strength="1500" health="60020" defense="250"/>
+    <item level="158" money="31600" amount="10554" strength="1510" health="60400" defense="251"/>
+    <item level="159" money="31800" amount="10631" strength="1519" health="60790" defense="253"/>
+    <item level="160" money="32000" amount="10707" strength="1529" health="61170" defense="254"/>
+    <item level="161" money="32200" amount="10784" strength="1539" health="61550" defense="256"/>
+    <item level="162" money="32400" amount="10861" strength="1548" health="61930" defense="257"/>
+    <item level="163" money="32600" amount="10938" strength="1558" health="62310" defense="259"/>
+    <item level="164" money="32800" amount="11014" strength="1567" health="62700" defense="261"/>
+    <item level="165" money="33000" amount="11091" strength="1577" health="63080" defense="262"/>
+    <item level="166" money="33200" amount="11168" strength="1586" health="63460" defense="264"/>
+    <item level="167" money="33400" amount="11245" strength="1596" health="63840" defense="265"/>
+    <item level="168" money="33600" amount="11321" strength="1605" health="64230" defense="267"/>
+    <item level="169" money="33800" amount="11398" strength="1615" health="64610" defense="269"/>
+    <item level="170" money="34000" amount="11475" strength="1625" health="64990" defense="270"/>
+    <item level="171" money="34200" amount="11552" strength="1634" health="65370" defense="272"/>
+    <item level="172" money="34400" amount="11629" strength="1644" health="65760" defense="273"/>
+    <item level="173" money="34600" amount="11705" strength="1653" health="66140" defense="275"/>
+    <item level="174" money="34800" amount="11782" strength="1663" health="66520" defense="277"/>
+    <item level="175" money="35000" amount="11859" strength="1672" health="66900" defense="278"/>
+    <item level="176" money="35200" amount="11936" strength="1682" health="67280" defense="280"/>
+    <item level="177" money="35400" amount="12012" strength="1691" health="67670" defense="281"/>
+    <item level="178" money="35600" amount="12089" strength="1701" health="68050" defense="283"/>
+    <item level="179" money="35800" amount="12166" strength="1711" health="68430" defense="284"/>
+    <item level="180" money="36000" amount="12243" strength="1720" health="68810" defense="286"/>
+    <item level="181" money="36200" amount="12319" strength="1730" health="69200" defense="288"/>
+    <item level="182" money="36400" amount="12396" strength="1739" health="69580" defense="289"/>
+    <item level="183" money="36600" amount="12473" strength="1749" health="69960" defense="291"/>
+    <item level="184" money="36800" amount="12550" strength="1758" health="70340" defense="292"/>
+    <item level="185" money="37000" amount="12627" strength="1768" health="70730" defense="294"/>
+    <item level="186" money="37200" amount="12703" strength="1777" health="71110" defense="296"/>
+    <item level="187" money="37400" amount="12780" strength="1787" health="71490" defense="297"/>
+    <item level="188" money="37600" amount="12857" strength="1797" health="71870" defense="299"/>
+    <item level="189" money="37800" amount="12934" strength="1806" health="72260" defense="300"/>
+    <item level="190" money="38000" amount="13010" strength="1816" health="72640" defense="302"/>
+    <item level="191" money="38200" amount="13087" strength="1825" health="73020" defense="303"/>
+    <item level="192" money="38400" amount="13164" strength="1835" health="73400" defense="305"/>
+    <item level="193" money="38600" amount="13241" strength="1844" health="73780" defense="307"/>
+    <item level="194" money="38800" amount="13318" strength="1854" health="74170" defense="308"/>
+    <item level="195" money="39000" amount="13394" strength="1863" health="74550" defense="310"/>
+    <item level="196" money="39200" amount="13471" strength="1873" health="74930" defense="311"/>
+    <item level="197" money="39400" amount="13548" strength="1883" health="75310" defense="313"/>
+    <item level="198" money="39600" amount="13625" strength="1892" health="75700" defense="315"/>
+    <item level="199" money="39800" amount="13701" strength="1902" health="76080" defense="316"/>
+    <item level="200" money="0" amount="0" strength="1911" health="76460" defense="318"/>
+  </theurgyLevel>
+  <phase>
+    <item phase="1" levelCap="25" fragAmount="50"/>
+    <item phase="2" levelCap="50" fragAmount="50"/>
+    <item phase="3" levelCap="75" fragAmount="100"/>
+    <item phase="4" levelCap="100" fragAmount="100"/>
+    <item phase="5" levelCap="125" fragAmount="150"/>
+    <item phase="6" levelCap="150" fragAmount="150"/>
+    <item phase="7" levelCap="175" fragAmount="200"/>
+    <item phase="8" levelCap="200" fragAmount="200"/>
+    <item phase="9" levelCap="200" fragAmount="250"/>
+    <item phase="10" levelCap="200" fragAmount="250"/>
+    <item phase="11" levelCap="200" fragAmount="300"/>
+    <item phase="12" levelCap="200" fragAmount="300"/>
+    <item phase="13" levelCap="200" fragAmount="350"/>
+    <item phase="14" levelCap="200" fragAmount="350"/>
+    <item phase="15" levelCap="200" fragAmount="400"/>
+    <item phase="16" levelCap="200" fragAmount="400"/>
+    <item phase="17" levelCap="200" fragAmount="450"/>
+    <item phase="18" levelCap="200" fragAmount="450"/>
+    <item phase="19" levelCap="200" fragAmount="500"/>
+    <item phase="20" levelCap="200" fragAmount="1000"/>
+    <item phase="21" levelCap="200" fragAmount="2000"/>
+    <item phase="22" levelCap="200" fragAmount="5000"/>
+    <item phase="23" levelCap="200" fragAmount="10000"/>
+    <item phase="24" levelCap="200" fragAmount="20000"/>
+    <item phase="25" levelCap="200" fragAmount="0"/>
+  </phase>
+  <seal>
+    <item level="3" name="3级绝学印记" id="40503" quality="3" desc="强化绝学伤害+6.3%" icon="icon_yupeishuqianlan4" iconId="a_1" sealAttr="24" value="6.3" nextLevelItemId="40504"/>
+    <item level="16" name="16级英勇印记" id="40116" quality="6" desc="强化侠侣+173.6%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="20" value="173.6" nextLevelItemId="40117"/>
+    <item level="10" name="10级震慑印记" id="41210" quality="5" desc="弱化侠侣+41.3%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="19" value="41.3" nextLevelItemId="41211"/>
+    <item level="17" name="17级纷争印记" id="40417" quality="6" desc="强化战斗属性+220.5%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="25" value="220.5" nextLevelItemId="40418"/>
+    <item level="15" name="15级铁骨印记" id="41115" quality="6" desc="弱化爆伤+136.7%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="22" value="136.7" nextLevelItemId="41116"/>
+    <item level="12" name="12级绝学印记" id="40512" quality="5" desc="强化绝学伤害+66.7%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="24" value="66.7" nextLevelItemId="40513"/>
+    <item level="19" name="19级纷争印记" id="40419" quality="6" desc="强化战斗属性+355.6%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="25" value="355.6" nextLevelItemId="40420"/>
+    <item level="12" name="12级回元印记" id="40712" quality="5" desc="强化治疗+66.7%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="23" value="66.7" nextLevelItemId="40713"/>
+    <item level="20" name="20级英勇印记" id="40120" quality="6" desc="强化侠侣+451.6%" icon="icon_yupeishuqiancai3" iconId="a_1" sealAttr="20" value="451.6" nextLevelItemId="0"/>
+    <item level="11" name="11级破军印记" id="40611" quality="5" desc="无视战斗抗性+52.5%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="28" value="52.5" nextLevelItemId="40612"/>
+    <item level="18" name="18级穿透印记" id="40818" quality="6" desc="无视战斗属性+390.5%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="27" value="390.5" nextLevelItemId="40819"/>
+    <item level="11" name="11级铁骨印记" id="41111" quality="5" desc="弱化爆伤+52.5%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="22" value="52.5" nextLevelItemId="41112"/>
+    <item level="12" name="12级英勇印记" id="40112" quality="5" desc="强化侠侣+66.7%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="20" value="66.7" nextLevelItemId="40113"/>
+    <item level="11" name="11级重创印记" id="40211" quality="5" desc="最终增伤+31%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="17" value="31" nextLevelItemId="40212"/>
+    <item level="20" name="20级抗争印记" id="40920" quality="6" desc="强化战斗抗性+629.8%" icon="icon_yupeishuqiancai1" iconId="a_1" sealAttr="26" value="629.8" nextLevelItemId="0"/>
+    <item level="4" name="4级震慑印记" id="41204" quality="3" desc="弱化侠侣+8.9%" icon="icon_yupeishuqianlan3" iconId="a_1" sealAttr="19" value="8.9" nextLevelItemId="41205"/>
+    <item level="15" name="15级破军印记" id="40615" quality="6" desc="无视战斗抗性+136.7%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="28" value="136.7" nextLevelItemId="40616"/>
+    <item level="19" name="19级重创印记" id="40219" quality="6" desc="最终增伤+209.7%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="17" value="209.7" nextLevelItemId="40220"/>
+    <item level="9" name="9级震慑印记" id="41209" quality="4" desc="弱化侠侣+32.5%" icon="icon_yupeishuqiancheng3" iconId="a_1" sealAttr="19" value="32.5" nextLevelItemId="41210"/>
+    <item level="5" name="5级回元印记" id="40705" quality="4" desc="强化治疗+12.1%" icon="icon_yupeishuqianzi3" iconId="a_1" sealAttr="23" value="12.1" nextLevelItemId="40706"/>
+    <item level="13" name="13级坚韧印记" id="41013" quality="5" desc="最终减伤+50%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="18" value="50" nextLevelItemId="41014"/>
+    <item level="20" name="20级重创印记" id="40220" quality="6" desc="最终增伤+266.3%" icon="icon_yupeishuqiancai2" iconId="a_1" sealAttr="17" value="266.3" nextLevelItemId="0"/>
+    <item level="20" name="20级穿透印记" id="40820" quality="6" desc="无视战斗属性+629.8%" icon="icon_yupeishuqiancai2" iconId="a_1" sealAttr="27" value="629.8" nextLevelItemId="0"/>
+    <item level="3" name="3级穿透印记" id="40803" quality="3" desc="无视战斗属性+8.8%" icon="icon_yupeishuqianlan2" iconId="a_1" sealAttr="27" value="8.8" nextLevelItemId="40804"/>
+    <item level="19" name="19级回元印记" id="40719" quality="6" desc="强化治疗+355.6%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="23" value="355.6" nextLevelItemId="40720"/>
+    <item level="8" name="8级英勇印记" id="40108" quality="4" desc="强化侠侣+25.9%" icon="icon_yupeishuqiancheng3" iconId="a_1" sealAttr="20" value="25.9" nextLevelItemId="40109"/>
+    <item level="7" name="7级破军印记" id="40607" quality="4" desc="无视战斗抗性+20.4%" icon="icon_yupeishuqiancheng2" iconId="a_1" sealAttr="28" value="20.4" nextLevelItemId="40608"/>
+    <item level="13" name="13级铁骨印记" id="41113" quality="5" desc="弱化爆伤+84.7%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="22" value="84.7" nextLevelItemId="41114"/>
+    <item level="2" name="2级震慑印记" id="41202" quality="2" desc="弱化侠侣+4.1%" icon="icon_yupeishuqianlv3" iconId="a_1" sealAttr="19" value="4.1" nextLevelItemId="41203"/>
+    <item level="6" name="6级铁骨印记" id="41106" quality="4" desc="弱化爆伤+15.4%" icon="icon_yupeishuqianzi1" iconId="a_1" sealAttr="22" value="15.4" nextLevelItemId="41107"/>
+    <item level="2" name="2级抗争印记" id="40902" quality="2" desc="强化战斗抗性+5.8%" icon="icon_yupeishuqianlv1" iconId="a_1" sealAttr="26" value="5.8" nextLevelItemId="40903"/>
+    <item level="20" name="20级致命印记" id="40320" quality="6" desc="强化爆伤+451.6%" icon="icon_yupeishuqiancai4" iconId="a_1" sealAttr="21" value="451.6" nextLevelItemId="0"/>
+    <item level="17" name="17级回元印记" id="40717" quality="6" desc="强化治疗+220.5%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="23" value="220.5" nextLevelItemId="40718"/>
+    <item level="3" name="3级英勇印记" id="40103" quality="3" desc="强化侠侣+6.3%" icon="icon_yupeishuqianlan3" iconId="a_1" sealAttr="20" value="6.3" nextLevelItemId="40104"/>
+    <item level="1" name="1级绝学印记" id="40501" quality="2" desc="强化绝学伤害+2.3%" icon="icon_yupeishuqianlv4" iconId="a_1" sealAttr="24" value="2.3" nextLevelItemId="40502"/>
+    <item level="4" name="4级抗争印记" id="40904" quality="3" desc="强化战斗抗性+12.5%" icon="icon_yupeishuqianlan1" iconId="a_1" sealAttr="26" value="12.5" nextLevelItemId="40905"/>
+    <item level="12" name="12级致命印记" id="40312" quality="5" desc="强化爆伤+66.7%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="21" value="66.7" nextLevelItemId="40313"/>
+    <item level="10" name="10级纷争印记" id="40410" quality="5" desc="强化战斗属性+41.3%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="25" value="41.3" nextLevelItemId="40411"/>
+    <item level="20" name="20级回元印记" id="40720" quality="6" desc="强化治疗+451.6%" icon="icon_yupeishuqiancai3" iconId="a_1" sealAttr="23" value="451.6" nextLevelItemId="0"/>
+    <item level="17" name="17级重创印记" id="40217" quality="6" desc="最终增伤+130%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="17" value="130" nextLevelItemId="40218"/>
+    <item level="17" name="17级铁骨印记" id="41117" quality="6" desc="弱化爆伤+220.5%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="22" value="220.5" nextLevelItemId="41118"/>
+    <item level="10" name="10级抗争印记" id="40910" quality="5" desc="强化战斗抗性+57.7%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="26" value="57.7" nextLevelItemId="40911"/>
+    <item level="14" name="14级英勇印记" id="40114" quality="5" desc="强化侠侣+107.6%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="20" value="107.6" nextLevelItemId="40115"/>
+    <item level="15" name="15级绝学印记" id="40515" quality="6" desc="强化绝学伤害+136.7%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="24" value="136.7" nextLevelItemId="40516"/>
+    <item level="13" name="13级破军印记" id="40613" quality="5" desc="无视战斗抗性+84.7%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="28" value="84.7" nextLevelItemId="40614"/>
+    <item level="18" name="18级绝学印记" id="40518" quality="6" desc="强化绝学伤害+280%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="24" value="280" nextLevelItemId="40519"/>
+    <item level="5" name="5级致命印记" id="40305" quality="4" desc="强化爆伤+12.1%" icon="icon_yupeishuqianzi4" iconId="a_1" sealAttr="21" value="12.1" nextLevelItemId="40306"/>
+    <item level="19" name="19级铁骨印记" id="41119" quality="6" desc="弱化爆伤+355.6%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="22" value="355.6" nextLevelItemId="41120"/>
+    <item level="9" name="9级穿透印记" id="40809" quality="4" desc="无视战斗属性+45.4%" icon="icon_yupeishuqiancheng2" iconId="a_1" sealAttr="27" value="45.4" nextLevelItemId="40810"/>
+    <item level="7" name="7级致命印记" id="40307" quality="4" desc="强化爆伤+20.4%" icon="icon_yupeishuqiancheng4" iconId="a_1" sealAttr="21" value="20.4" nextLevelItemId="40308"/>
+    <item level="9" name="9级纷争印记" id="40409" quality="4" desc="强化战斗属性+32.5%" icon="icon_yupeishuqiancheng4" iconId="a_1" sealAttr="25" value="32.5" nextLevelItemId="40410"/>
+    <item level="3" name="3级回元印记" id="40703" quality="3" desc="强化治疗+6.3%" icon="icon_yupeishuqianlan3" iconId="a_1" sealAttr="23" value="6.3" nextLevelItemId="40704"/>
+    <item level="15" name="15级坚韧印记" id="41015" quality="6" desc="最终减伤+80.6%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="18" value="80.6" nextLevelItemId="41016"/>
+    <item level="3" name="3级破军印记" id="40603" quality="3" desc="无视战斗抗性+6.3%" icon="icon_yupeishuqianlan2" iconId="a_1" sealAttr="28" value="6.3" nextLevelItemId="40604"/>
+    <item level="10" name="10级坚韧印记" id="41010" quality="5" desc="最终减伤+24.4%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="18" value="24.4" nextLevelItemId="41011"/>
+    <item level="6" name="6级英勇印记" id="40106" quality="4" desc="强化侠侣+15.9%" icon="icon_yupeishuqianzi3" iconId="a_1" sealAttr="20" value="15.9" nextLevelItemId="40107"/>
+    <item level="1" name="1级重创印记" id="40201" quality="2" desc="最终增伤+1.3%" icon="icon_yupeishuqianlv2" iconId="a_1" sealAttr="17" value="1.3" nextLevelItemId="40202"/>
+    <item level="6" name="6级抗争印记" id="40906" quality="4" desc="强化战斗抗性+22.3%" icon="icon_yupeishuqianzi1" iconId="a_1" sealAttr="26" value="22.3" nextLevelItemId="40907"/>
+    <item level="7" name="7级纷争印记" id="40407" quality="4" desc="强化战斗属性+20.4%" icon="icon_yupeishuqiancheng4" iconId="a_1" sealAttr="25" value="20.4" nextLevelItemId="40408"/>
+    <item level="4" name="4级致命印记" id="40304" quality="3" desc="强化爆伤+8.9%" icon="icon_yupeishuqianlan4" iconId="a_1" sealAttr="21" value="8.9" nextLevelItemId="40305"/>
+    <item level="8" name="8级回元印记" id="40708" quality="4" desc="强化治疗+25.9%" icon="icon_yupeishuqiancheng3" iconId="a_1" sealAttr="23" value="25.9" nextLevelItemId="40709"/>
+    <item level="15" name="15级致命印记" id="40315" quality="6" desc="强化爆伤+136.7%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="21" value="136.7" nextLevelItemId="40316"/>
+    <item level="6" name="6级回元印记" id="40706" quality="4" desc="强化治疗+15.4%" icon="icon_yupeishuqianzi3" iconId="a_1" sealAttr="23" value="15.4" nextLevelItemId="40707"/>
+    <item level="2" name="2级坚韧印记" id="41002" quality="2" desc="最终减伤+2.4%" icon="icon_yupeishuqianlv1" iconId="a_1" sealAttr="18" value="2.4" nextLevelItemId="41003"/>
+    <item level="13" name="13级英勇印记" id="40113" quality="5" desc="强化侠侣+84.7%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="20" value="84.7" nextLevelItemId="40114"/>
+    <item level="11" name="11级致命印记" id="40311" quality="5" desc="强化爆伤+52.5%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="21" value="52.5" nextLevelItemId="40312"/>
+    <item level="8" name="8级穿透印记" id="40808" quality="4" desc="无视战斗属性+36.3%" icon="icon_yupeishuqiancheng2" iconId="a_1" sealAttr="27" value="36.3" nextLevelItemId="40809"/>
+    <item level="13" name="13级震慑印记" id="41213" quality="5" desc="弱化侠侣+84.7%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="19" value="84.7" nextLevelItemId="41214"/>
+    <item level="6" name="6级震慑印记" id="41206" quality="4" desc="弱化侠侣+15.4%" icon="icon_yupeishuqianzi3" iconId="a_1" sealAttr="19" value="15.4" nextLevelItemId="41207"/>
+    <item level="15" name="15级英勇印记" id="40115" quality="6" desc="强化侠侣+136.7%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="20" value="136.7" nextLevelItemId="40116"/>
+    <item level="6" name="6级坚韧印记" id="41006" quality="4" desc="最终减伤+9.3%" icon="icon_yupeishuqianzi1" iconId="a_1" sealAttr="18" value="9.3" nextLevelItemId="41007"/>
+    <item level="11" name="11级英勇印记" id="40111" quality="5" desc="强化侠侣+52.5%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="20" value="52.5" nextLevelItemId="40112"/>
+    <item level="17" name="17级英勇印记" id="40117" quality="6" desc="强化侠侣+220.5%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="20" value="220.5" nextLevelItemId="40118"/>
+    <item level="10" name="10级穿透印记" id="40810" quality="5" desc="无视战斗属性+57.7%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="27" value="57.7" nextLevelItemId="40811"/>
+    <item level="1" name="1级致命印记" id="40301" quality="2" desc="强化爆伤+2.3%" icon="icon_yupeishuqianlv4" iconId="a_1" sealAttr="21" value="2.3" nextLevelItemId="40302"/>
+    <item level="1" name="1级英勇印记" id="40101" quality="2" desc="强化侠侣+2.3%" icon="icon_yupeishuqianlv3" iconId="a_1" sealAttr="20" value="2.3" nextLevelItemId="40102"/>
+    <item level="16" name="16级致命印记" id="40316" quality="6" desc="强化爆伤+173.6%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="21" value="173.6" nextLevelItemId="40317"/>
+    <item level="2" name="2级重创印记" id="40202" quality="2" desc="最终增伤+2.4%" icon="icon_yupeishuqianlv2" iconId="a_1" sealAttr="17" value="2.4" nextLevelItemId="40203"/>
+    <item level="18" name="18级铁骨印记" id="41118" quality="6" desc="弱化爆伤+280%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="22" value="280" nextLevelItemId="41119"/>
+    <item level="19" name="19级抗争印记" id="40919" quality="6" desc="强化战斗抗性+495.9%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="26" value="495.9" nextLevelItemId="40920"/>
+    <item level="5" name="5级破军印记" id="40605" quality="4" desc="无视战斗抗性+12.1%" icon="icon_yupeishuqianzi2" iconId="a_1" sealAttr="28" value="12.1" nextLevelItemId="40606"/>
+    <item level="17" name="17级破军印记" id="40617" quality="6" desc="无视战斗抗性+220.5%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="28" value="220.5" nextLevelItemId="40618"/>
+    <item level="16" name="16级绝学印记" id="40516" quality="6" desc="强化绝学伤害+173.6%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="24" value="173.6" nextLevelItemId="40517"/>
+    <item level="13" name="13级致命印记" id="40313" quality="5" desc="强化爆伤+84.7%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="21" value="84.7" nextLevelItemId="40314"/>
+    <item level="8" name="8级坚韧印记" id="41008" quality="4" desc="最终减伤+15.1%" icon="icon_yupeishuqiancheng1" iconId="a_1" sealAttr="18" value="15.1" nextLevelItemId="41009"/>
+    <item level="18" name="18级致命印记" id="40318" quality="6" desc="强化爆伤+280%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="21" value="280" nextLevelItemId="40319"/>
+    <item level="6" name="6级重创印记" id="40206" quality="4" desc="最终增伤+9.3%" icon="icon_yupeishuqianzi2" iconId="a_1" sealAttr="17" value="9.3" nextLevelItemId="40207"/>
+    <item level="2" name="2级回元印记" id="40702" quality="2" desc="强化治疗+4.1%" icon="icon_yupeishuqianlv3" iconId="a_1" sealAttr="23" value="4.1" nextLevelItemId="40703"/>
+    <item level="16" name="16级抗争印记" id="40916" quality="6" desc="强化战斗抗性+242.1%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="26" value="242.1" nextLevelItemId="40917"/>
+    <item level="16" name="16级坚韧印记" id="41016" quality="6" desc="最终减伤+102.4%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="18" value="102.4" nextLevelItemId="41017"/>
+    <item level="16" name="16级穿透印记" id="40816" quality="6" desc="无视战斗属性+242.1%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="27" value="242.1" nextLevelItemId="40817"/>
+    <item level="20" name="20级纷争印记" id="40420" quality="6" desc="强化战斗属性+451.6%" icon="icon_yupeishuqiancai4" iconId="a_1" sealAttr="25" value="451.6" nextLevelItemId="0"/>
+    <item level="12" name="12级纷争印记" id="40412" quality="5" desc="强化战斗属性+66.7%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="25" value="66.7" nextLevelItemId="40413"/>
+    <item level="9" name="9级致命印记" id="40309" quality="4" desc="强化爆伤+32.5%" icon="icon_yupeishuqiancheng4" iconId="a_1" sealAttr="21" value="32.5" nextLevelItemId="40310"/>
+    <item level="4" name="4级坚韧印记" id="41004" quality="3" desc="最终减伤+5.2%" icon="icon_yupeishuqianlan1" iconId="a_1" sealAttr="18" value="5.2" nextLevelItemId="41005"/>
+    <item level="3" name="3级致命印记" id="40303" quality="3" desc="强化爆伤+6.3%" icon="icon_yupeishuqianlan4" iconId="a_1" sealAttr="21" value="6.3" nextLevelItemId="40304"/>
+    <item level="1" name="1级铁骨印记" id="41101" quality="2" desc="弱化爆伤+2.3%" icon="icon_yupeishuqianlv1" iconId="a_1" sealAttr="22" value="2.3" nextLevelItemId="41102"/>
+    <item level="12" name="12级穿透印记" id="40812" quality="5" desc="无视战斗属性+93.1%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="27" value="93.1" nextLevelItemId="40813"/>
+    <item level="18" name="18级重创印记" id="40218" quality="6" desc="最终增伤+165.1%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="17" value="165.1" nextLevelItemId="40219"/>
+    <item level="17" name="17级震慑印记" id="41217" quality="6" desc="弱化侠侣+220.5%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="19" value="220.5" nextLevelItemId="41218"/>
+    <item level="11" name="11级震慑印记" id="41211" quality="5" desc="弱化侠侣+52.5%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="19" value="52.5" nextLevelItemId="41212"/>
+    <item level="6" name="6级穿透印记" id="40806" quality="4" desc="无视战斗属性+22.3%" icon="icon_yupeishuqianzi2" iconId="a_1" sealAttr="27" value="22.3" nextLevelItemId="40807"/>
+    <item level="1" name="1级破军印记" id="40601" quality="2" desc="无视战斗抗性+2.3%" icon="icon_yupeishuqianlv2" iconId="a_1" sealAttr="28" value="2.3" nextLevelItemId="40602"/>
+    <item level="9" name="9级绝学印记" id="40509" quality="4" desc="强化绝学伤害+32.5%" icon="icon_yupeishuqiancheng4" iconId="a_1" sealAttr="24" value="32.5" nextLevelItemId="40510"/>
+    <item level="3" name="3级铁骨印记" id="41103" quality="3" desc="弱化爆伤+6.3%" icon="icon_yupeishuqianlan1" iconId="a_1" sealAttr="22" value="6.3" nextLevelItemId="41104"/>
+    <item level="20" name="20级坚韧印记" id="41020" quality="6" desc="最终减伤+266.3%" icon="icon_yupeishuqiancai1" iconId="a_1" sealAttr="18" value="266.3" nextLevelItemId="0"/>
+    <item level="6" name="6级绝学印记" id="40506" quality="4" desc="强化绝学伤害+15.4%" icon="icon_yupeishuqianzi4" iconId="a_1" sealAttr="24" value="15.4" nextLevelItemId="40507"/>
+    <item level="19" name="19级英勇印记" id="40119" quality="6" desc="强化侠侣+355.6%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="20" value="355.6" nextLevelItemId="40120"/>
+    <item level="1" name="1级坚韧印记" id="41001" quality="2" desc="最终减伤+1.3%" icon="icon_yupeishuqianlv1" iconId="a_1" sealAttr="18" value="1.3" nextLevelItemId="41002"/>
+    <item level="4" name="4级重创印记" id="40204" quality="3" desc="最终增伤+5.2%" icon="icon_yupeishuqianlan2" iconId="a_1" sealAttr="17" value="5.2" nextLevelItemId="40205"/>
+    <item level="4" name="4级英勇印记" id="40104" quality="3" desc="强化侠侣+8.9%" icon="icon_yupeishuqianlan3" iconId="a_1" sealAttr="20" value="8.9" nextLevelItemId="40105"/>
+    <item level="11" name="11级绝学印记" id="40511" quality="5" desc="强化绝学伤害+52.5%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="24" value="52.5" nextLevelItemId="40512"/>
+    <item level="15" name="15级纷争印记" id="40415" quality="6" desc="强化战斗属性+136.7%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="25" value="136.7" nextLevelItemId="40416"/>
+    <item level="14" name="14级穿透印记" id="40814" quality="5" desc="无视战斗属性+150.1%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="27" value="150.1" nextLevelItemId="40815"/>
+    <item level="15" name="15级重创印记" id="40215" quality="6" desc="最终增伤+80.6%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="17" value="80.6" nextLevelItemId="40216"/>
+    <item level="14" name="14级回元印记" id="40714" quality="5" desc="强化治疗+107.6%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="23" value="107.6" nextLevelItemId="40715"/>
+    <item level="18" name="18级坚韧印记" id="41018" quality="6" desc="最终减伤+165.1%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="18" value="165.1" nextLevelItemId="41019"/>
+    <item level="4" name="4级铁骨印记" id="41104" quality="3" desc="弱化爆伤+8.9%" icon="icon_yupeishuqianlan1" iconId="a_1" sealAttr="22" value="8.9" nextLevelItemId="41105"/>
+    <item level="4" name="4级回元印记" id="40704" quality="3" desc="强化治疗+8.9%" icon="icon_yupeishuqianlan3" iconId="a_1" sealAttr="23" value="8.9" nextLevelItemId="40705"/>
+    <item level="3" name="3级纷争印记" id="40403" quality="3" desc="强化战斗属性+6.3%" icon="icon_yupeishuqianlan4" iconId="a_1" sealAttr="25" value="6.3" nextLevelItemId="40404"/>
+    <item level="19" name="19级坚韧印记" id="41019" quality="6" desc="最终减伤+209.7%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="18" value="209.7" nextLevelItemId="41020"/>
+    <item level="12" name="12级破军印记" id="40612" quality="5" desc="无视战斗抗性+66.7%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="28" value="66.7" nextLevelItemId="40613"/>
+    <item level="20" name="20级破军印记" id="40620" quality="6" desc="无视战斗抗性+451.6%" icon="icon_yupeishuqiancai2" iconId="a_1" sealAttr="28" value="451.6" nextLevelItemId="0"/>
+    <item level="12" name="12级重创印记" id="40212" quality="5" desc="最终增伤+39.4%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="17" value="39.4" nextLevelItemId="40213"/>
+    <item level="4" name="4级破军印记" id="40604" quality="3" desc="无视战斗抗性+8.9%" icon="icon_yupeishuqianlan2" iconId="a_1" sealAttr="28" value="8.9" nextLevelItemId="40605"/>
+    <item level="1" name="1级抗争印记" id="40901" quality="2" desc="强化战斗抗性+3.2%" icon="icon_yupeishuqianlv1" iconId="a_1" sealAttr="26" value="3.2" nextLevelItemId="40902"/>
+    <item level="11" name="11级纷争印记" id="40411" quality="5" desc="强化战斗属性+52.5%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="25" value="52.5" nextLevelItemId="40412"/>
+    <item level="2" name="2级绝学印记" id="40502" quality="2" desc="强化绝学伤害+4.1%" icon="icon_yupeishuqianlv4" iconId="a_1" sealAttr="24" value="4.1" nextLevelItemId="40503"/>
+    <item level="9" name="9级英勇印记" id="40109" quality="4" desc="强化侠侣+32.5%" icon="icon_yupeishuqiancheng3" iconId="a_1" sealAttr="20" value="32.5" nextLevelItemId="40110"/>
+    <item level="16" name="16级纷争印记" id="40416" quality="6" desc="强化战斗属性+173.6%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="25" value="173.6" nextLevelItemId="40417"/>
+    <item level="1" name="1级回元印记" id="40701" quality="2" desc="强化治疗+2.3%" icon="icon_yupeishuqianlv3" iconId="a_1" sealAttr="23" value="2.3" nextLevelItemId="40702"/>
+    <item level="8" name="8级抗争印记" id="40908" quality="4" desc="强化战斗抗性+36.3%" icon="icon_yupeishuqiancheng1" iconId="a_1" sealAttr="26" value="36.3" nextLevelItemId="40909"/>
+    <item level="14" name="14级纷争印记" id="40414" quality="5" desc="强化战斗属性+107.6%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="25" value="107.6" nextLevelItemId="40415"/>
+    <item level="7" name="7级英勇印记" id="40107" quality="4" desc="强化侠侣+20.4%" icon="icon_yupeishuqiancheng3" iconId="a_1" sealAttr="20" value="20.4" nextLevelItemId="40108"/>
+    <item level="5" name="5级抗争印记" id="40905" quality="4" desc="强化战斗抗性+16.9%" icon="icon_yupeishuqianzi1" iconId="a_1" sealAttr="26" value="16.9" nextLevelItemId="40906"/>
+    <item level="19" name="19级绝学印记" id="40519" quality="6" desc="强化绝学伤害+355.6%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="24" value="355.6" nextLevelItemId="40520"/>
+    <item level="2" name="2级英勇印记" id="40102" quality="2" desc="强化侠侣+4.1%" icon="icon_yupeishuqianlv3" iconId="a_1" sealAttr="20" value="4.1" nextLevelItemId="40103"/>
+    <item level="14" name="14级抗争印记" id="40914" quality="5" desc="强化战斗抗性+150.1%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="26" value="150.1" nextLevelItemId="40915"/>
+    <item level="10" name="10级破军印记" id="40610" quality="5" desc="无视战斗抗性+41.3%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="28" value="41.3" nextLevelItemId="40611"/>
+    <item level="15" name="15级震慑印记" id="41215" quality="6" desc="弱化侠侣+136.7%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="19" value="136.7" nextLevelItemId="41216"/>
+    <item level="13" name="13级重创印记" id="40213" quality="5" desc="最终增伤+50%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="17" value="50" nextLevelItemId="40214"/>
+    <item level="8" name="8级破军印记" id="40608" quality="4" desc="无视战斗抗性+25.9%" icon="icon_yupeishuqiancheng2" iconId="a_1" sealAttr="28" value="25.9" nextLevelItemId="40609"/>
+    <item level="15" name="15级穿透印记" id="40815" quality="6" desc="无视战斗属性+190.6%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="27" value="190.6" nextLevelItemId="40816"/>
+    <item level="12" name="12级铁骨印记" id="41112" quality="5" desc="弱化爆伤+66.7%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="22" value="66.7" nextLevelItemId="41113"/>
+    <item level="14" name="14级破军印记" id="40614" quality="5" desc="无视战斗抗性+107.6%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="28" value="107.6" nextLevelItemId="40615"/>
+    <item level="5" name="5级铁骨印记" id="41105" quality="4" desc="弱化爆伤+12.1%" icon="icon_yupeishuqianzi1" iconId="a_1" sealAttr="22" value="12.1" nextLevelItemId="41106"/>
+    <item level="9" name="9级铁骨印记" id="41109" quality="4" desc="弱化爆伤+32.5%" icon="icon_yupeishuqiancheng1" iconId="a_1" sealAttr="22" value="32.5" nextLevelItemId="41110"/>
+    <item level="4" name="4级穿透印记" id="40804" quality="3" desc="无视战斗属性+12.5%" icon="icon_yupeishuqianlan2" iconId="a_1" sealAttr="27" value="12.5" nextLevelItemId="40805"/>
+    <item level="2" name="2级致命印记" id="40302" quality="2" desc="强化爆伤+4.1%" icon="icon_yupeishuqianlv4" iconId="a_1" sealAttr="21" value="4.1" nextLevelItemId="40303"/>
+    <item level="7" name="7级铁骨印记" id="41107" quality="4" desc="弱化爆伤+20.4%" icon="icon_yupeishuqiancheng1" iconId="a_1" sealAttr="22" value="20.4" nextLevelItemId="41108"/>
+    <item level="20" name="20级震慑印记" id="41220" quality="6" desc="弱化侠侣+451.6%" icon="icon_yupeishuqiancai3" iconId="a_1" sealAttr="19" value="451.6" nextLevelItemId="0"/>
+    <item level="19" name="19级震慑印记" id="41219" quality="6" desc="弱化侠侣+355.6%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="19" value="355.6" nextLevelItemId="41220"/>
+    <item level="14" name="14级震慑印记" id="41214" quality="5" desc="弱化侠侣+107.6%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="19" value="107.6" nextLevelItemId="41215"/>
+    <item level="8" name="8级震慑印记" id="41208" quality="4" desc="弱化侠侣+25.9%" icon="icon_yupeishuqiancheng3" iconId="a_1" sealAttr="19" value="25.9" nextLevelItemId="41209"/>
+    <item level="7" name="7级穿透印记" id="40807" quality="4" desc="无视战斗属性+28.6%" icon="icon_yupeishuqiancheng2" iconId="a_1" sealAttr="27" value="28.6" nextLevelItemId="40808"/>
+    <item level="16" name="16级铁骨印记" id="41116" quality="6" desc="弱化爆伤+173.6%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="22" value="173.6" nextLevelItemId="41117"/>
+    <item level="13" name="13级绝学印记" id="40513" quality="5" desc="强化绝学伤害+84.7%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="24" value="84.7" nextLevelItemId="40514"/>
+    <item level="3" name="3级抗争印记" id="40903" quality="3" desc="强化战斗抗性+8.8%" icon="icon_yupeishuqianlan1" iconId="a_1" sealAttr="26" value="8.8" nextLevelItemId="40904"/>
+    <item level="13" name="13级穿透印记" id="40813" quality="5" desc="无视战斗属性+118.2%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="27" value="118.2" nextLevelItemId="40814"/>
+    <item level="8" name="8级重创印记" id="40208" quality="4" desc="最终增伤+15.1%" icon="icon_yupeishuqiancheng2" iconId="a_1" sealAttr="17" value="15.1" nextLevelItemId="40209"/>
+    <item level="10" name="10级致命印记" id="40310" quality="5" desc="强化爆伤+41.3%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="21" value="41.3" nextLevelItemId="40311"/>
+    <item level="11" name="11级坚韧印记" id="41011" quality="5" desc="最终减伤+31%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="18" value="31" nextLevelItemId="41012"/>
+    <item level="18" name="18级破军印记" id="40618" quality="6" desc="无视战斗抗性+280%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="28" value="280" nextLevelItemId="40619"/>
+    <item level="12" name="12级坚韧印记" id="41012" quality="5" desc="最终减伤+39.4%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="18" value="39.4" nextLevelItemId="41013"/>
+    <item level="8" name="8级绝学印记" id="40508" quality="4" desc="强化绝学伤害+25.9%" icon="icon_yupeishuqiancheng4" iconId="a_1" sealAttr="24" value="25.9" nextLevelItemId="40509"/>
+    <item level="4" name="4级绝学印记" id="40504" quality="3" desc="强化绝学伤害+8.9%" icon="icon_yupeishuqianlan4" iconId="a_1" sealAttr="24" value="8.9" nextLevelItemId="40505"/>
+    <item level="13" name="13级抗争印记" id="40913" quality="5" desc="强化战斗抗性+118.2%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="26" value="118.2" nextLevelItemId="40914"/>
+    <item level="16" name="16级破军印记" id="40616" quality="6" desc="无视战斗抗性+173.6%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="28" value="173.6" nextLevelItemId="40617"/>
+    <item level="2" name="2级破军印记" id="40602" quality="2" desc="无视战斗抗性+4.1%" icon="icon_yupeishuqianlv2" iconId="a_1" sealAttr="28" value="4.1" nextLevelItemId="40603"/>
+    <item level="2" name="2级穿透印记" id="40802" quality="2" desc="无视战斗属性+5.8%" icon="icon_yupeishuqianlv2" iconId="a_1" sealAttr="27" value="5.8" nextLevelItemId="40803"/>
+    <item level="11" name="11级回元印记" id="40711" quality="5" desc="强化治疗+52.5%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="23" value="52.5" nextLevelItemId="40712"/>
+    <item level="20" name="20级绝学印记" id="40520" quality="6" desc="强化绝学伤害+451.6%" icon="icon_yupeishuqiancai4" iconId="a_1" sealAttr="24" value="451.6" nextLevelItemId="0"/>
+    <item level="11" name="11级抗争印记" id="40911" quality="5" desc="强化战斗抗性+73.3%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="26" value="73.3" nextLevelItemId="40912"/>
+    <item level="3" name="3级震慑印记" id="41203" quality="3" desc="弱化侠侣+6.3%" icon="icon_yupeishuqianlan3" iconId="a_1" sealAttr="19" value="6.3" nextLevelItemId="41204"/>
+    <item level="18" name="18级纷争印记" id="40418" quality="6" desc="强化战斗属性+280%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="25" value="280" nextLevelItemId="40419"/>
+    <item level="11" name="11级穿透印记" id="40811" quality="5" desc="无视战斗属性+73.3%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="27" value="73.3" nextLevelItemId="40812"/>
+    <item level="5" name="5级穿透印记" id="40805" quality="4" desc="无视战斗属性+16.9%" icon="icon_yupeishuqianzi2" iconId="a_1" sealAttr="27" value="16.9" nextLevelItemId="40806"/>
+    <item level="18" name="18级震慑印记" id="41218" quality="6" desc="弱化侠侣+280%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="19" value="280" nextLevelItemId="41219"/>
+    <item level="18" name="18级英勇印记" id="40118" quality="6" desc="强化侠侣+280%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="20" value="280" nextLevelItemId="40119"/>
+    <item level="7" name="7级重创印记" id="40207" quality="4" desc="最终增伤+11.9%" icon="icon_yupeishuqiancheng2" iconId="a_1" sealAttr="17" value="11.9" nextLevelItemId="40208"/>
+    <item level="4" name="4级纷争印记" id="40404" quality="3" desc="强化战斗属性+8.9%" icon="icon_yupeishuqianlan4" iconId="a_1" sealAttr="25" value="8.9" nextLevelItemId="40405"/>
+    <item level="10" name="10级重创印记" id="40210" quality="5" desc="最终增伤+24.4%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="17" value="24.4" nextLevelItemId="40211"/>
+    <item level="3" name="3级重创印记" id="40203" quality="3" desc="最终增伤+3.7%" icon="icon_yupeishuqianlan2" iconId="a_1" sealAttr="17" value="3.7" nextLevelItemId="40204"/>
+    <item level="7" name="7级震慑印记" id="41207" quality="4" desc="弱化侠侣+20.4%" icon="icon_yupeishuqiancheng3" iconId="a_1" sealAttr="19" value="20.4" nextLevelItemId="41208"/>
+    <item level="17" name="17级坚韧印记" id="41017" quality="6" desc="最终减伤+130%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="18" value="130" nextLevelItemId="41018"/>
+    <item level="15" name="15级回元印记" id="40715" quality="6" desc="强化治疗+136.7%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="23" value="136.7" nextLevelItemId="40716"/>
+    <item level="17" name="17级穿透印记" id="40817" quality="6" desc="无视战斗属性+307.5%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="27" value="307.5" nextLevelItemId="40818"/>
+    <item level="7" name="7级坚韧印记" id="41007" quality="4" desc="最终减伤+11.9%" icon="icon_yupeishuqiancheng1" iconId="a_1" sealAttr="18" value="11.9" nextLevelItemId="41008"/>
+    <item level="16" name="16级回元印记" id="40716" quality="6" desc="强化治疗+173.6%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="23" value="173.6" nextLevelItemId="40717"/>
+    <item level="8" name="8级致命印记" id="40308" quality="4" desc="强化爆伤+25.9%" icon="icon_yupeishuqiancheng4" iconId="a_1" sealAttr="21" value="25.9" nextLevelItemId="40309"/>
+    <item level="9" name="9级破军印记" id="40609" quality="4" desc="无视战斗抗性+32.5%" icon="icon_yupeishuqiancheng2" iconId="a_1" sealAttr="28" value="32.5" nextLevelItemId="40610"/>
+    <item level="10" name="10级回元印记" id="40710" quality="5" desc="强化治疗+41.3%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="23" value="41.3" nextLevelItemId="40711"/>
+    <item level="14" name="14级绝学印记" id="40514" quality="5" desc="强化绝学伤害+107.6%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="24" value="107.6" nextLevelItemId="40515"/>
+    <item level="14" name="14级坚韧印记" id="41014" quality="5" desc="最终减伤+63.5%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="18" value="63.5" nextLevelItemId="41015"/>
+    <item level="2" name="2级铁骨印记" id="41102" quality="2" desc="弱化爆伤+4.1%" icon="icon_yupeishuqianlv1" iconId="a_1" sealAttr="22" value="4.1" nextLevelItemId="41103"/>
+    <item level="12" name="12级抗争印记" id="40912" quality="5" desc="强化战斗抗性+93.1%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="26" value="93.1" nextLevelItemId="40913"/>
+    <item level="2" name="2级纷争印记" id="40402" quality="2" desc="强化战斗属性+4.1%" icon="icon_yupeishuqianlv4" iconId="a_1" sealAttr="25" value="4.1" nextLevelItemId="40403"/>
+    <item level="5" name="5级重创印记" id="40205" quality="4" desc="最终增伤+7.1%" icon="icon_yupeishuqianzi2" iconId="a_1" sealAttr="17" value="7.1" nextLevelItemId="40206"/>
+    <item level="14" name="14级铁骨印记" id="41114" quality="5" desc="弱化爆伤+107.6%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="22" value="107.6" nextLevelItemId="41115"/>
+    <item level="6" name="6级破军印记" id="40606" quality="4" desc="无视战斗抗性+15.4%" icon="icon_yupeishuqianzi2" iconId="a_1" sealAttr="28" value="15.4" nextLevelItemId="40607"/>
+    <item level="5" name="5级坚韧印记" id="41005" quality="4" desc="最终减伤+7.1%" icon="icon_yupeishuqianzi1" iconId="a_1" sealAttr="18" value="7.1" nextLevelItemId="41006"/>
+    <item level="3" name="3级坚韧印记" id="41003" quality="3" desc="最终减伤+3.7%" icon="icon_yupeishuqianlan1" iconId="a_1" sealAttr="18" value="3.7" nextLevelItemId="41004"/>
+    <item level="20" name="20级铁骨印记" id="41120" quality="6" desc="弱化爆伤+451.6%" icon="icon_yupeishuqiancai1" iconId="a_1" sealAttr="22" value="451.6" nextLevelItemId="0"/>
+    <item level="6" name="6级纷争印记" id="40406" quality="4" desc="强化战斗属性+15.4%" icon="icon_yupeishuqianzi4" iconId="a_1" sealAttr="25" value="15.4" nextLevelItemId="40407"/>
+    <item level="9" name="9级重创印记" id="40209" quality="4" desc="最终增伤+19.2%" icon="icon_yupeishuqiancheng2" iconId="a_1" sealAttr="17" value="19.2" nextLevelItemId="40210"/>
+    <item level="1" name="1级穿透印记" id="40801" quality="2" desc="无视战斗属性+3.2%" icon="icon_yupeishuqianlv2" iconId="a_1" sealAttr="27" value="3.2" nextLevelItemId="40802"/>
+    <item level="14" name="14级重创印记" id="40214" quality="5" desc="最终增伤+63.5%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="17" value="63.5" nextLevelItemId="40215"/>
+    <item level="12" name="12级震慑印记" id="41212" quality="5" desc="弱化侠侣+66.7%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="19" value="66.7" nextLevelItemId="41213"/>
+    <item level="14" name="14级致命印记" id="40314" quality="5" desc="强化爆伤+107.6%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="21" value="107.6" nextLevelItemId="40315"/>
+    <item level="5" name="5级绝学印记" id="40505" quality="4" desc="强化绝学伤害+12.1%" icon="icon_yupeishuqianzi4" iconId="a_1" sealAttr="24" value="12.1" nextLevelItemId="40506"/>
+    <item level="10" name="10级铁骨印记" id="41110" quality="5" desc="弱化爆伤+41.3%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="22" value="41.3" nextLevelItemId="41111"/>
+    <item level="8" name="8级纷争印记" id="40408" quality="4" desc="强化战斗属性+25.9%" icon="icon_yupeishuqiancheng4" iconId="a_1" sealAttr="25" value="25.9" nextLevelItemId="40409"/>
+    <item level="5" name="5级震慑印记" id="41205" quality="4" desc="弱化侠侣+12.1%" icon="icon_yupeishuqianzi3" iconId="a_1" sealAttr="19" value="12.1" nextLevelItemId="41206"/>
+    <item level="9" name="9级坚韧印记" id="41009" quality="4" desc="最终减伤+19.2%" icon="icon_yupeishuqiancheng1" iconId="a_1" sealAttr="18" value="19.2" nextLevelItemId="41010"/>
+    <item level="19" name="19级穿透印记" id="40819" quality="6" desc="无视战斗属性+495.9%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="27" value="495.9" nextLevelItemId="40820"/>
+    <item level="13" name="13级回元印记" id="40713" quality="5" desc="强化治疗+84.7%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="23" value="84.7" nextLevelItemId="40714"/>
+    <item level="10" name="10级英勇印记" id="40110" quality="5" desc="强化侠侣+41.3%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="20" value="41.3" nextLevelItemId="40111"/>
+    <item level="5" name="5级纷争印记" id="40405" quality="4" desc="强化战斗属性+12.1%" icon="icon_yupeishuqianzi4" iconId="a_1" sealAttr="25" value="12.1" nextLevelItemId="40406"/>
+    <item level="7" name="7级回元印记" id="40707" quality="4" desc="强化治疗+20.4%" icon="icon_yupeishuqiancheng3" iconId="a_1" sealAttr="23" value="20.4" nextLevelItemId="40708"/>
+    <item level="1" name="1级震慑印记" id="41201" quality="2" desc="弱化侠侣+2.3%" icon="icon_yupeishuqianlv3" iconId="a_1" sealAttr="19" value="2.3" nextLevelItemId="41202"/>
+    <item level="17" name="17级致命印记" id="40317" quality="6" desc="强化爆伤+220.5%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="21" value="220.5" nextLevelItemId="40318"/>
+    <item level="5" name="5级英勇印记" id="40105" quality="4" desc="强化侠侣+12.1%" icon="icon_yupeishuqianzi3" iconId="a_1" sealAttr="20" value="12.1" nextLevelItemId="40106"/>
+    <item level="19" name="19级破军印记" id="40619" quality="6" desc="无视战斗抗性+355.6%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="28" value="355.6" nextLevelItemId="40620"/>
+    <item level="19" name="19级致命印记" id="40319" quality="6" desc="强化爆伤+355.6%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="21" value="355.6" nextLevelItemId="40320"/>
+    <item level="10" name="10级绝学印记" id="40510" quality="5" desc="强化绝学伤害+41.3%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="24" value="41.3" nextLevelItemId="40511"/>
+    <item level="9" name="9级抗争印记" id="40909" quality="4" desc="强化战斗抗性+45.4%" icon="icon_yupeishuqiancheng1" iconId="a_1" sealAttr="26" value="45.4" nextLevelItemId="40910"/>
+    <item level="8" name="8级铁骨印记" id="41108" quality="4" desc="弱化爆伤+25.9%" icon="icon_yupeishuqiancheng1" iconId="a_1" sealAttr="22" value="25.9" nextLevelItemId="41109"/>
+    <item level="18" name="18级抗争印记" id="40918" quality="6" desc="强化战斗抗性+390.5%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="26" value="390.5" nextLevelItemId="40919"/>
+    <item level="16" name="16级重创印记" id="40216" quality="6" desc="最终增伤+102.4%" icon="icon_yupeishuqianhong2" iconId="a_1" sealAttr="17" value="102.4" nextLevelItemId="40217"/>
+    <item level="18" name="18级回元印记" id="40718" quality="6" desc="强化治疗+280%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="23" value="280" nextLevelItemId="40719"/>
+    <item level="16" name="16级震慑印记" id="41216" quality="6" desc="弱化侠侣+173.6%" icon="icon_yupeishuqianhong3" iconId="a_1" sealAttr="19" value="173.6" nextLevelItemId="41217"/>
+    <item level="17" name="17级抗争印记" id="40917" quality="6" desc="强化战斗抗性+307.5%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="26" value="307.5" nextLevelItemId="40918"/>
+    <item level="6" name="6级致命印记" id="40306" quality="4" desc="强化爆伤+15.4%" icon="icon_yupeishuqianzi4" iconId="a_1" sealAttr="21" value="15.4" nextLevelItemId="40307"/>
+    <item level="1" name="1级纷争印记" id="40401" quality="2" desc="强化战斗属性+2.3%" icon="icon_yupeishuqianlv4" iconId="a_1" sealAttr="25" value="2.3" nextLevelItemId="40402"/>
+    <item level="7" name="7级绝学印记" id="40507" quality="4" desc="强化绝学伤害+20.4%" icon="icon_yupeishuqiancheng4" iconId="a_1" sealAttr="24" value="20.4" nextLevelItemId="40508"/>
+    <item level="9" name="9级回元印记" id="40709" quality="4" desc="强化治疗+32.5%" icon="icon_yupeishuqiancheng3" iconId="a_1" sealAttr="23" value="32.5" nextLevelItemId="40710"/>
+    <item level="17" name="17级绝学印记" id="40517" quality="6" desc="强化绝学伤害+220.5%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="24" value="220.5" nextLevelItemId="40518"/>
+    <item level="15" name="15级抗争印记" id="40915" quality="6" desc="强化战斗抗性+190.6%" icon="icon_yupeishuqianhong1" iconId="a_1" sealAttr="26" value="190.6" nextLevelItemId="40916"/>
+    <item level="7" name="7级抗争印记" id="40907" quality="4" desc="强化战斗抗性+28.6%" icon="icon_yupeishuqiancheng1" iconId="a_1" sealAttr="26" value="28.6" nextLevelItemId="40908"/>
+    <item level="13" name="13级纷争印记" id="40413" quality="5" desc="强化战斗属性+84.7%" icon="icon_yupeishuqianhong4" iconId="a_1" sealAttr="25" value="84.7" nextLevelItemId="40414"/>
+  </seal>
+  <catalog>
+    <item id="1" name="点破乾坤" theurgy="30013,30017,30032" attr="30" value="2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34"/>
+    <item id="2" name="风月无边" theurgy="30051,30055,30065" attr="20" value="3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51"/>
+    <item id="3" name="邪影摧云" theurgy="30034,30036,30046" attr="6" value="3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51"/>
+    <item id="4" name="日火枫绵" theurgy="30027,30047,30070" attr="16" value="3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51"/>
+    <item id="5" name="龙筋潜甲" theurgy="30018,30071,30008,30066" attr="18" value="2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34"/>
+    <item id="6" name="卸掌游龙" theurgy="30037,30014,30052,30058" attr="14" value="2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34"/>
+    <item id="7" name="飞雀拈花" theurgy="30028,30029,30020" attr="29" value="4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,64,68"/>
+    <item id="8" name="山月星影" theurgy="30033,30067,30039" attr="5" value="3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51"/>
+    <item id="9" name="神功乐势" theurgy="30072,30009,30030,30040" attr="7" value="3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51"/>
+    <item id="10" name="残剑冥寒" theurgy="30048,30001,30041" attr="26" value="3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51"/>
+    <item id="11" name="剑鸿戏微" theurgy="30074,30053,30042,30059" attr="11" value="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85"/>
+    <item id="12" name="金虚连衫" theurgy="30075,30010,30021,30060" attr="9" value="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85"/>
+    <item id="13" name="踏剑指灵" theurgy="30003,30002,30061" attr="17" value="3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51"/>
+    <item id="14" name="星云决霁" theurgy="30056,30049,30022,30043" attr="19" value="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85"/>
+    <item id="15" name="剑火风蚀" theurgy="30015,30005,30004,30023" attr="21" value="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85"/>
+    <item id="16" name="凤游蝠逍" theurgy="30011,30024,30044,30062" attr="23" value="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85"/>
+    <item id="17" name="金乾万叠" theurgy="30068,30006,30025,30063" attr="18" value="3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51"/>
+    <item id="18" name="落石千伤" theurgy="30054,30050,30069,30026" attr="19" value="4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,64,68"/>
+    <item id="19" name="灭意燕步" theurgy="30076,30035,30031,30007" attr="8" value="3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51"/>
+    <item id="20" name="混元跌影" theurgy="30019,30038,30057,30016" attr="30" value="2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34"/>
+    <item id="21" name="凤啼星燃" theurgy="30073,30012,30045,30064" attr="10" value="5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85"/>
+  </catalog>
+  <catalogLevel>
+    <item level="1" phase="1"/>
+    <item level="2" phase="2"/>
+    <item level="3" phase="3"/>
+    <item level="4" phase="4"/>
+    <item level="5" phase="5"/>
+    <item level="6" phase="6"/>
+    <item level="7" phase="7"/>
+    <item level="8" phase="8"/>
+    <item level="9" phase="9"/>
+    <item level="10" phase="10"/>
+    <item level="11" phase="12"/>
+    <item level="12" phase="14"/>
+    <item level="13" phase="16"/>
+    <item level="14" phase="18"/>
+    <item level="15" phase="20"/>
+    <item level="16" phase="22"/>
+    <item level="17" phase="25"/>
+  </catalogLevel>
+  <attr>
+    <item id="1" name="生命"/>
+    <item id="2" name="攻击"/>
+    <item id="3" name="防御"/>
+    <item id="4" name="敏捷"/>
+    <item id="5" name="连击"/>
+    <item id="6" name="反击"/>
+    <item id="7" name="暴击"/>
+    <item id="8" name="闪避"/>
+    <item id="9" name="吸血"/>
+    <item id="10" name="击晕"/>
+    <item id="11" name="抗连击"/>
+    <item id="12" name="抗反击"/>
+    <item id="13" name="抗暴击"/>
+    <item id="14" name="抗闪避"/>
+    <item id="15" name="抗吸血"/>
+    <item id="16" name="抗击晕"/>
+    <item id="17" name="最终增伤"/>
+    <item id="18" name="最终减伤"/>
+    <item id="19" name="强化侠侣"/>
+    <item id="20" name="弱化侠侣"/>
+    <item id="21" name="强化爆伤"/>
+    <item id="22" name="弱化爆伤"/>
+    <item id="23" name="强化治疗"/>
+    <item id="24" name="强化道法伤害"/>
+    <item id="25" name="强化战斗属性"/>
+    <item id="26" name="强化战斗抗性"/>
+    <item id="27" name="无视战斗属性"/>
+    <item id="28" name="无视战斗抗性"/>
+    <item id="29" name="弱化治疗"/>
+    <item id="30" name="生命百分比"/>
+    <item id="31" name="攻击百分比"/>
+    <item id="32" name="防御百分比"/>
+    <item id="33" name="敏捷百分比"/>
+  </attr>
+  <specialGuarantees>
+    <item id="1" time="5" bonuses="411001"/>
+    <item id="2" time="10" bonuses="411001"/>
+    <item id="3" time="15" bonuses="411002"/>
+    <item id="4" time="20" bonuses="411002"/>
+    <item id="5" time="25" bonuses="411003"/>
+    <item id="6" time="30" bonuses="411003"/>
+    <item id="7" time="35" bonuses="411004"/>
+    <item id="8" time="40" bonuses="411004"/>
+    <item id="9" time="45" bonuses="411005"/>
+    <item id="10" time="50" bonuses="411006"/>
+  </specialGuarantees>
+  <specialProbability>
+    <item id="1" bonusesId="132004" probability="10"/>
+    <item id="2" bonusesId="132002" probability="40"/>
+    <item id="3" bonusesId="132003" probability="25"/>
+    <item id="4" bonusesId="132002" probability="40"/>
+    <item id="5" bonusesId="132003" probability="25"/>
+    <item id="6" bonusesId="132002" probability="40"/>
+    <item id="7" bonusesId="132003" probability="25"/>
+    <item id="8" bonusesId="132002" probability="40"/>
+    <item id="9" bonusesId="132003" probability="25"/>
+    <item id="10" bonusesId="132002" probability="40"/>
+  </specialProbability>
+</root>

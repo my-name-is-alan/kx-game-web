@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="153,150" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n8_81of" name="n8" src="81of4a" fileName="res1/icon_xialvjieban.png" xy="19,0"/>
+    <component id="n9_81of" name="group_gold" src="81ofhd" fileName="group_add1.xml" pkg="27utqbiz" xy="0,110"/>
+    <text id="n7_i05h" name="label_q" xy="60,115" size="46,34" fontSize="24" color="#f6de9c" vAlign="middle" text="300"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

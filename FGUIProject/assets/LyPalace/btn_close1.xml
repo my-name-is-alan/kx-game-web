@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="320,80" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n5_vvmq" name="n5" src="isiv2p" fileName="ui/frame_back.png" pkg="27utqbiz" xy="0,-18">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </image>
+    <image id="n6_vvmq" name="n6" src="isiv2q" fileName="ui/btn_back.png" pkg="27utqbiz" xy="44,0">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </image>
+    <loader id="n10_7lbm" name="loader_name" xy="131,18" size="50,50" url="ui://yblwt9kzq60918" vAlign="middle" clearOnPublish="true">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

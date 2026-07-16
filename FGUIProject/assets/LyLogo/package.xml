@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="s1gej0dq">
+  <resources>
+    <component id="ovnt0" name="LyLogo.xml" path="/" exported="true"/>
+    <image id="jb8r1" name="logo_addiction.png" path="/res/"/>
+    <image id="jloi9" name="frame_progress bar_all.png" path="/res/" scale="9grid" scale9grid="123,8,3,7"/>
+    <image id="jloia" name="frame_progress bar_now.png" path="/res/"/>
+    <component id="jloib" name="bar_progress.xml" path="/"/>
+    <image id="fd6xc" name="bg_denglu.png" path="/res/" exported="true"/>
+    <component id="sx1cf" name="btn_clear.xml" path="/"/>
+    <image id="sx1cg" name="btn_qinglihuancun.png" path="/res/"/>
+    <image id="t09vh" name="word_suoyouxiaofeifanhuan80.png" path="/res/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

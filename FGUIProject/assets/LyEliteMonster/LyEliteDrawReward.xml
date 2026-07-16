@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n1_cgkl" name="n1" src="cgkl3b" fileName="res/main/bg_draw cards show.png" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <component id="n15_cgkl" name="btn_one" src="cgkl3q" fileName="btn_normal_color2.xml" pkg="qnktu1il" xy="421,1156" size="250,70" group="n18_cgkl"/>
+    <loader id="n17_cgkl" name="loader_bg1" xy="514,1123" size="80,31" group="n18_cgkl" url="ui://xcpqvzp3cgkl3f" fill="scaleFree"/>
+    <group id="n18_cgkl" name="group_one" xy="421,1123" size="250,103" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <loader id="n12_cgkl" name="loader_bg2" xy="513,1123" size="80,31" group="n19_cgkl" url="ui://xcpqvzp3cgkl3g" fill="scaleFree"/>
+    <component id="n16_cgkl" name="btn_five" src="cgkl3r" fileName="btn_normal_color3.xml" pkg="qnktu1il" xy="420,1155" size="250,70" group="n19_cgkl"/>
+    <group id="n19_cgkl" name="group_five" xy="420,1123" size="250,102" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <loader id="n10_cgkl" name="icon" xy="486,1116" size="43,42" url="ui://27utqbizi5tz7j" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n11_cgkl" name="label_number" xy="517,1125" size="76,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" text="322/5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <list id="n13_cgkl" name="list_all" xy="-44,35" size="833,966" layout="row" colGap="-104" defaultItem="ui://xcpqvzp3cgkl3p" align="center" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n14_cgkl" name="btn_back" src="cgklm7" fileName="btn_normal_color.xml" pkg="qnktu1il" xy="101,1154" size="250,70">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader3D id="n20_l1tk" name="loade3d_light" xy="37,425" size="1,1" scale="-1,1" rotation="-10" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

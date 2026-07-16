@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="kl5mxoqp">
+  <resources>
+    <folder id="/funds/" name="funds" path="/" atlas="10"/>
+    <folder id="/giftdaily/" name="giftdaily" path="/" atlas="9"/>
+    <folder id="/leichong/" name="leichong" path="/" atlas="8"/>
+    <folder id="/leitotal/" name="leitotal" path="/" atlas="5"/>
+    <folder id="/monthcard/" name="monthcard" path="/" atlas="7"/>
+    <folder id="/recharge/" name="recharge" path="/" atlas="6"/>
+    <component id="sril0" name="LyPayExquisite.xml" path="/" exported="true"/>
+    <image id="sril1" name="frame_tab1_seleceted.png" path="/res/"/>
+    <image id="sril2" name="frame_tab1_unseleceted.png" path="/res/"/>
+    <image id="sril3" name="frame_tab_back.png" path="/res/"/>
+    <image id="sril4" name="frame_tab_seleceted.png" path="/res/"/>
+    <image id="sril5" name="frame_tab_unseleceted.png" path="/res/"/>
+    <component id="sril6" name="btn_payclose.xml" path="/res/"/>
+    <image id="sril7" name="frame_tab.png" path="/res/"/>
+    <component id="sril8" name="btn_paytab.xml" path="/res/"/>
+    <image id="sril9" name="bg_linglongge new.png" path="/res/" atlas="alone_npot"/>
+    <component id="srila" name="group_paybottom.xml" path="/res/"/>
+    <component id="srilb" name="group_page_giftdaily.xml" path="/" exported="true"/>
+    <image id="srilc" name="frame_economy.png" path="/giftdaily/"/>
+    <image id="srild" name="frame_slogan.png" path="/giftdaily/"/>
+    <image id="srile" name="pic_daijinquan_banner.png" path="/recharge/"/>
+    <image id="srilf" name="word_meiritehui.png" path="/giftdaily/"/>
+    <component id="srilg" name="group_value.xml" path="/"/>
+    <component id="srilh" name="group_leichong.xml" path="/"/>
+    <image id="srili" name="frame_progress bar now.png" path="/res/" scale="9grid" scale9grid="4,8,4,4"/>
+    <image id="srilj" name="frame_progress bar.png" path="/res/" scale9grid="12,8,8,4"/>
+    <component id="srilk" name="group_dailyitem.xml" path="/giftdaily/"/>
+    <image id="srill" name="frame_libao title.png" path="/giftdaily/"/>
+    <image id="srilm" name="frame_libao.png" path="/giftdaily/"/>
+    <image id="srilo" name="icon_quota.png" path="/giftdaily/"/>
+    <image id="srilp" name="btn_receive.png" path="/res/"/>
+    <component id="srilq" name="btn_paybuy.xml" path="/res/"/>
+    <image id="srilr" name="icon_tab2_meirileichong.png" path="/giftdaily/"/>
+    <image id="srils" name="icon_tab2_rank.png" path="/giftdaily/"/>
+    <component id="srilt" name="btn_rank.xml" path="/giftdaily/"/>
+    <component id="srilu" name="btn_leichong.xml" path="/giftdaily/"/>
+    <component id="srilv" name="group_page_recharge.xml" path="/" exported="true"/>
+    <image id="srilw" name="word_daijinquan.png" path="/recharge/"/>
+    <image id="srilx" name="word_yubichongzhi.png" path="/recharge/"/>
+    <image id="srily" name="frame_chongzhi.png" path="/recharge/"/>
+    <component id="srilz" name="group_rechargeitem.xml" path="/recharge/"/>
+    <image id="sril11" name="pic_daijinquan_tab.png" path="/recharge/"/>
+    <image id="sril12" name="pic_yubi_tab.png" path="/recharge/"/>
+    <image id="sril13" name="word_daijinquan_seleceted.png" path="/recharge/"/>
+    <image id="sril14" name="word_daijinquan_unseleceted.png" path="/recharge/"/>
+    <image id="sril15" name="word_yubi_seleceted.png" path="/recharge/"/>
+    <image id="sril16" name="word_yubi_unseleceted.png" path="/recharge/"/>
+    <component id="sril17" name="btn_rectab1.xml" path="/recharge/"/>
+    <component id="sril18" name="btn_rectab2.xml" path="/recharge/"/>
+    <component id="e01h1a" name="group_paymonthcard0.xml" path="/monthcard/"/>
+    <component id="e01h1b" name="group_paymonthcard1.xml" path="/monthcard/"/>
+    <component id="e01h1d" name="btn_paycardframe.xml" path="/monthcard/"/>
+    <image id="e01h1e" name="fex_choose.png" path="/monthcard/" scale="9grid" scale9grid="100,140,191,12"/>
+    <image id="e01h1f" name="icon_monthly card.png" path="/monthcard/"/>
+    <component id="e01h1l" name="btn_take1.xml" path="/monthcard/"/>
+    <component id="e01h1n" name="btn_paycard.xml" path="/monthcard/"/>
+    <component id="e01h1p" name="group_paymonthcard2.xml" path="/monthcard/"/>
+    <image id="e01h1r" name="icon_lifelong card.png" path="/monthcard/"/>
+    <component id="e01h1v" name="btn_paycard2.xml" path="/monthcard/"/>
+    <component id="e01h1z" name="group_page_monthcard.xml" path="/" exported="true"/>
+    <component id="8inj20" name="group_paymonthcard0a.xml" path="/monthcard/"/>
+    <image id="8inj21" name="pic_lianhezhouka_tab.png" path="/monthcard/"/>
+    <image id="8inj22" name="pic_yueka_tab.png" path="/monthcard/"/>
+    <image id="8inj23" name="word_lianhezhouka_seleceted.png" path="/monthcard/"/>
+    <image id="8inj24" name="word_lianhezhouka_unseleceted.png" path="/monthcard/"/>
+    <image id="8inj25" name="word_yueka_seleceted.png" path="/monthcard/"/>
+    <image id="8inj26" name="word_yueka_unseleceted.png" path="/monthcard/"/>
+    <image id="8inj27" name="frame_yueka.png" path="/monthcard/"/>
+    <image id="8inj28" name="frame_zhongshenka.png" path="/monthcard/"/>
+    <image id="8inj29" name="word_yueka.png" path="/monthcard/"/>
+    <image id="8inj2a" name="word_zhongshenka.png" path="/monthcard/"/>
+    <component id="8inj2b" name="btn_cardtab1.xml" path="/monthcard/"/>
+    <component id="8inj2c" name="btn_cardtab2.xml" path="/monthcard/"/>
+    <image id="8inj2d" name="btn_guangong.png" path="/monthcard/"/>
+    <image id="8inj2e" name="btn_yueka.png" path="/monthcard/"/>
+    <image id="yb742f" name="pic_jiliutajijin_banner.png" path="/funds/"/>
+    <image id="yb742g" name="pic_jiliutajijin_tab.png" path="/funds/"/>
+    <image id="yb742h" name="pic_maoxianjijin_banner.png" path="/funds/"/>
+    <image id="yb742i" name="pic_maoxianjijin_tab.png" path="/funds/"/>
+    <image id="yb742j" name="pic_xiuweijijin_banner.png" path="/funds/"/>
+    <image id="yb742k" name="pic_xiuweijijin_tab.png" path="/funds/"/>
+    <image id="yb742l" name="pic_yutangjijin_banner.png" path="/funds/"/>
+    <image id="yb742m" name="pic_yutangjijin_tab.png" path="/funds/"/>
+    <image id="yb742n" name="pic_main banner.png" path="/giftdaily/"/>
+    <image id="yb742o" name="pic_yubi_banner.png" path="/recharge/"/>
+    <component id="avlw2p" name="group_page_funds.xml" path="/" exported="true"/>
+    <image id="omjr2q" name="btn_zhongshenka.png" path="/monthcard/"/>
+    <image id="omjr2r" name="frame_give.png" path="/recharge/"/>
+    <image id="omjr2s" name="frame_worship.png" path="/recharge/"/>
+    <image id="qoto2t" name="frame_progress point.png" path="/funds/"/>
+    <image id="qoto2u" name="icon_check.png" path="/funds/"/>
+    <image id="qoto2v" name="pic_40times.png" path="/funds/"/>
+    <image id="qoto2w" name="word_jiliutajijin.png" path="/funds/"/>
+    <image id="qoto2x" name="word_jiliutajijin_seleceted.png" path="/funds/"/>
+    <image id="qoto2y" name="word_jiliutajijin_unseleceted.png" path="/funds/"/>
+    <image id="qoto2z" name="word_maoxianjijin.png" path="/funds/"/>
+    <image id="qoto30" name="word_maoxianjijin_seleceted.png" path="/funds/"/>
+    <image id="qoto31" name="word_maoxianjijin_unseleceted.png" path="/funds/"/>
+    <image id="qoto32" name="word_xiuweijijin.png" path="/funds/"/>
+    <image id="qoto33" name="word_xiuweijijin_seleceted.png" path="/funds/"/>
+    <image id="qoto34" name="word_xiuweijijin_unseleceted.png" path="/funds/"/>
+    <image id="qoto35" name="word_yutangjijin.png" path="/funds/"/>
+    <image id="qoto36" name="word_yutangjijin_seleceted.png" path="/funds/"/>
+    <image id="qoto37" name="word_yutangjijin_unseleceted.png" path="/funds/"/>
+    <image id="qoto38" name="btn_jijin.png" path="/funds/"/>
+    <image id="qoto39" name="frame_chaozhilibao.png" path="/funds/"/>
+    <image id="qoto3a" name="frame_jichufuli title1.png" path="/funds/"/>
+    <image id="qoto3b" name="frame_jichufuli.png" path="/funds/"/>
+    <image id="qoto3c" name="frame_jijin banner.png" path="/funds/"/>
+    <image id="qoto3d" name="frame_jijin_progress bar now.png" path="/funds/" scale="9grid" scale9grid="3,3,6,6"/>
+    <image id="qoto3e" name="frame_jijin_progress bar.png" path="/funds/" scale="9grid" scale9grid="3,3,6,6"/>
+    <component id="qoto3h" name="btn_preview.xml" path="/funds/"/>
+    <component id="qoto3i" name="btn_payfunds.xml" path="/funds/"/>
+    <component id="qoto3j" name="group_itemlist.xml" path="/funds/"/>
+    <component id="qoto3p" name="group_item.xml" path="/funds/"/>
+    <component id="qoto3x" name="btn_fundtab1.xml" path="/funds/"/>
+    <component id="qoto3y" name="btn_fundtab2.xml" path="/funds/"/>
+    <component id="qoto3z" name="btn_fundtab3.xml" path="/funds/"/>
+    <component id="qoto40" name="btn_fundtab4.xml" path="/funds/"/>
+    <image id="qz7b41" name="frame_chaozhilibao-title1.png" path="/funds/"/>
+    <component id="tn2s42" name="LyPayExquisiteLeiTotal.xml" path="/" exported="true"/>
+    <component id="tn2s43" name="group_payallentry.xml" path="/leichong/"/>
+    <component id="tn2s48" name="group_accumulate.xml" path="/leichong/"/>
+    <component id="tn2s49" name="bar_leichong.xml" path="/res/"/>
+    <image id="tn2s4c" name="frame_jinxingzhong.png" path="/leichong/"/>
+    <image id="tn2s4g" name="word_leitianchongzhi.png" path="/leichong/"/>
+    <image id="tn2s4h" name="btn_go.png" path="/res/"/>
+    <image id="tn2s4i" name="frame_meirileichong.png" path="/leichong/"/>
+    <image id="tn2s4j" name="frame_meirileichong1.png" path="/leichong/"/>
+    <component id="tn2s4k" name="btn_goto.xml" path="/res/"/>
+    <image id="tn2s4n" name="frame_leichong_progress bar now.png" path="/res/" scale="9grid" scale9grid="4,4,12,12"/>
+    <component id="jru54p" name="group_page_leitotal.xml" path="/" exported="true"/>
+    <image id="jru54q" name="dec_leichong little title.png" path="/leitotal/"/>
+    <image id="jru54r" name="frame_leichong.png" path="/leitotal/"/>
+    <image id="jru54s" name="word_leijichongzhi.png" path="/leitotal/"/>
+    <component id="jru54t" name="group_leiitem.xml" path="/leitotal/"/>
+    <component id="h64q4u" name="bar_leichong2.xml" path="/res/"/>
+    <image id="mf394v" name="coupon1.png" path="/recharge/" exported="true"/>
+    <image id="mf394w" name="coupon2.png" path="/recharge/" exported="true"/>
+    <image id="mf394x" name="coupon3.png" path="/recharge/" exported="true"/>
+    <image id="mf394y" name="coupon4.png" path="/recharge/" exported="true"/>
+    <image id="mf394z" name="coupon5.png" path="/recharge/" exported="true"/>
+    <image id="mf3950" name="coupon6.png" path="/recharge/" exported="true"/>
+    <image id="mf3951" name="coupon7.png" path="/recharge/" exported="true"/>
+    <image id="mf3952" name="coupon8.png" path="/recharge/" exported="true"/>
+    <image id="mf3953" name="pisces jade1.png" path="/recharge/" exported="true"/>
+    <image id="mf3954" name="pisces jade2.png" path="/recharge/" exported="true"/>
+    <image id="mf3955" name="pisces jade3.png" path="/recharge/" exported="true"/>
+    <image id="mf3956" name="pisces jade4.png" path="/recharge/" exported="true"/>
+    <image id="mf3957" name="pisces jade5.png" path="/recharge/" exported="true"/>
+    <image id="mf3958" name="pisces jade6.png" path="/recharge/" exported="true"/>
+    <image id="mf3959" name="pisces jade7.png" path="/recharge/" exported="true"/>
+    <image id="mf395a" name="pisces jade8.png" path="/recharge/" exported="true"/>
+    <image id="mf395b" name="icon_box1.png" path="/giftdaily/" exported="true"/>
+    <image id="mf395c" name="icon_box2.png" path="/giftdaily/" exported="true"/>
+    <image id="mf395d" name="icon_box3.png" path="/giftdaily/" exported="true"/>
+    <image id="h2695e" name="pic_main banner1.png" path="/leitotal/"/>
+    <image id="h2695f" name="frame_leichong banner.png" path="/res/"/>
+    <image id="h2695g" name="frame_leichong_progress-bar.png" path="/res/" scale="9grid" scale9grid="3,3,4,4"/>
+    <image id="h2695j" name="frame_mingpai.png" path="/leitotal/"/>
+    <image id="h2695k" name="icon_jinzhu add.png" path="/res/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

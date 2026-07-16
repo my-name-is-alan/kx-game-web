@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="748,406">
+  <displayList>
+    <image id="n7_m789" name="n7" src="h8u4b" fileName="res/frame_wuyinbiji2.png" xy="0,0"/>
+    <loader3D id="n25_bbpl" name="loader3d_monster" xy="126,365" size="1,1" scale="0.7,0.7" animation="" skin="" loop="true"/>
+    <text id="n8_m789" name="label_monstername" xy="215,40" size="241,58" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#67765c" strokeSize="2" text="失心狂民"/>
+    <image id="n9_m789" name="img_fail" src="h8u418" fileName="res/btn_yijibai.png" xy="51,207" visible="false"/>
+    <text id="n10_bbpl" name="n10" xy="270,126" size="106,32" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="发现者："/>
+    <text id="n15_bbpl" name="label_name" xy="353,126" size="264,32" font="ui://27utqbizps391v" fontSize="22" color="#c99140" vAlign="middle" autoSize="none" text="贝"/>
+    <text id="n16_bbpl" name="label_zone" xy="374,156" size="264,32" font="ui://27utqbizps391v" fontSize="22" color="#c99140" vAlign="middle" autoSize="none" text="受"/>
+    <text id="n11_bbpl" name="n11" xy="271,156" size="106,32" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="发现区域："/>
+    <text id="n12_bbpl" name="n12" xy="271,186" size="106,32" group="n22_bbpl" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="剩余生命："/>
+    <component id="n13_bbpl" name="bar_hp" src="gqduv9" fileName="bar_level2.xml" pkg="27utqbiz" xy="267,213" size="369,38" group="n22_bbpl">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n14_bbpl" name="label_time" xy="363,262" size="186,36" group="n27_bbpl" visible="false" fontSize="26" color="#d82921" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="01："/>
+    <component id="n17_bbpl" name="btn_attack" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="359,298" size="188,52" group="n27_bbpl">
+      <Button title="攻击" titleFontSize="30"/>
+    </component>
+    <group id="n27_bbpl" name="self" xy="359,262" size="190,88" group="n22_bbpl" advanced="true"/>
+    <group id="n22_bbpl" name="group_attack" xy="267,186" size="369,164" visible="false" advanced="true"/>
+    <list id="n23_bbpl" name="list_item" xy="271,196" size="477,100" group="n24_bbpl" scale="0.73,0.73" layout="row" overflow="scroll" scroll="horizontal" colGap="17" defaultItem="ui://27utqbizewyha" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n18_bbpl" name="btn_get" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="359,298" size="188,52" group="n24_bbpl">
+      <Button titleFontSize="30"/>
+    </component>
+    <group id="n24_bbpl" name="group_get" xy="271,196" size="477,154" visible="false" advanced="true"/>
+    <image id="n26_bbpl" name="img_me" src="bbplnd" fileName="res/frame_wode.png" xy="583,29"/>
+  </displayList>
+</component>

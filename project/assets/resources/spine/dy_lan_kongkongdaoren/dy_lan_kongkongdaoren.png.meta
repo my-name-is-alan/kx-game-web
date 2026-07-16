@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "48670d2e-132d-4f9d-91fe-b9c692910e0b",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "48670d2e-132d-4f9d-91fe-b9c692910e0b@6c48a",
+      "displayName": "dy_lan_kongkongdaoren",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "48670d2e-132d-4f9d-91fe-b9c692910e0b",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": true,
+    "redirect": "48670d2e-132d-4f9d-91fe-b9c692910e0b@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "64GrRo595FX43Kk7ckKU9U"
+    }
+  }
+}

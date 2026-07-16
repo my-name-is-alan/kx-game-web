@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="773,1134" designImage="ui://xcpqvzp3qgq7du1aa" designImageOffsetX="-25" designImageOffsetY="-333">
+  <controller name="c1" exported="true" pages="0,精怪终身卡,1,联合卡,2,秘籍终身卡,7,侠侣终身卡" selected="0"/>
+  <displayList>
+    <image id="n1_c3ih" name="n1" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="-1,0" size="704,1104" alpha="0.998"/>
+    <richtext id="n2_c3ih" name="label_title" xy="24,29" size="210,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="门客">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <image id="n3_c3ih" name="n3" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="555,926"/>
+    <image id="n7_c3ih" name="n7" src="c3ihdu174" fileName="2.0/mk_guang_di.png" xy="28,766"/>
+    <component id="n45_io2q" name="n45" src="io2qdu18e" fileName="Component1.xml" xy="19,10" group="n18_c3ih"/>
+    <image id="n6_c3ih" name="n6" src="c3ihdu178" fileName="2.0/mk_fanli_1000.png" xy="27,489" group="n18_c3ih"/>
+    <component id="n48_io2q" name="group_get" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="300,782" group="n18_c3ih"/>
+    <image id="n9_c3ih" name="n9" src="c3ihdu16t" fileName="2.0/mk_xiandian02.png" xy="529,715" group="n18_c3ih"/>
+    <image id="n11_c3ih" name="n11" src="c3ihdu16t" fileName="2.0/mk_xiandian02.png" xy="172,713" group="n18_c3ih" scale="-1,1"/>
+    <text id="n12_c3ih" name="label_getDesc" xy="205,688" size="289,62" group="n18_c3ih" font="ui://27utqbizps391v" fontSize="46" color="#ba4a3b" align="center" vAlign="middle" autoSize="shrink" text="每天15个香名"/>
+    <component id="n43_io2q" name="btn_take" src="c3ihdu17g" fileName="btn_paygroup2.xml" pkg="27utqbiz" xy="223,965" group="n18_c3ih">
+      <Button title="领取"/>
+    </component>
+    <component id="n17_c3ih" name="btn_pay1" src="c3ihdu17g" fileName="btn_paygroup2.xml" pkg="27utqbiz" xy="222,965" group="n64_oi12"/>
+    <image id="n63_oi12" name="n63" src="rgswdu1a7" fileName="2.0/miji_bg08.png" xy="201,933" group="n64_oi12"/>
+    <group id="n64_oi12" name="group_pay1" xy="201,933" size="275,100" group="n18_c3ih" advanced="true"/>
+    <group id="n18_c3ih" name="n18" xy="19,10" size="676,1023" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n35_c3ih" name="n35" src="c3ihdu175" fileName="2.0/mk_guang_02.png" xy="29,98" size="645,664" group="n33_c3ih"/>
+    <image id="n22_c3ih" name="n22" src="c3ihdu16t" fileName="2.0/mk_xiandian02.png" xy="233,127" group="n33_c3ih" scale="-1,1"/>
+    <image id="n21_c3ih" name="n21" src="c3ihdu16t" fileName="2.0/mk_xiandian02.png" xy="470,125" group="n33_c3ih"/>
+    <text id="n23_c3ih" name="label_getDesc2" xy="229,100" size="245,62" group="n33_c3ih" font="ui://27utqbizps391v" fontSize="36" color="#ba4a3b" align="center" vAlign="middle" autoSize="none" text="每天3大豪礼"/>
+    <image id="n24_c3ih" name="n24" src="c3ihdu16q" fileName="2.0/mk_zhouka_tap1.png" xy="29,159" group="n33_c3ih"/>
+    <image id="n25_c3ih" name="n25" src="c3ihdu16p" fileName="2.0/mk_zhouka_tap2.png" xy="249,159" group="n33_c3ih"/>
+    <image id="n26_c3ih" name="n26" src="c3ihdu172" fileName="2.0/mk_zhouka_tap3.png" xy="470,159" group="n33_c3ih"/>
+    <image id="n31_c3ih" name="n31" src="c3ihdu177" fileName="2.0/mk_fanli_5000.png" xy="28,739" group="n33_c3ih"/>
+    <text id="n32_c3ih" name="label_time" xy="218,912" size="265,62" group="n33_c3ih" font="ui://27utqbizps391v" fontSize="24" color="#454545" align="center" vAlign="middle" autoSize="none" text="剩余时间：6天5小时"/>
+    <component id="n30_c3ih" name="btn_pay2" src="c3ihdu17g" fileName="btn_paygroup2.xml" pkg="27utqbiz" xy="224,966" group="n33_c3ih"/>
+    <component id="n42_bdat" name="group_c0" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="89,773" group="n33_c3ih"/>
+    <component id="n39_bdat" name="group_c1" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="80,580" group="n33_c3ih"/>
+    <component id="n40_bdat" name="group_c2" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="303,579" group="n33_c3ih"/>
+    <component id="n41_bdat" name="group_c3" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="522,579" group="n33_c3ih"/>
+    <component id="n46_io2q" name="btn_take2" src="c3ihdu17g" fileName="btn_paygroup2.xml" pkg="27utqbiz" xy="226,966" group="n33_c3ih">
+      <Button title="一键领取"/>
+    </component>
+    <group id="n33_c3ih" name="n33" xy="28,98" size="668,936" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n58_rgsw" name="n58" src="rgswps" fileName="2.0/miji_bg.png" xy="28,100" group="n57_rgsw"/>
+    <image id="n60_rgsw" name="n60" src="rgswpv" fileName="2.0/miji_bg1000.png" xy="29,469" group="n57_rgsw"/>
+    <component id="n51_rgsw" name="group_getMiji" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="301,784" group="n57_rgsw"/>
+    <image id="n52_rgsw" name="n52" src="c3ihdu16t" fileName="2.0/mk_xiandian02.png" xy="531,713" group="n57_rgsw"/>
+    <image id="n53_rgsw" name="n53" src="c3ihdu16t" fileName="2.0/mk_xiandian02.png" xy="174,711" group="n57_rgsw" scale="-1,1"/>
+    <text id="n54_rgsw" name="label_getDescMiji" xy="207,686" size="289,62" group="n57_rgsw" font="ui://27utqbizps391v" fontSize="46" color="#ba4a3b" align="center" vAlign="middle" autoSize="shrink" text="每天15个香名"/>
+    <component id="n56_rgsw" name="btn_takemiji" src="c3ihdu17g" fileName="btn_paygroup2.xml" pkg="27utqbiz" xy="225,963" group="n57_rgsw">
+      <Button title="领取"/>
+    </component>
+    <component id="n55_rgsw" name="btn_paymik1" src="c3ihdu17g" fileName="btn_paygroup2.xml" pkg="27utqbiz" xy="224,963" group="n62_oi12"/>
+    <image id="n61_oi12" name="n61" src="rgswdu1a7" fileName="2.0/miji_bg08.png" xy="203,937" group="n62_oi12"/>
+    <group id="n62_oi12" name="group_pay2" xy="203,937" size="275,94" group="n57_rgsw" advanced="true"/>
+    <group id="n57_rgsw" name="n57" xy="28,100" size="669,931" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+    <component id="n65_qgq7" name="n65" src="io2qdu18e" fileName="Component1.xml" xy="22,7" group="n70_qgq7"/>
+    <image id="n72_qgq7" name="n72" src="qgq7du1a9" fileName="2.0/miji_bg2.png" xy="56,43" group="n70_qgq7"/>
+    <image id="n66_qgq7" name="n66" src="qgq7du1a8" fileName="2.0/xialv_bg1000.png" xy="26,484" group="n70_qgq7"/>
+    <component id="n76_r49i" name="btn_takePet" src="c3ihdu17g" fileName="btn_paygroup2.xml" pkg="27utqbiz" xy="224,970" group="n70_qgq7">
+      <Button title="领取"/>
+    </component>
+    <component id="n67_qgq7" name="btn_pay3" src="c3ihdu17g" fileName="btn_paygroup2.xml" pkg="27utqbiz" xy="224,970" group="n69_qgq7"/>
+    <image id="n68_qgq7" name="n68" src="rgswdu1a7" fileName="2.0/miji_bg08.png" xy="209,929" group="n69_qgq7"/>
+    <group id="n69_qgq7" name="group_pay3" xy="209,929" size="269,109" group="n70_qgq7" advanced="true"/>
+    <component id="n71_qgq7" name="group_getPet" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="300,785" group="n70_qgq7"/>
+    <image id="n73_qgq7" name="n73" src="c3ihdu16t" fileName="2.0/mk_xiandian02.png" xy="530,718" group="n70_qgq7"/>
+    <image id="n74_qgq7" name="n74" src="c3ihdu16t" fileName="2.0/mk_xiandian02.png" xy="173,716" group="n70_qgq7" scale="-1,1"/>
+    <text id="n75_qgq7" name="label_getDescPet" xy="204,690" size="289,62" group="n70_qgq7" font="ui://27utqbizps391v" fontSize="46" color="#ba4a3b" align="center" vAlign="middle" autoSize="shrink" text="每天15个香名"/>
+    <group id="n70_qgq7" name="n70" xy="22,7" size="672,1031" advanced="true">
+      <gearDisplay controller="c1" pages="7"/>
+    </group>
+    <component id="n4_c3ih" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="640,39">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n77_t09v" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="435,905" visible="false"/>
+  </displayList>
+</component>

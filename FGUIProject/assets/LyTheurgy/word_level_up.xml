@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="364,128">
+  <displayList>
+    <image id="n119_8u8i" name="n119" src="8u8ip9" fileName="ui/frame_tips.png" pkg="27utqbiz" xy="0,0"/>
+    <image id="n118_8u8i" name="n118" src="ldglfa" fileName="res/word_level_up.png" xy="78,32"/>
+  </displayList>
+</component>

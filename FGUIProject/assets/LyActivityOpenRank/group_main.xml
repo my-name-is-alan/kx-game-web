@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1210">
+  <displayList>
+    <image id="n1_lr1w" name="n1" src="lr1w2" fileName="res/frame_fubangtongxing.png" xy="7,-40"/>
+    <image id="n2_lr1w" name="n2" src="lr1w3" fileName="res/word_fubangtongxing1.png" xy="238,-35"/>
+    <image id="n7_lr1w" name="n7" src="lr1wr" fileName="res/frame_classification.png" xy="30,473" size="690,30">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n24_a8bs" name="n24" src="a8bs1y" fileName="res/frame_countdown.png" xy="60,58">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <loader id="n3_lr1w" name="loader_title" xy="44,36" size="50,50" visible="false" url="ui://6fyplu3llr1we" clearOnPublish="true"/>
+    <component id="n4_lr1w" name="group_top1" src="lr1wl" fileName="group_top.xml" xy="265,115"/>
+    <component id="n5_lr1w" name="group_top2" src="lr1wl" fileName="group_top.xml" xy="38,115"/>
+    <component id="n6_lr1w" name="group_top3" src="lr1wl" fileName="group_top.xml" xy="492,115"/>
+    <text id="n8_lr1w" name="label_top" xy="216,435" size="318,34" fontSize="24" color="#a3620d" vAlign="middle" autoClearText="true" text="上榜前3需要消费金竹&gt;=2000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n10_lr1w" name="label_sort" xy="81,471" size="52,34" fontSize="24" color="#ffedbd" vAlign="middle" autoClearText="true" text="排名"/>
+    <text id="n11_lr1w" name="label_score" xy="250,471" size="100,34" fontSize="24" color="#ffedbd" vAlign="middle" autoClearText="true" text="玩家积分"/>
+    <text id="n12_lr1w" name="label_reward" xy="540,471" size="48,31" fontSize="22" color="#ffedbd" vAlign="middle" autoClearText="true" text="奖励"/>
+    <text id="n15_lr1w" name="label_desc" xy="274,1055" size="124,34" fontSize="24" color="#ba6b04" vAlign="middle" autoClearText="true" text="积分通过找">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n25_a8bs" name="btn_goto" src="a8bs20" fileName="res/btn_goto.xml" xy="402,1055">
+      <relation target="n15_lr1w" sidePair="left-right"/>
+    </component>
+    <list id="n13_lr1w" name="list_rank" xy="43,510" size="664,420" overflow="scroll" lineGap="1" defaultItem="ui://6fyplu3llr1ws" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n22_p8ze" name="btn_detail" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="460,28">
+      <relation target="n17_lr1w" sidePair="left-right"/>
+    </component>
+    <component id="n23_p8ze" name="group_self" src="p8zew" fileName="group_rankself.xml" xy="43,931"/>
+    <component id="n18_lr1w" name="btn_openrecord" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="20,1145"/>
+    <component id="n19_lr1w" name="btn_openrank" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="190,1145"/>
+    <image id="n21_unv5" name="img_empty_mask" src="mjzcu16u" fileName="ui/pic_no data.png" pkg="27utqbiz" xy="185,600"/>
+    <component id="n20_lr1w" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="665,-7"/>
+    <text id="n17_lr1w" name="label_time" xy="260,59" size="229,39" fontSize="28" color="#ffedbd" vAlign="middle" autoClearText="true" text="进行中：00:00:00">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n26_a8bs" name="n26" src="a8bs1x" fileName="res/frame_costtoday.png" xy="33,913"/>
+    <loader id="n28_a8bs" name="loader_icon" xy="30,911" size="40,40" url="ui://27utqbizf4zx6o" fill="scale"/>
+    <text id="n27_a8bs" name="label_today" xy="70,914" size="149,34" fontSize="24" color="#fff9e5" vAlign="middle" autoClearText="true" text="今日消费:123"/>
+  </displayList>
+</component>

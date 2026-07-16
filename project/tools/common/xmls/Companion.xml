@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root tenExplorePlayerLevel="96" exploreBonusesId="330001" staminaRecoverItemId="120022" companionGameplayGuide="&lt;b&gt;一、好感度&lt;/b&gt;&#10;1.对兽友进行赠礼可以提升兽友的好感度，好感度满足后会提升好感等级&#10;2.兽友的好感等级提升后会带来属性加成或天赋提升，兽友的天赋可以为特定场合带来收益&#10;&lt;b&gt;二、游历&lt;/b&gt;&#10;1.在游历场景中存在多个区域，不同的区域中包含不同事件&#10;2.消耗体力可以随机前往其中一个区域游历，并触发其中的事件&#10;3.体力不满时会随时间恢复，使用蜂蜜则可以直接进行恢复&#10;4.消耗体力可随机前往区域进行游历，游历会触发事件获得奖励，若偶遇已结识的兽友可增加好感度&#10;&lt;b&gt;三、结识&lt;/b&gt;&#10;1.获得兽友信物后，可以结识特定的兽友通过信物结识的兽友需要不同的信物道具。&#10;2.结识兽友后，多余的兽友信物可以赠送给该兽友，获得额外的好感度。" exploreGameplayGuide="&lt;b&gt;一、好感度&lt;/b&gt;&#10;1.对兽友进行赠礼可以提升兽友的好感度，好感度满足后会提升好感等级&#10;2.兽友的好感等级提升后会带来属性加成或天赋提升，兽友的天赋可以为特定场合带来收益&#10;&lt;b&gt;二、游历&lt;/b&gt;&#10;1.在游历场景中存在多个区域，不同的区域中包含不同事件&#10;2.消耗体力可以随机前往其中一个区域游历，并触发其中的事件&#10;3.体力不满时会随时间恢复，使用蜂蜜则可以直接进行恢复&#10;4.消耗体力可随机前往区域进行游历，游历会触发事件获得奖励，若偶遇已结识的兽友可增加好感度&#10;&lt;b&gt;三、结识&lt;/b&gt;&#10;1.获得兽友信物后，可以结识特定的兽友通过信物结识的兽友需要不同的信物道具。&#10;2.结识兽友后，多余的兽友信物可以赠送给该兽友，获得额外的好感度。">
+  <stamina>
+    <item id="1" playerLevel="1" maxStamina="11" staminaRecoverInterval="30"/>
+    <item id="2" playerLevel="5" maxStamina="11" staminaRecoverInterval="30"/>
+    <item id="3" playerLevel="22" maxStamina="11" staminaRecoverInterval="30"/>
+    <item id="4" playerLevel="42" maxStamina="12" staminaRecoverInterval="30"/>
+    <item id="5" playerLevel="69" maxStamina="13" staminaRecoverInterval="30"/>
+    <item id="6" playerLevel="115" maxStamina="14" staminaRecoverInterval="30"/>
+    <item id="7" playerLevel="182" maxStamina="15" staminaRecoverInterval="30"/>
+    <item id="8" playerLevel="269" maxStamina="16" staminaRecoverInterval="30"/>
+    <item id="9" playerLevel="375" maxStamina="17" staminaRecoverInterval="30"/>
+    <item id="10" playerLevel="502" maxStamina="18" staminaRecoverInterval="30"/>
+    <item id="11" playerLevel="649" maxStamina="19" staminaRecoverInterval="30"/>
+  </stamina>
+  <likingLevel>
+    <item level="1" liking="5" attr="2" value="5"/>
+    <item level="2" liking="5" attr="1" value="48"/>
+    <item level="3" liking="5" attr="10" value="0.5"/>
+    <item level="4" liking="5" attr="7" value="0.5"/>
+    <item level="5" liking="5" attr="5" value="0.5"/>
+    <item level="6" liking="5" attr="3" value="1"/>
+    <item level="7" liking="5" attr="4" value="2"/>
+    <item level="8" liking="5" attr="16" value="1"/>
+    <item level="9" liking="5" attr="13" value="1"/>
+    <item level="10" liking="5" attr="11" value="1"/>
+    <item level="11" liking="5" attr="2" value="9"/>
+    <item level="12" liking="5" attr="1" value="62"/>
+    <item level="13" liking="5" attr="8" value="0.5"/>
+    <item level="14" liking="5" attr="6" value="0.5"/>
+    <item level="15" liking="5" attr="9" value="0.5"/>
+    <item level="16" liking="5" attr="3" value="2"/>
+    <item level="17" liking="5" attr="4" value="3"/>
+    <item level="18" liking="5" attr="14" value="1"/>
+    <item level="19" liking="5" attr="12" value="1"/>
+    <item level="20" liking="10" attr="15" value="1"/>
+    <item level="21" liking="10" attr="2" value="11"/>
+    <item level="22" liking="10" attr="1" value="93"/>
+    <item level="23" liking="10" attr="10" value="0.5"/>
+    <item level="24" liking="10" attr="7" value="0.5"/>
+    <item level="25" liking="10" attr="5" value="0.5"/>
+    <item level="26" liking="10" attr="3" value="3"/>
+    <item level="27" liking="10" attr="4" value="4"/>
+    <item level="28" liking="10" attr="16" value="1"/>
+    <item level="29" liking="10" attr="13" value="1"/>
+    <item level="30" liking="10" attr="11" value="1"/>
+    <item level="31" liking="10" attr="2" value="19"/>
+    <item level="32" liking="10" attr="1" value="131"/>
+    <item level="33" liking="10" attr="8" value="0.5"/>
+    <item level="34" liking="10" attr="6" value="0.5"/>
+    <item level="35" liking="10" attr="9" value="0.5"/>
+    <item level="36" liking="10" attr="3" value="4"/>
+    <item level="37" liking="10" attr="4" value="5"/>
+    <item level="38" liking="10" attr="14" value="1"/>
+    <item level="39" liking="10" attr="12" value="1"/>
+    <item level="40" liking="25" attr="15" value="1"/>
+    <item level="41" liking="25" attr="2" value="32"/>
+    <item level="42" liking="25" attr="1" value="245"/>
+    <item level="43" liking="25" attr="10" value="0.5"/>
+    <item level="44" liking="25" attr="7" value="0.5"/>
+    <item level="45" liking="25" attr="5" value="0.5"/>
+    <item level="46" liking="25" attr="3" value="8"/>
+    <item level="47" liking="25" attr="4" value="6"/>
+    <item level="48" liking="25" attr="16" value="1"/>
+    <item level="49" liking="25" attr="13" value="1"/>
+    <item level="50" liking="25" attr="11" value="1"/>
+    <item level="51" liking="25" attr="2" value="58"/>
+    <item level="52" liking="25" attr="1" value="408"/>
+    <item level="53" liking="25" attr="8" value="0.5"/>
+    <item level="54" liking="25" attr="6" value="0.5"/>
+    <item level="55" liking="25" attr="9" value="0.5"/>
+    <item level="56" liking="25" attr="3" value="13"/>
+    <item level="57" liking="25" attr="4" value="8"/>
+    <item level="58" liking="25" attr="14" value="1"/>
+    <item level="59" liking="25" attr="12" value="1"/>
+    <item level="60" liking="60" attr="15" value="1"/>
+    <item level="61" liking="60" attr="2" value="114"/>
+    <item level="62" liking="60" attr="1" value="831"/>
+    <item level="63" liking="60" attr="10" value="0.5"/>
+    <item level="64" liking="60" attr="7" value="0.5"/>
+    <item level="65" liking="60" attr="5" value="0.5"/>
+    <item level="66" liking="60" attr="3" value="27"/>
+    <item level="67" liking="60" attr="4" value="10"/>
+    <item level="68" liking="60" attr="16" value="1"/>
+    <item level="69" liking="60" attr="13" value="1"/>
+    <item level="70" liking="60" attr="11" value="1"/>
+    <item level="71" liking="60" attr="2" value="228"/>
+    <item level="72" liking="60" attr="1" value="1632"/>
+    <item level="73" liking="60" attr="8" value="0.5"/>
+    <item level="74" liking="60" attr="6" value="0.5"/>
+    <item level="75" liking="60" attr="9" value="0.5"/>
+    <item level="76" liking="60" attr="3" value="53"/>
+    <item level="77" liking="60" attr="4" value="12"/>
+    <item level="78" liking="60" attr="14" value="1"/>
+    <item level="79" liking="60" attr="12" value="1"/>
+    <item level="80" liking="200" attr="15" value="1"/>
+    <item level="81" liking="200" attr="2" value="528"/>
+    <item level="82" liking="200" attr="1" value="4100"/>
+    <item level="83" liking="200" attr="10" value="0.5"/>
+    <item level="84" liking="200" attr="7" value="0.5"/>
+    <item level="85" liking="200" attr="5" value="0.5"/>
+    <item level="86" liking="200" attr="3" value="153"/>
+    <item level="87" liking="200" attr="4" value="16"/>
+    <item level="88" liking="200" attr="16" value="1"/>
+    <item level="89" liking="200" attr="13" value="1"/>
+    <item level="90" liking="200" attr="11" value="1"/>
+    <item level="91" liking="200" attr="2" value="1445"/>
+    <item level="92" liking="200" attr="1" value="10948"/>
+    <item level="93" liking="200" attr="8" value="0.5"/>
+    <item level="94" liking="200" attr="6" value="0.5"/>
+    <item level="95" liking="200" attr="9" value="0.5"/>
+    <item level="96" liking="200" attr="3" value="402"/>
+    <item level="97" liking="200" attr="4" value="21"/>
+    <item level="98" liking="200" attr="14" value="1"/>
+    <item level="99" liking="200" attr="12" value="1"/>
+    <item level="100" liking="500" attr="15" value="1"/>
+    <item level="101" liking="500" attr="2" value="528"/>
+    <item level="102" liking="500" attr="1" value="4100"/>
+    <item level="103" liking="500" attr="10" value="0.5"/>
+    <item level="104" liking="500" attr="7" value="0.5"/>
+    <item level="105" liking="500" attr="5" value="0.5"/>
+    <item level="106" liking="500" attr="3" value="153"/>
+    <item level="107" liking="500" attr="4" value="16"/>
+    <item level="108" liking="500" attr="16" value="1"/>
+    <item level="109" liking="500" attr="13" value="1"/>
+    <item level="110" liking="500" attr="11" value="1"/>
+    <item level="111" liking="500" attr="2" value="1445"/>
+    <item level="112" liking="500" attr="1" value="10948"/>
+    <item level="113" liking="500" attr="8" value="0.5"/>
+    <item level="114" liking="500" attr="6" value="0.5"/>
+    <item level="115" liking="500" attr="9" value="0.5"/>
+    <item level="116" liking="500" attr="3" value="402"/>
+    <item level="117" liking="500" attr="4" value="21"/>
+    <item level="118" liking="500" attr="14" value="1"/>
+    <item level="119" liking="500" attr="12" value="1"/>
+    <item level="120" liking="1000" attr="15" value="1"/>
+    <item level="121" liking="1000" attr="2" value="528"/>
+    <item level="122" liking="1000" attr="1" value="4100"/>
+    <item level="123" liking="1000" attr="10" value="0.5"/>
+    <item level="124" liking="1000" attr="7" value="0.5"/>
+    <item level="125" liking="1000" attr="5" value="0.5"/>
+    <item level="126" liking="1000" attr="3" value="153"/>
+    <item level="127" liking="1000" attr="4" value="16"/>
+    <item level="128" liking="1000" attr="16" value="1"/>
+    <item level="129" liking="1000" attr="13" value="1"/>
+    <item level="130" liking="1000" attr="11" value="1"/>
+    <item level="131" liking="1000" attr="2" value="1445"/>
+    <item level="132" liking="1000" attr="1" value="10948"/>
+    <item level="133" liking="1000" attr="8" value="0.5"/>
+    <item level="134" liking="1000" attr="6" value="0.5"/>
+    <item level="135" liking="1000" attr="9" value="0.5"/>
+    <item level="136" liking="1000" attr="3" value="402"/>
+    <item level="137" liking="1000" attr="4" value="21"/>
+    <item level="138" liking="1000" attr="14" value="1"/>
+    <item level="139" liking="1000" attr="12" value="1"/>
+    <item level="140" liking="2000" attr="15" value="1"/>
+    <item level="141" liking="2000" attr="2" value="528"/>
+    <item level="142" liking="2000" attr="1" value="4100"/>
+    <item level="143" liking="2000" attr="10" value="0.5"/>
+    <item level="144" liking="2000" attr="7" value="0.5"/>
+    <item level="145" liking="2000" attr="5" value="0.5"/>
+    <item level="146" liking="2000" attr="3" value="153"/>
+    <item level="147" liking="2000" attr="4" value="16"/>
+    <item level="148" liking="2000" attr="16" value="1"/>
+    <item level="149" liking="2000" attr="13" value="1"/>
+    <item level="150" liking="2000" attr="11" value="1"/>
+    <item level="151" liking="2000" attr="2" value="1445"/>
+    <item level="152" liking="2000" attr="1" value="10948"/>
+    <item level="153" liking="2000" attr="8" value="0.5"/>
+    <item level="154" liking="2000" attr="6" value="0.5"/>
+    <item level="155" liking="2000" attr="9" value="0.5"/>
+    <item level="156" liking="2000" attr="3" value="402"/>
+    <item level="157" liking="2000" attr="4" value="21"/>
+    <item level="158" liking="2000" attr="14" value="1"/>
+    <item level="159" liking="2000" attr="12" value="1"/>
+    <item level="160" liking="4000" attr="15" value="1"/>
+    <item level="161" liking="4000" attr="2" value="528"/>
+    <item level="162" liking="4000" attr="1" value="4100"/>
+    <item level="163" liking="4000" attr="10" value="0.5"/>
+    <item level="164" liking="4000" attr="7" value="0.5"/>
+    <item level="165" liking="4000" attr="5" value="0.5"/>
+    <item level="166" liking="4000" attr="3" value="153"/>
+    <item level="167" liking="4000" attr="4" value="16"/>
+    <item level="168" liking="4000" attr="16" value="1"/>
+    <item level="169" liking="4000" attr="13" value="1"/>
+    <item level="170" liking="4000" attr="11" value="1"/>
+    <item level="171" liking="4000" attr="2" value="1445"/>
+    <item level="172" liking="4000" attr="1" value="10948"/>
+    <item level="173" liking="4000" attr="8" value="0.5"/>
+    <item level="174" liking="4000" attr="6" value="0.5"/>
+    <item level="175" liking="4000" attr="9" value="0.5"/>
+    <item level="176" liking="4000" attr="3" value="402"/>
+    <item level="177" liking="4000" attr="4" value="21"/>
+    <item level="178" liking="4000" attr="14" value="1"/>
+    <item level="179" liking="4000" attr="12" value="1"/>
+    <item level="180" liking="4000" attr="15" value="1"/>
+  </likingLevel>
+  <likingPhase>
+    <item phase="1" likingLevel="20" name="狭路相逢"/>
+    <item phase="2" likingLevel="40" name="萍水初识"/>
+    <item phase="3" likingLevel="60" name="剑舞相知"/>
+    <item phase="4" likingLevel="80" name="剑意相通"/>
+    <item phase="5" likingLevel="100" name="风雨并肩"/>
+    <item phase="6" likingLevel="120" name="侠影相随"/>
+    <item phase="7" likingLevel="140" name="义结金兰"/>
+    <item phase="8" likingLevel="160" name="侠路永伴"/>
+    <item phase="9" likingLevel="180" name="生死与共"/>
+  </likingPhase>
+  <likingValue>
+    <item id="1" itemId="120017" value="1"/>
+    <item id="2" itemId="120018" value="3"/>
+    <item id="3" itemId="120019" value="10"/>
+    <item id="4" itemId="120026" value="10"/>
+    <item id="5" itemId="120027" value="10"/>
+    <item id="6" itemId="120028" value="10"/>
+    <item id="7" itemId="120029" value="10"/>
+  </likingValue>
+  <companion>
+    <item id="1" name="柴米" qualityName="普通" mainAttrValue="5,10,15,20,25,30,35,40,45" subAttrValue="" boostValue="20,25,30,35,40,45,50,55,60" unlockCounterKey="" unlockCounterValue="" unlockDesc="" quality="1" likingItemId="120017,120018,120019" mainAttr="10" subAttr="0" boostId="2" modelId="9101" exploreWeight="30" exploreLiking="2"/>
+    <item id="2" name="熊猫小厨" qualityName="普通" mainAttrValue="5,10,15,20,25,30,35,40,45" subAttrValue="" boostValue="10,15,20,25,30,35,40,45,50" unlockCounterKey="duelTower" unlockCounterValue="100" unlockDesc="激流塔关卡达到10-10层" quality="1" likingItemId="120017,120018,120019" mainAttr="8" subAttr="0" boostId="4" modelId="9102" exploreWeight="30" exploreLiking="4"/>
+    <item id="3" name="闪电貂" qualityName="稀有" mainAttrValue="5,10,15,20,25,30,35,40,45" subAttrValue="" boostValue="8,12,16,20,24,28,32,36,40" unlockCounterKey="evolutionLevel" unlockCounterValue="7" unlockDesc="仙树等级达到{0}级" quality="2" likingItemId="120017,120018,120019" mainAttr="7" subAttr="0" boostId="1" modelId="9103" exploreWeight="30" exploreLiking="4"/>
+    <item id="4" name="熊猫护卫" qualityName="稀有" mainAttrValue="5,10,15,20,25,30,35,40,45" subAttrValue="" boostValue="8,12,16,20,24,28,32,36,40" unlockCounterKey="duelVictory" unlockCounterValue="13" unlockDesc="斗法胜利{0}次" quality="2" likingItemId="120017,120018,120019" mainAttr="6" subAttr="0" boostId="5" modelId="9104" exploreWeight="30" exploreLiking="2"/>
+    <item id="5" name="黑白双雕" qualityName="卓越" mainAttrValue="5,10,15,20,25,30,35,40,45" subAttrValue="" boostValue="10,13,16,19,22,25,28,31,34" unlockCounterKey="armedEscortNum" unlockCounterValue="4" unlockDesc="拥有{0}个镖师" quality="3" likingItemId="120017,120018,120019" mainAttr="5" subAttr="0" boostId="3" modelId="9105" exploreWeight="30" exploreLiking="4"/>
+    <item id="6" name="火云邪驼" qualityName="卓越" mainAttrValue="5,10,15,20,25,30,35,40,45" subAttrValue="" boostValue="8,10,12,14,16,18,20,22,24" unlockCounterKey="monsterKingStage" unlockCounterValue="1020" unlockDesc="心魔试炼达到剑来·中期" quality="3" likingItemId="120017,120018,120019" mainAttr="9" subAttr="0" boostId="6" modelId="9106" exploreWeight="30" exploreLiking="4"/>
+    <item id="7" name="雾刀白猿" qualityName="传说" mainAttrValue="1,2,3,4,5,6,7,8,9" subAttrValue="5,6,7,8,9,10,11,12,13" boostValue="" unlockCounterKey="companionItem4" unlockCounterValue="50" unlockDesc="" quality="4" likingItemId="120017,120018,120019,120029" mainAttr="17" subAttr="21" boostId="0" modelId="9107" exploreWeight="30" exploreLiking="2"/>
+    <item id="8" name="霹雳神雕" qualityName="传说" mainAttrValue="2,4,6,8,10,12,14,16,18" subAttrValue="5,6,7,8,9,10,11,12,13" boostValue="" unlockCounterKey="companionItem3" unlockCounterValue="50" unlockDesc="" quality="4" likingItemId="120017,120018,120019,120028" mainAttr="19" subAttr="21" boostId="0" modelId="9108" exploreWeight="30" exploreLiking="4"/>
+    <item id="9" name="九尾灵狐" qualityName="传说" mainAttrValue="1,2,3,4,5,6,7,8,9" subAttrValue="5,6,7,8,9,10,11,12,13" boostValue="" unlockCounterKey="companionItem1" unlockCounterValue="50" unlockDesc="" quality="4" likingItemId="120017,120018,120019,120026" mainAttr="18" subAttr="21" boostId="0" modelId="9109" exploreWeight="30" exploreLiking="4"/>
+    <item id="10" name="熊猫族长" qualityName="传说" mainAttrValue="1,2,3,4,5,6,7,8,9" subAttrValue="5,6,7,8,9,10,11,12,13" boostValue="" unlockCounterKey="companionItem2" unlockCounterValue="50" unlockDesc="" quality="4" likingItemId="120017,120018,120019,120027" mainAttr="20" subAttr="21" boostId="0" modelId="9110" exploreWeight="30" exploreLiking="2"/>
+  </companion>
+  <explore>
+    <item id="1" placeName="烟波镇" companion="2" item="120001:20,120001:10,120002:5,120002:2" tip="烟雨迷蒙古镇上，江湖传说在此间。"/>
+    <item id="2" placeName="云隐峰" companion="5,8" item="120001:20,120001:10,120025:6,120025:15,120014:2,120014:5" tip="云雾缭绕寻仙境，登高望远心自宽。"/>
+    <item id="3" placeName="锈枫岭" companion="6,9" item="120001:20,120001:10,120004:5,120005:1" tip="枫叶染霜红似火，古道西风瘦马行。"/>
+    <item id="4" placeName="翠竹亭" companion="1,4" item="120001:20,120001:10,120017:1,120018:1" tip="翠竹摇曳掩幽径，清风吹过心神怡。"/>
+    <item id="5" placeName="玄冥谷" companion="7" item="120001:20,120001:10,120008:50,120008:100" tip="幽谷深处藏玄机，寒气逼人透骨凉。"/>
+    <item id="6" placeName="听琴崖" companion="3" item="120001:20,120001:10,120009:2,120009:5" tip="崖边琴音绕耳旁，高山流水遇知音。"/>
+    <item id="7" placeName="风语渡" companion="10" item="120001:20,120001:10,120007:2,120007:5" tip="渡口微风送佳音，轻舟已过万重山。"/>
+  </explore>
+  <duel>
+    <item id="1" companionId="1" name="柴米" phase="1" phaseName="初出茅庐·前期" playerLevel="1" likingLevel="1" monsterId="4001001" bonusesId="320001"/>
+    <item id="2" companionId="1" name="柴米" phase="2" phaseName="初出茅庐·中期" playerLevel="1" likingLevel="1" monsterId="4001002" bonusesId="320002"/>
+    <item id="3" companionId="1" name="柴米" phase="3" phaseName="初出茅庐·后期" playerLevel="1" likingLevel="1" monsterId="4001003" bonusesId="320003"/>
+    <item id="4" companionId="1" name="柴米" phase="4" phaseName="江湖小虾米·前期" playerLevel="15" likingLevel="1" monsterId="4001004" bonusesId="320004"/>
+    <item id="5" companionId="1" name="柴米" phase="5" phaseName="江湖小虾米·中期" playerLevel="15" likingLevel="1" monsterId="4001005" bonusesId="320005"/>
+    <item id="6" companionId="1" name="柴米" phase="6" phaseName="江湖小虾米·后期" playerLevel="15" likingLevel="1" monsterId="4001006" bonusesId="320006"/>
+    <item id="7" companionId="1" name="柴米" phase="7" phaseName="少年歌行·前期" playerLevel="36" likingLevel="5" monsterId="4001007" bonusesId="320007"/>
+    <item id="8" companionId="1" name="柴米" phase="8" phaseName="少年歌行·中期" playerLevel="36" likingLevel="5" monsterId="4001008" bonusesId="320008"/>
+    <item id="9" companionId="1" name="柴米" phase="9" phaseName="少年歌行·后期" playerLevel="36" likingLevel="10" monsterId="4001009" bonusesId="320009"/>
+    <item id="10" companionId="1" name="柴米" phase="10" phaseName="鲜衣怒马·前期" playerLevel="56" likingLevel="10" monsterId="4001010" bonusesId="320010"/>
+    <item id="11" companionId="1" name="柴米" phase="11" phaseName="鲜衣怒马·中期" playerLevel="56" likingLevel="20" monsterId="4001011" bonusesId="320011"/>
+    <item id="12" companionId="1" name="柴米" phase="12" phaseName="鲜衣怒马·后期" playerLevel="56" likingLevel="20" monsterId="4001012" bonusesId="320012"/>
+    <item id="13" companionId="1" name="柴米" phase="13" phaseName="侠客行·前期" playerLevel="96" likingLevel="20" monsterId="4001013" bonusesId="320013"/>
+    <item id="14" companionId="1" name="柴米" phase="14" phaseName="侠客行·中期" playerLevel="96" likingLevel="20" monsterId="4001014" bonusesId="320014"/>
+    <item id="15" companionId="1" name="柴米" phase="15" phaseName="侠客行·后期" playerLevel="96" likingLevel="20" monsterId="4001015" bonusesId="320015"/>
+    <item id="16" companionId="1" name="柴米" phase="16" phaseName="踏雪无痕·前期" playerLevel="156" likingLevel="40" monsterId="4001016" bonusesId="320016"/>
+    <item id="17" companionId="1" name="柴米" phase="17" phaseName="踏雪无痕·中期" playerLevel="156" likingLevel="40" monsterId="4001017" bonusesId="320017"/>
+    <item id="18" companionId="1" name="柴米" phase="18" phaseName="踏雪无痕·后期" playerLevel="156" likingLevel="40" monsterId="4001018" bonusesId="320018"/>
+    <item id="19" companionId="1" name="柴米" phase="19" phaseName="剑来·前期" playerLevel="236" likingLevel="40" monsterId="4001019" bonusesId="320019"/>
+    <item id="20" companionId="1" name="柴米" phase="20" phaseName="剑来·中期" playerLevel="236" likingLevel="40" monsterId="4001020" bonusesId="320020"/>
+    <item id="21" companionId="1" name="柴米" phase="21" phaseName="剑来·后期" playerLevel="236" likingLevel="40" monsterId="4001021" bonusesId="320021"/>
+    <item id="22" companionId="1" name="柴米" phase="22" phaseName="入神坐照·前期" playerLevel="336" likingLevel="60" monsterId="4001022" bonusesId="320022"/>
+    <item id="23" companionId="1" name="柴米" phase="23" phaseName="入神坐照·中期" playerLevel="336" likingLevel="60" monsterId="4001023" bonusesId="320023"/>
+    <item id="24" companionId="1" name="柴米" phase="24" phaseName="入神坐照·后期" playerLevel="336" likingLevel="60" monsterId="4001024" bonusesId="320024"/>
+    <item id="25" companionId="1" name="柴米" phase="25" phaseName="羽化·前期" playerLevel="456" likingLevel="60" monsterId="4001025" bonusesId="320025"/>
+    <item id="26" companionId="1" name="柴米" phase="26" phaseName="羽化·中期" playerLevel="456" likingLevel="60" monsterId="4001026" bonusesId="320026"/>
+    <item id="27" companionId="1" name="柴米" phase="27" phaseName="羽化·后期" playerLevel="456" likingLevel="60" monsterId="4001027" bonusesId="320027"/>
+    <item id="28" companionId="1" name="柴米" phase="28" phaseName="返璞归真·前期" playerLevel="596" likingLevel="80" monsterId="4001028" bonusesId="320028"/>
+    <item id="29" companionId="1" name="柴米" phase="29" phaseName="返璞归真·中期" playerLevel="596" likingLevel="80" monsterId="4001029" bonusesId="320029"/>
+    <item id="30" companionId="1" name="柴米" phase="30" phaseName="返璞归真·后期" playerLevel="596" likingLevel="80" monsterId="4001030" bonusesId="320030"/>
+    <item id="31" companionId="2" name="乐乐" phase="1" phaseName="初出茅庐·前期" playerLevel="1" likingLevel="1" monsterId="4002001" bonusesId="320001"/>
+    <item id="32" companionId="2" name="乐乐" phase="2" phaseName="初出茅庐·中期" playerLevel="1" likingLevel="1" monsterId="4002002" bonusesId="320002"/>
+    <item id="33" companionId="2" name="乐乐" phase="3" phaseName="初出茅庐·后期" playerLevel="1" likingLevel="1" monsterId="4002003" bonusesId="320003"/>
+    <item id="34" companionId="2" name="乐乐" phase="4" phaseName="江湖小虾米·前期" playerLevel="15" likingLevel="1" monsterId="4002004" bonusesId="320004"/>
+    <item id="35" companionId="2" name="乐乐" phase="5" phaseName="江湖小虾米·中期" playerLevel="15" likingLevel="1" monsterId="4002005" bonusesId="320005"/>
+    <item id="36" companionId="2" name="乐乐" phase="6" phaseName="江湖小虾米·后期" playerLevel="15" likingLevel="1" monsterId="4002006" bonusesId="320006"/>
+    <item id="37" companionId="2" name="乐乐" phase="7" phaseName="少年歌行·前期" playerLevel="36" likingLevel="5" monsterId="4002007" bonusesId="320007"/>
+    <item id="38" companionId="2" name="乐乐" phase="8" phaseName="少年歌行·中期" playerLevel="36" likingLevel="5" monsterId="4002008" bonusesId="320008"/>
+    <item id="39" companionId="2" name="乐乐" phase="9" phaseName="少年歌行·后期" playerLevel="36" likingLevel="10" monsterId="4002009" bonusesId="320009"/>
+    <item id="40" companionId="2" name="乐乐" phase="10" phaseName="鲜衣怒马·前期" playerLevel="56" likingLevel="10" monsterId="4002010" bonusesId="320010"/>
+    <item id="41" companionId="2" name="乐乐" phase="11" phaseName="鲜衣怒马·中期" playerLevel="56" likingLevel="20" monsterId="4002011" bonusesId="320011"/>
+    <item id="42" companionId="2" name="乐乐" phase="12" phaseName="鲜衣怒马·后期" playerLevel="56" likingLevel="20" monsterId="4002012" bonusesId="320012"/>
+    <item id="43" companionId="2" name="乐乐" phase="13" phaseName="侠客行·前期" playerLevel="96" likingLevel="20" monsterId="4002013" bonusesId="320013"/>
+    <item id="44" companionId="2" name="乐乐" phase="14" phaseName="侠客行·中期" playerLevel="96" likingLevel="20" monsterId="4002014" bonusesId="320014"/>
+    <item id="45" companionId="2" name="乐乐" phase="15" phaseName="侠客行·后期" playerLevel="96" likingLevel="20" monsterId="4002015" bonusesId="320015"/>
+    <item id="46" companionId="2" name="乐乐" phase="16" phaseName="踏雪无痕·前期" playerLevel="156" likingLevel="40" monsterId="4002016" bonusesId="320016"/>
+    <item id="47" companionId="2" name="乐乐" phase="17" phaseName="踏雪无痕·中期" playerLevel="156" likingLevel="40" monsterId="4002017" bonusesId="320017"/>
+    <item id="48" companionId="2" name="乐乐" phase="18" phaseName="踏雪无痕·后期" playerLevel="156" likingLevel="40" monsterId="4002018" bonusesId="320018"/>
+    <item id="49" companionId="2" name="乐乐" phase="19" phaseName="剑来·前期" playerLevel="236" likingLevel="40" monsterId="4002019" bonusesId="320019"/>
+    <item id="50" companionId="2" name="乐乐" phase="20" phaseName="剑来·中期" playerLevel="236" likingLevel="40" monsterId="4002020" bonusesId="320020"/>
+    <item id="51" companionId="2" name="乐乐" phase="21" phaseName="剑来·后期" playerLevel="236" likingLevel="40" monsterId="4002021" bonusesId="320021"/>
+    <item id="52" companionId="2" name="乐乐" phase="22" phaseName="入神坐照·前期" playerLevel="336" likingLevel="60" monsterId="4002022" bonusesId="320022"/>
+    <item id="53" companionId="2" name="乐乐" phase="23" phaseName="入神坐照·中期" playerLevel="336" likingLevel="60" monsterId="4002023" bonusesId="320023"/>
+    <item id="54" companionId="2" name="乐乐" phase="24" phaseName="入神坐照·后期" playerLevel="336" likingLevel="60" monsterId="4002024" bonusesId="320024"/>
+    <item id="55" companionId="2" name="乐乐" phase="25" phaseName="羽化·前期" playerLevel="456" likingLevel="60" monsterId="4002025" bonusesId="320025"/>
+    <item id="56" companionId="2" name="乐乐" phase="26" phaseName="羽化·中期" playerLevel="456" likingLevel="60" monsterId="4002026" bonusesId="320026"/>
+    <item id="57" companionId="2" name="乐乐" phase="27" phaseName="羽化·后期" playerLevel="456" likingLevel="60" monsterId="4002027" bonusesId="320027"/>
+    <item id="58" companionId="2" name="乐乐" phase="28" phaseName="返璞归真·前期" playerLevel="596" likingLevel="80" monsterId="4002028" bonusesId="320028"/>
+    <item id="59" companionId="2" name="乐乐" phase="29" phaseName="返璞归真·中期" playerLevel="596" likingLevel="80" monsterId="4002029" bonusesId="320029"/>
+    <item id="60" companionId="2" name="乐乐" phase="30" phaseName="返璞归真·后期" playerLevel="596" likingLevel="80" monsterId="4002030" bonusesId="320030"/>
+    <item id="61" companionId="3" name="闪电貂" phase="1" phaseName="初出茅庐·前期" playerLevel="1" likingLevel="1" monsterId="4003001" bonusesId="320001"/>
+    <item id="62" companionId="3" name="闪电貂" phase="2" phaseName="初出茅庐·中期" playerLevel="1" likingLevel="1" monsterId="4003002" bonusesId="320002"/>
+    <item id="63" companionId="3" name="闪电貂" phase="3" phaseName="初出茅庐·后期" playerLevel="1" likingLevel="1" monsterId="4003003" bonusesId="320003"/>
+    <item id="64" companionId="3" name="闪电貂" phase="4" phaseName="江湖小虾米·前期" playerLevel="15" likingLevel="1" monsterId="4003004" bonusesId="320004"/>
+    <item id="65" companionId="3" name="闪电貂" phase="5" phaseName="江湖小虾米·中期" playerLevel="15" likingLevel="1" monsterId="4003005" bonusesId="320005"/>
+    <item id="66" companionId="3" name="闪电貂" phase="6" phaseName="江湖小虾米·后期" playerLevel="15" likingLevel="1" monsterId="4003006" bonusesId="320006"/>
+    <item id="67" companionId="3" name="闪电貂" phase="7" phaseName="少年歌行·前期" playerLevel="36" likingLevel="5" monsterId="4003007" bonusesId="320007"/>
+    <item id="68" companionId="3" name="闪电貂" phase="8" phaseName="少年歌行·中期" playerLevel="36" likingLevel="5" monsterId="4003008" bonusesId="320008"/>
+    <item id="69" companionId="3" name="闪电貂" phase="9" phaseName="少年歌行·后期" playerLevel="36" likingLevel="10" monsterId="4003009" bonusesId="320009"/>
+    <item id="70" companionId="3" name="闪电貂" phase="10" phaseName="鲜衣怒马·前期" playerLevel="56" likingLevel="10" monsterId="4003010" bonusesId="320010"/>
+    <item id="71" companionId="3" name="闪电貂" phase="11" phaseName="鲜衣怒马·中期" playerLevel="56" likingLevel="20" monsterId="4003011" bonusesId="320011"/>
+    <item id="72" companionId="3" name="闪电貂" phase="12" phaseName="鲜衣怒马·后期" playerLevel="56" likingLevel="20" monsterId="4003012" bonusesId="320012"/>
+    <item id="73" companionId="3" name="闪电貂" phase="13" phaseName="侠客行·前期" playerLevel="96" likingLevel="20" monsterId="4003013" bonusesId="320013"/>
+    <item id="74" companionId="3" name="闪电貂" phase="14" phaseName="侠客行·中期" playerLevel="96" likingLevel="20" monsterId="4003014" bonusesId="320014"/>
+    <item id="75" companionId="3" name="闪电貂" phase="15" phaseName="侠客行·后期" playerLevel="96" likingLevel="20" monsterId="4003015" bonusesId="320015"/>
+    <item id="76" companionId="3" name="闪电貂" phase="16" phaseName="踏雪无痕·前期" playerLevel="156" likingLevel="40" monsterId="4003016" bonusesId="320016"/>
+    <item id="77" companionId="3" name="闪电貂" phase="17" phaseName="踏雪无痕·中期" playerLevel="156" likingLevel="40" monsterId="4003017" bonusesId="320017"/>
+    <item id="78" companionId="3" name="闪电貂" phase="18" phaseName="踏雪无痕·后期" playerLevel="156" likingLevel="40" monsterId="4003018" bonusesId="320018"/>
+    <item id="79" companionId="3" name="闪电貂" phase="19" phaseName="剑来·前期" playerLevel="236" likingLevel="40" monsterId="4003019" bonusesId="320019"/>
+    <item id="80" companionId="3" name="闪电貂" phase="20" phaseName="剑来·中期" playerLevel="236" likingLevel="40" monsterId="4003020" bonusesId="320020"/>
+    <item id="81" companionId="3" name="闪电貂" phase="21" phaseName="剑来·后期" playerLevel="236" likingLevel="40" monsterId="4003021" bonusesId="320021"/>
+    <item id="82" companionId="3" name="闪电貂" phase="22" phaseName="入神坐照·前期" playerLevel="336" likingLevel="60" monsterId="4003022" bonusesId="320022"/>
+    <item id="83" companionId="3" name="闪电貂" phase="23" phaseName="入神坐照·中期" playerLevel="336" likingLevel="60" monsterId="4003023" bonusesId="320023"/>
+    <item id="84" companionId="3" name="闪电貂" phase="24" phaseName="入神坐照·后期" playerLevel="336" likingLevel="60" monsterId="4003024" bonusesId="320024"/>
+    <item id="85" companionId="3" name="闪电貂" phase="25" phaseName="羽化·前期" playerLevel="456" likingLevel="60" monsterId="4003025" bonusesId="320025"/>
+    <item id="86" companionId="3" name="闪电貂" phase="26" phaseName="羽化·中期" playerLevel="456" likingLevel="60" monsterId="4003026" bonusesId="320026"/>
+    <item id="87" companionId="3" name="闪电貂" phase="27" phaseName="羽化·后期" playerLevel="456" likingLevel="60" monsterId="4003027" bonusesId="320027"/>
+    <item id="88" companionId="3" name="闪电貂" phase="28" phaseName="返璞归真·前期" playerLevel="596" likingLevel="80" monsterId="4003028" bonusesId="320028"/>
+    <item id="89" companionId="3" name="闪电貂" phase="29" phaseName="返璞归真·中期" playerLevel="596" likingLevel="80" monsterId="4003029" bonusesId="320029"/>
+    <item id="90" companionId="3" name="闪电貂" phase="30" phaseName="返璞归真·后期" playerLevel="596" likingLevel="80" monsterId="4003030" bonusesId="320030"/>
+    <item id="91" companionId="4" name="快快" phase="1" phaseName="初出茅庐·前期" playerLevel="1" likingLevel="1" monsterId="4004001" bonusesId="320001"/>
+    <item id="92" companionId="4" name="快快" phase="2" phaseName="初出茅庐·中期" playerLevel="1" likingLevel="1" monsterId="4004002" bonusesId="320002"/>
+    <item id="93" companionId="4" name="快快" phase="3" phaseName="初出茅庐·后期" playerLevel="1" likingLevel="1" monsterId="4004003" bonusesId="320003"/>
+    <item id="94" companionId="4" name="快快" phase="4" phaseName="江湖小虾米·前期" playerLevel="15" likingLevel="1" monsterId="4004004" bonusesId="320004"/>
+    <item id="95" companionId="4" name="快快" phase="5" phaseName="江湖小虾米·中期" playerLevel="15" likingLevel="1" monsterId="4004005" bonusesId="320005"/>
+    <item id="96" companionId="4" name="快快" phase="6" phaseName="江湖小虾米·后期" playerLevel="15" likingLevel="1" monsterId="4004006" bonusesId="320006"/>
+    <item id="97" companionId="4" name="快快" phase="7" phaseName="少年歌行·前期" playerLevel="36" likingLevel="5" monsterId="4004007" bonusesId="320007"/>
+    <item id="98" companionId="4" name="快快" phase="8" phaseName="少年歌行·中期" playerLevel="36" likingLevel="5" monsterId="4004008" bonusesId="320008"/>
+    <item id="99" companionId="4" name="快快" phase="9" phaseName="少年歌行·后期" playerLevel="36" likingLevel="10" monsterId="4004009" bonusesId="320009"/>
+    <item id="100" companionId="4" name="快快" phase="10" phaseName="鲜衣怒马·前期" playerLevel="56" likingLevel="10" monsterId="4004010" bonusesId="320010"/>
+    <item id="101" companionId="4" name="快快" phase="11" phaseName="鲜衣怒马·中期" playerLevel="56" likingLevel="20" monsterId="4004011" bonusesId="320011"/>
+    <item id="102" companionId="4" name="快快" phase="12" phaseName="鲜衣怒马·后期" playerLevel="56" likingLevel="20" monsterId="4004012" bonusesId="320012"/>
+    <item id="103" companionId="4" name="快快" phase="13" phaseName="侠客行·前期" playerLevel="96" likingLevel="20" monsterId="4004013" bonusesId="320013"/>
+    <item id="104" companionId="4" name="快快" phase="14" phaseName="侠客行·中期" playerLevel="96" likingLevel="20" monsterId="4004014" bonusesId="320014"/>
+    <item id="105" companionId="4" name="快快" phase="15" phaseName="侠客行·后期" playerLevel="96" likingLevel="20" monsterId="4004015" bonusesId="320015"/>
+    <item id="106" companionId="4" name="快快" phase="16" phaseName="踏雪无痕·前期" playerLevel="156" likingLevel="40" monsterId="4004016" bonusesId="320016"/>
+    <item id="107" companionId="4" name="快快" phase="17" phaseName="踏雪无痕·中期" playerLevel="156" likingLevel="40" monsterId="4004017" bonusesId="320017"/>
+    <item id="108" companionId="4" name="快快" phase="18" phaseName="踏雪无痕·后期" playerLevel="156" likingLevel="40" monsterId="4004018" bonusesId="320018"/>
+    <item id="109" companionId="4" name="快快" phase="19" phaseName="剑来·前期" playerLevel="236" likingLevel="40" monsterId="4004019" bonusesId="320019"/>
+    <item id="110" companionId="4" name="快快" phase="20" phaseName="剑来·中期" playerLevel="236" likingLevel="40" monsterId="4004020" bonusesId="320020"/>
+    <item id="111" companionId="4" name="快快" phase="21" phaseName="剑来·后期" playerLevel="236" likingLevel="40" monsterId="4004021" bonusesId="320021"/>
+    <item id="112" companionId="4" name="快快" phase="22" phaseName="入神坐照·前期" playerLevel="336" likingLevel="60" monsterId="4004022" bonusesId="320022"/>
+    <item id="113" companionId="4" name="快快" phase="23" phaseName="入神坐照·中期" playerLevel="336" likingLevel="60" monsterId="4004023" bonusesId="320023"/>
+    <item id="114" companionId="4" name="快快" phase="24" phaseName="入神坐照·后期" playerLevel="336" likingLevel="60" monsterId="4004024" bonusesId="320024"/>
+    <item id="115" companionId="4" name="快快" phase="25" phaseName="羽化·前期" playerLevel="456" likingLevel="60" monsterId="4004025" bonusesId="320025"/>
+    <item id="116" companionId="4" name="快快" phase="26" phaseName="羽化·中期" playerLevel="456" likingLevel="60" monsterId="4004026" bonusesId="320026"/>
+    <item id="117" companionId="4" name="快快" phase="27" phaseName="羽化·后期" playerLevel="456" likingLevel="60" monsterId="4004027" bonusesId="320027"/>
+    <item id="118" companionId="4" name="快快" phase="28" phaseName="返璞归真·前期" playerLevel="596" likingLevel="80" monsterId="4004028" bonusesId="320028"/>
+    <item id="119" companionId="4" name="快快" phase="29" phaseName="返璞归真·中期" playerLevel="596" likingLevel="80" monsterId="4004029" bonusesId="320029"/>
+    <item id="120" companionId="4" name="快快" phase="30" phaseName="返璞归真·后期" playerLevel="596" likingLevel="80" monsterId="4004030" bonusesId="320030"/>
+    <item id="121" companionId="5" name="黑白双雕" phase="1" phaseName="初出茅庐·前期" playerLevel="1" likingLevel="1" monsterId="4005001" bonusesId="320001"/>
+    <item id="122" companionId="5" name="黑白双雕" phase="2" phaseName="初出茅庐·中期" playerLevel="1" likingLevel="1" monsterId="4005002" bonusesId="320002"/>
+    <item id="123" companionId="5" name="黑白双雕" phase="3" phaseName="初出茅庐·后期" playerLevel="1" likingLevel="1" monsterId="4005003" bonusesId="320003"/>
+    <item id="124" companionId="5" name="黑白双雕" phase="4" phaseName="江湖小虾米·前期" playerLevel="15" likingLevel="1" monsterId="4005004" bonusesId="320004"/>
+    <item id="125" companionId="5" name="黑白双雕" phase="5" phaseName="江湖小虾米·中期" playerLevel="15" likingLevel="1" monsterId="4005005" bonusesId="320005"/>
+    <item id="126" companionId="5" name="黑白双雕" phase="6" phaseName="江湖小虾米·后期" playerLevel="15" likingLevel="1" monsterId="4005006" bonusesId="320006"/>
+    <item id="127" companionId="5" name="黑白双雕" phase="7" phaseName="少年歌行·前期" playerLevel="36" likingLevel="5" monsterId="4005007" bonusesId="320007"/>
+    <item id="128" companionId="5" name="黑白双雕" phase="8" phaseName="少年歌行·中期" playerLevel="36" likingLevel="5" monsterId="4005008" bonusesId="320008"/>
+    <item id="129" companionId="5" name="黑白双雕" phase="9" phaseName="少年歌行·后期" playerLevel="36" likingLevel="10" monsterId="4005009" bonusesId="320009"/>
+    <item id="130" companionId="5" name="黑白双雕" phase="10" phaseName="鲜衣怒马·前期" playerLevel="56" likingLevel="10" monsterId="4005010" bonusesId="320010"/>
+    <item id="131" companionId="5" name="黑白双雕" phase="11" phaseName="鲜衣怒马·中期" playerLevel="56" likingLevel="20" monsterId="4005011" bonusesId="320011"/>
+    <item id="132" companionId="5" name="黑白双雕" phase="12" phaseName="鲜衣怒马·后期" playerLevel="56" likingLevel="20" monsterId="4005012" bonusesId="320012"/>
+    <item id="133" companionId="5" name="黑白双雕" phase="13" phaseName="侠客行·前期" playerLevel="96" likingLevel="20" monsterId="4005013" bonusesId="320013"/>
+    <item id="134" companionId="5" name="黑白双雕" phase="14" phaseName="侠客行·中期" playerLevel="96" likingLevel="20" monsterId="4005014" bonusesId="320014"/>
+    <item id="135" companionId="5" name="黑白双雕" phase="15" phaseName="侠客行·后期" playerLevel="96" likingLevel="20" monsterId="4005015" bonusesId="320015"/>
+    <item id="136" companionId="5" name="黑白双雕" phase="16" phaseName="踏雪无痕·前期" playerLevel="156" likingLevel="40" monsterId="4005016" bonusesId="320016"/>
+    <item id="137" companionId="5" name="黑白双雕" phase="17" phaseName="踏雪无痕·中期" playerLevel="156" likingLevel="40" monsterId="4005017" bonusesId="320017"/>
+    <item id="138" companionId="5" name="黑白双雕" phase="18" phaseName="踏雪无痕·后期" playerLevel="156" likingLevel="40" monsterId="4005018" bonusesId="320018"/>
+    <item id="139" companionId="5" name="黑白双雕" phase="19" phaseName="剑来·前期" playerLevel="236" likingLevel="40" monsterId="4005019" bonusesId="320019"/>
+    <item id="140" companionId="5" name="黑白双雕" phase="20" phaseName="剑来·中期" playerLevel="236" likingLevel="40" monsterId="4005020" bonusesId="320020"/>
+    <item id="141" companionId="5" name="黑白双雕" phase="21" phaseName="剑来·后期" playerLevel="236" likingLevel="40" monsterId="4005021" bonusesId="320021"/>
+    <item id="142" companionId="5" name="黑白双雕" phase="22" phaseName="入神坐照·前期" playerLevel="336" likingLevel="60" monsterId="4005022" bonusesId="320022"/>
+    <item id="143" companionId="5" name="黑白双雕" phase="23" phaseName="入神坐照·中期" playerLevel="336" likingLevel="60" monsterId="4005023" bonusesId="320023"/>
+    <item id="144" companionId="5" name="黑白双雕" phase="24" phaseName="入神坐照·后期" playerLevel="336" likingLevel="60" monsterId="4005024" bonusesId="320024"/>
+    <item id="145" companionId="5" name="黑白双雕" phase="25" phaseName="羽化·前期" playerLevel="456" likingLevel="60" monsterId="4005025" bonusesId="320025"/>
+    <item id="146" companionId="5" name="黑白双雕" phase="26" phaseName="羽化·中期" playerLevel="456" likingLevel="60" monsterId="4005026" bonusesId="320026"/>
+    <item id="147" companionId="5" name="黑白双雕" phase="27" phaseName="羽化·后期" playerLevel="456" likingLevel="60" monsterId="4005027" bonusesId="320027"/>
+    <item id="148" companionId="5" name="黑白双雕" phase="28" phaseName="返璞归真·前期" playerLevel="596" likingLevel="80" monsterId="4005028" bonusesId="320028"/>
+    <item id="149" companionId="5" name="黑白双雕" phase="29" phaseName="返璞归真·中期" playerLevel="596" likingLevel="80" monsterId="4005029" bonusesId="320029"/>
+    <item id="150" companionId="5" name="黑白双雕" phase="30" phaseName="返璞归真·后期" playerLevel="596" likingLevel="80" monsterId="4005030" bonusesId="320030"/>
+    <item id="151" companionId="6" name="火云邪驼" phase="1" phaseName="初出茅庐·前期" playerLevel="1" likingLevel="1" monsterId="4006001" bonusesId="320001"/>
+    <item id="152" companionId="6" name="火云邪驼" phase="2" phaseName="初出茅庐·中期" playerLevel="1" likingLevel="1" monsterId="4006002" bonusesId="320002"/>
+    <item id="153" companionId="6" name="火云邪驼" phase="3" phaseName="初出茅庐·后期" playerLevel="1" likingLevel="1" monsterId="4006003" bonusesId="320003"/>
+    <item id="154" companionId="6" name="火云邪驼" phase="4" phaseName="江湖小虾米·前期" playerLevel="15" likingLevel="1" monsterId="4006004" bonusesId="320004"/>
+    <item id="155" companionId="6" name="火云邪驼" phase="5" phaseName="江湖小虾米·中期" playerLevel="15" likingLevel="1" monsterId="4006005" bonusesId="320005"/>
+    <item id="156" companionId="6" name="火云邪驼" phase="6" phaseName="江湖小虾米·后期" playerLevel="15" likingLevel="1" monsterId="4006006" bonusesId="320006"/>
+    <item id="157" companionId="6" name="火云邪驼" phase="7" phaseName="少年歌行·前期" playerLevel="36" likingLevel="5" monsterId="4006007" bonusesId="320007"/>
+    <item id="158" companionId="6" name="火云邪驼" phase="8" phaseName="少年歌行·中期" playerLevel="36" likingLevel="5" monsterId="4006008" bonusesId="320008"/>
+    <item id="159" companionId="6" name="火云邪驼" phase="9" phaseName="少年歌行·后期" playerLevel="36" likingLevel="10" monsterId="4006009" bonusesId="320009"/>
+    <item id="160" companionId="6" name="火云邪驼" phase="10" phaseName="鲜衣怒马·前期" playerLevel="56" likingLevel="10" monsterId="4006010" bonusesId="320010"/>
+    <item id="161" companionId="6" name="火云邪驼" phase="11" phaseName="鲜衣怒马·中期" playerLevel="56" likingLevel="20" monsterId="4006011" bonusesId="320011"/>
+    <item id="162" companionId="6" name="火云邪驼" phase="12" phaseName="鲜衣怒马·后期" playerLevel="56" likingLevel="20" monsterId="4006012" bonusesId="320012"/>
+    <item id="163" companionId="6" name="火云邪驼" phase="13" phaseName="侠客行·前期" playerLevel="96" likingLevel="20" monsterId="4006013" bonusesId="320013"/>
+    <item id="164" companionId="6" name="火云邪驼" phase="14" phaseName="侠客行·中期" playerLevel="96" likingLevel="20" monsterId="4006014" bonusesId="320014"/>
+    <item id="165" companionId="6" name="火云邪驼" phase="15" phaseName="侠客行·后期" playerLevel="96" likingLevel="20" monsterId="4006015" bonusesId="320015"/>
+    <item id="166" companionId="6" name="火云邪驼" phase="16" phaseName="踏雪无痕·前期" playerLevel="156" likingLevel="40" monsterId="4006016" bonusesId="320016"/>
+    <item id="167" companionId="6" name="火云邪驼" phase="17" phaseName="踏雪无痕·中期" playerLevel="156" likingLevel="40" monsterId="4006017" bonusesId="320017"/>
+    <item id="168" companionId="6" name="火云邪驼" phase="18" phaseName="踏雪无痕·后期" playerLevel="156" likingLevel="40" monsterId="4006018" bonusesId="320018"/>
+    <item id="169" companionId="6" name="火云邪驼" phase="19" phaseName="剑来·前期" playerLevel="236" likingLevel="40" monsterId="4006019" bonusesId="320019"/>
+    <item id="170" companionId="6" name="火云邪驼" phase="20" phaseName="剑来·中期" playerLevel="236" likingLevel="40" monsterId="4006020" bonusesId="320020"/>
+    <item id="171" companionId="6" name="火云邪驼" phase="21" phaseName="剑来·后期" playerLevel="236" likingLevel="40" monsterId="4006021" bonusesId="320021"/>
+    <item id="172" companionId="6" name="火云邪驼" phase="22" phaseName="入神坐照·前期" playerLevel="336" likingLevel="60" monsterId="4006022" bonusesId="320022"/>
+    <item id="173" companionId="6" name="火云邪驼" phase="23" phaseName="入神坐照·中期" playerLevel="336" likingLevel="60" monsterId="4006023" bonusesId="320023"/>
+    <item id="174" companionId="6" name="火云邪驼" phase="24" phaseName="入神坐照·后期" playerLevel="336" likingLevel="60" monsterId="4006024" bonusesId="320024"/>
+    <item id="175" companionId="6" name="火云邪驼" phase="25" phaseName="羽化·前期" playerLevel="456" likingLevel="60" monsterId="4006025" bonusesId="320025"/>
+    <item id="176" companionId="6" name="火云邪驼" phase="26" phaseName="羽化·中期" playerLevel="456" likingLevel="60" monsterId="4006026" bonusesId="320026"/>
+    <item id="177" companionId="6" name="火云邪驼" phase="27" phaseName="羽化·后期" playerLevel="456" likingLevel="60" monsterId="4006027" bonusesId="320027"/>
+    <item id="178" companionId="6" name="火云邪驼" phase="28" phaseName="返璞归真·前期" playerLevel="596" likingLevel="80" monsterId="4006028" bonusesId="320028"/>
+    <item id="179" companionId="6" name="火云邪驼" phase="29" phaseName="返璞归真·中期" playerLevel="596" likingLevel="80" monsterId="4006029" bonusesId="320029"/>
+    <item id="180" companionId="6" name="火云邪驼" phase="30" phaseName="返璞归真·后期" playerLevel="596" likingLevel="80" monsterId="4006030" bonusesId="320030"/>
+    <item id="181" companionId="7" name="剑仙白猿" phase="1" phaseName="初出茅庐·前期" playerLevel="1" likingLevel="1" monsterId="4007001" bonusesId="320001"/>
+    <item id="182" companionId="7" name="剑仙白猿" phase="2" phaseName="初出茅庐·中期" playerLevel="1" likingLevel="1" monsterId="4007002" bonusesId="320002"/>
+    <item id="183" companionId="7" name="剑仙白猿" phase="3" phaseName="初出茅庐·后期" playerLevel="1" likingLevel="1" monsterId="4007003" bonusesId="320003"/>
+    <item id="184" companionId="7" name="剑仙白猿" phase="4" phaseName="江湖小虾米·前期" playerLevel="15" likingLevel="1" monsterId="4007004" bonusesId="320004"/>
+    <item id="185" companionId="7" name="剑仙白猿" phase="5" phaseName="江湖小虾米·中期" playerLevel="15" likingLevel="1" monsterId="4007005" bonusesId="320005"/>
+    <item id="186" companionId="7" name="剑仙白猿" phase="6" phaseName="江湖小虾米·后期" playerLevel="15" likingLevel="1" monsterId="4007006" bonusesId="320006"/>
+    <item id="187" companionId="7" name="剑仙白猿" phase="7" phaseName="少年歌行·前期" playerLevel="36" likingLevel="5" monsterId="4007007" bonusesId="320007"/>
+    <item id="188" companionId="7" name="剑仙白猿" phase="8" phaseName="少年歌行·中期" playerLevel="36" likingLevel="5" monsterId="4007008" bonusesId="320008"/>
+    <item id="189" companionId="7" name="剑仙白猿" phase="9" phaseName="少年歌行·后期" playerLevel="36" likingLevel="10" monsterId="4007009" bonusesId="320009"/>
+    <item id="190" companionId="7" name="剑仙白猿" phase="10" phaseName="鲜衣怒马·前期" playerLevel="56" likingLevel="10" monsterId="4007010" bonusesId="320010"/>
+    <item id="191" companionId="7" name="剑仙白猿" phase="11" phaseName="鲜衣怒马·中期" playerLevel="56" likingLevel="20" monsterId="4007011" bonusesId="320011"/>
+    <item id="192" companionId="7" name="剑仙白猿" phase="12" phaseName="鲜衣怒马·后期" playerLevel="56" likingLevel="20" monsterId="4007012" bonusesId="320012"/>
+    <item id="193" companionId="7" name="剑仙白猿" phase="13" phaseName="侠客行·前期" playerLevel="96" likingLevel="20" monsterId="4007013" bonusesId="320013"/>
+    <item id="194" companionId="7" name="剑仙白猿" phase="14" phaseName="侠客行·中期" playerLevel="96" likingLevel="20" monsterId="4007014" bonusesId="320014"/>
+    <item id="195" companionId="7" name="剑仙白猿" phase="15" phaseName="侠客行·后期" playerLevel="96" likingLevel="20" monsterId="4007015" bonusesId="320015"/>
+    <item id="196" companionId="7" name="剑仙白猿" phase="16" phaseName="踏雪无痕·前期" playerLevel="156" likingLevel="40" monsterId="4007016" bonusesId="320016"/>
+    <item id="197" companionId="7" name="剑仙白猿" phase="17" phaseName="踏雪无痕·中期" playerLevel="156" likingLevel="40" monsterId="4007017" bonusesId="320017"/>
+    <item id="198" companionId="7" name="剑仙白猿" phase="18" phaseName="踏雪无痕·后期" playerLevel="156" likingLevel="40" monsterId="4007018" bonusesId="320018"/>
+    <item id="199" companionId="7" name="剑仙白猿" phase="19" phaseName="剑来·前期" playerLevel="236" likingLevel="40" monsterId="4007019" bonusesId="320019"/>
+    <item id="200" companionId="7" name="剑仙白猿" phase="20" phaseName="剑来·中期" playerLevel="236" likingLevel="40" monsterId="4007020" bonusesId="320020"/>
+    <item id="201" companionId="7" name="剑仙白猿" phase="21" phaseName="剑来·后期" playerLevel="236" likingLevel="40" monsterId="4007021" bonusesId="320021"/>
+    <item id="202" companionId="7" name="剑仙白猿" phase="22" phaseName="入神坐照·前期" playerLevel="336" likingLevel="60" monsterId="4007022" bonusesId="320022"/>
+    <item id="203" companionId="7" name="剑仙白猿" phase="23" phaseName="入神坐照·中期" playerLevel="336" likingLevel="60" monsterId="4007023" bonusesId="320023"/>
+    <item id="204" companionId="7" name="剑仙白猿" phase="24" phaseName="入神坐照·后期" playerLevel="336" likingLevel="60" monsterId="4007024" bonusesId="320024"/>
+    <item id="205" companionId="7" name="剑仙白猿" phase="25" phaseName="羽化·前期" playerLevel="456" likingLevel="60" monsterId="4007025" bonusesId="320025"/>
+    <item id="206" companionId="7" name="剑仙白猿" phase="26" phaseName="羽化·中期" playerLevel="456" likingLevel="60" monsterId="4007026" bonusesId="320026"/>
+    <item id="207" companionId="7" name="剑仙白猿" phase="27" phaseName="羽化·后期" playerLevel="456" likingLevel="60" monsterId="4007027" bonusesId="320027"/>
+    <item id="208" companionId="7" name="剑仙白猿" phase="28" phaseName="返璞归真·前期" playerLevel="596" likingLevel="80" monsterId="4007028" bonusesId="320028"/>
+    <item id="209" companionId="7" name="剑仙白猿" phase="29" phaseName="返璞归真·中期" playerLevel="596" likingLevel="80" monsterId="4007029" bonusesId="320029"/>
+    <item id="210" companionId="7" name="剑仙白猿" phase="30" phaseName="返璞归真·后期" playerLevel="596" likingLevel="80" monsterId="4007030" bonusesId="320030"/>
+    <item id="211" companionId="8" name="雕兄" phase="1" phaseName="初出茅庐·前期" playerLevel="1" likingLevel="1" monsterId="4008001" bonusesId="320001"/>
+    <item id="212" companionId="8" name="雕兄" phase="2" phaseName="初出茅庐·中期" playerLevel="1" likingLevel="1" monsterId="4008002" bonusesId="320002"/>
+    <item id="213" companionId="8" name="雕兄" phase="3" phaseName="初出茅庐·后期" playerLevel="1" likingLevel="1" monsterId="4008003" bonusesId="320003"/>
+    <item id="214" companionId="8" name="雕兄" phase="4" phaseName="江湖小虾米·前期" playerLevel="15" likingLevel="1" monsterId="4008004" bonusesId="320004"/>
+    <item id="215" companionId="8" name="雕兄" phase="5" phaseName="江湖小虾米·中期" playerLevel="15" likingLevel="1" monsterId="4008005" bonusesId="320005"/>
+    <item id="216" companionId="8" name="雕兄" phase="6" phaseName="江湖小虾米·后期" playerLevel="15" likingLevel="1" monsterId="4008006" bonusesId="320006"/>
+    <item id="217" companionId="8" name="雕兄" phase="7" phaseName="少年歌行·前期" playerLevel="36" likingLevel="5" monsterId="4008007" bonusesId="320007"/>
+    <item id="218" companionId="8" name="雕兄" phase="8" phaseName="少年歌行·中期" playerLevel="36" likingLevel="5" monsterId="4008008" bonusesId="320008"/>
+    <item id="219" companionId="8" name="雕兄" phase="9" phaseName="少年歌行·后期" playerLevel="36" likingLevel="10" monsterId="4008009" bonusesId="320009"/>
+    <item id="220" companionId="8" name="雕兄" phase="10" phaseName="鲜衣怒马·前期" playerLevel="56" likingLevel="10" monsterId="4008010" bonusesId="320010"/>
+    <item id="221" companionId="8" name="雕兄" phase="11" phaseName="鲜衣怒马·中期" playerLevel="56" likingLevel="20" monsterId="4008011" bonusesId="320011"/>
+    <item id="222" companionId="8" name="雕兄" phase="12" phaseName="鲜衣怒马·后期" playerLevel="56" likingLevel="20" monsterId="4008012" bonusesId="320012"/>
+    <item id="223" companionId="8" name="雕兄" phase="13" phaseName="侠客行·前期" playerLevel="96" likingLevel="20" monsterId="4008013" bonusesId="320013"/>
+    <item id="224" companionId="8" name="雕兄" phase="14" phaseName="侠客行·中期" playerLevel="96" likingLevel="20" monsterId="4008014" bonusesId="320014"/>
+    <item id="225" companionId="8" name="雕兄" phase="15" phaseName="侠客行·后期" playerLevel="96" likingLevel="20" monsterId="4008015" bonusesId="320015"/>
+    <item id="226" companionId="8" name="雕兄" phase="16" phaseName="踏雪无痕·前期" playerLevel="156" likingLevel="40" monsterId="4008016" bonusesId="320016"/>
+    <item id="227" companionId="8" name="雕兄" phase="17" phaseName="踏雪无痕·中期" playerLevel="156" likingLevel="40" monsterId="4008017" bonusesId="320017"/>
+    <item id="228" companionId="8" name="雕兄" phase="18" phaseName="踏雪无痕·后期" playerLevel="156" likingLevel="40" monsterId="4008018" bonusesId="320018"/>
+    <item id="229" companionId="8" name="雕兄" phase="19" phaseName="剑来·前期" playerLevel="236" likingLevel="40" monsterId="4008019" bonusesId="320019"/>
+    <item id="230" companionId="8" name="雕兄" phase="20" phaseName="剑来·中期" playerLevel="236" likingLevel="40" monsterId="4008020" bonusesId="320020"/>
+    <item id="231" companionId="8" name="雕兄" phase="21" phaseName="剑来·后期" playerLevel="236" likingLevel="40" monsterId="4008021" bonusesId="320021"/>
+    <item id="232" companionId="8" name="雕兄" phase="22" phaseName="入神坐照·前期" playerLevel="336" likingLevel="60" monsterId="4008022" bonusesId="320022"/>
+    <item id="233" companionId="8" name="雕兄" phase="23" phaseName="入神坐照·中期" playerLevel="336" likingLevel="60" monsterId="4008023" bonusesId="320023"/>
+    <item id="234" companionId="8" name="雕兄" phase="24" phaseName="入神坐照·后期" playerLevel="336" likingLevel="60" monsterId="4008024" bonusesId="320024"/>
+    <item id="235" companionId="8" name="雕兄" phase="25" phaseName="羽化·前期" playerLevel="456" likingLevel="60" monsterId="4008025" bonusesId="320025"/>
+    <item id="236" companionId="8" name="雕兄" phase="26" phaseName="羽化·中期" playerLevel="456" likingLevel="60" monsterId="4008026" bonusesId="320026"/>
+    <item id="237" companionId="8" name="雕兄" phase="27" phaseName="羽化·后期" playerLevel="456" likingLevel="60" monsterId="4008027" bonusesId="320027"/>
+    <item id="238" companionId="8" name="雕兄" phase="28" phaseName="返璞归真·前期" playerLevel="596" likingLevel="80" monsterId="4008028" bonusesId="320028"/>
+    <item id="239" companionId="8" name="雕兄" phase="29" phaseName="返璞归真·中期" playerLevel="596" likingLevel="80" monsterId="4008029" bonusesId="320029"/>
+    <item id="240" companionId="8" name="雕兄" phase="30" phaseName="返璞归真·后期" playerLevel="596" likingLevel="80" monsterId="4008030" bonusesId="320030"/>
+    <item id="241" companionId="9" name="九尾灵狐" phase="1" phaseName="初出茅庐·前期" playerLevel="1" likingLevel="1" monsterId="4009001" bonusesId="320001"/>
+    <item id="242" companionId="9" name="九尾灵狐" phase="2" phaseName="初出茅庐·中期" playerLevel="1" likingLevel="1" monsterId="4009002" bonusesId="320002"/>
+    <item id="243" companionId="9" name="九尾灵狐" phase="3" phaseName="初出茅庐·后期" playerLevel="1" likingLevel="1" monsterId="4009003" bonusesId="320003"/>
+    <item id="244" companionId="9" name="九尾灵狐" phase="4" phaseName="江湖小虾米·前期" playerLevel="15" likingLevel="1" monsterId="4009004" bonusesId="320004"/>
+    <item id="245" companionId="9" name="九尾灵狐" phase="5" phaseName="江湖小虾米·中期" playerLevel="15" likingLevel="1" monsterId="4009005" bonusesId="320005"/>
+    <item id="246" companionId="9" name="九尾灵狐" phase="6" phaseName="江湖小虾米·后期" playerLevel="15" likingLevel="1" monsterId="4009006" bonusesId="320006"/>
+    <item id="247" companionId="9" name="九尾灵狐" phase="7" phaseName="少年歌行·前期" playerLevel="36" likingLevel="5" monsterId="4009007" bonusesId="320007"/>
+    <item id="248" companionId="9" name="九尾灵狐" phase="8" phaseName="少年歌行·中期" playerLevel="36" likingLevel="5" monsterId="4009008" bonusesId="320008"/>
+    <item id="249" companionId="9" name="九尾灵狐" phase="9" phaseName="少年歌行·后期" playerLevel="36" likingLevel="10" monsterId="4009009" bonusesId="320009"/>
+    <item id="250" companionId="9" name="九尾灵狐" phase="10" phaseName="鲜衣怒马·前期" playerLevel="56" likingLevel="10" monsterId="4009010" bonusesId="320010"/>
+    <item id="251" companionId="9" name="九尾灵狐" phase="11" phaseName="鲜衣怒马·中期" playerLevel="56" likingLevel="20" monsterId="4009011" bonusesId="320011"/>
+    <item id="252" companionId="9" name="九尾灵狐" phase="12" phaseName="鲜衣怒马·后期" playerLevel="56" likingLevel="20" monsterId="4009012" bonusesId="320012"/>
+    <item id="253" companionId="9" name="九尾灵狐" phase="13" phaseName="侠客行·前期" playerLevel="96" likingLevel="20" monsterId="4009013" bonusesId="320013"/>
+    <item id="254" companionId="9" name="九尾灵狐" phase="14" phaseName="侠客行·中期" playerLevel="96" likingLevel="20" monsterId="4009014" bonusesId="320014"/>
+    <item id="255" companionId="9" name="九尾灵狐" phase="15" phaseName="侠客行·后期" playerLevel="96" likingLevel="20" monsterId="4009015" bonusesId="320015"/>
+    <item id="256" companionId="9" name="九尾灵狐" phase="16" phaseName="踏雪无痕·前期" playerLevel="156" likingLevel="40" monsterId="4009016" bonusesId="320016"/>
+    <item id="257" companionId="9" name="九尾灵狐" phase="17" phaseName="踏雪无痕·中期" playerLevel="156" likingLevel="40" monsterId="4009017" bonusesId="320017"/>
+    <item id="258" companionId="9" name="九尾灵狐" phase="18" phaseName="踏雪无痕·后期" playerLevel="156" likingLevel="40" monsterId="4009018" bonusesId="320018"/>
+    <item id="259" companionId="9" name="九尾灵狐" phase="19" phaseName="剑来·前期" playerLevel="236" likingLevel="40" monsterId="4009019" bonusesId="320019"/>
+    <item id="260" companionId="9" name="九尾灵狐" phase="20" phaseName="剑来·中期" playerLevel="236" likingLevel="40" monsterId="4009020" bonusesId="320020"/>
+    <item id="261" companionId="9" name="九尾灵狐" phase="21" phaseName="剑来·后期" playerLevel="236" likingLevel="40" monsterId="4009021" bonusesId="320021"/>
+    <item id="262" companionId="9" name="九尾灵狐" phase="22" phaseName="入神坐照·前期" playerLevel="336" likingLevel="60" monsterId="4009022" bonusesId="320022"/>
+    <item id="263" companionId="9" name="九尾灵狐" phase="23" phaseName="入神坐照·中期" playerLevel="336" likingLevel="60" monsterId="4009023" bonusesId="320023"/>
+    <item id="264" companionId="9" name="九尾灵狐" phase="24" phaseName="入神坐照·后期" playerLevel="336" likingLevel="60" monsterId="4009024" bonusesId="320024"/>
+    <item id="265" companionId="9" name="九尾灵狐" phase="25" phaseName="羽化·前期" playerLevel="456" likingLevel="60" monsterId="4009025" bonusesId="320025"/>
+    <item id="266" companionId="9" name="九尾灵狐" phase="26" phaseName="羽化·中期" playerLevel="456" likingLevel="60" monsterId="4009026" bonusesId="320026"/>
+    <item id="267" companionId="9" name="九尾灵狐" phase="27" phaseName="羽化·后期" playerLevel="456" likingLevel="60" monsterId="4009027" bonusesId="320027"/>
+    <item id="268" companionId="9" name="九尾灵狐" phase="28" phaseName="返璞归真·前期" playerLevel="596" likingLevel="80" monsterId="4009028" bonusesId="320028"/>
+    <item id="269" companionId="9" name="九尾灵狐" phase="29" phaseName="返璞归真·中期" playerLevel="596" likingLevel="80" monsterId="4009029" bonusesId="320029"/>
+    <item id="270" companionId="9" name="九尾灵狐" phase="30" phaseName="返璞归真·后期" playerLevel="596" likingLevel="80" monsterId="4009030" bonusesId="320030"/>
+    <item id="271" companionId="10" name="熊猫族长" phase="1" phaseName="初出茅庐·前期" playerLevel="1" likingLevel="1" monsterId="4010001" bonusesId="320001"/>
+    <item id="272" companionId="10" name="熊猫族长" phase="2" phaseName="初出茅庐·中期" playerLevel="1" likingLevel="1" monsterId="4010002" bonusesId="320002"/>
+    <item id="273" companionId="10" name="熊猫族长" phase="3" phaseName="初出茅庐·后期" playerLevel="1" likingLevel="1" monsterId="4010003" bonusesId="320003"/>
+    <item id="274" companionId="10" name="熊猫族长" phase="4" phaseName="江湖小虾米·前期" playerLevel="15" likingLevel="1" monsterId="4010004" bonusesId="320004"/>
+    <item id="275" companionId="10" name="熊猫族长" phase="5" phaseName="江湖小虾米·中期" playerLevel="15" likingLevel="1" monsterId="4010005" bonusesId="320005"/>
+    <item id="276" companionId="10" name="熊猫族长" phase="6" phaseName="江湖小虾米·后期" playerLevel="15" likingLevel="1" monsterId="4010006" bonusesId="320006"/>
+    <item id="277" companionId="10" name="熊猫族长" phase="7" phaseName="少年歌行·前期" playerLevel="36" likingLevel="5" monsterId="4010007" bonusesId="320007"/>
+    <item id="278" companionId="10" name="熊猫族长" phase="8" phaseName="少年歌行·中期" playerLevel="36" likingLevel="5" monsterId="4010008" bonusesId="320008"/>
+    <item id="279" companionId="10" name="熊猫族长" phase="9" phaseName="少年歌行·后期" playerLevel="36" likingLevel="10" monsterId="4010009" bonusesId="320009"/>
+    <item id="280" companionId="10" name="熊猫族长" phase="10" phaseName="鲜衣怒马·前期" playerLevel="56" likingLevel="10" monsterId="4010010" bonusesId="320010"/>
+    <item id="281" companionId="10" name="熊猫族长" phase="11" phaseName="鲜衣怒马·中期" playerLevel="56" likingLevel="20" monsterId="4010011" bonusesId="320011"/>
+    <item id="282" companionId="10" name="熊猫族长" phase="12" phaseName="鲜衣怒马·后期" playerLevel="56" likingLevel="20" monsterId="4010012" bonusesId="320012"/>
+    <item id="283" companionId="10" name="熊猫族长" phase="13" phaseName="侠客行·前期" playerLevel="96" likingLevel="20" monsterId="4010013" bonusesId="320013"/>
+    <item id="284" companionId="10" name="熊猫族长" phase="14" phaseName="侠客行·中期" playerLevel="96" likingLevel="20" monsterId="4010014" bonusesId="320014"/>
+    <item id="285" companionId="10" name="熊猫族长" phase="15" phaseName="侠客行·后期" playerLevel="96" likingLevel="20" monsterId="4010015" bonusesId="320015"/>
+    <item id="286" companionId="10" name="熊猫族长" phase="16" phaseName="踏雪无痕·前期" playerLevel="156" likingLevel="40" monsterId="4010016" bonusesId="320016"/>
+    <item id="287" companionId="10" name="熊猫族长" phase="17" phaseName="踏雪无痕·中期" playerLevel="156" likingLevel="40" monsterId="4010017" bonusesId="320017"/>
+    <item id="288" companionId="10" name="熊猫族长" phase="18" phaseName="踏雪无痕·后期" playerLevel="156" likingLevel="40" monsterId="4010018" bonusesId="320018"/>
+    <item id="289" companionId="10" name="熊猫族长" phase="19" phaseName="剑来·前期" playerLevel="236" likingLevel="40" monsterId="4010019" bonusesId="320019"/>
+    <item id="290" companionId="10" name="熊猫族长" phase="20" phaseName="剑来·中期" playerLevel="236" likingLevel="40" monsterId="4010020" bonusesId="320020"/>
+    <item id="291" companionId="10" name="熊猫族长" phase="21" phaseName="剑来·后期" playerLevel="236" likingLevel="40" monsterId="4010021" bonusesId="320021"/>
+    <item id="292" companionId="10" name="熊猫族长" phase="22" phaseName="入神坐照·前期" playerLevel="336" likingLevel="60" monsterId="4010022" bonusesId="320022"/>
+    <item id="293" companionId="10" name="熊猫族长" phase="23" phaseName="入神坐照·中期" playerLevel="336" likingLevel="60" monsterId="4010023" bonusesId="320023"/>
+    <item id="294" companionId="10" name="熊猫族长" phase="24" phaseName="入神坐照·后期" playerLevel="336" likingLevel="60" monsterId="4010024" bonusesId="320024"/>
+    <item id="295" companionId="10" name="熊猫族长" phase="25" phaseName="羽化·前期" playerLevel="456" likingLevel="60" monsterId="4010025" bonusesId="320025"/>
+    <item id="296" companionId="10" name="熊猫族长" phase="26" phaseName="羽化·中期" playerLevel="456" likingLevel="60" monsterId="4010026" bonusesId="320026"/>
+    <item id="297" companionId="10" name="熊猫族长" phase="27" phaseName="羽化·后期" playerLevel="456" likingLevel="60" monsterId="4010027" bonusesId="320027"/>
+    <item id="298" companionId="10" name="熊猫族长" phase="28" phaseName="返璞归真·前期" playerLevel="596" likingLevel="80" monsterId="4010028" bonusesId="320028"/>
+    <item id="299" companionId="10" name="熊猫族长" phase="29" phaseName="返璞归真·中期" playerLevel="596" likingLevel="80" monsterId="4010029" bonusesId="320029"/>
+    <item id="300" companionId="10" name="熊猫族长" phase="30" phaseName="返璞归真·后期" playerLevel="596" likingLevel="80" monsterId="4010030" bonusesId="320030"/>
+  </duel>
+  <skin>
+    <item id="10001" modelId="1101" name="帅气的皮肤" companionId="1" icon="a" quality="1" attrValuePer="20,20,20,20,20,20,20,20,20,20,20,20,20,20,20" unlockItemId="120001" unlockItemCount="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" unlockDesc="运营活动获得"/>
+  </skin>
+  <attr>
+    <item id="1" name="生命"/>
+    <item id="2" name="攻击"/>
+    <item id="3" name="防御"/>
+    <item id="4" name="敏捷"/>
+    <item id="5" name="连击"/>
+    <item id="6" name="反击"/>
+    <item id="7" name="暴击"/>
+    <item id="8" name="闪避"/>
+    <item id="9" name="吸血"/>
+    <item id="10" name="击晕"/>
+    <item id="11" name="抗连击"/>
+    <item id="12" name="抗反击"/>
+    <item id="13" name="抗暴击"/>
+    <item id="14" name="抗闪避"/>
+    <item id="15" name="抗吸血"/>
+    <item id="16" name="抗击晕"/>
+    <item id="17" name="最终增伤"/>
+    <item id="18" name="最终减伤"/>
+    <item id="19" name="强化侠侣"/>
+    <item id="20" name="强化绝学伤害"/>
+    <item id="21" name="生命百分比"/>
+    <item id="22" name="攻击百分比"/>
+    <item id="23" name="防御百分比"/>
+  </attr>
+</root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2,2">
+  <displayList>
+    <loader3D id="n0_jl2e" name="loader_spine_mount" xy="1,2" pivot="0.5,1" anchor="true" size="2,2" animation="" skin="" loop="true"/>
+    <loader3D id="n1_jl2e" name="loader_spine_role" xy="1,2" pivot="0.5,1" anchor="true" size="2,2" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

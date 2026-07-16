@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,800">
+  <displayList>
+    <component id="n25_gxp4" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="375,350" pivot="0.5,1" anchor="true" scale="1.5,1.5"/>
+    <image id="n14_ehs5" name="n14" src="ehs5b" fileName="giftgroup/frame_zhigoulibaodiban.png" xy="-35,61"/>
+    <image id="n31_gxp4" name="pic_book" src="gxp412" fileName="giftgroup/pic_mijicangzhen.png" xy="114,-173"/>
+    <image id="n24_gxp4" name="n24" src="gxp410" fileName="giftgroup/frame_title.png" xy="29,69"/>
+    <text id="n26_gxp4" name="label_title" xy="91,118" size="568,121" font="ui://27utqbizps391v" fontSize="94" color="#ffae5a" vAlign="middle" strokeColor="#a66118" strokeSize="3" text="玉璧枸杞礼包">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n27_gxp4" name="label_desc" xy="155,229" size="194,87" font="ui://27utqbizps391v" fontSize="66" color="#fff7e1" align="right" vAlign="middle" italic="true" strokeColor="#dd8223" strokeSize="3" text="1100%">
+      <relation target="n28_gxp4" sidePair="right-left"/>
+    </text>
+    <text id="n28_gxp4" name="label_desc1" xy="350,239" size="212,69" font="ui://27utqbizps391v" fontSize="52" color="#ffa33b" vAlign="middle" italic="true" strokeColor="#d35f00" strokeSize="3" text="高额返利"/>
+    <list id="n11_cjmr" name="list_item" xy="115,350" size="520,100" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="40" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <text id="n12_ut5y" name="label_time" xy="370,490" size="10,32" fontSize="22" color="#c95252" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n17_ehs5" name="btn_pay" src="ehs5f" fileName="btn_paygroup.xml" pkg="27utqbiz" xy="248,542">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n32_t09v" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="468,492" visible="false"/>
+    <component id="n15_ehs5" name="btn_arrowbigL" src="ehs5d" fileName="btn_arrowbig.xml" pkg="27utqbiz" xy="20,372"/>
+    <component id="n16_ehs5" name="btn_arrowbigR" src="ehs5d" fileName="btn_arrowbig.xml" pkg="27utqbiz" xy="692,372" scale="-1,1"/>
+    <list id="n18_ehs5" name="list_group" xy="0,680" size="750,54" layout="flow_hz" scroll="horizontal" colGap="40" defaultItem="ui://yt4pdbecehs5c" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <component id="n13_ehs5" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="615,60"/>
+    <list id="n19_xht3" name="list_point" xy="0,800" size="750,50" group="n22_xht3" layout="flow_hz" scroll="horizontal" defaultItem="ui://yt4pdbecxht3g" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <component id="n20_xht3" name="btn_arrowsmallL" src="ehs5e" fileName="giftgroup/btn_arrowsmall.xml" xy="115,825" pivot="0.5,0.5" anchor="true" group="n22_xht3"/>
+    <component id="n21_xht3" name="btn_arrowsmallR" src="ehs5e" fileName="giftgroup/btn_arrowsmall.xml" xy="635,825" pivot="0.5,0.5" anchor="true" group="n22_xht3" scale="-1,1"/>
+    <group id="n22_xht3" name="group_point" xy="0,800" size="750,50" advanced="true"/>
+  </displayList>
+</component>

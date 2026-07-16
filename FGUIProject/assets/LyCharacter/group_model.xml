@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="663,993" designImageOffsetX="-336" designImageOffsetY="-409">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n65_ar1l" name="n65" src="ar1l1s" fileName="res/bg_baixianglou1.png" xy="9,21"/>
+    <image id="n71_psu4" name="n71" src="psu42r" fileName="res1/btn_biaoqian3.png" xy="50,446"/>
+    <image id="n69_psu4" name="n69" src="psu42o" fileName="res1/frame_baixiangloudiban.png" xy="10,534"/>
+    <loader3D id="n29_ilda" name="loader_spine" xy="321,335" size="20,20" scale="0.8,0.8" animation="" skin="" loop="true"/>
+    <text id="n44_ilda" name="label_name" xy="230,364" size="202,42" font="ui://27utqbizps391v" fontSize="30" color="#47443f" align="center" autoSize="none" autoClearText="true" text="武林高手"/>
+    <text id="n45_ilda" name="label_attr1" xy="134,410" size="395,34" fontSize="24" color="#47443f" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="攻击特效"/>
+    <richtext id="n46_ilda" name="label_attr2" xy="47,444" size="568,34" fontSize="24" color="#47443f" align="center" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="第二条属性"/>
+    <list id="n35_ilda" name="list_activity" xy="331,672" pivot="0.5,0.5" anchor="true" size="584,219" scale="0.94,1" layout="flow_hz" overflow="scroll" lineGap="16" colGap="21" defaultItem="ui://li7lbnd9ilda8" autoClearItems="true">
+      <item icon="ui://27utqbizsnx0z5"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n43_ilda" name="label_syz" xy="143,913" size="107,42" group="n42_ilda" font="ui://27utqbizps391v" fontSize="30" color="#7a7a7a" text="使用中1"/>
+    <component id="n52_p30y" name="btn_alter" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="108,910" size="188,53" group="n42_ilda">
+      <Button title="使用1" titleFontSize="30"/>
+    </component>
+    <component id="n58_ar1l" name="btn_upLevel" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="380,910" size="188,53" group="n42_ilda">
+      <Button title="升级1" titleFontSize="30"/>
+    </component>
+    <component id="n66_i2m0" name="group_needItem" src="i2m029" fileName="group_needItem.xml" xy="414,865" group="n42_ilda"/>
+    <group id="n42_ilda" name="n42" xy="108,865" size="460,98"/>
+    <component id="n68_psu4" name="btn_modelActivity" src="psu42i" fileName="btn_common1.xml" xy="231,479">
+      <Button checked="true" icon="ui://li7lbnd9psu42p" controller="c1" page="0"/>
+    </component>
+    <component id="n70_psu4" name="btn_modelSuit" src="psu42i" fileName="btn_common1.xml" xy="347,479">
+      <Button icon="ui://li7lbnd9psu42q" controller="c1" page="1"/>
+    </component>
+    <text id="n74_hzwj" name="n74" xy="78,484" size="92,32" fontSize="22" color="#47443f" vAlign="middle" underline="true" text="累计加成"/>
+    <component id="n75_hzwj" name="btn_attr" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="0,449" size="104,100"/>
+  </displayList>
+</component>

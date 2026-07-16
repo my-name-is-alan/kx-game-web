@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "e7c47856-3918-4d2e-9a36-67c2034cf8cc",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "e7c47856-3918-4d2e-9a36-67c2034cf8cc@6c48a",
+      "displayName": "dy_hong_mingyuexin",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e7c47856-3918-4d2e-9a36-67c2034cf8cc",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": true,
+    "redirect": "e7c47856-3918-4d2e-9a36-67c2034cf8cc@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "64GrRo595FX43Kk7ckKU9U"
+    }
+  }
+}

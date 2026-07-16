@@ -1,0 +1,55 @@
+
+ch_wulinhaojie.png
+size: 514,514
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 2, 40
+  size: 510, 140
+  orig: 510, 140
+  offset: 0, 0
+  index: -1
+di2
+  rotate: false
+  xy: 219, 454
+  size: 236, 58
+  orig: 244, 77
+  offset: 2, 1
+  index: -1
+gd_1
+  rotate: false
+  xy: 2, 492
+  size: 20, 20
+  orig: 26, 26
+  offset: 2, 3
+  index: -1
+guangxiao
+  rotate: false
+  xy: 2, 182
+  size: 474, 115
+  orig: 478, 222
+  offset: 1, 54
+  index: -1
+heye
+  rotate: false
+  xy: 2, 299
+  size: 323, 77
+  orig: 323, 77
+  offset: 0, 0
+  index: -1
+shang
+  rotate: false
+  xy: 2, 378
+  size: 267, 74
+  orig: 288, 78
+  offset: 10, 1
+  index: -1
+shuimian_fanguang
+  rotate: false
+  xy: 24, 465
+  size: 193, 47
+  orig: 193, 47
+  offset: 0, 0
+  index: -1

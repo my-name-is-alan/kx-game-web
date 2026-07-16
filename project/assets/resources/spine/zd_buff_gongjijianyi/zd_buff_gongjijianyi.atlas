@@ -1,0 +1,97 @@
+
+zd_buff_gongjijianyi.png
+size: 1564,738
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/wx_jy_bz/wx_jy_bz_00010
+  rotate: false
+  xy: 2, 334
+  size: 403, 402
+  orig: 450, 450
+  offset: 27, 24
+  index: -1
+images/wx_jy_bz/wx_jy_bz_00012
+  rotate: true
+  xy: 407, 347
+  size: 389, 393
+  orig: 450, 450
+  offset: 34, 30
+  index: -1
+images/wx_jy_bz/wx_jy_bz_00014
+  rotate: false
+  xy: 802, 354
+  size: 383, 382
+  orig: 450, 450
+  offset: 37, 34
+  index: -1
+images/wx_jy_bz/wx_jy_bz_00016
+  rotate: false
+  xy: 1187, 360
+  size: 373, 376
+  orig: 450, 450
+  offset: 40, 37
+  index: -1
+images/wx_jy_bz/wx_jy_bz_00018
+  rotate: false
+  xy: 1187, 2
+  size: 375, 356
+  orig: 450, 450
+  offset: 50, 47
+  index: -1
+images/wx_jy_bz/wx_jy_bz_00020
+  rotate: false
+  xy: 802, 8
+  size: 381, 344
+  orig: 450, 450
+  offset: 49, 52
+  index: -1
+images/wx_jy_bz/wx_jy_bz_00022
+  rotate: false
+  xy: 407, 18
+  size: 350, 327
+  orig: 450, 450
+  offset: 69, 57
+  index: -1
+images/wx_jy_j/wx_jy_j_00000
+  rotate: false
+  xy: 137, 95
+  size: 47, 152
+  orig: 120, 220
+  offset: 37, 34
+  index: -1
+images/wx_jy_j/wx_jy_j_00002
+  rotate: true
+  xy: 137, 41
+  size: 52, 164
+  orig: 120, 220
+  offset: 32, 34
+  index: -1
+images/wx_jy_j/wx_jy_j_00004
+  rotate: false
+  xy: 70, 76
+  size: 65, 171
+  orig: 120, 220
+  offset: 25, 34
+  index: -1
+images/wx_jy_j/wx_jy_j_00006
+  rotate: false
+  xy: 2, 76
+  size: 66, 171
+  orig: 120, 220
+  offset: 25, 34
+  index: -1
+images/wx_jy_j/wx_jy_j_00008
+  rotate: false
+  xy: 186, 163
+  size: 67, 169
+  orig: 120, 220
+  offset: 25, 34
+  index: -1
+images/wx_jy_j/wx_jy_j_00010
+  rotate: true
+  xy: 2, 249
+  size: 83, 182
+  orig: 120, 220
+  offset: 17, 29
+  index: -1

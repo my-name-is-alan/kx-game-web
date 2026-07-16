@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,175" designImageOffsetX="-41" designImageOffsetY="-709">
+  <displayList>
+    <image id="n10_i2mk" name="n10" src="i2mkao" fileName="res2/frame_renwutiao2.png" xy="0,34"/>
+    <list id="n12_i2mk" name="list_item" xy="343,52" size="102,100" layout="row" scroll="horizontal" colGap="14" defaultItem="ui://eawofj71i2mkap" autoClearItems="true">
+      <item/>
+    </list>
+    <image id="n13_i2mk" name="img_gray1" src="ef0l2r" fileName="ui/frame_shujindutiao.png" pkg="27utqbiz" xy="115,43" size="20,86" group="n16_i2mk"/>
+    <image id="n23_i2mk" name="img_gray2" src="ef0l2r" fileName="ui/frame_shujindutiao.png" pkg="27utqbiz" xy="115,123" size="20,86" group="n16_i2mk"/>
+    <image id="n15_i2mk" name="bg2" src="ef0l2n" fileName="ui/frame_jianglijindukuai2.png" pkg="27utqbiz" xy="81,55" size="88,88" group="n16_i2mk" aspect="true"/>
+    <group id="n16_i2mk" name="group_gray" xy="81,43" size="88,166" advanced="true"/>
+    <image id="n17_i2mk" name="img_yellow1" src="ef0l2s" fileName="ui/frame_shujindutiao2.png" pkg="27utqbiz" xy="115,43" size="20,86" group="n20_i2mk"/>
+    <image id="n18_i2mk" name="img_yellow2" src="ef0l2s" fileName="ui/frame_shujindutiao2.png" pkg="27utqbiz" xy="115,123" size="20,86" group="n20_i2mk"/>
+    <image id="n19_i2mk" name="bg1" src="ef0l2m" fileName="ui/frame_jianglijindukuai.png" pkg="27utqbiz" xy="81,55" size="88,88" group="n20_i2mk" aspect="true"/>
+    <group id="n20_i2mk" name="group_yellow" xy="81,43" size="88,166" visible="false" advanced="true"/>
+    <text id="n21_i2mk" name="label_consumption" xy="94,73" size="62,50" fontSize="26" color="#ffefc9" align="center" vAlign="middle" autoSize="none" strokeColor="#54380f" text="122"/>
+    <image id="n24_i2mk" name="n24" src="i2mkay" fileName="res2/frame_qipao.png" xy="153,0" group="n27_i2mk"/>
+    <text id="n25_i2mk" name="label_str29" xy="153,11" size="92,29" group="n27_i2mk" font="ui://27utqbizps391v" fontSize="20" color="#c39e4c" align="center" vAlign="middle" autoSize="none" text="当前进度"/>
+    <text id="n26_i2mk" name="label_need" xy="153,35" size="92,35" group="n27_i2mk" fontSize="25" color="#c39e4c" align="center" vAlign="middle" autoSize="none" text="321"/>
+    <group id="n27_i2mk" name="group_bubble" xy="153,0" size="92,78" advanced="true"/>
+    <component id="n28_qgq7" name="group_box" src="i2mkap" fileName="groupItem_lock.xml" xy="449,52"/>
+    <graph id="n29_qgq7" name="btn_get" xy="236,42" size="424,119" type="rect" lineSize="0" fillColor="#00ffffff"/>
+  </displayList>
+</component>

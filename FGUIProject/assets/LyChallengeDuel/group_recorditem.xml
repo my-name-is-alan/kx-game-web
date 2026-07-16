@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="648,158">
+  <displayList>
+    <image id="n18_cxwh" name="n18" src="cxwhp" fileName="res/frame_doufadi.png" xy="0,0"/>
+    <component id="n17_pm6p" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="30,29"/>
+    <richtext id="n11_ofdw" name="label_name" xy="156,40" size="172,34" fontSize="24" color="#16191a" vAlign="middle" ubb="true" text="啊实打实大苏打"/>
+    <text id="n6_f2ag" name="label_score" xy="156,93" size="10,34" fontSize="24" color="#cc5f57" vAlign="middle" text=""/>
+    <text id="n5_f2ag" name="label_result" xy="156,93" size="10,34" fontSize="24" color="#5180a6" vAlign="middle" text=""/>
+    <text id="n25_cxwh" name="label_time" xy="420,93" size="10,34" fontSize="24" color="#5b9f57" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n12_ofdw" name="n12" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="335,8"/>
+    <text id="n13_ofdw" name="label_power" xy="387,24" size="10,55" font="ui://27utqbizvkas4q" fontSize="32" vAlign="middle" letterSpacing="-15" text=""/>
+    <component id="n21_cxwh" name="btn_challenge" src="cxwhw" fileName="btn_challenge.xml" xy="529,50"/>
+    <loader id="n15_ofdw" name="loader_need" xy="547,17" size="40,40" fill="scaleFree"/>
+    <text id="n16_ofdw" name="label_count" xy="591,24" size="10,29" fontSize="20" color="#b24444" vAlign="middle" text=""/>
+    <image id="n19_cxwh" name="img_lost" src="cxwho" fileName="res/frame_bai.png" xy="97,7"/>
+    <image id="n20_cxwh" name="img_win" src="cxwht" fileName="res/frame_sheng.png" xy="97,7"/>
+    <image id="n22_cxwh" name="img_bedo" src="cxwhr" fileName="res/frame_fangshou.png" xy="569,4"/>
+    <image id="n23_cxwh" name="img_selfdo" src="cxwhu" fileName="res/frame_tiaozhan.png" xy="569,4"/>
+    <image id="n24_cxwh" name="n24" src="cxwhx" fileName="res/frame_fengexian.png" xy="158,81"/>
+  </displayList>
+</component>

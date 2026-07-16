@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" opaque="false">
+  <displayList>
+    <graph id="n5_qtug" name="graph_mask" xy="0,0" size="750,1334" type="rect" lineColor="#00000000" fillColor="#00000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n0_myrs" name="group_detail" src="myrs2" fileName="group_detail.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n4_qibp" name="group_guide" src="qibp4" fileName="group_hand.xml" xy="0,0" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n7_ro68" name="group_guideforce" src="ro686" fileName="group_handforce.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n8_ro68" name="img_hand" src="qibp5" fileName="res/img_s.png" xy="324,-200" pivot="0.089,0.161" anchor="true" visible="false"/>
+    <loader3D id="n9_uev5" name="loader_spine_hand" xy="374,-150" size="2,2" touchable="false" animation="" skin="" loop="true"/>
+    <graph id="n11_uev5" name="graph_hole_clip1" xy="325,-350" pivot="1,0.5" anchor="true" size="100,100" type="rect" lineColor="#03000000" fillColor="#03ffffff"/>
+    <graph id="n12_uev5" name="graph_hole_clip2" xy="375,-400" pivot="0.5,1" anchor="true" size="100,100" type="rect" lineColor="#03000000" fillColor="#03ffffff"/>
+    <graph id="n13_uev5" name="graph_hole_clip3" xy="425,-350" pivot="0,0.5" anchor="true" size="100,100" type="rect" lineColor="#03000000" fillColor="#03ffffff"/>
+    <graph id="n14_uev5" name="graph_hole_clip4" xy="375,-300" pivot="0.5,0" anchor="true" size="100,100" type="rect" lineColor="#03000000" fillColor="#03ffffff"/>
+    <component id="n15_iny5" name="btn_skip" src="iny59" fileName="btn_skip.xml" xy="540,120" visible="false"/>
+    <component id="n16_10vj5" name="btn_skipall" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="30,120" visible="false">
+      <Button title="跳过所有"/>
+    </component>
+  </displayList>
+</component>

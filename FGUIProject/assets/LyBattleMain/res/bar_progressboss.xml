@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,33" extention="ProgressBar">
+  <displayList>
+    <image id="n5_f55o" name="bar" src="rc7m6h" fileName="ui/frame_progress bar_now.png" pkg="27utqbiz" xy="2,8" size="46,16"/>
+    <text id="n2_lvip" name="title" xy="0,0" size="50,33" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

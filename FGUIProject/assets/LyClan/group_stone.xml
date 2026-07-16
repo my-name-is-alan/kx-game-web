@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="123,32">
+  <displayList>
+    <text id="n30_g7bh" name="label_stone" xy="32,0" size="91,32" fontSize="22" vAlign="middle" text="100/100"/>
+    <loader id="n45_ql4f" name="n45" xy="0,0" size="32,32" url="ui://27utqbizh6d7j" align="center" vAlign="middle" fill="scale"/>
+  </displayList>
+  <relation target="n30_g7bh" sidePair="width-width"/>
+</component>

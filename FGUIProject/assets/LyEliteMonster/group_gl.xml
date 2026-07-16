@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="512,51">
+  <displayList>
+    <richtext id="n29_d3qo" name="label_name" xy="0,3" size="114,44" fontSize="32" align="center" autoSize="none" text="常见"/>
+    <loader id="n30_d3qo" name="loader_zk" xy="130,0" size="179,50" url="ui://27utqbizrvb536" fill="scaleFree"/>
+    <loader id="n31_d3qo" name="loader_sp" xy="333,0" size="179,50" url="ui://27utqbizrvb536" fill="scaleFree"/>
+    <richtext id="n32_d3qo" name="label_zkgl" xy="163,3" size="114,44" fontSize="32" align="center" autoSize="none" text="常见"/>
+    <richtext id="n33_d3qo" name="label_spgl" xy="373,2" size="114,44" fontSize="32" align="center" autoSize="none" text="常见"/>
+  </displayList>
+</component>

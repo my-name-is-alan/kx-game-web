@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1156">
+  <controller name="c1" pages="0,,1," selected="1">
+    <remark page="0" value="任务"/>
+    <remark page="1" value="协助"/>
+  </controller>
+  <displayList>
+    <loader id="n1_hbzk" name="n1" xy="24,0" size="701,1112" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n4_hbzk" name="label_bxl" xy="51,30" size="257,49" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]任[/size]务">
+      <gearDisplay controller="c1" pages="0"/>
+    </richtext>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <component id="n38_r2p3" name="bar_dailyActiveNode" src="abrum" fileName="bar_count.xml" pkg="27utqbiz" xy="140,191" size="504,26" group="n32_hbzk">
+      <ProgressBar value="20" max="100"/>
+    </component>
+    <list id="n31_hbzk" name="list_task" xy="48,283" size="649,719" group="n32_hbzk" overflow="scroll" lineGap="8" defaultItem="ui://8rnw66xwhbzk8" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n40_r2p3" name="n40" src="r2p37o" fileName="res3/frame_worship.png" xy="67,98" group="n32_hbzk"/>
+    <text id="n41_r2p3" name="label_str110" xy="81,131" size="28,116" group="n32_hbzk" font="ui://27utqbizps391v" fontSize="22" color="#ffe728" leading="-2" autoSize="none" strokeColor="#d26828" strokeSize="2" text="今日活跃"/>
+    <text id="n29_hbzk" name="label_dailyActiveScore" xy="47,231" size="95,34" group="n32_hbzk" fontSize="24" color="#ffe728" align="center" autoSize="none" strokeColor="#d26828" strokeSize="2" autoClearText="true" text="1850"/>
+    <group id="n32_hbzk" name="n32" xy="47,98" size="650,904" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <list id="n34_hbzk" name="list_evolve" xy="55,107" size="640,897" group="n36_hbzk" overflow="scroll" lineGap="9" defaultItem="ui://8rnw66xwhbzk9">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n43_r2p3" name="n43" xy="170,1025" size="435,32" group="n36_hbzk" fontSize="22" color="#16191a" vAlign="middle" leading="0" text="每协助一次可为对方减少5分钟鱼塘升级时间"/>
+    <image id="n53_jo98" name="img_noData" src="mjzcu16u" fileName="ui/pic_no data.png" pkg="27utqbiz" xy="185,443" group="n36_hbzk"/>
+    <group id="n36_hbzk" name="n36" xy="55,107" size="640,950" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n49_er9z" name="btn_rw" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="34,1100">
+      <Button title="任务" controller="c1" page="0"/>
+    </component>
+    <component id="n50_er9z" name="btn_xz" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="205,1100">
+      <Button checked="true" title="协助" controller="c1" page="1"/>
+    </component>
+    <richtext id="n51_er9z" name="label_bxl1" xy="51,30" size="257,49" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]协[/size]助">
+      <gearDisplay controller="c1" pages="1"/>
+    </richtext>
+    <graph id="n52_ors2" name="btn_boxClose" xy="0,0" size="750,1156" visible="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ff0000">
+      <gearDisplay controller="c1" pages="0"/>
+    </graph>
+    <list id="n37_srjz" name="list_dailyActiveNode" xy="190,58" size="476,190" layout="row" colGap="20" defaultItem="ui://8rnw66xwr2p37n" vAlign="bottom">
+      <gearDisplay controller="c1" pages="0"/>
+      <item title="1"/>
+      <item title="2"/>
+      <item title="3"/>
+      <item title="4"/>
+      <item title="5"/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1114">
+  <displayList>
+    <loader id="n86_ljrs" name="n86" xy="24,0" size="701,1112" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n87_ljrs" name="label_title" xy="51,29" size="257,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]商[/size]店"/>
+    <component id="n88_ljrs" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <list id="n89_ljrs" name="list_shop" xy="80,145" size="598,911" layout="flow_hz" overflow="scroll" lineGap="13" colGap="10" defaultItem="ui://8rnw66xwu96x1e" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n90_ljrs" name="group_icon" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="502,24"/>
+    <text id="n91_w4ww" name="label_oncePrestige" xy="61,106" size="231,32" fontSize="22" text="本轮单刀赴会获得声望:"/>
+  </displayList>
+</component>

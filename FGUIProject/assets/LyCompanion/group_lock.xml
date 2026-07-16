@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="222,29">
+  <displayList>
+    <text id="n33_g0zl" name="label_lockDec" xy="-2,0" size="139,29" fontSize="20" color="#616161" align="center" text="解锁条件11111"/>
+    <text id="n70_ln3o" name="label_lockNum" xy="137,0" size="85,29" fontSize="20" text="（2/10）">
+      <relation target="n33_g0zl" sidePair="left-right"/>
+    </text>
+  </displayList>
+  <relation target="n33_g0zl" sidePair="rightext-right"/>
+</component>

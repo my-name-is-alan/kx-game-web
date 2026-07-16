@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,1016" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n8_ar1l" name="n8" src="ar1lm" fileName="res/frame_curtain_unselectd.png" xy="0,0"/>
+    <loader id="n6_ar1l" name="icon" xy="27,0" size="216,954" url="ui://li7lbnd9ar1l19"/>
+    <image id="n7_ar1l" name="n7" src="ar1lr" fileName="res/fex_light.png" xy="-3,0"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

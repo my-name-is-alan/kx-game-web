@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="660,950">
+  <displayList>
+    <image id="n31_me8j" name="n31" src="me8jq2" fileName="res/pet/res/bg_zhuanpan.png" xy="8,0"/>
+    <image id="n34_me8j" name="img_point" src="me8jqg" fileName="res/pet/res/frame_zhuanpanzhizhen.png" xy="187,248" pivot="0.5,0.5"/>
+    <component id="n48_me8j" name="item1" src="me8jr6" fileName="res/pet/group_item.xml" xy="298,153"/>
+    <component id="n35_me8j" name="item2" src="me8jr6" fileName="res/pet/group_item.xml" xy="400,186"/>
+    <component id="n38_me8j" name="item3" src="me8jr6" fileName="res/pet/group_item.xml" xy="472,256"/>
+    <component id="n39_me8j" name="item4" src="me8jr6" fileName="res/pet/group_item.xml" xy="506,358"/>
+    <component id="n40_me8j" name="item5" src="me8jr6" fileName="res/pet/group_item.xml" xy="476,462"/>
+    <component id="n41_me8j" name="item6" src="me8jr6" fileName="res/pet/group_item.xml" xy="403,536"/>
+    <component id="n42_me8j" name="item7" src="me8jr6" fileName="res/pet/group_item.xml" xy="298,564"/>
+    <component id="n43_me8j" name="item8" src="me8jr6" fileName="res/pet/group_item.xml" xy="193,535"/>
+    <component id="n45_me8j" name="item10" src="me8jr6" fileName="res/pet/group_item.xml" xy="90,358"/>
+    <component id="n44_me8j" name="item9" src="me8jr6" fileName="res/pet/group_item.xml" xy="122,464"/>
+    <component id="n46_me8j" name="item11" src="me8jr6" fileName="res/pet/group_item.xml" xy="124,253"/>
+    <component id="n47_me8j" name="item12" src="me8jr6" fileName="res/pet/group_item.xml" xy="195,186"/>
+    <component id="n58_me8j" name="btn_gift" src="me8jra" fileName="res/pet/btn_gift.xml" xy="90,758"/>
+    <component id="n59_me8j" name="btn_draw" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="237,791" size="192,50">
+      <Button titleFontSize="30"/>
+    </component>
+    <text id="n61_me8j" name="label_glDesc" xy="67,872" size="159,29" visible="false" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="吸引概率"/>
+    <component id="n62_me8j" name="btn_gl" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="0,836" aspect="true" visible="false"/>
+    <component id="n67_me8j" name="btn_ten" src="me8jrb" fileName="res/pet/btn_gou.xml" xy="480,770" pkg="27utqbiz"/>
+    <component id="n68_me8j" name="btn_skipAnim" src="me8jrb" fileName="res/pet/btn_gou.xml" xy="480,808" pkg="27utqbiz"/>
+    <text id="n70_me8j" name="n70" xy="18,5" size="316,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" text="抽到限量道具后重置保底次数"/>
+    <component id="n71_xy2x" name="label_number" src="me8jrj" fileName="res/pet/group_needItem2.xml" xy="290,750" pkg="27utqbiz">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <image id="n63_me8j" name="n63" src="iuxmet" fileName="ui/frame_chuzhandihei.png" pkg="27utqbiz" xy="39,883" size="364,37" group="n72_kx2g" alpha="0.7"/>
+    <richtext id="n64_me8j" name="label_baodi" xy="64,885" size="283,29" group="n72_kx2g" fontSize="20" color="#ffffff" vAlign="middle" ubb="true" autoSize="none" text="再抽"/>
+    <group id="n72_kx2g" name="n72" xy="39,883" size="364,37" advanced="true"/>
+  </displayList>
+</component>

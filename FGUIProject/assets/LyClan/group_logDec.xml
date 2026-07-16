@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="580,139">
+  <displayList>
+    <text id="n0_era2" name="label_dec" xy="0,0" size="580,138" fontSize="26" autoSize="height" text="发士大夫士大夫士大夫全全部领取全部领取全部领取部领取全全部领取全部领取部领取发士大夫士大夫士大夫全全部领取全部领取全部领取部领取全全部领取全部领取部领取"/>
+  </displayList>
+  <relation target="n0_era2" sidePair="height-height"/>
+</component>

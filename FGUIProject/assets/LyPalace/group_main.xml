@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" overflow="scroll" scrollBarFlags="128">
+  <displayList>
+    <image id="n0_h5a9" name="n0" src="h5a95" fileName="res/bg_langyabang2.png" xy="0,2047"/>
+    <image id="n1_h5a9" name="n1" src="h5a94" fileName="res/bg_langyabang1.png" xy="0,0"/>
+    <loader3D id="n33_ty3g" name="loader_spine" xy="374,1374" size="2,2" animation="" skin="" loop="true"/>
+    <component id="n17_fkh3" name="btn_house1" src="h5a9a" fileName="btn_house1.xml" xy="6,122"/>
+    <component id="n18_fkh3" name="btn_house2" src="h5a9a" fileName="btn_house1.xml" xy="407,122"/>
+    <component id="n19_fkh3" name="btn_house3" src="h5a9a" fileName="btn_house1.xml" xy="3,489"/>
+    <component id="n20_fkh3" name="btn_house4" src="h5a9a" fileName="btn_house1.xml" xy="407,489"/>
+    <component id="n21_fkh3" name="btn_house5" src="h5a9b" fileName="btn_house2.xml" xy="215,865"/>
+    <component id="n22_fkh3" name="btn_house6" src="h5a9b" fileName="btn_house2.xml" xy="10,1107"/>
+    <component id="n23_fkh3" name="btn_house7" src="h5a9b" fileName="btn_house2.xml" xy="445,1107"/>
+    <component id="n24_fkh3" name="btn_house8" src="h5a9b" fileName="btn_house2.xml" xy="215,1346"/>
+    <component id="n25_fkh3" name="btn_house9" src="h5a9b" fileName="btn_house2.xml" xy="10,1587"/>
+    <component id="n26_fkh3" name="btn_house10" src="h5a9b" fileName="btn_house2.xml" xy="445,1587"/>
+    <component id="n27_fkh3" name="btn_house11" src="h5a9c" fileName="btn_house3.xml" xy="198,1869"/>
+    <component id="n28_fkh3" name="btn_house12" src="h5a9c" fileName="btn_house3.xml" xy="-25,2082"/>
+    <component id="n29_fkh3" name="btn_house13" src="h5a9c" fileName="btn_house3.xml" xy="430,2081"/>
+    <component id="n30_fkh3" name="btn_house14" src="h5a9c" fileName="btn_house3.xml" xy="-25,2344"/>
+    <component id="n31_fkh3" name="btn_house15" src="h5a9c" fileName="btn_house3.xml" xy="430,2348"/>
+  </displayList>
+</component>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1230">
+  <displayList>
+    <image id="n58_ijfm" name="n58" src="ijfmk" fileName="res/bg_meirilibao4.png" xy="-1,-15"/>
+    <component id="n34_ba5i" name="btn_close" src="ijfm0" fileName="res/btn_close1.xml" xy="600,39"/>
+    <component id="n62_g0p7" name="group_skill1" src="g0p7v" fileName="group_skill.xml" xy="389,167"/>
+    <component id="n63_g0p7" name="group_skill2" src="g0p7v" fileName="group_skill.xml" xy="174,0"/>
+    <component id="n64_g0p7" name="group_skill3" src="g0p7v" fileName="group_skill.xml" xy="176,367"/>
+    <image id="n61_ijfm" name="n61" src="ijfmn" fileName="res/frame_name4.png" xy="500,564"/>
+    <image id="n60_ijfm" name="n60" src="ijfms" fileName="res/frame_zhongshenyici4.png" xy="36,-16"/>
+    <image id="n65_g0p7" name="n65" src="g0p7w" fileName="res/frame_kaifuxianding4ng.png" xy="52,632"/>
+    <image id="n59_ijfm" name="n59" src="ijfmm" fileName="res/frame_daoju4.png" xy="40,768"/>
+    <list id="n11_cjmr" name="list_item" xy="105,787" size="540,100" layout="flow_hz" overflow="scroll" scroll="horizontal" scrollBarFlags="640" colGap="10" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n66_isca" name="img_arrow" src="iscax" fileName="group_rate.xml" xy="590,787" pivot="0.5,0.5" anchor="true"/>
+    <text id="n45_ba5i" name="label_name" xy="547,512" size="77,50" font="ui://27utqbizps391v" fontSize="37" color="#ffffff" align="right" vAlign="middle" strokeColor="#b65438" strokeSize="2" autoClearText="true" text="秘籍">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n49_ba5i" name="label_desc" xy="536,563" size="100,34" font="ui://27utqbizps391v" fontSize="24" color="#fcf1dd" align="right" vAlign="middle" autoClearText="true" text="反击连击">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n12_ut5y" name="label_time" xy="299,708" size="152,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" align="center" vAlign="middle" ubb="true" strokeColor="#16191a" autoClearText="true" text="活动剩余：[color=#53FF46]{0}[/color]">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n37_ba5i" name="label_count" xy="316,932" size="118,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" vAlign="middle" strokeColor="#4d1509" autoClearText="true" text="每日限购：">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n35_ba5i" name="btn_pay" src="ijfm4" fileName="res/btn_big.xml" xy="247,975">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <list id="n18_ehs5" name="list_group" xy="0,1125" size="750,106" layout="flow_hz" scroll="horizontal" colGap="5" defaultItem="ui://qaf45antijfm5" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n67_pskq" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="470,950" visible="false"/>
+  </displayList>
+</component>

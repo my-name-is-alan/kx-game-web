@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="184,102" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n8_vp1r" name="n8" src="vp1r5p" fileName="res/btn_30days.png" xy="0,0"/>
+    <text id="n4_vp1r" name="title" xy="0,6" size="184,50" font="ui://27utqbizps391v" fontSize="36" color="#ffd776" align="center" vAlign="middle" autoSize="none" strokeColor="#964f10" strokeSize="3" singleLine="true" text="6">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n7_vp1r" name="n7" xy="32,41" size="123,41" fontSize="24" color="#232423" align="center" vAlign="middle" autoSize="none" text="雇佣7天"/>
+  </displayList>
+  <Button/>
+</component>

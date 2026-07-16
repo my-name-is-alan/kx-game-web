@@ -1,0 +1,41 @@
+
+ui_xiaobaoxiang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_guangyun
+  rotate: false
+  xy: 2, 2
+  size: 535, 511
+  orig: 584, 562
+  offset: 17, 31
+  index: -1
+gaizi
+  rotate: true
+  xy: 539, 259
+  size: 84, 27
+  orig: 84, 27
+  offset: 0, 0
+  index: -1
+light_point
+  rotate: false
+  xy: 539, 457
+  size: 42, 56
+  orig: 56, 68
+  offset: 7, 6
+  index: -1
+shuo
+  rotate: false
+  xy: 539, 345
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+xiangti
+  rotate: true
+  xy: 539, 379
+  size: 76, 37
+  orig: 77, 38
+  offset: 1, 0
+  index: -1

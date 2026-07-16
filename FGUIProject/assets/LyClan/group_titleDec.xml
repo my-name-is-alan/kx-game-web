@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="624,363" overflow="scroll">
+  <displayList>
+    <richtext id="n64_m2rj" name="label_dec" xy="23,159" size="581,1194" fontSize="24" color="#16191a" leading="0" letterSpacing="8" ubb="true" autoSize="height" autoClearText="true" text="大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿大萨达萨达萨达萨达萨达啊实打实撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿撒旦阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿达阿斯顿"/>
+    <component id="n58_m2rj" name="group_phase0" src="m2rj9d" fileName="group_phase.xml" xy="0,0"/>
+    <component id="n59_m2rj" name="group_phase1" src="m2rj9d" fileName="group_phase.xml" xy="102,0"/>
+    <component id="n60_m2rj" name="group_phase2" src="m2rj9d" fileName="group_phase.xml" xy="204,0"/>
+    <component id="n61_m2rj" name="group_phase3" src="m2rj9d" fileName="group_phase.xml" xy="306,0"/>
+    <component id="n62_m2rj" name="group_phase4" src="m2rj9d" fileName="group_phase.xml" xy="408,0"/>
+    <component id="n63_m2rj" name="group_phase5" src="m2rj9d" fileName="group_phase.xml" xy="510,0"/>
+  </displayList>
+</component>

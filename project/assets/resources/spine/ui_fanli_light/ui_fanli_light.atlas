@@ -1,0 +1,13 @@
+
+ui_fanli_light.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light
+  rotate: false
+  xy: 2, 2
+  size: 441, 127
+  orig: 498, 151
+  offset: 28, 9
+  index: -1

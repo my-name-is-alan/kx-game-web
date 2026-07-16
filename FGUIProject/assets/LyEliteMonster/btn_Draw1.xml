@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="216,218" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n13_c3ih" name="n13" src="c3ihdu17e" fileName="xz1/btn_xiaozhuo2.png" xy="0,1"/>
+    <image id="n11_kmfd" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="147,19" size="43,44" aspect="true" visible="false"/>
+    <image id="n14_c3ih" name="n14" src="c3ihdu17a" fileName="xz1/mk_di_03.png" xy="78,154"/>
+    <loader id="n7_cgkl" name="icon" xy="66,144" size="44,42" url="ui://27utqbizi5tz7j" align="center" vAlign="middle" fill="scale"/>
+    <text id="n9_cgkl" name="label_number" xy="93,154" size="41,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="1"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

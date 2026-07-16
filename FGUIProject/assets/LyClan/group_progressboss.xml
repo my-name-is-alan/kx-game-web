@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="490,60">
+  <displayList>
+    <image id="n25_lvip" name="n25" src="m2rj8z" fileName="res3/frame_enemy-progress-bar_all.png" xy="460,-30" size="490,90" scale="-1,1"/>
+    <component id="n27_lvip" name="bar_blood" src="m2rj90" fileName="bar_progressboss.xml" xy="54,0" size="384,33">
+      <ProgressBar value="73" max="100"/>
+    </component>
+    <image id="n32_m2rj" name="n32" src="lnf26m" fileName="ui/icon_ranking rewards.png" pkg="27utqbiz" xy="-16,-22"/>
+    <text id="n33_m2rj" name="label_damageReward" xy="-9,25" size="65,29" fontSize="20" color="#ffffff" align="right" autoSize="shrink" strokeColor="#16191a" strokeSize="2" text="撒啊"/>
+    <text id="n34_m2rj" name="label_dec" xy="63,31" size="10,24" fontSize="16" color="#16191a" text=""/>
+  </displayList>
+</component>

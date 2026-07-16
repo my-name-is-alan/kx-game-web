@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "6e91adbb-2992-4563-8c6d-40e214a1d74f",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "6e91adbb-2992-4563-8c6d-40e214a1d74f@6c48a",
+      "displayName": "hb_zhaomin",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "6e91adbb-2992-4563-8c6d-40e214a1d74f",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": true,
+    "redirect": "6e91adbb-2992-4563-8c6d-40e214a1d74f@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "64GrRo595FX43Kk7ckKU9U"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="h1d08dw1">
+  <resources>
+    <component id="h8u40" name="LyBrumeIsleRank.xml" path="/" exported="true"/>
+    <component id="h8u41" name="group_rank.xml" path="/"/>
+    <component id="h8u42" name="group_rankitem.xml" path="/"/>
+    <component id="h8u43" name="LyBrumeIsle.xml" path="/" exported="true"/>
+    <image id="h8u44" name="bg_ditu.png" path="/res/"/>
+    <image id="h8u45" name="frame_jindulv2.png" path="/res/"/>
+    <image id="h8u46" name="frame_juezekuang.png" path="/res/"/>
+    <image id="h8u47" name="frame_juezexiaobiao.png" path="/res/" scale="9grid" scale9grid="36,10,21,14"/>
+    <image id="h8u48" name="frame_miwuxingshang.png" path="/res/"/>
+    <image id="h8u49" name="frame_nuhunsanpo.png" path="/res/"/>
+    <image id="h8u4a" name="frame_wuyinbiji.png" path="/res/"/>
+    <image id="h8u4b" name="frame_wuyinbiji2.png" path="/res/"/>
+    <image id="h8u4c" name="frame_wuyindaobiaotou.png" path="/res/"/>
+    <image id="h8u4d" name="frame_yibiao.png" path="/res/" exported="true"/>
+    <image id="h8u4e" name="frame_youhunfuzhen.png" path="/res/"/>
+    <image id="h8u4f" name="frame_zuobiaotouxiang.png" path="/res/"/>
+    <image id="h8u4g" name="word_jiaoliu.png" path="/res/" exported="true"/>
+    <image id="h8u4h" name="word_jinru.png" path="/res/" exported="true"/>
+    <image id="h8u4i" name="word_likai.png" path="/res/"/>
+    <image id="h8u4j" name="word_lingjiangqi.png" path="/res/"/>
+    <image id="h8u4k" name="word_shenru.png" path="/res/"/>
+    <image id="h8u4l" name="word_shenxing.png" path="/res/"/>
+    <image id="h8u4m" name="word_shouna.png" path="/res/" exported="true"/>
+    <image id="h8u4n" name="map1.png" path="/res/" exported="true"/>
+    <image id="h8u4o" name="word_sougua.png" path="/res/" exported="true"/>
+    <image id="h8u4p" name="word_wuyindao.png" path="/res/"/>
+    <image id="h8u4q" name="map3.png" path="/res/" exported="true"/>
+    <image id="h8u4r" name="map2.png" path="/res/" exported="true"/>
+    <image id="h8u4s" name="frame_jindulv.png" path="/res/" scale="9grid" scale9grid="88,5,176,10"/>
+    <image id="h8u4t" name="word_zhengfeng.png" path="/res/"/>
+    <image id="h8u4u" name="frame_gerenxinxi2.png" path="/res/"/>
+    <image id="h8u4v" name="frame_fengexian2.png" path="/res/"/>
+    <image id="h8u4w" name="bg_1.png" path="/res/" exported="true"/>
+    <image id="h8u4x" name="bg_3.png" path="/res/" exported="true"/>
+    <image id="h8u4y" name="bg_2.png" path="/res/" exported="true"/>
+    <image id="h8u4z" name="btn_biaoji.png" path="/res/"/>
+    <image id="h8u410" name="btn_biji.png" path="/res/"/>
+    <image id="h8u411" name="btn_gongji.png" path="/res/" exported="true"/>
+    <image id="h8u412" name="btn_hunpo.png" path="/res/"/>
+    <image id="h8u413" name="btn_libao.png" path="/res/"/>
+    <image id="h8u414" name="btn_raoguo.png" path="/res/"/>
+    <image id="h8u415" name="btn_shuxing.png" path="/res/"/>
+    <image id="h8u416" name="btn_tansuo.png" path="/res/"/>
+    <image id="h8u417" name="btn_yibiaoji.png" path="/res/"/>
+    <image id="h8u418" name="btn_yijibai.png" path="/res/"/>
+    <image id="h8u419" name="btn_yuandi.png" path="/res/"/>
+    <image id="h8u41a" name="btn_yuandi2.png" path="/res/"/>
+    <image id="h8u41b" name="btn_yuandi3.png" path="/res/"/>
+    <image id="h8u41c" name="btn_yuandi4.png" path="/res/"/>
+    <image id="h8u41d" name="frame_bangpaijiangli.png" path="/res/"/>
+    <image id="h8u41e" name="frame_biaoji.png" path="/res/"/>
+    <image id="h8u41f" name="frame_chakanqufu.png" path="/res/"/>
+    <image id="h8u41g" name="frame_dangqian.png" path="/res/" exported="true"/>
+    <image id="h8u41h" name="frame_dituname.png" path="/res/"/>
+    <image id="h8u41i" name="frame_fengexian.png" path="/res/"/>
+    <image id="h8u41j" name="frame_gerenxinxi.png" path="/res/"/>
+    <image id="h8u41k" name="word_zhunbeizhong.png" path="/res/"/>
+    <image id="h8u425" name="frame_qianrenyiwu.png" path="/res/" exported="true"/>
+    <image id="h8u426" name="frame_guaiwuname.png" path="/res/"/>
+    <component id="h8u429" name="Button1.xml" path="/"/>
+    <image id="h8u42a" name="frame_fanhuidi.png" path="/res/"/>
+    <component id="h8u42b" name="btn_com.xml" path="/"/>
+    <component id="h8u42c" name="group_severText.xml" path="/"/>
+    <component id="h8u42d" name="main_LyBrumeIsle.xml" path="/"/>
+    <component id="gm8n2e" name="LyBrumeIsleLand.xml" path="/" exported="true"/>
+    <component id="gm8n2f" name="btn_shop.xml" path="/"/>
+    <component id="gm8n2g" name="ProgressBar1.xml" path="/"/>
+    <component id="gm8nmi" name="btn_checkbox(1).xml" path="/" exported="true"/>
+    <component id="gm8n2l" name="main_LyBrumelseLand.xml" path="/"/>
+    <component id="q0frmj" name="LyBrumeIsleChoose.xml" path="/" exported="true"/>
+    <component id="q0frmk" name="Button2.xml" path="/"/>
+    <component id="q0frml" name="Button3.xml" path="/"/>
+    <component id="q0frmm" name="Button4.xml" path="/"/>
+    <component id="q0frmn" name="main_LyBrumeIsleChoose.xml" path="/"/>
+    <component id="x3dlmo" name="group_icon.xml" path="/itemframe/"/>
+    <component id="x3dlmp" name="group_mapTx.xml" path="/"/>
+    <component id="x3dlmq" name="group_map.xml" path="/"/>
+    <component id="x3dlmr" name="Component1.xml" path="/"/>
+    <component id="x3dlms" name="LyBrumeNote.xml" path="/" exported="true"/>
+    <component id="x3dlmt" name="group_note.xml" path="/"/>
+    <component id="x3dlmu" name="main_LyBrumeNote.xml" path="/"/>
+    <image id="8g2xmv" name="frame_libaozhaomin.png" path="/res/" exported="true"/>
+    <image id="8g2xn2" name="frame_zhaomin.png" path="/res/" exported="true"/>
+    <component id="m78945" name="LyBrumeIsleAward.xml" path="/" exported="true"/>
+    <component id="m78946" name="main_LyBrumeIsleAward.xml" path="/"/>
+    <component id="m789n3" name="LyBrumeIsleAddArr.xml" path="/" exported="true"/>
+    <component id="m789n4" name="main_LyBrumeIsleArr.xml" path="/"/>
+    <component id="m789n5" name="item_rank.xml" path="/"/>
+    <component id="m789n6" name="LyBrumeIsleLog.xml" path="/" exported="true"/>
+    <component id="bbpln8" name="group_Log.xml" path="/"/>
+    <component id="bbpln9" name="main_LyBrumeIsleLog.xml" path="/"/>
+    <component id="bbplna" name="LyBrumeIsleMark.xml" path="/" exported="true"/>
+    <component id="bbplnb" name="group_monsterMark.xml" path="/"/>
+    <component id="bbplnc" name="main_LyBrumeIsleMark.xml" path="/"/>
+    <image id="bbplnd" name="frame_wode.png" path="/res/"/>
+    <component id="bbplne" name="LyBrumeIsleGift.xml" path="/" exported="true"/>
+    <component id="bbplnf" name="main_LyBrumeIsleGift.xml" path="/"/>
+    <component id="bbplng" name="group_name.xml" path="/"/>
+    <image id="bbplnh" name="frame_gouhuo.png" path="/res/" exported="true"/>
+    <component id="bbplni" name="LyBrumeIsleFire.xml" path="/" exported="true"/>
+    <image id="bbplnj" name="word_huoyanwuyinhunpo.png" path="/res/"/>
+    <image id="bbplnk" name="word_wuyinxiaohunpo.png" path="/res/"/>
+    <component id="bbplnl" name="main_LyBrumeIsleFire.xml" path="/"/>
+    <image id="bbplnm" name="frame_yiyongyou.png" path="/res/"/>
+    <image id="bbplnn" name="btn_jueze.png" path="/res/"/>
+    <image id="qe5jno" name="hong_g.png" path="/res/" scale="9grid" scale9grid="51,49,102,98"/>
+    <image id="io2qnq" name="frame_wuyindaobiaotidiban.png" path="/res/"/>
+    <image id="c1f4ns" name="frame_jueze2.png" path="/res/"/>
+    <image id="c1f4nt" name="frame_juezexiaobiao2.png" path="/res/" scale="9grid" scale9grid="79,8,158,16"/>
+    <image id="c1f4nu" name="frame_juezexiaobiao3.png" path="/res/"/>
+    <image id="mchcnw" name="frame_yilingqu.png" path="/res/"/>
+    <image id="mchcnx" name="frame_yishixiao.png" path="/res/"/>
+    <image id="mchcnz" name="frame_denglongxiao.png" path="/res/"/>
+    <image id="mchco0" name="frame_huangseyuandi.png" path="/res/"/>
+    <image id="mchco1" name="frame_jindutiaozi.png" path="/res/" disableTrim="true"/>
+    <image id="mchco2" name="frame_jindutiaozi2.png" path="/res/"/>
+    <image id="mchco3" name="frame_lingxingzi.png" path="/res/"/>
+    <image id="mchco4" name="frame_lingxingzi2.png" path="/res/"/>
+    <component id="mchco6" name="group_task.xml" path="/"/>
+    <component id="mchco7" name="ProgressBar3.xml" path="/res/"/>
+    <component id="mchco8" name="group_tsTimes.xml" path="/res/"/>
+    <image id="i1bpo9" name="frame_lingxingzi3.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

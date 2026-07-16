@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,812">
+  <displayList>
+    <image id="n87_i7m6" name="n87" src="l7icl" fileName="res/frame_ddd.png" xy="3,0"/>
+    <image id="n88_i7m6" name="n88" src="87eo21" fileName="res/frame_czjl.png" xy="79,229"/>
+    <image id="n89_i7m6" name="n89" src="87eo21" fileName="res/frame_czjl.png" xy="79,399"/>
+    <list id="n90_iujn" name="list_itemAll" xy="57,299" pivot="0.5,0.5" size="635,108" scale="0.82,0.82" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="23" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <list id="n91_iujn" name="list_item" xy="57,461" pivot="0.5,0.5" size="634,108" scale="0.82,0.82" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="23" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <text id="n92_iujn" name="label_str36" xy="242,607" size="160,36" fontSize="26" autoClearText="true" text="购买立即获得"/>
+    <text id="n93_iujn" name="n93" xy="208,233" size="334,42" font="ui://27utqbizps391v" fontSize="30" color="#fffaef" vAlign="middle" strokeColor="#c05f38" text="购买后所有等级奖励预览"/>
+    <text id="n94_iujn" name="n94" xy="208,404" size="334,42" font="ui://27utqbizps391v" fontSize="30" color="#fffaef" vAlign="middle" strokeColor="#c05f38" text="购买后当前等级奖励预览"/>
+    <image id="n95_ksar" name="n95" src="ksar23" fileName="res/frame_sld.png" xy="547,126"/>
+    <text id="n96_ksar" name="label_stone" xy="591,125" size="60,34" fontSize="24" color="#f6de9c" vAlign="middle" text="2220"/>
+    <image id="n99_ksar" name="n99" src="ksar24" fileName="res3/frame_first-recharge.png" xy="614,196" size="78,80" scale="1.2,1.2"/>
+    <text id="n98_ksar" name="label_giftStone" xy="631,236" size="64,36" fontSize="26" color="#f6de9c" vAlign="middle" strokeColor="#f37d3a" text="8888"/>
+    <image id="n100_ksar" name="n100" src="ksar25" fileName="res3/dec_star1.png" xy="616,211" scale="1.2,1.2"/>
+    <image id="n101_ksar" name="n101" src="ksar26" fileName="res3/dec_star2.png" xy="699,235" scale="1.2,1.2"/>
+    <text id="n102_ksar" name="n102" xy="633,201" size="56,36" font="ui://27utqbizps391v" fontSize="26" color="#f6de9c" vAlign="middle" strokeColor="#f37d3a" text="价值"/>
+    <component id="n104_ksar" name="btn_buy" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,658">
+      <Button title="122元"/>
+    </component>
+    <loader id="n106_ksar" name="img_title" xy="55,53" size="264,107" url="ui://irbjwyuf87eo20"/>
+    <image id="n107_pc23" name="n107" src="i5tz7t" fileName="iconitems/Props-yubi.png" pkg="27utqbiz" xy="544,119" size="40,40"/>
+    <image id="n108_pc23" name="n108" src="i5tz7t" fileName="iconitems/Props-yubi.png" pkg="27utqbiz" xy="608,237" size="30,30"/>
+    <image id="n109_o2rr" name="n109" src="i5tz7t" fileName="iconitems/Props-yubi.png" pkg="27utqbiz" xy="405,610" size="30,30"/>
+    <text id="n110_o2rr" name="label_passportStone" xy="439,607" size="10,36" fontSize="26" autoClearText="true" text=""/>
+    <component id="n111_ah07" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="437,617" visible="false"/>
+  </displayList>
+</component>

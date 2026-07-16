@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="765,1084">
+  <displayList>
+    <image id="n20_bbpl" name="n20" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="701,1084"/>
+    <richtext id="n21_bbpl" name="label_title" xy="26,24" size="235,77" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" text="礼包"/>
+    <list id="n25_bbpl" name="list_all" xy="15,101" size="664,931" overflow="scroll" lineGap="-10" defaultItem="ui://xcpqvzp3ltem3v" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n23_bbpl" name="n23" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="547,875"/>
+    <component id="n22_bbpl" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="633,44" size="78,78"/>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://irbjwyuf10lj848" designImageOffsetY="-185" designImageAlpha="37" designImageLayer="1">
+  <displayList>
+    <image id="n39_pc23" name="n39" src="pc232a" fileName="res3/bg_pibei.png" xy="0,-183"/>
+    <image id="n40_pc23" name="n40" src="pc232b" fileName="res3/frame_pipeimingdi.png" xy="0,627" size="750,129"/>
+    <text id="n41_pc23" name="label_playerName" xy="34,681" size="207,36" fontSize="26" color="#fff7d6" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="宗"/>
+    <text id="n42_pc23" name="label_playerServer" xy="34,714" size="207,34" fontSize="24" color="#f45f0c" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="啊啊啊5服"/>
+    <text id="n43_pc23" name="label_clanName" xy="495,656" size="207,49" fontSize="26" color="#fff7d6" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="宗"/>
+    <text id="n44_pc23" name="label_clanServer" xy="495,692" size="207,34" fontSize="24" color="#6293f0" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="啊啊啊5服"/>
+    <loader id="n45_pc23" name="img_clanFlag" xy="483,762" size="242,246" url="ui://27utqbizd373uv" align="center" vAlign="middle" fill="scale"/>
+    <component id="n56_113zk" name="loader_playerPhase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="138,654" pivot="0.5,0.5" anchor="true" scale="0.9,0.9"/>
+    <loader3D id="n35_ksar" name="loader_3d_effect" xy="374,666" size="2,2" animation="" skin="" loop="true"/>
+    <loader3D id="n53_phai" name="loader_spine_pet" xy="242,590" pivot="0.5,1" anchor="true" size="2,2" scale="0.6,0.6" animation="" skin="" loop="true"/>
+    <component id="n54_phai" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="128,608" pivot="0.5,1" anchor="true" scale="0.7,0.7"/>
+  </displayList>
+</component>

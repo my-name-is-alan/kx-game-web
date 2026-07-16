@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="580,110">
+  <displayList>
+    <graph id="n49_m2rj" name="n49" xy="0,0" size="580,110" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <text id="n44_g7bh" name="label_name1" xy="2,24" size="160,32" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text="一重怪物"/>
+    <list id="n47_g7bh" name="list_duelBonuses" xy="165,14" size="326,100" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="12" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n48_g7bh" name="group_defeatReward" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="466,14" scale="0.8,0.8"/>
+    <text id="n50_rajy" name="label_name" xy="2,57" size="160,32" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text="一重怪物"/>
+  </displayList>
+</component>

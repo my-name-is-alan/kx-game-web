@@ -1,0 +1,13 @@
+
+zq_shanzi.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shanzi
+  rotate: false
+  xy: 2, 113
+  size: 215, 104
+  orig: 222, 105
+  offset: 7, 1
+  index: -1

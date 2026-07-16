@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2qr0czba">
+  <resources>
+    <component id="eohi0" name="LyVein.xml" path="/" exported="true"/>
+    <component id="eohi1" name="ProgressBar1.xml" path="/"/>
+    <component id="eohi3" name="btn_stimulate.xml" path="/"/>
+    <component id="eohi5" name="btn_satori.xml" path="/"/>
+    <component id="eohi6" name="LyVeinSatori.xml" path="/" exported="true"/>
+    <component id="eohi3f" name="LyVeinChange.xml" path="/" exported="true"/>
+    <component id="eohi7" name="btn_automatic.xml" path="/"/>
+    <component id="gqn03f" name="label_attr.xml" path="/" exported="true"/>
+    <component id="gqn03h" name="group_chance.xml" path="/" exported="true"/>
+    <component id="jw703i" name="Slider1_grip.xml" path="/"/>
+    <component id="jw703j" name="Slider1.xml" path="/"/>
+    <image id="jw703l" name="18.png" path="/res/"/>
+    <component id="jw703m" name="btn_gou1.xml" path="/LyAutomation/"/>
+    <component id="jw703n" name="btn_gou2.xml" path="/LyAutomation/"/>
+    <component id="j2yt3o" name="group_vein.xml" path="/" exported="true"/>
+    <component id="k5be4t" name="LyVeinAuto.xml" path="/" exported="true"/>
+    <image id="qow04u" name="baihu1.png" path="/Gem/" exported="true"/>
+    <image id="qow04v" name="qinglong7.png" path="/Gem/" exported="true"/>
+    <image id="qow04w" name="qinglong8.png" path="/Gem/" exported="true"/>
+    <image id="qow04x" name="qinglong9.png" path="/Gem/" exported="true"/>
+    <image id="qow04y" name="xuanwu1.png" path="/Gem/" exported="true"/>
+    <image id="qow04z" name="xuanwu2.png" path="/Gem/" exported="true"/>
+    <image id="qow050" name="xuanwu3.png" path="/Gem/" exported="true"/>
+    <image id="qow051" name="xuanwu4.png" path="/Gem/" exported="true"/>
+    <image id="qow052" name="xuanwu5.png" path="/Gem/" exported="true"/>
+    <image id="qow053" name="xuanwu6.png" path="/Gem/" exported="true"/>
+    <image id="qow054" name="xuanwu7.png" path="/Gem/" exported="true"/>
+    <image id="qow055" name="xuanwu8.png" path="/Gem/" exported="true"/>
+    <image id="qow056" name="xuanwu9.png" path="/Gem/" exported="true"/>
+    <image id="qow057" name="zhuque1.png" path="/Gem/" exported="true"/>
+    <image id="qow058" name="zhuque2.png" path="/Gem/" exported="true"/>
+    <image id="qow059" name="zhuque3.png" path="/Gem/" exported="true"/>
+    <image id="qow05a" name="zhuque4.png" path="/Gem/" exported="true"/>
+    <image id="qow05b" name="zhuque5.png" path="/Gem/" exported="true"/>
+    <image id="qow05c" name="zhuque6.png" path="/Gem/" exported="true"/>
+    <image id="qow05d" name="zhuque7.png" path="/Gem/" exported="true"/>
+    <image id="qow05e" name="qinglong6.png" path="/Gem/" exported="true"/>
+    <image id="qow05f" name="qinglong5.png" path="/Gem/" exported="true"/>
+    <image id="qow05g" name="qinglong4.png" path="/Gem/" exported="true"/>
+    <image id="qow05h" name="qinglong3.png" path="/Gem/" exported="true"/>
+    <image id="qow05i" name="baihu2.png" path="/Gem/" exported="true"/>
+    <image id="qow05j" name="baihu3.png" path="/Gem/" exported="true"/>
+    <image id="qow05k" name="baihu4.png" path="/Gem/" exported="true"/>
+    <image id="qow05l" name="baihu5.png" path="/Gem/" exported="true"/>
+    <image id="qow05m" name="baihu6.png" path="/Gem/" exported="true"/>
+    <image id="qow05n" name="baihu7.png" path="/Gem/" exported="true"/>
+    <image id="qow05o" name="baihu8.png" path="/Gem/" exported="true"/>
+    <image id="qow05p" name="baihu9.png" path="/Gem/" exported="true"/>
+    <image id="qow05r" name="zhuque8.png" path="/Gem/" exported="true"/>
+    <image id="qow05s" name="lingshi1.png" path="/Gem/" exported="true"/>
+    <image id="qow05t" name="lingshi3.png" path="/Gem/" exported="true"/>
+    <image id="qow05u" name="lingshi4.png" path="/Gem/" exported="true"/>
+    <image id="qow05v" name="lingshi5.png" path="/Gem/" exported="true"/>
+    <image id="qow05w" name="lingshi6.png" path="/Gem/" exported="true"/>
+    <image id="qow05x" name="lingshi7.png" path="/Gem/" exported="true"/>
+    <image id="qow05y" name="lingshi8.png" path="/Gem/" exported="true"/>
+    <image id="qow05z" name="lingshi9.png" path="/Gem/" exported="true"/>
+    <image id="qow060" name="qinglong1.png" path="/Gem/" exported="true"/>
+    <image id="qow061" name="qinglong2.png" path="/Gem/" exported="true"/>
+    <image id="qow062" name="lingshi2.png" path="/Gem/" exported="true"/>
+    <image id="qow063" name="zhuque9.png" path="/Gem/" exported="true"/>
+    <image id="qow064" name="bg_lingmai.png" path="/res/"/>
+    <image id="qow065" name="icon_wudao.png" path="/res/"/>
+    <image id="qow066" name="icon_shitou.png" path="/res/"/>
+    <image id="qow067" name="frame_texiaoguang.png" path="/res/"/>
+    <image id="qow068" name="frame_shuxingdi2.png" path="/res/"/>
+    <image id="qow069" name="frame_shuxingdi.png" path="/res/"/>
+    <image id="qow06a" name="frame_lingshidi3.png" path="/res/"/>
+    <image id="qow06b" name="frame_lingshidi2.png" path="/res/"/>
+    <image id="qow06c" name="frame_lingshidi.png" path="/res/"/>
+    <image id="qow06d" name="frame_jindutiaoda2.png" path="/res/"/>
+    <image id="qow06e" name="icon_zidong.png" path="/res/"/>
+    <image id="qow06f" name="frame_jindutiaoda.png" path="/res/"/>
+    <image id="qow06o" name="frame_dengjidi.png" path="/res/"/>
+    <component id="qow06s" name="group_sGem.xml" path="/"/>
+    <component id="qow06t" name="group_bGem.xml" path="/"/>
+    <component id="qow06u" name="group_viens.xml" path="/"/>
+    <image id="qow06v" name="frame_fengexianbai.png" path="/res/"/>
+    <component id="qow06w" name="ProgressBar2.xml" path="/"/>
+    <component id="qow06z" name="Button3.xml" path="/"/>
+    <component id="qow070" name="LyVeinMain.xml" path="/"/>
+    <image id="j2mx72" name="frame_PRO.png" path="/res/"/>
+    <component id="j2mx73" name="ProgressBar3.xml" path="/"/>
+    <component id="j2mx74" name="LyVeinSatoriMain.xml" path="/"/>
+    <component id="j2mx76" name="LyVeinAutoMain.xml" path="/"/>
+    <component id="l3tj77" name="Component1.xml" path="/"/>
+    <component id="pl5w7b" name="label_attr(1).xml" path="/" exported="true"/>
+    <image id="9s317c" name="icon_bagua1.png" path="/Gem/" exported="true"/>
+    <image id="9s317d" name="icon_beidou8.png" path="/Gem/" exported="true"/>
+    <image id="9s317e" name="icon_beidou7.png" path="/Gem/" exported="true"/>
+    <image id="9s317f" name="icon_beidou6.png" path="/Gem/" exported="true"/>
+    <image id="9s317g" name="icon_beidou5.png" path="/Gem/" exported="true"/>
+    <image id="9s317h" name="icon_beidou4.png" path="/Gem/" exported="true"/>
+    <image id="9s317i" name="icon_beidou3.png" path="/Gem/" exported="true"/>
+    <image id="9s317j" name="icon_beidou2.png" path="/Gem/" exported="true"/>
+    <image id="9s317k" name="icon_beidou9.png" path="/Gem/" exported="true"/>
+    <image id="9s317l" name="icon_beidou1.png" path="/Gem/" exported="true"/>
+    <image id="9s317m" name="icon_bagua8.png" path="/Gem/" exported="true"/>
+    <image id="9s317n" name="icon_bagua7.png" path="/Gem/" exported="true"/>
+    <image id="9s317o" name="icon_bagua6.png" path="/Gem/" exported="true"/>
+    <image id="9s317p" name="icon_bagua5.png" path="/Gem/" exported="true"/>
+    <image id="9s317q" name="icon_bagua4.png" path="/Gem/" exported="true"/>
+    <image id="9s317r" name="icon_bagua3.png" path="/Gem/" exported="true"/>
+    <image id="9s317s" name="icon_bagua2.png" path="/Gem/" exported="true"/>
+    <image id="9s317t" name="icon_bagua9.png" path="/Gem/" exported="true"/>
+    <image id="9s317u" name="icon_lingshiqinglong.png" path="/Gem/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

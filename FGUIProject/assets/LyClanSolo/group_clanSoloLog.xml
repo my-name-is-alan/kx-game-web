@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1164" designImageOffsetY="-208" designImageAlpha="100">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n86_ljrs" name="n86" xy="24,0" size="701,1117" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n87_ljrs" name="label_title" xy="50,25" size="257,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]任[/size]务"/>
+    <component id="n88_ljrs" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <list id="n104_g6rs" name="list_clanLog" xy="53,106" size="643,952" overflow="scroll" lineGap="4" defaultItem="ui://irbjwyufljrs1c" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n99_ljrs" name="btn_bp" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="31,1110">
+      <Button controller="c1" page="0"/>
+    </component>
+    <component id="n100_ljrs" name="btn_hjb" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="199,1110">
+      <Button checked="true" controller="c1" page="1"/>
+    </component>
+    <image id="n114_ipku" name="n114" src="81of4e" fileName="frame_xialvkongkongruye.png" pkg="27utqbiz" xy="164,267" group="n116_ipku"/>
+    <text id="n115_ipku" name="label_str110" xy="161,561" size="442,34" group="n116_ipku" fontSize="24" color="#767676" align="center" vAlign="middle" autoSize="none" text="大撒大撒"/>
+    <group id="n116_ipku" name="group_isClanLog" xy="161,267" size="451,328" visible="false" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n106_ipku" name="n106" src="81of4e" fileName="frame_xialvkongkongruye.png" pkg="27utqbiz" xy="157,370" group="n109_ipku"/>
+    <text id="n108_ipku" name="label_str111" xy="154,664" size="442,34" group="n109_ipku" fontSize="24" color="#767676" align="center" vAlign="middle" autoSize="none" text="大撒大撒"/>
+    <group id="n109_ipku" name="group_isPlayerLog" xy="154,370" size="451,328" group="n102_ljrs" visible="false" advanced="true"/>
+    <loader id="n101_ljrs" name="n101" xy="58,104" size="632,84" group="n102_ljrs" url="ui://27utqbizltemkr"/>
+    <list id="n98_ljrs" name="list_playerLog" xy="53,204" size="643,847" group="n102_ljrs" overflow="scroll" lineGap="4" defaultItem="ui://irbjwyufljrs1c" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n105_g6rs" name="n105" src="g6rs3x" fileName="res3/word_notice.png" xy="190,129" group="n102_ljrs"/>
+    <group id="n102_ljrs" name="n102" xy="53,104" size="643,947" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

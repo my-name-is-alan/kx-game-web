@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n3_jhmn" name="sky" src="k7xe1m" fileName="res/bg_chengchi2.png" xy="0,0"/>
+    <image id="n12_exgj" name="n12" src="k7xe1" fileName="res/bg_chengchi.png" xy="0,1133"/>
+    <list id="n6_jhmn" name="list_bg" xy="0,1133" size="750,0" defaultItem="ui://i35cf1mqk7xe1" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n10_jv6u" name="list_city" xy="0,469" size="750,0" lineGap="-92" defaultItem="ui://i35cf1mqjhmn2k" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

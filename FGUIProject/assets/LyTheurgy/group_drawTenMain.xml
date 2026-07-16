@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="218,284">
+  <displayList>
+    <loader id="n6_s5qh" name="loader_icon" xy="46,47" size="131,172" url="ui://yhkdb7e3d1najg" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n8_s5qh" name="loader_dikuang" xy="45,217" size="131,30" url="ui://yhkdb7e3k70e4o" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n5_s5qh" name="loader_qua" xy="0,0" size="218,284" url="ui://yhkdb7e3s5qhjw" clearOnPublish="true"/>
+    <image id="n16_hvzw" name="n10" src="y9su54" fileName="ui/frame_menke level.png" pkg="27utqbiz" xy="126,191" size="50,27"/>
+    <text id="n11_s5qh" name="label_grade" xy="135,187" size="41,32" fontSize="22" color="#ffffff" align="right" vAlign="middle" strokeColor="#1e1e1d" strokeSize="2" autoClearText="true" text="x50">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <image id="n12_s5qh" name="img_piece" src="isiv91" fileName="ui/icon_piece.png" pkg="27utqbiz" xy="153,27" size="31,31" aspect="true" visible="false"/>
+    <loader id="n13_s5qh" name="loader_sort" xy="18,21" size="42,42" url="ui://yhkdb7e3s5qhkd" clearOnPublish="true"/>
+    <text id="n14_s5qh" name="label_name" xy="63,215" size="92,32" font="ui://27utqbizps391v" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoClearText="true" text="雀摇金尾">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n15_gcnf" name="img_new" src="gcnfpb" fileName="res/frame_xin2.png" xy="145,23" visible="false"/>
+    <component id="n17_p8ls" name="btn_frame" src="p8lspr" fileName="btn_drawTenFrame.xml" xy="0,0" size="218,284"/>
+  </displayList>
+</component>

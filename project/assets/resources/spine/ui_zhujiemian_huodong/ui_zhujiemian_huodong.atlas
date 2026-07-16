@@ -1,0 +1,216 @@
+
+ui_zhujiemian_huodong.png
+size: 730,544
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ui_hdtb1/ui_hdtb1_00
+  rotate: false
+  xy: 452, 338
+  size: 108, 102
+  orig: 200, 200
+  offset: 46, 49
+  index: -1
+images/ui_hdtb1/ui_hdtb1_02
+  rotate: false
+  xy: 334, 442
+  size: 108, 100
+  orig: 200, 200
+  offset: 46, 50
+  index: -1
+images/ui_hdtb1/ui_hdtb1_04
+  rotate: false
+  xy: 444, 442
+  size: 104, 100
+  orig: 200, 200
+  offset: 48, 50
+  index: -1
+images/ui_hdtb1/ui_hdtb1_06
+  rotate: false
+  xy: 550, 442
+  size: 106, 100
+  orig: 200, 200
+  offset: 47, 51
+  index: -1
+images/ui_hdtb1/ui_hdtb1_08
+  rotate: false
+  xy: 218, 341
+  size: 108, 101
+  orig: 200, 200
+  offset: 46, 51
+  index: -1
+images/ui_hdtb1/ui_hdtb1_10
+  rotate: false
+  xy: 562, 338
+  size: 112, 102
+  orig: 200, 200
+  offset: 44, 51
+  index: -1
+images/ui_hdtb1/ui_hdtb1_12
+  rotate: false
+  xy: 112, 129
+  size: 116, 106
+  orig: 200, 200
+  offset: 42, 49
+  index: -1
+images/ui_hdtb1/ui_hdtb1_14
+  rotate: false
+  xy: 476, 122
+  size: 120, 108
+  orig: 200, 200
+  offset: 40, 47
+  index: -1
+images/ui_hdtb1/ui_hdtb1_16
+  rotate: false
+  xy: 250, 12
+  size: 122, 110
+  orig: 200, 200
+  offset: 39, 47
+  index: -1
+images/ui_hdtb1/ui_hdtb1_18
+  rotate: false
+  xy: 374, 10
+  size: 122, 110
+  orig: 200, 200
+  offset: 39, 49
+  index: -1
+images/ui_hdtb1/ui_hdtb1_20
+  rotate: false
+  xy: 126, 17
+  size: 122, 109
+  orig: 200, 200
+  offset: 39, 50
+  index: -1
+images/ui_hdtb1/ui_hdtb1_22
+  rotate: false
+  xy: 354, 232
+  size: 122, 104
+  orig: 200, 200
+  offset: 39, 48
+  index: -1
+images/ui_hdtb1/ui_hdtb1_24
+  rotate: false
+  xy: 598, 122
+  size: 122, 108
+  orig: 200, 200
+  offset: 39, 46
+  index: -1
+images/ui_hdtb1/ui_hdtb1_26
+  rotate: false
+  xy: 498, 10
+  size: 118, 110
+  orig: 200, 200
+  offset: 41, 45
+  index: -1
+images/ui_hdtb1/ui_hdtb1_28
+  rotate: true
+  xy: 478, 232
+  size: 104, 108
+  orig: 200, 200
+  offset: 48, 46
+  index: -1
+images/ui_hdtb1/ui_hdtb1_30
+  rotate: true
+  xy: 2, 238
+  size: 102, 108
+  orig: 200, 200
+  offset: 49, 46
+  index: -1
+images/ui_hdtb1/ui_hdtb1_32
+  rotate: true
+  xy: 2, 342
+  size: 100, 108
+  orig: 200, 200
+  offset: 50, 46
+  index: -1
+images/ui_hdtb1/ui_hdtb1_34
+  rotate: true
+  xy: 112, 342
+  size: 100, 104
+  orig: 200, 200
+  offset: 50, 48
+  index: -1
+images/ui_hdtb1/ui_hdtb1_36
+  rotate: true
+  xy: 2, 444
+  size: 98, 106
+  orig: 200, 200
+  offset: 51, 47
+  index: -1
+images/ui_hdtb1/ui_hdtb1_38
+  rotate: true
+  xy: 110, 444
+  size: 98, 108
+  orig: 200, 200
+  offset: 51, 46
+  index: -1
+images/ui_hdtb1/ui_hdtb1_40
+  rotate: true
+  xy: 220, 444
+  size: 98, 112
+  orig: 200, 200
+  offset: 51, 44
+  index: -1
+images/ui_hdtb1/ui_hdtb1_42
+  rotate: true
+  xy: 112, 237
+  size: 102, 116
+  orig: 200, 200
+  offset: 49, 42
+  index: -1
+images/ui_hdtb1/ui_hdtb1_44
+  rotate: true
+  xy: 230, 128
+  size: 106, 120
+  orig: 200, 200
+  offset: 47, 40
+  index: -1
+images/ui_hdtb1/ui_hdtb1_46
+  rotate: true
+  xy: 352, 124
+  size: 106, 122
+  orig: 200, 200
+  offset: 47, 39
+  index: -1
+images/ui_hdtb1/ui_hdtb1_48
+  rotate: true
+  xy: 230, 236
+  size: 102, 122
+  orig: 200, 200
+  offset: 49, 39
+  index: -1
+images/ui_hdtb1/ui_hdtb1_50
+  rotate: true
+  xy: 328, 340
+  size: 100, 122
+  orig: 200, 200
+  offset: 50, 39
+  index: -1
+images/ui_hdtb1/ui_hdtb1_52
+  rotate: true
+  xy: 588, 232
+  size: 104, 122
+  orig: 200, 200
+  offset: 48, 39
+  index: -1
+images/ui_hdtb1/ui_hdtb1_54
+  rotate: true
+  xy: 2, 19
+  size: 108, 122
+  orig: 200, 200
+  offset: 46, 39
+  index: -1
+images/ui_hdtb1/ui_hdtb1_56
+  rotate: false
+  xy: 618, 2
+  size: 110, 118
+  orig: 200, 200
+  offset: 45, 41
+  index: -1
+images/ui_hdtb1/ui_hdtb1_58
+  rotate: false
+  xy: 2, 132
+  size: 108, 104
+  orig: 200, 200
+  offset: 46, 48
+  index: -1

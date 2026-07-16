@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1100">
+  <displayList>
+    <image id="n18_uzk8" name="n18" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="20,-75" size="702,1200"/>
+    <image id="n33_ryaq" name="n33" src="ryaqu19p" fileName="ui/bg_kaifubang.png" pkg="27utqbiz" xy="43,22"/>
+    <richtext id="n19_uzk8" name="label_title" xy="47,-41" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="仓&lt;库&lt;"/>
+    <component id="n28_ofdw" name="btn_detail" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="181,-67"/>
+    <image id="n22_uzk8" name="n22" src="uzk85f" fileName="ui/frame_rank list.png" pkg="27utqbiz" xy="55,484"/>
+    <image id="n35_ryaq" name="n35" src="ltemkr" fileName="ui/frame_ranking .png" pkg="27utqbiz" xy="55,910"/>
+    <image id="n20_uzk8" name="n20" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="574,944"/>
+    <component id="n21_uzk8" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,-32"/>
+    <text id="n15_palh" name="label_rank" xy="120,487" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <text id="n16_palh" name="label_name" xy="340,486" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <text id="n17_palh" name="label_damage" xy="560,486" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <image id="n34_ryaq" name="img_empty_mask" src="mjzcu16u" fileName="ui/pic_no data.png" pkg="27utqbiz" xy="185,569"/>
+    <list id="n4_aao6" name="list_rank" xy="80,526" size="580,382" overflow="scroll" lineGap="2" defaultItem="ui://a20b95c1ydqdg"/>
+    <image id="n36_ryaq" name="n36" src="ryaqu19r" fileName="ui/frame_tips_02.png" pkg="27utqbiz" xy="55,901"/>
+    <text id="n7_aao6" name="label_selfrank" xy="108,937" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#16191a" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n37_ryaq" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="201,911" scale="0.8,0.8"/>
+    <text id="n8_aao6" name="label_selfscore" xy="300,933" size="10,36" fontSize="26" color="#16191a" align="right" vAlign="middle" text=""/>
+    <component id="n12_gk3o" name="group_player1" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="120,380"/>
+    <component id="n13_gk3o" name="group_player0" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="325,308"/>
+    <component id="n14_gk3o" name="group_player2" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="540,380"/>
+    <component id="n31_ofdw" name="btn_reward" src="ofdwk" fileName="btn_reward.xml" xy="550,913"/>
+    <component id="n30_ofdw" name="btn_record" src="ofdwl" fileName="btn_record.xml" xy="90,1008"/>
+    <component id="n27_ofdw" name="btn_duel" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="268,1012"/>
+  </displayList>
+</component>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,464" designImageOffsetX="-159" designImageOffsetY="-591">
+  <displayList>
+    <image id="n1_gur8" name="n1" src="rvb52y" fileName="ui/frame_tihuanzhanshi.png" pkg="27utqbiz" xy="0,0" size="440,464"/>
+    <image id="n36_gur8" name="n36" src="rvb53c" fileName="ui/dec_tihuanzhanshi_frame_top_left_corner.png" pkg="27utqbiz" xy="21,52"/>
+    <loader id="n2_gur8" name="Loader_qu" xy="20,5" size="400,46" url="ui://27utqbizrvb53a"/>
+    <graph id="n8_gur8" name="n8" xy="30,194" size="378,103" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <text id="n10_gur8" name="label_skillName" xy="40,196" size="100,34" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" autoClearText="true" text="碧海丹心"/>
+    <text id="n11_gur8" name="label_skillLevel" xy="317,197" size="83,32" fontSize="22" color="#16191a" vAlign="middle" autoClearText="true" text="（7级）"/>
+    <graph id="n13_gur8" name="n13" xy="30,311" size="378,138" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <image id="n30_gur8" name="n30" src="rvb53i" fileName="ui/frame_minor_title.png" pkg="27utqbiz" xy="38,321"/>
+    <text id="n14_gur8" name="label_str103" xy="54,319" size="92,32" font="ui://27utqbizps391v" fontSize="22" color="#7be06a" vAlign="middle" strokeColor="#000000" autoClearText="true" text="属性加成"/>
+    <text id="n37_gur8" name="label_str102" xy="158,8" size="124,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" vAlign="middle" strokeColor="#000000" autoClearText="true" text="门客详情"/>
+    <list id="n38_krp3" name="list_attr" xy="45,356" size="322,67" layout="flow_hz" overflow="scroll" colGap="51" defaultItem="ui://30lp993akrp3y" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n39_krp3" name="list_elite" xy="69,59" size="301,118" layout="row" colGap="10" defaultItem="ui://30lp993akrp3z">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n40_psu4" name="label_skillDec" src="psu41a" fileName="group_dec.xml" xy="40,235"/>
+  </displayList>
+</component>

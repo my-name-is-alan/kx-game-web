@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1173" designImageOffsetY="-202">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n40_l7ic" name="n40" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="24,0" size="702,1123"/>
+    <richtext id="n41_l7ic" name="label_title" xy="43,30" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="帮派奖励"/>
+    <component id="n39_l7ic" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <component id="n46_ljrs" name="btn_bp" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="33,1113">
+      <Button controller="c1" page="0"/>
+    </component>
+    <component id="n47_ljrs" name="btn_gr" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="201,1113">
+      <Button checked="true" controller="c1" page="1"/>
+    </component>
+    <loader id="n48_ljrs" name="n48" xy="59,987" size="632,84" group="n53_ljrs" url="ui://27utqbizltemkr"/>
+    <loader id="n51_ljrs" name="img_clanFlag" xy="113,989" size="82,79" group="n53_ljrs" url="ui://27utqbizd373uv" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <component id="n54_ljrs" name="btn_clanGet" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="464,1003" size="191,54" group="n53_ljrs" visible="false">
+      <Button title="领取" titleFontSize="30"/>
+    </component>
+    <text id="n86_w4ww" name="label_str43" xy="525,1006" size="152,48" group="n53_ljrs" fontSize="18" color="#16191a" autoSize="none" text="活动结算时通过邮件自动发放奖励"/>
+    <text id="n87_g6rs" name="label_clanRank" xy="213,1029" size="19,36" group="n53_ljrs" fontSize="26" vAlign="middle" autoClearText="true" text="1"/>
+    <text id="n88_g6rs" name="label_clanName" xy="95,992" size="19,36" group="n53_ljrs" fontSize="26" color="#16191a" vAlign="middle" autoClearText="true" text="1"/>
+    <text id="n90_g6rs" name="label_str24" xy="95,1029" size="117,36" group="n53_ljrs" font="ui://27utqbizps391v" fontSize="26" color="#16191a" vAlign="middle" autoClearText="true" text="我的积分:"/>
+    <group id="n53_ljrs" name="n53" xy="59,987" size="632,84" group="n60_ljrs" advanced="true"/>
+    <list id="n58_ljrs" name="list_clan" xy="41,104" size="667,865" group="n60_ljrs" overflow="scroll" lineGap="4" defaultItem="ui://i35cf1mqmaep84b" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n60_ljrs" name="n60" xy="41,104" size="667,967" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <list id="n73_ljrs" name="list_my" xy="41,104" size="668,865" group="n80_ljrs" overflow="scroll" lineGap="-10" defaultItem="ui://irbjwyufljrsw" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n74_ljrs" name="n74" xy="59,987" size="632,84" group="n79_ljrs" url="ui://27utqbizltemkr"/>
+    <text id="n75_ljrs" name="label_myScore" xy="213,1029" size="19,36" group="n79_ljrs" fontSize="26" vAlign="middle" autoClearText="true" text="1"/>
+    <text id="n76_ljrs" name="label_myRank" xy="213,992" size="19,36" group="n79_ljrs" fontSize="26" color="#16191a" vAlign="middle" autoClearText="true" text="1"/>
+    <component id="n78_ljrs" name="btn_myGet" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="464,1003" size="191,54" group="n79_ljrs" visible="false">
+      <Button title="领取" titleFontSize="30"/>
+    </component>
+    <component id="n81_ljrs" name="group_myIcon" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="117,993" size="100,100" group="n79_ljrs" scale="0.7,0.7"/>
+    <text id="n82_ljrs" name="label_str7" xy="95,992" size="117,36" group="n79_ljrs" font="ui://27utqbizps391v" fontSize="26" color="#16191a" vAlign="middle" autoClearText="true" text="我的排名:"/>
+    <text id="n83_ljrs" name="label_str8" xy="95,1029" size="117,36" group="n79_ljrs" font="ui://27utqbizps391v" fontSize="26" color="#16191a" vAlign="middle" autoClearText="true" text="我的伤害:"/>
+    <text id="n85_w4ww" name="label_str44" xy="525,1006" size="152,48" group="n79_ljrs" fontSize="18" color="#16191a" autoSize="none" text="活动结算时通过邮件自动发放奖励"/>
+    <group id="n79_ljrs" name="n79" xy="59,987" size="632,106" group="n80_ljrs" advanced="true"/>
+    <group id="n80_ljrs" name="n80" xy="41,104" size="668,989" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n42_l7ic" name="n42" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="578,925"/>
+  </displayList>
+</component>

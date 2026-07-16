@@ -1,0 +1,104 @@
+
+zd_xy_zhuzhang_gongji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jltd_hit_2jie_00
+  rotate: true
+  xy: 390, 597
+  size: 207, 225
+  orig: 283, 290
+  offset: 49, 39
+  index: -1
+jltd_hit_2jie_000
+  rotate: false
+  xy: 617, 792
+  size: 162, 162
+  orig: 283, 290
+  offset: 91, 99
+  index: -1
+jltd_hit_2jie_001
+  rotate: false
+  xy: 2, 416
+  size: 232, 225
+  orig: 283, 290
+  offset: 25, 39
+  index: -1
+jltd_hit_2jie_002
+  rotate: false
+  xy: 2, 720
+  size: 173, 172
+  orig: 283, 290
+  offset: 55, 60
+  index: -1
+jltd_hit_2jie_003
+  rotate: true
+  xy: 177, 643
+  size: 195, 211
+  orig: 283, 290
+  offset: 42, 58
+  index: -1
+jltd_hit_2jie_004
+  rotate: true
+  xy: 236, 363
+  size: 232, 242
+  orig: 283, 290
+  offset: 25, 43
+  index: -1
+jltd_hit_2jie_005
+  rotate: false
+  xy: 480, 329
+  size: 240, 236
+  orig: 283, 290
+  offset: 22, 49
+  index: -1
+jltd_hit_2jie_006
+  rotate: true
+  xy: 617, 567
+  size: 218, 235
+  orig: 283, 290
+  offset: 36, 50
+  index: -1
+jltd_hit_x_1_1
+  rotate: true
+  xy: 434, 806
+  size: 148, 181
+  orig: 148, 184
+  offset: 0, 3
+  index: -1
+jltd_hit_x_1_2
+  rotate: true
+  xy: 241, 840
+  size: 114, 191
+  orig: 115, 199
+  offset: 0, 8
+  index: -1
+jltd_hit_x_1_3
+  rotate: true
+  xy: 57, 894
+  size: 60, 65
+  orig: 60, 65
+  offset: 0, 0
+  index: -1
+jltd_hit_x_1_4
+  rotate: true
+  xy: 124, 894
+  size: 60, 115
+  orig: 60, 115
+  offset: 0, 0
+  index: -1
+jltd_hit_x_1_5
+  rotate: false
+  xy: 781, 787
+  size: 173, 167
+  orig: 173, 170
+  offset: 0, 3
+  index: -1
+jltd_hit_x_1_6
+  rotate: false
+  xy: 2, 916
+  size: 53, 38
+  orig: 60, 50
+  offset: 1, 7
+  index: -1

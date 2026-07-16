@@ -1,0 +1,272 @@
+
+hb_limochou.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_L_1
+  rotate: true
+  xy: 386, 303
+  size: 13, 18
+  orig: 13, 18
+  offset: 0, 0
+  index: -1
+arm_R
+  rotate: false
+  xy: 429, 378
+  size: 38, 84
+  orig: 38, 84
+  offset: 0, 0
+  index: -1
+arm_R_1
+  rotate: false
+  xy: 255, 71
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: -1
+biyan
+  rotate: false
+  xy: 406, 304
+  size: 29, 12
+  orig: 29, 12
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 232, 121
+  size: 113, 67
+  orig: 113, 67
+  offset: 0, 0
+  index: -1
+cloth
+  rotate: true
+  xy: 301, 69
+  size: 53, 169
+  orig: 53, 169
+  offset: 0, 0
+  index: -1
+cloth2
+  rotate: false
+  xy: 301, 124
+  size: 49, 110
+  orig: 49, 110
+  offset: 0, 0
+  index: -1
+cloth3
+  rotate: false
+  xy: 353, 124
+  size: 70, 170
+  orig: 70, 170
+  offset: 0, 0
+  index: -1
+cloth_3
+  rotate: false
+  xy: 425, 165
+  size: 39, 137
+  orig: 39, 137
+  offset: 0, 0
+  index: -1
+down_eyelid_R
+  rotate: true
+  xy: 278, 41
+  size: 28, 12
+  orig: 28, 12
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 452, 307
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+eyebrow
+  rotate: false
+  xy: 310, 369
+  size: 26, 5
+  orig: 27, 6
+  offset: 0, 0
+  index: -1
+eyebrow_1
+  rotate: false
+  xy: 338, 370
+  size: 5, 4
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+hair_h
+  rotate: true
+  xy: 2, 48
+  size: 186, 228
+  orig: 186, 228
+  offset: 0, 0
+  index: -1
+hand_L_1
+  rotate: true
+  xy: 469, 376
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+hand_R
+  rotate: false
+  xy: 363, 299
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+hand_R_2
+  rotate: false
+  xy: 437, 306
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 295, 376
+  size: 132, 86
+  orig: 133, 86
+  offset: 1, 0
+  index: -1
+headdress_13
+  rotate: false
+  xy: 476, 385
+  size: 28, 123
+  orig: 28, 123
+  offset: 0, 0
+  index: -1
+jewelry_b
+  rotate: false
+  xy: 232, 22
+  size: 21, 97
+  orig: 21, 103
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 267, 30
+  size: 13, 9
+  orig: 13, 9
+  offset: 0, 0
+  index: -1
+piaodai
+  rotate: false
+  xy: 363, 318
+  size: 145, 56
+  orig: 145, 56
+  offset: 0, 0
+  index: -1
+qunbai
+  rotate: false
+  xy: 2, 236
+  size: 116, 272
+  orig: 116, 272
+  offset: 0, 0
+  index: -1
+qunbai2
+  rotate: false
+  xy: 120, 236
+  size: 231, 58
+  orig: 231, 58
+  offset: 0, 0
+  index: -1
+qunbai3
+  rotate: false
+  xy: 120, 368
+  size: 173, 140
+  orig: 173, 140
+  offset: 0, 0
+  index: -1
+upper_eyelid_L
+  rotate: true
+  xy: 425, 145
+  size: 8, 9
+  orig: 15, 9
+  offset: 0, 0
+  index: -1
+upper_eyelid_R
+  rotate: false
+  xy: 465, 308
+  size: 28, 8
+  orig: 29, 8
+  offset: 1, 0
+  index: -1
+weapon_j
+  rotate: false
+  xy: 295, 464
+  size: 179, 44
+  orig: 180, 45
+  offset: 1, 0
+  index: -1
+weapon_j_1
+  rotate: true
+  xy: 120, 296
+  size: 70, 241
+  orig: 70, 243
+  offset: 0, 2
+  index: -1
+yshou
+  rotate: true
+  xy: 484, 376
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+yshou1
+  rotate: false
+  xy: 457, 155
+  size: 10, 8
+  orig: 10, 10
+  offset: 0, 1
+  index: -1
+yshou2
+  rotate: true
+  xy: 425, 155
+  size: 8, 16
+  orig: 8, 16
+  offset: 0, 0
+  index: -1
+yshou3
+  rotate: false
+  xy: 281, 98
+  size: 10, 21
+  orig: 10, 21
+  offset: 0, 0
+  index: -1
+yshou4
+  rotate: false
+  xy: 255, 20
+  size: 10, 23
+  orig: 10, 23
+  offset: 0, 0
+  index: -1
+yshou5
+  rotate: false
+  xy: 281, 75
+  size: 10, 21
+  orig: 10, 21
+  offset: 0, 0
+  index: -1
+zshou
+  rotate: true
+  xy: 443, 155
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+zshou1
+  rotate: true
+  xy: 295, 368
+  size: 6, 13
+  orig: 6, 13
+  offset: 0, 0
+  index: -1
+zshou2
+  rotate: true
+  xy: 255, 45
+  size: 24, 21
+  orig: 24, 21
+  offset: 0, 0
+  index: -1

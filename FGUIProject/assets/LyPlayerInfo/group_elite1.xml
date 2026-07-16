@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,111">
+  <displayList>
+    <component id="n9_ug9j" name="item_elite" src="o66p4w" fileName="Group_Elite.xml" pkg="27utqbiz" xy="50,50" pivot="0.5,0.5" anchor="true" size="100,100" scale="0.9,0.9"/>
+    <text id="n10_ug9j" name="label_name" xy="0,99" pivot="0.5,0.5" size="100,32" scale="1.1,1.1" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text=""/>
+  </displayList>
+</component>

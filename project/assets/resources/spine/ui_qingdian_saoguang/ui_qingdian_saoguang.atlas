@@ -1,0 +1,118 @@
+
+ui_qingdian_saoguang.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+saoguang
+  rotate: false
+  xy: 2, 381
+  size: 83, 128
+  orig: 128, 128
+  offset: 26, 0
+  index: -1
+合成 1/lizi_00000
+  rotate: false
+  xy: 240, 58
+  size: 43, 139
+  orig: 55, 200
+  offset: 5, 2
+  index: -1
+合成 1/lizi_00002
+  rotate: false
+  xy: 235, 363
+  size: 44, 146
+  orig: 55, 200
+  offset: 5, 2
+  index: -1
+合成 1/lizi_00004
+  rotate: false
+  xy: 192, 349
+  size: 41, 160
+  orig: 55, 200
+  offset: 3, 3
+  index: -1
+合成 1/lizi_00006
+  rotate: false
+  xy: 148, 340
+  size: 42, 169
+  orig: 55, 200
+  offset: 2, 2
+  index: -1
+合成 1/lizi_00008
+  rotate: false
+  xy: 54, 2
+  size: 45, 183
+  orig: 55, 200
+  offset: 1, 1
+  index: -1
+合成 1/lizi_00010
+  rotate: false
+  xy: 50, 187
+  size: 45, 192
+  orig: 55, 200
+  offset: 3, 2
+  index: -1
+合成 1/lizi_00012
+  rotate: false
+  xy: 2, 183
+  size: 46, 196
+  orig: 55, 200
+  offset: 2, 2
+  index: -1
+合成 1/lizi_00014
+  rotate: false
+  xy: 101, 21
+  size: 44, 200
+  orig: 55, 200
+  offset: 7, 0
+  index: -1
+合成 1/lizi_00016
+  rotate: false
+  xy: 196, 199
+  size: 44, 148
+  orig: 55, 200
+  offset: 8, 1
+  index: -1
+合成 1/lizi_00018
+  rotate: false
+  xy: 147, 67
+  size: 47, 154
+  orig: 55, 200
+  offset: 7, 3
+  index: -1
+合成 1/lizi_00020
+  rotate: false
+  xy: 97, 223
+  size: 49, 159
+  orig: 55, 200
+  offset: 5, 6
+  index: -1
+合成 1/lizi_00022
+  rotate: false
+  xy: 2, 15
+  size: 50, 166
+  orig: 55, 200
+  offset: 5, 7
+  index: -1
+合成 1/lizi_00024
+  rotate: false
+  xy: 196, 46
+  size: 42, 151
+  orig: 55, 200
+  offset: 12, 9
+  index: -1
+合成 1/lizi_00026
+  rotate: false
+  xy: 242, 227
+  size: 39, 134
+  orig: 55, 200
+  offset: 13, 7
+  index: -1
+合成 1/lizi_00028
+  rotate: false
+  xy: 87, 384
+  size: 41, 125
+  orig: 55, 200
+  offset: 9, 5
+  index: -1

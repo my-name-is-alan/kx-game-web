@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1176" designImageOffsetX="-355" designImageOffsetY="-204">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n1_hbzk" name="n1" xy="24,0" size="701,1105" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <list id="n35_hbzk" name="list_clan" xy="53,108" size="642,866" group="n62_ljrs" overflow="scroll" lineGap="10" defaultItem="ui://shg18ariahj33u" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n51_e8yx" name="n51" xy="59,980" size="632,84" group="n62_ljrs" url="ui://27utqbizltemkr"/>
+    <text id="n93_ahj3" name="label_str94" xy="84,1003" size="10,39" group="n62_ljrs" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text=""/>
+    <image id="n94_ahj3" name="img_empty_mask1" src="mjzcu16u" fileName="ui/pic_no data.png" pkg="27utqbiz" xy="185,380" group="n62_ljrs"/>
+    <text id="n44_10d11" name="label_clanRank" xy="208,1027" size="104,34" group="n50_10d11" fontSize="24" autoClearText="true" text="排名：12"/>
+    <text id="n45_10d11" name="label_clanName" xy="207,988" size="138,39" group="n50_10d11" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="七道轮回 1"/>
+    <loader id="n47_10d11" name="label_flag" xy="115,982" size="82,79" group="n50_10d11" url="ui://27utqbizd373uv" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <text id="n59_l7ic" name="label_myClanRankScore" xy="490,1010" size="177,34" group="n50_10d11" font="ui://27utqbizps391v" fontSize="24" color="#16191a" autoClearText="true" text="当前积分：9999">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <group id="n50_10d11" name="group_selfclan" xy="115,982" size="552,79" group="n62_ljrs" advanced="true"/>
+    <group id="n62_ljrs" name="n62" xy="53,108" size="642,956" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n75_ds91" name="n75" src="ryaqu19p" fileName="ui/bg_kaifubang.png" pkg="27utqbiz" xy="44,99" group="n90_ds91"/>
+    <image id="n76_ds91" name="n76" src="uzk85f" fileName="ui/frame_rank list.png" pkg="27utqbiz" xy="60,562" group="n90_ds91"/>
+    <text id="n77_ds91" name="label_rank" xy="115,564" size="10,36" group="n90_ds91" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <text id="n78_ds91" name="label_name" xy="345,564" size="10,36" group="n90_ds91" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <text id="n79_ds91" name="label_desc" xy="537,564" size="10,36" group="n90_ds91" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <image id="n80_ds91" name="img_empty_mask" src="mjzcu16u" fileName="ui/pic_no data.png" pkg="27utqbiz" xy="191,653" group="n90_ds91"/>
+    <list id="n81_ds91" name="list_rank" xy="78,604" size="580,440" group="n90_ds91" overflow="scroll" defaultItem="ui://shg18ariahj33v" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n85_ds91" name="n85" src="ltemkr" fileName="ui/frame_ranking .png" pkg="27utqbiz" xy="60,980" group="n90_ds91"/>
+    <image id="n86_ds91" name="n86" src="ryaqu19r" fileName="ui/frame_tips_02.png" pkg="27utqbiz" xy="60,972" group="n90_ds91"/>
+    <component id="n87_ds91" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="206,981" group="n90_ds91" scale="0.8,0.8"/>
+    <text id="n88_ds91" name="label_selfName" xy="312,1004" size="10,36" group="n90_ds91" fontSize="26" color="#16191a" align="center" vAlign="middle" text=""/>
+    <text id="n89_ds91" name="label_selfrank" xy="118,1011" size="10,36" group="n90_ds91" font="ui://27utqbizps391v" fontSize="26" color="#16191a" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n91_r41c" name="label_selfdamage" xy="518,1005" size="10,36" group="n90_ds91" fontSize="26" color="#16191a" align="center" vAlign="middle" text=""/>
+    <component id="n98_wzpv" name="group_player1" src="qz7bdu18h" fileName="group_player1.xml" pkg="27utqbiz" xy="125,445" group="n90_ds91"/>
+    <component id="n99_wzpv" name="group_player0" src="qz7bdu18h" fileName="group_player1.xml" pkg="27utqbiz" xy="330,386" group="n90_ds91"/>
+    <component id="n100_wzpv" name="group_player2" src="qz7bdu18h" fileName="group_player1.xml" pkg="27utqbiz" xy="545,445" group="n90_ds91"/>
+    <group id="n90_ds91" name="n90" xy="44,99" size="662,982" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <richtext id="n4_hbzk" name="label_title" xy="46,28" size="257,54" font="ui://27utqbizps391v" fontSize="40" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]帮[/size]派排名"/>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="662,39"/>
+    <image id="n58_e8yx" name="n58" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="576,925"/>
+    <component id="n60_ljrs" name="btn_bp" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="34,1098">
+      <Button controller="c1" page="0"/>
+    </component>
+    <component id="n61_ljrs" name="btn_gr" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="202,1098">
+      <Button checked="true" controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

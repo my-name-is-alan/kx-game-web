@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="434,58">
+  <displayList>
+    <image id="n50_gq5l" name="n50" src="rp911u" fileName="ui/frame_tipsgreen.png" pkg="27utqbiz" xy="0,0" group="n52_gq5l"/>
+    <text id="n51_gq5l" name="label_likingUp" xy="47,14" size="362,36" group="n52_gq5l" font="ui://27utqbizps391v" fontSize="26" color="#f9f8f6" align="center" vAlign="middle" strokeColor="#19191d" strokeSize="2" text="前往结交，让更多门客加入队伍">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n52_gq5l" name="group_liking" xy="0,0" size="434,58" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="642,150" designImageOffsetX="-407" designImageOffsetY="-472">
+  <displayList>
+    <graph id="n21_rajy" name="n21" xy="0,0" size="642,150" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <graph id="n8_jos6" name="btn_item" xy="96,0" size="384,150" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00e3e7e1"/>
+    <text id="n9_jos6" name="label_leaderName" xy="223,59" size="48,32" fontSize="22" color="#16191a" vAlign="middle" text="玩家"/>
+    <loader id="n20_e8yx" name="group_top" xy="25,41" size="60,62" visible="false" url="ui://27utqbizuzk85j"/>
+    <text id="n10_jos6" name="label_rank" xy="13,45" size="78,54" font="ui://27utqbizps391v" fontSize="40" align="center" vAlign="middle" autoSize="shrink" text="1"/>
+    <text id="n11_jos6" name="label_name" xy="223,17" size="138,39" fontSize="28" color="#16191a" vAlign="middle" text="七道轮回 1"/>
+    <text id="n12_jos6" name="label_level" xy="362,17" size="48,39" fontSize="28" color="#16191a" vAlign="middle" text="8级">
+      <relation target="n11_jos6" sidePair="right-right"/>
+    </text>
+    <loader id="n13_jos6" name="label_flag" xy="95,21" size="200,200" scale="0.6,0.6" touchable="false" url="ui://27utqbizd373uw" align="center" vAlign="middle" fill="scale" autoSize="true"/>
+    <loader id="n15_e8yx" name="img_phase" xy="484,9" size="146,136" url="ui://27utqbizql4fus" align="center" vAlign="middle" fill="scale"/>
+    <image id="n16_e8yx" name="n16" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="224,87" scale="0.8,0.8"/>
+    <text id="n17_e8yx" name="label_combatPower" xy="264,97" size="60,42" scale="0.8,0.8" font="ui://27utqbizvkas4q" fontSize="24" vAlign="middle" leading="0" letterSpacing="-8" text="12"/>
+  </displayList>
+</component>

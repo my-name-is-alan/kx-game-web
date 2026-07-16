@@ -1,0 +1,13 @@
+
+zq_zhuye.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhuye
+  rotate: false
+  xy: 2, 210
+  size: 261, 53
+  orig: 262, 53
+  offset: 0, 0
+  index: -1

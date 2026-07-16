@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="99,97" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_jzhd" name="icon" xy="0,0" pivot="0.5,0.5" size="99,97" url="ui://2uzp0flsrdh3p" align="center" vAlign="middle" clearOnPublish="true"/>
+    <loader3D id="n6_pttz" name="loader_spine_activity" xy="49,48" size="1,1" animation="" skin="" loop="true"/>
+    <text id="n5_dpm4" name="label_name" xy="44,63" size="10,34" font="ui://27utqbizps391v" fontSize="24" color="#fff8b6" align="center" vAlign="middle" strokeColor="#000000" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n7_jon9" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="77,0" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

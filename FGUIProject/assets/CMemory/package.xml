@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qnktu1il">
+  <resources>
+    <image id="adf1m9" name="icon_red point.png" path="/res/" exported="true"/>
+    <image id="n7tl0" name="memory_backwall.png" path="/res/" scale="9grid" scale9grid="350,358,50,29"/>
+    <image id="n7tl2" name="memory_bg_tiptitle.png" path="/res/"/>
+    <image id="n7tl3" name="memory_bg_wait.png" path="/res/"/>
+    <component id="n7tld" name="group_msgbox.xml" path="/"/>
+    <component id="n7tle" name="LyMsgBox.xml" path="/" exported="true"/>
+    <component id="n7tlf" name="FmWait.xml" path="/" exported="true"/>
+    <component id="n7tlg" name="FmMask.xml" path="/" exported="true"/>
+    <component id="n7tlh" name="FmMsgTip.xml" path="/" exported="true"/>
+    <component id="n7tli" name="group_msgtip.xml" path="/"/>
+    <image id="n7tlj" name="memory_empty.png" path="/res/"/>
+    <component id="n7tlk" name="btn_empty.xml" path="/" exported="true"/>
+    <sound id="csw6l" name="eft_common_click.mp3" path="/" exported="true"/>
+    <component id="x870lr" name="btn_checkbox.xml" path="/" exported="true"/>
+    <image id="pugclt" name="btn_close.png" path="/res/"/>
+    <image id="pugclu" name="btn_green.png" path="/res/"/>
+    <image id="pugclv" name="btn_orange.png" path="/res/" exported="true"/>
+    <image id="pugclw" name="frame_public_tips.png" path="/res/" exported="true" scale="9grid" scale9grid="144,80,288,160"/>
+    <component id="pugclx" name="btn_close.xml" path="/" exported="true"/>
+    <component id="pugcly" name="btn_normal1.xml" path="/" exported="true"/>
+    <component id="pugclz" name="btn_normal2.xml" path="/" exported="true"/>
+    <image id="k1vlm1" name="frame_vice_title.png" path="/res/" exported="true" scale="9grid" scale9grid="134,18,-1,3"/>
+    <image id="k1vlm2" name="frame_top_layer.png" path="/res/" exported="true" scale="9grid" scale9grid="1,1,2,2"/>
+    <image id="k1vlm3" name="frame_public3.png" path="/res/" exported="true" scale="9grid" scale9grid="90,90,454,306"/>
+    <image id="k1vlm4" name="frame_list point &amp;+-.png" path="/res/"/>
+    <image id="k1vlm5" name="icon_tick1.png" path="/res/"/>
+    <component id="hl71m6" name="btn_normal1_1.xml" path="/" exported="true"/>
+    <component id="cgklm7" name="btn_normal_color.xml" path="/" exported="true"/>
+    <component id="cgkl3q" name="btn_normal_color2.xml" path="/" exported="true"/>
+    <component id="cgkl3r" name="btn_normal_color3.xml" path="/" exported="true"/>
+    <image id="cgkl37" name="btn_purple.png" path="/res/"/>
+    <component id="i842m8" name="group_msgbox2.xml" path="/"/>
+    <component id="pe7ym9" name="btn_normal1_Ad.xml" path="/" exported="true"/>
+    <component id="o81kma" name="FmDebugStatus.xml" path="/" exported="true"/>
+    <component id="fezhmb" name="btn_normal2_Ad.xml" path="/" exported="true"/>
+    <component id="hjd3mc" name="BmGameBack.xml" path="/" exported="true"/>
+    <image id="hsnamd" name="dec_wave.png" path="/res/" scale9grid="187,37,374,74" gridTile="16"/>
+    <component id="fz6cme" name="btn_checkbox1.xml" path="/" exported="true"/>
+    <image id="loemmf" name="memory_black.png" path="/res/"/>
+    <component id="t1rrmg" name="btn_checkbox2.xml" path="/" exported="true"/>
+    <image id="t1rrmh" name="frame_anlansekuai3.png" path="/res/"/>
+    <component id="r41cmi" name="btn_normal1_2.xml" path="/" exported="true"/>
+    <component id="c4dvmj" name="btn_checkbox11.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

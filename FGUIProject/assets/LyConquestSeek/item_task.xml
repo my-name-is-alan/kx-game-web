@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,120">
+  <displayList>
+    <image id="n19_ahj3" name="n19" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="0,0" size="640,120"/>
+    <text id="n1_gdpi" name="label_name" xy="18,13" size="180,50" font="ui://27utqbizps391v" fontSize="22" color="#16191a" vAlign="middle" autoSize="none" text=""/>
+    <list id="n2_gdpi" name="list_item" xy="205,20" size="320,100" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha"/>
+    <component id="n16_abru" name="bar_count" src="abrum" fileName="bar_count.xml" pkg="27utqbiz" xy="10,63" size="188,26">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n8_lqjl" name="group_take" src="ahj33z" fileName="group_taskss.xml" xy="440,38" scale="0.8,0.8"/>
+    <text id="n20_ahj3" name="label_init" xy="510,41" size="82,37" font="ui://27utqbizps391v" fontSize="26" color="#16191a" vAlign="middle" autoClearText="true" text="未完成">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

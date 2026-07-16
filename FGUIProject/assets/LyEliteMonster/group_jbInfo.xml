@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n8_psu8" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <image id="n16_vcsd" name="n16" src="k1vlm3" fileName="res/frame_public3.png" pkg="qnktu1il" xy="58,316" size="634,630" group="n17_dbzf">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n10_s742" name="n10" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="134,347" size="470,38" group="n17_dbzf"/>
+    <image id="n15_s742" name="n15" src="rvb53i" fileName="ui/frame_minor_title.png" pkg="27utqbiz" xy="103,417" group="n17_dbzf">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n11_s742" name="label_title" xy="262,346" size="214,39" group="n17_dbzf" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" letterSpacing="-2" text="技能详情技能详情">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <list id="n2_psu8" name="list_all" xy="121,460" size="532,442" group="n17_dbzf" overflow="scroll" lineGap="8" defaultItem="ui://27utqbizpsu8k" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n14_s742" name="n14" xy="115,414" size="116,37" group="n17_dbzf" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#000000" text="组合加成">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n17_dbzf" name="n17" xy="58,316" size="634,630" advanced="true"/>
+  </displayList>
+</component>

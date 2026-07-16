@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetY="-110">
+  <displayList>
+    <component id="n0_d46u" name="group_clanMap" src="hbzk4" fileName="group_clanMap.xml" xy="0,-183" size="750,1700">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n20_ql4f" name="n20" src="ql4fut" fileName="ui/frame_title.png" pkg="27utqbiz" xy="-1,-2" group="n26_psu4"/>
+    <image id="n21_ql4f" name="n21" src="ql4f2i" fileName="res3/word_guild.png" xy="137,45" group="n26_psu4"/>
+    <component id="n22_tuv7" name="btn_close" src="jwvdvu" fileName="btn_back1.xml" pkg="27utqbiz" xy="52,27" group="n26_psu4"/>
+    <component id="n3_g7bh" name="btn_clanHelp" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="535,1144" size="214,58" group="n4_g7bh" visible="false">
+      <Button title="帮派助力"/>
+    </component>
+    <component id="n8_jos6" name="btn_clanApply" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="556,1216" size="90,110" group="n4_g7bh">
+      <Button icon="ui://27utqbizql4f23"/>
+    </component>
+    <component id="n9_jos6" name="btn_clanRank" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="647,1216" size="90,110" group="n4_g7bh">
+      <Button icon="ui://27utqbizrg021n"/>
+    </component>
+    <loader id="n10_jos6" name="btn_clanMain1" xy="6,1197" size="382,119" group="n4_g7bh" url="ui://8rnw66xwjos61n"/>
+    <text id="n11_jos6" name="label_name" xy="128,1230" size="157,36" group="n4_g7bh" font="ui://27utqbizps391v" fontSize="26" color="#b64c3b" vAlign="middle" autoSize="shrink" autoClearText="true" text="名字"/>
+    <text id="n12_jos6" name="label_number" xy="150,1266" size="83,34" group="n4_g7bh" fontSize="24" color="#16191a" vAlign="middle" autoClearText="true" text="55/600"/>
+    <loader id="n14_jos6" name="img_flag" xy="273,1207" size="100,98" group="n4_g7bh" touchable="false" url="ui://27utqbizql4fuj" align="center" vAlign="middle" fill="scale"/>
+    <component id="n7_id3d" name="btn_leaveClan" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="531,1065" size="214,58" group="n4_g7bh" visible="false">
+      <Button title="退出帮派"/>
+    </component>
+    <component id="n16_acey" name="btn_clanEvolveSpeedUpReq" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="532,993" size="214,58" group="n4_g7bh" visible="false">
+      <Button title="请求助力鱼塘"/>
+    </component>
+    <loader id="n17_ql4f" name="btn_clanTitle" xy="0,1203" size="137,114" group="n4_g7bh" url="ui://27utqbizql4fuo" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <image id="n19_ql4f" name="n19" src="ql4f2j" fileName="res3/icon_renshu.png" xy="133,1273" size="18,20" group="n4_g7bh"/>
+    <group id="n4_g7bh" name="n4" xy="0,993" size="749,333" group="n26_psu4" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <group id="n26_psu4" name="group_clan" xy="-1,-2" size="750,1328" advanced="true"/>
+    <loader3D id="n24_nvxw" name="loader3d_join" xy="374,666" size="2,2" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+  </displayList>
+</component>

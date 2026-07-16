@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,980">
+  <displayList>
+    <image id="n61_wnc2" name="n61" src="wnc21y" fileName="pet/frame_xialvhuhuandiban2.png" xy="24,0"/>
+    <image id="n62_wnc2" name="n62" src="kluzh" fileName="res/frame_fengexian.png" xy="213,51"/>
+    <text id="n63_wnc2" name="label_title" xy="301,32" size="148,49" font="ui://27utqbizps391v" fontSize="36" color="#f4e9d5" align="center" vAlign="middle" autoClearText="true" text="选择侠侣">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n65_wnc2" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="655,-63"/>
+    <list id="n40_kmnd" name="list_item" xy="55,98" size="640,800" overflow="scroll" lineGap="20" defaultItem="ui://j6s22r8hx9bu1s" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n66_wnc2" name="label_desc" xy="217,918" size="316,34" fontSize="24" color="#c85231" align="center" vAlign="middle" autoClearText="true" text="只能选择未升级、传功的侠侣">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n56_inps" name="n56" src="81of4e" fileName="frame_xialvkongkongruye.png" pkg="27utqbiz" xy="151,315" group="n58_inps"/>
+    <text id="n57_inps" name="label_empty" xy="301,630" size="148,34" group="n58_inps" font="ui://27utqbizps391v" fontSize="24" color="#767676" align="center" vAlign="middle" autoClearText="true" text="暂无可用侠侣">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n58_inps" name="group_empty" xy="151,315" size="448,349" visible="false" advanced="true"/>
+  </displayList>
+</component>

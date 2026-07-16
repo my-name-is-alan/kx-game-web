@@ -1,0 +1,146 @@
+
+zd_zhaomin_huo.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hfnp_buff_00
+  rotate: false
+  xy: 2, 745
+  size: 150, 107
+  orig: 176, 144
+  offset: 14, 6
+  index: -1
+hfnp_buff_01
+  rotate: false
+  xy: 166, 744
+  size: 148, 109
+  orig: 176, 144
+  offset: 16, 6
+  index: -1
+hfnp_buff_02
+  rotate: false
+  xy: 808, 630
+  size: 150, 111
+  orig: 176, 144
+  offset: 12, 6
+  index: -1
+hfnp_buff_03
+  rotate: false
+  xy: 492, 743
+  size: 152, 113
+  orig: 176, 144
+  offset: 7, 6
+  index: -1
+hfnp_buff_04
+  rotate: false
+  xy: 655, 742
+  size: 151, 116
+  orig: 176, 144
+  offset: 6, 6
+  index: -1
+hfnp_buff_05
+  rotate: false
+  xy: 818, 861
+  size: 159, 116
+  orig: 176, 144
+  offset: 7, 6
+  index: -1
+hfnp_buff_06
+  rotate: false
+  xy: 492, 858
+  size: 161, 119
+  orig: 176, 144
+  offset: 9, 6
+  index: -1
+hfnp_buff_07
+  rotate: false
+  xy: 166, 855
+  size: 162, 122
+  orig: 176, 144
+  offset: 9, 5
+  index: -1
+hfnp_buff_08
+  rotate: false
+  xy: 2, 854
+  size: 162, 123
+  orig: 176, 144
+  offset: 9, 5
+  index: -1
+hfnp_buff_09
+  rotate: false
+  xy: 330, 855
+  size: 160, 122
+  orig: 176, 144
+  offset: 10, 6
+  index: -1
+hfnp_buff_10
+  rotate: false
+  xy: 655, 860
+  size: 161, 117
+  orig: 176, 144
+  offset: 10, 8
+  index: -1
+hfnp_buff_11
+  rotate: false
+  xy: 818, 743
+  size: 159, 116
+  orig: 176, 144
+  offset: 12, 10
+  index: -1
+hfnp_buff_12
+  rotate: false
+  xy: 620, 641
+  size: 153, 99
+  orig: 176, 144
+  offset: 17, 8
+  index: -1
+hfnp_buff_13
+  rotate: false
+  xy: 308, 539
+  size: 150, 101
+  orig: 176, 144
+  offset: 20, 7
+  index: -1
+hfnp_buff_14
+  rotate: false
+  xy: 469, 639
+  size: 149, 102
+  orig: 176, 144
+  offset: 20, 7
+  index: -1
+hfnp_buff_15
+  rotate: false
+  xy: 620, 539
+  size: 147, 100
+  orig: 176, 144
+  offset: 21, 9
+  index: -1
+hfnp_buff_16
+  rotate: false
+  xy: 156, 638
+  size: 150, 104
+  orig: 176, 144
+  offset: 18, 7
+  index: -1
+hfnp_buff_17
+  rotate: false
+  xy: 316, 748
+  size: 151, 105
+  orig: 176, 144
+  offset: 15, 6
+  index: -1
+hfnp_buff_18
+  rotate: false
+  xy: 316, 642
+  size: 151, 104
+  orig: 176, 144
+  offset: 14, 7
+  index: -1
+hfnp_buff_19
+  rotate: false
+  xy: 2, 638
+  size: 152, 105
+  orig: 176, 144
+  offset: 14, 7
+  index: -1

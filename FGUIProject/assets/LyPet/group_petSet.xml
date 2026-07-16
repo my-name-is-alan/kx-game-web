@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="717,832">
+  <displayList>
+    <image id="n17_xpuh" name="n17" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,30" size="696,802"/>
+    <component id="n16_xpuh" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="639,0"/>
+    <image id="n22_i809" name="n22" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="136,71" size="420,38"/>
+    <text id="n3_ogvd" name="label_str62" xy="287,68" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoClearText="true" text="选择侠侣"/>
+    <component id="n6_ogvd" name="group_icon" src="i05h8" fileName="group_petItem.xml" xy="58,167"/>
+    <graph id="n25_i809" name="n25" xy="167,124" size="504,157" type="rect" lineSize="0" fillColor="#ffe5e4df"/>
+    <text id="n7_ogvd" name="label_name" xy="185,131" size="60,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" text="青龙"/>
+    <text id="n8_ogvd" name="label_level" xy="248,141" size="35,29" fontSize="20" color="#2b841c" vAlign="middle" text="1级">
+      <relation target="n7_ogvd" sidePair="right-right"/>
+    </text>
+    <image id="n23_i809" name="n23" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="196,311"/>
+    <text id="n11_ogvd" name="label_skillDec" xy="185,172" size="478,108" fontSize="20" color="#16191a" autoSize="none" text="参战技能参战技能参战技能参战技能参战技能参战技能参战技能参战技能参战技能参战技能参战技能参战技能参战技能"/>
+    <text id="n13_ogvd" name="label_str63" xy="304,301" size="80,28" font="ui://27utqbizps391v" fontSize="19" color="#16191a" vAlign="middle" autoClearText="true" text="可选侠侣"/>
+    <graph id="n24_i809" name="n24" xy="29,338" size="637,367" type="rect" lineSize="0" fillColor="#ffe5e4df"/>
+    <list id="n14_ogvd" name="list_pet" xy="44,360" size="610,300" layout="flow_hz" overflow="scroll" lineGap="-30" colGap="8" defaultItem="ui://eawofj71tny6a3">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n18_xpuh" name="btn_setpetpitysystem" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="247,732">
+      <Button title="确定1"/>
+    </component>
+  </displayList>
+</component>

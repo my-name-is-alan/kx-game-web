@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1112" designImageOffsetY="-318">
+  <controller name="c1" pages="0,,1,,2," selected="0">
+    <remark page="0" value="已解锁"/>
+    <remark page="1" value="未解锁"/>
+    <remark page="2" value="特殊解锁"/>
+  </controller>
+  <displayList>
+    <loader id="n40_kcwh" name="n40" xy="24,0" size="701,1112" group="n29_fj2b" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <image id="n45_kcwh" name="n45" src="rp911z" fileName="res2/bg_xianyoubeijing.png" xy="47,104" group="n29_fj2b"/>
+    <component id="n41_kcwh" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40" group="n29_fj2b"/>
+    <richtext id="n42_kcwh" name="label_bxl" xy="43,27" size="257,49" group="n29_fj2b" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]兽[/size]友"/>
+    <loader3D id="n60_isiv" name="loader_spine" xy="362,660" size="20,20" group="n29_fj2b" animation="" skin="" loop="true"/>
+    <loader3D id="n72_ql4f" name="loader_spine_level" xy="362,511" size="20,20" group="n29_fj2b" animation="" skin="" loop="true"/>
+    <loader id="n44_kcwh" name="img_quality" xy="89,108" size="78,334" group="n8_fj2b" url="ui://27utqbizrp911v"/>
+    <richtext id="n7_fj2b" name="label_name" xy="106,224" size="36,186" group="n8_fj2b" font="ui://27utqbizps391v" fontSize="32" color="#904a44" align="center" vAlign="middle" ubb="true" autoSize="shrink" text="乐乐"/>
+    <group id="n8_fj2b" name="n8" xy="89,108" size="78,334" group="n29_fj2b" advanced="true"/>
+    <component id="n12_fj2b" name="btn_skin" src="fj2ba" fileName="btn_skin.xml" xy="595,546" group="n29_fj2b"/>
+    <image id="n50_kcwh" name="n50" src="rp911e" fileName="res2/frame_buffxiaoguodikuang.png" xy="93,797" group="n43_kcwh"/>
+    <text id="n21_fj2b" name="label_likingDec" xy="196,802" size="362,32" group="n43_kcwh" font="ui://27utqbizps391v" fontSize="22" color="#616161" align="center" autoSize="none" autoClearText="true" text="好感度等级达到60级1"/>
+    <text id="n22_fj2b" name="label_mainAttr" xy="127,835" size="499,32" group="n43_kcwh" font="ui://27utqbizps391v" fontSize="22" color="#5b9640" align="center" autoSize="none" autoClearText="true" text="战斗天赋：最终减伤+3%"/>
+    <text id="n23_fj2b" name="label_sideAttr" xy="127,862" size="499,32" group="n43_kcwh" font="ui://27utqbizps391v" fontSize="22" color="#5b9640" align="center" autoSize="none" autoClearText="true" text="血量+7%"/>
+    <component id="n52_kcwh" name="btn_likingdDtails" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="591,769" group="n43_kcwh"/>
+    <group id="n43_kcwh" name="n43" xy="93,769" size="598,132" group="n29_fj2b"/>
+    <list id="n25_fj2b" name="list_likingProp" xy="101,932" size="351,100" group="n32_g0zl" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://l32lh3odsvlpt" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n39_svlp" name="btn_isTen" src="svlpy" fileName="btn_gou.xml" xy="493,930" group="n32_g0zl"/>
+    <component id="n49_kcwh" name="btn_increaseCompanionLiking" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="462,976" group="n32_g0zl"/>
+    <group id="n32_g0zl" name="n32" xy="101,930" size="575,104" group="n29_fj2b" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n54_kcwh" name="btn_lock" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="279,976" group="n35_g0zl"/>
+    <component id="n33_g0zl" name="label_lockDec" src="ql4f3x" fileName="group_lock.xml" xy="291,935" group="n35_g0zl">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <group id="n35_g0zl" name="n35" xy="279,935" size="234,99" group="n29_fj2b" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n58_isiv" name="group_number" src="jwvd4a" fileName="group_number.xml" xy="321,928" group="n38_g0zl">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n76_gqdu" name="btn_lock1" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="279,976" group="n38_g0zl"/>
+    <group id="n38_g0zl" name="n38" xy="279,928" size="214,106" group="n29_fj2b" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+    <component id="n77_gqdu" name="bar_liking" src="gqduv9" fileName="bar_level2.xml" pkg="27utqbiz" xy="129,729" group="n47_kcwh">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader3D id="n79_wgjo" name="loader_spine_exp" xy="389,747" size="1,1" group="n47_kcwh" animation="" skin="" loop="true"/>
+    <image id="n46_kcwh" name="n46" src="rp911o" fileName="res2/icon_aixin.png" xy="73,715" group="n47_kcwh"/>
+    <text id="n16_fj2b" name="label_liking" xy="84,722" size="54,42" group="n47_kcwh" fontSize="30" color="#f9f8f6" align="center" vAlign="middle" autoSize="none" strokeColor="#545a56" text="40"/>
+    <text id="n18_fj2b" name="label_str19" xy="143,759" size="162,32" group="n47_kcwh" font="ui://27utqbizps391v" fontSize="22" color="#d1efe6" align="center" strokeColor="#4d6d6a" strokeSize="2" autoClearText="true" text="下一级好感度：1"/>
+    <text id="n19_fj2b" name="label_upAttr" xy="289,759" size="83,32" group="n47_kcwh" font="ui://27utqbizps391v" fontSize="22" color="#f9f8f6" align="center" strokeColor="#5a854d" strokeSize="2" autoClearText="true" text="攻击+31"/>
+    <group id="n47_kcwh" name="n47" xy="73,715" size="603,76" group="n29_fj2b"/>
+    <component id="n51_kcwh" name="btn_battle" src="kcwh2h" fileName="btn_battle.xml" xy="600,640" group="n29_fj2b">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <image id="n64_d46u" name="n64" src="rp911b" fileName="res2/frame_jiejitisheng.png" xy="0,109" group="n68_d46u"/>
+    <text id="n65_d46u" name="label_str29" xy="295,285" size="158,60" group="n68_d46u" fontSize="22" color="#dfd58a" align="center" vAlign="middle" autoSize="none" text="与兽友日渐亲密获得:"/>
+    <text id="n67_d46u" name="label_likingStage" xy="199,351" size="348,32" group="n68_d46u" fontSize="22" color="#dfd58a" align="center" vAlign="middle" autoSize="none" text="与兽友日渐亲密"/>
+    <group id="n68_d46u" name="group_likingStage" xy="0,109" size="752,404" group="n29_fj2b" visible="false" advanced="true"/>
+    <image id="n61_d46u" name="n61" src="rp911u" fileName="ui/frame_tipsgreen.png" pkg="27utqbiz" xy="160,173" group="n63_d46u"/>
+    <text id="n62_d46u" name="label_likingUp" xy="273,190" size="244,32" group="n63_d46u" font="ui://27utqbizps391v" fontSize="22" color="#f9f8f6" align="center" vAlign="middle" autoSize="none" strokeColor="#19191d" strokeSize="2" autoClearText="true" text="好感度提升"/>
+    <group id="n63_d46u" name="group_liking" xy="160,173" size="434,58" group="n29_fj2b" visible="false" advanced="true"/>
+    <component id="n10_fj2b" name="btn_left" src="fj2b9" fileName="btn_switch.xml" xy="629,438" group="n29_fj2b" scale="2,2"/>
+    <component id="n11_fj2b" name="btn_right" src="fj2b9" fileName="btn_switch.xml" xy="122,518" group="n29_fj2b" scale="2,2" rotation="180"/>
+    <group id="n29_fj2b" name="n29" xy="0,0" size="752,1112" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n63_d46u" tween="true" startValue="1" endValue="1" duration="12"/>
+    <item time="0" type="Visible" target="n63_d46u" value="true"/>
+    <item time="0" type="XY" target="n63_d46u" tween="true" startValue="160,173" endValue="159,173" duration="12"/>
+    <item time="12" type="Alpha" target="n63_d46u" tween="true" startValue="1" endValue="0" duration="15"/>
+    <item time="12" type="XY" target="n63_d46u" tween="true" startValue="159,173" endValue="159,107" duration="15"/>
+    <item time="27" type="Visible" target="n63_d46u" value="false"/>
+  </transition>
+</component>

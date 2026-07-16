@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="565,140">
+  <displayList>
+    <image id="n5_85qw" name="n5" src="k7xe1r" fileName="res/frame_jianglidi2.png" xy="0,0" size="565,140"/>
+    <component id="n6_85qw" name="group_skillIcon" src="85qwdu192" fileName="group_skill.xml" xy="12,2"/>
+    <text id="n8_85qw" name="label_name" xy="145,11" size="91,39" font="ui://27utqbizps391v" fontSize="26" color="#825027" align="center" vAlign="middle" autoSize="none" text="神威炮"/>
+    <richtext id="n9_85qw" name="label_desc" xy="150,49" size="247,77" fontSize="20" color="#7d6a57" ubb="true" autoSize="none" text="召唤神龙"/>
+    <component id="n10_85qw" name="group_need" src="me8jrj" fileName="group_needItem2.xml" pkg="27utqbiz" xy="449,26" scale="0.8,0.8">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n11_85qw" name="btn_use" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="414,58" size="141,38" aspect="true">
+      <Button title="使用" titleFontSize="24"/>
+    </component>
+  </displayList>
+</component>

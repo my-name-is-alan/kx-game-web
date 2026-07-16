@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,142" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n5_mck7" name="icon" xy="55,46" size="50,50" visible="false" url="ui://2uzp0flskj3584" align="center" vAlign="middle"/>
+    <loader3D id="n6_t09v" name="loader_spine" xy="79,121" size="2,2" animation="" skin="" loop="true"/>
+    <text id="n2_wb4d" name="title" xy="0,125" size="161,29" font="ui://27utqbizps391v" fontSize="20" color="#3d5956" autoClearText="true" text="200次钓鱼后解锁">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n3_wb4d" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="115,10" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

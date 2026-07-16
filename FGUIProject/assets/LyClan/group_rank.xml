@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="701,1093">
+  <displayList>
+    <image id="n36_bhy6" name="n36" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,-11" size="702,1105"/>
+    <image id="n53_ryaq" name="n53" src="ryaqu19p" fileName="ui/bg_kaifubang.png" pkg="27utqbiz" xy="19,86"/>
+    <richtext id="n37_bhy6" name="label_title" xy="27,22" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="仓&lt;库&lt;"/>
+    <image id="n38_bhy6" name="n38" src="uzk85f" fileName="ui/frame_rank list.png" pkg="27utqbiz" xy="35,549"/>
+    <image id="n39_bhy6" name="n39" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="554,910"/>
+    <component id="n40_bhy6" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="633,31"/>
+    <text id="n41_bhy6" name="label_rank" xy="90,551" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <text id="n42_bhy6" name="label_name" xy="320,551" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <text id="n52_ors2" name="label_desc" xy="512,551" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <image id="n54_ryaq" name="img_empty_mask" src="mjzcu16u" fileName="ui/pic_no data.png" pkg="27utqbiz" xy="166,640"/>
+    <list id="n44_bhy6" name="list_rank" xy="58,591" size="580,440" overflow="scroll" lineGap="10" defaultItem="ui://8rnw66xwrg0222"/>
+    <component id="n47_bhy6" name="group_player1" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="100,453"/>
+    <component id="n48_bhy6" name="group_player0" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="305,373"/>
+    <component id="n49_bhy6" name="group_player2" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="520,453"/>
+    <image id="n55_ryaq" name="n55" src="ltemkr" fileName="ui/frame_ranking .png" pkg="27utqbiz" xy="35,967"/>
+    <image id="n56_ryaq" name="n56" src="ryaqu19r" fileName="ui/frame_tips_02.png" pkg="27utqbiz" xy="35,959"/>
+    <component id="n57_ryaq" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="181,968" scale="0.8,0.8"/>
+    <text id="n51_nvxw" name="label_selfdamage" xy="287,991" size="10,36" fontSize="26" color="#16191a" align="center" vAlign="middle" text=""/>
+    <text id="n45_bhy6" name="label_selfrank" xy="93,998" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#16191a" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

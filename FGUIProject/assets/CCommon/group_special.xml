@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="169,85">
+  <displayList>
+    <text id="n6_lloi" name="label_dec" xy="0,26" size="166,55" fontSize="18" color="#2b841c" vAlign="middle" leading="1" autoSize="shrink" text="攻击有概率获得高额伤害"/>
+    <text id="n18_lloi" name="label_name" xy="0,0" size="52,34" fontSize="24" color="#16191a" vAlign="middle" text="闪避"/>
+    <text id="n19_lloi" name="label_num" xy="44,1" size="113,34" fontSize="24" color="#16191a" align="right" vAlign="middle" autoSize="none" text="17%"/>
+  </displayList>
+</component>

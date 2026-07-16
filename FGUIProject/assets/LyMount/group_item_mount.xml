@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,80">
+  <displayList>
+    <loader id="n4_ewyh" name="loader_back" xy="5,5" size="190,70" url="ui://c3my3l4fr1meh" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_ewyh" name="loader_icon" xy="5,5" size="190,70" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <graph id="n12_em2r" name="img_dark" xy="5,5" size="190,70" visible="false" touchable="false" type="rect" lineColor="#4c000000" fillColor="#4c000000">
+      <relation target="" sidePair="rightext-right,topext-top,bottomext-bottom,leftext-left"/>
+    </graph>
+    <component id="n2_ewyh" name="btn_frame" src="ii8xl" fileName="btn_item.xml" xy="0,0" size="200,80">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n10_ii8x" name="img_count" src="ii8xp" fileName="res/frame_challenger.png" xy="0,46" visible="false">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </image>
+    <text id="n3_ewyh" name="label_count" xy="7,45" size="10,29" fontSize="20" color="#f09753" vAlign="middle" autoClearText="true" text="">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <image id="n11_ii8x" name="img_lock" src="ar1l16" fileName="ui/icon_lock.png" pkg="27utqbiz" xy="143,12" visible="false"/>
+    <image id="n13_qyy6" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="178,0" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+</component>

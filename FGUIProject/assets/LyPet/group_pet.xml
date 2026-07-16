@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1154" designImageOffsetY="-269">
+  <controller name="con_pet" pages="0,,1,,2," selected="2">
+    <remark page="0" value="灵兽"/>
+    <remark page="1" value="缘分"/>
+    <remark page="2" value="召唤灵兽"/>
+  </controller>
+  <controller name="c2" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n143_81of" name="n143" xy="26,0" size="701,1112" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n145_81of" name="label_bxl" xy="45,31" size="266,49" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]侠[/size]侣"/>
+    <image id="n149_81of" name="n149" src="81of49" fileName="res1/frame_xialvbg.png" xy="47,96" size="658,398" group="n94_i05h"/>
+    <image id="n206_81of" name="n206" src="81of4t" fileName="res1/icon_anniushengzi.png" xy="647,72" group="n94_i05h"/>
+    <image id="n157_81of" name="n157" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="50,502" size="667,29" group="n94_i05h"/>
+    <text id="n39_95q1" name="label_petAttr1" xy="200,502" size="96,29" group="n94_i05h" font="ui://27utqbizps391v" fontSize="20" color="#2b841c" align="center" vAlign="middle" autoClearText="true" text="生命+54%"/>
+    <text id="n41_95q1" name="label_petAttr2" xy="333,502" size="96,29" group="n94_i05h" font="ui://27utqbizps391v" fontSize="20" color="#2b841c" align="center" vAlign="middle" autoClearText="true" text="生命+54%"/>
+    <text id="n42_95q1" name="label_petAttr3" xy="486,502" size="96,29" group="n94_i05h" font="ui://27utqbizps391v" fontSize="20" color="#2b841c" align="center" vAlign="middle" autoClearText="true" text="生命+54%"/>
+    <image id="n192_81of" name="n192" src="81of5a" fileName="res1/frame_jinengditiao.png" xy="60,543" group="n94_i05h"/>
+    <component id="n164_81of" name="btn_skillDec" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="46,521" group="n94_i05h"/>
+    <component id="n43_95q1" name="label_petSkill" src="yqrs9e" fileName="group_petSkill.xml" xy="120,555" size="377,71" group="n94_i05h"/>
+    <component id="n158_81of" name="btn_leveluppet" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="490,581" size="212,58" group="n94_i05h" scale="0.9,0.9">
+      <Button title="升级1"/>
+    </component>
+    <image id="n193_81of" name="n193" src="81of5a" fileName="res1/frame_jinengditiao.png" xy="60,644" group="n94_i05h"/>
+    <component id="n159_81of" name="btn_devourpet" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="492,682" size="212,58" group="n94_i05h" scale="0.9,0.9">
+      <Button title="吞噬1"/>
+    </component>
+    <image id="n194_81of" name="n194" src="81of5a" fileName="res1/frame_jinengditiao.png" xy="60,745" group="n94_i05h"/>
+    <component id="n160_81of" name="btn_refreshBuff" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="491,778" size="212,58" group="n94_i05h" scale="0.9,0.9">
+      <Button title="洗练1"/>
+    </component>
+    <text id="n40_95q1" name="label_petLevel" xy="256,438" size="238,39" group="n94_i05h" font="ui://27utqbizps391v" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#cf7e28" autoClearText="true" text="79·塑魂0阶虚灵"/>
+    <component id="n22_95q1" name="btn_togglepetlock" src="95q13" fileName="btn_suo.xml" xy="506,433" group="n94_i05h">
+      <Button title="锁"/>
+    </component>
+    <component id="n154_81of" name="btn_petreset" src="81of4z" fileName="btn_common2.xml" xy="60,416" group="n94_i05h">
+      <Button title="重置1" icon="ui://eawofj7181of3w"/>
+    </component>
+    <component id="n155_81of" name="btn_petrelease" src="81of4z" fileName="btn_common2.xml" xy="130,416" group="n94_i05h">
+      <Button title="离去1" icon="ui://eawofj7181of3y"/>
+    </component>
+    <loader3D id="n227_rg02" name="loader_bowen" xy="365,422" size="20,20" group="n94_i05h" animation="" skin="" loop="true"/>
+    <loader3D id="n142_t8rt" name="loader_spine" xy="365,430" size="20,20" group="n94_i05h" scale="0.85,0.85" animation="" skin="" loop="true"/>
+    <loader3D id="n226_rg02" name="loader_levelUp" xy="365,304" size="20,20" group="n94_i05h" animation="" skin="" loop="true"/>
+    <image id="n222_szl0" name="n222" src="szl085" fileName="res1/qualityItem.png" xy="218,201" size="30,194" group="n32_95q1" scale="-1,1"/>
+    <component id="n200_81of" name="group_star" src="i8097b" fileName="group_star.xml" xy="191,217" group="n32_95q1"/>
+    <group id="n32_95q1" name="group_starAll" xy="191,201" size="57,194" group="n94_i05h" advanced="true"/>
+    <graph id="n139_t8rt" name="group_noPet" xy="44,107" size="668,999" group="n94_i05h" type="rect" lineColor="#00000000" fillColor="#02ffffff"/>
+    <loader id="n146_81of" name="img_quality" xy="128,97" size="78,418" group="n148_81of" scale="0.8,0.8" url="ui://27utqbizi809lk"/>
+    <richtext id="n147_81of" name="label_petName" xy="137,190" size="36,139" group="n148_81of" font="ui://27utqbizps391v" fontSize="26" color="#904a44" align="center" vAlign="middle" ubb="true" autoSize="none" text="啊啊"/>
+    <loader3D id="n242_wgjo" name="loader_quality" xy="156,145" size="2,2" group="n148_81of" scale="0.8,0.8" animation="" skin="" loop="true"/>
+    <group id="n148_81of" name="n148" xy="128,97" size="78,418" group="n94_i05h" advanced="true"/>
+    <component id="n150_81of" name="btn_summonpet" src="81of4y" fileName="btn_common1.xml" xy="610,299" group="n94_i05h">
+      <Button icon="ui://eawofj7181of4d"/>
+    </component>
+    <component id="n151_81of" name="btn_sh" src="81of4y" fileName="btn_common1.xml" xy="610,198" group="n94_i05h">
+      <Button icon="ui://eawofj7181of4c"/>
+    </component>
+    <component id="n152_81of" name="btn_th" src="81of4y" fileName="btn_common1.xml" xy="610,101" group="n94_i05h">
+      <Button icon="ui://eawofj7181of4b"/>
+    </component>
+    <component id="n165_81of" name="group_buff1" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="121,646" group="n94_i05h" scale="0.8,0.8"/>
+    <component id="n166_81of" name="group_buff2" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="213,646" group="n94_i05h" scale="0.8,0.8"/>
+    <component id="n167_81of" name="group_buff3" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="304,646" group="n94_i05h" scale="0.8,0.8"/>
+    <component id="n168_81of" name="group_buff4" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="395,646" group="n94_i05h" scale="0.8,0.8"/>
+    <component id="n178_81of" name="group_buff5" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="120,745" group="n94_i05h" scale="0.8,0.8"/>
+    <component id="n179_81of" name="group_buff6" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="213,746" group="n94_i05h" scale="0.8,0.8"/>
+    <component id="n180_81of" name="group_buff7" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="304,746" group="n94_i05h" scale="0.8,0.8"/>
+    <component id="n181_81of" name="group_buff8" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="395,746" group="n94_i05h" scale="0.8,0.8"/>
+    <graph id="n213_inps" name="n213" xy="45,850" size="660,227" group="n94_i05h" type="rect" lineSize="0" fillColor="#ffe5e4df">
+      <gearXY controller="c2" pages="0,1" values="46,850,0.061,0.737|45,747,0.061,0.648" tween="true" positionsInPercent="true"/>
+      <gearSize controller="c2" pages="1" values="660,329,1,1" default="660,227,1,1" tween="true"/>
+    </graph>
+    <list id="n83_i05h" name="list_pet" xy="56,898" size="754,184" group="n94_i05h" scale="0.85,0.85" layout="flow_hz" overflow="scroll" lineGap="8" colGap="9" defaultItem="ui://eawofj71uun63n">
+      <gearXY controller="c2" pages="0,1" values="56,898,0.075,0.779|54,802,0.073,0.695" tween="true" positionsInPercent="true"/>
+      <gearSize controller="c2" pages="0,1" values="754,184,0.85,0.85|754,298,0.85,0.85" tween="true"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n211_inps" name="n211" src="inps5t" fileName="btn_jt.xml" xy="652,854" group="n214_inps" scale="0.8,0.8">
+      <Button controller="c2" page="1"/>
+    </component>
+    <image id="n163_81of" name="n163" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="209,862" size="358,11" group="n214_inps"/>
+    <text id="n80_i05h" name="label_petCount" xy="285,851" size="181,34" group="n214_inps" alpha="0.75" font="ui://27utqbizps391v" fontSize="21" color="#16191a" align="center" vAlign="middle" autoSize="none" text="灵兽（1/1）"/>
+    <group id="n214_inps" name="n214" xy="209,851" size="491,51" group="n94_i05h" advanced="true">
+      <gearXY controller="c2" pages="0,1" values="209,852,0.279,0.738|209,758,0.279,0.657" tween="true" positionsInPercent="true"/>
+    </group>
+    <component id="n220_pju6" name="group_icon4" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="437,34" group="n94_i05h"/>
+    <component id="n221_pju6" name="group_icon3" src="81ofhd" fileName="group_add1.xml" pkg="27utqbiz" xy="257,34" group="n94_i05h"/>
+    <component id="n228_puo9" name="btn_buffDec" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="66,620" size="60,100" group="n94_i05h"/>
+    <component id="n232_fezh" name="btn_petDesc" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="99,17" group="n94_i05h"/>
+    <loader id="n224_rg02" name="img_leveluppet" xy="560,542" size="38,40" group="n235_tny6" url="ui://27utqbizi5tz7o" fill="scale"/>
+    <text id="n225_rg02" name="label_leveluppet" xy="608,548" size="25,29" group="n235_tny6" font="ui://27utqbizps391v" fontSize="20" color="#727272" vAlign="middle" text="10"/>
+    <group id="n235_tny6" name="group_leveluppet" xy="560,542" size="73,40" group="n94_i05h" advanced="true"/>
+    <group id="n94_i05h" name="0" xy="44,17" size="766,1089" advanced="true">
+      <gearDisplay controller="con_pet" pages="0"/>
+    </group>
+    <list id="n96_i05h" name="list_encyclopedia" xy="62,109" size="629,888" group="n98_i05h" overflow="scroll" lineGap="17" defaultItem="ui://eawofj71i05h7" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n97_i05h" name="label_str55" xy="232,1027" size="284,29" group="n98_i05h" font="ui://27utqbizps391v" fontSize="20" color="#929292" align="center" vAlign="middle" autoClearText="true" text="拥有过以上灵兽可激活缘分效果"/>
+    <component id="n230_fezh" name="btn_encyclopediaDec" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="583,972" group="n98_i05h"/>
+    <text id="n231_fezh" name="n231" xy="572,1007" size="44,29" group="n98_i05h" fontSize="20" color="#929292" vAlign="middle" text="结伴"/>
+    <group id="n98_i05h" name="n98" xy="62,109" size="629,963" advanced="true">
+      <gearDisplay controller="con_pet" pages="1"/>
+    </group>
+    <image id="n196_81of" name="n196" src="81of5a" fileName="res1/frame_jinengditiao.png" xy="54,517" group="n133_i05h"/>
+    <loader id="n218_l2d7" name="btn_petSet" xy="67,532" size="75,72" group="n133_i05h" scale="0.95,0.95" url="ui://eawofj7181of40"/>
+    <list id="n136_i3x8" name="list_recruitingPet" xy="32,97" size="691,457" group="n133_i05h" layout="row" colGap="10" defaultItem="ui://eawofj7181of54" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n113_i05h" name="img_petSet" xy="58,520" size="100,100" group="n133_i05h" scale="0.9,0.9" touchable="false" align="center" vAlign="middle"/>
+    <image id="n234_tny6" name="n234" src="y9su54" fileName="ui/frame_menke level.png" pkg="27utqbiz" xy="96,584" group="n133_i05h"/>
+    <text id="n115_i05h" name="label_petSetCount" xy="117,583" size="28,23" group="n133_i05h" fontSize="15" color="#ffffff" align="center" vAlign="middle" text="1/5"/>
+    <richtext id="n116_i05h" name="label_petSetDec" xy="153,538" size="238,68" group="n133_i05h" font="ui://27utqbizps391v" fontSize="24" color="#727272" ubb="true" autoSize="shrink" text="再刷新出5次[color=#E24E3C]神话灵兽[/color]必出[color=#E24E3C]青龙[/color]"/>
+    <component id="n188_81of" name="btn_qualityDec" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="540,545" group="n133_i05h"/>
+    <graph id="n199_81of" name="n199" xy="56,629" size="642,301" group="n133_i05h" type="rect" lineSize="0" fillColor="#ffe5e4df"/>
+    <text id="n119_i05h" name="label_str51" xy="289,672" size="167,32" group="n133_i05h" font="ui://27utqbizps391v" fontSize="22" color="#767676" vAlign="middle" autoClearText="true" text="参战技能（1级）"/>
+    <text id="n122_i05h" name="label_recruitingAttr1" xy="197,637" size="92,29" group="n133_i05h" font="ui://27utqbizps391v" fontSize="20" color="#2b841c" vAlign="middle" text="生命+12%"/>
+    <text id="n123_i05h" name="label_recruitingAttr2" xy="331,637" size="92,29" group="n133_i05h" font="ui://27utqbizps391v" fontSize="20" color="#2b841c" vAlign="middle" text="生命+12%"/>
+    <text id="n124_i05h" name="label_recruitingAttr3" xy="483,637" size="92,29" group="n133_i05h" font="ui://27utqbizps391v" fontSize="20" color="#2b841c" vAlign="middle" text="生命+12%"/>
+    <text id="n125_i05h" name="label_recruitingDec" xy="74,705" size="587,122" group="n133_i05h" font="ui://27utqbizps391v" fontSize="22" color="#767676" autoSize="none" text="间隔5回合释放1次技能，攻击造成主角攻击力550%伤害"/>
+    <component id="n127_i05h" name="btn_recruitpet" src="i05hc" fileName="btn_summon.xml" xy="296,774" group="n133_i05h"/>
+    <loader id="n216_i809" name="loader_icon" xy="201,930" size="38,40" group="n133_i05h" url="ui://27utqbizi5tz7o" fill="scale"/>
+    <text id="n130_i05h" name="label_refresh1" xy="249,936" size="25,29" group="n133_i05h" font="ui://27utqbizps391v" fontSize="20" color="#2b841c" vAlign="middle" text="10"/>
+    <text id="n131_i05h" name="label_refresh2" xy="458,937" size="152,29" group="n133_i05h" font="ui://27utqbizps391v" fontSize="20" color="#2b841c" vAlign="middle" text="免费次数（1/3）"/>
+    <text id="n132_i05h" name="label_str50" xy="68,1028" size="409,29" group="n133_i05h" font="ui://27utqbizps391v" fontSize="20" color="#e24e3c" vAlign="middle" autoClearText="true" text="刷新20次后必出神话灵兽（开通终身卡激活）"/>
+    <text id="n134_i05h" name="label_str61" xy="266,109" size="224,29" group="n133_i05h" font="ui://27utqbizps391v" fontSize="20" color="#767676" vAlign="middle" autoClearText="true" text="点击选择查看或吸引灵兽"/>
+    <text id="n189_81of" name="n189" xy="605,579" size="84,29" group="n133_i05h" font="ui://27utqbizps391v" fontSize="20" color="#727272" align="center" vAlign="middle" text="刷新概率"/>
+    <component id="n190_81of" name="btn_refresh1" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="136,965" size="212,58" group="n133_i05h" scale="0.9,0.9">
+      <Button title="刷新1" titleFontSize="30"/>
+    </component>
+    <component id="n207_81of" name="group_icon1" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="257,34" group="n133_i05h"/>
+    <component id="n208_81of" name="group_icon2" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="437,34" group="n133_i05h"/>
+    <image id="n215_i809" name="n215" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="51,634" size="640,38" group="n133_i05h"/>
+    <component id="n229_fezh" name="btn_refresh2" src="fezhmb" fileName="btn_normal2_Ad.xml" pkg="qnktu1il" xy="422,964" size="212,58" group="n133_i05h" scale="0.9,0.9">
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n233_fezh" name="btn_petSummonDesc" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="99,17" group="n133_i05h"/>
+    <group id="n133_i05h" name="n133" xy="32,17" size="691,1040" advanced="true">
+      <gearDisplay controller="con_pet" pages="2"/>
+    </group>
+    <image id="n182_81of" name="n182" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="570,918"/>
+    <component id="n144_81of" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40">
+      <gearDisplay controller="con_pet" pages="0,1"/>
+    </component>
+    <component id="n256_i2mk" name="btn_close2" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40">
+      <gearDisplay controller="con_pet" pages="2"/>
+    </component>
+    <component id="n239_h8ui" name="btn_bl" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="34,1107">
+      <Button title="侠侣" controller="con_pet" page="0"/>
+    </component>
+    <component id="n240_h8ui" name="btn_jb" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="205,1107">
+      <Button title="羁绊" controller="con_pet" page="1"/>
+    </component>
+    <component id="n241_h8ui" name="btn_zh" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="374,1107">
+      <Button checked="true" title="结伴" controller="con_pet" page="2"/>
+    </component>
+    <loader id="n243_i2mk" name="n243" xy="27,1100" size="694,142" group="n254_i2mk" url="ui://eawofj71i2mkac"/>
+    <loader3D id="n257_i2mk" name="loader_bx" xy="371,1153" size="1,1" group="n254_i2mk" animation="" skin="" loop="true"/>
+    <component id="n251_i2mk" name="loader_bx3" src="i2mkai" fileName="btn_unite.xml" xy="261,1034" size="233,182" group="n254_i2mk" aspect="true">
+      <Button icon="ui://eawofj71i2mkad"/>
+    </component>
+    <image id="n247_i2mk" name="n247" src="i2mkah" fileName="res2/miji_bg05.png" xy="253,1190" size="245,27" group="n254_i2mk"/>
+    <text id="n248_i2mk" name="label_hxDesc" xy="251,1189" size="248,29" group="n254_i2mk" font="ui://27utqbizps391v" fontSize="20" color="#fff4dc" align="center" vAlign="middle" autoSize="shrink" text="奖励"/>
+    <component id="n249_i2mk" name="btn_card" src="i2mkai" fileName="btn_unite.xml" xy="50,1099" size="155,121" group="n254_i2mk" aspect="true">
+      <Button icon="ui://eawofj71i2mkae"/>
+    </component>
+    <component id="n250_i2mk" name="btn_zs" src="i2mkai" fileName="btn_unite.xml" xy="544,1100" size="152,119" group="n254_i2mk" aspect="true">
+      <Button icon="ui://eawofj71i2mkaf"/>
+    </component>
+    <component id="n252_i2mk" name="group_left" src="rgswdu1a6" fileName="itemframe/GroupItem_leftQp.xml" pkg="27utqbiz" xy="21,989" group="n254_i2mk"/>
+    <component id="n253_i2mk" name="group_right" src="rgswdu18h" fileName="itemframe/GroupItem_rightQp.xml" pkg="27utqbiz" xy="608,984" group="n254_i2mk" visible="false"/>
+    <group id="n254_i2mk" name="n254" xy="21,984" size="713,258" advanced="true">
+      <gearDisplay controller="con_pet" pages="2"/>
+    </group>
+  </displayList>
+  <transition name="t0"/>
+</component>

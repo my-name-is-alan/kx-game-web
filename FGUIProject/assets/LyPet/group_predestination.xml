@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="642,182">
+  <displayList>
+    <image id="n12_81of" name="n12" src="81of5b" fileName="res1/frame_jinengditiao2.png" xy="0,0"/>
+    <text id="n2_i05h" name="label_name" xy="8,4" size="84,29" font="ui://27utqbizps391v" fontSize="20" vAlign="middle" text="野性难训"/>
+    <list id="n9_i05h" name="list_pet" xy="7,57" size="582,134" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://eawofj71i05h8">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n10_r8fe" name="list_attr" xy="383,3" size="257,31" layout="row" colGap="23" defaultItem="ui://eawofj71r8fe3o" vAlign="middle">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

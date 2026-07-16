@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="634,627">
+  <displayList>
+    <loader id="n0_puo9" name="n0" xy="0,61" size="634,486" group="n6_puo9" url="ui://qnktu1ilk1vlm3"/>
+    <image id="n1_puo9" name="n1" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="107,91" size="420,38" group="n6_puo9"/>
+    <text id="n2_puo9" name="label_title" xy="236,88" size="162,39" group="n6_puo9" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="刷新概率"/>
+    <text id="n3_puo9" name="n3" xy="220,533" size="193,33" group="n6_puo9" fontSize="20" color="#cfcdc9" align="center" vAlign="middle" autoSize="none" text="点击任意空白处关闭"/>
+    <list id="n5_puo9" name="list_quality" xy="90,163" size="438,300" group="n6_puo9" touchable="false" overflow="scroll" lineGap="11" defaultItem="ui://eawofj71puo98q">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n6_puo9" name="group_gl" xy="0,61" size="634,505" visible="false" advanced="true"/>
+    <loader id="n7_puo9" name="n7" xy="0,0" size="634,627" group="n16_puo9" url="ui://qnktu1ilk1vlm3" fill="scaleFree"/>
+    <image id="n8_puo9" name="n8" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="25,78" size="583,518" group="n16_puo9" alpha="0.5"/>
+    <image id="n9_puo9" name="n9" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="108,30" size="420,38" group="n16_puo9"/>
+    <text id="n10_puo9" name="label_title2" xy="237,27" size="162,39" group="n16_puo9" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="刷新概率"/>
+    <list id="n15_puo9" name="list_skill" xy="63,109" size="526,473" group="n16_puo9" overflow="scroll" lineGap="2" defaultItem="ui://eawofj71puo991">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n16_puo9" name="group_skill" xy="0,0" size="634,627" visible="false" advanced="true"/>
+    <loader id="n17_puo9" name="n17" xy="1,-3" size="634,627" group="n22_puo9" url="ui://qnktu1ilk1vlm3" fill="scaleFree"/>
+    <image id="n18_puo9" name="n18" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="26,119" size="583,474" group="n22_puo9" alpha="0.7"/>
+    <image id="n19_puo9" name="n19" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="109,30" size="420,38" group="n22_puo9"/>
+    <text id="n20_puo9" name="label_title3" xy="238,27" size="162,39" group="n22_puo9" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="刷新概率"/>
+    <list id="n21_puo9" name="list_buff" xy="64,129" size="526,446" group="n22_puo9" layout="flow_hz" overflow="scroll" margin="10,0,0,0" lineGap="10" colGap="16" defaultItem="ui://27utqbizuun63m">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n24_puo9" name="n24" xy="162,76" size="340,34" group="n22_puo9" alpha="0.64" fontSize="24" color="#16191a" text="任何伴侣都有概率获得以下被动"/>
+    <group id="n22_puo9" name="group_quality" xy="1,-3" size="634,627" visible="false" advanced="true"/>
+  </displayList>
+</component>

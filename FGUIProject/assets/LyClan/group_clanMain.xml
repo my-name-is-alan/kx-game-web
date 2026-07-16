@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1156">
+  <displayList>
+    <loader id="n1_hbzk" name="n1" xy="24,0" size="701,1112" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <image id="n57_r2p3" name="n57" src="r2p37g" fileName="res3/bg_bangpai2.png" xy="53,99"/>
+    <richtext id="n4_hbzk" name="label_bxl" xy="45,30" size="257,49" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]帮[/size]派大厅"/>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <component id="n8_hbzk" name="bar_point" src="rc7m62" fileName="bar_level.xml" pkg="27utqbiz" xy="274,161" size="388,38">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n29_hbzk" name="label_number" xy="593,131" size="67,29" fontSize="20" color="#16191a" vAlign="middle" text="100/10"/>
+    <text id="n31_hbzk" name="label_name" xy="338,122" size="132,42" font="ui://27utqbizps391v" fontSize="30" color="#16191a" vAlign="middle" text="七道轮回 "/>
+    <graph id="n53_tuv7" name="n53" xy="279,198" size="376,76" type="rect" lineSize="0" fillColor="#ffe1f7f9" corner="6"/>
+    <text id="n32_hbzk" name="label_guid" xy="375,26" size="194,34" visible="false" fontSize="24" text="帮派编号：12138"/>
+    <text id="n33_hbzk" name="label_contact" xy="293,240" size="159,29" fontSize="20" color="#737d80" vAlign="middle" text="帮主微信：12138"/>
+    <list id="n35_hbzk" name="list_people" xy="55,391" size="640,671" overflow="scroll" lineGap="9" defaultItem="ui://8rnw66xwhbzke">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n36_hbzk" name="label_str93" xy="176,353" size="100,34" fontSize="24" color="#16191a" vAlign="middle" text="帮派成员"/>
+    <text id="n37_hbzk" name="label_str95" xy="573,353" size="100,34" fontSize="24" color="#16191a" vAlign="middle" text="上次登录"/>
+    <text id="n38_hbzk" name="label_str94" xy="390,353" size="157,34" fontSize="24" color="#16191a" vAlign="middle" text="今日/历史贡献"/>
+    <loader id="n39_inps" name="img_flag" xy="91,121" size="200,200" scale="0.85,0.85" url="ui://27utqbizd373uw" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <text id="n40_inps" name="label_level" xy="277,125" size="45,36" fontSize="26" color="#16191a" vAlign="middle" text="1级"/>
+    <image id="n42_tuv7" name="n42" src="ql4f2j" fileName="res3/icon_renshu.png" xy="574,136" size="18,20"/>
+    <image id="n44_tuv7" name="n44" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="286,235" size="355,2"/>
+    <component id="n46_tuv7" name="btn_clanLog" src="tuv77f" fileName="btn_common.xml" xy="627,281">
+      <Button icon="ui://8rnw66xwql4f2o"/>
+    </component>
+    <component id="n47_tuv7" name="btn_clanTisp" src="tuv77f" fileName="btn_common.xml" xy="547,281">
+      <Button icon="ui://8rnw66xwql4f2e"/>
+    </component>
+    <image id="n54_tuv7" name="n54" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="574,948"/>
+    <image id="n55_tuv7" name="n55" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="111,277" scale="0.7,0.7"/>
+    <text id="n56_tuv7" name="label_combatPower" xy="151,287" size="60,42" scale="0.7,0.7" font="ui://27utqbizvkas4q" fontSize="24" vAlign="middle" letterSpacing="-8" text="12"/>
+    <component id="n58_rajy" name="btn_copyVx" src="tuv733" fileName="btn_copy.xml" xy="598,230" size="50,50">
+      <Button icon="ui://27utqbizah8r57"/>
+    </component>
+    <component id="n59_ors2" name="label_declaration" src="psu4a7" fileName="group_declaration.xml" xy="291,203"/>
+  </displayList>
+</component>

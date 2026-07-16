@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="639,371">
+  <displayList>
+    <image id="n40_j655" name="n40" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="129,3" size="375,38"/>
+    <text id="n41_j655" name="name" xy="245,0" size="145,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="附近镖局"/>
+    <list id="n72_d087" name="list_pree" xy="0,59" size="645,309" lineGap="2" defaultItem="ui://rtusdzu1j6552g" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n72_d087" sidePair="bottomext-bottom"/>
+</component>

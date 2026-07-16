@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,964">
+  <displayList>
+    <image id="n11_phx9" name="back1" src="phx925" fileName="recharge/frame_for jinzhu.png" xy="0,-274"/>
+    <image id="n12_phx9" name="back2" src="phx926" fileName="recharge/frame_for yubi.png" xy="0,-274"/>
+    <image id="n15_phx9" name="paster1" src="phx92b" fileName="recharge/word_jinzhu.png" xy="68,-135"/>
+    <image id="n16_phx9" name="paster2" src="phx92c" fileName="recharge/word_yubi.png" xy="68,-135"/>
+    <component id="n13_phx9" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="643,-40"/>
+    <image id="n14_phx9" name="n14" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="96,81"/>
+    <loader id="n6_f4zx" name="loader_icon" xy="59,70" size="50,50" url="ui://27utqbizh6d7j" fill="scale" clearOnPublish="true"/>
+    <text id="n3_f4zx" name="label_stone" xy="67,79" size="200,34" fontSize="24" color="#f6de9c" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair=""/>
+    </text>
+    <text id="n7_f4zx" name="label_tips" xy="691,79" size="10,34" fontSize="24" color="#f6de9c" align="right" vAlign="middle" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <list id="n4_f4zx" name="list_item" xy="43,133" size="660,716" layout="flow_hz" overflow="scroll" colGap="10" lineItemCount="3" defaultItem="ui://xebnjiy5iq202i"/>
+    <component id="n17_iq20" name="btn_stone" src="a0tr1c" fileName="btn_actCommon.xml" pkg="27utqbiz" xy="217,853" group="n20_iq20">
+      <Button checked="true"/>
+    </component>
+    <component id="n18_iq20" name="btn_chance" src="a0tr1c" fileName="btn_actCommon.xml" pkg="27utqbiz" xy="386,853" group="n20_iq20"/>
+    <group id="n20_iq20" name="btn" xy="217,853" size="315,208"/>
+    <text id="n10_f4zx" name="label_warn" xy="369,855" size="10,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="0qjhl1x9">
+  <resources>
+    <component id="m5aq0" name="LyPalaceLike.xml" path="/" exported="true"/>
+    <image id="m5aq1" name="frame_liaotiankuang.png" path="/res/"/>
+    <component id="m5aq2" name="group_main.xml" path="/"/>
+    <image id="m5aq3" name="frame_xuanwo.png" path="/res/"/>
+    <component id="m5aq5" name="FmPalaceBuffHit.xml" path="/" exported="true"/>
+    <component id="m5aq6" name="group_buffhit.xml" path="/"/>
+    <image id="m5aq8" name="frame_tiandao.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

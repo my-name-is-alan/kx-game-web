@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="85,29">
+  <displayList>
+    <text id="n8_i05h" name="label_attr" xy="0,0" size="79,29" font="ui://27utqbizps391v" fontSize="20" color="#2b841c" vAlign="middle" autoClearText="true" text="生命+1%"/>
+  </displayList>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="637,176">
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n76_d1na" name="n76" src="d1na4i" fileName="res/The/res/frame_shuanggdaojudikuang.png" xy="369,0" size="268,136" group="n93_d1na"/>
+    <component id="n81_d1na" name="item1" src="ef0l7c" fileName="itemframe/GroupItem_lock.xml" pkg="27utqbiz" xy="396,17" size="100,100" group="n93_d1na"/>
+    <component id="n82_d1na" name="item2" src="ef0l7c" fileName="itemframe/GroupItem_lock.xml" pkg="27utqbiz" xy="510,17" size="100,100" group="n93_d1na"/>
+    <group id="n93_d1na" name="n93" xy="369,0" size="268,136" advanced="true">
+      <gearXY controller="c1" pages="0,1" values="369,0|11,-1"/>
+    </group>
+    <image id="n79_d1na" name="img_jd1" src="ef0l2r" fileName="ui/frame_shujindutiao.png" pkg="27utqbiz" xy="314,90" size="20,86" group="n95_hi58"/>
+    <image id="n77_d1na" name="bg2" src="ef0l2n" fileName="ui/frame_jianglijindukuai2.png" pkg="27utqbiz" xy="291,33" group="n95_hi58"/>
+    <group id="n95_hi58" name="group_gray" xy="291,33" size="66,143" advanced="true"/>
+    <image id="n80_d1na" name="img_jd2" src="ef0l2s" fileName="ui/frame_shujindutiao2.png" pkg="27utqbiz" xy="314,90" size="20,86" group="n94_hi58"/>
+    <image id="n78_d1na" name="bg1" src="ef0l2m" fileName="ui/frame_jianglijindukuai.png" pkg="27utqbiz" xy="291,33" group="n94_hi58"/>
+    <group id="n94_hi58" name="group_yellow" xy="291,33" size="66,143" advanced="true"/>
+    <text id="n91_d1na" name="label_target" xy="301,50" size="48,34" font="ui://27utqbizps391v" fontSize="22" color="#ffefc9" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" strokeSize="3" text="455"/>
+  </displayList>
+</component>

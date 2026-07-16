@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="580,100">
+  <displayList>
+    <image id="n13_uzk8" name="n13" src="uzk85k" fileName="ui/frame_rank-list-one.png" pkg="27utqbiz" xy="0,0" size="580,100"/>
+    <loader id="n11_uzk8" name="loader_rank" xy="50,50" pivot="0.5,0.5" anchor="true" size="100,100" align="center" vAlign="middle" autoSize="true"/>
+    <text id="n10_f2ag" name="label_rank" xy="0,29" size="100,42" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text=""/>
+    <component id="n12_uzk8" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="110,10" scale="0.8,0.8"/>
+    <component id="n16_9jvz" name="loader_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="200,22" size="202,103"/>
+    <text id="n0_ib4p" name="label_name" xy="200,10" size="200,32" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n6_f2ag" name="label_duelScore" xy="380,32" size="198,36" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="shrink" text=""/>
+  </displayList>
+</component>

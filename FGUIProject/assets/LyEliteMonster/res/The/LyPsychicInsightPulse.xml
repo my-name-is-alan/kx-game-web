@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="662,945">
+  <displayList>
+    <image id="n72_d1na" name="n72" src="d1na4f" fileName="res/The/res/frame_lingwujueshiwugong.png" xy="0,0"/>
+    <image id="n73_d1na" name="n73" src="d1na4g" fileName="res/The/res/frame_lingwujueshiwugong2.png" xy="0,199"/>
+    <text id="n74_d1na" name="label_leiji" xy="474,82" size="172,34" font="ui://27utqbizps391v" fontSize="20" color="#2b841c" align="center" vAlign="middle" autoSize="none" text="累计抄诵:335次"/>
+    <component id="n75_d1na" name="btn_go" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="483,114" size="154,40">
+      <Button titleFontSize="24"/>
+    </component>
+    <list id="n92_d1na" name="list_all" xy="7,203" size="655,740" overflow="scroll" lineGap="-44" defaultItem="ui://xcpqvzp3d1na4n">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

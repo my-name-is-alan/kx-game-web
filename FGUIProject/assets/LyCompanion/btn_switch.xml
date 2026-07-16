@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4_ln3o" name="n4" src="ln3o3b" fileName="res2/btn_qiehuananniu2.png" xy="15,20" pivot="0.5,0.5" anchor="true" rotation="180"/>
+  </displayList>
+  <Button/>
+</component>

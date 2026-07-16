@@ -1,0 +1,27 @@
+
+zd_gw_liuzi_dandao.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tu/dandao_01
+  rotate: false
+  xy: 2, 295
+  size: 120, 59
+  orig: 327, 112
+  offset: 13, 39
+  index: -1
+tu/dandao_02
+  rotate: false
+  xy: 124, 283
+  size: 230, 71
+  orig: 327, 112
+  offset: 2, 30
+  index: -1
+tu/dandao_03
+  rotate: false
+  xy: 2, 169
+  size: 326, 112
+  orig: 327, 112
+  offset: 1, 0
+  index: -1

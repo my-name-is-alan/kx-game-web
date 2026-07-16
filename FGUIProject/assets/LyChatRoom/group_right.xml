@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="620,150">
+  <displayList>
+    <component id="n29_rtrv" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="470,22"/>
+    <component id="n31_9jvz" name="loader_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="440,86" size="202,103" scale="0.8,0.8"/>
+    <text id="n21_g1en" name="label_name" xy="405,34" size="10,36" fontSize="26" color="#16191a" vAlign="middle" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <image id="n25_g1en" name="img_text" src="g1enj" fileName="res/frame_liaotiankuang1.png" xy="420,77" pivot="1,0" anchor="true" size="360,42">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <text id="n23_g1en" name="label_content" xy="405,88" pivot="1,0" anchor="true" size="10,32" fontSize="22" color="#ffffff" vAlign="middle" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <loader id="n26_vx99" name="loader_content" xy="415,77" pivot="1,0" anchor="true" size="56,56" url="ui://fuzg58b6riam1" autoSize="true" clearOnPublish="true">
+      <relation target="" sidePair="right-right"/>
+    </loader>
+    <image id="n27_sp0p" name="img_time" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="150,10"/>
+    <text id="n28_sp0p" name="label_time" xy="295,0" size="10,28" fontSize="19" color="#6a6a6a" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

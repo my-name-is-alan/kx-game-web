@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="586,103">
+  <displayList>
+    <image id="n7_i1bp" name="n7" src="k7xei" fileName="zonglan/frame_zonglan2.png" xy="0,0"/>
+    <loader id="n8_i1bp" name="icon_flag" xy="99,10" size="81,81" aspect="true" url="ui://27utqbizd373uv" fill="scale"/>
+    <text id="n9_i1bp" name="label_name" xy="212,9" size="192,33" fontSize="22" vAlign="middle" autoSize="none" text="超欧"/>
+    <component id="n10_i1bp" name="btn_atk" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="450,49" size="134,36" aspect="true">
+      <Button title="进攻" titleFontSize="24"/>
+    </component>
+    <text id="n11_i1bp" name="label_harm" xy="451,18" size="134,32" fontSize="22" color="#d82b21" align="center" vAlign="middle" autoSize="none" text="42.89%"/>
+    <loader id="n12_i1bp" name="loader_rank" xy="13,19" size="64,64" url="ui://i35cf1mqk7xe1a"/>
+    <text id="n13_i1bp" name="label_bzname" xy="211,35" size="192,33" fontSize="22" vAlign="middle" autoSize="none" text="帮柱"/>
+    <text id="n14_i1bp" name="label_severName" xy="211,61" size="230,33" fontSize="22" vAlign="middle" autoSize="shrink" text="服务器"/>
+    <text id="n15_i1bp" name="label_rank" xy="11,33" size="69,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="1"/>
+  </displayList>
+</component>

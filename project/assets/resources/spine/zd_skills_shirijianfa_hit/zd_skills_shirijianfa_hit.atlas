@@ -1,0 +1,215 @@
+
+zd_skills_shirijianfa_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/srjf_dg/srjf_dg_00
+  rotate: true
+  xy: 2, 899
+  size: 67, 419
+  orig: 150, 900
+  offset: 49, 429
+  index: -1
+images/effect/srjf_dg/srjf_dg_01
+  rotate: true
+  xy: 2, 651
+  size: 116, 663
+  orig: 150, 900
+  offset: 26, 181
+  index: -1
+images/effect/srjf_dg/srjf_dg_02
+  rotate: true
+  xy: 2, 409
+  size: 137, 871
+  orig: 150, 900
+  offset: 8, 6
+  index: -1
+images/effect/srjf_dg/srjf_dg_04
+  rotate: true
+  xy: 2, 550
+  size: 99, 847
+  orig: 150, 900
+  offset: 38, 8
+  index: -1
+images/effect/srjf_dg/srjf_dg_06
+  rotate: true
+  xy: 2, 769
+  size: 72, 793
+  orig: 150, 900
+  offset: 53, 12
+  index: -1
+images/effect/srjf_dg/srjf_dg_08
+  rotate: true
+  xy: 2, 843
+  size: 54, 678
+  orig: 150, 900
+  offset: 56, 21
+  index: -1
+images/effect/srjf_dg/srjf_dg_10
+  rotate: true
+  xy: 2, 968
+  size: 47, 603
+  orig: 150, 900
+  offset: 62, 30
+  index: -1
+images/effect/srjf_mz/srjf_mz_14
+  rotate: false
+  xy: 851, 548
+  size: 164, 162
+  orig: 250, 250
+  offset: 41, 53
+  index: -1
+images/effect/srjf_mz/srjf_mz_16
+  rotate: true
+  xy: 797, 712
+  size: 151, 164
+  orig: 250, 250
+  offset: 52, 51
+  index: -1
+images/effect/srjf_ri/srjf_ri_00
+  rotate: true
+  xy: 607, 929
+  size: 86, 135
+  orig: 190, 190
+  offset: 94, 33
+  index: -1
+images/effect/srjf_ri/srjf_ri_02
+  rotate: true
+  xy: 744, 865
+  size: 150, 157
+  orig: 190, 190
+  offset: 31, 9
+  index: -1
+images/effect/srjf_ri/srjf_ri_04
+  rotate: false
+  xy: 2, 238
+  size: 173, 169
+  orig: 190, 190
+  offset: 8, 6
+  index: -1
+images/effect/srjf_ri/srjf_ri_06
+  rotate: true
+  xy: 177, 233
+  size: 174, 175
+  orig: 190, 190
+  offset: 6, 6
+  index: -1
+images/effect/srjf_ri/srjf_ri_08
+  rotate: true
+  xy: 354, 233
+  size: 174, 178
+  orig: 190, 190
+  offset: 6, 6
+  index: -1
+images/effect/srjf_ri/srjf_ri_10
+  rotate: true
+  xy: 534, 230
+  size: 177, 178
+  orig: 190, 190
+  offset: 6, 7
+  index: -1
+images/effect/srjf_ri/srjf_ri_12
+  rotate: false
+  xy: 714, 229
+  size: 178, 178
+  orig: 190, 190
+  offset: 6, 7
+  index: -1
+images/effect/srjf_ri/srjf_ri_14
+  rotate: true
+  xy: 2, 53
+  size: 178, 179
+  orig: 190, 190
+  offset: 6, 6
+  index: -1
+images/effect/srjf_ri/srjf_ri_16
+  rotate: false
+  xy: 183, 53
+  size: 178, 178
+  orig: 190, 190
+  offset: 6, 6
+  index: -1
+images/effect/srjf_ri/srjf_ri_18
+  rotate: true
+  xy: 363, 50
+  size: 178, 179
+  orig: 190, 190
+  offset: 6, 5
+  index: -1
+images/effect/srjf_ri/srjf_ri_20
+  rotate: true
+  xy: 544, 49
+  size: 178, 180
+  orig: 190, 190
+  offset: 6, 5
+  index: -1
+images/effect/srjf_ri/srjf_ri_22
+  rotate: true
+  xy: 726, 49
+  size: 178, 180
+  orig: 190, 190
+  offset: 6, 5
+  index: -1
+
+zd_skills_shirijianfa_hit2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/srjf_mz/srjf_mz_00
+  rotate: false
+  xy: 474, 516
+  size: 242, 241
+  orig: 250, 250
+  offset: 5, 4
+  index: -1
+images/effect/srjf_mz/srjf_mz_01
+  rotate: false
+  xy: 718, 516
+  size: 242, 241
+  orig: 250, 250
+  offset: 5, 4
+  index: -1
+images/effect/srjf_mz/srjf_mz_02
+  rotate: false
+  xy: 232, 523
+  size: 240, 238
+  orig: 250, 250
+  offset: 6, 5
+  index: -1
+images/effect/srjf_mz/srjf_mz_04
+  rotate: true
+  xy: 2, 545
+  size: 223, 228
+  orig: 250, 250
+  offset: 12, 10
+  index: -1
+images/effect/srjf_mz/srjf_mz_06
+  rotate: true
+  xy: 626, 759
+  size: 201, 210
+  orig: 250, 250
+  offset: 24, 34
+  index: -1
+images/effect/srjf_mz/srjf_mz_08
+  rotate: true
+  xy: 407, 763
+  size: 197, 217
+  orig: 250, 250
+  offset: 20, 30
+  index: -1
+images/effect/srjf_mz/srjf_mz_10
+  rotate: true
+  xy: 192, 770
+  size: 190, 213
+  orig: 250, 250
+  offset: 27, 29
+  index: -1
+images/effect/srjf_mz/srjf_mz_12
+  rotate: false
+  xy: 2, 778
+  size: 188, 182
+  orig: 250, 250
+  offset: 28, 35
+  index: -1

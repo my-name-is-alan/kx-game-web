@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="530,99">
+  <displayList>
+    <text id="n12_puo9" name="label_name" xy="0,0" size="143,34" fontSize="24" color="#16191a" vAlign="middle" text="参战技能 1级"/>
+    <text id="n13_puo9" name="label_dec" xy="0,32" size="530,67" fontSize="22" color="#7c8386" autoSize="shrink" text="参战技能参战技能参战技能参战技能参战技能参战技能参战技能参战技能参战技能参战技能参战技能"/>
+    <text id="n14_puo9" name="label_lock" xy="327,0" size="185,34" fontSize="22" color="#d67620" align="right" vAlign="middle" autoSize="none" text="召唤后解锁"/>
+  </displayList>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,182">
+  <displayList>
+    <image id="n33_ro4e" name="n33" src="ro4e14" fileName="res/frame_baowudengjidiban.png" xy="0,0"/>
+    <image id="n34_ro4e" name="n34" src="kluzf" fileName="res/frame_baowudengjifengexian.png" xy="19,51"/>
+    <image id="n42_ro4e" name="n42" src="ro4e19" fileName="res/frame_xinzenggongneng.png" xy="21,70"/>
+    <image id="n35_ro4e" name="img_star1" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="165,16"/>
+    <image id="n36_ro4e" name="img_star2" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="190,16"/>
+    <image id="n37_ro4e" name="img_star3" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="215,16"/>
+    <image id="n38_ro4e" name="img_star4" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="240,16"/>
+    <image id="n39_ro4e" name="img_star5" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="265,16"/>
+    <image id="n43_ro4e" name="img_starn1" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="469,16"/>
+    <image id="n44_ro4e" name="img_starn2" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="494,16"/>
+    <image id="n45_ro4e" name="img_starn3" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="519,16"/>
+    <image id="n46_ro4e" name="img_starn4" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="544,16"/>
+    <image id="n47_ro4e" name="img_starn5" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="569,16"/>
+    <text id="n40_ro4e" name="label_level" xy="40,15" size="118,34" font="ui://27utqbizps391v" fontSize="24" color="#d4841b" vAlign="middle" autoClearText="true" text="宝物等级："/>
+    <richtext id="n41_ro4e" name="label_desc" xy="15,111" size="610,32" fontSize="22" color="#c85231" ubb="true" autoSize="height" autoClearText="true" text="效果：[color=#00FF00]{0}[/color]"/>
+    <text id="n48_ro4e" name="label_leveln" xy="344,15" size="118,34" font="ui://27utqbizps391v" fontSize="24" color="#d4841b" vAlign="middle" autoClearText="true" text="宝物等级："/>
+    <image id="n49_ro4e" name="n49" src="ro4e1c" fileName="res/dec_arrow_lifelong card.png" xy="296,50" rotation="270"/>
+  </displayList>
+</component>

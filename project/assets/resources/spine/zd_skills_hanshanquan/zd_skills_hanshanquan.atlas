@@ -1,0 +1,167 @@
+
+zd_skills_hanshanquan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hsq_bz/hsq_bz_00
+  rotate: false
+  xy: 248, 567
+  size: 167, 163
+  orig: 300, 284
+  offset: 67, 58
+  index: -1
+images/hsq_bz/hsq_bz_02
+  rotate: false
+  xy: 271, 153
+  size: 234, 233
+  orig: 300, 284
+  offset: 36, 24
+  index: -1
+images/hsq_bz/hsq_bz_04
+  rotate: false
+  xy: 2, 166
+  size: 267, 229
+  orig: 300, 284
+  offset: 18, 25
+  index: -1
+images/hsq_bz/hsq_bz_06
+  rotate: false
+  xy: 507, 130
+  size: 282, 238
+  orig: 300, 284
+  offset: 13, 22
+  index: -1
+images/hsq_bz/hsq_bz_08
+  rotate: true
+  xy: 792, 311
+  size: 238, 215
+  orig: 300, 284
+  offset: 27, 28
+  index: -1
+images/hsq_bz/hsq_bz_10
+  rotate: false
+  xy: 542, 370
+  size: 248, 179
+  orig: 300, 284
+  offset: 21, 56
+  index: -1
+images/hsq_bz/hsq_bz_12
+  rotate: false
+  xy: 273, 388
+  size: 267, 169
+  orig: 300, 284
+  offset: 11, 61
+  index: -1
+images/hsq_bz/hsq_bz_14
+  rotate: false
+  xy: 2, 397
+  size: 269, 168
+  orig: 300, 284
+  offset: 11, 62
+  index: -1
+images/hsq_bz/hsq_bz_16
+  rotate: false
+  xy: 417, 559
+  size: 271, 165
+  orig: 300, 284
+  offset: 10, 59
+  index: -1
+images/hsq_bz/hsq_bz_18
+  rotate: false
+  xy: 690, 551
+  size: 271, 167
+  orig: 300, 284
+  offset: 10, 56
+  index: -1
+images/hsq_bz/hsq_bz_20
+  rotate: false
+  xy: 2, 578
+  size: 244, 153
+  orig: 300, 284
+  offset: 25, 65
+  index: -1
+images/hsq_bz/hsq_bz_22
+  rotate: false
+  xy: 779, 720
+  size: 241, 154
+  orig: 300, 284
+  offset: 28, 63
+  index: -1
+images/hsq_qt/hsq_qt_02
+  rotate: false
+  xy: 2, 737
+  size: 148, 145
+  orig: 175, 177
+  offset: 13, 20
+  index: -1
+images/hsq_qt/hsq_qt_04
+  rotate: false
+  xy: 152, 733
+  size: 156, 146
+  orig: 175, 177
+  offset: 13, 20
+  index: -1
+images/hsq_qt/hsq_qt_06
+  rotate: false
+  xy: 627, 726
+  size: 150, 148
+  orig: 175, 177
+  offset: 13, 20
+  index: -1
+images/hsq_qt/hsq_qt_08
+  rotate: true
+  xy: 753, 876
+  size: 144, 148
+  orig: 175, 177
+  offset: 13, 20
+  index: -1
+images/hsq_qt/hsq_qt_10
+  rotate: true
+  xy: 303, 881
+  size: 139, 148
+  orig: 175, 177
+  offset: 13, 20
+  index: -1
+images/hsq_qt/hsq_qt_12
+  rotate: true
+  xy: 453, 881
+  size: 139, 148
+  orig: 175, 177
+  offset: 11, 20
+  index: -1
+images/hsq_qt/hsq_qt_14
+  rotate: false
+  xy: 310, 732
+  size: 155, 147
+  orig: 175, 177
+  offset: 3, 20
+  index: -1
+images/hsq_qt/hsq_qt_16
+  rotate: false
+  xy: 467, 732
+  size: 158, 147
+  orig: 175, 177
+  offset: 3, 20
+  index: -1
+images/hsq_qt/hsq_qt_18
+  rotate: false
+  xy: 144, 884
+  size: 157, 136
+  orig: 175, 177
+  offset: 3, 20
+  index: -1
+images/hsq_qt/hsq_qt_20
+  rotate: false
+  xy: 603, 881
+  size: 148, 139
+  orig: 175, 177
+  offset: 3, 20
+  index: -1
+images/hsq_qt/hsq_qt_22
+  rotate: false
+  xy: 2, 918
+  size: 140, 102
+  orig: 175, 177
+  offset: 3, 35
+  index: -1

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="yblwt9kz">
+  <resources>
+    <component id="7yma0" name="LyPalaceMain.xml" path="/" exported="true"/>
+    <component id="7yma1" name="Group_Chat.xml" path="/"/>
+    <image id="7yma3" name="frame_liaotianchangkuang.png" path="/res/"/>
+    <image id="h5a94" name="bg_langyabang1.png" path="/res/" atlas="alone_npot"/>
+    <image id="h5a95" name="bg_langyabang2.png" path="/res/" atlas="alone_npot"/>
+    <image id="h5a96" name="icon_house1.png" path="/res/"/>
+    <image id="h5a97" name="icon_house2.png" path="/res/"/>
+    <image id="h5a98" name="icon_house3.png" path="/res/"/>
+    <component id="h5a99" name="group_main.xml" path="/"/>
+    <component id="h5a9a" name="btn_house1.xml" path="/"/>
+    <component id="h5a9b" name="btn_house2.xml" path="/"/>
+    <component id="h5a9c" name="btn_house3.xml" path="/"/>
+    <component id="thpge" name="btn_close.xml" path="/"/>
+    <image id="thpgg" name="word_langyabang.png" path="/res/"/>
+    <component id="thpgh" name="btn_close1.xml" path="/"/>
+    <image id="thpgi" name="icon_shenyu.png" path="/res/"/>
+    <image id="thpgj" name="icon_xuanjingsi.png" path="/res/"/>
+    <component id="thpgk" name="btn_shenyu.xml" path="/"/>
+    <component id="thpgl" name="btn_xuanjinsi.xml" path="/"/>
+    <image id="pwyqm" name="icon_dianzan.png" path="/res/"/>
+    <image id="pwyqn" name="icon_yidianzan.png" path="/res/"/>
+    <component id="pwyqo" name="btn_dianzan.xml" path="/"/>
+    <component id="7lbmp" name="LyPalaceRoom.xml" path="/" exported="true"/>
+    <image id="q60915" name="bg_tiandaoge.png" path="/res/" atlas="alone_npot"/>
+    <image id="q60916" name="icon_yinghaolu.png" path="/res/"/>
+    <component id="q60917" name="btn_yinghaolu.xml" path="/"/>
+    <image id="q60918" name="word_1.png" path="/text/" exported="true"/>
+    <image id="q60919" name="word_10.png" path="/text/" exported="true"/>
+    <image id="q6091a" name="word_11.png" path="/text/" exported="true"/>
+    <image id="q6091b" name="word_12.png" path="/text/" exported="true"/>
+    <image id="q6091c" name="word_13.png" path="/text/" exported="true"/>
+    <image id="q6091d" name="word_14.png" path="/text/" exported="true"/>
+    <image id="q6091e" name="word_15.png" path="/text/" exported="true"/>
+    <image id="q6091f" name="word_2.png" path="/text/" exported="true"/>
+    <image id="q6091g" name="word_3.png" path="/text/" exported="true"/>
+    <image id="q6091h" name="word_4.png" path="/text/" exported="true"/>
+    <image id="q6091i" name="word_5.png" path="/text/" exported="true"/>
+    <image id="q6091j" name="word_6.png" path="/text/" exported="true"/>
+    <image id="q6091k" name="word_7.png" path="/text/" exported="true"/>
+    <image id="q6091l" name="word_8.png" path="/text/" exported="true"/>
+    <image id="q6091m" name="word_9.png" path="/text/" exported="true"/>
+    <component id="q6091n" name="LyPalaceGrant.xml" path="/" exported="true"/>
+    <component id="q6091o" name="group_grant.xml" path="/"/>
+    <image id="q6091p" name="frame_shurukuang.png" path="/res/"/>
+    <image id="m5aq1q" name="word_tiandaohongfu.png" path="/res/"/>
+    <image id="m5aq1r" name="word_tiandaohongfu2.png" path="/res/"/>
+    <image id="m5aq1s" name="word_yongwangzhiqian.png" path="/text/" exported="true"/>
+    <component id="m5aq1t" name="LyPalaceBuffStart.xml" path="/" exported="true"/>
+    <component id="m5aq1u" name="group_buffstart.xml" path="/"/>
+    <component id="9zfv1v" name="group_palace.xml" path="/"/>
+    <image id="9zfv1z" name="frame_rank0.png" path="/res/"/>
+    <component id="q96920" name="LyPalaceRecord.xml" path="/" exported="true"/>
+    <component id="q96921" name="group_record.xml" path="/"/>
+    <component id="q96922" name="group_recorditem.xml" path="/"/>
+    <image id="q96923" name="frame_doufadi.png" path="/res/"/>
+    <image id="q9692a" name="frame_fengexian.png" path="/res/"/>
+    <image id="cic02b" name="word_bubugaosheng.png" path="/text/" exported="true"/>
+    <image id="cic02c" name="word_chouxinzhifei.png" path="/text/" exported="true"/>
+    <image id="cic02d" name="word_chuewujin.png" path="/text/" exported="true"/>
+    <image id="cic02e" name="word_shibangongbei.png" path="/text/" exported="true"/>
+    <image id="cic02f" name="word_tufeimengjin.png" path="/text/" exported="true"/>
+    <image id="cic02g" name="word_zhancaochugen.png" path="/text/" exported="true"/>
+    <component id="vhcv2h" name="LyPalaceShop.xml" path="/" exported="true"/>
+    <component id="ceii2i" name="group_shop.xml" path="/"/>
+    <image id="ceii2j" name="frame_store.png" path="/res/"/>
+    <image id="ceii2k" name="frame_tiandaoge.png" path="/res/"/>
+    <image id="ceii2l" name="frame_tipsgreen.png" path="/res/"/>
+    <image id="ceii2m" name="frame_ziyuanxiangqingbuchongshuoming2.png" path="/res/" scale="9grid" scale9grid="300,10,-20,16"/>
+    <component id="ceii2n" name="group_shopitem.xml" path="/"/>
+    <component id="ceii2q" name="btn_close2.xml" path="/"/>
+    <component id="ceii2r" name="btn_play.xml" path="/firstgift/"/>
+    <image id="ceii2s" name="btn_jinengyulan.png" path="/firstgift/"/>
+    <image id="ceii2t" name="frame_store2.png" path="/res/"/>
+    <image id="ceii2u" name="word_xuanjingsi.png" path="/res/"/>
+    <image id="wo3z2v" name="bg_langyabang3.png" path="/res/" atlas="alone_npot"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

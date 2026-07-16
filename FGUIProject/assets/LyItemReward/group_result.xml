@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,460">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n26_osg9" name="back_lost" src="osg9v" fileName="res/frame_bottom3.png" xy="0,6">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n27_osg9" name="back_win" src="osg9u" fileName="res/frame_bottom2.png" xy="0,6">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </image>
+    <loader3D id="n18_tkum" name="loader_spine" xy="374,-25" size="2,2" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <image id="n28_osg9" name="n28" src="osg9x" fileName="res/frame_title3.png" xy="0,-154" group="n33_osg9"/>
+    <image id="n29_osg9" name="n29" src="osg9z" fileName="res/word_baibei.png" xy="257,-80" group="n33_osg9"/>
+    <group id="n33_osg9" name="n33" xy="0,-154" size="750,212" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n30_osg9" name="n30" src="osg9w" fileName="res/frame_title2.png" xy="0,-154" group="n32_osg9"/>
+    <image id="n31_osg9" name="n31" src="osg911" fileName="res/word_shengli.png" xy="261,-75" group="n32_osg9"/>
+    <group id="n32_osg9" name="title_win" xy="0,-154" size="750,212" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <text id="n20_r8op" name="label_lost_tips1" xy="370,100" size="10,32" group="n19_tkum" fontSize="22" color="#dfd1bf" align="center" vAlign="middle" text="">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n21_r8op" name="label_lost_tips2" xy="370,140" size="10,32" group="n19_tkum" fontSize="22" color="#68b362" align="center" vAlign="middle" text="">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n22_r8op" name="btn_lostGo1" src="r8opk" fileName="btn_lostGo1.xml" xy="512,220" group="n19_tkum">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n23_r8op" name="btn_lostGo2" src="r8opl" fileName="btn_lostGo2.xml" xy="100,220" group="n19_tkum">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n24_r8op" name="btn_lostGo3" src="r8opm" fileName="btn_lostGo3.xml" xy="303,220" group="n19_tkum">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <text id="n11_hctq" name="label_damage" xy="370,55" size="10,34" group="n19_tkum" fontSize="24" color="#dfd1bf" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n2_l6so" name="list_item" xy="375,190" pivot="0.5,0.5" anchor="true" size="600,150" group="n19_tkum" scale="1.2,1.2" layout="row" overflow="scroll" scroll="horizontal" colGap="30" defaultItem="ui://02ur49fwtclen" align="center" vAlign="middle">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <loader3D id="n25_ui7m" name="loader_spine2" xy="374,200" size="2,2" group="n19_tkum" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <component id="n5_qhxy" name="btn_tower_cd" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="268,287" group="n19_tkum"/>
+    <text id="n15_ppd1" name="label_tower_level" xy="370,350" size="10,32" group="n19_tkum" fontSize="22" color="#dfd1bf" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n14_ppd1" name="label_tips" xy="370,480" size="10,32" group="n19_tkum" alpha="0.7" fontSize="22" color="#f6e2ce" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n13_qjsv" name="btn_replay" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="0,460" group="n19_tkum">
+      <Button title="重播"/>
+    </component>
+    <group id="n19_tkum" name="group_outani" xy="0,55" size="675,463" visible="false" advanced="true"/>
+  </displayList>
+</component>

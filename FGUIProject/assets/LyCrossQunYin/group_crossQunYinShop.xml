@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="702,1103">
+  <displayList>
+    <loader id="n9_hl71" name="n9" xy="0,0" size="702,1103" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n11_hl71" name="label_str27" xy="15,28" size="257,54" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="bottom" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]兑[/size]换商店"/>
+    <list id="n6_knxo" name="list_shop" xy="52,122" size="598,937" layout="flow_hz" overflow="scroll" lineGap="13" colGap="10" defaultItem="ui://5gmha8dnhl71p">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n14_i2m0" name="group_icon" src="81ofhd" fileName="group_add1.xml" pkg="27utqbiz" xy="480,35"/>
+    <component id="n15_i2m0" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="639,37"/>
+  </displayList>
+</component>

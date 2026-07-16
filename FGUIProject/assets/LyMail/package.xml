@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="x0r2lfkp">
+  <resources>
+    <component id="so3yc" name="LyMail.xml" path="/" exported="true"/>
+    <component id="m9zzz" name="email_btn.xml" path="/" exported="true"/>
+    <component id="v3t51y" name="LyMailOpen.xml" path="/" exported="true"/>
+    <image id="kuu91z" name="frame_read.png" path="/res/"/>
+    <image id="kuu920" name="frame_unread.png" path="/res/"/>
+    <image id="kuu921" name="pic_empty.png" path="/res/"/>
+    <image id="kuu922" name="word_delete.png" path="/res/" exported="true"/>
+    <image id="kuu923" name="word_receive.png" path="/res/" exported="true"/>
+    <component id="kuu929" name="LyMailMain.xml" path="/"/>
+    <component id="kuu92a" name="LyMailOpenMain.xml" path="/"/>
+    <component id="d4db2e" name="group_getSuccsee.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

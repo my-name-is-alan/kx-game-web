@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="660,182">
+  <displayList>
+    <image id="n18_hz79" name="n18" src="a0tr1e" fileName="ui/frame_huodongdiban.png" pkg="27utqbiz" xy="-4,2"/>
+    <text id="n1_gdpi" name="label_name" xy="27,19" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#16191a" vAlign="middle" text=""/>
+    <list id="n2_gdpi" name="list_item" xy="27,59" size="100,100" layout="row" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha"/>
+    <component id="n16_abru" name="bar_count" src="abrum" fileName="bar_count.xml" pkg="27utqbiz" xy="160,96" size="240,26">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n17_u44v" name="btn_take" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="430,80"/>
+    <component id="n8_lqjl" name="btn_go" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="430,80"/>
+    <image id="n14_abru" name="img_done" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="460,80"/>
+    <text id="n15_abru" name="label_done" xy="399,87" size="277,44" font="ui://27utqbizps391v" fontSize="32" color="#f3ffec" align="center" vAlign="middle" autoSize="none" text=""/>
+  </displayList>
+</component>

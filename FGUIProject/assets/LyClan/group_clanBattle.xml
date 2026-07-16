@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="773,1030" overflow="hidden" designImage="ui://8rnw66xwm2rj8v" designImageOffsetX="3" designImageOffsetY="-424">
+  <controller name="c1" pages="0,,1," selected="0">
+    <remark page="0" value="挑战"/>
+    <remark page="1" value="奖励"/>
+  </controller>
+  <displayList>
+    <image id="n52_r2p3" name="n52" src="r2p38d" fileName="res/frame_buff under public4.png" xy="128,710" size="596,229" group="n54_r2p3"/>
+    <image id="n53_r2p3" name="n53" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="237,759" size="375,38" group="n54_r2p3"/>
+    <text id="n12_hbzk" name="label_duelBuffAttr" xy="460,817" size="100,34" group="n54_r2p3" fontSize="24" vAlign="middle" text="基础属性"/>
+    <text id="n14_hbzk" name="label_duelBuffCount" xy="460,853" size="55,34" group="n54_r2p3" fontSize="24" vAlign="middle" text="2/20"/>
+    <text id="n71_m2rj" name="n71" xy="349,817" size="118,34" group="n54_r2p3" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" text="加成属性："/>
+    <text id="n72_m2rj" name="n72" xy="349,853" size="118,34" group="n54_r2p3" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" text="叠加层数："/>
+    <text id="n76_m2rj" name="label_str79" xy="381,758" size="88,39" group="n54_r2p3" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" text="辟邪阵"/>
+    <image id="n77_puks" name="n77" src="ss7zu16j" fileName="iconitems/Props_clanexp.png" pkg="27utqbiz" xy="217,788" group="n54_r2p3"/>
+    <group id="n54_r2p3" name="group_outvisible" xy="128,710" size="596,229" advanced="true"/>
+    <image id="n55_r2p3" name="n55" src="tkumrq" fileName="ui/frame_public4-2.png" pkg="27utqbiz" xy="1,0" group="n58_r2p3"/>
+    <loader id="n56_r2p3" name="loader_poster" xy="129,33" size="594,688" group="n58_r2p3" url="ui://f7l7y9v7sbhhl"/>
+    <loader3D id="n31_jos6" name="loader_spine" xy="416,459" pivot="0.5,1" anchor="true" size="2,2" group="n58_r2p3" animation="" skin="" loop="true"/>
+    <component id="n57_r2p3" name="btn_reward" src="r2p38n" fileName="btn_chapter.xml" xy="646,44" group="n58_r2p3">
+      <Button title="累计奖励" icon="ui://8rnw66xwera28q"/>
+    </component>
+    <component id="n62_era2" name="btn_task" src="r2p38n" fileName="btn_chapter.xml" xy="646,133" group="n58_r2p3">
+      <Button title="挑战奖励" icon="ui://8rnw66xwr2p38p"/>
+    </component>
+    <component id="n63_era2" name="btn_rank" src="r2p38n" fileName="btn_chapter.xml" xy="646,223" group="n58_r2p3">
+      <Button title="个人排行" icon="ui://27utqbizn4fq130"/>
+    </component>
+    <image id="n64_m2rj" name="n64" src="m2rj8x" fileName="res3/frame_enemy name.png" xy="540,55" group="n58_r2p3"/>
+    <list id="n10_hbzk" name="list_duelBonuses" xy="151,620" size="336,100" group="n58_r2p3" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="16" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n32_jos6" name="label_monsterName" xy="558,91" size="37,159" group="n58_r2p3" font="ui://27utqbizps391v" fontSize="30" color="#9e3f22" align="center" vAlign="middle" autoSize="none" text="一物名字"/>
+    <text id="n16_hbzk" name="label_dailyDuelCount" xy="523,608" size="127,32" group="n58_r2p3" fontSize="22" color="#16191a" text="挑战次数：0"/>
+    <component id="n17_hbzk" name="btn_clanDuel" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="481,642" group="n58_r2p3">
+      <Button title="挑战"/>
+    </component>
+    <component id="n11_hbzk" name="btn_clanDuelBuff" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="481,642" group="n58_r2p3">
+      <Button title="布局"/>
+    </component>
+    <component id="n68_m2rj" name="group_blood" src="m2rj8y" fileName="group_progressboss.xml" xy="202,508" size="490,60" group="n58_r2p3"/>
+    <text id="n70_m2rj" name="label_str78" xy="150,581" size="108,36" group="n58_r2p3" fontSize="26" color="#16191a" text="击败奖励"/>
+    <group id="n58_r2p3" name="group_outright" xy="1,0" size="773,762" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <image id="n59_r2p3" name="n59" src="tkumrp" fileName="ui/frame_public4-1.png" pkg="27utqbiz" xy="0,0" group="n61_r2p3"/>
+    <richtext id="n4_hbzk" name="label_str73" xy="35,103" size="57,264" group="n61_r2p3" font="ui://27utqbizps391v" fontSize="50" color="#4a5a41" vAlign="middle" autoSize="none" autoClearText="true" text="禁地挑战"/>
+    <component id="n22_hbzk" name="btn_duelDesc" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="15,10" group="n61_r2p3"/>
+    <image id="n60_r2p3" name="n60" src="tkumrr" fileName="ui/frame_public4-3.png" pkg="27utqbiz" xy="41,381" group="n61_r2p3"/>
+    <richtext id="n66_m2rj" name="label_str74" xy="44,397" size="40,349" group="n61_r2p3" fontSize="34" color="#bbcf8c" vAlign="middle" autoSize="none" autoClearText="true" text="每日零点刷新"/>
+    <group id="n61_r2p3" name="group_outleft" xy="0,0" size="134,762" advanced="true">
+      <relation target="" sidePair="left-left"/>
+    </group>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="717,12" visible="false"/>
+    <component id="n21_hbzk" name="btn_calnPopup1" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="386,18" visible="false"/>
+    <component id="n23_hbzk" name="btn_clanLog" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="-662,597" group="n28_hbzk">
+      <Button title="日志"/>
+    </component>
+    <component id="n24_hbzk" name="btn_calnPopup3" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="-233,233" group="n28_hbzk">
+      <Button title="奖励预览"/>
+    </component>
+    <component id="n25_hbzk" name="btn_clanDuelClaimReward" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="-415,586" group="n28_hbzk">
+      <Button title="全部领取"/>
+    </component>
+    <list id="n26_hbzk" name="list_reward" xy="-616,324" size="549,224" group="n28_hbzk" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n27_hbzk" name="n27" xy="-386,247" size="100,34" group="n28_hbzk" fontSize="24" text="累计奖励"/>
+    <group id="n28_hbzk" name="n28" xy="-662,233" size="643,422" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

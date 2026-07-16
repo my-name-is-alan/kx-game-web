@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,95">
+  <displayList>
+    <loader id="n112_me8j" name="loader_bg" xy="7,1" size="95,91" url="ui://27utqbizar1l6v" fill="scaleFree"/>
+    <loader id="n113_me8j" name="loader_icon" xy="8,0" size="94,95" url="ui://27utqbizi809lm" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <image id="n114_me8j" name="n114" src="y9su54" fileName="ui/frame_menke level.png" pkg="27utqbiz" xy="0,70" size="100,21" group="n122_me8j" color="#000000"/>
+    <text id="n115_me8j" name="label_time" xy="8,68" size="92,24" group="n122_me8j" fontSize="16" color="#ffffff" align="right" vAlign="middle" leading="0" autoSize="none" text="+26/分钟"/>
+    <group id="n122_me8j" name="group_addTime" xy="0,68" size="100,24" advanced="true"/>
+    <loader id="n123_g946" name="img_star1" xy="15,2" size="23,22" group="n128_g946" aspect="true" url="ui://eawofj71i80977" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n124_g946" name="img_star2" xy="32,2" size="22,22" group="n128_g946" url="ui://eawofj71i80973" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n125_g946" name="img_star3" xy="48,2" size="22,22" group="n128_g946" aspect="true" url="ui://eawofj71i80974" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n126_g946" name="img_star4" xy="64,2" size="22,22" group="n128_g946" aspect="true" url="ui://eawofj71i80975" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n127_g946" name="img_star5" xy="80,2" size="22,22" group="n128_g946" aspect="true" url="ui://eawofj71i80976" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <group id="n128_g946" name="n128" xy="15,2" size="87,22" advanced="true" layout="hz" colGap="-6" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

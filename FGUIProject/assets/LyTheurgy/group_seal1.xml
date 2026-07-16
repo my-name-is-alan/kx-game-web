@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="131,121">
+  <displayList>
+    <component id="n33_s8na" name="group_seal" src="l87x4i" fileName="group_seal.xml" xy="0,0"/>
+    <text id="n34_s8na" name="label_name" xy="50,122" size="30,32" fontSize="22" color="#4d6d6a" text="11">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

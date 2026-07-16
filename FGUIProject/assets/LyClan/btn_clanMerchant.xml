@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,116" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4_g013" name="icon" xy="-12,-32" size="400,386" scale="0.3,0.3" url="ui://8rnw66xwr2p384" align="center" vAlign="middle" fill="scale"/>
+    <image id="n5_e8yx" name="n5" src="e8yx9h" fileName="res3/frame_jifendi.png" xy="-46,82"/>
+    <text id="n3_g013" name="title" xy="-13,79" size="124,39" fontSize="28" color="#ffebb6" align="center" vAlign="middle" singleLine="true" text="时间1111">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n7_e8yx" name="n7" src="r2p381" fileName="res3/pic_face1.png" xy="33,9" scale="0.3,0.3"/>
+    <image id="n8_puks" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="89,-34" visible="false"/>
+  </displayList>
+  <Button/>
+</component>

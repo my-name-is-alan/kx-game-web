@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="717,1099">
+  <displayList>
+    <loader id="n12_hl71" name="n12" xy="0,0" size="709,1099" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <component id="n13_hl71" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="639,37"/>
+    <richtext id="n14_hl71" name="label_str9" xy="29,37" size="257,54" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="bottom" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]日[/size]志"/>
+    <list id="n5_knxo" name="list_log" xy="37,114" size="630,875" overflow="scroll" lineGap="12" defaultItem="ui://5gmha8dnknxod" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n9_knxo" name="label_bl" xy="77,1017" size="558,40" fontSize="18" color="#16191a" align="center" autoSize="none" text="保留其他噢"/>
+  </displayList>
+</component>

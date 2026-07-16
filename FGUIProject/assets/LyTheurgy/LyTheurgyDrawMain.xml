@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="718,1232">
+  <displayList>
+    <image id="n1_d3qo" name="n1" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="702,1103"/>
+    <loader3D id="n78_l1tk" name="lorderd_effectJon" xy="353,447" size="1,1" animation="" skin="" loop="true"/>
+    <text id="n23_d3qo" name="label_glDesc" xy="84,991" size="159,29" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="吸引概率"/>
+    <text id="n40_k70e" name="label_title" xy="23,27" size="135,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="藏劲歌"/>
+    <component id="n42_iuxm" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="640,38"/>
+    <component id="n50_iuxm" name="btn_add1" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="38,112"/>
+    <component id="n51_iuxm" name="btn_add2" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="219,112"/>
+    <component id="n64_iuxm" name="btn_addone" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="137,855"/>
+    <component id="n63_iuxm" name="btn_ten" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="389,898" size="188,52"/>
+    <component id="n46_iuxm" name="btn_addten" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="401,855"/>
+    <component id="n62_iuxm" name="btn_one" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="129,898" size="188,52"/>
+    <component id="n44_iuxm" name="btn_gl" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="18,955" aspect="true"/>
+    <image id="n65_iuxm" name="n65" src="iuxmet" fileName="ui/frame_chuzhandihei.png" pkg="27utqbiz" xy="60,1022" size="364,37" alpha="0.7"/>
+    <richtext id="n22_d3qo" name="label_baodi" xy="71,1025" size="283,29" fontSize="20" color="#ffffff" vAlign="middle" ubb="true" autoSize="none" text="再抽"/>
+    <component id="n80_sex8" name="btn_adRefresh" src="sex854" fileName="btn_adRefresh.xml" pkg="27utqbiz" xy="561,957"/>
+    <image id="n94_rgsw" name="n94" src="rgswr6" fileName="2.0/mk_di.png" xy="4,1095"/>
+    <component id="n82_rgsw" name="btn_unite" src="c3ihdu17n" fileName="btn_unite.xml" pkg="xcpqvzp3" xy="30,1096" size="154,120" aspect="true"/>
+    <component id="n87_rgsw" name="btn_zs" src="rgswqt" fileName="2.0/btn_zs.xml" xy="529,1098"/>
+    <loader3D id="n90_rgsw" name="loader_bx" xy="354,1186" size="1,1" animation="" skin="" loop="true"/>
+    <loader id="n93_rgsw" name="loader_bx3" xy="242,1030" size="223,178" url="ui://yhkdb7e3rgswq1" clearOnPublish="true"/>
+    <image id="n88_rgsw" name="n88" src="rgswpt" fileName="2.0/miji_bg05.png" xy="231,1187" size="244,27"/>
+    <text id="n89_rgsw" name="label_hxDesc" xy="229,1185" size="248,29" font="ui://27utqbizps391v" fontSize="20" color="#fff4dc" align="center" vAlign="middle" autoSize="shrink" text="奖励"/>
+    <component id="n83_rgsw" name="group_itemUnite" src="rgswdu1a6" fileName="itemframe/GroupItem_leftQp.xml" pkg="27utqbiz" xy="-12,1007"/>
+    <component id="n84_rgsw" name="group_itemleft" src="rgswdu18h" fileName="itemframe/GroupItem_rightQp.xml" pkg="27utqbiz" xy="594,1004" visible="false"/>
+    <component id="n74_ejo7" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="-30,-182" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader3D id="n73_ejo7" name="lorderd_effect" xy="358,615" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+  </displayList>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n8_psu8" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <image id="n14_vcsd" name="n14" src="k1vlm3" fileName="res/frame_public3.png" pkg="qnktu1il" xy="58,352" size="634,630" group="n15_s52d" alpha="0.97"/>
+    <image id="n12_s742" name="n12" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="165,378" size="420,38" group="n15_s52d"/>
+    <text id="n13_s742" name="title" xy="322,376" size="116,39" group="n15_s52d" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" letterSpacing="-2" autoSize="none" text="技能详情"/>
+    <list id="n2_psu8" name="list_all" xy="122,464" size="514,467" group="n15_s52d" overflow="scroll" lineGap="22" defaultItem="ui://xcpqvzp3s74227" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n15_s52d" name="n15" xy="58,352" size="634,630" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

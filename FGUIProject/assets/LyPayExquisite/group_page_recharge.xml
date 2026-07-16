@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_sril" name="n0" src="sril9" fileName="res/bg_linglongge new.png" xy="0,0"/>
+    <image id="n11_sril" name="n11" src="srilw" fileName="recharge/word_daijinquan.png" xy="51,59">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n12_sril" name="n12" src="srilx" fileName="recharge/word_yubichongzhi.png" xy="51,59">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n19_h269" name="n19" src="yb742o" fileName="recharge/pic_yubi_banner.png" xy="356,31">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n18_h269" name="n18" src="srile" fileName="recharge/pic_daijinquan_banner.png" xy="346,38">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n20_tw6i" name="n20" src="me8jqw" fileName="ui/frame_countdown.png" pkg="27utqbiz" xy="60,190" size="360,30">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <richtext id="n4_sril" name="label_time" xy="132,186" size="219,37" fontSize="26" color="#ffffff" align="center" vAlign="middle" ubb="true" autoClearText="true" text="距离刷新时间：{0}">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n5_sril" name="group_value_chance" src="srilg" fileName="group_value.xml" xy="580,80"/>
+    <component id="n6_sril" name="group_value_stone" src="srilg" fileName="group_value.xml" xy="580,120"/>
+    <component id="n7_sril" name="group_leichong" src="srilh" fileName="group_leichong.xml" xy="50,280"/>
+    <list id="n8_sril" name="list_item" xy="2,400" size="746,648" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://kl5mxoqpsrilz" align="center" autoClearItems="true">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n14_sril" name="btn_stone" src="sril17" fileName="recharge/btn_rectab1.xml" xy="330,1020">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n15_sril" name="btn_chance" src="sril18" fileName="recharge/btn_rectab2.xml" xy="470,1020">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

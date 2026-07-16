@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="541,37" extention="ProgressBar">
+  <displayList>
+    <image id="n0_mnt8" name="n0" src="mnt8b" fileName="res/36.png" xy="0,0" size="541,37">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_mnt8" name="bar" src="mnt89" fileName="res/37.png" xy="30,8" size="474,20"/>
+    <text id="n2_mnt8" name="title" xy="41,1" size="459,34" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="1231">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

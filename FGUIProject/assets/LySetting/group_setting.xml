@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,890">
+  <displayList>
+    <loader id="n0_ah8r" name="n0" xy="32,0" size="685,858" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n3_ah8r" name="label_sz" xy="52,28" size="167,49" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="[size=42]设[/size]置"/>
+    <component id="n4_ah8r" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <loader id="n6_ah8r" name="n6" xy="103,111" size="106,106" url="ui://27utqbizj3rv3z" align="center" vAlign="middle"/>
+    <loader id="n41_ah8r" name="img_icon" xy="104,115" size="100,100" align="center" vAlign="middle"/>
+    <loader id="n42_x66o" name="img_avatarBorder" xy="104,112" size="100,100" align="center" vAlign="middle"/>
+    <text id="n7_ah8r" name="label_name" xy="221,116" size="56,36" fontSize="26" color="#16191a" vAlign="middle" text="啊啊"/>
+    <text id="n8_ah8r" name="label_level" xy="221,154" size="52,34" fontSize="24" color="#4d6d6a" vAlign="middle" text="啊啊"/>
+    <richtext id="n9_ah8r" name="label_attr" xy="222,191" size="102,49" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" underline="true" text="啊啊"/>
+    <image id="n10_ah8r" name="n10" src="i809ll" fileName="ui/frame_guild&amp;server.png" pkg="27utqbiz" xy="112,235" size="237,30"/>
+    <image id="n11_ah8r" name="n11" src="i809ll" fileName="ui/frame_guild&amp;server.png" pkg="27utqbiz" xy="401,235" size="237,30"/>
+    <text id="n12_ah8r" name="label_faction" xy="119,236" size="214,29" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" text="帮派"/>
+    <text id="n13_ah8r" name="label_server" xy="414,235" size="211,30" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" text="区服"/>
+    <image id="n37_ah8r" name="n37" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="64,319" size="620,84"/>
+    <component id="n17_ah8r" name="btn_rename" src="ah8r5c" fileName="btn_common.xml" xy="248,101" size="100,60">
+      <relation target="n7_ah8r" sidePair="right-right"/>
+      <Button icon="ui://qr6acijcana35r"/>
+    </component>
+    <component id="n14_ah8r" name="btn_music" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="100,319" size="150,50">
+      <Button checked="true" title="音乐"/>
+    </component>
+    <component id="n20_ah8r" name="btn_soundEffect" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="300,319" size="150,50">
+      <Button checked="true" title="音效"/>
+    </component>
+    <component id="n48_ana3" name="btn_grant" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="500,319" size="150,50">
+      <Button checked="true" title="琅琊赐福"/>
+    </component>
+    <component id="n21_ah8r" name="n21" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="100,359" size="150,50" visible="false">
+      <Button checked="true" title="高清"/>
+    </component>
+    <image id="n38_ah8r" name="n38" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="64,420" size="620,250"/>
+    <text id="n31_ah8r" name="label_ip" xy="138,780" size="10,29" fontSize="20" color="#16191a" align="center" autoClearText="true" text=""/>
+    <text id="n32_ah8r" name="label_versions" xy="449,780" size="37,29" fontSize="20" color="#16191a" align="center" text="123"/>
+    <component id="n33_ah8r" name="btn_server" src="ah8r5d" fileName="btn_aqua.xml" xy="135,692">
+      <Button title="更换服务器"/>
+    </component>
+    <component id="n34_ah8r" name="btn_sign" src="ah8r5d" fileName="btn_aqua.xml" xy="427,692">
+      <Button title="切换账号"/>
+    </component>
+    <image id="n39_ah8r" name="n39" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="562,682"/>
+    <component id="n19_ah8r" name="btn_character" src="ah8r5c" fileName="btn_common.xml" xy="87,185" size="48,48">
+      <Button icon="ui://qr6acijcana35q"/>
+    </component>
+    <component id="n22_ah8r" name="group_item" src="ana35o" fileName="group_items.xml" xy="81,436"/>
+    <image id="n46_ana3" name="n46" src="i809ll" fileName="ui/frame_guild&amp;server.png" pkg="27utqbiz" xy="112,275" size="237,30"/>
+    <component id="n18_ah8r" name="btn_copy" src="ah8r5c" fileName="btn_common.xml" xy="287,262" size="88,58">
+      <Button icon="ui://qr6acijcana35p"/>
+    </component>
+    <text id="n47_ana3" name="label_uid" xy="119,276" size="199,29" fontSize="20" color="#ffffff" vAlign="middle" autoSize="shrink" text="帮派:11111111111111"/>
+    <component id="n49_ana3" name="btn_langyacifu" src="ana35u" fileName="btn_langyacifu.xml" xy="554,123"/>
+    <text id="n50_oj4e" name="label_beian" xy="138,744" size="86,29" visible="false" fontSize="20" color="#16191a" align="center" text="WCLDSG"/>
+  </displayList>
+</component>

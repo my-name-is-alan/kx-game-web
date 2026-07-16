@@ -1,0 +1,250 @@
+
+cj_zhujiemian.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anbian
+  rotate: false
+  xy: 1065, 1686
+  size: 476, 168
+  orig: 510, 170
+  offset: 0, 1
+  index: -1
+bandian
+  rotate: false
+  xy: 905, 644
+  size: 900, 647
+  orig: 900, 680
+  offset: 0, 33
+  index: -1
+chuan1
+  rotate: true
+  xy: 1543, 1613
+  size: 234, 362
+  orig: 236, 362
+  offset: 2, 0
+  index: -1
+chuan2
+  rotate: true
+  xy: 567, 1717
+  size: 168, 174
+  orig: 168, 176
+  offset: 0, 0
+  index: -1
+chuan_touying1
+  rotate: true
+  xy: 296, 1735
+  size: 167, 269
+  orig: 189, 269
+  offset: 22, 0
+  index: -1
+chuan_touying2
+  rotate: false
+  xy: 1725, 1853
+  size: 116, 103
+  orig: 117, 103
+  offset: 1, 0
+  index: -1
+gaoshan
+  rotate: false
+  xy: 2, 802
+  size: 901, 489
+  orig: 901, 490
+  offset: 0, 1
+  index: -1
+jiangshui
+  rotate: false
+  xy: 2, 121
+  size: 901, 679
+  orig: 901, 679
+  offset: 0, 0
+  index: -1
+luoye
+  rotate: false
+  xy: 335, 1921
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+luoye_2
+  rotate: false
+  xy: 65, 1938
+  size: 36, 18
+  orig: 37, 19
+  offset: 1, 0
+  index: -1
+luoyedui
+  rotate: false
+  xy: 1341, 1856
+  size: 207, 100
+  orig: 208, 112
+  offset: 0, 8
+  index: -1
+matou
+  rotate: true
+  xy: 1843, 1849
+  size: 107, 113
+  orig: 108, 113
+  offset: 1, 0
+  index: -1
+niao_CB1
+  rotate: true
+  xy: 23, 1939
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+niao_CB2
+  rotate: true
+  xy: 44, 1939
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+niao_body
+  rotate: false
+  xy: 2, 1949
+  size: 19, 7
+  orig: 19, 7
+  offset: 0, 0
+  index: -1
+qingyan1
+  rotate: false
+  xy: 743, 1694
+  size: 320, 172
+  orig: 322, 176
+  offset: 1, 2
+  index: -1
+qingyan3
+  rotate: false
+  xy: 743, 1694
+  size: 320, 172
+  orig: 322, 176
+  offset: 1, 2
+  index: -1
+qingyan2
+  rotate: false
+  xy: 581, 1887
+  size: 179, 69
+  orig: 182, 71
+  offset: 2, 1
+  index: -1
+shu
+  rotate: false
+  xy: 467, 1904
+  size: 112, 52
+  orig: 112, 52
+  offset: 0, 0
+  index: -1
+shui_lianyi
+  rotate: false
+  xy: 2, 1424
+  size: 309, 309
+  orig: 309, 309
+  offset: 0, 0
+  index: -1
+shui_lianyi2
+  rotate: false
+  xy: 313, 1406
+  size: 309, 309
+  orig: 309, 309
+  offset: 0, 0
+  index: -1
+shuihua
+  rotate: false
+  xy: 762, 1870
+  size: 216, 86
+  orig: 221, 86
+  offset: 0, 0
+  index: -1
+shumu_1_1
+  rotate: false
+  xy: 2, 1774
+  size: 292, 147
+  orig: 293, 153
+  offset: 0, 0
+  index: -1
+shumu_1_2
+  rotate: false
+  xy: 1550, 1855
+  size: 173, 101
+  orig: 173, 103
+  offset: 0, 0
+  index: -1
+shumu_2
+  rotate: false
+  xy: 1091, 1861
+  size: 248, 95
+  orig: 257, 157
+  offset: 9, 0
+  index: -1
+shumu_2_1
+  rotate: false
+  xy: 375, 1908
+  size: 90, 48
+  orig: 95, 50
+  offset: 1, 0
+  index: -1
+shumu_2_2
+  rotate: false
+  xy: 163, 1931
+  size: 38, 25
+  orig: 38, 25
+  offset: 0, 0
+  index: -1
+shumu_3_1
+  rotate: false
+  xy: 980, 1868
+  size: 109, 88
+  orig: 109, 89
+  offset: 0, 0
+  index: -1
+xiaoshan
+  rotate: false
+  xy: 624, 1293
+  size: 901, 391
+  orig: 901, 392
+  offset: 0, 0
+  index: -1
+xiaozhou
+  rotate: false
+  xy: 103, 1938
+  size: 58, 18
+  orig: 61, 20
+  offset: 1, 1
+  index: -1
+xiaozhou_2
+  rotate: false
+  xy: 244, 1923
+  size: 89, 33
+  orig: 89, 34
+  offset: 0, 0
+  index: -1
+yezi_touying
+  rotate: false
+  xy: 203, 1930
+  size: 39, 26
+  orig: 40, 26
+  offset: 1, 0
+  index: -1
+
+cj_zhujiemian2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shui_daoying
+  rotate: false
+  xy: 2, 1062
+  size: 903, 746
+  orig: 903, 746
+  offset: 0, 0
+  index: -1
+sky
+  rotate: false
+  xy: 907, 1059
+  size: 901, 749
+  orig: 901, 749
+  offset: 0, 0
+  index: -1

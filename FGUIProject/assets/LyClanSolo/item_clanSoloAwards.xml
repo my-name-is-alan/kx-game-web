@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,244">
+  <displayList>
+    <loader id="n55_ljrs" name="img_bg" xy="0,0" size="668,244" url="ui://irbjwyufljrsr" fill="scaleFree"/>
+    <list id="n44_ljrs" name="list_award" xy="72,109" size="583,100" scale="0.9,0.9" layout="row" overflow="scroll" scroll="horizontal" colGap="20" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n45_ljrs" name="label_top1" xy="223,31" size="222,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#d4841b" autoClearText="true" text="第一名"/>
+    <text id="n58_ljrs" name="label_top2" xy="223,30" size="222,42" visible="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#8b55e4" autoClearText="true" text="第二名"/>
+    <text id="n60_ljrs" name="label_top3" xy="223,30" size="222,42" visible="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#569bdc" autoClearText="true" text="第二名"/>
+    <text id="n61_ljrs" name="label_tops" xy="223,30" size="222,42" visible="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#67765c" strokeSize="2" autoClearText="true" text="第二名"/>
+  </displayList>
+</component>

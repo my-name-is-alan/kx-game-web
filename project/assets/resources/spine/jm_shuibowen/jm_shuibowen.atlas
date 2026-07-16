@@ -1,0 +1,13 @@
+
+jm_shuibowen.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jm_huo_01
+  rotate: false
+  xy: 2, 272
+  size: 387, 117
+  orig: 387, 117
+  offset: 0, 0
+  index: -1

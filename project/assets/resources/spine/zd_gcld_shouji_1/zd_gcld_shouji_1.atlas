@@ -1,0 +1,118 @@
+
+zd_gcld_shouji_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lxyz_hit/lxyz_hit_000
+  rotate: false
+  xy: 294, 79
+  size: 289, 248
+  orig: 300, 300
+  offset: 5, 25
+  index: -1
+images/lxyz_hit/lxyz_hit_002
+  rotate: false
+  xy: 2, 565
+  size: 241, 198
+  orig: 300, 300
+  offset: 29, 50
+  index: -1
+images/lxyz_hit/lxyz_hit_004
+  rotate: false
+  xy: 445, 561
+  size: 207, 200
+  orig: 300, 300
+  offset: 47, 50
+  index: -1
+images/lxyz_hit/lxyz_hit_006
+  rotate: false
+  xy: 659, 323
+  size: 278, 223
+  orig: 300, 300
+  offset: 20, 38
+  index: -1
+images/lxyz_hit/lxyz_hit_008
+  rotate: false
+  xy: 2, 102
+  size: 290, 241
+  orig: 300, 300
+  offset: 10, 27
+  index: -1
+images/lxyz_hit/lxyz_hit_010
+  rotate: false
+  xy: 2, 347
+  size: 216, 216
+  orig: 300, 300
+  offset: 42, 42
+  index: -1
+images/lxyz_hit/lxyz_hit_012
+  rotate: false
+  xy: 220, 345
+  size: 217, 217
+  orig: 300, 300
+  offset: 42, 41
+  index: -1
+images/lxyz_hit/lxyz_hit_014
+  rotate: false
+  xy: 439, 329
+  size: 218, 217
+  orig: 300, 300
+  offset: 41, 41
+  index: -1
+images/lxyz_hit/lxyz_hit_016
+  rotate: false
+  xy: 654, 548
+  size: 212, 212
+  orig: 300, 300
+  offset: 44, 44
+  index: -1
+images/lxyz_hit/lxyz_hit_018
+  rotate: false
+  xy: 245, 564
+  size: 198, 198
+  orig: 300, 300
+  offset: 51, 51
+  index: -1
+images/lxyz_hit/lxyz_hit_020
+  rotate: false
+  xy: 746, 762
+  size: 184, 175
+  orig: 300, 300
+  offset: 58, 69
+  index: -1
+images/lxyz_hit/lxyz_hit_022
+  rotate: false
+  xy: 559, 763
+  size: 185, 174
+  orig: 300, 300
+  offset: 58, 70
+  index: -1
+images/lxyz_hit/lxyz_hit_024
+  rotate: false
+  xy: 371, 764
+  size: 186, 173
+  orig: 300, 300
+  offset: 58, 71
+  index: -1
+images/lxyz_hit/lxyz_hit_026
+  rotate: false
+  xy: 182, 765
+  size: 187, 172
+  orig: 300, 300
+  offset: 58, 72
+  index: -1
+images/lxyz_hit/lxyz_hit_028
+  rotate: true
+  xy: 12, 801
+  size: 136, 168
+  orig: 300, 300
+  offset: 62, 75
+  index: -1
+images/lxyz_hit/lxyz_hit_030
+  rotate: false
+  xy: 2, 929
+  size: 8, 8
+  orig: 300, 300
+  offset: 146, 146
+  index: -1

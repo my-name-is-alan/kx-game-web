@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetY="-306">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n37_oxm5" name="n37" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button controller="c1" page="0"/>
+    </component>
+    <component id="n29_oxm5" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button controller="c1" page="1"/>
+    </component>
+    <loader3D id="n49_er9z" name="loader_spine1" xy="385,471" size="1,1" group="n38_oxm5" animation="" skin="" loop="true"/>
+    <image id="n32_oxm5" name="n32" src="oxm51j" fileName="res2/frame_tupojinjie3.png" xy="111,248" group="n38_oxm5"/>
+    <image id="n30_oxm5" name="n30" src="oxm51i" fileName="res2/frame_tupojinjie2.png" xy="-66,451" group="n38_oxm5"/>
+    <group id="n38_oxm5" name="n38" xy="-66,248" size="882,729" group="n39_oxm5" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n44_oxm5" name="n44" src="oxm51v" fileName="res2/des_zhong-scroll.png" xy="6,285" group="n5_li64"/>
+    <loader id="n19_oxm5" name="img_thunder" xy="35,298" size="678,684" group="n5_li64" url="ui://cho273r8oxm51p"/>
+    <loader3D id="n25_oxm5" name="loader_spine_fetter2" xy="371,780" size="1,1" group="n5_li64" animation="" skin="" loop="true"/>
+    <loader3D id="n23_oxm5" name="loader_spine" xy="372,803" size="1,1" group="n5_li64" animation="" skin="" loop="true"/>
+    <group id="n5_li64" name="n5" xy="6,285" size="738,714" group="n39_oxm5" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n34_oxm5" name="n34" src="t6w7eu" fileName="ui/frame_link title.png" pkg="27utqbiz" xy="143,557" group="n17_li64"/>
+    <image id="n35_oxm5" name="n35" src="t6w7eu" fileName="ui/frame_link title.png" pkg="27utqbiz" xy="420,556" group="n17_li64"/>
+    <text id="n8_li64" name="label_stage1" xy="159,552" size="197,40" group="n17_li64" font="ui://27utqbizps391v" fontSize="29" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#f59600" strokeSize="2" text="大乘后期.前期"/>
+    <text id="n9_li64" name="label_stage2" xy="433,552" size="203,40" group="n17_li64" font="ui://27utqbizps391v" fontSize="29" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#f59600" strokeSize="2" text="真仙前期"/>
+    <list id="n14_li64" name="list_attr" xy="113,627" size="508,205" group="n17_li64" lineGap="8" defaultItem="ui://cho273r8li64h">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n36_oxm5" name="n36" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="368,567" group="n17_li64"/>
+    <image id="n51_er9z" name="n51" src="sbhh13w" fileName="ui/frame_title1.png" pkg="27utqbiz" xy="-12,332" group="n17_li64"/>
+    <image id="n50_er9z" name="n50" src="er9z1z" fileName="res2/word_wujingtupo.png" xy="221,395" group="n17_li64"/>
+    <group id="n17_li64" name="n17" xy="-12,332" size="750,500" group="n39_oxm5" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <loader3D id="n26_oxm5" name="loader_spine_fire" xy="371,626" size="1,1" group="n39_oxm5" animation="" skin="" loop="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader3D>
+    <loader3D id="n24_oxm5" name="loader_spine_fetter1" xy="371,780" size="1,1" group="n39_oxm5" animation="" skin="" loop="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader3D>
+    <image id="n20_oxm5" name="n20" src="oxm51k" fileName="res2/frame_zhanlidi.png" xy="212,321" group="n40_oxm5"/>
+    <text id="n3_li64" name="label_blood" xy="250,322" size="237,34" group="n40_oxm5" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" vAlign="middle" text="战力 101110/1445545"/>
+    <text id="n21_oxm5" name="n21" xy="215,1027" size="316,34" group="n40_oxm5" fontSize="24" color="#ffffff" text="快速点击锁链，防止走火入魔"/>
+    <image id="n27_oxm5" name="n27" src="oxm51q" fileName="res2/des_left scroll.png" xy="0,281" group="n40_oxm5"/>
+    <image id="n28_oxm5" name="n28" src="oxm51r" fileName="res2/des_right scroll.png" xy="705,281" group="n40_oxm5"/>
+    <component id="n41_oxm5" name="bar_blood" src="oxm51s" fileName="bar_blood.xml" xy="113,359" group="n40_oxm5">
+      <ProgressBar value="91" max="100"/>
+    </component>
+    <component id="n46_oxm5" name="group_start" src="oxm51w" fileName="group_start.xml" xy="374,510" group="n40_oxm5"/>
+    <group id="n40_oxm5" name="n40" xy="0,281" size="751,780" group="n39_oxm5" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <group id="n39_oxm5" name="n39" xy="-66,248" size="882,813" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

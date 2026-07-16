@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,852" designImageOffsetX="-382" designImageOffsetY="-575">
+  <displayList>
+    <loader id="n62_g6rs" name="n62" xy="33,0" size="683,814" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <component id="n63_g6rs" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <image id="n64_g6rs" name="n64" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="65,164" size="620,121"/>
+    <image id="n65_g6rs" name="n65" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="174,112" size="419,38"/>
+    <text id="n68_g6rs" name="label_sxgz" xy="325,111" size="128,39" font="ui://27utqbizps391v" fontSize="28" color="#333333" vAlign="middle" autoClearText="true" text="基础属性1"/>
+    <richtext id="n72_g6rs" name="label_xxsx" xy="53,25" size="172,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" ubb="true" strokeColor="#000000" strokeSize="3" autoClearText="true" text="[size=42]当[/size]前属性"/>
+    <image id="n73_g6rs" name="n73" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="65,351" size="620,82"/>
+    <list id="n74_g6rs" name="list_attr2" xy="101,360" size="586,65" layout="flow_hz" overflow="scroll" colGap="180" defaultItem="ui://2uzp0flscwvx1c">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n77_g6rs" name="n77" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="65,503" size="620,228"/>
+    <list id="n78_g6rs" name="list_attr3" xy="101,513" size="586,211" layout="flow_hz" overflow="scroll" colGap="180" defaultItem="ui://2uzp0flscwvx1c">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n79_g6rs" name="n79" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="173,453" size="419,38"/>
+    <text id="n80_g6rs" name="label_zdkx" xy="325,451" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#333333" vAlign="middle" autoClearText="true" text="特殊属性"/>
+    <image id="n81_g6rs" name="n81" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="587,643"/>
+    <image id="n83_g6rs" name="n83" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="174,300" size="419,38"/>
+    <text id="n84_g6rs" name="label_jcsx" xy="327,300" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#333333" vAlign="middle" autoClearText="true" text="特殊属性"/>
+    <text id="n85_g6rs" name="label_str72" xy="74,170" size="355,36" fontSize="26" color="#4d6d6a" vAlign="middle" autoClearText="true" text="*激励挂历一堆废话啊啊啊啊啊"/>
+    <text id="n86_g6rs" name="label_str73" xy="74,207" size="355,36" fontSize="26" color="#4d6d6a" vAlign="middle" text="*激励挂历一堆废话啊啊啊啊啊"/>
+    <text id="n87_g6rs" name="label_str74" xy="74,243" size="355,36" fontSize="26" color="#4d6d6a" vAlign="middle" text="*激励挂历一堆废话啊啊啊啊啊"/>
+    <text id="n88_g6rs" name="label_str75" xy="254,815" size="234,29" fontSize="20" color="#cfcdc9" align="center" vAlign="middle" autoSize="none" text="点击"/>
+    <text id="n89_g6rs" name="label_str71" xy="189,736" size="372,34" fontSize="24" color="#16191a" align="center" vAlign="middle" autoSize="none" text="点击"/>
+  </displayList>
+</component>

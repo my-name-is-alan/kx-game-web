@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1112">
+  <displayList>
+    <loader id="n0_ljrs" name="n0" xy="24,0" size="701,1112" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n1_ljrs" name="label_title" xy="53,27" size="257,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]帮[/size]派奖励"/>
+    <component id="n2_ljrs" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <list id="n3_ljrs" name="list_gift" xy="40,114" size="669,928" overflow="scroll" lineGap="8" defaultItem="ui://irbjwyuftk2y46" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

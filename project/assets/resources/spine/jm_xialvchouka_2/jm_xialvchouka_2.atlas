@@ -1,0 +1,97 @@
+
+jm_xialvchouka_2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huo/jm_huo_01
+  rotate: false
+  xy: 310, 493
+  size: 204, 80
+  orig: 204, 104
+  offset: 0, 5
+  index: -1
+huo/jm_huo_010
+  rotate: true
+  xy: 2, 208
+  size: 204, 99
+  orig: 204, 104
+  offset: 0, 5
+  index: -1
+huo/jm_huo_011
+  rotate: false
+  xy: 198, 278
+  size: 204, 89
+  orig: 204, 104
+  offset: 0, 0
+  index: -1
+huo/jm_huo_012
+  rotate: true
+  xy: 2, 2
+  size: 204, 80
+  orig: 204, 104
+  offset: 0, 5
+  index: -1
+huo/jm_huo_02
+  rotate: true
+  xy: 84, 2
+  size: 204, 79
+  orig: 204, 104
+  offset: 0, 0
+  index: -1
+huo/jm_huo_03
+  rotate: true
+  xy: 404, 205
+  size: 204, 70
+  orig: 204, 104
+  offset: 0, 5
+  index: -1
+huo/jm_huo_04
+  rotate: true
+  xy: 241, 72
+  size: 204, 72
+  orig: 204, 104
+  offset: 0, 4
+  index: -1
+huo/jm_huo_05
+  rotate: true
+  xy: 315, 72
+  size: 204, 70
+  orig: 204, 104
+  offset: 0, 5
+  index: -1
+huo/jm_huo_06
+  rotate: true
+  xy: 103, 208
+  size: 204, 93
+  orig: 204, 104
+  offset: 0, 4
+  index: -1
+huo/jm_huo_07
+  rotate: false
+  xy: 310, 411
+  size: 204, 80
+  orig: 204, 104
+  offset: 0, 4
+  index: -1
+huo/jm_huo_08
+  rotate: true
+  xy: 208, 369
+  size: 204, 100
+  orig: 204, 104
+  offset: 0, 0
+  index: -1
+huo/jm_huo_09
+  rotate: true
+  xy: 165, 2
+  size: 204, 74
+  orig: 204, 104
+  offset: 0, 4
+  index: -1
+xialvchouka_01
+  rotate: false
+  xy: 2, 414
+  size: 204, 159
+  orig: 204, 159
+  offset: 0, 0
+  index: -1

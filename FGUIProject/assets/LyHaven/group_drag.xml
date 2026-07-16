@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="639,743" overflow="scroll">
+  <displayList>
+    <component id="n40_j655" name="group_nearby" src="j6552h" fileName="group_fujingbiaoju.xml" xy="0,0"/>
+    <component id="n72_j655" name="group_peer" src="j6552i" fileName="group_tonghangbiaoju.xml" xy="0,532"/>
+  </displayList>
+</component>

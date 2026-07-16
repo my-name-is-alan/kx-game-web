@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,135">
+  <displayList>
+    <image id="n23_ef0l" name="n23" src="ef0l2o" fileName="jj5z/frame_jiangliliebiao.png" xy="0,0"/>
+    <component id="n24_ef0l" name="group_free" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="58,17"/>
+    <component id="n32_ef0l" name="group_lock1" src="ef0l7c" fileName="itemframe/GroupItem_lock.xml" pkg="27utqbiz" xy="341,18"/>
+    <component id="n33_ef0l" name="group_lock2" src="ef0l7c" fileName="itemframe/GroupItem_lock.xml" pkg="27utqbiz" xy="458,18"/>
+    <image id="n45_pi9a" name="img_bar_gray" src="pi9a5x" fileName="xianyuan/res/frame_shujindutiao.png" xy="220,0" size="20,68"/>
+    <image id="n46_pi9a" name="img_bar_light" src="ef0l37" fileName="xianyuan/res/frame_shujindutiao2.png" xy="223,0" size="16,66"/>
+    <image id="n47_pi9a" name="img_bar_gray1" src="pi9a5x" fileName="xianyuan/res/frame_shujindutiao.png" xy="220,67" size="20,68"/>
+    <image id="n48_pi9a" name="img_bar_light1" src="ef0l37" fileName="xianyuan/res/frame_shujindutiao2.png" xy="223,69" size="16,68"/>
+    <image id="n39_bh0j" name="n39" src="ef0l2n" fileName="ui/frame_jianglijindukuai2.png" pkg="27utqbiz" xy="199,36"/>
+    <image id="n40_bh0j" name="n52" src="ef0l2m" fileName="ui/frame_jianglijindukuai.png" pkg="27utqbiz" xy="199,36"/>
+    <image id="n41_bh0j" name="n41" src="ef0l2b" fileName="xianyuan/res/icon_sehngwang.png" xy="234,25"/>
+    <text id="n42_bh0j" name="label_number" xy="212,54" size="40,29" fontSize="20" color="#ffefc9" align="center" vAlign="middle" autoSize="none" strokeColor="#54380f" strokeSize="2" autoClearText="true" text="440"/>
+  </displayList>
+</component>

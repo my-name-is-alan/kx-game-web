@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n0_o66p" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" alpha="0.01">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n4_bh80" name="n4" xy="154,392" size="440,417" group="n32_bh80" url="ui://27utqbizrvb52y" fill="scaleFree">
+      <relation target="n33_ktzl" sidePair="bottomext-bottom"/>
+    </loader>
+    <loader id="n5_bh80" name="Loader_qu" xy="174,398" size="400,46" group="n32_bh80" url="ui://27utqbizrvb52z" clearOnPublish="true"/>
+    <text id="n6_bh80" name="label_name" xy="255,397" size="238,44" group="n32_bh80" font="ui://27utqbizps391v" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#1d8fb9" text="葫芦果"/>
+    <text id="n7_bh80" name="label_dec1" xy="301,494" size="260,74" group="n32_bh80" font="SimHei" fontSize="18" color="#333333" autoSize="height" autoClearText="true" text="间隔3回合释放1次技能，造成主角60%攻击力的伤害，并提升主角20%攻击力，持续1回合。"/>
+    <image id="n8_bh80" name="n8" src="rvb53e" fileName="ui/dec_pattern_behind_prop.png" pkg="27utqbiz" xy="209,463" group="n32_bh80"/>
+    <loader id="n9_bh80" name="loader_item" xy="197,449" size="90,90" group="n32_bh80" url="ui://27utqbizrvb52t" autoSize="true"/>
+    <image id="n10_bh80" name="n10" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="293,487" group="n32_bh80"/>
+    <text id="n11_bh80" name="label_count" xy="446,453" size="122,34" group="n32_bh80" visible="false" font="SimHei" fontSize="18" color="#333333" vAlign="middle" autoSize="none" text="已拥有: 50"/>
+    <text id="n20_bh80" name="n20" xy="315,597" size="118,38" group="n33_ktzl" font="ui://27utqbizps391v" fontSize="27" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" text="合成材料"/>
+    <image id="n31_bh80" name="n31" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="185,647" size="375,89" group="n33_ktzl"/>
+    <image id="n23_bh80" name="n23" src="rvb53e" fileName="ui/dec_pattern_behind_prop.png" pkg="27utqbiz" xy="207,655" group="n33_ktzl" aspect="true"/>
+    <image id="n19_bh80" name="n19" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="179,599" size="385,38" group="n33_ktzl"/>
+    <text id="n25_bh80" name="label_have" xy="294,657" size="146,26" group="n33_ktzl" fontSize="18" color="#2b841c" vAlign="middle" letterSpacing="-1" autoSize="shrink" text="已拥有"/>
+    <component id="n26_bh80" name="btn_add" src="bh805c" fileName="btn_add2.xml" pkg="27utqbiz" xy="510,690" group="n33_ktzl"/>
+    <component id="n27_bh80" name="btn_reduct" src="bh805d" fileName="btn_reduct2.xml" pkg="27utqbiz" xy="296,690" group="n33_ktzl"/>
+    <component id="n16_bh80" name="btn_craft" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="266,745" group="n33_ktzl">
+      <Button title="合成"/>
+    </component>
+    <component id="n34_ihm0" name="pro_use" src="hvzws9" fileName="Slider1.xml" pkg="27utqbiz" xy="334,699" size="177,20" group="n33_ktzl">
+      <Slider value="70" max="100"/>
+    </component>
+    <text id="n35_ihm0" name="label_will" xy="428,657" size="131,26" group="n33_ktzl" fontSize="18" color="#161719" align="right" vAlign="middle" letterSpacing="-1" autoSize="none" text="已拥有"/>
+    <component id="n36_ihm0" name="loader_item1" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="202,651" group="n33_ktzl" scale="0.8,0.8"/>
+    <group id="n33_ktzl" name="n33" xy="179,597" size="385,206" group="n32_bh80" advanced="true">
+      <relation target="n4_bh80" sidePair="bottom-bottom"/>
+    </group>
+    <group id="n32_bh80" name="n32" xy="154,392" size="440,417" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="590,140">
+  <displayList>
+    <text id="n0_hbzk" name="label_createTime" xy="280,1" size="30,32" fontSize="22" color="#16191a" align="center" vAlign="middle" text="10">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n3_r2p3" name="n3" src="q8va6t" fileName="ui/frame_connect1.png" pkg="27utqbiz" xy="386,28" rotation="90"/>
+    <list id="n4_rajy" name="list_itemLog" xy="0,64" size="590,75" touchable="false" overflow="scroll" lineGap="10" defaultItem="ui://8rnw66xwrajya4">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n4_rajy" sidePair="height-height"/>
+</component>

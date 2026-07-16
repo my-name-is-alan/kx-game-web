@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="607,68" overflow="hidden">
+  <displayList>
+    <image id="n12_xpuh" name="n12" src="rvb52x" fileName="ui/frame_top_layer.png" xy="10,9" size="480,50"/>
+    <text id="n7_u71x" name="label_des" xy="15,12" size="466,45" font="ui://27utqbizps391u" fontSize="24" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="" input="true" maxLength="30"/>
+    <component id="n11_u71x" name="btn_sure" src="u71x13" fileName="btn_sure.xml" xy="528,0" size="75,66" aspect="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

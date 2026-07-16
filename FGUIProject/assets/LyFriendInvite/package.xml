@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="xhtqlv2a">
+  <resources>
+    <component id="uudvpi" name="LyFriendInvite.xml" path="/" exported="true"/>
+    <image id="uudv0" name="frame_yaoqinghaoyoudiban.png" path="/res/"/>
+    <image id="uudv1" name="frame_yaoqinghaoyoudiban3.png" path="/res/"/>
+    <image id="uudv2" name="frame_yaoqinghaoyoudibanmengban.png" path="/res/"/>
+    <image id="uudv3" name="frame_yaoqinghaoyouhuodong.png" path="/res/"/>
+    <image id="uudv4" name="word_yaoqinghaoyou2.png" path="/res/"/>
+    <image id="uudv5" name="word_yaoqinghaoyouxiaozi.png" path="/res/"/>
+    <component id="uudv6" name="group_main.xml" path="/"/>
+    <component id="uudv7" name="group_item.xml" path="/"/>
+    <image id="uudv8" name="word_yaoqinghaoyou.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

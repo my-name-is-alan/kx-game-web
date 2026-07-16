@@ -1,0 +1,55 @@
+
+jm_zhanlizengjia02.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02/jm_zhanlizengjia002
+  rotate: false
+  xy: 87, 439
+  size: 214, 67
+  orig: 224, 88
+  offset: 10, 12
+  index: -1
+02/jm_zhanlizengjia003
+  rotate: false
+  xy: 2, 291
+  size: 201, 76
+  orig: 224, 88
+  offset: 11, 7
+  index: -1
+02/jm_zhanlizengjia004
+  rotate: false
+  xy: 205, 288
+  size: 201, 76
+  orig: 224, 88
+  offset: 10, 12
+  index: -1
+02/jm_zhanlizengjia005
+  rotate: false
+  xy: 303, 438
+  size: 203, 68
+  orig: 224, 88
+  offset: 10, 12
+  index: -1
+02/jm_zhanlizengjia006
+  rotate: false
+  xy: 2, 369
+  size: 217, 68
+  orig: 224, 88
+  offset: 2, 12
+  index: -1
+02/jm_zhanlizengjia007
+  rotate: false
+  xy: 221, 366
+  size: 218, 70
+  orig: 224, 88
+  offset: 0, 12
+  index: -1
+jm_zhanlizengjia002
+  rotate: false
+  xy: 2, 477
+  size: 83, 29
+  orig: 84, 30
+  offset: 1, 0
+  index: -1

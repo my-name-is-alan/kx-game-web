@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,840">
+  <displayList>
+    <image id="n72_wnc2" name="n72" src="wnc220" fileName="pet/frame_xialvhuhuandiban.png" xy="24,0"/>
+    <image id="n95_ey4i" name="n95" src="861bv" fileName="res/frame_chongwushengxing3.png" xy="292,100"/>
+    <image id="n94_ey4i" name="n94" src="kluzi" fileName="res/frame_fengexian2.png" xy="103,360"/>
+    <image id="n76_wnc2" name="n76" src="kluzh" fileName="res/frame_fengexian.png" xy="213,44"/>
+    <image id="n98_ey4i" name="n98" src="ncv32c" fileName="res/frame_shuxingdi2.png" xy="233,315"/>
+    <text id="n77_wnc2" name="label_title" xy="301,25" size="148,49" font="ui://27utqbizps391v" fontSize="36" color="#f4e9d5" align="center" vAlign="middle" autoClearText="true" text="奖励预览">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n93_ncv3" name="list_item" xy="125,380" size="500,400" layout="flow_hz" overflow="scroll" scrollBarFlags="64" margin="0,0,50,50" lineGap="10" colGap="50" defaultItem="ui://j6s22r8hey4i2e" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader3D id="n96_ey4i" name="loader_spine_main" xy="379,235" size="1,1" scale="0.25,0.25" animation="" skin="" loop="true"/>
+    <loader id="n97_ey4i" name="loader_name" xy="350,252" size="50,50" url="ui://j6s22r8hkluz4" align="center" vAlign="middle" clearOnPublish="true"/>
+    <richtext id="n99_ey4i" name="label_rate" xy="286,312" size="177,34" fontSize="24" color="#7c473c" align="center" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="获得概率 [color=#28B711]{0}%[/color]">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n100_ey4i" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="658,-57"/>
+  </displayList>
+</component>

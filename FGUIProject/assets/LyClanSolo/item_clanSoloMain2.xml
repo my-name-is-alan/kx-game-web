@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="207,500" designImageOffsetX="-545" designImageOffsetY="-651" designImageAlpha="0">
+  <displayList>
+    <loader3D id="n15_hzwj" name="loader_spine_pet" xy="197,292" pivot="0.5,1" anchor="true" size="2,2" scale="0.6,0.6" animation="" skin="" loop="true"/>
+    <component id="n16_hzwj" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="110,306" pivot="0.5,1" anchor="true" scale="0.6,0.6"/>
+    <component id="n28_9jvz" name="loader_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="4,252" size="202,103"/>
+    <image id="n18_hzwj" name="n18" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="27,317" scale="0.8,0.8"/>
+    <text id="n19_hzwj" name="label_combatPower" xy="76,324" size="60,42" font="ui://27utqbizvkas4q" fontSize="24" vAlign="middle" letterSpacing="-8" text="12"/>
+    <text id="n24_hzwj" name="label_name" xy="9,373" size="189,34" fontSize="24" color="#16191a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="名字六个字"/>
+    <image id="n25_hzwj" name="n25" src="ig8m37" fileName="res/frame_fight score2.png" xy="-46,0" group="n26_phai"/>
+    <text id="n21_hzwj" name="label_str47" xy="-1,16" size="60,39" group="n26_phai" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="积分"/>
+    <text id="n22_hzwj" name="label_winScore" xy="72,16" size="68,39" group="n26_phai" fontSize="28" color="#47a42e" vAlign="middle" autoClearText="true" text="+100"/>
+    <text id="n23_hzwj" name="label_scoreScale" xy="-38,54" size="189,32" group="n26_phai" fontSize="22" color="#a65907" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="积分"/>
+    <group id="n26_phai" name="n26" xy="-46,0" size="216,112"/>
+    <loader id="n27_r41c" name="btn_info" xy="0,0" size="207,500"/>
+    <component id="n20_hzwj" name="btn_battle" src="ig8m31" fileName="btn_battle2.xml" xy="34,381"/>
+  </displayList>
+</component>

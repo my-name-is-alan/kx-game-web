@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="461,33">
+  <displayList>
+    <image id="n25_lvip" name="n25" src="lvip1y" fileName="res/frame_enemy-progress-bar_all.png" xy="122,-28"/>
+    <component id="n27_lvip" name="bar_bloodboss" src="lvip22" fileName="res/bar_progressboss.xml" xy="167,2" size="240,33">
+      <ProgressBar value="7" max="100"/>
+    </component>
+    <image id="n29_lvip" name="img_box" src="lvip20" fileName="res/icon_ranking rewards.png" xy="435,17" pivot="0.5,0.5" anchor="true"/>
+    <text id="n30_lvip" name="label_count" xy="429,26" size="68,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text=""/>
+    <loader3D id="n31_ipid" name="loader_spine_box" xy="435,-40" size="2,2" scale="0.5,0.5" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

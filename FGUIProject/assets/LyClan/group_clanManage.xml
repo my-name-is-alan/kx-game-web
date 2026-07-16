@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,941">
+  <displayList>
+    <loader id="n0_hbzk" name="n0" xy="27,30" size="696,911" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <image id="n51_tuv7" name="n51" src="ql4f2g" fileName="res3/bg_bangpai1.png" xy="44,55"/>
+    <image id="n40_tuv7" name="n40" src="jos61i" fileName="res2/frame_write.png" xy="226,460" size="458,46"/>
+    <image id="n39_tuv7" name="n39" src="jos61i" fileName="res2/frame_write.png" xy="226,400" size="458,46"/>
+    <image id="n41_tuv7" name="n41" src="jos61i" fileName="res2/frame_write.png" xy="226,519" size="458,46"/>
+    <image id="n42_tuv7" name="n42" src="jos61i" fileName="res2/frame_write.png" xy="226,578" size="458,46"/>
+    <image id="n43_tuv7" name="n43" src="jos61i" fileName="res2/frame_write.png" xy="86,679" size="598,90"/>
+    <image id="n44_tuv7" name="n44" src="jos61i" fileName="res2/frame_write.png" xy="86,821" size="598,90"/>
+    <component id="n2_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,0"/>
+    <text id="n5_hbzk" name="label_number" xy="236,582" size="179,39" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="人数：100/10"/>
+    <text id="n7_hbzk" name="label_name" xy="236,404" size="116,39" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="七道轮回"/>
+    <text id="n8_hbzk" name="label_guid" xy="236,465" size="224,39" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="帮派编号：12138"/>
+    <text id="n16_hbzk" name="label_contact" xy="236,523" size="88,39" fontSize="28" color="#16191a" align="center" vAlign="middle" autoClearText="true" text="微信号"/>
+    <text id="n17_hbzk" name="label_str102" xy="88,636" size="124,42" font="ui://27utqbizps391v" fontSize="30" vAlign="middle" text="帮派宣言"/>
+    <text id="n18_hbzk" name="label_str103" xy="86,777" size="124,42" font="ui://27utqbizps391v" fontSize="30" vAlign="middle" text="帮派公告"/>
+    <text id="n23_cb8k" name="label_notice" xy="116,692" size="533,69" fontSize="24" autoSize="shrink" autoClearText="true" text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊" input="true"/>
+    <text id="n33_cb8k" name="label_declaration" xy="116,836" size="533,65" fontSize="24" autoSize="shrink" text="" input="true"/>
+    <loader id="n34_cb8k" name="img_flag" xy="321,163" size="114,137" align="center" vAlign="middle"/>
+    <text id="n35_cb8k" name="label_level" xy="392,404" size="10,39" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="">
+      <relation target="n7_hbzk" sidePair="right-right"/>
+    </text>
+    <image id="n37_tuv7" name="n37" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="190,85" size="374,38"/>
+    <richtext id="n38_tuv7" name="label_bxl" xy="319,82" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="帮派旗帜"/>
+    <text id="n45_tuv7" name="label_str101" xy="88,579" size="124,42" font="ui://27utqbizps391v" fontSize="30" vAlign="middle" text="帮派人数"/>
+    <text id="n46_tuv7" name="label_str100" xy="88,519" size="124,42" font="ui://27utqbizps391v" fontSize="30" vAlign="middle" text="帮派微信"/>
+    <text id="n47_tuv7" name="label_str99" xy="88,460" size="124,42" font="ui://27utqbizps391v" fontSize="30" vAlign="middle" text="帮派编号"/>
+    <text id="n48_tuv7" name="label_str98" xy="88,399" size="124,42" font="ui://27utqbizps391v" fontSize="30" vAlign="middle" leading="0" text="帮派名称"/>
+    <image id="n49_tuv7" name="n49" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="302,305" scale="0.8,0.8"/>
+    <text id="n50_tuv7" name="label_combatPower" xy="351,322" size="60,42" scale="0.8,0.8" font="ui://27utqbizvkas4q" fontSize="24" vAlign="middle" letterSpacing="-8" text="12"/>
+    <component id="n52_tuv7" name="btn_copyVx" src="tuv733" fileName="btn_copy.xml" xy="633,517" size="50,50">
+      <Button icon="ui://27utqbizah8r57"/>
+    </component>
+    <component id="n55_tuv7" name="btn_copyGuid" src="tuv733" fileName="btn_copy.xml" xy="633,458" size="50,50">
+      <Button icon="ui://27utqbizah8r57"/>
+    </component>
+    <component id="n53_tuv7" name="btn_vx" src="tuv733" fileName="btn_copy.xml" xy="585,516" size="49,50">
+      <Button icon="ui://27utqbizah8r59"/>
+    </component>
+    <component id="n56_tuv7" name="btn_name" src="tuv733" fileName="btn_copy.xml" xy="633,399" size="50,50">
+      <Button icon="ui://27utqbizah8r59"/>
+    </component>
+    <component id="n57_tuv7" name="btn_notice" src="tuv733" fileName="btn_copy.xml" xy="633,631" size="50,50">
+      <Button icon="ui://27utqbizah8r59"/>
+    </component>
+    <component id="n58_tuv7" name="btn_declaration" src="tuv733" fileName="btn_copy.xml" xy="633,777" size="50,50">
+      <Button icon="ui://27utqbizah8r59"/>
+    </component>
+    <component id="n60_tuv7" name="btn_clanFlag" src="tuv733" fileName="btn_copy.xml" xy="428,286" size="50,50">
+      <Button icon="ui://27utqbizql4f2t"/>
+    </component>
+  </displayList>
+</component>

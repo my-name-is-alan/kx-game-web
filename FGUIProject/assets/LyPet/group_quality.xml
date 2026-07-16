@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="438,42">
+  <displayList>
+    <text id="n0_puo9" name="label_tage" xy="0,0" size="86,41" fontSize="26" color="#16191a" vAlign="middle" autoSize="none" text="灵感"/>
+    <loader id="n1_puo9" name="loader_bg" xy="96,0" size="342,42" url="ui://27utqbiziqt4f8" fill="scaleFree"/>
+    <text id="n2_puo9" name="label_gv" xy="189,2" size="150,39" fontSize="28" color="#fcfcfb" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="64.08%"/>
+  </displayList>
+</component>

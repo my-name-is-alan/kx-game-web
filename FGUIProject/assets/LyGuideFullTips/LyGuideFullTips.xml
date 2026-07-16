@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n0_o66p" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" alpha="0.01">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_g0p7" name="group_theurgy" src="g0p76" fileName="group_theurgy.xml" xy="216,483" visible="false"/>
+    <component id="n4_g0p7" name="group_pet" src="g0p77" fileName="group_pet.xml" xy="216,465" visible="false"/>
+    <component id="n5_g0p7" name="group_elite1" src="g0p78" fileName="group_elite1.xml" xy="216,483" visible="false"/>
+    <component id="n7_g0p7" name="group_elite2" src="g0p79" fileName="group_elite2.xml" xy="216,483" visible="false"/>
+  </displayList>
+</component>

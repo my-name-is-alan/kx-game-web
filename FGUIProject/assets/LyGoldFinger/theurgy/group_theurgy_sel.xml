@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="660,300">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n72_p8ls" name="n72" src="p8ls2q" fileName="theurgy/frame_mijidi2.png" xy="265,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <component id="n64_p8ls" name="group_item" src="s5qhkg" fileName="group_drawTen.xml" pkg="yhkdb7e3" xy="20,8" touchable="false">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </component>
+    <loader id="n65_p8ls" name="loader_bg" xy="260,0" size="392,350" url="ui://yhkdb7e3hhz9e4">
+      <gearDisplay controller="c1" pages="1"/>
+    </loader>
+    <text id="n66_p8ls" name="label_stage" xy="546,27" size="41,37" font="ui://27utqbizps391v" fontSize="26" vAlign="bottom" text="1级">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n67_p8ls" name="label_name" xy="293,11" size="204,54" font="ui://27utqbizps391v" fontSize="40" vAlign="middle" ubb="true" strokeColor="#000000" text="护体金光决">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n68_p8ls" name="label_des1" xy="293,93" size="42,34" fontSize="24" color="#16191a" vAlign="middle" text="1级">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n69_p8ls" name="label_skillDes" xy="294,143" size="338,31" fontSize="22" color="#767676" autoSize="height" text="第一回合">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <image id="n71_p8ls" name="n71" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="293,134">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <component id="n73_p8ls" name="group_item_rand" src="s5qhkg" fileName="group_drawTen.xml" pkg="yhkdb7e3" xy="221,8" touchable="false">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,69 @@
+
+cj_langyabang.png
+size: 1123,1123
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guaiyun
+  rotate: false
+  xy: 2, 845
+  size: 819, 276
+  orig: 897, 295
+  offset: 2, 17
+  index: -1
+qingyan1
+  rotate: false
+  xy: 399, 212
+  size: 562, 374
+  orig: 562, 374
+  offset: 0, 0
+  index: -1
+qingyan2
+  rotate: false
+  xy: 2, 2
+  size: 369, 214
+  orig: 369, 214
+  offset: 0, 0
+  index: -1
+qingyan3
+  rotate: true
+  xy: 399, 667
+  size: 176, 186
+  orig: 176, 186
+  offset: 0, 0
+  index: -1
+qingyan4
+  rotate: true
+  xy: 587, 597
+  size: 246, 171
+  orig: 248, 187
+  offset: 1, 13
+  index: -1
+qingyan5
+  rotate: true
+  xy: 2, 218
+  size: 625, 395
+  orig: 625, 395
+  offset: 0, 0
+  index: -1
+qingyan6
+  rotate: false
+  xy: 373, 82
+  size: 333, 128
+  orig: 333, 128
+  offset: 0, 0
+  index: -1
+qingyan7
+  rotate: true
+  xy: 963, 8
+  size: 578, 134
+  orig: 578, 134
+  offset: 0, 0
+  index: -1
+yunduo1
+  rotate: true
+  xy: 823, 588
+  size: 533, 289
+  orig: 536, 294
+  offset: 2, 3
+  index: -1

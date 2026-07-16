@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n45_ldgl" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="-31,-588" size="813,2511">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n39_ldgl" name="n39" xy="31,455" size="687,391" group="n46_ldgl" url="ui://qnktu1ilk1vlm3" fill="scaleFree"/>
+    <image id="n40_ldgl" name="n40" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="162,494" size="420,38" group="n46_ldgl"/>
+    <text id="n41_ldgl" name="label_title" xy="291,492" size="162,39" group="n46_ldgl" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="门客羁绊"/>
+    <text id="n42_ldgl" name="n42" xy="291,555" size="160,36" group="n46_ldgl" fontSize="26" color="#16191a" vAlign="middle" text="获得以下道具"/>
+    <list id="n43_ldgl" name="list_all" xy="73,610" size="622,146" group="n46_ldgl" layout="row" overflow="scroll" scroll="horizontal" colGap="-11" defaultItem="ui://yhkdb7e3l87x4i">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n44_ldgl" name="n44" xy="271,842" size="209,36" group="n46_ldgl" fontSize="20" color="#cfcdc9" align="center" vAlign="middle" autoSize="none" text="点击任意空白处关闭"/>
+    <group id="n46_ldgl" name="n46" xy="31,455" size="687,423" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

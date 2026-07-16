@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="792,1153">
+  <controller name="c1" pages="0,,1," selected="0">
+    <remark page="0" value="排名"/>
+    <remark page="1" value="奖励"/>
+  </controller>
+  <displayList>
+    <image id="n18_uzk8" name="n18" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="20,0" size="702,1105"/>
+    <richtext id="n19_uzk8" name="label_title" xy="47,34" size="235,56" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="仓&lt;库&lt;"/>
+    <component id="n21_uzk8" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,43"/>
+    <image id="n29_siyn" name="n29" src="bh807" fileName="ui/frame_tab.png" pkg="27utqbiz" xy="25,1087"/>
+    <component id="n27_siyn" name="btn_rank" src="siyn4" fileName="btn_rank.xml" xy="447,1084">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n28_siyn" name="btn_award" src="siyn7" fileName="btn_award.xml" xy="137,1084">
+      <Button controller="c1" page="1"/>
+    </component>
+    <image id="n38_ryaq" name="n38" src="ryaqu19p" fileName="ui/bg_kaifubang.png" pkg="27utqbiz" xy="43,99" group="n23_siyn"/>
+    <image id="n22_uzk8" name="n22" src="uzk85f" fileName="ui/frame_rank list.png" pkg="27utqbiz" xy="55,560" group="n23_siyn"/>
+    <text id="n15_palh" name="label_rank" xy="110,561" size="10,36" group="n23_siyn" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <text id="n16_palh" name="label_name" xy="340,561" size="10,36" group="n23_siyn" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <text id="n17_palh" name="label_damage" xy="540,561" size="10,36" group="n23_siyn" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <list id="n4_aao6" name="list_rank" xy="77,601" size="580,342" group="n23_siyn" overflow="scroll" lineGap="10" defaultItem="ui://4c7217eqsiyn2"/>
+    <image id="n42_ryaq" name="img_empty_mask" src="mjzcu16u" fileName="ui/pic_no data.png" pkg="27utqbiz" xy="180,640" group="n23_siyn"/>
+    <image id="n39_ryaq" name="n39" src="ltemkr" fileName="ui/frame_ranking .png" pkg="27utqbiz" xy="56,944" group="n23_siyn"/>
+    <image id="n40_ryaq" name="n40" src="ryaqu19r" fileName="ui/frame_tips_02.png" pkg="27utqbiz" xy="56,936" group="n23_siyn"/>
+    <component id="n41_ryaq" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="202,945" group="n23_siyn" scale="0.8,0.8"/>
+    <text id="n7_aao6" name="label_selfrank" xy="120,971" size="10,36" group="n23_siyn" font="ui://27utqbizps391v" fontSize="26" color="#16191a" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n8_aao6" name="label_selfdamage" xy="320,968" size="10,36" group="n23_siyn" fontSize="26" color="#16191a" vAlign="middle" text=""/>
+    <component id="n12_gk3o" name="group_player1" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="120,450" group="n23_siyn"/>
+    <component id="n13_gk3o" name="group_player0" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="325,385" group="n23_siyn"/>
+    <component id="n14_gk3o" name="group_player2" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="540,450" group="n23_siyn"/>
+    <image id="n35_x66o" name="n35" src="x66oa" fileName="res/frame_countdown.png" xy="465,42" group="n23_siyn"/>
+    <component id="n30_qb5l" name="btn_detail" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="440,6" group="n23_siyn"/>
+    <text id="n31_qb5l" name="label_time" xy="517,41" size="14,29" group="n23_siyn" fontSize="20" color="#70d36b" vAlign="middle" autoClearText="true" text="z"/>
+    <text id="n32_qb5l" name="label_date" xy="30,1035" size="683,34" group="n23_siyn" fontSize="20" color="#b56832" align="center" vAlign="middle" autoSize="none" text=""/>
+    <group id="n23_siyn" name="n23" xy="30,6" size="683,1063" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n20_uzk8" name="n20" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="574,922"/>
+    <list id="n24_siyn" name="list_award" xy="57,131" size="635,880" group="n26_siyn" overflow="scroll" lineGap="11" defaultItem="ui://4c7217eqsiyn3" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n25_siyn" name="label_str10" xy="30,1035" size="683,34" group="n26_siyn" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text="奖励将在结束后已邮件发放"/>
+    <group id="n26_siyn" name="n26" xy="30,131" size="683,938" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n36_x66o" name="n36" src="bh80f" fileName="ui/dec_tab partition line.png" pkg="27utqbiz" xy="395,1099"/>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <graph id="n1_o81k" name="n1" xy="450,0" size="300,100" touchable="false" type="rect" lineColor="#33000000" fillColor="#33000000"/>
+    <text id="n2_o81k" name="label_servertime" xy="627,20" size="103,34" fontSize="24" color="#66ff00" vAlign="middle" strokeColor="#000000" text="09.06.01">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+  <transition name="trans_tips"/>
+</component>

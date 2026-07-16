@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="662,976">
+  <displayList>
+    <image id="n23_nogk" name="n23" src="l3tj2h" fileName="res/attack/bg_shanzeitaofa.png" xy="0,0"/>
+    <component id="n25_nogk" name="btn_refresh" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="245,893" size="190,52">
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n26_nogk" name="group_need" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="286,855">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n33_cgkl" name="group2" src="nogk2u" fileName="res/attack/group_3dElite.xml" xy="359,428"/>
+    <component id="n32_cgkl" name="group1" src="nogk2u" fileName="res/attack/group_3dElite.xml" xy="-17,313"/>
+    <component id="n31_nogk" name="group0" src="nogk2u" fileName="res/attack/group_3dElite.xml" xy="207,46"/>
+    <text id="n38_e9u4" name="label_time" xy="16,87" size="275,58" fontSize="18" color="#277903" vAlign="middle" autoSize="none" autoClearText="true" text="首页没有显示图标首页没有显示图标"/>
+    <image id="n35_cgkl" name="n35" src="y9su1g" fileName="res/main/frame_currently selected.png" xy="12,10" size="224,38" alpha="0.2"/>
+    <text id="n36_cgkl" name="label_score" xy="26,12" size="163,34" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="当前积分: 71111"/>
+    <image id="n42_92au" name="n42" src="y9su1g" fileName="res/main/frame_currently selected.png" xy="13,51" size="224,38" alpha="0.2"/>
+    <text id="n43_92au" name="label_number" xy="54,54" size="100,34" fontSize="24" color="#16191a" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="12"/>
+    <loader id="n44_92au" name="loader_icon" xy="21,52" size="38,40" url="ui://27utqbizi5tz8h" fill="scale"/>
+    <component id="n46_92au" name="btn_add" src="92aupl" fileName="res/attack/btn_add.xml" xy="155,55"/>
+  </displayList>
+</component>

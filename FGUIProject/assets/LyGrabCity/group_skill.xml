@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="130,128">
+  <displayList>
+    <image id="n6_85qw" name="n6" src="k7xe28" fileName="res/frame_jinengdi2.png" xy="0,0"/>
+    <loader id="n13_85qw" name="icon" xy="12,13" size="104,104" aspect="true" url="ui://27utqbizhv2dkv" align="center" vAlign="middle"/>
+  </displayList>
+</component>

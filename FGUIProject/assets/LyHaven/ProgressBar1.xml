@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="564,26" extention="ProgressBar">
+  <displayList>
+    <image id="n0_tojh" name="n0" src="tojh2a" fileName="res/frame_progress bar_all(1).png" xy="0,0" size="564,26">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n1_tojh" name="bar" xy="5,4" size="554,18" type="rect" lineSize="0" fillColor="#ff3399ff" corner="5"/>
+  </displayList>
+  <ProgressBar reverse="true"/>
+</component>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="5200,5000">
+  <displayList>
+    <image id="n14_n6sh" name="n14" src="n6sh2q" fileName="resMap/bahuang_bg_1.png" xy="240,277" size="1790,635" group="n74_n6sh"/>
+    <image id="n19_n6sh" name="n19" src="n6sh2d" fileName="resMap/bahuang_bg_2.png" xy="2277,1169" size="1920,714" group="n74_n6sh"/>
+    <image id="n20_n6sh" name="n20" src="n6sh2e" fileName="resMap/bahuang_bg_3.png" xy="3273,667" size="1759,805" group="n74_n6sh"/>
+    <image id="n56_n6sh" name="n56" src="n6sh2d" fileName="resMap/bahuang_bg_2.png" xy="5176,1983" size="1920,714" group="n74_n6sh" scale="-1,1"/>
+    <image id="n59_n6sh" name="n59" src="n6sh2t" fileName="resMap/bahuang_bg_15.png" xy="868,119" size="1737,287" group="n74_n6sh"/>
+    <image id="n60_n6sh" name="n60" src="n6sh2d" fileName="resMap/bahuang_bg_2.png" xy="257,1422" size="1920,666" group="n74_n6sh"/>
+    <image id="n62_n6sh" name="n62" src="n6sh2s" fileName="resMap/bahuang_bg_14.png" xy="845,1192" size="1731,436" group="n74_n6sh"/>
+    <image id="n63_n6sh" name="n63" src="n6sh2s" fileName="resMap/bahuang_bg_14.png" xy="146,894" size="1703,371" group="n74_n6sh"/>
+    <image id="n64_n6sh" name="n64" src="n6sh2e" fileName="resMap/bahuang_bg_3.png" xy="43,2239" size="1759,793" group="n74_n6sh"/>
+    <image id="n58_n6sh" name="n58" src="n6sh2s" fileName="resMap/bahuang_bg_14.png" xy="2561,1972" size="1731,456" group="n74_n6sh"/>
+    <image id="n57_n6sh" name="n57" src="n6sh2d" fileName="resMap/bahuang_bg_2.png" xy="1107,2160" size="2032,714" group="n74_n6sh"/>
+    <image id="n65_n6sh" name="n65" src="n6sh2s" fileName="resMap/bahuang_bg_14.png" xy="1325,2818" size="1731,436" group="n74_n6sh"/>
+    <image id="n67_n6sh" name="n67" src="n6sh2q" fileName="resMap/bahuang_bg_1.png" xy="0,3706" size="1718,635" group="n74_n6sh" scale="1,-1"/>
+    <image id="n68_n6sh" name="n68" src="n6sh2q" fileName="resMap/bahuang_bg_1.png" xy="4157,114" size="1998,635" group="n74_n6sh" scale="-1,1"/>
+    <image id="n69_n6sh" name="n69" src="n6sh2t" fileName="resMap/bahuang_bg_15.png" xy="1400,3579" size="1793,287" group="n74_n6sh" scale="1,-1"/>
+    <image id="n70_n6sh" name="n70" src="n6sh2s" fileName="resMap/bahuang_bg_14.png" xy="4894,2748" size="1731,456" group="n74_n6sh" scale="-1,1"/>
+    <image id="n71_n6sh" name="n71" src="n6sh2t" fileName="resMap/bahuang_bg_15.png" xy="3414,3580" size="1793,395" group="n74_n6sh" scale="1,-1"/>
+    <image id="n73_n6sh" name="n73" src="n6sh2t" fileName="resMap/bahuang_bg_15.png" xy="3990,204" size="1737,287" group="n74_n6sh"/>
+    <image id="n15_n6sh" name="n15" src="n6sh2l" fileName="resMap/bahuang_bg_10.png" xy="2078,2209" group="n74_n6sh"/>
+    <image id="n17_n6sh" name="n17" src="n6sh2n" fileName="resMap/bahuang_bg_12.png" xy="193,1743" group="n74_n6sh"/>
+    <image id="n18_n6sh" name="n18" src="n6sh2o" fileName="resMap/bahuang_bg_13.png" xy="1126,2430" group="n74_n6sh" scale="-1,1"/>
+    <image id="n22_n6sh" name="n22" src="n6sh2g" fileName="resMap/bahuang_bg_5.png" xy="776,558" size="582,224" group="n74_n6sh"/>
+    <image id="n21_n6sh" name="n21" src="n6sh2f" fileName="resMap/bahuang_bg_4.png" xy="188,166" group="n74_n6sh"/>
+    <image id="n23_n6sh" name="n23" src="n6sh2h" fileName="resMap/bahuang_bg_6.png" xy="587,1293" group="n74_n6sh"/>
+    <image id="n24_n6sh" name="n24" src="n6sh2i" fileName="resMap/bahuang_bg_7.png" xy="247,858" group="n74_n6sh"/>
+    <image id="n25_n6sh" name="n25" src="n6sh2j" fileName="resMap/bahuang_bg_8.png" xy="2460,776" group="n74_n6sh"/>
+    <image id="n26_n6sh" name="n26" src="n6sh2k" fileName="resMap/bahuang_bg_9.png" xy="1719,651" group="n74_n6sh"/>
+    <image id="n27_n6sh" name="n27" src="n6sh2g" fileName="resMap/bahuang_bg_5.png" xy="1275,144" size="585,224" group="n74_n6sh"/>
+    <image id="n29_n6sh" name="n29" src="n6sh2f" fileName="resMap/bahuang_bg_4.png" xy="2211,0" group="n74_n6sh"/>
+    <image id="n30_n6sh" name="n30" src="n6sh2g" fileName="resMap/bahuang_bg_5.png" xy="2491,276" group="n74_n6sh"/>
+    <image id="n31_n6sh" name="n31" src="n6sh2o" fileName="resMap/bahuang_bg_13.png" xy="1853,1083" group="n74_n6sh"/>
+    <image id="n32_n6sh" name="n32" src="n6sh2n" fileName="resMap/bahuang_bg_12.png" xy="2685,1101" group="n74_n6sh"/>
+    <image id="n33_n6sh" name="n33" src="n6sh2n" fileName="resMap/bahuang_bg_12.png" xy="3348,141" group="n74_n6sh"/>
+    <image id="n34_n6sh" name="n34" src="n6sh2m" fileName="resMap/bahuang_bg_11.png" xy="3724,669" group="n74_n6sh"/>
+    <image id="n35_n6sh" name="n35" src="n6sh2n" fileName="resMap/bahuang_bg_12.png" xy="1688,2677" group="n74_n6sh"/>
+    <image id="n36_n6sh" name="n36" src="n6sh2n" fileName="resMap/bahuang_bg_12.png" xy="5009,2825" group="n74_n6sh" scale="-1,1"/>
+    <image id="n37_n6sh" name="n37" src="n6sh2n" fileName="resMap/bahuang_bg_12.png" xy="4356,1605" group="n74_n6sh"/>
+    <image id="n38_n6sh" name="n38" src="n6sh2o" fileName="resMap/bahuang_bg_13.png" xy="2446,2870" group="n74_n6sh"/>
+    <image id="n39_n6sh" name="n39" src="n6sh2f" fileName="resMap/bahuang_bg_4.png" xy="4167,99" group="n74_n6sh"/>
+    <image id="n40_n6sh" name="n40" src="n6sh2g" fileName="resMap/bahuang_bg_5.png" xy="4271,404" group="n74_n6sh"/>
+    <image id="n48_n6sh" name="n48" src="n6sh2l" fileName="resMap/bahuang_bg_10.png" xy="4284,808" group="n74_n6sh"/>
+    <image id="n49_n6sh" name="n49" src="n6sh2i" fileName="resMap/bahuang_bg_7.png" xy="4069,2647" group="n74_n6sh" scale="-1,1"/>
+    <image id="n50_n6sh" name="n50" src="n6sh2k" fileName="resMap/bahuang_bg_9.png" xy="1386,2496" group="n74_n6sh"/>
+    <image id="n51_n6sh" name="n51" src="n6sh2j" fileName="resMap/bahuang_bg_8.png" xy="1547,1685" group="n74_n6sh"/>
+    <image id="n52_n6sh" name="n52" src="n6sh2h" fileName="resMap/bahuang_bg_6.png" xy="3777,1580" group="n74_n6sh"/>
+    <image id="n53_n6sh" name="n53" src="n6sh2k" fileName="resMap/bahuang_bg_9.png" xy="3839,2076" group="n74_n6sh"/>
+    <image id="n54_n6sh" name="n54" src="n6sh2h" fileName="resMap/bahuang_bg_6.png" xy="1253,1099" group="n74_n6sh"/>
+    <image id="n75_wzpv" name="n75" src="n6sh2d" fileName="resMap/bahuang_bg_2.png" xy="2127,3830" size="1920,714" group="n74_n6sh"/>
+    <image id="n76_wzpv" name="n76" src="n6sh2e" fileName="resMap/bahuang_bg_3.png" xy="3123,3328" size="1759,805" group="n74_n6sh"/>
+    <image id="n77_wzpv" name="n77" src="n6sh2d" fileName="resMap/bahuang_bg_2.png" xy="108,3997" size="1920,666" group="n74_n6sh"/>
+    <image id="n78_wzpv" name="n78" src="n6sh2s" fileName="resMap/bahuang_bg_14.png" xy="696,3767" size="1731,436" group="n74_n6sh"/>
+    <image id="n79_wzpv" name="n79" src="n6sh2n" fileName="resMap/bahuang_bg_12.png" xy="44,4318" group="n74_n6sh"/>
+    <image id="n80_wzpv" name="n80" src="n6sh2h" fileName="resMap/bahuang_bg_6.png" xy="438,3868" group="n74_n6sh"/>
+    <image id="n81_wzpv" name="n81" src="n6sh2o" fileName="resMap/bahuang_bg_13.png" xy="1704,3658" group="n74_n6sh"/>
+    <image id="n82_wzpv" name="n82" src="n6sh2n" fileName="resMap/bahuang_bg_12.png" xy="2536,3676" group="n74_n6sh"/>
+    <image id="n84_wzpv" name="n84" src="n6sh2j" fileName="resMap/bahuang_bg_8.png" xy="1398,4260" group="n74_n6sh"/>
+    <image id="n88_wzpv" name="n88" src="n6sh2t" fileName="resMap/bahuang_bg_15.png" xy="3169,4812" size="1793,395" group="n74_n6sh" scale="1,-1"/>
+    <image id="n86_wzpv" name="n86" src="n6sh2t" fileName="resMap/bahuang_bg_15.png" xy="1440,4750" size="1793,287" group="n74_n6sh" scale="1,-1"/>
+    <image id="n85_wzpv" name="n85" src="n6sh2h" fileName="resMap/bahuang_bg_6.png" xy="3628,4155" group="n74_n6sh"/>
+    <image id="n41_n6sh" name="n41" src="n6sh2f" fileName="resMap/bahuang_bg_4.png" xy="283,4497" group="n74_n6sh"/>
+    <image id="n42_n6sh" name="n42" src="n6sh2f" fileName="resMap/bahuang_bg_4.png" xy="1747,4502" group="n74_n6sh"/>
+    <image id="n43_n6sh" name="n43" src="n6sh2g" fileName="resMap/bahuang_bg_5.png" xy="1072,4645" size="582,224" group="n74_n6sh"/>
+    <image id="n44_n6sh" name="n44" src="n6sh2g" fileName="resMap/bahuang_bg_5.png" xy="2436,4646" size="582,224" group="n74_n6sh"/>
+    <image id="n45_n6sh" name="n45" src="n6sh2g" fileName="resMap/bahuang_bg_5.png" xy="3309,4630" size="582,224" group="n74_n6sh"/>
+    <image id="n83_wzpv" name="n83" src="n6sh2n" fileName="resMap/bahuang_bg_12.png" xy="4207,4180" group="n74_n6sh"/>
+    <image id="n46_n6sh" name="n46" src="n6sh2f" fileName="resMap/bahuang_bg_4.png" xy="4259,4518" group="n74_n6sh"/>
+    <image id="n47_n6sh" name="n47" src="n6sh2g" fileName="resMap/bahuang_bg_5.png" xy="2773,1908" size="582,224" group="n74_n6sh"/>
+    <group id="n74_n6sh" name="n74" xy="0,0" size="7096,5207"/>
+  </displayList>
+</component>

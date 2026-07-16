@@ -1,0 +1,83 @@
+
+jm_menke_shangzheng.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wx_tjsj_xl/wx_tjsj_xl_00000
+  rotate: false
+  xy: 399, 543
+  size: 155, 243
+  orig: 240, 270
+  offset: 45, 13
+  index: -1
+wx_tjsj_xl/wx_tjsj_xl_00002
+  rotate: false
+  xy: 218, 753
+  size: 174, 241
+  orig: 240, 270
+  offset: 35, 14
+  index: -1
+wx_tjsj_xl/wx_tjsj_xl_00004
+  rotate: false
+  xy: 211, 502
+  size: 186, 245
+  orig: 240, 270
+  offset: 29, 12
+  index: -1
+wx_tjsj_xl/wx_tjsj_xl_00006
+  rotate: false
+  xy: 208, 252
+  size: 202, 246
+  orig: 240, 270
+  offset: 21, 11
+  index: -1
+wx_tjsj_xl/wx_tjsj_xl_00008
+  rotate: false
+  xy: 2, 749
+  size: 214, 245
+  orig: 240, 270
+  offset: 15, 12
+  index: -1
+wx_tjsj_xl/wx_tjsj_xl_00010
+  rotate: false
+  xy: 2, 2
+  size: 205, 245
+  orig: 240, 270
+  offset: 20, 12
+  index: -1
+wx_tjsj_xl/wx_tjsj_xl_00012
+  rotate: false
+  xy: 2, 500
+  size: 207, 247
+  orig: 240, 270
+  offset: 19, 11
+  index: -1
+wx_tjsj_xl/wx_tjsj_xl_00014
+  rotate: false
+  xy: 2, 249
+  size: 204, 249
+  orig: 240, 270
+  offset: 20, 10
+  index: -1
+wx_tjsj_xl/wx_tjsj_xl_00016
+  rotate: true
+  xy: 394, 788
+  size: 206, 199
+  orig: 240, 270
+  offset: 19, 35
+  index: -1
+wx_tjsj_xl/wx_tjsj_xl_00018
+  rotate: true
+  xy: 209, 50
+  size: 200, 165
+  orig: 240, 270
+  offset: 22, 52
+  index: -1
+wx_tjsj_xl/wx_tjsj_xl_00020
+  rotate: true
+  xy: 376, 108
+  size: 142, 133
+  orig: 240, 270
+  offset: 51, 68
+  index: -1

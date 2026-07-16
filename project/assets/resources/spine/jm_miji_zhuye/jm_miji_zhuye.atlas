@@ -1,0 +1,55 @@
+
+jm_miji_zhuye.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jm_miji_zhuye_01
+  rotate: false
+  xy: 650, 33
+  size: 284, 284
+  orig: 284, 284
+  offset: 0, 0
+  index: -1
+jm_miji_zhuye_02
+  rotate: true
+  xy: 653, 627
+  size: 377, 351
+  orig: 377, 351
+  offset: 0, 0
+  index: -1
+jm_miji_zhuye_03
+  rotate: false
+  xy: 404, 232
+  size: 244, 101
+  orig: 271, 118
+  offset: 14, 7
+  index: -1
+jm_miji_zhuye_04
+  rotate: false
+  xy: 653, 319
+  size: 306, 306
+  orig: 306, 306
+  offset: 0, 0
+  index: -1
+jm_miji_zhuye_05
+  rotate: false
+  xy: 404, 335
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+jm_miji_zhuye_06
+  rotate: false
+  xy: 2, 160
+  size: 400, 407
+  orig: 400, 407
+  offset: 0, 0
+  index: -1
+jm_miji_zhuye_bg
+  rotate: false
+  xy: 2, 569
+  size: 649, 435
+  orig: 649, 435
+  offset: 0, 0
+  index: -1

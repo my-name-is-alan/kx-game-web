@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="328,282">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n9_sril" name="n9" src="srilm" fileName="giftdaily/frame_libao.png" xy="0,20"/>
+    <loader id="n19_mf39" name="loader_tai" xy="114,0" size="100,100" url="ui://kl5mxoqpmf395b" align="center" vAlign="bottom" clearOnPublish="true"/>
+    <image id="n10_sril" name="n10" src="srill" fileName="giftdaily/frame_libao title.png" xy="4,95"/>
+    <image id="n14_sril" name="n14" src="srilo" fileName="giftdaily/icon_quota.png" xy="-11,39">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <loader id="n20_mf39" name="loader_icon" xy="114,0" size="100,100" align="center" vAlign="middle"/>
+    <text id="n8_sril" name="label_name" xy="102,88" size="124,41" font="ui://27utqbizps391v" fontSize="30" color="#745d37" align="center" vAlign="middle" autoClearText="true" text="夏日礼包">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n12_sril" name="list_item" xy="34,135" size="320,100" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n15_sril" name="label_xian" xy="18,50" size="28,34" font="ui://27utqbizps391v" fontSize="24" color="#ffbb64" align="center" vAlign="middle" leading="0" strokeColor="#d15a1e" strokeSize="2" autoClearText="true" text="限">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n18_mf39" name="label_count" xy="10,75" size="44,39" font="ui://27utqbizps391v" fontSize="28" color="#ffeb7f" align="center" vAlign="middle" leading="0" strokeColor="#d15a1e" strokeSize="2" autoClearText="true" text="1次">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n16_sril" name="btn_buy" src="srilq" fileName="res/btn_paybuy.xml" xy="85,230">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n21_t09v" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="218,190" visible="false"/>
+    <text id="n13_sril" name="label_done" xy="120,226" size="88,39" group="n17_sril" font="ui://27utqbizps391v" fontSize="28" color="#b29f7e" align="center" vAlign="middle" autoClearText="true" text="已售罄">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n17_sril" name="group_done" xy="120,226" size="88,39" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,640">
+  <displayList>
+    <image id="n13_phei" name="n13" src="pheij" fileName="dailywelfare/frame_meirifuli.png" xy="69,-41"/>
+    <image id="n16_phei" name="n16" src="pheik" fileName="dailywelfare/word_meirifuli.png" xy="170,-18"/>
+    <component id="n14_phei" name="btn_close" src="pheil" fileName="dailywelfare/btn_close.xml" xy="615,69"/>
+    <image id="n15_phei" name="n15" src="pheii" fileName="dailywelfare/frame_catchline.png" xy="239,142"/>
+    <text id="n18_phei" name="label_tips" xy="216,146" size="400,29" fontSize="20" color="#ffed7d" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n11_cjmr" name="list_item" xy="240,234" size="320,100" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <text id="n12_ut5y" name="label_desc" xy="224,491" size="380,29" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n20_xf59" name="btn_pay" src="xf59n" fileName="dailywelfare/btn_receive.xml" xy="310,412"/>
+  </displayList>
+</component>

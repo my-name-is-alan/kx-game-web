@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="225,311">
+  <displayList>
+    <text id="n0_jis8" name="n0" xy="75,127" size="134,34" fontSize="24" autoSize="none" text="妖力：1000"/>
+    <text id="n1_jis8" name="n1" xy="75,167" size="134,34" fontSize="24" align="center" autoSize="none" text="名字"/>
+    <text id="n3_jis8" name="n3" xy="75,208" size="134,34" fontSize="24" align="center" autoSize="none" text="服务器"/>
+    <component id="n4_jis8" name="n4" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="11,253"/>
+    <graph id="n6_jis8" name="n6" xy="10,151" size="58,58" aspect="true" type="eclipse"/>
+    <text id="n5_jis8" name="n5" xy="7,163" size="60,34" fontSize="24" align="center" text="1000"/>
+  </displayList>
+</component>

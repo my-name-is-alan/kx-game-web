@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n36_861b" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n41_x9bu" name="group_main" src="x9bu1r" fileName="pet/group_petsel.xml" xy="0,177" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n42_wnc2" name="group_main2" src="wnc221" fileName="pet/group_petsel2.xml" xy="0,247" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n43_ncv3" name="group_main3" src="ncv329" fileName="pet/group_petsel3.xml" xy="0,247" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

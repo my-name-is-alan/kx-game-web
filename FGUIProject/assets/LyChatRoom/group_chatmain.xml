@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,950">
+  <displayList>
+    <image id="n103_ii8x" name="n103" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="30,0" size="690,900"/>
+    <component id="n104_ii8x" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,-25"/>
+    <image id="n105_ii8x" name="n105" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="164,36" size="432,38"/>
+    <text id="n106_ii8x" name="label_title" xy="179,35" size="400,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n125_em2r" name="n125" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="65,90" size="620,682">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <list id="n130_riam" name="list_chat" xy="66,90" size="620,680" overflow="scroll" defaultItem="ui://fuzg58b6riamg"/>
+    <image id="n126_riam" name="n126" src="riam7" fileName="res/frame_shurukuang.png" xy="50,798"/>
+    <text id="n129_riam" name="input_content" xy="69,806" size="290,42" fontSize="24" color="#16191a" autoSize="none" text="" input="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n127_riam" name="btn_emoji" src="riam9" fileName="btn_emoji.xml" xy="400,800"/>
+    <component id="n128_riam" name="btn_send" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="470,800"/>
+    <component id="n132_riam" name="btn_chanel_world" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="35,885"/>
+    <component id="n134_riam" name="btn_chanel_faction" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="205,885"/>
+    <component id="n133_riam" name="btn_chanel_activity" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="375,885"/>
+    <component id="n135_g1en" name="group_emoji" src="g1enk" fileName="group_emoji.xml" xy="32,486" visible="false">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

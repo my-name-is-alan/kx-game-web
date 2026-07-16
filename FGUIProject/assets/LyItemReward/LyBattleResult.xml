@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n1_l6so" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n0_l6so" name="group_result" src="o6qjb" fileName="group_result.xml" xy="0,437">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_osg9" name="group_result_duel" src="osg913" fileName="group_result_duel.xml" xy="0,437">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_jwvd" name="group_result_qunyin" src="jwvdpi" fileName="group_result_qunyin.xml" xy="0,437">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_nvxw" name="group_result_clanDuel" src="nvxwpk" fileName="group_result_clanDuel.xml" xy="0,437">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n8_8g2x" name="group_result_brumeIsle1" src="8g2xq6" fileName="group_result_brumeIsle.xml" xy="0,437">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n9_r41c" name="group_result_clanSolo" src="g6rsu1ab" fileName="group_result_clanSolo.xml" xy="-3,437">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root attackFactor="6" healthFactor="40.2" agileFactor="1.4" baseFloorFactor="0.93" battleFloorFactor="0.93" manualExciteInterval="500" autoExcitePlayerPhase="16" exciteItemId="120004" rewardForDiscardItemId="120006" rewardForDiscardAmount="20" learnItemId="120005" gameplayGuide="一、意念修行-1.使用养精丸能净化自身的心灵&lt;br/&gt;2.每次净化心灵，都能获得随机的意念&lt;br/&gt;3.归藏、玄冥、启明、离火四个位置的意念，能激发特殊感悟&lt;br/&gt;4.特殊感悟分为离火朱雀、白虎庚金、青龙震木、青龙震木、四象玄武、天罡北斗、八卦游龙六种&lt;br/&gt;5.装备的同种特殊感悟数量越多，效果越好&lt;br/&gt;@二、武学境界-1.每次净化心灵，都能获得武学境界的经验&lt;br/&gt;2.提升武学境界的等级，就有可能获得更高等级的意念&lt;br/&gt;@三、悟道-1.使用九转金丹能提升侠客的悟性&lt;br/&gt;2.侠客的悟性越高，每次净化心灵时能获得稀有意念的几率就越高">
+  <level>
+    <item level="1" exp="10" icon="a" dropLevel="1,2" dropWeight="30,20"/>
+    <item level="2" exp="20" icon="a" dropLevel="1,2,3" dropWeight="20,30,20"/>
+    <item level="3" exp="40" icon="a" dropLevel="2,3,4" dropWeight="20,30,20"/>
+    <item level="4" exp="80" icon="a" dropLevel="3,4,5" dropWeight="20,30,20"/>
+    <item level="5" exp="160" icon="a" dropLevel="4,5,6" dropWeight="20,30,20"/>
+    <item level="6" exp="190" icon="a" dropLevel="5,6,7" dropWeight="20,30,20"/>
+    <item level="7" exp="200" icon="a" dropLevel="6,7,8" dropWeight="20,30,20"/>
+    <item level="8" exp="250" icon="a" dropLevel="7,8,9" dropWeight="20,30,20"/>
+    <item level="9" exp="320" icon="a" dropLevel="8,9,10" dropWeight="20,30,20"/>
+    <item level="10" exp="320" icon="a" dropLevel="9,10,11" dropWeight="20,30,20"/>
+    <item level="11" exp="500" icon="a" dropLevel="10,11,12" dropWeight="20,30,20"/>
+    <item level="12" exp="500" icon="a" dropLevel="11,12,13" dropWeight="20,30,20"/>
+    <item level="13" exp="600" icon="a" dropLevel="12,13,14" dropWeight="20,30,20"/>
+    <item level="14" exp="730" icon="a" dropLevel="13,14,15" dropWeight="20,30,20"/>
+    <item level="15" exp="730" icon="a" dropLevel="14,15,16" dropWeight="20,30,20"/>
+    <item level="16" exp="840" icon="a" dropLevel="15,16,17" dropWeight="20,30,20"/>
+    <item level="17" exp="880" icon="a" dropLevel="16,17,18" dropWeight="20,30,20"/>
+    <item level="18" exp="1060" icon="a" dropLevel="17,18,19" dropWeight="20,30,20"/>
+    <item level="19" exp="1060" icon="a" dropLevel="18,19,20" dropWeight="20,30,20"/>
+    <item level="20" exp="1170" icon="a" dropLevel="19,20,21" dropWeight="20,30,20"/>
+    <item level="21" exp="1350" icon="a" dropLevel="20,21,22" dropWeight="20,30,20"/>
+    <item level="22" exp="1680" icon="a" dropLevel="21,22,23" dropWeight="20,30,20"/>
+    <item level="23" exp="1720" icon="a" dropLevel="22,23,24" dropWeight="20,30,20"/>
+    <item level="24" exp="1720" icon="a" dropLevel="23,24,25" dropWeight="20,30,20"/>
+    <item level="25" exp="1750" icon="a" dropLevel="24,25,26" dropWeight="20,30,20"/>
+    <item level="26" exp="1750" icon="a" dropLevel="25,26,27" dropWeight="20,30,20"/>
+    <item level="27" exp="1750" icon="a" dropLevel="26,27,28" dropWeight="20,30,20"/>
+    <item level="28" exp="1750" icon="a" dropLevel="27,28,29" dropWeight="20,30,20"/>
+    <item level="29" exp="1750" icon="a" dropLevel="28,29,30" dropWeight="20,30,20"/>
+    <item level="30" exp="2000" icon="a" dropLevel="29,30,31" dropWeight="20,30,20"/>
+    <item level="31" exp="2000" icon="a" dropLevel="30,31,32" dropWeight="20,30,20"/>
+    <item level="32" exp="2000" icon="a" dropLevel="31,32,33" dropWeight="20,30,20"/>
+    <item level="33" exp="2250" icon="a" dropLevel="32,33,34" dropWeight="20,30,20"/>
+    <item level="34" exp="2250" icon="a" dropLevel="33,34,35" dropWeight="20,30,20"/>
+    <item level="35" exp="2500" icon="a" dropLevel="34,35,36" dropWeight="20,30,20"/>
+    <item level="36" exp="2500" icon="a" dropLevel="35,36,37" dropWeight="20,30,20"/>
+    <item level="37" exp="2750" icon="a" dropLevel="36,37,38" dropWeight="20,30,20"/>
+    <item level="38" exp="2750" icon="a" dropLevel="37,38,39" dropWeight="20,30,20"/>
+    <item level="39" exp="3000" icon="a" dropLevel="38,39,40" dropWeight="20,30,20"/>
+    <item level="40" exp="3000" icon="a" dropLevel="39,40,41" dropWeight="20,30,20"/>
+    <item level="41" exp="3000" icon="a" dropLevel="40,41,42" dropWeight="20,30,20"/>
+    <item level="42" exp="3250" icon="a" dropLevel="41,42,43" dropWeight="20,30,20"/>
+    <item level="43" exp="3250" icon="a" dropLevel="42,43,44" dropWeight="20,30,20"/>
+    <item level="44" exp="3250" icon="a" dropLevel="43,44,45" dropWeight="20,30,20"/>
+    <item level="45" exp="3500" icon="a" dropLevel="44,45,46" dropWeight="20,30,20"/>
+    <item level="46" exp="3500" icon="a" dropLevel="45,46,47" dropWeight="20,30,20"/>
+    <item level="47" exp="3500" icon="a" dropLevel="46,47,48" dropWeight="20,30,20"/>
+    <item level="48" exp="3525" icon="a" dropLevel="47,48,49" dropWeight="20,30,20"/>
+    <item level="49" exp="3750" icon="a" dropLevel="48,49,50" dropWeight="20,30,20"/>
+    <item level="50" exp="3750" icon="a" dropLevel="49,50,51" dropWeight="20,30,20"/>
+    <item level="51" exp="3775" icon="a" dropLevel="50,51,52" dropWeight="20,30,20"/>
+    <item level="52" exp="4000" icon="a" dropLevel="51,52,53" dropWeight="20,30,20"/>
+    <item level="53" exp="4000" icon="a" dropLevel="52,53,54" dropWeight="20,30,20"/>
+    <item level="54" exp="4025" icon="a" dropLevel="53,54,55" dropWeight="20,30,20"/>
+    <item level="55" exp="4250" icon="a" dropLevel="54,55,56" dropWeight="20,30,20"/>
+    <item level="56" exp="4250" icon="a" dropLevel="55,56,57" dropWeight="20,30,20"/>
+    <item level="57" exp="4275" icon="a" dropLevel="56,57,58" dropWeight="20,30,20"/>
+    <item level="58" exp="4500" icon="a" dropLevel="57,58,59" dropWeight="20,30,20"/>
+    <item level="59" exp="4500" icon="a" dropLevel="58,59,60" dropWeight="20,30,20"/>
+    <item level="60" exp="4525" icon="a" dropLevel="59,60,61" dropWeight="20,30,20"/>
+    <item level="61" exp="4750" icon="a" dropLevel="60,61,62" dropWeight="20,30,20"/>
+    <item level="62" exp="4750" icon="a" dropLevel="61,62,63" dropWeight="20,30,20"/>
+    <item level="63" exp="4775" icon="a" dropLevel="62,63,64" dropWeight="20,30,20"/>
+    <item level="64" exp="5000" icon="a" dropLevel="63,64,65" dropWeight="20,30,20"/>
+    <item level="65" exp="5000" icon="a" dropLevel="64,65,66" dropWeight="20,30,20"/>
+    <item level="66" exp="5025" icon="a" dropLevel="65,66,67" dropWeight="20,30,20"/>
+    <item level="67" exp="5250" icon="a" dropLevel="66,67,68" dropWeight="20,30,20"/>
+    <item level="68" exp="5250" icon="a" dropLevel="67,68,69" dropWeight="20,30,20"/>
+    <item level="69" exp="5275" icon="a" dropLevel="68,69,70" dropWeight="20,30,20"/>
+    <item level="70" exp="5500" icon="a" dropLevel="69,70,71" dropWeight="20,30,20"/>
+    <item level="71" exp="5500" icon="a" dropLevel="70,71,72" dropWeight="20,30,20"/>
+    <item level="72" exp="5525" icon="a" dropLevel="71,72,73" dropWeight="20,30,20"/>
+    <item level="73" exp="5750" icon="a" dropLevel="72,73,74" dropWeight="20,30,20"/>
+    <item level="74" exp="5750" icon="a" dropLevel="73,74,75" dropWeight="20,30,20"/>
+    <item level="75" exp="5775" icon="a" dropLevel="74,75,76" dropWeight="20,30,20"/>
+    <item level="76" exp="6000" icon="a" dropLevel="75,76,77" dropWeight="20,30,20"/>
+    <item level="77" exp="6000" icon="a" dropLevel="76,77,78" dropWeight="20,30,20"/>
+    <item level="78" exp="6025" icon="a" dropLevel="77,78,79" dropWeight="20,30,20"/>
+    <item level="79" exp="6250" icon="a" dropLevel="78,79,80" dropWeight="20,30,20"/>
+    <item level="80" exp="6250" icon="a" dropLevel="79,80,81" dropWeight="20,30,20"/>
+    <item level="81" exp="6275" icon="a" dropLevel="80,81,82" dropWeight="20,30,20"/>
+    <item level="82" exp="6500" icon="a" dropLevel="81,82,83" dropWeight="20,30,20"/>
+    <item level="83" exp="6500" icon="a" dropLevel="82,83,84" dropWeight="20,30,20"/>
+    <item level="84" exp="6525" icon="a" dropLevel="83,84,85" dropWeight="20,30,20"/>
+    <item level="85" exp="6750" icon="a" dropLevel="84,85,86" dropWeight="20,30,20"/>
+    <item level="86" exp="6750" icon="a" dropLevel="85,86,87" dropWeight="20,30,20"/>
+    <item level="87" exp="6775" icon="a" dropLevel="86,87,88" dropWeight="20,30,20"/>
+    <item level="88" exp="7000" icon="a" dropLevel="87,88,89" dropWeight="20,30,20"/>
+    <item level="89" exp="7000" icon="a" dropLevel="88,89,90" dropWeight="20,30,20"/>
+    <item level="90" exp="7025" icon="a" dropLevel="89,90,91" dropWeight="20,30,20"/>
+    <item level="91" exp="7250" icon="a" dropLevel="90,91,92" dropWeight="20,30,20"/>
+    <item level="92" exp="7250" icon="a" dropLevel="91,92,93" dropWeight="20,30,20"/>
+    <item level="93" exp="7275" icon="a" dropLevel="92,93,94" dropWeight="20,30,20"/>
+    <item level="94" exp="7500" icon="a" dropLevel="93,94,95" dropWeight="20,30,20"/>
+    <item level="95" exp="7500" icon="a" dropLevel="94,95,96" dropWeight="20,30,20"/>
+    <item level="96" exp="7525" icon="a" dropLevel="95,96,97" dropWeight="20,30,20"/>
+    <item level="97" exp="7750" icon="a" dropLevel="96,97,98" dropWeight="20,30,20"/>
+    <item level="98" exp="7750" icon="a" dropLevel="97,98,99" dropWeight="20,30,20"/>
+    <item level="99" exp="7775" icon="a" dropLevel="98,99,100" dropWeight="20,30,20"/>
+    <item level="100" exp="7800" icon="a" dropLevel="99,100,101" dropWeight="20,30,20"/>
+    <item level="101" exp="7825" icon="a" dropLevel="100,101,102" dropWeight="20,30,20"/>
+    <item level="102" exp="7850" icon="a" dropLevel="101,102,103" dropWeight="20,30,20"/>
+    <item level="103" exp="7875" icon="a" dropLevel="102,103,104" dropWeight="20,30,20"/>
+    <item level="104" exp="7900" icon="a" dropLevel="103,104,105" dropWeight="20,30,20"/>
+    <item level="105" exp="7925" icon="a" dropLevel="104,105,106" dropWeight="20,30,20"/>
+    <item level="106" exp="7950" icon="a" dropLevel="105,106,107" dropWeight="20,30,20"/>
+    <item level="107" exp="7975" icon="a" dropLevel="106,107,108" dropWeight="20,30,20"/>
+    <item level="108" exp="8000" icon="a" dropLevel="107,108,109" dropWeight="20,30,20"/>
+    <item level="109" exp="8025" icon="a" dropLevel="108,109,110" dropWeight="20,30,20"/>
+    <item level="110" exp="8050" icon="a" dropLevel="109,110,111" dropWeight="20,30,20"/>
+    <item level="111" exp="8075" icon="a" dropLevel="110,111,112" dropWeight="20,30,20"/>
+    <item level="112" exp="8100" icon="a" dropLevel="111,112,113" dropWeight="20,30,20"/>
+    <item level="113" exp="8125" icon="a" dropLevel="112,113,114" dropWeight="20,30,20"/>
+    <item level="114" exp="8150" icon="a" dropLevel="113,114,115" dropWeight="20,30,20"/>
+    <item level="115" exp="8175" icon="a" dropLevel="114,115,116" dropWeight="20,30,20"/>
+    <item level="116" exp="8200" icon="a" dropLevel="115,116,117" dropWeight="20,30,20"/>
+    <item level="117" exp="8225" icon="a" dropLevel="116,117,118" dropWeight="20,30,20"/>
+    <item level="118" exp="8250" icon="a" dropLevel="117,118,119" dropWeight="20,30,20"/>
+    <item level="119" exp="8275" icon="a" dropLevel="118,119,120" dropWeight="20,30,20"/>
+    <item level="120" exp="8300" icon="a" dropLevel="119,120,121" dropWeight="20,30,20"/>
+    <item level="121" exp="8325" icon="a" dropLevel="120,121,122" dropWeight="20,30,20"/>
+    <item level="122" exp="8350" icon="a" dropLevel="121,122,123" dropWeight="20,30,20"/>
+    <item level="123" exp="8375" icon="a" dropLevel="122,123,124" dropWeight="20,30,20"/>
+    <item level="124" exp="8400" icon="a" dropLevel="123,124,125" dropWeight="20,30,20"/>
+    <item level="125" exp="8425" icon="a" dropLevel="124,125,126" dropWeight="20,30,20"/>
+    <item level="126" exp="8450" icon="a" dropLevel="125,126,127" dropWeight="20,30,20"/>
+    <item level="127" exp="8475" icon="a" dropLevel="126,127,128" dropWeight="20,30,20"/>
+    <item level="128" exp="8500" icon="a" dropLevel="127,128,129" dropWeight="20,30,20"/>
+    <item level="129" exp="8525" icon="a" dropLevel="128,129,130" dropWeight="20,30,20"/>
+    <item level="130" exp="8550" icon="a" dropLevel="129,130,131" dropWeight="20,30,20"/>
+    <item level="131" exp="8575" icon="a" dropLevel="130,131,132" dropWeight="20,30,20"/>
+    <item level="132" exp="8600" icon="a" dropLevel="131,132,133" dropWeight="20,30,20"/>
+    <item level="133" exp="8625" icon="a" dropLevel="132,133,134" dropWeight="20,30,20"/>
+    <item level="134" exp="8650" icon="a" dropLevel="133,134,135" dropWeight="20,30,20"/>
+    <item level="135" exp="8675" icon="a" dropLevel="134,135,136" dropWeight="20,30,20"/>
+    <item level="136" exp="8700" icon="a" dropLevel="135,136,137" dropWeight="20,30,20"/>
+    <item level="137" exp="8725" icon="a" dropLevel="136,137,138" dropWeight="20,30,20"/>
+    <item level="138" exp="8750" icon="a" dropLevel="137,138,139" dropWeight="20,30,20"/>
+    <item level="139" exp="8775" icon="a" dropLevel="138,139,140" dropWeight="20,30,20"/>
+    <item level="140" exp="8800" icon="a" dropLevel="139,140,141" dropWeight="20,30,20"/>
+    <item level="141" exp="8825" icon="a" dropLevel="140,141,142" dropWeight="20,30,20"/>
+    <item level="142" exp="8850" icon="a" dropLevel="141,142,143" dropWeight="20,30,20"/>
+    <item level="143" exp="8875" icon="a" dropLevel="142,143,144" dropWeight="20,30,20"/>
+    <item level="144" exp="8900" icon="a" dropLevel="143,144,145" dropWeight="20,30,20"/>
+    <item level="145" exp="8925" icon="a" dropLevel="144,145,146" dropWeight="20,30,20"/>
+    <item level="146" exp="8950" icon="a" dropLevel="145,146,147" dropWeight="20,30,20"/>
+    <item level="147" exp="8975" icon="a" dropLevel="146,147,148" dropWeight="20,30,20"/>
+    <item level="148" exp="9000" icon="a" dropLevel="147,148,149" dropWeight="20,30,20"/>
+    <item level="149" exp="9025" icon="a" dropLevel="148,149,150" dropWeight="20,30,20"/>
+    <item level="150" exp="9050" icon="a" dropLevel="149,150,151" dropWeight="20,30,20"/>
+    <item level="151" exp="9075" icon="a" dropLevel="150,151,152" dropWeight="20,30,20"/>
+    <item level="152" exp="9100" icon="a" dropLevel="151,152,153" dropWeight="20,30,20"/>
+    <item level="153" exp="9125" icon="a" dropLevel="152,153,154" dropWeight="20,30,20"/>
+    <item level="154" exp="9150" icon="a" dropLevel="153,154,155" dropWeight="20,30,20"/>
+    <item level="155" exp="9175" icon="a" dropLevel="154,155,156" dropWeight="20,30,20"/>
+    <item level="156" exp="9200" icon="a" dropLevel="155,156,157" dropWeight="20,30,20"/>
+    <item level="157" exp="9225" icon="a" dropLevel="156,157,158" dropWeight="20,30,20"/>
+    <item level="158" exp="9250" icon="a" dropLevel="157,158,159" dropWeight="20,30,20"/>
+    <item level="159" exp="9275" icon="a" dropLevel="158,159,160" dropWeight="20,30,20"/>
+    <item level="160" exp="9300" icon="a" dropLevel="159,160,161" dropWeight="20,30,20"/>
+    <item level="161" exp="9325" icon="a" dropLevel="160,161,162" dropWeight="20,30,20"/>
+    <item level="162" exp="9350" icon="a" dropLevel="161,162,163" dropWeight="20,30,20"/>
+    <item level="163" exp="9375" icon="a" dropLevel="162,163,164" dropWeight="20,30,20"/>
+    <item level="164" exp="9400" icon="a" dropLevel="163,164,165" dropWeight="20,30,20"/>
+    <item level="165" exp="9425" icon="a" dropLevel="164,165,166" dropWeight="20,30,20"/>
+    <item level="166" exp="9450" icon="a" dropLevel="165,166,167" dropWeight="20,30,20"/>
+    <item level="167" exp="9475" icon="a" dropLevel="166,167,168" dropWeight="20,30,20"/>
+    <item level="168" exp="9500" icon="a" dropLevel="167,168,169" dropWeight="20,30,20"/>
+    <item level="169" exp="9525" icon="a" dropLevel="168,169,170" dropWeight="20,30,20"/>
+    <item level="170" exp="9550" icon="a" dropLevel="169,170,171" dropWeight="20,30,20"/>
+    <item level="171" exp="9575" icon="a" dropLevel="170,171,172" dropWeight="20,30,20"/>
+    <item level="172" exp="9600" icon="a" dropLevel="171,172,173" dropWeight="20,30,20"/>
+    <item level="173" exp="9625" icon="a" dropLevel="172,173,174" dropWeight="20,30,20"/>
+    <item level="174" exp="9650" icon="a" dropLevel="173,174,175" dropWeight="20,30,20"/>
+    <item level="175" exp="9675" icon="a" dropLevel="174,175,176" dropWeight="20,30,20"/>
+    <item level="176" exp="9700" icon="a" dropLevel="175,176,177" dropWeight="20,30,20"/>
+    <item level="177" exp="9725" icon="a" dropLevel="176,177,178" dropWeight="20,30,20"/>
+    <item level="178" exp="9750" icon="a" dropLevel="177,178,179" dropWeight="20,30,20"/>
+    <item level="179" exp="9775" icon="a" dropLevel="178,179,180" dropWeight="20,30,20"/>
+    <item level="180" exp="9800" icon="a" dropLevel="179,180,181" dropWeight="20,30,20"/>
+    <item level="181" exp="9825" icon="a" dropLevel="180,181,182" dropWeight="20,30,20"/>
+    <item level="182" exp="9850" icon="a" dropLevel="181,182,183" dropWeight="20,30,20"/>
+    <item level="183" exp="9875" icon="a" dropLevel="182,183,184" dropWeight="20,30,20"/>
+    <item level="184" exp="9900" icon="a" dropLevel="183,184,185" dropWeight="20,30,20"/>
+    <item level="185" exp="9925" icon="a" dropLevel="184,185,186" dropWeight="20,30,20"/>
+    <item level="186" exp="9950" icon="a" dropLevel="185,186,187" dropWeight="20,30,20"/>
+    <item level="187" exp="9975" icon="a" dropLevel="186,187,188" dropWeight="20,30,20"/>
+    <item level="188" exp="10000" icon="a" dropLevel="187,188,189" dropWeight="20,30,20"/>
+    <item level="189" exp="10025" icon="a" dropLevel="188,189,190" dropWeight="20,30,20"/>
+    <item level="190" exp="10050" icon="a" dropLevel="189,190,191" dropWeight="20,30,20"/>
+    <item level="191" exp="10075" icon="a" dropLevel="190,191,192" dropWeight="20,30,20"/>
+    <item level="192" exp="10100" icon="a" dropLevel="191,192,193" dropWeight="20,30,20"/>
+    <item level="193" exp="10125" icon="a" dropLevel="192,193,194" dropWeight="20,30,20"/>
+    <item level="194" exp="10150" icon="a" dropLevel="193,194,195" dropWeight="20,30,20"/>
+    <item level="195" exp="10175" icon="a" dropLevel="194,195,196" dropWeight="20,30,20"/>
+    <item level="196" exp="10200" icon="a" dropLevel="195,196,197" dropWeight="20,30,20"/>
+    <item level="197" exp="10225" icon="a" dropLevel="196,197,198" dropWeight="20,30,20"/>
+    <item level="198" exp="10250" icon="a" dropLevel="197,198,199" dropWeight="20,30,20"/>
+    <item level="199" exp="10275" icon="a" dropLevel="198,199,200" dropWeight="20,30,20"/>
+    <item level="200" exp="10300" icon="a" dropLevel="199,200,201" dropWeight="20,30,20"/>
+    <item level="201" exp="10325" icon="a" dropLevel="200,201,202" dropWeight="20,30,20"/>
+    <item level="202" exp="10350" icon="a" dropLevel="201,202,203" dropWeight="20,30,20"/>
+    <item level="203" exp="10375" icon="a" dropLevel="202,203,204" dropWeight="20,30,20"/>
+    <item level="204" exp="10400" icon="a" dropLevel="203,204,205" dropWeight="20,30,20"/>
+    <item level="205" exp="10425" icon="a" dropLevel="204,205,206" dropWeight="20,30,20"/>
+    <item level="206" exp="10450" icon="a" dropLevel="205,206,207" dropWeight="20,30,20"/>
+    <item level="207" exp="10475" icon="a" dropLevel="206,207,208" dropWeight="20,30,20"/>
+    <item level="208" exp="10500" icon="a" dropLevel="207,208,209" dropWeight="20,30,20"/>
+    <item level="209" exp="10525" icon="a" dropLevel="208,209,210" dropWeight="20,30,20"/>
+    <item level="210" exp="10550" icon="a" dropLevel="209,210,211" dropWeight="20,30,20"/>
+    <item level="211" exp="10575" icon="a" dropLevel="210,211,212" dropWeight="20,30,20"/>
+    <item level="212" exp="10600" icon="a" dropLevel="211,212,213" dropWeight="20,30,20"/>
+    <item level="213" exp="10625" icon="a" dropLevel="212,213,214" dropWeight="20,30,20"/>
+    <item level="214" exp="10650" icon="a" dropLevel="213,214,215" dropWeight="20,30,20"/>
+    <item level="215" exp="10675" icon="a" dropLevel="214,215,216" dropWeight="20,30,20"/>
+    <item level="216" exp="10700" icon="a" dropLevel="215,216,217" dropWeight="20,30,20"/>
+    <item level="217" exp="10725" icon="a" dropLevel="216,217,218" dropWeight="20,30,20"/>
+    <item level="218" exp="10750" icon="a" dropLevel="217,218,219" dropWeight="20,30,20"/>
+    <item level="219" exp="10775" icon="a" dropLevel="218,219,220" dropWeight="20,30,20"/>
+    <item level="220" exp="10800" icon="a" dropLevel="219,220,221" dropWeight="20,30,20"/>
+    <item level="221" exp="10825" icon="a" dropLevel="220,221,222" dropWeight="20,30,20"/>
+    <item level="222" exp="10850" icon="a" dropLevel="221,222,223" dropWeight="20,30,20"/>
+    <item level="223" exp="10875" icon="a" dropLevel="222,223,224" dropWeight="20,30,20"/>
+    <item level="224" exp="10900" icon="a" dropLevel="223,224,225" dropWeight="20,30,20"/>
+    <item level="225" exp="10925" icon="a" dropLevel="224,225,226" dropWeight="20,30,20"/>
+    <item level="226" exp="10950" icon="a" dropLevel="225,226,227" dropWeight="20,30,20"/>
+    <item level="227" exp="10975" icon="a" dropLevel="226,227,228" dropWeight="20,30,20"/>
+    <item level="228" exp="11000" icon="a" dropLevel="227,228,229" dropWeight="20,30,20"/>
+    <item level="229" exp="11025" icon="a" dropLevel="228,229,230" dropWeight="20,30,20"/>
+    <item level="230" exp="11050" icon="a" dropLevel="229,230,231" dropWeight="20,30,20"/>
+    <item level="231" exp="11075" icon="a" dropLevel="230,231,232" dropWeight="20,30,20"/>
+    <item level="232" exp="11100" icon="a" dropLevel="231,232,233" dropWeight="20,30,20"/>
+    <item level="233" exp="11125" icon="a" dropLevel="232,233,234" dropWeight="20,30,20"/>
+    <item level="234" exp="11150" icon="a" dropLevel="233,234,235" dropWeight="20,30,20"/>
+    <item level="235" exp="11175" icon="a" dropLevel="234,235,236" dropWeight="20,30,20"/>
+    <item level="236" exp="11200" icon="a" dropLevel="235,236,237" dropWeight="20,30,20"/>
+    <item level="237" exp="11225" icon="a" dropLevel="236,237,238" dropWeight="20,30,20"/>
+    <item level="238" exp="11250" icon="a" dropLevel="237,238,239" dropWeight="20,30,20"/>
+    <item level="239" exp="11275" icon="a" dropLevel="238,239,240" dropWeight="20,30,20"/>
+    <item level="240" exp="11300" icon="a" dropLevel="239,240,241" dropWeight="20,30,20"/>
+    <item level="241" exp="11325" icon="a" dropLevel="240,241,242" dropWeight="20,30,20"/>
+    <item level="242" exp="11350" icon="a" dropLevel="241,242,243" dropWeight="20,30,20"/>
+    <item level="243" exp="11375" icon="a" dropLevel="242,243,244" dropWeight="20,30,20"/>
+    <item level="244" exp="11400" icon="a" dropLevel="243,244,245" dropWeight="20,30,20"/>
+    <item level="245" exp="11425" icon="a" dropLevel="244,245,246" dropWeight="20,30,20"/>
+    <item level="246" exp="11450" icon="a" dropLevel="245,246,247" dropWeight="20,30,20"/>
+    <item level="247" exp="11475" icon="a" dropLevel="246,247,248" dropWeight="20,30,20"/>
+    <item level="248" exp="11500" icon="a" dropLevel="247,248,249" dropWeight="20,30,20"/>
+    <item level="249" exp="11525" icon="a" dropLevel="248,249,250" dropWeight="20,30,20"/>
+    <item level="250" exp="11550" icon="a" dropLevel="249,250,251" dropWeight="20,30,20"/>
+    <item level="251" exp="11575" icon="a" dropLevel="250,251,252" dropWeight="20,30,20"/>
+    <item level="252" exp="11600" icon="a" dropLevel="251,252,253" dropWeight="20,30,20"/>
+    <item level="253" exp="11625" icon="a" dropLevel="252,253,254" dropWeight="20,30,20"/>
+    <item level="254" exp="11650" icon="a" dropLevel="253,254,255" dropWeight="20,30,20"/>
+  </level>
+  <quality>
+    <item id="1" name="初心" defenseBase="28" battleBase="6.6" battleGrow="0.3" resistanceFloor="0.6" resistanceCeiling="0.7"/>
+    <item id="2" name="灵动" defenseBase="30" battleBase="7.5" battleGrow="0.321" resistanceFloor="1" resistanceCeiling="1.1"/>
+    <item id="3" name="禅定" defenseBase="32" battleBase="8.4" battleGrow="0.343" resistanceFloor="1.6" resistanceCeiling="1.7"/>
+    <item id="4" name="洞悉" defenseBase="34" battleBase="9" battleGrow="0.388" resistanceFloor="2.3" resistanceCeiling="2.4"/>
+    <item id="5" name="顿悟" defenseBase="36" battleBase="9.5" battleGrow="0.41" resistanceFloor="3.4" resistanceCeiling="3.7"/>
+    <item id="6" name="贯通" defenseBase="39" battleBase="10" battleGrow="0.444" resistanceFloor="4.5" resistanceCeiling="4.9"/>
+    <item id="7" name="圆融" defenseBase="42" battleBase="10.5" battleGrow="0.4875" resistanceFloor="5.6" resistanceCeiling="6.2"/>
+    <item id="8" name="先天" defenseBase="45" battleBase="11.1" battleGrow="0.526" resistanceFloor="6.8" resistanceCeiling="7.4"/>
+    <item id="9" name="忘我" defenseBase="48" battleBase="11.6" battleGrow="0.55" resistanceFloor="8" resistanceCeiling="8.7"/>
+  </quality>
+  <learn>
+    <item id="1" levelLower="0" levelUpper="0" change="693000000,259600000,47400000,0,0,0,0,0,0"/>
+    <item id="2" levelLower="1" levelUpper="48" change="-03500000,01750000,01750000,0,0,0,0,0,0"/>
+    <item id="3" levelLower="49" levelUpper="198" change="-03500000,01600000,01594000,00300000,00006000,0,0,0,0"/>
+    <item id="4" levelLower="199" levelUpper="448" change="0,-02334400,00634400,01200000,00400000,00089000,00006000,00005000,0"/>
+    <item id="5" levelLower="449" levelUpper="648" change="0,0,-01300000,00670000,00510000,00100000,00014000,00005000,00001000"/>
+    <item id="6" levelLower="649" levelUpper="1448" change="0,0,-00336375,-00134625,00400000,00052000,00010000,00007000,00002000"/>
+    <item id="7" levelLower="1449" levelUpper="3948" change="0,0,0,-00148520,00117520,00022200,00003800,00003200,00001800"/>
+    <item id="8" levelLower="3949" levelUpper="12115" change="0,0,0,0,-00100000,00070000,00010000,00010000,00010000"/>
+    <item id="9" levelLower="12116" levelUpper="16559" change="0,0,0,0,0,-00160000,00140000,00010000,00010000"/>
+    <item id="10" levelLower="16560" levelUpper="23814" change="0,0,0,0,0,0,-00100000,00090000,00010000"/>
+    <item id="11" levelLower="23815" levelUpper="23815" change="0,0,0,0,0,0,-00130000,00090000,00040000"/>
+    <item id="12" levelLower="23816" levelUpper="31765" change="0,0,0,0,0,0,0,-00100000,00100000"/>
+  </learn>
+  <slot>
+    <item id="1" name="乾" en="Qian" icon="lingshi" core="N" mainAttr="2" subAttr="4,11,12,13,14,15,16"/>
+    <item id="2" name="坎" en="Kan" icon="lingshi" core="N" mainAttr="8" subAttr="4,11,12,13,14,15,16"/>
+    <item id="3" name="艮" en="Gen" icon="lingshi" core="N" mainAttr="7" subAttr="4,11,12,13,14,15,16"/>
+    <item id="4" name="震" en="Zhen" icon="lingshi" core="N" mainAttr="6" subAttr="4,11,12,13,14,15,16"/>
+    <item id="5" name="巽" en="Xun" icon="lingshi" core="N" mainAttr="9" subAttr="4,11,12,13,14,15,16"/>
+    <item id="6" name="离" en="Li" icon="lingshi" core="N" mainAttr="10" subAttr="4,11,12,13,14,15,16"/>
+    <item id="7" name="坤" en="Kun" icon="lingshi" core="N" mainAttr="2" subAttr="4,11,12,13,14,15,16"/>
+    <item id="8" name="兑" en="Dui" icon="lingshi" core="N" mainAttr="5" subAttr="4,11,12,13,14,15,16"/>
+    <item id="9" name="归藏" en="ShaoYang" icon="qinglong" core="Y" mainAttr="3" subAttr="4,11,12,13,14,15,16"/>
+    <item id="10" name="玄冥" en="TaiYang" icon="zhuque" core="Y" mainAttr="3" subAttr="4,11,12,13,14,15,16"/>
+    <item id="11" name="启明" en="ShaoYin" icon="baihu" core="Y" mainAttr="1" subAttr="4,11,12,13,14,15,16"/>
+    <item id="12" name="离火" en="TaiYin" icon="xuanwu" core="Y" mainAttr="1" subAttr="4,11,12,13,14,15,16"/>
+  </slot>
+  <attrNumber>
+    <item id="1" level="1" attrNumber="1"/>
+    <item id="2" level="6" attrNumber="2"/>
+    <item id="3" level="11" attrNumber="3"/>
+    <item id="4" level="21" attrNumber="4"/>
+  </attrNumber>
+  <attrSet>
+    <item id="1" name="离火朱雀" number="4" skillId="310601,310602,310603,310604" icon="zhuque" weight="100"/>
+    <item id="2" name="白虎庚金" number="4" skillId="310201,310202,310203,310204" icon="baihu" weight="100"/>
+    <item id="3" name="青龙震木" number="4" skillId="310501,310502,310503,310504" icon="qinglong" weight="100"/>
+    <item id="4" name="四象玄武" number="4" skillId="310101,310102,310103,310104" icon="xuanwu" weight="100"/>
+    <item id="5" name="天罡北斗" number="4" skillId="310401,310402,310403,310404" icon="icon_beidou" weight="100"/>
+    <item id="6" name="八卦游龙" number="4" skillId="310301,310302,310303,310304" icon="icon_bagua" weight="100"/>
+  </attrSet>
+  <attrs/>
+</root>

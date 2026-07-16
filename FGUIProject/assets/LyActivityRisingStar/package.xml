@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4c7217eq">
+  <resources>
+    <component id="siyn0" name="LyActivityRisingStar.xml" path="/" exported="true"/>
+    <component id="siyn1" name="group_rank.xml" path="/"/>
+    <component id="siyn2" name="group_rankitem.xml" path="/"/>
+    <component id="siyn3" name="group_awardItem.xml" path="/"/>
+    <component id="siyn4" name="btn_rank.xml" path="/"/>
+    <component id="siyn7" name="btn_award.xml" path="/"/>
+    <image id="x66oa" name="frame_countdown.png" path="/res/"/>
+    <image id="x66ob" name="word_ranking_selected.png" path="/res/"/>
+    <image id="x66oc" name="word_ranking_unselectd.png" path="/res/"/>
+    <image id="x66od" name="word_reward_selected.png" path="/res/"/>
+    <image id="x66oe" name="word_reward_unselected.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

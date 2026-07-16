@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,140">
+  <displayList>
+    <image id="n2_qav2" name="n2" src="j3rv3z" fileName="ui/frame_basic profile.png" pkg="27utqbiz" xy="50,52" pivot="0.5,0.5" anchor="true" group="n4_qav2" scale="0.9,0.9"/>
+    <loader id="n3_qav2" name="img_icon" xy="46,52" pivot="0.5,0.5" anchor="true" size="92,92" group="n4_qav2" scale="0.9,0.9" url="ui://27utqbizhv2dky" clearOnPublish="true"/>
+    <text id="n6_qav2" name="label_liking" xy="39,106" size="59,29" group="n4_qav2" fontSize="20" color="#ffffff" vAlign="middle" autoSize="shrink" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n7_qav2" name="n7" src="qav21v" fileName="res/icon_aixin2.png" xy="7,107" group="n4_qav2" scale="1.5,1.5"/>
+    <group id="n4_qav2" name="group_explore" xy="-17,-12" size="134,147" advanced="true"/>
+    <component id="n0_o6qj" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="0,-1" group="n5_qav2"/>
+    <text id="n1_o6qj" name="label_name" xy="-14,106" size="131,29" group="n5_qav2" fontSize="20" color="#eed57e" align="center" vAlign="middle" autoSize="ellipsis" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n5_qav2" name="group_bonuse" xy="-14,-1" size="131,136" advanced="true"/>
+  </displayList>
+</component>

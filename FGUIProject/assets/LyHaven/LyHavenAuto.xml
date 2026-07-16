@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://2uzp0flsrc7m4f" designImageOffsetY="-207">
+  <controller name="con_open" exported="true" pages="0,没开通,1,开通了,2,免费试用" selected="2"/>
+  <displayList>
+    <component id="n0_f9xz" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n95_vp1r" name="btn_30" src="vp1r5v" fileName="btn_7(1).xml" xy="392,957" group="n98_vp1r">
+      <gearDisplay controller="con_open" pages="0"/>
+    </component>
+    <component id="n94_vp1r" name="btn_7" src="vp1r5t" fileName="btn_7.xml" xy="181,954" group="n98_vp1r">
+      <gearDisplay controller="con_open" pages="0"/>
+    </component>
+    <image id="n90_vp1r" name="n90" src="vp1r5r" fileName="res/frame_housekeeper.png" xy="82,118" group="n98_vp1r"/>
+    <list id="n84_8cb1" name="list_choose" xy="193,499" size="404,335" group="n98_vp1r" overflow="scroll" lineGap="9" defaultItem="ui://rtusdzu18cb12z" autoClearItems="true">
+      <gearSize controller="con_open" pages="0,2" values="404,389,1,1|404,335,1,1" default="404,314,1,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n51_xq64" name="btn_stop" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="274,867" group="n98_vp1r">
+      <gearDisplay controller="con_open" pages="1"/>
+    </component>
+    <text id="n87_kuu9" name="label_time" xy="198,835" size="360,32" group="n98_vp1r" fontSize="22" color="#3d9b0a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="雇佣中">
+      <gearDisplay controller="con_open" pages="1"/>
+    </text>
+    <component id="n91_vp1r" name="btn_start" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="274,867" group="n98_vp1r">
+      <gearDisplay controller="con_open" pages="1"/>
+    </component>
+    <text id="n96_vp1r" name="n96" xy="310,902" size="132,35" group="n98_vp1r" fontSize="20" color="#ba661b" align="center" vAlign="middle" autoSize="none" text="暂未雇佣">
+      <gearDisplay controller="con_open" pages="0,2"/>
+    </text>
+    <component id="n97_vp1r" name="btn_close" src="vp1r5x" fileName="btn_close.xml" xy="623,391" group="n98_vp1r"/>
+    <component id="n99_hewe" name="btn_xf" src="hewe5z" fileName="btn_xf.xml" xy="506,833" group="n98_vp1r">
+      <gearDisplay controller="con_open" pages="1"/>
+    </component>
+    <component id="n101_koor" name="btn_free" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="275,842" group="n98_vp1r">
+      <gearDisplay controller="con_open" pages="2"/>
+    </component>
+    <group id="n98_vp1r" name="n98" xy="82,118" size="628,941" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

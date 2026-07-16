@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="130,26">
+  <displayList>
+    <loader id="n200_81of" name="img_star1" xy="0,0" size="26,26" group="n215_i809" url="ui://eawofj71i80965" clearOnPublish="true"/>
+    <loader id="n201_81of" name="img_star2" xy="26,0" size="26,26" group="n215_i809" url="ui://eawofj71i8096d" vAlign="middle" clearOnPublish="true"/>
+    <loader id="n202_81of" name="img_star3" xy="52,0" size="26,26" group="n215_i809" url="ui://eawofj71i8096y" clearOnPublish="true"/>
+    <loader id="n203_81of" name="img_star4" xy="78,0" size="26,26" group="n215_i809" url="ui://eawofj71i80969" clearOnPublish="true"/>
+    <loader id="n204_81of" name="img_star5" xy="104,0" size="26,26" group="n215_i809" url="ui://eawofj71i80967" clearOnPublish="true"/>
+    <group id="n215_i809" name="n215" xy="0,0" size="130,26" advanced="true" layout="hz" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

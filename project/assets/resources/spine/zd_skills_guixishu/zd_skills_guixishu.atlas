@@ -1,0 +1,188 @@
+
+zd_skills_guixishu.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guixi/wx_gxs_1_00002
+  rotate: false
+  xy: 238, 65
+  size: 176, 150
+  orig: 285, 275
+  offset: 54, 64
+  index: -1
+images/guixi/wx_gxs_1_00004
+  rotate: true
+  xy: 693, 803
+  size: 214, 215
+  orig: 285, 275
+  offset: 37, 29
+  index: -1
+images/guixi/wx_gxs_1_00006
+  rotate: false
+  xy: 2, 771
+  size: 234, 246
+  orig: 285, 275
+  offset: 28, 14
+  index: -1
+images/guixi/wx_gxs_1_00008
+  rotate: false
+  xy: 2, 534
+  size: 234, 235
+  orig: 285, 275
+  offset: 28, 20
+  index: -1
+images/guixi/wx_gxs_1_00010
+  rotate: false
+  xy: 2, 297
+  size: 234, 235
+  orig: 285, 275
+  offset: 28, 20
+  index: -1
+images/guixi/wx_gxs_1_00012
+  rotate: false
+  xy: 2, 60
+  size: 234, 235
+  orig: 285, 275
+  offset: 28, 20
+  index: -1
+images/guixi/wx_gxs_1_00014
+  rotate: false
+  xy: 820, 53
+  size: 176, 175
+  orig: 285, 275
+  offset: 56, 50
+  index: -1
+images/guixi/wx_gxs_1_00016
+  rotate: false
+  xy: 608, 115
+  size: 116, 108
+  orig: 285, 275
+  offset: 82, 81
+  index: -1
+images/guixi/wx_gxs_1_00018
+  rotate: false
+  xy: 888, 561
+  size: 129, 140
+  orig: 285, 275
+  offset: 79, 67
+  index: -1
+images/guixi/wx_gxs_1_00020
+  rotate: true
+  xy: 238, 802
+  size: 215, 223
+  orig: 285, 275
+  offset: 37, 26
+  index: -1
+images/guixi/wx_gxs_1_00022
+  rotate: true
+  xy: 463, 807
+  size: 210, 228
+  orig: 285, 275
+  offset: 38, 23
+  index: -1
+images/guixi/wx_gxs_1_00024
+  rotate: true
+  xy: 463, 605
+  size: 200, 224
+  orig: 285, 275
+  offset: 43, 25
+  index: -1
+images/wx_xlhf/wx_xlhf_00000
+  rotate: false
+  xy: 424, 252
+  size: 188, 157
+  orig: 206, 220
+  offset: 9, 10
+  index: -1
+images/wx_xlhf/wx_xlhf_00002
+  rotate: true
+  xy: 238, 217
+  size: 195, 184
+  orig: 206, 220
+  offset: 5, 9
+  index: -1
+images/wx_xlhf/wx_xlhf_00004
+  rotate: true
+  xy: 689, 609
+  size: 192, 197
+  orig: 206, 220
+  offset: 7, 9
+  index: -1
+images/wx_xlhf/wx_xlhf_00006
+  rotate: true
+  xy: 689, 415
+  size: 192, 196
+  orig: 206, 220
+  offset: 7, 10
+  index: -1
+images/wx_xlhf/wx_xlhf_00008
+  rotate: true
+  xy: 238, 608
+  size: 192, 196
+  orig: 206, 220
+  offset: 7, 10
+  index: -1
+images/wx_xlhf/wx_xlhf_00010
+  rotate: true
+  xy: 238, 414
+  size: 192, 194
+  orig: 206, 220
+  offset: 7, 11
+  index: -1
+images/wx_xlhf/wx_xlhf_00012
+  rotate: false
+  xy: 434, 411
+  size: 192, 192
+  orig: 206, 220
+  offset: 7, 11
+  index: -1
+images/wx_xlhf/wx_xlhf_00014
+  rotate: true
+  xy: 628, 225
+  size: 188, 190
+  orig: 206, 220
+  offset: 9, 12
+  index: -1
+images/wx_xlhf/wx_xlhf_00016
+  rotate: true
+  xy: 820, 230
+  size: 174, 186
+  orig: 206, 220
+  offset: 16, 14
+  index: -1
+images/wx_xlhf/wx_xlhf_00018
+  rotate: true
+  xy: 424, 96
+  size: 154, 182
+  orig: 206, 220
+  offset: 26, 17
+  index: -1
+images/wx_xlhf/wx_xlhf_00020
+  rotate: false
+  xy: 910, 861
+  size: 97, 156
+  orig: 206, 220
+  offset: 47, 35
+  index: -1
+images/wx_xlhf/wx_xlhf_00022
+  rotate: false
+  xy: 910, 703
+  size: 92, 156
+  orig: 206, 220
+  offset: 48, 38
+  index: -1
+images/wx_xlhf/wx_xlhf_00024
+  rotate: false
+  xy: 887, 406
+  size: 82, 153
+  orig: 206, 220
+  offset: 53, 39
+  index: -1
+images/wx_xlhf/wx_xlhf_00026
+  rotate: true
+  xy: 2, 55
+  size: 3, 2
+  orig: 206, 220
+  offset: 101, 126
+  index: -1

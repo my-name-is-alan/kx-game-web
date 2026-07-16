@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n54_j655" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n1_agvw" name="mian" src="j6552k" fileName="LyHavenManageMain.xml" xy="4,211">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

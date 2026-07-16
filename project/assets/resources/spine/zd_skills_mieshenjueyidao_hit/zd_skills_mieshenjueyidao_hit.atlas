@@ -1,0 +1,90 @@
+
+zd_skills_mieshenjueyidao_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/wx_msjyd_hit/wx_msjyd_hit_00000
+  rotate: false
+  xy: 2, 331
+  size: 262, 262
+  orig: 300, 300
+  offset: 21, 19
+  index: -1
+images/wx_msjyd_hit/wx_msjyd_hit_00002
+  rotate: true
+  xy: 547, 545
+  size: 235, 237
+  orig: 300, 300
+  offset: 34, 38
+  index: -1
+images/wx_msjyd_hit/wx_msjyd_hit_00004
+  rotate: false
+  xy: 558, 782
+  size: 268, 232
+  orig: 300, 300
+  offset: 17, 46
+  index: -1
+images/wx_msjyd_hit/wx_msjyd_hit_00006
+  rotate: false
+  xy: 277, 571
+  size: 268, 230
+  orig: 300, 300
+  offset: 17, 46
+  index: -1
+images/wx_msjyd_hit/wx_msjyd_hit_00008
+  rotate: false
+  xy: 282, 803
+  size: 274, 211
+  orig: 300, 300
+  offset: 14, 49
+  index: -1
+images/wx_msjyd_hit/wx_msjyd_hit_00010
+  rotate: false
+  xy: 2, 805
+  size: 278, 209
+  orig: 300, 300
+  offset: 12, 52
+  index: -1
+images/wx_msjyd_hit/wx_msjyd_hit_00012
+  rotate: false
+  xy: 2, 595
+  size: 273, 208
+  orig: 300, 300
+  offset: 15, 53
+  index: -1
+images/wx_msjyd_hit/wx_msjyd_hit_00014
+  rotate: true
+  xy: 828, 808
+  size: 206, 186
+  orig: 300, 300
+  offset: 40, 57
+  index: -1
+images/wx_msjyd_hit/wx_msjyd_hit_00016
+  rotate: true
+  xy: 828, 596
+  size: 210, 178
+  orig: 300, 300
+  offset: 38, 58
+  index: -1
+images/wx_msjyd_zd/wx_msjyd_zd_00000
+  rotate: false
+  xy: 266, 399
+  size: 199, 170
+  orig: 226, 191
+  offset: 11, 6
+  index: -1
+images/wx_msjyd_zd/wx_msjyd_zd_00002
+  rotate: false
+  xy: 467, 373
+  size: 197, 170
+  orig: 226, 191
+  offset: 11, 7
+  index: -1
+images/wx_msjyd_zd/wx_msjyd_zd_00004
+  rotate: false
+  xy: 786, 425
+  size: 207, 169
+  orig: 226, 191
+  offset: 11, 8
+  index: -1

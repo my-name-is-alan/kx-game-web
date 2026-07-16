@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,976">
+  <displayList>
+    <image id="n65_ds91" name="n65" src="ds91u1aa" fileName="res/frame_bottom4.png" pkg="02ur49fw" xy="0,163" group="n82_ds91"/>
+    <image id="n64_ds91" name="n64" src="ds91u1a9" fileName="res/dec_4_zhaohuan&amp;tunshi.png" pkg="02ur49fw" xy="110,217" group="n82_ds91"/>
+    <image id="n63_ds91" name="n63" src="osg9y" fileName="res/frame_title4.png" pkg="02ur49fw" xy="0,0" group="n82_ds91"/>
+    <loader3D id="n85_phai" name="loader_spine_pet" xy="484,467" pivot="0.5,1" anchor="true" size="2,2" group="n82_ds91" scale="0.7,0.7" animation="" skin="" loop="true"/>
+    <component id="n86_phai" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="370,485" pivot="0.5,1" anchor="true" group="n82_ds91" scale="0.8,0.8"/>
+    <text id="n66_ds91" name="label_dec" xy="92,604" size="565,68" group="n82_ds91" fontSize="26" color="#f6ef84" autoSize="none" autoClearText="true" text="你本次天下无双，成功击败菜鸟驿站0名帮派成员败菜鸟驿站"/>
+    <text id="n67_ds91" name="label_str52" xy="304,697" size="64,36" group="n82_ds91" fontSize="26" color="#db882f" vAlign="middle" autoClearText="true" text="声望:"/>
+    <text id="n70_ds91" name="label_oncePrestige" xy="381,696" size="116,36" group="n82_ds91" fontSize="26" color="#4fda28" vAlign="middle" autoClearText="true" text="我方积分:"/>
+    <text id="n68_ds91" name="label_str53" xy="252,735" size="116,36" group="n82_ds91" fontSize="26" color="#db882f" vAlign="middle" autoClearText="true" text="我方积分:"/>
+    <text id="n71_ds91" name="label_winScoreChange" xy="381,735" size="116,36" group="n82_ds91" fontSize="26" color="#4fda28" vAlign="middle" autoClearText="true" text="我方积分:"/>
+    <text id="n69_ds91" name="label_str54" xy="252,774" size="116,36" group="n82_ds91" fontSize="26" color="#db882f" vAlign="middle" autoClearText="true" text="敌方积分:"/>
+    <text id="n72_ds91" name="label_opponentClanScoreChange" xy="381,774" size="116,36" group="n82_ds91" fontSize="26" color="#f1543a" vAlign="middle" autoClearText="true" text="我方积分:"/>
+    <component id="n76_ds91" name="label_ok" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="268,828" group="n82_ds91">
+      <Button title="确认" titleFontSize="30"/>
+    </component>
+    <loader id="n84_ds91" name="img_title" xy="350,118" size="50,50" group="n82_ds91" url="ui://irbjwyufds913u" align="center" vAlign="middle"/>
+    <image id="n77_ds91" name="n77" src="ig8m33" fileName="res/frame_liansheng.png" xy="387,449" group="n82_ds91"/>
+    <text id="n78_ds91" name="label_onceWinCount" xy="379,468" size="314,94" group="n82_ds91" font="ui://27utqbizig8mu1a0" fontSize="42" autoClearText="true" text="12连胜利"/>
+    <group id="n82_ds91" name="n82" xy="0,0" size="750,976" advanced="true"/>
+  </displayList>
+</component>

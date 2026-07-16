@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="622,352">
+  <displayList>
+    <image id="n58_ar1l" name="n58" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="101,3" size="420,38"/>
+    <list id="n55_ilda" name="list_head" xy="0,19" size="622,333" layout="flow_hz" lineGap="-12" colGap="-6" defaultItem="ui://li7lbnd9ar1l1o" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n56_kyb4" name="label_name" xy="222,0" size="178,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="活动"/>
+  </displayList>
+  <relation target="n55_ilda" sidePair="height-height"/>
+</component>

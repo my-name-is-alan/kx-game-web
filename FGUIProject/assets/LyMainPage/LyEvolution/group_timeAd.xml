@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="756,1334">
+  <displayList>
+    <component id="n68_gcnf" name="btn_backMask" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-351" size="756,2313">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n56_gcnf" name="n56" xy="29,490" size="694,382" group="n73_i11v" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <component id="n57_gcnf" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="668,462" group="n73_i11v"/>
+    <image id="n58_gcnf" name="n58" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="168,531" size="421,38" group="n73_i11v"/>
+    <text id="n59_gcnf" name="label_title" xy="311,530" size="148,39" group="n73_i11v" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="加速加速加速加速"/>
+    <richtext id="n64_gcnf" name="label_con" xy="156,611" size="454,101" group="n73_i11v" fontSize="24" color="#16191a" align="center" vAlign="middle" ubb="true" autoSize="none" text="观看视频后 &#xA;缩短30分钟升级时间"/>
+    <component id="n65_gcnf" name="btn_sure" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="121,783" size="202,58" group="n73_i11v">
+      <Button title="确定" titleFontSize="28"/>
+    </component>
+    <component id="n71_dbzf" name="btn_ad" src="pe7ym9" fileName="btn_normal1_Ad.xml" pkg="qnktu1il" xy="416,783" size="202,58" group="n73_i11v">
+      <Button title="免费获取" titleFontSize="28"/>
+    </component>
+    <component id="n72_dbzf" name="group_item" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="165,743" group="n73_i11v"/>
+    <group id="n73_i11v" name="n73" xy="29,462" size="717,410" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

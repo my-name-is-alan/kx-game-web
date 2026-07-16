@@ -1,0 +1,216 @@
+
+zd_skills_lingxiyizhi_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lxyz_juqi/lxyz_juqi_002
+  rotate: false
+  xy: 384, 573
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+images/lxyz_juqi/lxyz_juqi_004
+  rotate: false
+  xy: 511, 563
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+images/lxyz_juqi/lxyz_juqi_006
+  rotate: false
+  xy: 258, 581
+  size: 124, 124
+  orig: 125, 125
+  offset: 1, 1
+  index: -1
+images/lxyz_juqi/lxyz_juqi_008
+  rotate: true
+  xy: 385, 700
+  size: 120, 125
+  orig: 125, 125
+  offset: 5, 0
+  index: -1
+images/lxyz_juqi/lxyz_juqi_010
+  rotate: true
+  xy: 891, 684
+  size: 123, 125
+  orig: 125, 125
+  offset: 2, 0
+  index: -1
+images/lxyz_juqi/lxyz_juqi_012
+  rotate: true
+  xy: 2, 584
+  size: 123, 125
+  orig: 125, 125
+  offset: 2, 0
+  index: -1
+images/lxyz_juqi/lxyz_juqi_014
+  rotate: true
+  xy: 766, 685
+  size: 122, 123
+  orig: 125, 125
+  offset: 3, 2
+  index: -1
+images/lxyz_juqi/lxyz_juqi_016
+  rotate: true
+  xy: 265, 707
+  size: 117, 118
+  orig: 125, 125
+  offset: 4, 7
+  index: -1
+images/lxyz_juqi/lxyz_juqi_018
+  rotate: true
+  xy: 2, 719
+  size: 110, 115
+  orig: 125, 125
+  offset: 10, 9
+  index: -1
+images/lxyz_plizi/lxyz_plizi_000
+  rotate: false
+  xy: 346, 930
+  size: 93, 86
+  orig: 187, 150
+  offset: 51, 22
+  index: -1
+images/lxyz_plizi/lxyz_plizi_002
+  rotate: false
+  xy: 482, 822
+  size: 105, 104
+  orig: 187, 150
+  offset: 34, 16
+  index: -1
+images/lxyz_plizi/lxyz_plizi_004
+  rotate: true
+  xy: 776, 921
+  size: 95, 102
+  orig: 187, 150
+  offset: 51, 17
+  index: -1
+images/lxyz_plizi/lxyz_plizi_006
+  rotate: false
+  xy: 880, 920
+  size: 123, 96
+  orig: 187, 150
+  offset: 29, 22
+  index: -1
+images/lxyz_plizi/lxyz_plizi_008
+  rotate: false
+  xy: 116, 932
+  size: 121, 84
+  orig: 187, 150
+  offset: 34, 33
+  index: -1
+images/lxyz_plizi/lxyz_plizi_010
+  rotate: false
+  xy: 2, 934
+  size: 112, 82
+  orig: 187, 150
+  offset: 42, 33
+  index: -1
+images/lxyz_plizi/lxyz_plizi_012
+  rotate: false
+  xy: 239, 931
+  size: 105, 85
+  orig: 187, 150
+  offset: 44, 32
+  index: -1
+images/lxyz_plizi/lxyz_plizi_014
+  rotate: false
+  xy: 441, 929
+  size: 106, 87
+  orig: 187, 150
+  offset: 41, 32
+  index: -1
+images/lxyz_plizi/lxyz_plizi_016
+  rotate: false
+  xy: 549, 928
+  size: 110, 88
+  orig: 187, 150
+  offset: 41, 32
+  index: -1
+images/lxyz_plizi/lxyz_plizi_018
+  rotate: false
+  xy: 661, 927
+  size: 113, 89
+  orig: 187, 150
+  offset: 41, 33
+  index: -1
+images/lxyz_plizi/lxyz_plizi_026
+  rotate: false
+  xy: 818, 809
+  size: 130, 109
+  orig: 187, 150
+  offset: 36, 22
+  index: -1
+images/lxyz_plizi/lxyz_plizi_028
+  rotate: false
+  xy: 129, 584
+  size: 127, 123
+  orig: 187, 150
+  offset: 24, 17
+  index: -1
+images/lxyz_plizi/lxyz_plizi_030
+  rotate: false
+  xy: 512, 697
+  size: 122, 121
+  orig: 187, 150
+  offset: 30, 19
+  index: -1
+images/lxyz_plizi/lxyz_plizi_032
+  rotate: false
+  xy: 636, 690
+  size: 128, 121
+  orig: 187, 150
+  offset: 24, 18
+  index: -1
+images/lxyz_plizi/lxyz_plizi_034
+  rotate: false
+  xy: 119, 709
+  size: 144, 116
+  orig: 187, 150
+  offset: 20, 21
+  index: -1
+images/lxyz_plizi/lxyz_plizi_036
+  rotate: false
+  xy: 229, 827
+  size: 132, 101
+  orig: 187, 150
+  offset: 31, 31
+  index: -1
+images/lxyz_plizi/lxyz_plizi_038
+  rotate: false
+  xy: 2, 834
+  size: 106, 98
+  orig: 187, 150
+  offset: 45, 38
+  index: -1
+images/lxyz_plizi/lxyz_plizi_040
+  rotate: false
+  xy: 110, 831
+  size: 117, 99
+  orig: 187, 150
+  offset: 46, 37
+  index: -1
+images/lxyz_plizi/lxyz_plizi_042
+  rotate: false
+  xy: 363, 826
+  size: 117, 101
+  orig: 187, 150
+  offset: 53, 36
+  index: -1
+images/lxyz_plizi/lxyz_plizi_044
+  rotate: false
+  xy: 706, 813
+  size: 110, 106
+  orig: 187, 150
+  offset: 47, 33
+  index: -1
+images/lxyz_plizi/lxyz_plizi_046
+  rotate: false
+  xy: 589, 820
+  size: 115, 105
+  orig: 187, 150
+  offset: 41, 33
+  index: -1

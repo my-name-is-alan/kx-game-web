@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,996">
+  <displayList>
+    <image id="n20_bbpl" name="n20" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="26,-75" size="701,1084"/>
+    <richtext id="n21_bbpl" name="label_title" xy="52,-51" size="235,77" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" text="礼包"/>
+    <list id="n25_bbpl" name="list_all" xy="45,22" size="660,951" overflow="scroll" margin="10,0,0,0" lineGap="10" defaultItem="ui://6p9hmbcdncm8v" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n23_bbpl" name="n23" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="573,800"/>
+    <component id="n22_bbpl" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="662,-31" size="78,78"/>
+    <image id="n26_mo4u" name="n26" src="iuxmer" fileName="ui/frame_shuliangzengjia.png" pkg="27utqbiz" xy="499,-34"/>
+    <loader id="n27_mo4u" name="loader_icon" xy="495,-39" size="40,40" url="ui://27utqbizf4zx6o" fill="scale"/>
+    <text id="n28_mo4u" name="label_chance" xy="483,-36" size="200,34" fontSize="24" color="#f6de9c" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair=""/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6fyplu3l">
+  <resources>
+    <component id="lr1w0" name="LyActivityOpenRank.xml" path="/" exported="true"/>
+    <component id="lr1w1" name="group_main.xml" path="/"/>
+    <image id="lr1w2" name="frame_fubangtongxing.png" path="/res/" atlas="alone_npot"/>
+    <image id="lr1w3" name="word_fubangtongxing1.png" path="/res/"/>
+    <image id="lr1w4" name="word_fubangtongxing2.png" path="/record/"/>
+    <image id="lr1w5" name="word_July reward.png" path="/record/"/>
+    <image id="lr1w6" name="word_menke·1-1.png" path="/res/" exported="true"/>
+    <image id="lr1w7" name="word_menke·1-2.png" path="/record/" exported="true"/>
+    <image id="lr1w8" name="word_menke·2-1.png" path="/res/" exported="true"/>
+    <image id="lr1w9" name="word_menke·2-2.png" path="/record/" exported="true"/>
+    <image id="lr1wa" name="word_miji·1-1.png" path="/res/" exported="true"/>
+    <image id="lr1wb" name="word_miji·1-2.png" path="/record/" exported="true"/>
+    <image id="lr1wc" name="word_miji·2-1.png" path="/res/" exported="true"/>
+    <image id="lr1wd" name="word_miji·2-2.png" path="/record/" exported="true"/>
+    <image id="lr1we" name="word_xialv·1-1.png" path="/res/" exported="true"/>
+    <image id="lr1wf" name="word_xialv·1-2.png" path="/record/" exported="true"/>
+    <image id="lr1wg" name="word_xialv·2-1.png" path="/res/" exported="true"/>
+    <image id="lr1wh" name="word_xialv·2-2.png" path="/record/" exported="true"/>
+    <image id="lr1wi" name="frame_rank1_vertical.png" path="/res/" exported="true"/>
+    <image id="lr1wj" name="frame_rank2_vertical.png" path="/res/" exported="true"/>
+    <image id="lr1wk" name="frame_rank3_vertical.png" path="/res/" exported="true"/>
+    <component id="lr1wl" name="group_top.xml" path="/"/>
+    <image id="lr1wm" name="pic_rank1.png" path="/res/" exported="true"/>
+    <image id="lr1wn" name="pic_rank2.png" path="/res/" exported="true"/>
+    <image id="lr1wo" name="pic_rank3.png" path="/res/" exported="true"/>
+    <image id="lr1wp" name="pic_rank4.png" path="/res/" exported="true"/>
+    <image id="lr1wr" name="frame_classification.png" path="/res/" scale="9grid" scale9grid="100,7,70,14"/>
+    <component id="lr1ws" name="group_rankitem.xml" path="/"/>
+    <image id="lr1wt" name="frame_rank-me_horizontal.png" path="/res/"/>
+    <image id="lr1wv" name="dec_separation-line.png" path="/res/" scale9grid="40,2,38,4"/>
+    <component id="p8zew" name="group_rankself.xml" path="/"/>
+    <component id="liu3x" name="LyActivityOpenRankRecord.xml" path="/" exported="true"/>
+    <component id="liu3y" name="group_record.xml" path="/"/>
+    <component id="liu311" name="group_recorditem.xml" path="/"/>
+    <image id="liu31d" name="frame_ranklist_menke·1.png" path="/record/" exported="true"/>
+    <image id="liu31e" name="frame_ranklist_menke·2.png" path="/record/" exported="true"/>
+    <image id="liu31f" name="frame_ranklist_miji·1.png" path="/record/" exported="true"/>
+    <image id="liu31g" name="frame_ranklist_miji·2.png" path="/record/" exported="true"/>
+    <image id="liu31h" name="frame_ranklist_xialv·1.png" path="/record/" exported="true"/>
+    <image id="liu31i" name="frame_ranklist_xialv·2.png" path="/record/" exported="true"/>
+    <image id="liu31l" name="frame_baidi.png" path="/record/" scale="9grid" scale9grid="19,8,38,16"/>
+    <image id="liu31m" name="pic_lock.png" path="/record/"/>
+    <component id="pffj1n" name="group_item.xml" path="/"/>
+    <image id="kluz1o" name="pic_vacant.png" path="/record/"/>
+    <image id="kluz1p" name="pic_vacant1.png" path="/res/" exported="true"/>
+    <image id="kluz1q" name="pic_vacant2.png" path="/res/" exported="true"/>
+    <image id="kluz1r" name="pic_vacant3.png" path="/res/" exported="true"/>
+    <image id="kluz1s" name="pic_vacant4.png" path="/res/"/>
+    <image id="kluz1t" name="frame_rank1_score.png" path="/res/" exported="true"/>
+    <image id="kluz1u" name="frame_rank2_score.png" path="/res/" exported="true"/>
+    <image id="kluz1v" name="frame_rank3_score.png" path="/res/" exported="true"/>
+    <image id="a8bs1w" name="btn_go.png" path="/res/"/>
+    <image id="a8bs1x" name="frame_costtoday.png" path="/res/"/>
+    <image id="a8bs1y" name="frame_countdown.png" path="/res/"/>
+    <image id="a8bs1z" name="frame_rank_horizontal.png" path="/res/"/>
+    <component id="a8bs20" name="btn_goto.xml" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

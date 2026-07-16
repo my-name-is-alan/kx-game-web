@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="132,38">
+  <displayList>
+    <image id="n19_h8u4" name="n19" src="luwh8" fileName="res/frame_renyiwanjia.png" xy="0,0" pkg="27utqbiz"/>
+    <loader id="n22_h8u4" name="loader_bg" xy="0,0" size="132,38" url="ui://27utqbizluwh2" autoSize="true"/>
+    <text id="n20_h8u4" name="label_des" xy="2,3" size="129,32" fontSize="22" color="#e3dccf" align="center" vAlign="middle" autoSize="none" text="仅限同帮派"/>
+  </displayList>
+</component>

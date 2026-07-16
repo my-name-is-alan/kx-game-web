@@ -1,0 +1,95 @@
+{
+"skeleton": {
+	"hash": "4Hu5PX2VbmOVmbdx0RpmAM1l5DE",
+	"spine": "3.8.99",
+	"x": -186.5,
+	"y": -32.7,
+	"width": 373,
+	"height": 300,
+	"images": "D:/工作/西游/武侠/伙伴特效/治疗特效/治疗1/lxyz_plizi",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root", "y": 117.3, "scaleX": -1 }
+],
+"slots": [
+	{ "name": "lxyz_plizi_0", "bone": "root" },
+	{ "name": "lxyz_plizi_021", "bone": "root", "attachment": "lxyz_plizi_021" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"lxyz_plizi_0": {
+				"lxyz_plizi_000": { "width": 373, "height": 300 },
+				"lxyz_plizi_001": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_002": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_003": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_004": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_005": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_006": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_007": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_008": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_009": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_010": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_011": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_012": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_013": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_014": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_015": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_016": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_017": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_018": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_019": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_020": { "x": 0.5, "width": 373, "height": 300 },
+				"lxyz_plizi_021": { "x": 0.5, "width": 373, "height": 300 }
+			},
+			"lxyz_plizi_021": {
+				"lxyz_plizi_021": { "width": 373, "height": 300 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"lxyz_plizi_0": {
+				"attachment": [
+					{ "name": "lxyz_plizi_000" },
+					{ "time": 0.0333, "name": "lxyz_plizi_001" },
+					{ "time": 0.0667, "name": "lxyz_plizi_002" },
+					{ "time": 0.1, "name": "lxyz_plizi_003" },
+					{ "time": 0.1333, "name": "lxyz_plizi_004" },
+					{ "time": 0.1667, "name": "lxyz_plizi_005" },
+					{ "time": 0.2333, "name": "lxyz_plizi_006" },
+					{ "time": 0.2667, "name": "lxyz_plizi_007" },
+					{ "time": 0.3, "name": "lxyz_plizi_008" },
+					{ "time": 0.3667, "name": "lxyz_plizi_009" },
+					{ "time": 0.4333, "name": "lxyz_plizi_010" },
+					{ "time": 0.4667, "name": "lxyz_plizi_011" },
+					{ "time": 0.5333, "name": "lxyz_plizi_012" },
+					{ "time": 0.6, "name": "lxyz_plizi_013" },
+					{ "time": 0.6333, "name": "lxyz_plizi_014" },
+					{ "time": 0.6667, "name": "lxyz_plizi_015" },
+					{ "time": 0.7333, "name": "lxyz_plizi_016" },
+					{ "time": 0.8, "name": "lxyz_plizi_017" },
+					{ "time": 0.8667, "name": "lxyz_plizi_018" },
+					{ "time": 0.9, "name": "lxyz_plizi_019" },
+					{ "time": 0.9333, "name": "lxyz_plizi_020" },
+					{ "time": 0.9667, "name": "lxyz_plizi_021" },
+					{ "time": 1, "name": "lxyz_plizi_021" },
+					{ "time": 1.0333, "name": null }
+				]
+			},
+			"lxyz_plizi_021": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.0333, "color": "ffffffff" },
+					{ "time": 1.2, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

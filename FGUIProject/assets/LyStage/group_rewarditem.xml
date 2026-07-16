@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="650,160">
+  <displayList>
+    <image id="n7_jkiv" name="n7" src="jkive" fileName="res/frame_zhangjiejianglidiban.png" xy="0,0"/>
+    <text id="n0_ib4p" name="label_tips" xy="30,12" size="10,34" fontSize="24" color="#16191a" vAlign="middle" text=""/>
+    <list id="n1_ib4p" name="list_item" xy="30,60" size="450,100" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha"/>
+    <image id="n4_knid" name="img_paster" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="432,72"/>
+    <text id="n2_qhxy" name="label_take" xy="373,78" size="277,44" font="ui://27utqbizps391v" fontSize="32" color="#f3ffec" align="center" vAlign="middle" autoSize="none" text=""/>
+    <component id="n6_uzk8" name="btn_take" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="406,70"/>
+  </displayList>
+</component>

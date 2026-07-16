@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,134">
+  <displayList>
+    <graph id="n16_tuv7" name="n16" xy="0,0" size="640,134" type="rect" lineSize="0" fillColor="#fff4eee5" corner="6"/>
+    <text id="n1_hbzk" name="label_name" xy="136,21" size="56,36" fontSize="26" color="#16191a" vAlign="middle" text="玩家"/>
+    <image id="n12_tuv7" name="n12" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="146,58" scale="0.7,0.7"/>
+    <text id="n2_hbzk" name="label_combatPower" xy="186,68" size="60,42" scale="0.7,0.7" font="ui://27utqbizvkas4q" fontSize="24" vAlign="middle" letterSpacing="-8" text="12"/>
+    <text id="n3_hbzk" name="label_lastOfflineTime" xy="498,51" size="141,32" fontSize="22" color="#b45a11" align="center" vAlign="middle" autoSize="shrink" text="在线"/>
+    <text id="n4_hbzk" name="label_point" xy="346,49" size="125,34" fontSize="24" color="#b45a11" vAlign="middle" text="1000/1000"/>
+    <component id="n22_e8yx" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="26,20"/>
+    <loader id="n11_id3d" name="img_role" xy="14,8" size="50,50" touchable="false" url="ui://8rnw66xwid3d1b" align="center" vAlign="middle" clearOnPublish="true"/>
+    <component id="n18_tuv7" name="btn_clanTisp" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="516,73" size="106,30" visible="false">
+      <Button title="变更" titleFontSize="18"/>
+    </component>
+    <component id="n20_tuv7" name="btn_leaveClan" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="516,73" size="106,30" visible="false">
+      <Button title="推出1" titleFontSize="18"/>
+    </component>
+  </displayList>
+</component>

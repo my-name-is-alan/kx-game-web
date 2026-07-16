@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="712,904">
+  <displayList>
+    <image id="n57_ktdb" name="n57" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,28" size="693,876"/>
+    <loader id="n58_ktdb" name="Loader_qua" xy="28,78" size="392,480" url="ui://xcpqvzp3y9su1c" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader3D id="n59_ktdb" name="loader3d_spine" xy="558,511" pivot="0.5,2" anchor="true" size="2,2" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <text id="n60_ktdb" name="label_skill" xy="59,156" size="344,60" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="水泡 2级">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n61_ktdb" name="label_grade" xy="320,99" pivot="1,0" size="41,36" font="ui://27utqbizps391v" fontSize="26" color="#16191a" text="1级"/>
+    <text id="n62_ktdb" name="label_name" xy="59,86" size="231,54" font="ui://27utqbizps391v" fontSize="40" color="#16191a" vAlign="middle" autoSize="shrink" text="邀月">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <richtext id="n63_ktdb" name="label_skilDes" xy="63,225" size="340,153" fontSize="22" color="#16191a" ubb="true" autoSize="none" text="第一回合">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <list id="n64_ktdb" name="list_arrts" xy="32,408" size="329,97" layout="flow_hz" overflow="scroll" lineGap="-7" colGap="54" defaultItem="ui://xcpqvzp3y9su21" align="center" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n68_ktdb" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="634,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n69_ktdb" name="n69" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="57,210">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n70_ktdb" name="n70" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="57,390">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n72_ktdb" name="n72" xy="106,487" size="263,36" fontSize="18" color="#d52e26" vAlign="middle" autoSize="none" autoClearText="true" text="所有精怪">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n74_ktdb" name="btn_up" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="233,779">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n84_ktdb" name="btn_info" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="335,66" visible="false"/>
+    <list id="n91_ktdb" name="list_allEditMo" xy="71,550" size="547,204" layout="flow_hz" overflow="scroll" margin="-12,0,0,0" lineGap="-19" colGap="7" defaultItem="ui://xcpqvzp3j2yt6" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

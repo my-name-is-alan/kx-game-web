@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n110_8u8i" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <image id="n101_8u8i" name="n101" src="k1vlm3" fileName="res/frame_public3.png" pkg="qnktu1il" xy="57,462" size="634,394" group="n111_h7sm"/>
+    <image id="n102_8u8i" name="n102" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="163,502" size="420,38" group="n111_h7sm"/>
+    <text id="n103_8u8i" name="label_title" xy="288,499" size="166,39" group="n111_h7sm" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="重置"/>
+    <image id="n104_8u8i" name="n104" src="hhz9ep" fileName="res/frame_neirongdiban2.png" xy="86,594" size="577,118" group="n111_h7sm"/>
+    <text id="n105_8u8i" name="n105" xy="210,539" size="325,51" group="n111_h7sm" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" text="重置将返回所有升级材料"/>
+    <list id="n106_8u8i" name="list_item" xy="116,599" size="577,116" group="n111_h7sm" scale="0.9,0.9" layout="flow_hz" overflow="scroll" colGap="12" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle">
+      <item/>
+      <item/>
+    </list>
+    <component id="n107_8u8i" name="group_needThe" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="318,721" group="n111_h7sm"/>
+    <component id="n108_8u8i" name="btn_chongzhi" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="279,764" size="188,52" group="n111_h7sm"/>
+    <text id="n109_8u8i" name="n109" xy="283,843" size="184,29" group="n111_h7sm" fontSize="20" color="#cfcdc9" align="center" text="点击任意空白处关闭"/>
+    <group id="n111_h7sm" name="n111" xy="57,462" size="636,410" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

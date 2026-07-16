@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="718,909">
+  <displayList>
+    <image id="n13_o1e8" name="n13" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,30" size="698,879"/>
+    <image id="n14_o1e8" name="n14" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="121,64" size="453,38"/>
+    <text id="n1_ds93" name="label_name" xy="180,48" size="333,69" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="一斧在手 修仙无忧"/>
+    <graph id="n15_o1e8" name="n15" xy="26,124" size="644,752" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <component id="n8_7rrc" name="group_notice" src="7rrch" fileName="group_notice.xml" xy="51,146" size="600,725"/>
+    <list id="n7_ds93" name="list_notice" xy="92,152" size="525,65" visible="false" layout="row" overflow="scroll" scroll="horizontal" colGap="14" defaultItem="ui://2rd1913i7rrcg" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n11_k0i1" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="640,0"/>
+  </displayList>
+</component>

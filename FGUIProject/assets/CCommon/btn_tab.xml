@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,110" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_upe3" name="n0" src="8fbsmy" fileName="ui/btn_denglonganniuan.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_upe3" name="n1" src="8fbsmz" fileName="ui/btn_denglonganniuliang.png" xy="-2,-2">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_upe3" name="n2" src="8fbsmy" fileName="ui/btn_denglonganniuan.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_upe3" name="n3" src="8fbsmz" fileName="ui/btn_denglonganniuliang.png" xy="-2,-2">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5_upe3" name="title" xy="-18,7" size="146,95" font="ui://27utqbizps391v" fontSize="36" color="#e7bc7d" align="center" vAlign="middle" autoSize="none" singleLine="true" text="玉璧">
+      <gearColor controller="button" pages="0,1,2,3" values="#e7bc7d,#000000|#42231f,#000000|#e7bc7d,#000000|#42231f,#000000"/>
+    </text>
+    <image id="n7_adf1" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="89,10" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

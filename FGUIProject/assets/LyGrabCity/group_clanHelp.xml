@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1120">
+  <displayList>
+    <loader id="n1_hbzk" name="n1" xy="24,0" size="701,1120" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <image id="n41_e8yx" name="n41" src="maepudu19m" fileName="res/bg_tianzhuanjiawa.png" xy="59,70"/>
+    <richtext id="n4_hbzk" name="label_bxl" xy="48,30" size="257,49" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]帮[/size]派助力"/>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <image id="n42_e8yx" name="n42" src="ltemkr" fileName="ui/frame_ranking .png" pkg="27utqbiz" xy="57,993"/>
+    <list id="n35_hbzk" name="list_help" xy="51,365" size="644,605" overflow="scroll" lineGap="7" defaultItem="ui://i35cf1mqmaepudu19n" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n39_hbzk" name="n39" xy="64,997" size="104,29" fontSize="20" color="#c05b01" text="已互助成员"/>
+    <text id="n40_hbzk" name="label_people" xy="64,1019" size="602,55" fontSize="20" color="#16191a" autoSize="ellipsis" text="成员，成员，成员，成员，成员，成员，成员，成员，成员，成员，成员，成员，成员，"/>
+  </displayList>
+</component>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1100">
+  <controller name="page" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n70_liu3" name="n70" src="liu3du176" fileName="comombg/frame_tanchuang.png" pkg="27utqbiz" xy="-6,-85" size="774,1110">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </image>
+    <loader3D id="n68_cgob" name="loader_effect3" xy="374,418" size="1,1" animation="" skin="" loop="true"/>
+    <loader3D id="n66_cgob" name="loader_effect" xy="54,59" size="1,1" animation="" skin="" loop="true"/>
+    <component id="n44_a0tr" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="648,-20"/>
+    <image id="n65_oswz" name="n65" src="oswz5f" fileName="czjmzh/word_chongzhihaoli.png" xy="46,-22">
+      <gearDisplay controller="page" pages="0"/>
+    </image>
+    <list id="n11_cjmr" name="list_item" xy="31,129" size="676,830" overflow="scroll" defaultItem="ui://xebnjiy5a0tr18" align="center" autoClearItems="true">
+      <gearDisplay controller="page" pages="0"/>
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n45_a0tr" name="btn_page0" src="a0tr1c" fileName="btn_actCommon.xml" pkg="27utqbiz" xy="126,963" group="n33_evn5">
+      <Button checked="true" controller="page" page="0"/>
+    </component>
+    <component id="n46_a0tr" name="btn_page1" src="a0tr1c" fileName="btn_actCommon.xml" pkg="27utqbiz" xy="295,963" group="n33_evn5">
+      <Button controller="page" page="1"/>
+    </component>
+    <component id="n47_a0tr" name="btn_page2" src="a0tr1c" fileName="btn_actCommon.xml" pkg="27utqbiz" xy="464,962" group="n33_evn5">
+      <Button controller="page" page="2"/>
+    </component>
+    <group id="n33_evn5" name="btn" xy="126,962" size="484,209" advanced="true" layout="hz" colGap="23" excludeInvisibles="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <image id="n51_a0tr" name="n51" src="a0tr1k" fileName="lclt/word_leijichongzhi2.png" xy="16,130" group="n56_a0tr"/>
+    <image id="n49_a0tr" name="n49" src="a0tr1e" fileName="ui/frame_huodongdiban.png" pkg="27utqbiz" xy="39,333" group="n56_a0tr" alpha="0.004"/>
+    <image id="n64_ef0l" name="n64" src="ef0l1y" fileName="ui/frame_time.png" pkg="27utqbiz" xy="466,79" size="189,28" group="n56_a0tr"/>
+    <text id="n16_evn5" name="label_leijicz" xy="440,59" size="239,66" group="n56_a0tr" font="ui://27utqbizps391v" fontSize="20" color="#f6de9c" align="center" vAlign="middle" autoSize="none" text="已累计"/>
+    <list id="n18_evn5" name="list_all" xy="38,335" size="664,622" group="n56_a0tr" overflow="scroll" lineGap="-2" defaultItem="ui://xebnjiy5evn5l" autoClearItems="true">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n19_evn5" name="group_oneGet1" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="86,214" group="n56_a0tr" scale="0.84,0.84"/>
+    <image id="n53_a0tr" name="n53" src="a0tr1f" fileName="lclt/frame_jinxingzhong.png" xy="28,147" group="n56_a0tr"/>
+    <text id="n54_a0tr" name="label_time" xy="37,149" size="203,31" group="n56_a0tr" font="ui://27utqbizps391v" fontSize="20" color="#f6de9c" align="center" vAlign="middle" autoSize="none" text="进行中"/>
+    <image id="n69_u8an" name="n69" src="a0tr1i" fileName="lclt/word_leiji.png" xy="83,8" group="n56_a0tr"/>
+    <group id="n56_a0tr" name="1" xy="16,8" size="716,949" advanced="true">
+      <gearDisplay controller="page" pages="1"/>
+    </group>
+    <image id="n62_a0tr" name="n62" src="a0tr1n" fileName="lclt/word_leitianchongzhi2.png" xy="16,130" group="n63_a0tr"/>
+    <list id="n31_evn5" name="list_all2" xy="39,335" size="661,622" group="n63_a0tr" overflow="scroll" lineGap="-2" defaultItem="ui://xebnjiy5evn5l" autoClearItems="true">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n29_evn5" name="group_oneGet2" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="612,228" group="n63_a0tr" scale="0.84,0.84"/>
+    <image id="n60_a0tr" name="n60" src="a0trx" fileName="czjmzh/icon_chaozhilibao.png" xy="7,148" size="266,141" group="n63_a0tr" aspect="true"/>
+    <image id="n58_a0tr" name="n58" src="a0tr1f" fileName="lclt/frame_jinxingzhong.png" xy="55,274" group="n63_a0tr"/>
+    <text id="n59_a0tr" name="label_time2" xy="64,276" size="203,31" group="n63_a0tr" font="ui://27utqbizps391v" fontSize="20" color="#f6de9c" align="center" vAlign="middle" autoSize="none" text="进行中"/>
+    <image id="n61_a0tr" name="n61" src="a0tr1m" fileName="lclt/word_leitianchongzhi.png" xy="261,142" group="n63_a0tr"/>
+    <group id="n63_a0tr" name="2" xy="7,130" size="725,827" advanced="true">
+      <gearDisplay controller="page" pages="2"/>
+    </group>
+    <loader3D id="n67_cgob" name="loader_effect1" xy="384,218" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

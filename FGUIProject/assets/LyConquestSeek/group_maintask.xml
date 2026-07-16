@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1060" designImageOffsetX="-355" designImageOffsetY="-204">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n1_hbzk" name="n1" xy="24,-40" size="701,1105" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <list id="n35_hbzk" name="list_item" xy="55,68" size="640,900" overflow="scroll" lineGap="10" defaultItem="ui://shg18ariahj33w" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n4_hbzk" name="label_title" xy="46,-12" size="257,54" font="ui://27utqbizps391v" fontSize="40" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]帮[/size]派排名"/>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="662,-1"/>
+    <image id="n58_e8yx" name="n58" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="576,885"/>
+    <text id="n95_ahj3" name="label_desc" xy="208,985" size="334,29" fontSize="20" color="#e86146" vAlign="middle" autoClearText="true" text="*活动结束后，奖励会以邮件形式发放">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

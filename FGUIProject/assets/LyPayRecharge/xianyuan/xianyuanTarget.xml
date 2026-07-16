@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="66,173">
+  <displayList>
+    <image id="n56_ef0l" name="n56" src="ef0l2r" fileName="jj5z/frame_shujindutiao.png" xy="22,39" size="20,134" group="n57_ef0l" pkg="27utqbiz"/>
+    <image id="n55_ef0l" name="n55" src="ef0l2s" fileName="jj5z/frame_shujindutiao2.png" xy="25,41" size="16,132" group="n57_ef0l" pkg="27utqbiz"/>
+    <group id="n57_ef0l" name="line" xy="22,39" size="20,134" advanced="true"/>
+    <image id="n50_ef0l" name="n50" src="ef0l2n" fileName="jj5z/frame_jianglijindukuai2.png" xy="0,11" pkg="27utqbiz"/>
+    <image id="n52_ef0l" name="n52" src="ef0l2m" fileName="jj5z/frame_jianglijindukuai.png" xy="0,11" pkg="27utqbiz"/>
+    <image id="n51_ef0l" name="n51" src="ef0l2b" fileName="xianyuan/res/icon_sehngwang.png" xy="35,0"/>
+    <text id="n53_ef0l" name="label_number" xy="13,29" size="40,29" fontSize="20" color="#ffefc9" align="center" vAlign="middle" autoSize="none" strokeColor="#54380f" strokeSize="2" autoClearText="true" text="440"/>
+  </displayList>
+</component>

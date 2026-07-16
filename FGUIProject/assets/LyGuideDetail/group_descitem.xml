@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="550,30">
+  <displayList>
+    <text id="n0_ul33" name="label_name" xy="10,-3" size="48,37" fontSize="26" color="#16191a" vAlign="middle" text="123"/>
+    <text id="n1_ul33" name="label_desc" xy="360,-3" size="63,37" fontSize="26" color="#449a1e" vAlign="middle" text="2313"/>
+  </displayList>
+</component>

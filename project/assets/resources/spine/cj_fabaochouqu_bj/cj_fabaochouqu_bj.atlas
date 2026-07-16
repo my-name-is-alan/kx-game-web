@@ -1,0 +1,47 @@
+
+cj_fabaochouqu_bj.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hongyun2
+  rotate: true
+  xy: 1018, 147
+  size: 308, 388
+  orig: 520, 392
+  offset: 1, 3
+  index: -1
+hongyun3
+  rotate: false
+  xy: 1408, 127
+  size: 168, 328
+  orig: 170, 333
+  offset: 1, 4
+  index: -1
+shazi1
+  rotate: false
+  xy: 1018, 457
+  size: 1014, 1023
+  orig: 1016, 1041
+  offset: 1, 17
+  index: -1
+shazi2
+  rotate: false
+  xy: 2, 2
+  size: 1014, 1478
+  orig: 1016, 1482
+  offset: 1, 1
+  index: -1
+
+cj_fabaochouqu_bj2.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hongyun1
+  rotate: false
+  xy: 2, 2
+  size: 609, 1184
+  orig: 613, 1187
+  offset: 3, 2
+  index: -1

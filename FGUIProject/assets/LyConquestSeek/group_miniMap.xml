@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="316,224" opaque="false">
+  <displayList>
+    <image id="n26_n6sh" name="n26" src="cda511" fileName="res/frame_map.png" xy="0,0"/>
+    <component id="n27_v0hr" name="group_bg" src="v0hr3k" fileName="group_map1.xml" xy="0,0" size="1580,1118" scale="0.2,0.2"/>
+    <image id="n28_7qvh" name="group_selfPoint" src="cda51g" fileName="res/frame_ziji.png" xy="139,93"/>
+    <text id="n29_s54q" name="label_endTime" xy="215,196" size="97,26" fontSize="18" color="#00ff1e" vAlign="middle" autoSize="shrink" strokeColor="#000000" strokeSize="2" text="11114"/>
+    <text id="n30_s54q" name="label_str29" xy="48,196" size="164,26" fontSize="18" color="#ffffff" align="right" vAlign="middle" autoSize="shrink" strokeColor="#000000" strokeSize="2" text="20"/>
+  </displayList>
+</component>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetY="-48">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n31_kcwh" name="n31" src="rp911l" fileName="res2/bg_xianyouhuanhuabeijing.png" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n35_kcwh" name="n35" src="rp911p" fileName="res2/frame_zhediexiakuai.png" xy="2,837" group="n14_fj2b"/>
+    <list id="n12_fj2b" name="list_skin" xy="64,952" size="620,312" group="n14_fj2b" layout="row" overflow="scroll" scroll="horizontal" colGap="-13" defaultItem="ui://l32lh3odfj2bg" align="center" vAlign="middle">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n51_ublp" name="btn_upLevelSkin" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="515,1260" group="n56_ublp">
+      <Button title="解锁1"/>
+    </component>
+    <image id="n52_ublp" name="n52" src="kcwh2i" fileName="res2/frame_daojushuliangdi.png" xy="540,1223" group="n55_ublp"/>
+    <loader id="n53_ublp" name="img_upLevelDesc" xy="551,1222" size="35,35" group="n55_ublp" url="ui://27utqbizisiv91" align="center" vAlign="middle" fill="scale"/>
+    <text id="n54_ublp" name="label_upLevelDesc" xy="586,1224" size="111,34" group="n55_ublp" fontSize="24" color="#ffff00" vAlign="middle" text="0/193333"/>
+    <group id="n55_ublp" name="n55" xy="540,1222" size="183,38" group="n56_ublp" advanced="true"/>
+    <image id="n57_ublp" name="n57" src="rp9120" fileName="res2/frame_nametiao4.png" xy="40,1272" group="n59_ublp"/>
+    <text id="n58_ublp" name="label_str26" xy="70,1274" size="67,30" group="n59_ublp" font="ui://27utqbizps391v" fontSize="21" color="#69381c" vAlign="middle" text="已幻化"/>
+    <group id="n59_ublp" name="group_use" xy="40,1272" size="184,38" group="n56_ublp" advanced="true"/>
+    <group id="n56_ublp" name="group_upLevelSkin" xy="40,1222" size="689,96" group="n14_fj2b" visible="false" advanced="true"/>
+    <text id="n25_ijzy" name="label_skinAttr" xy="269,1199" size="210,63" group="n26_ijzy" fontSize="24" align="center" autoSize="none" autoClearText="true" text="as"/>
+    <component id="n40_kcwh" name="btn_changeSkin" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,1260" group="n26_ijzy">
+      <Button title="穿戴1"/>
+    </component>
+    <group id="n26_ijzy" name="group_changeSkin" xy="268,1199" size="214,119" group="n14_fj2b" visible="false" advanced="true"/>
+    <component id="n39_kcwh" name="btn_lockSkin" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,1260" group="n20_ijzy">
+      <Button title="解锁1"/>
+    </component>
+    <image id="n43_isiv" name="n43" src="kcwh2i" fileName="res2/frame_daojushuliangdi.png" xy="293,1223" group="n46_isiv"/>
+    <loader id="n44_isiv" name="img_lockDesc" xy="304,1223" size="35,35" group="n46_isiv" url="ui://l32lh3odrp9115" align="center" vAlign="middle" fill="scale"/>
+    <text id="n45_isiv" name="label_lockDesc" xy="339,1224" size="111,34" group="n46_isiv" fontSize="24" color="#ffff00" vAlign="middle" text="0/193333"/>
+    <group id="n46_isiv" name="n46" xy="293,1223" size="183,37" group="n20_ijzy" advanced="true"/>
+    <group id="n20_ijzy" name="group_lockSkin" xy="268,1223" size="214,95" group="n14_fj2b" visible="false" advanced="true"/>
+    <component id="n41_kcwh" name="n41" src="kcwh2j" fileName="btn_jt.xml" xy="632,869" group="n14_fj2b">
+      <Button controller="c1" page="1"/>
+    </component>
+    <group id="n14_fj2b" name="n14" xy="2,837" size="750,512" advanced="true">
+      <gearXY controller="c1" pages="0,1" values="2,837|3,1199"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <loader3D id="n48_isiv" name="loader_spine" xy="364,764" size="20,20" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <image id="n30_kcwh" name="n30" src="rp911d" fileName="res2/frame_buffxiaoguodiukuang2.png" xy="82,779" group="n37_kcwh"/>
+    <text id="n32_kcwh" name="label_attrValuePer1" xy="349,819" size="52,34" group="n37_kcwh" fontSize="24" align="center" vAlign="middle" text="解锁">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n34_kcwh" name="label_attrValuePer2" xy="351,858" size="48,32" group="n37_kcwh" fontSize="22" color="#2b841c" align="center" vAlign="middle" text="解锁">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n61_qav2" name="img_attrValuePer" xy="351,747" size="50,50" group="n37_kcwh" align="center" vAlign="middle"/>
+    <group id="n37_kcwh" name="group_attr" xy="82,747" size="584,154" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n42_isiv" name="btn_close" src="isiv2r" fileName="btn_close.xml" xy="3,109" group="n49_d46u"/>
+    <image id="n27_kcwh" name="n27" src="rp9117" fileName="res2/frame_nametiao2.png" xy="601,75" size="127,23" group="n49_d46u"/>
+    <text id="n7_fj2b" name="label_skinNum" xy="609,71" size="114,29" group="n49_d46u" fontSize="20" color="#e4d5b9" vAlign="middle" text="已拥有：1/1"/>
+    <image id="n28_kcwh" name="n28" src="rp9117" fileName="res2/frame_nametiao2.png" xy="602,113" size="127,23" group="n50_ln3o"/>
+    <text id="n9_fj2b" name="label_str45" xy="631,110" size="84,29" group="n50_ln3o" fontSize="20" color="#e4d5b9" vAlign="middle" autoSize="none" text="累计加成"/>
+    <component id="n62_qav2" name="btn_attr" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="557,75" group="n50_ln3o"/>
+    <group id="n50_ln3o" name="n50" xy="557,75" size="172,100" group="n49_d46u" advanced="true"/>
+    <group id="n49_d46u" name="n49" xy="3,71" size="726,154" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+  </displayList>
+</component>

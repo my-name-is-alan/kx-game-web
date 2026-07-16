@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="717,592">
+  <displayList>
+    <image id="n1_wb1u" name="n1" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,30" size="695,562" group="n49_wb1u"/>
+    <component id="n2_wb1u" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="639,0" group="n49_wb1u"/>
+    <image id="n4_wb1u" name="n4" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="117,65" size="455,38" group="n49_wb1u"/>
+    <text id="n5_wb1u" name="n5" xy="252,64" size="191,39" group="n49_wb1u" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="提醒设置"/>
+    <graph id="n3_wb1u" name="n3" xy="25,123" size="646,122" group="n18_wb1u" type="rect" lineSize="0" fillColor="#ffe5e8e3"/>
+    <text id="n12_wb1u" name="n12" xy="45,190" size="124,34" group="n18_wb1u" fontSize="24" color="#16191a" vAlign="middle" text="被挑战提醒"/>
+    <image id="n15_wb1u" name="n15" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="177,152" size="371,11" group="n18_wb1u"/>
+    <text id="n16_wb1u" name="n16" xy="252,135" size="191,39" group="n18_wb1u" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="斗法"/>
+    <component id="n17_wb1u" name="n17" src="wb1u6a" fileName="btn_open.xml" xy="565,186" group="n18_wb1u">
+      <Button checked="true"/>
+    </component>
+    <group id="n18_wb1u" name="n18" xy="25,123" size="646,122" group="n49_wb1u"/>
+    <graph id="n19_wb1u" name="n19" xy="25,256" size="646,168" group="n24_wb1u" type="rect" lineSize="0" fillColor="#ffe5e8e3"/>
+    <text id="n20_wb1u" name="n20" xy="45,323" size="148,34" group="n24_wb1u" fontSize="24" color="#16191a" vAlign="middle" text="资源刷新提醒"/>
+    <image id="n21_wb1u" name="n21" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="177,285" size="371,11" group="n24_wb1u"/>
+    <text id="n22_wb1u" name="n22" xy="252,268" size="191,39" group="n24_wb1u" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="福地"/>
+    <component id="n23_wb1u" name="n23" src="wb1u6a" fileName="btn_open.xml" xy="565,319" group="n24_wb1u">
+      <Button checked="true"/>
+    </component>
+    <text id="n25_wb1u" name="n25" xy="45,367" size="148,34" group="n24_wb1u" fontSize="24" color="#16191a" vAlign="middle" text="资源抢夺提醒"/>
+    <component id="n26_wb1u" name="n26" src="wb1u6a" fileName="btn_open.xml" xy="565,365" group="n24_wb1u">
+      <Button checked="true"/>
+    </component>
+    <group id="n24_wb1u" name="n24" xy="25,256" size="646,168" group="n49_wb1u"/>
+    <graph id="n27_wb1u" name="n27" xy="25,189" size="646,120" group="n32_wb1u" type="rect" lineSize="0" fillColor="#ffe5e8e3"/>
+    <text id="n28_wb1u" name="n28" xy="45,256" size="148,34" group="n32_wb1u" fontSize="24" color="#16191a" vAlign="middle" text="活动开启提醒"/>
+    <image id="n29_wb1u" name="n29" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="177,218" size="371,11" group="n32_wb1u"/>
+    <text id="n30_wb1u" name="n30" xy="252,201" size="191,39" group="n32_wb1u" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="遗迹争霸"/>
+    <component id="n31_wb1u" name="n31" src="wb1u6a" fileName="btn_open.xml" xy="565,252" group="n32_wb1u">
+      <Button checked="true"/>
+    </component>
+    <group id="n32_wb1u" name="n32" xy="25,189" size="646,120" group="n49_wb1u" visible="false" advanced="true"/>
+    <graph id="n33_wb1u" name="n33" xy="25,435" size="646,121" group="n38_wb1u" type="rect" lineSize="0" fillColor="#ffe5e8e3"/>
+    <text id="n34_wb1u" name="n34" xy="45,502" size="196,34" group="n38_wb1u" fontSize="24" color="#16191a" vAlign="middle" text="游历体力恢复提醒"/>
+    <image id="n35_wb1u" name="n35" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="177,464" size="371,11" group="n38_wb1u"/>
+    <text id="n36_wb1u" name="n36" xy="252,447" size="191,39" group="n38_wb1u" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="仙友"/>
+    <component id="n37_wb1u" name="n37" src="wb1u6a" fileName="btn_open.xml" xy="565,498" group="n38_wb1u">
+      <Button checked="true"/>
+    </component>
+    <group id="n38_wb1u" name="n38" xy="25,435" size="646,121" group="n49_wb1u"/>
+    <graph id="n39_wb1u" name="n39" xy="25,319" size="646,216" group="n44_wb1u" type="rect" lineSize="0" fillColor="#ffe5e8e3"/>
+    <text id="n40_wb1u" name="n40" xy="45,386" size="196,34" group="n44_wb1u" fontSize="24" color="#16191a" vAlign="middle" text="中心灵脉开启提醒"/>
+    <image id="n41_wb1u" name="n41" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="177,348" size="371,11" group="n44_wb1u"/>
+    <text id="n42_wb1u" name="n42" xy="252,331" size="191,39" group="n44_wb1u" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="蓬莱仙岛"/>
+    <component id="n43_wb1u" name="n43" src="wb1u6a" fileName="btn_open.xml" xy="565,382" group="n44_wb1u">
+      <Button checked="true"/>
+    </component>
+    <text id="n45_wb1u" name="n45" xy="45,432" size="196,34" group="n44_wb1u" fontSize="24" color="#16191a" vAlign="middle" text="大本营被攻击提醒"/>
+    <text id="n46_wb1u" name="n46" xy="45,480" size="196,34" group="n44_wb1u" fontSize="24" color="#16191a" vAlign="middle" text="大本营被攻击提醒"/>
+    <component id="n47_wb1u" name="n47" src="wb1u6a" fileName="btn_open.xml" xy="565,430" group="n44_wb1u">
+      <Button checked="true"/>
+    </component>
+    <component id="n48_wb1u" name="n48" src="wb1u6a" fileName="btn_open.xml" xy="565,477" group="n44_wb1u">
+      <Button checked="true"/>
+    </component>
+    <group id="n44_wb1u" name="n44" xy="25,319" size="646,216" group="n49_wb1u" visible="false" advanced="true"/>
+    <group id="n49_wb1u" name="n49" xy="0,0" size="717,592" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,100">
+  <displayList>
+    <image id="n13_h269" name="n13" src="h2695f" fileName="res/frame_leichong banner.png" xy="0,-2"/>
+    <component id="n9_sril" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="11,7" scale="0.86,0.86"/>
+    <component id="n12_h64q" name="bar_progress" src="h64q4u" fileName="res/bar_leichong2.xml" xy="103,66" size="238,20">
+      <ProgressBar value="41" max="100"/>
+    </component>
+    <richtext id="n11_sril" name="label_desc" xy="105,22" size="219,37" fontSize="26" color="#16191a" vAlign="middle" ubb="true" autoClearText="true" text="再获得[color=#307C16]{0}[/color]金竹可得"/>
+  </displayList>
+</component>

@@ -1,0 +1,104 @@
+
+zd_attack_jianqi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/wjgz_hit1/wjgz_hit1_00
+  rotate: false
+  xy: 603, 773
+  size: 248, 248
+  orig: 450, 450
+  offset: 101, 101
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_01
+  rotate: false
+  xy: 2, 681
+  size: 340, 340
+  orig: 450, 450
+  offset: 55, 55
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_02
+  rotate: false
+  xy: 2, 359
+  size: 318, 320
+  orig: 450, 450
+  offset: 66, 65
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_04
+  rotate: false
+  xy: 344, 766
+  size: 257, 255
+  orig: 450, 450
+  offset: 99, 106
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_06
+  rotate: false
+  xy: 2, 101
+  size: 254, 256
+  orig: 450, 450
+  offset: 100, 107
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_08
+  rotate: false
+  xy: 344, 533
+  size: 253, 231
+  orig: 450, 450
+  offset: 101, 108
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_10
+  rotate: false
+  xy: 322, 327
+  size: 239, 204
+  orig: 450, 450
+  offset: 106, 135
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_12
+  rotate: false
+  xy: 258, 110
+  size: 236, 215
+  orig: 450, 450
+  offset: 107, 131
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_14
+  rotate: true
+  xy: 496, 101
+  size: 224, 211
+  orig: 450, 450
+  offset: 110, 135
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_16
+  rotate: false
+  xy: 563, 327
+  size: 220, 204
+  orig: 450, 450
+  offset: 106, 143
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_18
+  rotate: true
+  xy: 785, 357
+  size: 210, 208
+  orig: 450, 450
+  offset: 109, 142
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_20
+  rotate: false
+  xy: 603, 569
+  size: 213, 202
+  orig: 450, 450
+  offset: 105, 142
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_22
+  rotate: true
+  xy: 709, 107
+  size: 218, 181
+  orig: 450, 450
+  offset: 100, 166
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_24
+  rotate: false
+  xy: 2, 2
+  size: 221, 97
+  orig: 450, 450
+  offset: 97, 162
+  index: -1

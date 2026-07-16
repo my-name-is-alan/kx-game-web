@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n40_iqt4" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="-233,-539" size="1201,2414">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n32_iqt4" name="n32" xy="60,443" size="634,486" url="ui://qnktu1ilk1vlm3"/>
+    <list id="n28_d3qo" name="list_gl" xy="181,555" size="466,290" overflow="hidden" lineGap="11" defaultItem="ui://yhkdb7e3iqt4f7">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n34_iqt4" name="n34" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="168,473" size="420,38"/>
+    <text id="n35_iqt4" name="label_title" xy="297,470" size="162,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="门客羁绊"/>
+    <text id="n39_iqt4" name="n39" xy="286,915" size="193,33" fontSize="20" color="#cfcdc9" align="center" vAlign="middle" autoSize="none" text="点击任意空白处关闭"/>
+  </displayList>
+</component>

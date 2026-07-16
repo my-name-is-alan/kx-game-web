@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root id="1" defaultId="1,2" historyLimit="100" showTimeCD="10" chatActivityId="1,2,3" systemChannelActivityId="1,2,3">
+  <chat>
+    <chat id="1" describe="私聊" param=""/>
+    <chat id="2" describe="世界聊天" param=""/>
+    <chat id="3" describe="系统通知" param=""/>
+    <chat id="4" describe="活动聊天" param=""/>
+    <chat id="5" describe="帮派聊天" param=""/>
+  </chat>
+  <emoji>
+    <emoji id="1" describe="[拜托]" image="frame_please"/>
+    <emoji id="2" describe="[不理你]" image="frame_Ignoringyou"/>
+    <emoji id="3" describe="[不屑]" image="frame_disdainful"/>
+    <emoji id="4" describe="[擦汗]" image="frame_wipesweat"/>
+    <emoji id="5" describe="[呃]" image="frame_corpse"/>
+    <emoji id="6" describe="[观望]" image="frame_see"/>
+    <emoji id="7" describe="[很赞]" image="frame_good"/>
+    <emoji id="8" describe="[可爱]" image="frame_lovely"/>
+    <emoji id="9" describe="[哭泣]" image="frame_cry"/>
+    <emoji id="10" describe="[难受]" image="frame_weep"/>
+    <emoji id="11" describe="[亲]" image="frame_kiss"/>
+    <emoji id="12" describe="[伤心]" image="frame_sad"/>
+    <emoji id="13" describe="[生气]" image="frame_angry"/>
+    <emoji id="14" describe="[睡觉]" image="frame_sleep"/>
+    <emoji id="15" describe="[送花]" image="frame_flower"/>
+    <emoji id="16" describe="[叹气]" image="frame_sigh"/>
+    <emoji id="17" describe="[无语]" image="frame_speechless"/>
+    <emoji id="18" describe="[喜欢]" image="frame_love"/>
+    <emoji id="19" describe="[小开心]" image="frame_happy"/>
+    <emoji id="20" describe="[心碎]" image="frame_heartbreak"/>
+    <emoji id="21" describe="[疑惑]" image="frame_doubt"/>
+    <emoji id="22" describe="[晕]" image="frame_halo"/>
+    <emoji id="23" describe="[再见]" image="frame_bye"/>
+    <emoji id="24" describe="[真帅]" image="frame_handsome"/>
+  </emoji>
+  <rewardPrize>
+    <rewardPrize id="1" type="A活动抽取奖励" activityId="A活动" desc="A活动抽取奖励" content="[color=#CD950C]&amp;A[/color]抽取得到[color=#CD950C]&amp;P[/color]x&amp;PN"/>
+    <rewardPrize id="2" type="B活动抽取奖励" activityId="" desc="B活动抽取奖励" content=""/>
+  </rewardPrize>
+</root>

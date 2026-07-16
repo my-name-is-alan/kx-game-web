@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,460">
+  <displayList>
+    <image id="n22_85qw" name="n22" src="85qwu1ah" fileName="ui/frame_gongxihuodedi.png" xy="-8,10"/>
+    <loader3D id="n9_ui7m" name="loader_spine2" xy="372,-26" size="2,2" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <text id="n20_85qw" name="n20" xy="242,443" size="243,45" fontSize="22" color="#d8c295" align="center" vAlign="middle" autoSize="none" text="点击空白处关闭界面"/>
+    <image id="n23_pqxt" name="n23" src="85qwu1an" fileName="ui/word_jinjichenggong2.png" xy="214,-79"/>
+    <image id="n24_pqxt" name="n24" src="85qwu1am" fileName="ui/word_jinjichenggong.png" xy="217,-75"/>
+    <richtext id="n25_pqxt" name="label_dec2" xy="143,181" size="476,136" group="n27_pqxt" fontSize="26" color="#dad9d7" ubb="true" autoSize="none" autoClearText="true" text="您本次造成了[color=#27FF88]19.26亿[/color]伤害"/>
+    <richtext id="n11_qav2" name="label_dec" xy="223,118" pivot="0.5,0.5" size="304,36" group="n27_pqxt" fontSize="26" color="#eed57e" align="center" vAlign="middle" ubb="true" text="您本次造成了[color=#27FF88]19.26亿[/color]伤害">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <group id="n27_pqxt" name="n27" xy="143,118" size="476,199"/>
+  </displayList>
+</component>

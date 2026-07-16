@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root firstPay="1" xianyuanInteval="7" xianyuanDays="7" freeXyItem="120001" freeXyCount="10" xianyuanGiftGroup="10012" firstPayNeedLevel="4" xianyuanNeedLevel="0" dailyLoginChance="10000" weekMailTitle="联合周卡补领" weekMailContent="尊敬的少侠，您昨日联合周卡奖励未领取，我已派人星夜兼程送至您身边，请您查收" eliteMonstersTitle="门客终身卡补领" eliteMonstersContent="尊敬的少侠，您昨日门客终身卡奖励未领取，我已派人星夜兼程送至您身边，请您查收" petTitle="侠侣终身卡补领" petContent="尊敬的少侠，您昨日侠侣终身卡奖励未领取，我已派人星夜兼程送至您身边，请您查收" theurgyTitle="秘籍终身卡补领" theurgyContent="尊敬的少侠，您昨日秘籍终身卡奖励未领取，我已派人星夜兼程送至您身边，请您查收">
+  <pay>
+    <item id="1" name="60玉璧" desc="" money="600" type="1" value="60" data1="60" data2="9" data3="" data4=""/>
+    <item id="2" name="300玉璧" desc="" money="3000" type="1" value="300" data1="300" data2="45" data3="" data4=""/>
+    <item id="3" name="680玉璧" desc="" money="6800" type="1" value="680" data1="680" data2="102" data3="" data4=""/>
+    <item id="4" name="980玉璧" desc="" money="9800" type="1" value="980" data1="980" data2="147" data3="" data4=""/>
+    <item id="5" name="1980玉璧" desc="" money="19800" type="1" value="1980" data1="1980" data2="297" data3="" data4=""/>
+    <item id="6" name="3280玉璧" desc="" money="32800" type="1" value="3280" data1="3280" data2="492" data3="" data4=""/>
+    <item id="7" name="6480玉璧" desc="" money="64800" type="1" value="6480" data1="6480" data2="972" data3="" data4=""/>
+    <item id="18" name="19980玉璧" desc="" money="199800" type="1" value="19980" data1="19980" data2="2997" data3="" data4=""/>
+    <item id="19" name="60代金券" desc="" money="6000" type="2" value="60" data1="" data2="600" data3="" data4=""/>
+    <item id="20" name="180代金券" desc="" money="18000" type="2" value="180" data1="" data2="1800" data3="" data4=""/>
+    <item id="21" name="360代金券" desc="" money="36000" type="2" value="360" data1="" data2="3600" data3="" data4=""/>
+    <item id="22" name="720代金券" desc="" money="72000" type="2" value="720" data1="" data2="7200" data3="" data4=""/>
+    <item id="23" name="980代金券" desc="" money="98000" type="2" value="980" data1="" data2="9800" data3="" data4=""/>
+    <item id="24" name="1280代金券" desc="" money="128000" type="2" value="1280" data1="" data2="12800" data3="" data4=""/>
+    <item id="25" name="2480代金券" desc="" money="248000" type="2" value="2480" data1="" data2="24800" data3="" data4=""/>
+    <item id="26" name="3280代金券" desc="" money="328000" type="2" value="3280" data1="" data2="32800" data3="" data4=""/>
+    <item id="27" name="月卡" desc="" money="3000" type="4" value="1" data1="" data2="" data3="" data4=""/>
+    <item id="28" name="终身卡" desc="" money="19800" type="4" value="2" data1="" data2="" data3="" data4=""/>
+    <item id="29" name="功能充值3" desc="" money="3000" type="4" value="3" data1="" data2="" data3="" data4=""/>
+    <item id="30" name="功能充值4" desc="" money="4000" type="4" value="4" data1="" data2="" data3="" data4=""/>
+    <item id="31" name="功能充值5" desc="" money="5000" type="4" value="5" data1="" data2="" data3="" data4=""/>
+    <item id="32" name="仙缘礼包-超值福利解锁" desc="" money="6800" type="4" value="6" data1="" data2="" data3="" data4=""/>
+    <item id="33" name="修为基金" desc="" money="9800" type="4" value="7" data1="" data2="" data3="" data4=""/>
+    <item id="34" name="冒险基金" desc="" money="64800" type="4" value="8" data1="" data2="" data3="" data4=""/>
+    <item id="35" name="鱼塘基金" desc="" money="6800" type="4" value="9" data1="" data2="" data3="" data4=""/>
+    <item id="36" name="镇妖塔基金" desc="" money="32800" type="4" value="10" data1="" data2="" data3="" data4=""/>
+    <item id="37" name="法宝基金" desc="" money="6800" type="4" value="11" data1="" data2="" data3="" data4=""/>
+    <item id="38" name="达摩祖师" desc="" money="6800" type="4" value="12" data1="" data2="" data3="" data4=""/>
+    <item id="39" name="岳飞神像" desc="" money="3000" type="4" value="13" data1="" data2="" data3="" data4=""/>
+    <item id="40" name="关公神像" desc="" money="6800" type="4" value="14" data1="" data2="" data3="" data4=""/>
+    <item id="41" name="鼠宝雇佣7天" desc="" money="600" type="4" value="15" data1="" data2="" data3="" data4=""/>
+    <item id="42" name="鼠宝雇佣30天" desc="" money="1800" type="4" value="16" data1="" data2="" data3="" data4=""/>
+    <item id="43" name="运势礼包1" desc="" money="3000" type="5" value="1002001" data1="" data2="" data3="" data4=""/>
+    <item id="44" name="运势礼包2" desc="" money="6800" type="5" value="1002001" data1="" data2="" data3="" data4=""/>
+    <item id="45" name="运势礼包1" desc="" money="3000" type="5" value="1003001" data1="" data2="" data3="" data4=""/>
+    <item id="46" name="运势礼包2" desc="" money="6800" type="5" value="1003001" data1="" data2="" data3="" data4=""/>
+    <item id="50" name="门客讨伐礼包1" desc="" money="3000" type="5" value="1004001" data1="" data2="" data3="" data4=""/>
+    <item id="51" name="门客讨伐礼包2" desc="" money="6800" type="5" value="1004001" data1="" data2="" data3="" data4=""/>
+    <item id="52" name="经书满庭礼包1" desc="" money="3000" type="5" value="1006001" data1="" data2="" data3="" data4=""/>
+    <item id="53" name="经书满庭礼包2" desc="" money="6800" type="5" value="1006001" data1="" data2="" data3="" data4=""/>
+    <item id="54" name="侠侣派遣礼包1" desc="" money="3000" type="5" value="1005001" data1="" data2="" data3="" data4=""/>
+    <item id="55" name="侠侣派遣礼包2" desc="" money="6800" type="5" value="1005001" data1="" data2="" data3="" data4=""/>
+    <item id="56" name="联合周卡" desc="" money="9800" type="4" value="19" data1="" data2="" data3="" data4=""/>
+    <item id="57" name="门客终身卡" desc="" money="9800" type="4" value="20" data1="" data2="" data3="" data4=""/>
+    <item id="58" name="侠侣终身卡" desc="" money="9800" type="4" value="21" data1="" data2="" data3="" data4=""/>
+    <item id="59" name="秘籍终身卡" desc="" money="9800" type="4" value="22" data1="" data2="" data3="" data4=""/>
+    <item id="60" name="6480代金券" desc="" money="648000" type="2" value="6480" data1="" data2="64800" data3="" data4=""/>
+    <item id="61" name="12880代金券" desc="" money="1288000" type="2" value="12880" data1="" data2="128800" data3="" data4=""/>
+    <item id="101" name="开服鱼塘助力礼包" desc="" money="600" type="5" value="1001001" data1="" data2="" data3="" data4=""/>
+    <item id="102" name="开服鱼塘进阶礼包" desc="" money="1200" type="5" value="1001001" data1="" data2="" data3="" data4=""/>
+    <item id="103" name="开服坐骑突破礼包" desc="" money="3000" type="5" value="1001001" data1="" data2="" data3="" data4=""/>
+    <item id="104" name="开服修行突破礼包" desc="" money="3000" type="5" value="1001001" data1="" data2="" data3="" data4=""/>
+    <item id="105" name="开服侠侣突破礼包" desc="" money="3000" type="5" value="1001001" data1="" data2="" data3="" data4=""/>
+    <item id="106" name="开服侠侣高级礼包" desc="" money="6800" type="5" value="1001001" data1="" data2="" data3="" data4=""/>
+    <item id="107" name="开服侠侣天级礼包" desc="" money="19800" type="5" value="1001001" data1="" data2="" data3="" data4=""/>
+    <item id="108" name="开服门客突破礼包" desc="" money="3000" type="5" value="1001001" data1="" data2="" data3="" data4=""/>
+    <item id="109" name="开服门客高级礼包" desc="" money="6800" type="5" value="1001001" data1="" data2="" data3="" data4=""/>
+    <item id="110" name="开服门客天级礼包" desc="" money="19800" type="5" value="1001001" data1="" data2="" data3="" data4=""/>
+    <item id="121" name="讨伐特惠礼包" desc="" money="600" type="5" value="1004001" data1="" data2="" data3="" data4=""/>
+    <item id="122" name="讨伐高级礼包" desc="" money="3000" type="5" value="1004001" data1="" data2="" data3="" data4=""/>
+    <item id="123" name="讨伐精选礼包" desc="" money="6800" type="5" value="1004001" data1="" data2="" data3="" data4=""/>
+    <item id="124" name="讨伐豪华礼包" desc="" money="12800" type="5" value="1004001" data1="" data2="" data3="" data4=""/>
+    <item id="125" name="讨伐秘藏礼包" desc="" money="19800" type="5" value="1004001" data1="" data2="" data3="" data4=""/>
+    <item id="126" name="讨伐臻享礼包" desc="" money="32800" type="5" value="1004001" data1="" data2="" data3="" data4=""/>
+    <item id="127" name="讨伐终极礼包" desc="" money="64800" type="5" value="1004001" data1="" data2="" data3="" data4=""/>
+    <item id="131" name="侠侣幻境特惠礼包" desc="" money="600" type="5" value="1005001" data1="" data2="" data3="" data4=""/>
+    <item id="132" name="侠侣幻境高级礼包" desc="" money="3000" type="5" value="1005001" data1="" data2="" data3="" data4=""/>
+    <item id="133" name="侠侣幻境精选礼包" desc="" money="6800" type="5" value="1005001" data1="" data2="" data3="" data4=""/>
+    <item id="134" name="侠侣幻境豪华礼包" desc="" money="12800" type="5" value="1005001" data1="" data2="" data3="" data4=""/>
+    <item id="135" name="侠侣幻境秘藏礼包" desc="" money="19800" type="5" value="1005001" data1="" data2="" data3="" data4=""/>
+    <item id="136" name="侠侣幻境臻享礼包" desc="" money="32800" type="5" value="1005001" data1="" data2="" data3="" data4=""/>
+    <item id="137" name="侠侣幻境终极礼包" desc="" money="64800" type="5" value="1005001" data1="" data2="" data3="" data4=""/>
+    <item id="141" name="秘籍特惠礼包" desc="" money="600" type="5" value="1006001" data1="" data2="" data3="" data4=""/>
+    <item id="142" name="秘籍高级礼包" desc="" money="3000" type="5" value="1006001" data1="" data2="" data3="" data4=""/>
+    <item id="143" name="秘籍精选礼包" desc="" money="6800" type="5" value="1006001" data1="" data2="" data3="" data4=""/>
+    <item id="144" name="秘籍豪华礼包" desc="" money="12800" type="5" value="1006001" data1="" data2="" data3="" data4=""/>
+    <item id="145" name="秘籍秘藏礼包" desc="" money="19800" type="5" value="1006001" data1="" data2="" data3="" data4=""/>
+    <item id="146" name="秘籍臻享礼包" desc="" money="32800" type="5" value="1006001" data1="" data2="" data3="" data4=""/>
+    <item id="147" name="秘籍终极礼包" desc="" money="64800" type="5" value="1006001" data1="" data2="" data3="" data4=""/>
+    <item id="201" name="特惠侠侣礼包-周天古碑" desc="" money="600" type="5" value="1003001" data1="" data2="" data3="" data4=""/>
+    <item id="202" name="高级侠侣礼包-周天古碑" desc="" money="3000" type="5" value="1003001" data1="" data2="" data3="" data4=""/>
+    <item id="203" name="精选侠侣礼包-周天古碑" desc="" money="6800" type="5" value="1003001" data1="" data2="" data3="" data4=""/>
+    <item id="204" name="豪华侠侣礼包-周天古碑" desc="" money="12800" type="5" value="1003001" data1="" data2="" data3="" data4=""/>
+    <item id="205" name="秘藏侠侣礼包-周天古碑" desc="" money="19800" type="5" value="1003001" data1="" data2="" data3="" data4=""/>
+    <item id="206" name="臻享侠侣礼包-周天古碑" desc="" money="32800" type="5" value="1003001" data1="" data2="" data3="" data4=""/>
+    <item id="207" name="终极侠侣礼包-周天古碑" desc="" money="64800" type="5" value="1003001" data1="" data2="" data3="" data4=""/>
+    <item id="208" name="特惠门客礼包-周天古碑" desc="" money="600" type="5" value="1003002" data1="" data2="" data3="" data4=""/>
+    <item id="209" name="高级门客礼包-周天古碑" desc="" money="3000" type="5" value="1003002" data1="" data2="" data3="" data4=""/>
+    <item id="210" name="精选门客礼包-周天古碑" desc="" money="6800" type="5" value="1003002" data1="" data2="" data3="" data4=""/>
+    <item id="211" name="豪华门客礼包-周天古碑" desc="" money="12800" type="5" value="1003002" data1="" data2="" data3="" data4=""/>
+    <item id="212" name="秘藏门客礼包-周天古碑" desc="" money="19800" type="5" value="1003002" data1="" data2="" data3="" data4=""/>
+    <item id="213" name="臻享门客礼包-周天古碑" desc="" money="32800" type="5" value="1003002" data1="" data2="" data3="" data4=""/>
+    <item id="214" name="终极门客礼包-周天古碑" desc="" money="64800" type="5" value="1003002" data1="" data2="" data3="" data4=""/>
+    <item id="215" name="特惠秘籍礼包-周天古碑" desc="" money="600" type="5" value="1003003" data1="" data2="" data3="" data4=""/>
+    <item id="216" name="高级秘籍礼包-周天古碑" desc="" money="3000" type="5" value="1003003" data1="" data2="" data3="" data4=""/>
+    <item id="217" name="精选秘籍礼包-周天古碑" desc="" money="6800" type="5" value="1003003" data1="" data2="" data3="" data4=""/>
+    <item id="218" name="豪华秘籍礼包-周天古碑" desc="" money="12800" type="5" value="1003003" data1="" data2="" data3="" data4=""/>
+    <item id="219" name="秘藏秘籍礼包-周天古碑" desc="" money="19800" type="5" value="1003003" data1="" data2="" data3="" data4=""/>
+    <item id="220" name="臻享秘籍礼包-周天古碑" desc="" money="32800" type="5" value="1003003" data1="" data2="" data3="" data4=""/>
+    <item id="221" name="终极秘籍礼包-周天古碑" desc="" money="64800" type="5" value="1003003" data1="" data2="" data3="" data4=""/>
+    <item id="222" name="特惠神兵礼包-周天古碑" desc="" money="600" type="5" value="1003004" data1="" data2="" data3="" data4=""/>
+    <item id="223" name="高级神兵礼包-周天古碑" desc="" money="3000" type="5" value="1003004" data1="" data2="" data3="" data4=""/>
+    <item id="224" name="精选神兵礼包-周天古碑" desc="" money="6800" type="5" value="1003004" data1="" data2="" data3="" data4=""/>
+    <item id="225" name="豪华神兵礼包-周天古碑" desc="" money="12800" type="5" value="1003004" data1="" data2="" data3="" data4=""/>
+    <item id="226" name="秘藏神兵礼包-周天古碑" desc="" money="19800" type="5" value="1003004" data1="" data2="" data3="" data4=""/>
+    <item id="227" name="臻享神兵礼包-周天古碑" desc="" money="32800" type="5" value="1003004" data1="" data2="" data3="" data4=""/>
+    <item id="228" name="终极神兵礼包-周天古碑" desc="" money="64800" type="5" value="1003004" data1="" data2="" data3="" data4=""/>
+    <item id="261" name="特惠门客礼包-如意抽签" desc="" money="600" type="5" value="1002001" data1="" data2="" data3="" data4=""/>
+    <item id="262" name="高级门客礼包-如意抽签" desc="" money="3000" type="5" value="1002001" data1="" data2="" data3="" data4=""/>
+    <item id="263" name="精选门客礼包-如意抽签" desc="" money="6800" type="5" value="1002001" data1="" data2="" data3="" data4=""/>
+    <item id="264" name="豪华门客礼包-如意抽签" desc="" money="12800" type="5" value="1002001" data1="" data2="" data3="" data4=""/>
+    <item id="265" name="秘藏门客礼包-如意抽签" desc="" money="19800" type="5" value="1002001" data1="" data2="" data3="" data4=""/>
+    <item id="266" name="臻享门客礼包-如意抽签" desc="" money="32800" type="5" value="1002001" data1="" data2="" data3="" data4=""/>
+    <item id="267" name="终极门客礼包-如意抽签" desc="" money="64800" type="5" value="1002001" data1="" data2="" data3="" data4=""/>
+    <item id="268" name="特惠侠侣礼包-如意抽签" desc="" money="600" type="5" value="1002002" data1="" data2="" data3="" data4=""/>
+    <item id="269" name="高级侠侣礼包-如意抽签" desc="" money="3000" type="5" value="1002002" data1="" data2="" data3="" data4=""/>
+    <item id="270" name="精选侠侣礼包-如意抽签" desc="" money="6800" type="5" value="1002002" data1="" data2="" data3="" data4=""/>
+    <item id="271" name="豪华侠侣礼包-如意抽签" desc="" money="12800" type="5" value="1002002" data1="" data2="" data3="" data4=""/>
+    <item id="272" name="秘藏侠侣礼包-如意抽签" desc="" money="19800" type="5" value="1002002" data1="" data2="" data3="" data4=""/>
+    <item id="273" name="臻享侠侣礼包-如意抽签" desc="" money="32800" type="5" value="1002002" data1="" data2="" data3="" data4=""/>
+    <item id="274" name="终极侠侣礼包-如意抽签" desc="" money="64800" type="5" value="1002002" data1="" data2="" data3="" data4=""/>
+    <item id="275" name="特惠秘籍礼包-如意抽签" desc="" money="600" type="5" value="1002003" data1="" data2="" data3="" data4=""/>
+    <item id="276" name="高级秘籍礼包-如意抽签" desc="" money="3000" type="5" value="1002003" data1="" data2="" data3="" data4=""/>
+    <item id="277" name="精选秘籍礼包-如意抽签" desc="" money="6800" type="5" value="1002003" data1="" data2="" data3="" data4=""/>
+    <item id="278" name="豪华秘籍礼包-如意抽签" desc="" money="12800" type="5" value="1002003" data1="" data2="" data3="" data4=""/>
+    <item id="279" name="秘藏秘籍礼包-如意抽签" desc="" money="19800" type="5" value="1002003" data1="" data2="" data3="" data4=""/>
+    <item id="280" name="臻享秘籍礼包-如意抽签" desc="" money="32800" type="5" value="1002003" data1="" data2="" data3="" data4=""/>
+    <item id="281" name="终极秘籍礼包-如意抽签" desc="" money="64800" type="5" value="1002003" data1="" data2="" data3="" data4=""/>
+    <item id="282" name="特惠神兵礼包-如意抽签" desc="" money="600" type="5" value="1002004" data1="" data2="" data3="" data4=""/>
+    <item id="283" name="高级神兵礼包-如意抽签" desc="" money="3000" type="5" value="1002004" data1="" data2="" data3="" data4=""/>
+    <item id="284" name="精选神兵礼包-如意抽签" desc="" money="6800" type="5" value="1002004" data1="" data2="" data3="" data4=""/>
+    <item id="285" name="豪华神兵礼包-如意抽签" desc="" money="12800" type="5" value="1002004" data1="" data2="" data3="" data4=""/>
+    <item id="286" name="秘藏神兵礼包-如意抽签" desc="" money="19800" type="5" value="1002004" data1="" data2="" data3="" data4=""/>
+    <item id="287" name="臻享神兵礼包-如意抽签" desc="" money="32800" type="5" value="1002004" data1="" data2="" data3="" data4=""/>
+    <item id="288" name="终极神兵礼包-如意抽签" desc="" money="64800" type="5" value="1002004" data1="" data2="" data3="" data4=""/>
+    <item id="300" name="单刀赴会中级通行证" desc="" money="3000" type="4" value="17" data1="" data2="" data3="" data4=""/>
+    <item id="301" name="单刀赴会高级通行证" desc="" money="12800" type="4" value="18" data1="" data2="" data3="" data4=""/>
+    <item id="310" name="单刀赴会特惠礼包" desc="" money="600" type="6" value="" data1="" data2="" data3="" data4=""/>
+    <item id="311" name="单刀赴会高级礼包" desc="" money="3000" type="6" value="" data1="" data2="" data3="" data4=""/>
+    <item id="312" name="单刀赴会精选礼包" desc="" money="6800" type="6" value="" data1="" data2="" data3="" data4=""/>
+    <item id="313" name="单刀赴会豪华礼包" desc="" money="12800" type="6" value="" data1="" data2="" data3="" data4=""/>
+    <item id="314" name="单刀赴会秘藏礼包" desc="" money="19800" type="6" value="" data1="" data2="" data3="" data4=""/>
+    <item id="315" name="单刀赴会臻享礼包" desc="" money="32800" type="6" value="" data1="" data2="" data3="" data4=""/>
+    <item id="316" name="单刀赴会终极礼包" desc="" money="64800" type="6" value="" data1="" data2="" data3="" data4=""/>
+    <item id="330" name="雾隐助力礼包" desc="" money="600" type="5" value="120" data1="" data2="" data3="" data4=""/>
+    <item id="331" name="雾隐畅通礼包" desc="" money="3000" type="5" value="120" data1="" data2="" data3="" data4=""/>
+    <item id="332" name="雾隐进阶礼包" desc="" money="6800" type="5" value="120" data1="" data2="" data3="" data4=""/>
+    <item id="333" name="雾隐高级礼包" desc="" money="12800" type="5" value="120" data1="" data2="" data3="" data4=""/>
+    <item id="334" name="雾隐豪华礼包" desc="" money="19800" type="5" value="120" data1="" data2="" data3="" data4=""/>
+    <item id="335" name="雾隐高贵礼包" desc="" money="32800" type="5" value="120" data1="" data2="" data3="" data4=""/>
+    <item id="336" name="雾隐无限礼包" desc="" money="64800" type="5" value="120" data1="" data2="" data3="" data4=""/>
+    <item id="340" name="雾隐岛商人包68" desc="" money="6800" type="5" value="120" data1="" data2="" data3="" data4=""/>
+    <item id="341" name="雾隐岛商人包128" desc="" money="12800" type="5" value="120" data1="" data2="" data3="" data4=""/>
+    <item id="342" name="雾隐岛商人包328" desc="" money="32800" type="5" value="120" data1="" data2="" data3="" data4=""/>
+    <item id="350" name="攻城掠地特惠礼包" desc="" money="600" type="6" value="707" data1="" data2="" data3="" data4=""/>
+    <item id="351" name="攻城掠地高级礼包" desc="" money="3000" type="6" value="707" data1="" data2="" data3="" data4=""/>
+    <item id="352" name="攻城掠地精选礼包" desc="" money="6800" type="6" value="707" data1="" data2="" data3="" data4=""/>
+    <item id="353" name="攻城掠地豪华礼包" desc="" money="12800" type="6" value="707" data1="" data2="" data3="" data4=""/>
+    <item id="354" name="攻城掠地秘藏礼包" desc="" money="19800" type="6" value="707" data1="" data2="" data3="" data4=""/>
+    <item id="355" name="攻城掠地臻享礼包" desc="" money="32800" type="6" value="707" data1="" data2="" data3="" data4=""/>
+    <item id="356" name="攻城掠地终极礼包" desc="" money="64800" type="6" value="707" data1="" data2="" data3="" data4=""/>
+    <item id="357" name="神威终极礼包" desc="" money="64800" type="6" value="707" data1="" data2="" data3="" data4=""/>
+  </pay>
+  <gift>
+    <item id="10001" name="" desc="" itemId="" money="600" giftGroupId="2" expiredTime="" fixItems="1" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="10002" name="" desc="" itemId="" money="6800" giftGroupId="2" expiredTime="" fixItems="2" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="10003" name="" desc="" itemId="" money="12800" giftGroupId="2" expiredTime="" fixItems="1" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="10004" name="" desc="" itemId="" money="" giftGroupId="2" expiredTime="" fixItems="2" optionItems="" buyType="1" buyCount="2" takeLevel="" background="" sysId=""/>
+    <item id="10005" name="" desc="" itemId="" money="600" giftGroupId="2" expiredTime="" fixItems="1" optionItems="" buyType="1" buyCount="2" takeLevel="" background="" sysId=""/>
+    <item id="10006" name="" desc="" itemId="" money="600" giftGroupId="2" expiredTime="" fixItems="1" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="10007" name="" desc="" itemId="" money="600" giftGroupId="4" expiredTime="" fixItems="2" optionItems="1" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="10008" name="" desc="" itemId="" money="600" giftGroupId="5" expiredTime="" fixItems="1" optionItems="1,2" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="10012" name="风云礼包18" desc="" itemId="" money="1800" giftGroupId="10012" expiredTime="" fixItems="10012" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="10013" name="风云礼包68" desc="" itemId="" money="6800" giftGroupId="10012" expiredTime="" fixItems="10013" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20000" name="免费福利" desc="" itemId="" money="" giftGroupId="20000" expiredTime="" fixItems="2000001" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20001" name="自选助力礼包" desc="" itemId="" money="600" giftGroupId="20001" expiredTime="" fixItems="2000101" optionItems="2000102" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20002" name="自选专属礼包" desc="" itemId="" money="1200" giftGroupId="20002" expiredTime="" fixItems="2000201" optionItems="2000202" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20003" name="自选定制礼包" desc="" itemId="" money="1800" giftGroupId="20003" expiredTime="" fixItems="2000301" optionItems="2000302,2000309" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20004" name="自选畅享礼包" desc="" itemId="" money="3000" giftGroupId="20004" expiredTime="" fixItems="2000401" optionItems="2000402,2000409" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20005" name="自选收获礼包" desc="" itemId="" money="12800" giftGroupId="20005" expiredTime="" fixItems="2000501" optionItems="2000502,2000509" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20006" name="自选豪华礼包" desc="" itemId="" money="19800" giftGroupId="20006" expiredTime="" fixItems="2000601" optionItems="2000602,2000609" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20007" name="自选惊喜礼包" desc="" itemId="" money="32800" giftGroupId="20007" expiredTime="" fixItems="2000701" optionItems="2000702,2000709" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20008" name="自选无限礼包" desc="" itemId="" money="64800" giftGroupId="20008" expiredTime="" fixItems="2000801" optionItems="2000802,2000809" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20010" name="免费福利" desc="" itemId="" money="" giftGroupId="20010" expiredTime="" fixItems="20010" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20011" name="枸杞助力礼包" desc="" itemId="" money="600" giftGroupId="20011" expiredTime="" fixItems="20011" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20012" name="枸杞专属礼包" desc="" itemId="" money="1200" giftGroupId="20012" expiredTime="" fixItems="20012" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20013" name="枸杞定制礼包" desc="" itemId="" money="1800" giftGroupId="20013" expiredTime="" fixItems="20013" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="20014" name="同心玉畅享礼包" desc="" itemId="" money="3000" giftGroupId="20014" expiredTime="" fixItems="20014" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId="9"/>
+    <item id="20015" name="饷银畅享礼包" desc="" itemId="" money="3000" giftGroupId="20015" expiredTime="" fixItems="20015" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId="5"/>
+    <item id="20016" name="饷银进阶礼包" desc="" itemId="" money="6800" giftGroupId="20016" expiredTime="" fixItems="20016" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId="5"/>
+    <item id="20017" name="香茗进阶礼包" desc="" itemId="" money="6800" giftGroupId="20017" expiredTime="" fixItems="20017" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId="11"/>
+    <item id="20018" name="无字密卷进阶礼包" desc="" itemId="" money="6800" giftGroupId="20018" expiredTime="" fixItems="20018" optionItems="" buyType="1" buyCount="3" takeLevel="" background="" sysId="14"/>
+    <item id="20019" name="养精丸收获礼包" desc="" itemId="" money="12800" giftGroupId="20019" expiredTime="" fixItems="20019" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId="13"/>
+    <item id="20020" name="珊瑚豪华礼包" desc="" itemId="" money="19800" giftGroupId="20020" expiredTime="" fixItems="20020" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId="4"/>
+    <item id="20021" name="同心玉惊喜礼包" desc="" itemId="" money="32800" giftGroupId="20021" expiredTime="" fixItems="20021" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId="9"/>
+    <item id="20022" name="香茗无限礼包" desc="" itemId="" money="64800" giftGroupId="20022" expiredTime="" fixItems="20022" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId="11"/>
+    <item id="20023" name="无字密卷惊喜礼包" desc="" itemId="" money="32800" giftGroupId="20023" expiredTime="" fixItems="20023" optionItems="" buyType="1" buyCount="3" takeLevel="" background="" sysId="14"/>
+    <item id="20030" name="枸杞免费福利" desc="" itemId="" money="" giftGroupId="20030" expiredTime="" fixItems="20030" optionItems="" buyType="1" buyCount="1" takeLevel="" background="icon_box1,Props-gouqi" sysId=""/>
+    <item id="20031" name="枸杞礼包" desc="" itemId="" money="300" giftGroupId="20031" expiredTime="" fixItems="20031" optionItems="" buyType="1" buyCount="1" takeLevel="" background="icon_box1,Props-gouqi" sysId=""/>
+    <item id="20032" name="侠侣礼包" desc="" itemId="" money="600" giftGroupId="20032" expiredTime="" fixItems="20032" optionItems="" buyType="1" buyCount="1" takeLevel="" background="icon_box1,Props-tongxinyu" sysId=""/>
+    <item id="20033" name="坐骑礼包" desc="" itemId="" money="1200" giftGroupId="20033" expiredTime="" fixItems="20033" optionItems="" buyType="1" buyCount="1" takeLevel="" background="icon_box1,Props-yunxingsha" sysId=""/>
+    <item id="20034" name="钓鱼礼包" desc="" itemId="" money="600" giftGroupId="20034" expiredTime="" fixItems="20034" optionItems="" buyType="1" buyCount="1" takeLevel="" background="icon_box2,Props-gouqi" sysId=""/>
+    <item id="20035" name="兽友礼包" desc="" itemId="" money="1800" giftGroupId="20035" expiredTime="" fixItems="20035" optionItems="" buyType="1" buyCount="1" takeLevel="" background="icon_box2,Props-qingquan" sysId=""/>
+    <item id="20036" name="侠侣礼包" desc="" itemId="" money="3000" giftGroupId="20036" expiredTime="" fixItems="20036" optionItems="" buyType="1" buyCount="1" takeLevel="" background="icon_box2,Props-tongxinyu" sysId=""/>
+    <item id="20037" name="秘籍礼包" desc="" itemId="" money="3000" giftGroupId="20037" expiredTime="" fixItems="20037" optionItems="" buyType="1" buyCount="3" takeLevel="" background="icon_box2,Props-wuzimijuan" sysId=""/>
+    <item id="20038" name="门客礼包" desc="" itemId="" money="3000" giftGroupId="20038" expiredTime="" fixItems="20038" optionItems="" buyType="1" buyCount="2" takeLevel="" background="icon_box2,Props-jianiang" sysId=""/>
+    <item id="20039" name="修行礼包" desc="" itemId="" money="3000" giftGroupId="20039" expiredTime="" fixItems="20039" optionItems="" buyType="1" buyCount="2" takeLevel="" background="icon_box2,Props-yangjingwan" sysId=""/>
+    <item id="20040" name="镖局礼包" desc="" itemId="" money="3000" giftGroupId="20040" expiredTime="" fixItems="20040" optionItems="" buyType="1" buyCount="1" takeLevel="" background="icon_box2,Props-xiangying" sysId=""/>
+    <item id="20042" name="侠侣礼包" desc="" itemId="" money="6800" giftGroupId="20042" expiredTime="" fixItems="20042" optionItems="" buyType="1" buyCount="2" takeLevel="" background="icon_box2,Props-tongxinyu" sysId=""/>
+    <item id="20043" name="镖局礼包" desc="" itemId="" money="6800" giftGroupId="20043" expiredTime="" fixItems="20043" optionItems="" buyType="1" buyCount="2" takeLevel="" background="icon_box2,Props-xiangying" sysId=""/>
+    <item id="20044" name="秘籍礼包" desc="" itemId="" money="12800" giftGroupId="20044" expiredTime="" fixItems="20044" optionItems="" buyType="1" buyCount="5" takeLevel="" background="icon_box2,Props-wuzimijuan" sysId=""/>
+    <item id="20045" name="门客礼包" desc="" itemId="" money="12800" giftGroupId="20045" expiredTime="" fixItems="20045" optionItems="" buyType="1" buyCount="2" takeLevel="" background="icon_box2,Props-jianiang" sysId=""/>
+    <item id="20046" name="修行礼包" desc="" itemId="" money="12800" giftGroupId="20046" expiredTime="" fixItems="20046" optionItems="" buyType="1" buyCount="3" takeLevel="" background="icon_box2,Props-yangjingwan" sysId=""/>
+    <item id="20048" name="侠侣礼包" desc="" itemId="" money="32800" giftGroupId="20048" expiredTime="" fixItems="20048" optionItems="" buyType="1" buyCount="1" takeLevel="" background="icon_box3,Props-tongxinyu" sysId=""/>
+    <item id="20049" name="门客礼包" desc="" itemId="" money="32800" giftGroupId="20049" expiredTime="" fixItems="20049" optionItems="" buyType="1" buyCount="2" takeLevel="" background="icon_box3,Props-jianiang" sysId=""/>
+    <item id="20050" name="秘籍礼包" desc="" itemId="" money="32800" giftGroupId="20050" expiredTime="" fixItems="20050" optionItems="" buyType="1" buyCount="3" takeLevel="" background="icon_box3,Props-wuzimijuan" sysId=""/>
+    <item id="20051" name="修行礼包" desc="" itemId="" money="32800" giftGroupId="20051" expiredTime="" fixItems="20051" optionItems="" buyType="1" buyCount="3" takeLevel="" background="icon_box3,Props-yangjingwan" sysId=""/>
+    <item id="20052" name="神话侠影典藏" desc="" itemId="" money="51200" giftGroupId="20052" expiredTime="" fixItems="20052" optionItems="" buyType="1" buyCount="3" takeLevel="" background="icon_box3,Props-baohe-5" sysId=""/>
+    <item id="40001" name="秘籍藏珍礼包" desc="1100%,高额返利" itemId="" money="3000" giftGroupId="40001" expiredTime="210" fixItems="40001" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId="14"/>
+    <item id="40002" name="秘籍藏珍礼包" desc="1000%,高额返利" itemId="" money="6800" giftGroupId="40001" expiredTime="210" fixItems="40002" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId="14"/>
+    <item id="40003" name="秘籍藏珍礼包" desc="900%,高额返利" itemId="" money="12800" giftGroupId="40001" expiredTime="210" fixItems="40003" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId="14"/>
+    <item id="40011" name="悟道修行礼包" desc="1100%,高额返利" itemId="" money="3000" giftGroupId="40011" expiredTime="210" fixItems="40011" optionItems="" buyType="1" buyCount="1" takeLevel="" background="2101,1.5,375,350" sysId="13"/>
+    <item id="40012" name="悟道修行礼包" desc="1000%,高额返利" itemId="" money="6800" giftGroupId="40011" expiredTime="210" fixItems="40012" optionItems="" buyType="1" buyCount="1" takeLevel="" background="2101,1.5,375,351" sysId="13"/>
+    <item id="40013" name="悟道修行礼包" desc="900%,高额返利" itemId="" money="12800" giftGroupId="40011" expiredTime="210" fixItems="40013" optionItems="" buyType="1" buyCount="1" takeLevel="" background="2101,1.5,375,352" sysId="13"/>
+    <item id="40021" name="战力提升礼包" desc="1100%,高额返利" itemId="" money="3000" giftGroupId="40021" expiredTime="210" fixItems="40021" optionItems="" buyType="1" buyCount="1" takeLevel="" background="6406,1.5,375,353" sysId="9"/>
+    <item id="40022" name="战力提升礼包" desc="1000%,高额返利" itemId="" money="6800" giftGroupId="40021" expiredTime="210" fixItems="40022" optionItems="" buyType="1" buyCount="1" takeLevel="" background="6406,1.5,375,354" sysId="9"/>
+    <item id="40023" name="战力提升礼包" desc="900%,高额返利" itemId="" money="12800" giftGroupId="40021" expiredTime="210" fixItems="40023" optionItems="" buyType="1" buyCount="1" takeLevel="" background="6406,1.5,375,355" sysId="9"/>
+    <item id="40031" name="坐骑培育礼包" desc="1100%,高额返利" itemId="" money="3000" giftGroupId="40031" expiredTime="210" fixItems="40031" optionItems="" buyType="1" buyCount="1" takeLevel="" background="4201,1.25,325,20" sysId="4"/>
+    <item id="40032" name="坐骑培育礼包" desc="1000%,高额返利" itemId="" money="6800" giftGroupId="40031" expiredTime="210" fixItems="40032" optionItems="" buyType="1" buyCount="1" takeLevel="" background="4201,1.25,325,20" sysId="4"/>
+    <item id="40033" name="坐骑培育礼包" desc="900%,高额返利" itemId="" money="12800" giftGroupId="40031" expiredTime="210" fixItems="40033" optionItems="" buyType="1" buyCount="1" takeLevel="" background="4201,1.25,325,20" sysId="4"/>
+    <item id="40041" name="法则限时礼包" desc="1100%,高额返利" itemId="" money="3000" giftGroupId="40041" expiredTime="210" fixItems="40041" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="40042" name="法则限时礼包" desc="1000%,高额返利" itemId="" money="6800" giftGroupId="40041" expiredTime="210" fixItems="40042" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="40043" name="法则限时礼包" desc="900%,高额返利" itemId="" money="12800" giftGroupId="40041" expiredTime="210" fixItems="40043" optionItems="" buyType="1" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="40051" name="兽友好感礼包" desc="1100%,高额返利" itemId="" money="3000" giftGroupId="40051" expiredTime="210" fixItems="40051" optionItems="" buyType="1" buyCount="1" takeLevel="" background="9101,1.1,375,200" sysId="7"/>
+    <item id="40052" name="兽友好感礼包" desc="1000%,高额返利" itemId="" money="6800" giftGroupId="40051" expiredTime="210" fixItems="40052" optionItems="" buyType="1" buyCount="1" takeLevel="" background="9101,1.1,375,200" sysId="7"/>
+    <item id="40053" name="兽友好感礼包" desc="900%,高额返利" itemId="" money="12800" giftGroupId="40051" expiredTime="210" fixItems="40053" optionItems="" buyType="1" buyCount="1" takeLevel="" background="9101,1.1,375,200" sysId="7"/>
+    <item id="40061" name="英豪聚义礼包" desc="1100%,高额返利" itemId="" money="3000" giftGroupId="40061" expiredTime="210" fixItems="40061" optionItems="" buyType="1" buyCount="1" takeLevel="" background="7502,1.5,375,425" sysId="11"/>
+    <item id="40062" name="英豪聚义礼包" desc="1000%,高额返利" itemId="" money="6800" giftGroupId="40061" expiredTime="210" fixItems="40062" optionItems="" buyType="1" buyCount="1" takeLevel="" background="7502,1.5,375,425" sysId="11"/>
+    <item id="40063" name="英豪聚义礼包" desc="900%,高额返利" itemId="" money="12800" giftGroupId="40061" expiredTime="210" fixItems="40063" optionItems="" buyType="1" buyCount="1" takeLevel="" background="7502,1.5,375,425" sysId="11"/>
+    <item id="40071" name="鱼塘焕新礼包" desc="1100%,高额返利" itemId="" money="3000" giftGroupId="40071" expiredTime="210" fixItems="40071" optionItems="" buyType="1" buyCount="1" takeLevel="" background="2103,1.3,375,350" sysId="5"/>
+    <item id="40072" name="鱼塘焕新礼包" desc="1000%,高额返利" itemId="" money="6800" giftGroupId="40071" expiredTime="210" fixItems="40072" optionItems="" buyType="1" buyCount="1" takeLevel="" background="2103,1.3,375,351" sysId="5"/>
+    <item id="40073" name="鱼塘焕新礼包" desc="900%,高额返利" itemId="" money="12800" giftGroupId="40071" expiredTime="210" fixItems="40073" optionItems="" buyType="1" buyCount="1" takeLevel="" background="2103,1.3,375,352" sysId="5"/>
+    <item id="40081" name="玉璧枸杞礼包" desc="1100%,高额返利" itemId="" money="3000" giftGroupId="40081" expiredTime="210" fixItems="40081" optionItems="" buyType="1" buyCount="1" takeLevel="" background="6407,1.5,375,353" sysId="5"/>
+    <item id="40082" name="玉璧枸杞礼包" desc="1000%,高额返利" itemId="" money="6800" giftGroupId="40081" expiredTime="210" fixItems="40082" optionItems="" buyType="1" buyCount="1" takeLevel="" background="6407,1.5,375,354" sysId="5"/>
+    <item id="40083" name="玉璧枸杞礼包" desc="900%,高额返利" itemId="" money="12800" giftGroupId="40081" expiredTime="210" fixItems="40083" optionItems="" buyType="1" buyCount="1" takeLevel="" background="6407,1.5,375,355" sysId="5"/>
+    <item id="40091" name="朝露丰盈礼包" desc="1100%,高额返利" itemId="" money="3000" giftGroupId="40091" expiredTime="210" fixItems="40091" optionItems="" buyType="1" buyCount="1" takeLevel="" background="6502,1.5,375,350" sysId="9"/>
+    <item id="40092" name="朝露丰盈礼包" desc="1000%,高额返利" itemId="" money="6800" giftGroupId="40091" expiredTime="210" fixItems="40092" optionItems="" buyType="1" buyCount="1" takeLevel="" background="6502,1.5,375,351" sysId="9"/>
+    <item id="40093" name="朝露丰盈礼包" desc="900%,高额返利" itemId="" money="12800" giftGroupId="40091" expiredTime="210" fixItems="40093" optionItems="" buyType="1" buyCount="1" takeLevel="" background="6502,1.5,375,352" sysId="9"/>
+    <item id="50001" name="首充6" desc="击晕+5%" itemId="" money="600" giftGroupId="1" expiredTime="" fixItems="1" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="50002" name="首充6" desc="" itemId="" money="600" giftGroupId="1" expiredTime="" fixItems="5000104" optionItems="" buyType="3" buyCount="1" takeLevel="20" background="" sysId=""/>
+    <item id="50003" name="首充18" desc="连击+5%" itemId="" money="1800" giftGroupId="1" expiredTime="" fixItems="5000201" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="50004" name="首充18" desc="" itemId="" money="1800" giftGroupId="1" expiredTime="" fixItems="5000204" optionItems="" buyType="3" buyCount="1" takeLevel="40" background="" sysId=""/>
+    <item id="50005" name="首充30" desc="连击+6.7%" itemId="" money="3000" giftGroupId="1" expiredTime="" fixItems="5000301" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="50006" name="首充30" desc="" itemId="" money="3000" giftGroupId="1" expiredTime="" fixItems="5000304" optionItems="" buyType="3" buyCount="1" takeLevel="60" background="" sysId=""/>
+    <item id="60001" name="绝世特惠侠侣礼包1/2" desc="4083%;持持续眩晕;高额暴击" itemId="15001,15003" money="3000" giftGroupId="60001" expiredTime="" fixItems="6000101" optionItems="" buyType="1" buyCount="3" takeLevel="" background="3,15003,1.25,0,0;3,15001,1.4,-50,80" sysId=""/>
+    <item id="60002" name="绝世特惠侠侣礼包1/2" desc="3223%;持持续眩晕;高额暴击" itemId="15001,15003" money="6800" giftGroupId="60001" expiredTime="" fixItems="6000102" optionItems="" buyType="1" buyCount="3" takeLevel="" background="3,15003,1.25,0,0;3,15001,1.4,-50,80" sysId=""/>
+    <item id="60003" name="绝世特惠侠侣礼包1/2" desc="2466%;持持续眩晕;高额暴击" itemId="15001,15003" money="9800" giftGroupId="60001" expiredTime="" fixItems="6000103" optionItems="" buyType="1" buyCount="3" takeLevel="" background="3,15003,1.25,0,0;3,15001,1.4,-50,80" sysId=""/>
+    <item id="60004" name="绝世特惠侠侣礼包1/2" desc="2455%;持持续眩晕;高额暴击" itemId="15001,15003" money="12800" giftGroupId="60001" expiredTime="" fixItems="6000104" optionItems="" buyType="1" buyCount="2" takeLevel="" background="3,15003,1.25,0,0;3,15001,1.4,-50,80" sysId=""/>
+    <item id="60005" name="绝世特惠侠侣礼包1/2" desc="2440%;持持续眩晕;高额暴击" itemId="15001,15003" money="19800" giftGroupId="60001" expiredTime="" fixItems="6000105" optionItems="" buyType="1" buyCount="2" takeLevel="" background="3,15003,1.25,0,0;3,15001,1.4,-50,80" sysId=""/>
+    <item id="60006" name="绝世特惠侠侣礼包1/2" desc="2430%;持持续眩晕;高额暴击" itemId="15001,15003" money="32800" giftGroupId="60001" expiredTime="" fixItems="6000106" optionItems="" buyType="1" buyCount="2" takeLevel="" background="3,15003,1.25,0,0;3,15001,1.4,-50,80" sysId=""/>
+    <item id="60007" name="绝世特惠侠侣礼包2/2" desc="4083%;持持续眩晕;高额暴击" itemId="15001,15003" money="3000" giftGroupId="60003" expiredTime="" fixItems="6000301" optionItems="" buyType="1" buyCount="3" takeLevel="" background="3,15003,1.25,0,0;3,15001,1.4,-50,80" sysId=""/>
+    <item id="60008" name="绝世特惠侠侣礼包2/2" desc="3223%;持持续眩晕;高额暴击" itemId="15001,15003" money="6800" giftGroupId="60003" expiredTime="" fixItems="6000302" optionItems="" buyType="1" buyCount="3" takeLevel="" background="3,15003,1.25,0,0;3,15001,1.4,-50,80" sysId=""/>
+    <item id="60009" name="绝世特惠侠侣礼包2/2" desc="2466%;持持续眩晕;高额暴击" itemId="15001,15003" money="9800" giftGroupId="60003" expiredTime="" fixItems="6000303" optionItems="" buyType="1" buyCount="3" takeLevel="" background="3,15003,1.25,0,0;3,15001,1.4,-50,80" sysId=""/>
+    <item id="60010" name="绝世特惠侠侣礼包2/2" desc="2455%;持持续眩晕;高额暴击" itemId="15001,15003" money="12800" giftGroupId="60003" expiredTime="" fixItems="6000304" optionItems="" buyType="1" buyCount="2" takeLevel="" background="3,15003,1.25,0,0;3,15001,1.4,-50,80" sysId=""/>
+    <item id="60011" name="绝世特惠侠侣礼包2/2" desc="2440%;持持续眩晕;高额暴击" itemId="15001,15003" money="19800" giftGroupId="60003" expiredTime="" fixItems="6000305" optionItems="" buyType="1" buyCount="2" takeLevel="" background="3,15003,1.25,0,0;3,15001,1.4,-50,80" sysId=""/>
+    <item id="60012" name="绝世特惠侠侣礼包2/2" desc="2430%;持持续眩晕;高额暴击" itemId="15001,15003" money="32800" giftGroupId="60003" expiredTime="" fixItems="6000306" optionItems="" buyType="1" buyCount="2" takeLevel="" background="3,15003,1.25,0,0;3,15001,1.4,-50,80" sysId=""/>
+    <item id="60013" name="绝世特惠门客礼包1/2" desc="2433%;反击连击" itemId="20041,20043" money="3000" giftGroupId="60005" expiredTime="" fixItems="6000501" optionItems="" buyType="1" buyCount="3" takeLevel="" background="1,20043,2,0,0" sysId=""/>
+    <item id="60014" name="绝世特惠门客礼包1/2" desc="2400%;反击连击" itemId="20041,20043" money="6800" giftGroupId="60005" expiredTime="" fixItems="6000502" optionItems="" buyType="1" buyCount="3" takeLevel="" background="1,20043,2,0,0" sysId=""/>
+    <item id="60015" name="绝世特惠门客礼包1/2" desc="3410%;反击连击" itemId="20041,20043" money="9800" giftGroupId="60005" expiredTime="" fixItems="6000503" optionItems="" buyType="1" buyCount="3" takeLevel="" background="1,20043,2,0,0" sysId=""/>
+    <item id="60016" name="绝世特惠门客礼包1/2" desc="3181%;反击连击" itemId="20041,20043" money="12800" giftGroupId="60005" expiredTime="" fixItems="6000504" optionItems="" buyType="1" buyCount="2" takeLevel="" background="1,20043,2,0,0" sysId=""/>
+    <item id="60017" name="绝世特惠门客礼包1/2" desc="3415%;反击连击" itemId="20041,20043" money="19800" giftGroupId="60005" expiredTime="" fixItems="6000505" optionItems="" buyType="1" buyCount="2" takeLevel="" background="1,20043,2,0,0" sysId=""/>
+    <item id="60018" name="绝世特惠门客礼包1/2" desc="3314%;反击连击" itemId="20041,20043" money="32800" giftGroupId="60005" expiredTime="" fixItems="6000506" optionItems="" buyType="1" buyCount="2" takeLevel="" background="1,20043,2,0,0" sysId=""/>
+    <item id="60019" name="绝世特惠门客礼包2/2" desc="2433%;免伤提升" itemId="20041,20043" money="3000" giftGroupId="60007" expiredTime="" fixItems="6000701" optionItems="" buyType="1" buyCount="3" takeLevel="" background="2,20041,2,0,0" sysId=""/>
+    <item id="60020" name="绝世特惠门客礼包2/2" desc="2400%;免伤提升" itemId="20041,20043" money="6800" giftGroupId="60007" expiredTime="" fixItems="6000702" optionItems="" buyType="1" buyCount="3" takeLevel="" background="2,20041,2,0,0" sysId=""/>
+    <item id="60021" name="绝世特惠门客礼包2/2" desc="3410%;免伤提升" itemId="20041,20043" money="9800" giftGroupId="60007" expiredTime="" fixItems="6000703" optionItems="" buyType="1" buyCount="3" takeLevel="" background="2,20041,2,0,0" sysId=""/>
+    <item id="60022" name="绝世特惠门客礼包2/2" desc="3181%;免伤提升" itemId="20041,20043" money="12800" giftGroupId="60007" expiredTime="" fixItems="6000704" optionItems="" buyType="1" buyCount="2" takeLevel="" background="2,20041,2,0,0" sysId=""/>
+    <item id="60023" name="绝世特惠门客礼包2/2" desc="3415%;免伤提升" itemId="20041,20043" money="19800" giftGroupId="60007" expiredTime="" fixItems="6000705" optionItems="" buyType="1" buyCount="2" takeLevel="" background="2,20041,2,0,0" sysId=""/>
+    <item id="60024" name="绝世特惠门客礼包2/2" desc="3314%;免伤提升" itemId="20041,20043" money="32800" giftGroupId="60007" expiredTime="" fixItems="6000706" optionItems="" buyType="1" buyCount="2" takeLevel="" background="2,20041,2,0,0" sysId=""/>
+    <item id="60025" name="绝世特惠秘籍礼包1/2" desc="1983%,绝学,自选推荐" itemId="30003,30006,30042" money="3000" giftGroupId="60009" expiredTime="" fixItems="6000901" optionItems="" buyType="1" buyCount="3" takeLevel="" background="4,30006-30003-30042" sysId=""/>
+    <item id="60026" name="绝世特惠秘籍礼包1/2" desc="1922%,绝学,自选推荐" itemId="30003,30006,30042" money="6800" giftGroupId="60009" expiredTime="" fixItems="6000902" optionItems="" buyType="1" buyCount="3" takeLevel="" background="4,30006-30003-30042" sysId=""/>
+    <item id="60027" name="绝世特惠秘籍礼包1/2" desc="2936%,绝学,自选推荐" itemId="30003,30006,30042" money="9800" giftGroupId="60009" expiredTime="" fixItems="6000903" optionItems="" buyType="1" buyCount="3" takeLevel="" background="4,30006-30003-30042" sysId=""/>
+    <item id="60028" name="绝世特惠秘籍礼包1/2" desc="2713%,绝学,自选推荐" itemId="30003,30006,30042" money="12800" giftGroupId="60009" expiredTime="" fixItems="6000904" optionItems="" buyType="1" buyCount="2" takeLevel="" background="4,30006-30003-30042" sysId=""/>
+    <item id="60029" name="绝世特惠秘籍礼包1/2" desc="2930%,绝学,自选推荐" itemId="30003,30006,30042" money="19800" giftGroupId="60009" expiredTime="" fixItems="6000905" optionItems="" buyType="1" buyCount="2" takeLevel="" background="4,30006-30003-30042" sysId=""/>
+    <item id="60030" name="绝世特惠秘籍礼包1/2" desc="2834%,绝学,自选推荐" itemId="30003,30006,30042" money="32800" giftGroupId="60009" expiredTime="" fixItems="6000906" optionItems="" buyType="1" buyCount="2" takeLevel="" background="4,30006-30003-30042" sysId=""/>
+    <item id="60031" name="绝世特惠秘籍礼包2/2" desc="1983%,绝学,自选推荐" itemId="30003,30006,30042" money="3000" giftGroupId="60011" expiredTime="" fixItems="6001101" optionItems="" buyType="1" buyCount="3" takeLevel="" background="4,30006-30003-30042" sysId=""/>
+    <item id="60032" name="绝世特惠秘籍礼包2/2" desc="1922%,绝学,自选推荐" itemId="30003,30006,30042" money="6800" giftGroupId="60011" expiredTime="" fixItems="6001102" optionItems="" buyType="1" buyCount="3" takeLevel="" background="4,30006-30003-30042" sysId=""/>
+    <item id="60033" name="绝世特惠秘籍礼包2/2" desc="2936%,绝学,自选推荐" itemId="30003,30006,30042" money="9800" giftGroupId="60011" expiredTime="" fixItems="6001103" optionItems="" buyType="1" buyCount="3" takeLevel="" background="4,30006-30003-30042" sysId=""/>
+    <item id="60034" name="绝世特惠秘籍礼包2/2" desc="2713%,绝学,自选推荐" itemId="30003,30006,30042" money="12800" giftGroupId="60011" expiredTime="" fixItems="6001104" optionItems="" buyType="1" buyCount="2" takeLevel="" background="4,30006-30003-30042" sysId=""/>
+    <item id="60035" name="绝世特惠秘籍礼包2/2" desc="2930%,绝学,自选推荐" itemId="30003,30006,30042" money="19800" giftGroupId="60011" expiredTime="" fixItems="6001105" optionItems="" buyType="1" buyCount="2" takeLevel="" background="4,30006-30003-30042" sysId=""/>
+    <item id="60036" name="绝世特惠秘籍礼包2/2" desc="2834%,绝学,自选推荐" itemId="30003,30006,30042" money="32800" giftGroupId="60011" expiredTime="" fixItems="6001106" optionItems="" buyType="1" buyCount="2" takeLevel="" background="4,30006-30003-30042" sysId=""/>
+    <item id="70001" name="聚宝盆4元礼包" desc="" itemId="" money="400" giftGroupId="70001" expiredTime="" fixItems="70001" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="70002" name="聚宝盆5元礼包" desc="" itemId="" money="500" giftGroupId="70001" expiredTime="" fixItems="70002" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="70003" name="聚宝盆7元礼包" desc="" itemId="" money="700" giftGroupId="70001" expiredTime="" fixItems="70003" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="70004" name="聚宝盆9元礼包" desc="" itemId="" money="900" giftGroupId="70001" expiredTime="" fixItems="70004" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="70005" name="聚宝盆12元礼包" desc="" itemId="" money="1200" giftGroupId="70001" expiredTime="" fixItems="70005" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="70006" name="聚宝盆15元礼包" desc="" itemId="" money="1500" giftGroupId="70001" expiredTime="" fixItems="70006" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="70007" name="聚宝盆19元礼包" desc="" itemId="" money="1900" giftGroupId="70001" expiredTime="" fixItems="70007" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="70008" name="聚宝盆24元礼包" desc="" itemId="" money="2400" giftGroupId="70001" expiredTime="" fixItems="70008" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+    <item id="70009" name="聚宝盆30元礼包" desc="" itemId="" money="3000" giftGroupId="70001" expiredTime="" fixItems="70009" optionItems="" buyType="3" buyCount="1" takeLevel="" background="" sysId=""/>
+  </gift>
+  <item>
+    <item id="1" protoId="120001" count="1" groupId="2" btype="4" bvalue="100" sysId="" equipId=""/>
+    <item id="2" protoId="120002" count="2" groupId="2" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="3" protoId="120002" count="3" groupId="2" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4" protoId="120003" count="2" groupId="2" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="5" protoId="120004" count="6" groupId="2" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6" protoId="120005" count="10" groupId="2" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7" protoId="120006" count="2" groupId="2" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="1001201" protoId="" count="" groupId="10012" btype="4" bvalue="180" sysId="" equipId=""/>
+    <item id="1001202" protoId="120001" count="150" groupId="10012" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="1001203" protoId="120008" count="4000" groupId="10012" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="1001301" protoId="" count="" groupId="10013" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="1001302" protoId="120001" count="600" groupId="10013" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="1001303" protoId="120009" count="200" groupId="10013" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2000001" protoId="120001" count="10" groupId="2000001" btype="4" bvalue="10" sysId="" equipId=""/>
+    <item id="2000101" protoId="" count="" groupId="2000101" btype="4" bvalue="60" sysId="" equipId=""/>
+    <item id="2000103" protoId="120001" count="130" groupId="2000102" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2000104" protoId="120002" count="35" groupId="2000102" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2000105" protoId="120017" count="35" groupId="2000102" btype="" bvalue="" sysId="7" equipId=""/>
+    <item id="2000106" protoId="120007" count="3" groupId="2000102" btype="" bvalue="" sysId="11" equipId=""/>
+    <item id="2000107" protoId="120009" count="70" groupId="2000102" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000108" protoId="120014" count="50" groupId="2000102" btype="" bvalue="" sysId="4" equipId=""/>
+    <item id="2000109" protoId="120004" count="70" groupId="2000102" btype="" bvalue="" sysId="13" equipId=""/>
+    <item id="2000110" protoId="120016" count="90" groupId="2000102" btype="" bvalue="" sysId="5" equipId=""/>
+    <item id="2000111" protoId="" count="" groupId="2000102" btype="2" bvalue="70000" sysId="" equipId=""/>
+    <item id="2000112" protoId="120020" count="140" groupId="2000102" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000113" protoId="120025" count="140" groupId="2000102" btype="" bvalue="" sysId="19" equipId=""/>
+    <item id="2000201" protoId="" count="" groupId="2000201" btype="4" bvalue="120" sysId="" equipId=""/>
+    <item id="2000203" protoId="120001" count="200" groupId="2000202" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2000204" protoId="120002" count="35" groupId="2000202" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2000205" protoId="120017" count="60" groupId="2000202" btype="" bvalue="" sysId="7" equipId=""/>
+    <item id="2000206" protoId="120007" count="6" groupId="2000202" btype="" bvalue="" sysId="11" equipId=""/>
+    <item id="2000207" protoId="120009" count="120" groupId="2000202" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000208" protoId="120014" count="80" groupId="2000202" btype="" bvalue="" sysId="4" equipId=""/>
+    <item id="2000209" protoId="120004" count="120" groupId="2000202" btype="" bvalue="" sysId="13" equipId=""/>
+    <item id="2000210" protoId="120016" count="150" groupId="2000202" btype="" bvalue="" sysId="5" equipId=""/>
+    <item id="2000211" protoId="" count="" groupId="2000202" btype="2" bvalue="120000" sysId="" equipId=""/>
+    <item id="2000212" protoId="120020" count="240" groupId="2000202" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000213" protoId="120025" count="240" groupId="2000202" btype="" bvalue="" sysId="19" equipId=""/>
+    <item id="2000301" protoId="" count="" groupId="2000301" btype="4" bvalue="180" sysId="" equipId=""/>
+    <item id="2000302" protoId="120001" count="200" groupId="2000302" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2000303" protoId="120017" count="50" groupId="2000302" btype="" bvalue="" sysId="7" equipId=""/>
+    <item id="2000304" protoId="120007" count="5" groupId="2000302" btype="" bvalue="" sysId="11" equipId=""/>
+    <item id="2000305" protoId="120009" count="100" groupId="2000302" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000306" protoId="120014" count="70" groupId="2000302" btype="" bvalue="" sysId="4" equipId=""/>
+    <item id="2000307" protoId="120004" count="100" groupId="2000302" btype="" bvalue="" sysId="13" equipId=""/>
+    <item id="2000308" protoId="120020" count="200" groupId="2000302" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000309" protoId="120025" count="200" groupId="2000302" btype="" bvalue="" sysId="19" equipId=""/>
+    <item id="2000310" protoId="120015" count="10" groupId="2000309" btype="" bvalue="" sysId="4" equipId=""/>
+    <item id="2000311" protoId="120002" count="30" groupId="2000309" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2000312" protoId="120008" count="1200" groupId="2000309" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000313" protoId="120005" count="6" groupId="2000309" btype="" bvalue="" sysId="13" equipId=""/>
+    <item id="2000314" protoId="120006" count="3000" groupId="2000309" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000315" protoId="120016" count="75" groupId="2000309" btype="" bvalue="" sysId="5" equipId=""/>
+    <item id="2000316" protoId="" count="" groupId="2000309" btype="2" bvalue="60000" sysId="" equipId=""/>
+    <item id="2000401" protoId="" count="" groupId="2000401" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="2000402" protoId="120001" count="320" groupId="2000402" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2000403" protoId="120017" count="80" groupId="2000402" btype="" bvalue="" sysId="7" equipId=""/>
+    <item id="2000404" protoId="120007" count="10" groupId="2000402" btype="" bvalue="" sysId="11" equipId=""/>
+    <item id="2000405" protoId="120009" count="160" groupId="2000402" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000406" protoId="120014" count="100" groupId="2000402" btype="" bvalue="" sysId="4" equipId=""/>
+    <item id="2000407" protoId="120004" count="160" groupId="2000402" btype="" bvalue="" sysId="13" equipId=""/>
+    <item id="2000408" protoId="120020" count="300" groupId="2000402" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000409" protoId="120025" count="300" groupId="2000402" btype="" bvalue="" sysId="19" equipId=""/>
+    <item id="2000410" protoId="120015" count="10" groupId="2000409" btype="" bvalue="" sysId="4" equipId=""/>
+    <item id="2000411" protoId="120002" count="40" groupId="2000409" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2000412" protoId="120008" count="1600" groupId="2000409" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000413" protoId="120005" count="8" groupId="2000409" btype="" bvalue="" sysId="13" equipId=""/>
+    <item id="2000414" protoId="120006" count="4000" groupId="2000409" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000415" protoId="120016" count="100" groupId="2000409" btype="" bvalue="" sysId="5" equipId=""/>
+    <item id="2000416" protoId="" count="" groupId="2000409" btype="2" bvalue="80000" sysId="" equipId=""/>
+    <item id="2000501" protoId="" count="" groupId="2000501" btype="4" bvalue="1280" sysId="" equipId=""/>
+    <item id="2000502" protoId="120017" count="200" groupId="2000502" btype="" bvalue="" sysId="7" equipId=""/>
+    <item id="2000503" protoId="120007" count="20" groupId="2000502" btype="" bvalue="" sysId="11" equipId=""/>
+    <item id="2000504" protoId="120009" count="400" groupId="2000502" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000505" protoId="120014" count="300" groupId="2000502" btype="" bvalue="" sysId="4" equipId=""/>
+    <item id="2000506" protoId="120004" count="400" groupId="2000502" btype="" bvalue="" sysId="13" equipId=""/>
+    <item id="2000507" protoId="120020" count="800" groupId="2000502" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000508" protoId="120025" count="800" groupId="2000502" btype="" bvalue="" sysId="19" equipId=""/>
+    <item id="2000509" protoId="120015" count="60" groupId="2000509" btype="" bvalue="" sysId="4" equipId=""/>
+    <item id="2000510" protoId="120008" count="8000" groupId="2000509" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000511" protoId="120005" count="40" groupId="2000509" btype="" bvalue="" sysId="13" equipId=""/>
+    <item id="2000512" protoId="120006" count="20000" groupId="2000509" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000513" protoId="120016" count="500" groupId="2000509" btype="" bvalue="" sysId="5" equipId=""/>
+    <item id="2000514" protoId="" count="" groupId="2000509" btype="2" bvalue="400000" sysId="" equipId=""/>
+    <item id="2000601" protoId="" count="" groupId="2000601" btype="4" bvalue="1980" sysId="" equipId=""/>
+    <item id="2000602" protoId="120017" count="300" groupId="2000602" btype="" bvalue="" sysId="7" equipId=""/>
+    <item id="2000603" protoId="120007" count="30" groupId="2000602" btype="" bvalue="" sysId="11" equipId=""/>
+    <item id="2000604" protoId="120009" count="600" groupId="2000602" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000605" protoId="120014" count="400" groupId="2000602" btype="" bvalue="" sysId="4" equipId=""/>
+    <item id="2000606" protoId="120004" count="600" groupId="2000602" btype="" bvalue="" sysId="13" equipId=""/>
+    <item id="2000607" protoId="120020" count="1200" groupId="2000602" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000608" protoId="120025" count="1200" groupId="2000602" btype="" bvalue="" sysId="19" equipId=""/>
+    <item id="2000609" protoId="120015" count="60" groupId="2000609" btype="" bvalue="" sysId="4" equipId=""/>
+    <item id="2000610" protoId="120008" count="8000" groupId="2000609" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000611" protoId="120005" count="40" groupId="2000609" btype="" bvalue="" sysId="13" equipId=""/>
+    <item id="2000612" protoId="120006" count="20000" groupId="2000609" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000613" protoId="120016" count="500" groupId="2000609" btype="" bvalue="" sysId="5" equipId=""/>
+    <item id="2000701" protoId="" count="" groupId="2000701" btype="4" bvalue="3280" sysId="" equipId=""/>
+    <item id="2000702" protoId="120017" count="450" groupId="2000702" btype="" bvalue="" sysId="7" equipId=""/>
+    <item id="2000703" protoId="120007" count="45" groupId="2000702" btype="" bvalue="" sysId="11" equipId=""/>
+    <item id="2000704" protoId="120009" count="900" groupId="2000702" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000705" protoId="120020" count="1800" groupId="2000702" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000706" protoId="120025" count="1800" groupId="2000702" btype="" bvalue="" sysId="19" equipId=""/>
+    <item id="2000707" protoId="120015" count="60" groupId="2000709" btype="" bvalue="" sysId="4" equipId=""/>
+    <item id="2000708" protoId="120008" count="8000" groupId="2000709" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000709" protoId="120006" count="20000" groupId="2000709" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000801" protoId="" count="" groupId="2000801" btype="4" bvalue="6480" sysId="" equipId=""/>
+    <item id="2000802" protoId="120017" count="650" groupId="2000802" btype="" bvalue="" sysId="7" equipId=""/>
+    <item id="2000803" protoId="120007" count="65" groupId="2000802" btype="" bvalue="" sysId="11" equipId=""/>
+    <item id="2000804" protoId="120009" count="1300" groupId="2000802" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000805" protoId="120020" count="2600" groupId="2000802" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2000806" protoId="120025" count="2600" groupId="2000802" btype="" bvalue="" sysId="19" equipId=""/>
+    <item id="2000807" protoId="120015" count="180" groupId="2000809" btype="" bvalue="" sysId="4" equipId=""/>
+    <item id="2000808" protoId="120008" count="26000" groupId="2000809" btype="" bvalue="" sysId="9" equipId=""/>
+    <item id="2000809" protoId="120006" count="65000" groupId="2000809" btype="" bvalue="" sysId="14" equipId=""/>
+    <item id="2001001" protoId="120001" count="20" groupId="20010" btype="4" bvalue="10" sysId="" equipId=""/>
+    <item id="2001101" protoId="120001" count="100" groupId="20011" btype="4" bvalue="60" sysId="" equipId=""/>
+    <item id="2001102" protoId="120002" count="8" groupId="20011" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2001201" protoId="120001" count="140" groupId="20012" btype="4" bvalue="120" sysId="" equipId=""/>
+    <item id="2001202" protoId="120009" count="50" groupId="20012" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2001301" protoId="120001" count="180" groupId="20013" btype="4" bvalue="180" sysId="" equipId=""/>
+    <item id="2001302" protoId="120014" count="50" groupId="20013" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2001401" protoId="120009" count="120" groupId="20014" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="2001402" protoId="120008" count="2500" groupId="20014" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2001501" protoId="120016" count="1200" groupId="20015" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="2001601" protoId="120016" count="3000" groupId="20016" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="2001701" protoId="120007" count="20" groupId="20017" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="2001702" protoId="120017" count="40" groupId="20017" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2001801" protoId="120020" count="500" groupId="20018" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="2001802" protoId="120006" count="12000" groupId="20018" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2001901" protoId="120004" count="400" groupId="20019" btype="4" bvalue="1280" sysId="" equipId=""/>
+    <item id="2001902" protoId="120005" count="40" groupId="20019" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2002001" protoId="120014" count="300" groupId="20020" btype="4" bvalue="1980" sysId="" equipId=""/>
+    <item id="2002002" protoId="120015" count="60" groupId="20020" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2002003" protoId="120017" count="100" groupId="20020" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2002101" protoId="120009" count="600" groupId="20021" btype="4" bvalue="3280" sysId="" equipId=""/>
+    <item id="2002102" protoId="120008" count="12000" groupId="20021" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2002103" protoId="120001" count="250" groupId="20021" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2002201" protoId="120007" count="115" groupId="20022" btype="4" bvalue="6480" sysId="" equipId=""/>
+    <item id="2002202" protoId="120017" count="100" groupId="20022" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2002203" protoId="120001" count="250" groupId="20022" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2002301" protoId="120020" count="1500" groupId="20023" btype="4" bvalue="3280" sysId="" equipId=""/>
+    <item id="2002302" protoId="120006" count="30000" groupId="20023" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003001" protoId="120001" count="10" groupId="20030" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003002" protoId="" count="" groupId="20031" btype="4" bvalue="30" sysId="" equipId=""/>
+    <item id="2003003" protoId="120001" count="100" groupId="20031" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003004" protoId="" count="" groupId="20032" btype="4" bvalue="60" sysId="" equipId=""/>
+    <item id="2003005" protoId="120001" count="100" groupId="20032" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003006" protoId="120009" count="30" groupId="20032" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003007" protoId="" count="" groupId="20033" btype="4" bvalue="120" sysId="" equipId=""/>
+    <item id="2003008" protoId="120015" count="10" groupId="20033" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003009" protoId="120009" count="60" groupId="20033" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003010" protoId="" count="" groupId="20034" btype="4" bvalue="60" sysId="" equipId=""/>
+    <item id="2003011" protoId="120001" count="120" groupId="20034" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003012" protoId="" count="" groupId="20035" btype="4" bvalue="180" sysId="" equipId=""/>
+    <item id="2003013" protoId="120001" count="120" groupId="20035" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003014" protoId="120017" count="45" groupId="20035" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003015" protoId="" count="" groupId="20036" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="2003016" protoId="120001" count="120" groupId="20036" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003017" protoId="120009" count="145" groupId="20036" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003018" protoId="" count="" groupId="20037" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="2003019" protoId="120001" count="120" groupId="20037" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003020" protoId="120020" count="288" groupId="20037" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003021" protoId="" count="" groupId="20038" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="2003022" protoId="120001" count="120" groupId="20038" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003023" protoId="120007" count="18" groupId="20038" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003024" protoId="" count="" groupId="20039" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="2003025" protoId="120001" count="120" groupId="20039" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003026" protoId="120004" count="145" groupId="20039" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003027" protoId="" count="" groupId="20040" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="2003028" protoId="120016" count="1200" groupId="20040" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003029" protoId="" count="" groupId="20041" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="2003030" protoId="120039" count="16" groupId="20041" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003031" protoId="" count="" groupId="20042" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="2003032" protoId="120009" count="275" groupId="20042" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003033" protoId="" count="" groupId="20043" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="2003034" protoId="120016" count="2500" groupId="20043" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003035" protoId="" count="" groupId="20044" btype="4" bvalue="1280" sysId="" equipId=""/>
+    <item id="2003036" protoId="120020" count="1024" groupId="20044" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003037" protoId="" count="" groupId="20045" btype="4" bvalue="1280" sysId="" equipId=""/>
+    <item id="2003038" protoId="120007" count="64" groupId="20045" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003039" protoId="" count="" groupId="20046" btype="4" bvalue="1280" sysId="" equipId=""/>
+    <item id="2003040" protoId="120004" count="512" groupId="20046" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003041" protoId="" count="" groupId="20047" btype="4" bvalue="1980" sysId="" equipId=""/>
+    <item id="2003042" protoId="120039" count="40" groupId="20047" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003043" protoId="" count="" groupId="20048" btype="4" bvalue="3280" sysId="" equipId=""/>
+    <item id="2003044" protoId="120009" count="1180" groupId="20048" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003045" protoId="" count="" groupId="20049" btype="4" bvalue="3280" sysId="" equipId=""/>
+    <item id="2003046" protoId="120007" count="148" groupId="20049" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003047" protoId="" count="" groupId="20050" btype="4" bvalue="3280" sysId="" equipId=""/>
+    <item id="2003048" protoId="120020" count="2360" groupId="20050" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003049" protoId="" count="" groupId="20051" btype="4" bvalue="3280" sysId="" equipId=""/>
+    <item id="2003050" protoId="120004" count="1180" groupId="20051" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003051" protoId="" count="" groupId="20052" btype="4" bvalue="5120" sysId="" equipId=""/>
+    <item id="2003052" protoId="141001" count="1" groupId="20052" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="2003053" protoId="" count="" groupId="20053" btype="4" bvalue="6480" sysId="" equipId=""/>
+    <item id="2003054" protoId="120039" count="108" groupId="20053" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4000101" protoId="120020" count="200" groupId="40001" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4000102" protoId="133006" count="5" groupId="40001" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4000103" protoId="133007" count="3" groupId="40001" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4000201" protoId="120020" count="400" groupId="40002" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4000202" protoId="133006" count="10" groupId="40002" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4000203" protoId="133007" count="5" groupId="40002" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4000301" protoId="120020" count="400" groupId="40003" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4000302" protoId="133008" count="3" groupId="40003" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4000303" protoId="133007" count="10" groupId="40003" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4001101" protoId="" count="" groupId="40011" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="4001102" protoId="120004" count="150" groupId="40011" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4001103" protoId="120005" count="15" groupId="40011" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4001201" protoId="" count="" groupId="40012" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="4001202" protoId="120004" count="300" groupId="40012" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4001203" protoId="120005" count="30" groupId="40012" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4001301" protoId="" count="" groupId="40013" btype="4" bvalue="1280" sysId="" equipId=""/>
+    <item id="4001302" protoId="120004" count="500" groupId="40013" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4001303" protoId="120005" count="50" groupId="40013" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4002101" protoId="120009" count="130" groupId="40021" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4002102" protoId="120007" count="10" groupId="40021" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4002201" protoId="120009" count="280" groupId="40022" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4002202" protoId="120007" count="20" groupId="40022" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4002301" protoId="120009" count="500" groupId="40023" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4002302" protoId="120007" count="30" groupId="40023" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4003101" protoId="" count="" groupId="40031" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="4003102" protoId="120014" count="100" groupId="40031" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4003103" protoId="120015" count="20" groupId="40031" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4003201" protoId="" count="" groupId="40032" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="4003202" protoId="120014" count="200" groupId="40032" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4003203" protoId="120015" count="40" groupId="40032" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4003301" protoId="" count="" groupId="40033" btype="4" bvalue="1280" sysId="" equipId=""/>
+    <item id="4003302" protoId="120014" count="350" groupId="40033" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4003303" protoId="120015" count="70" groupId="40033" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4004101" protoId="120001" count="1" groupId="40041" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4004102" protoId="120001" count="1" groupId="40041" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4004103" protoId="120001" count="1" groupId="40041" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4004201" protoId="120001" count="1" groupId="40042" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4004202" protoId="120001" count="1" groupId="40042" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4004203" protoId="120001" count="1" groupId="40042" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4004301" protoId="120001" count="1" groupId="40043" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4004302" protoId="120001" count="1" groupId="40043" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4004303" protoId="120001" count="1" groupId="40043" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4005101" protoId="" count="" groupId="40051" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="4005102" protoId="120018" count="25" groupId="40051" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4005103" protoId="120017" count="75" groupId="40051" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4005201" protoId="" count="" groupId="40052" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="4005202" protoId="120018" count="50" groupId="40052" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4005203" protoId="120017" count="150" groupId="40052" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4005301" protoId="" count="" groupId="40053" btype="4" bvalue="1280" sysId="" equipId=""/>
+    <item id="4005302" protoId="120019" count="25" groupId="40053" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4005303" protoId="120017" count="250" groupId="40053" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4006101" protoId="" count="" groupId="40061" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="4006102" protoId="120007" count="15" groupId="40061" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4006201" protoId="" count="" groupId="40062" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="4006202" protoId="120007" count="30" groupId="40062" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4006301" protoId="" count="" groupId="40063" btype="4" bvalue="1280" sysId="" equipId=""/>
+    <item id="4006302" protoId="120007" count="50" groupId="40063" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4007101" protoId="" count="" groupId="40071" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="4007102" protoId="120002" count="90" groupId="40071" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4007103" protoId="120001" count="250" groupId="40071" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4007201" protoId="" count="" groupId="40072" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="4007202" protoId="120002" count="200" groupId="40072" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4007203" protoId="120001" count="400" groupId="40072" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4007301" protoId="" count="" groupId="40073" btype="4" bvalue="1280" sysId="" equipId=""/>
+    <item id="4007302" protoId="120002" count="400" groupId="40073" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4007303" protoId="120001" count="500" groupId="40073" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4008101" protoId="" count="" groupId="40081" btype="4" bvalue="600" sysId="" equipId=""/>
+    <item id="4008102" protoId="120001" count="500" groupId="40081" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4008103" protoId="" count="" groupId="40081" btype="2" bvalue="50000" sysId="" equipId=""/>
+    <item id="4008201" protoId="" count="" groupId="40082" btype="4" bvalue="1360" sysId="" equipId=""/>
+    <item id="4008202" protoId="120001" count="800" groupId="40082" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4008203" protoId="" count="" groupId="40082" btype="2" bvalue="120000" sysId="" equipId=""/>
+    <item id="4008301" protoId="" count="" groupId="40083" btype="4" bvalue="2560" sysId="" equipId=""/>
+    <item id="4008302" protoId="120001" count="1000" groupId="40083" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4008303" protoId="" count="" groupId="40083" btype="2" bvalue="250000" sysId="" equipId=""/>
+    <item id="4009101" protoId="" count="" groupId="40091" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="4009102" protoId="120008" count="6000" groupId="40091" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4009201" protoId="" count="" groupId="40092" btype="4" bvalue="680" sysId="" equipId=""/>
+    <item id="4009202" protoId="120008" count="12500" groupId="40092" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="4009301" protoId="" count="" groupId="40093" btype="4" bvalue="1280" sysId="" equipId=""/>
+    <item id="4009302" protoId="120008" count="20000" groupId="40093" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="5000101" protoId="" count="" groupId="1" btype="" bvalue="" sysId="" equipId="1010000001"/>
+    <item id="5000102" protoId="120001" count="50" groupId="1" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="5000103" protoId="" count="" groupId="1" btype="4" bvalue="100" sysId="" equipId=""/>
+    <item id="5000104" protoId="14001" count="1" groupId="5000104" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="5000105" protoId="120001" count="50" groupId="5000104" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="5000106" protoId="" count="" groupId="5000104" btype="4" bvalue="100" sysId="" equipId=""/>
+    <item id="5000201" protoId="" count="" groupId="5000201" btype="" bvalue="" sysId="" equipId="1020000001"/>
+    <item id="5000202" protoId="142004" count="1" groupId="5000201" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="5000203" protoId="" count="" groupId="5000201" btype="4" bvalue="180" sysId="" equipId=""/>
+    <item id="5000204" protoId="14001" count="1" groupId="5000204" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="5000205" protoId="120007" count="5" groupId="5000204" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="5000206" protoId="" count="" groupId="5000204" btype="4" bvalue="180" sysId="" equipId=""/>
+    <item id="5000301" protoId="" count="" groupId="5000301" btype="" bvalue="" sysId="" equipId="1030000001"/>
+    <item id="5000302" protoId="120009" count="100" groupId="5000301" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="5000303" protoId="" count="" groupId="5000301" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="5000304" protoId="141002" count="1" groupId="5000304" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="5000305" protoId="120009" count="200" groupId="5000304" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="5000306" protoId="" count="" groupId="5000304" btype="4" bvalue="300" sysId="" equipId=""/>
+    <item id="6000101" protoId="141007" count="1" groupId="6000101" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000102" protoId="120008" count="100" groupId="6000101" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000103" protoId="141007" count="1" groupId="6000102" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000104" protoId="120008" count="200" groupId="6000102" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000105" protoId="120009" count="400" groupId="6000102" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000106" protoId="141008" count="1" groupId="6000103" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000107" protoId="120008" count="300" groupId="6000103" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000108" protoId="141008" count="1" groupId="6000104" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000109" protoId="120008" count="400" groupId="6000104" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000110" protoId="120009" count="300" groupId="6000104" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000111" protoId="141008" count="2" groupId="6000105" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000112" protoId="120008" count="600" groupId="6000105" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000113" protoId="141008" count="3" groupId="6000106" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000114" protoId="120008" count="1000" groupId="6000106" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000115" protoId="120009" count="300" groupId="6000106" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000116" protoId="141007" count="1" groupId="6000301" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000117" protoId="120008" count="100" groupId="6000301" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000118" protoId="141007" count="1" groupId="6000302" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000119" protoId="120008" count="200" groupId="6000302" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000120" protoId="120009" count="400" groupId="6000302" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000121" protoId="141008" count="1" groupId="6000303" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000122" protoId="120008" count="300" groupId="6000303" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000123" protoId="141008" count="1" groupId="6000304" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000124" protoId="120008" count="400" groupId="6000304" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000125" protoId="120009" count="300" groupId="6000304" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000126" protoId="141008" count="2" groupId="6000305" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000127" protoId="120008" count="600" groupId="6000305" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000128" protoId="141008" count="3" groupId="6000306" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000129" protoId="120008" count="1000" groupId="6000306" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000130" protoId="120009" count="300" groupId="6000306" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000131" protoId="120007" count="38" groupId="6000501" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000132" protoId="120007" count="85" groupId="6000502" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000133" protoId="142011" count="1" groupId="6000503" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000134" protoId="120007" count="72" groupId="6000503" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000135" protoId="142011" count="1" groupId="6000504" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000136" protoId="120007" count="110" groupId="6000504" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000137" protoId="142011" count="2" groupId="6000505" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000138" protoId="120007" count="148" groupId="6000505" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000139" protoId="142011" count="3" groupId="6000506" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000140" protoId="120007" count="260" groupId="6000506" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000141" protoId="120007" count="38" groupId="6000701" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000142" protoId="120007" count="85" groupId="6000702" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000143" protoId="142011" count="1" groupId="6000703" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000144" protoId="120007" count="72" groupId="6000703" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000145" protoId="142011" count="1" groupId="6000704" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000146" protoId="120007" count="110" groupId="6000704" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000147" protoId="142011" count="2" groupId="6000705" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000148" protoId="120007" count="148" groupId="6000705" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000149" protoId="142011" count="3" groupId="6000706" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000150" protoId="120007" count="260" groupId="6000706" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000151" protoId="120020" count="500" groupId="6000901" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000152" protoId="120020" count="1100" groupId="6000902" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000153" protoId="140002" count="1" groupId="6000903" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000154" protoId="120020" count="380" groupId="6000903" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000155" protoId="140002" count="1" groupId="6000904" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000156" protoId="120020" count="880" groupId="6000904" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000157" protoId="140002" count="2" groupId="6000905" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000158" protoId="120020" count="800" groupId="6000905" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000159" protoId="140002" count="3" groupId="6000906" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000160" protoId="120020" count="1700" groupId="6000906" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000161" protoId="120020" count="500" groupId="6001101" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000162" protoId="120020" count="1100" groupId="6001102" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000163" protoId="140002" count="1" groupId="6001103" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000164" protoId="120020" count="380" groupId="6001103" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000165" protoId="140002" count="1" groupId="6001104" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000166" protoId="120020" count="880" groupId="6001104" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000167" protoId="140002" count="2" groupId="6001105" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000168" protoId="120020" count="800" groupId="6001105" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000169" protoId="140002" count="3" groupId="6001106" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="6000170" protoId="120020" count="1700" groupId="6001106" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000001" protoId="120007" count="2" groupId="70001" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000002" protoId="120001" count="30" groupId="70001" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000003" protoId="120007" count="3" groupId="70002" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000004" protoId="120001" count="40" groupId="70002" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000005" protoId="120007" count="5" groupId="70003" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000006" protoId="120001" count="40" groupId="70003" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000007" protoId="120009" count="60" groupId="70004" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000008" protoId="120001" count="40" groupId="70004" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000009" protoId="120009" count="80" groupId="70005" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000010" protoId="120001" count="60" groupId="70005" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000011" protoId="120009" count="100" groupId="70006" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000012" protoId="120001" count="60" groupId="70006" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000013" protoId="120009" count="128" groupId="70007" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000014" protoId="120001" count="100" groupId="70007" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000015" protoId="120009" count="160" groupId="70008" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000016" protoId="120001" count="120" groupId="70008" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000017" protoId="120009" count="200" groupId="70009" btype="" bvalue="" sysId="" equipId=""/>
+    <item id="7000018" protoId="120001" count="120" groupId="70009" btype="" bvalue="" sysId="" equipId=""/>
+  </item>
+  <dailyGift>
+    <item id="20030" sysId=""/>
+    <item id="20031" sysId=""/>
+    <item id="20032" sysId=""/>
+    <item id="20033" sysId=""/>
+    <item id="20034" sysId=""/>
+    <item id="20035" sysId=""/>
+    <item id="20036" sysId=""/>
+    <item id="20037" sysId=""/>
+    <item id="20038" sysId=""/>
+    <item id="20039" sysId=""/>
+    <item id="20040" sysId=""/>
+    <item id="20042" sysId=""/>
+    <item id="20043" sysId=""/>
+    <item id="20044" sysId=""/>
+    <item id="20045" sysId=""/>
+    <item id="20046" sysId=""/>
+    <item id="20048" sysId=""/>
+    <item id="20049" sysId=""/>
+    <item id="20050" sysId=""/>
+    <item id="20051" sysId=""/>
+    <item id="20052" sysId=""/>
+  </dailyGift>
+  <optionGift>
+    <item id="20000"/>
+    <item id="20001"/>
+    <item id="20002"/>
+    <item id="20003"/>
+    <item id="20004"/>
+    <item id="20005"/>
+    <item id="20006"/>
+    <item id="20007"/>
+    <item id="20008"/>
+  </optionGift>
+  <payCard>
+    <item id="1" type="1" desc="" ptype="1" sort="" itemId="" itemCount="" itemId2="" itemCount2="" stone="300" count="" giveItemId="" giveItemCount=""/>
+    <item id="2" type="1" desc="" ptype="2" sort="" itemId="120001" itemCount="100" itemId2="120039" itemCount2="1" stone="" count="" giveItemId="" giveItemCount=""/>
+    <item id="3" type="1" desc="{0}、每日&lt;color=#55F351&gt;心魔试炼扫荡次数&lt;/color&gt;+{1}" ptype="3" sort="2" itemId="" itemCount="" itemId2="" itemCount2="" stone="" count="2" giveItemId="" giveItemCount=""/>
+    <item id="4" type="1" desc="{0}、鱼塘&lt;color=#55F351&gt;加速&lt;/color&gt;钓鱼" ptype="4" sort="4" itemId="" itemCount="" itemId2="" itemCount2="" stone="" count="" giveItemId="" giveItemCount=""/>
+    <item id="5" type="1" desc="{0}、&lt;color=#55F351&gt;跳过&lt;/color&gt;广告" ptype="5" sort="1" itemId="" itemCount="" itemId2="" itemCount2="" stone="" count="" giveItemId="" giveItemCount=""/>
+    <item id="6" type="1" desc="{0}、存储&lt;color=#55F351&gt;江湖令数量上限&lt;/color&gt;+{1}" ptype="6" sort="3" itemId="" itemCount="" itemId2="" itemCount2="" stone="" count="3" giveItemId="" giveItemCount=""/>
+    <item id="7" type="2" desc="" ptype="1" sort="" itemId="" itemCount="" itemId2="" itemCount2="" stone="1980" count="" giveItemId="" giveItemCount=""/>
+    <item id="8" type="2" desc="" ptype="2" sort="" itemId="120001" itemCount="100" itemId2="120039" itemCount2="1" stone="100" count="" giveItemId="" giveItemCount=""/>
+    <item id="9" type="2" desc="{0}、永久&lt;color=#55F351&gt;跳过&lt;/color&gt;广告" ptype="5" sort="1" itemId="" itemCount="" itemId2="" itemCount2="" stone="" count="" giveItemId="" giveItemCount=""/>
+    <item id="10" type="2" desc="{0}、存储&lt;color=#55F351&gt;江湖令数量上限&lt;/color&gt;+{1}" ptype="6" sort="3" itemId="" itemCount="" itemId2="" itemCount2="" stone="" count="3" giveItemId="" giveItemCount=""/>
+    <item id="11" type="2" desc="{0}、刷新每{1}次，&lt;color=#55F351&gt;必出神话侠侣&lt;/color&gt;" ptype="7" sort="2" itemId="" itemCount="" itemId2="" itemCount2="" stone="" count="20" giveItemId="" giveItemCount=""/>
+    <item id="12" type="2" desc="{0}、修行&lt;color=#55F351&gt;自动&lt;/color&gt;净化" ptype="8" sort="5" itemId="" itemCount="" itemId2="" itemCount2="" stone="" count="" giveItemId="" giveItemCount=""/>
+    <item id="13" type="2" desc="{0}、修行&lt;color=#55F351&gt;加速&lt;/color&gt;净化" ptype="9" sort="4" itemId="" itemCount="" itemId2="" itemCount2="" stone="" count="" giveItemId="" giveItemCount=""/>
+    <item id="14" type="1" desc="{0}、鱼塘&lt;color=#55F351&gt;自动&lt;/color&gt;钓鱼" ptype="10" sort="5" itemId="" itemCount="" itemId2="" itemCount2="" stone="" count="" giveItemId="" giveItemCount=""/>
+  </payCard>
+  <xianyuan>
+    <item id="1" score="0" baseItem="0" extra="0" baseStone="100" extraStone="200,200"/>
+    <item id="2" score="40" baseItem="120001,50" extra="120001,100;120002,25" baseStone="0" extraStone="0"/>
+    <item id="3" score="80" baseItem="120017,5" extra="120018,2;120019,1" baseStone="0" extraStone="0"/>
+    <item id="4" score="120" baseItem="120007,3" extra="120007,5" baseStone="0" extraStone="200"/>
+    <item id="5" score="160" baseItem="120009,50" extra="120009,100;120009,100" baseStone="0" extraStone="0"/>
+    <item id="6" score="200" baseItem="120004,10" extra="120004,50;120005,10" baseStone="0" extraStone="0"/>
+    <item id="7" score="240" baseItem="120014,20" extra="120014,150;120015,30" baseStone="0" extraStone="0"/>
+    <item id="8" score="280" baseItem="120016,10" extra="130009,1;120016,50" baseStone="0" extraStone="0"/>
+    <item id="9" score="320" baseItem="0" extra="0" baseStone="100" extraStone="200,200"/>
+    <item id="10" score="360" baseItem="120001,50" extra="120001,100;120002,25" baseStone="0" extraStone="0"/>
+    <item id="11" score="400" baseItem="120017,5" extra="120018,2;120019,1" baseStone="0" extraStone="0"/>
+    <item id="12" score="440" baseItem="120007,3" extra="120007,5" baseStone="0" extraStone="200"/>
+    <item id="13" score="480" baseItem="120009,50" extra="120009,100;120009,100" baseStone="0" extraStone="0"/>
+    <item id="14" score="520" baseItem="120004,10" extra="120004,50;120005,10" baseStone="0" extraStone="0"/>
+    <item id="15" score="560" baseItem="120014,20" extra="120014,150;120015,30" baseStone="0" extraStone="0"/>
+    <item id="16" score="600" baseItem="120016,10" extra="130010,1;120016,50" baseStone="0" extraStone="0"/>
+  </xianyuan>
+  <xyfl>
+    <item id="3" bonusesId="351001"/>
+    <item id="5" bonusesId="351002"/>
+    <item id="7" bonusesId="351003"/>
+    <item id="10" bonusesId="351004"/>
+    <item id="13" bonusesId="351005"/>
+  </xyfl>
+  <weekCard>
+    <item id="1" bonuses="401001" isFree="1"/>
+    <item id="2" bonuses="401002" isFree="0"/>
+    <item id="3" bonuses="401003" isFree="0"/>
+    <item id="4" bonuses="401004" isFree="0"/>
+  </weekCard>
+  <compositeLifeCard>
+    <item id="1" bonuses="400011" first="400001"/>
+    <item id="2" bonuses="400021" first="400001"/>
+    <item id="3" bonuses="400031" first="400001"/>
+  </compositeLifeCard>
+</root>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="664,100">
+  <displayList>
+    <loader id="n21_lr1w" name="loader_back" xy="307,25" size="50,50" url="ui://6fyplu3llr1wt" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n20_lr1w" name="n20" src="lr1wv" fileName="res/dec_separation-line.png" xy="7,95" size="650,10"/>
+    <loader id="n11_uzk8" name="loader_rank" xy="50,50" pivot="0.5,0.5" anchor="true" size="80,80" url="ui://6fyplu3llr1wp" align="center" vAlign="middle" clearOnPublish="true"/>
+    <text id="n10_f2ag" name="label_rank" xy="0,29" size="100,42" font="ui://27utqbizps391v" fontSize="28" color="#fefffe" align="center" vAlign="middle" autoSize="none" strokeColor="#7b2f2f" autoClearText="true" text="4"/>
+    <component id="n12_uzk8" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="100,10" scale="0.8,0.8"/>
+    <text id="n0_ib4p" name="label_name" xy="185,17" size="200,34" fontSize="24" color="#16191a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="实打实大苏打大大"/>
+    <text id="n17_lr1w" name="label_score" xy="185,52" size="200,34" fontSize="24" color="#16191a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="123456"/>
+    <list id="n18_lr1w" name="list_item" xy="387,11" size="340,100" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" scrollBarFlags="128" colGap="10" defaultItem="ui://6fyplu3lpffj1n" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

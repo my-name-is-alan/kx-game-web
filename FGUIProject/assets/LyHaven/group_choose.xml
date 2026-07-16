@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="518,51">
+  <displayList>
+    <component id="n73_q8va" name="btn_zuhe" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="0,0" size="85,50">
+      <Button title="灵脉组合"/>
+    </component>
+    <component id="n83_k5be" name="cbox_buff" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="236,-2" size="142,48">
+      <ComboBox title="aa" visibleItemCount="10"/>
+    </component>
+    <text id="n85_vp1r" name="n85" xy="168,1" size="60,45" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="采集"/>
+  </displayList>
+</component>

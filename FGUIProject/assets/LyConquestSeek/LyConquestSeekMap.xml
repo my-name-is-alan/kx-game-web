@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetY="-78" designImageAlpha="100" bgColor="#66ffff">
+  <displayList>
+    <graph id="n81_wzpv" name="group_scene" xy="0,-183" size="750,1700" type="rect" lineSize="0" fillColor="#ffb68e72">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n79_v0hr" name="group_map" src="v0hr3k" fileName="group_map1.xml" xy="0,0" size="1875,3335" scale="0.4,0.4">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n47_n6sh" name="n47" src="cda51s" fileName="res/frame_xiayun.png" xy="-128,1015" group="n76_n6sh"/>
+    <component id="n70_n6sh" name="btn_conquestTP" src="n6sh34" fileName="btn_tp.xml" xy="509,948" group="n76_n6sh"/>
+    <component id="n71_n6sh" name="btn_close" src="n6shdu17t" fileName="btn_back2.xml" pkg="27utqbiz" xy="7,1235" group="n76_n6sh"/>
+    <group id="n76_n6sh" name="n76" xy="-128,948" size="1080,489" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <image id="n48_n6sh" name="n48" src="cda51f" fileName="res/frame_zhidinglan.png" xy="0,70" group="n77_n6sh"/>
+    <image id="n49_n6sh" name="n49" src="cda510" fileName="res/frame_xiaoguai2.png" xy="19,89" group="n77_n6sh"/>
+    <image id="n51_n6sh" name="n51" src="cda5v" fileName="res/frame_shouling2.png" xy="77,73" group="n77_n6sh"/>
+    <text id="n60_n6sh" name="n60" xy="23,123" size="40,26" group="n77_n6sh" font="ui://27utqbizps391v" fontSize="18" color="#ffffff" strokeColor="#000000" strokeSize="2" text="游魂"/>
+    <text id="n61_n6sh" name="n61" xy="91,124" size="40,26" group="n77_n6sh" font="ui://27utqbizps391v" fontSize="18" color="#ffffff" strokeColor="#000000" strokeSize="2" text="首领"/>
+    <text id="n62_n6sh" name="n62" xy="162,123" size="40,26" group="n77_n6sh" font="ui://27utqbizps391v" fontSize="18" color="#ffffff" strokeColor="#000000" strokeSize="2" text="队友"/>
+    <text id="n63_n6sh" name="n63" xy="211,123" size="40,26" group="n77_n6sh" font="ui://27utqbizps391v" fontSize="18" color="#ffffff" strokeColor="#000000" strokeSize="2" text="敌人"/>
+    <text id="n64_n6sh" name="n64" xy="263,123" size="40,26" group="n77_n6sh" font="ui://27utqbizps391v" fontSize="18" color="#ffffff" strokeColor="#000000" strokeSize="2" text="自己"/>
+    <component id="n67_n6sh" name="n67" src="n6sh33" fileName="group_point.xml" xy="182,110" group="n77_n6sh" touchable="false">
+      <Button icon="ui://shg18aricda5d"/>
+    </component>
+    <component id="n68_n6sh" name="n68" src="n6sh33" fileName="group_point.xml" xy="231,110" group="n77_n6sh" touchable="false">
+      <Button icon="ui://shg18aricda57"/>
+    </component>
+    <component id="n69_n6sh" name="n69" src="n6sh33" fileName="group_point.xml" xy="284,111" group="n77_n6sh" touchable="false">
+      <Button icon="ui://shg18aricda51g"/>
+    </component>
+    <group id="n77_n6sh" name="n77" xy="0,70" size="750,116" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+  </displayList>
+</component>

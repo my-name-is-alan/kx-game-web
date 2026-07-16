@@ -1,0 +1,83 @@
+
+ui_jingcui_lianhua.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di_2
+  rotate: true
+  xy: 305, 304
+  size: 197, 196
+  orig: 197, 196
+  offset: 0, 0
+  index: -1
+di_3
+  rotate: false
+  xy: 230, 35
+  size: 117, 115
+  orig: 117, 117
+  offset: 0, 2
+  index: -1
+huan
+  rotate: false
+  xy: 2, 34
+  size: 133, 133
+  orig: 135, 135
+  offset: 1, 1
+  index: -1
+light
+  rotate: true
+  xy: 137, 71
+  size: 96, 34
+  orig: 108, 50
+  offset: 11, 12
+  index: -1
+lizi
+  rotate: false
+  xy: 260, 323
+  size: 20, 20
+  orig: 22, 22
+  offset: 1, 1
+  index: -1
+qiu
+  rotate: true
+  xy: 260, 152
+  size: 150, 133
+  orig: 156, 141
+  offset: 3, 2
+  index: -1
+qiu_menban
+  rotate: true
+  xy: 178, 199
+  size: 144, 80
+  orig: 154, 88
+  offset: 5, 2
+  index: -1
+qiu_wu
+  rotate: false
+  xy: 349, 107
+  size: 113, 43
+  orig: 118, 49
+  offset: 3, 1
+  index: -1
+shui
+  rotate: false
+  xy: 2, 169
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1
+wenli
+  rotate: true
+  xy: 178, 86
+  size: 111, 50
+  orig: 121, 66
+  offset: 5, 1
+  index: -1
+wu
+  rotate: false
+  xy: 2, 345
+  size: 301, 156
+  orig: 320, 183
+  offset: 19, 4
+  index: -1

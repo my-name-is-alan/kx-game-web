@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" extention="Button">
+  <controller name="c1" pages="0,,4,,1,,2," selected="0">
+    <remark page="0" value="已解锁"/>
+    <remark page="1" value="已解锁没宠物"/>
+    <remark page="2" value="可解锁"/>
+    <remark page="3" value="未解锁"/>
+  </controller>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n7_i05h" name="img_quality" xy="0,0" size="100,100" group="n24_bzm0" visible="false" url="ui://27utqbizewyh3"/>
+    <loader id="n8_i05h" name="img_icon" xy="0,1" size="100,100" group="n24_bzm0" url="ui://27utqbizi809lz" align="center" vAlign="middle" fill="scaleFree"/>
+    <image id="n43_81of" name="n43" src="y9su54" fileName="ui/frame_menke level.png" pkg="27utqbiz" xy="48,76" group="n24_bzm0"/>
+    <text id="n9_i05h" name="label_level" xy="46,71" pivot="1,0" size="51,29" group="n24_bzm0" fontSize="20" color="#ffffff" align="right" vAlign="middle" strokeColor="#000000" autoClearText="true" text="adsa"/>
+    <loader id="n46_81of" name="img_star1" xy="2,4" size="23,22" group="n22_i05h" aspect="true" url="ui://eawofj71i80977" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n47_81of" name="img_star2" xy="21,4" size="22,22" group="n22_i05h" url="ui://eawofj71i80973" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n48_81of" name="img_star3" xy="39,4" size="22,22" group="n22_i05h" aspect="true" url="ui://eawofj71i80974" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n49_81of" name="img_star4" xy="57,4" size="22,22" group="n22_i05h" aspect="true" url="ui://eawofj71i80975" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n50_81of" name="img_star5" xy="75,4" size="22,22" group="n22_i05h" aspect="true" url="ui://eawofj71i80976" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <group id="n22_i05h" name="n22" xy="2,4" size="95,22" group="n24_bzm0" advanced="true" layout="hz" colGap="-4" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <component id="n10_i05h" name="btn_frame" src="ewyhe" fileName="itemframe/btn_item.xml" pkg="27utqbiz" xy="-1,0" group="n24_bzm0"/>
+    <image id="n52_yqrs" name="n52" src="81of5d" fileName="res1/frame_xuanzhongkuang.png" xy="-7,-7" size="115,115" group="n24_bzm0" aspect="true">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n44_81of" name="n44" src="81of5e" fileName="res1/frame_yishangzhen.png" xy="-3,0" size="27,81" group="n15_i05h" aspect="true"/>
+    <group id="n15_i05h" name="group_summonPet" xy="-3,0" size="27,81" group="n24_bzm0" advanced="true"/>
+    <image id="n45_81of" name="group_isLock" src="ar1l16" fileName="ui/icon_lock.png" pkg="27utqbiz" xy="-2,84" size="36,18" group="n24_bzm0" aspect="true"/>
+    <group id="n24_bzm0" name="n24" xy="-7,-7" size="115,115" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n39_ar1l" name="n39" src="ar1l6v" fileName="itemframe/item_back0.png" pkg="27utqbiz" xy="0,0" group="n28_bzm0"/>
+    <text id="n26_bzm0" name="label_cellGold" xy="46,35" size="37,29" group="n28_bzm0" fontSize="20" color="#9f474f" vAlign="middle" text="999"/>
+    <loader id="n27_bzm0" name="n27" xy="5,31" size="38,38" group="n28_bzm0" aspect="true" url="ui://27utqbizi5tz7t" fill="scaleFree"/>
+    <group id="n28_bzm0" name="n28" xy="0,0" size="100,100" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n38_ar1l" name="n38" src="ar1l6v" fileName="itemframe/item_back0.png" pkg="27utqbiz" xy="0,0" group="n31_bzm0"/>
+    <image id="n51_81of" name="n51" src="81of59" fileName="res1/btn_lock.png" xy="0,0" size="100,100" group="n31_bzm0"/>
+    <group id="n31_bzm0" name="n31" xy="0,0" size="100,100" advanced="true">
+      <gearDisplay controller="c1" pages="2"/>
+    </group>
+    <image id="n40_ar1l" name="n40" src="ar1l6v" fileName="itemframe/item_back0.png" pkg="27utqbiz" xy="0,0" group="n36_bzm0"/>
+    <image id="n41_81of" name="n41" src="lqjl46" fileName="ui/icon_add.png" pkg="27utqbiz" xy="0,0" group="n36_bzm0"/>
+    <group id="n36_bzm0" name="n36" xy="0,0" size="100,100" advanced="true">
+      <gearDisplay controller="c1" pages="4"/>
+    </group>
+    <image id="n53_h8ui" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="84,0" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

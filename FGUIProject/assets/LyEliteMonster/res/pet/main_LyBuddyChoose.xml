@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="716,397">
+  <controller name="c1" exported="true" pages="0,队长,1,队员" selected="0"/>
+  <displayList>
+    <image id="n2_me8j" name="n2" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="12,7" size="695,395">
+      <gearXY controller="c1" pages="0,1" values="12,7|12,-1"/>
+      <gearSize controller="c1" pages="0,1" values="695,395,1,1|695,408,1,1"/>
+    </image>
+    <image id="n6_me8j" name="n6" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="46,93" size="623,237">
+      <gearXY controller="c1" pages="0,1" values="46,93|46,90"/>
+      <gearSize controller="c1" pages="0,1" values="623,237,1,1|623,286,1,1"/>
+    </image>
+    <list id="n8_me8j" name="list_pet" xy="136,105" size="466,223" layout="flow_hz" overflow="scroll" lineGap="-7" colGap="31" defaultItem="ui://xcpqvzp3me8jrm" autoClearItems="true">
+      <gearXY controller="c1" pages="0,1" values="136,105|136,99"/>
+      <gearSize controller="c1" pages="0,1" values="466,223,1,1|466,268,1,1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5_me8j" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="652,-22">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n3_me8j" name="n3" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="174,44" size="375,38" group="n10_me8j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="n4_me8j" sidePair="width-width"/>
+    </image>
+    <text id="n4_me8j" name="label_title" xy="255,43" size="211,39" group="n10_me8j" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="奖励列表">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n10_me8j" name="n10" xy="174,43" size="375,39" advanced="true">
+      <gearXY controller="c1" pages="0,1" values="174,43|174,34"/>
+    </group>
+    <richtext id="n7_me8j" name="label_des" xy="79,335" size="559,43" fontSize="20" color="#757575" align="center" vAlign="middle" ubb="true" autoSize="none" text="队长增益：同队伍全体侠侣获得挂机速率加成">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+  </displayList>
+</component>

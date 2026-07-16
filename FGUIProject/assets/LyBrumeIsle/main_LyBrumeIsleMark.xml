@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="766,1087">
+  <displayList>
+    <image id="n1_bbpl" name="n1" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="701,1084"/>
+    <richtext id="n2_bbpl" name="label_title" xy="24,18" size="235,77" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" text="标记"/>
+    <image id="n17_bbpl" name="n17" src="lu9o4d" fileName="ui/dec_arrow_monthly card.png" pkg="27utqbiz" xy="335,513"/>
+    <component id="n3_bbpl" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="642,33" size="78,78"/>
+    <text id="n5_bbpl" name="n5" xy="216,115" size="310,34" fontSize="24" color="#cc5f5a" vAlign="middle" autoSize="none" text="是否替换已标记的目标？"/>
+    <component id="n13_bbpl" name="group_now" src="bbplnb" fileName="group_monsterMark.xml" xy="16,137"/>
+    <component id="n15_bbpl" name="group_next" src="bbplnb" fileName="group_monsterMark.xml" xy="16,555"/>
+    <component id="n16_bbpl" name="btn_get" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="256,951" size="188,52">
+      <Button title="替换" titleFontSize="30"/>
+    </component>
+    <image id="n4_bbpl" name="n4" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="547,879"/>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="270,413">
+  <displayList>
+    <loader3D id="n3_ig8m" name="loader_spine_pet" xy="276,278" pivot="0.5,1" anchor="true" size="2,2" animation="" skin="" loop="true"/>
+    <component id="n4_ig8m" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="134,292" pivot="0.5,1" anchor="true"/>
+    <image id="n14_ig8m" name="n14" src="ig8m3g" fileName="res/frame_diyiming2.png" xy="30,274"/>
+    <component id="n23_113zk" name="loader_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="139,332" pivot="0.5,0.5" anchor="true" scale="0.9,0.9"/>
+    <image id="n15_ig8m" name="n15" src="ig8m2s" fileName="res/frame_ranking1.png" xy="21,266"/>
+    <text id="n16_ig8m" name="label_server" xy="5,353" size="259,34" fontSize="24" color="#16191a" align="center" vAlign="middle" autoSize="none" text="艾欧尼亚"/>
+    <text id="n17_ig8m" name="label_name" xy="74,278" size="162,34" fontSize="22" color="#16191a" vAlign="middle" autoSize="none" text="艾欧尼亚"/>
+    <text id="n19_ig8m" name="label_str62" xy="26,260" size="44,29" font="ui://27utqbizps391v" fontSize="20" color="#feec89" align="center" vAlign="middle" strokeColor="#c35a43" strokeSize="2" text="等级"/>
+    <text id="n20_ig8m" name="label_level" xy="22,280" size="52,36" font="ui://27utqbizps391v" fontSize="26" color="#feec89" align="center" vAlign="middle" autoSize="shrink" strokeColor="#c35a43" strokeSize="2" text="1111"/>
+    <component id="n22_113zk" name="loader_title" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="135,207" pivot="0.5,0.5" anchor="true" scale="1.2,1.2"/>
+  </displayList>
+</component>

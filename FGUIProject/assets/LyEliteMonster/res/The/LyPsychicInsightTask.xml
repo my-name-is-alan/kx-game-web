@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="659,951">
+  <displayList>
+    <image id="n54_d1na" name="n54" src="d1na4c" fileName="res/The/res/frame_huoqujueshimiji.png" xy="0,0"/>
+    <list id="n52_ltem" name="list_all" xy="-5,206" size="659,743" overflow="scroll" lineGap="-9" defaultItem="ui://xcpqvzp3ltem3y">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

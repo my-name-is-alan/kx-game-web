@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n1_sril" name="group_bottom" src="srila" fileName="res/group_paybottom.xml" xy="0,1165">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

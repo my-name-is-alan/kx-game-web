@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="165,32">
+  <displayList>
+    <text id="n35_jzhd" name="label_txt" xy="0,0" size="91,32" fontSize="22" color="#333333" vAlign="middle" autoSize="shrink" text="攻击：45678"/>
+    <text id="n36_f7m4" name="edit_txt" xy="92,0" size="73,32" fontSize="22" color="#ffff00" vAlign="middle" autoSize="none" text="" input="true" keyboardType="4"/>
+  </displayList>
+</component>

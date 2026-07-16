@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="533,170">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n0_j69r" name="n0" src="j69rj" fileName="firstgift/frame_renwukuang.png" xy="0,14"/>
+    <image id="n1_j69r" name="n1" src="j69rf" fileName="firstgift/frame_biaotou.png" xy="10,0"/>
+    <text id="n2_j69r" name="label_day" xy="55,-2" size="10,34" font="ui://27utqbizps391v" fontSize="24" color="#fff3ef" vAlign="middle" text=""/>
+    <text id="n5_j69r" name="label_level" xy="194,-5" size="10,29" font="ui://27utqbizps391v" fontSize="20" color="#ef9a59" vAlign="middle" text=""/>
+    <list id="n3_j69r" name="list_item" xy="20,41" size="320,100" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <text id="n4_j69r" name="label_lock" xy="425,68" size="10,42" font="ui://27utqbizps391v" fontSize="30" color="#493a20" vAlign="middle" text="">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n8_j69r" name="btn_take" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="430,89" pivot="0.5,0.5" anchor="true" scale="0.75,0.75">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <image id="n7_j69r" name="n7" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="351,60">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <text id="n6_j69r" name="label_done" xy="425,68" size="10,42" font="ui://27utqbizps391v" fontSize="30" color="#f3ffec" vAlign="middle" text="">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

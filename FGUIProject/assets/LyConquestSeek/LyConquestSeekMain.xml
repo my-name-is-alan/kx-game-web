@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://shg18arin6sh2z" designImageOffsetY="-119" designImageAlpha="0" bgColor="#66ffff">
+  <displayList>
+    <graph id="n56_m9v8" name="group_scene" xy="0,0" size="750,1334" type="rect" lineSize="0" fillColor="#ffb68e72">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <component id="n5_rubt" name="group_map" src="rubt5" fileName="group_map.xml" xy="0,0" size="750,1334">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n11_nfin" name="group_playerMap" src="nfin2c" fileName="group_playerMap.xml" xy="249,541" pivot="0.5,0.5">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n2_rubt" name="group_arrow" src="rubt3" fileName="group_arrow.xml" xy="275,813" group="n43_n6sh">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <image id="n36_n6sh" name="n36" src="cda513" fileName="res/frame_chuanwen.png" xy="4,1120" group="n43_n6sh"/>
+    <component id="n37_n6sh" name="btn_goBoss" src="n6sh2y" fileName="btn_qianwang.xml" xy="627,1138" group="n43_n6sh"/>
+    <loader id="n27_n6sh" name="group_unclaimedReward" xy="621,902" size="125,124" group="n38_n6sh" url="ui://shg18aricda51o"/>
+    <image id="n30_n6sh" name="n30" src="cda516" fileName="res/frame_yuan.png" xy="626,927" group="n38_n6sh"/>
+    <text id="n31_n6sh" name="n31" xy="649,993" size="60,39" group="n38_n6sh" font="ui://27utqbizps391v" fontSize="28" color="#fff7eb" vAlign="middle" strokeColor="#231815" strokeSize="2" text="背篓"/>
+    <text id="n33_n6sh" name="label_unclaimedReward" xy="628,933" size="35,29" group="n38_n6sh" fontSize="20" color="#fff7eb" align="center" vAlign="middle" autoSize="none" strokeColor="#231815" text="21"/>
+    <group id="n38_n6sh" name="n38" xy="621,902" size="125,130" group="n43_n6sh"/>
+    <text id="n39_n6sh" name="label_log" xy="14,1129" size="589,55" group="n43_n6sh" fontSize="21" color="#ebe0cd" autoSize="none" autoClearText="true" text="[传闻]:撒啊集散地啊撒旦吉萨大就阿松地啊就是的 "/>
+    <component id="n40_n6sh" name="btn_close" src="n6shdu17t" fileName="btn_back2.xml" pkg="27utqbiz" xy="6,1250" group="n43_n6sh"/>
+    <component id="n41_n6sh" name="group_chat" src="h8md27" fileName="Group_Chat.xml" pkg="27utqbiz" xy="0,1191" group="n43_n6sh"/>
+    <component id="n49_q26v" name="group_task" src="yn253i" fileName="group_task.xml" xy="466,1033" group="n43_n6sh"/>
+    <group id="n43_n6sh" name="n43" xy="0,813" size="751,521" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n26_n6sh" name="group_miniMap" src="n6sh30" fileName="group_miniMap.xml" xy="14,31" group="n44_n6sh" touchable="false"/>
+    <component id="n35_n6sh" name="btn_map" src="n6sh2x" fileName="btn_maxMap.xml" xy="15,30" size="314,225" group="n44_n6sh"/>
+    <image id="n12_n6sh" name="n12" src="cda5j" fileName="res/frame_gerenbeijing.png" xy="374,30" group="n44_n6sh"/>
+    <text id="n13_n6sh" name="label_str1" xy="386,52" size="99,29" group="n44_n6sh" font="ui://27utqbizps391v" fontSize="20" color="#ebe0cd" vAlign="middle" autoClearText="true" text="个人排名："/>
+    <text id="n14_n6sh" name="label_str2" xy="386,85" size="119,29" group="n44_n6sh" font="ui://27utqbizps391v" fontSize="20" color="#ebe0cd" vAlign="middle" autoClearText="true" text="累计击败数："/>
+    <text id="n15_n6sh" name="label_str3" xy="386,117" size="119,29" group="n44_n6sh" font="ui://27utqbizps391v" fontSize="20" color="#ebe0cd" vAlign="middle" autoClearText="true" text="连续击败数："/>
+    <text id="n16_n6sh" name="label_str4" xy="555,52" size="99,29" group="n44_n6sh" font="ui://27utqbizps391v" fontSize="20" color="#ebe0cd" vAlign="middle" autoClearText="true" text="帮派排名："/>
+    <text id="n17_n6sh" name="label_str5" xy="555,86" size="99,29" group="n44_n6sh" font="ui://27utqbizps391v" fontSize="20" color="#ebe0cd" vAlign="middle" autoClearText="true" text="帮派积分："/>
+    <text id="n18_n6sh" name="label_selfRank" xy="486,52" size="26,29" group="n44_n6sh" fontSize="20" color="#ebe0cd" vAlign="middle" autoClearText="true" text="55"/>
+    <text id="n19_n6sh" name="label_totalKill" xy="506,85" size="26,29" group="n44_n6sh" fontSize="20" color="#ebe0cd" vAlign="middle" autoClearText="true" text="55"/>
+    <text id="n20_n6sh" name="label_streakKill" xy="506,117" size="26,29" group="n44_n6sh" fontSize="20" color="#ebe0cd" vAlign="middle" autoClearText="true" text="55"/>
+    <text id="n21_n6sh" name="label_clanScore" xy="655,86" size="26,29" group="n44_n6sh" fontSize="20" color="#ebe0cd" vAlign="middle" autoClearText="true" text="55"/>
+    <text id="n22_n6sh" name="label_clanRank" xy="655,52" size="26,29" group="n44_n6sh" fontSize="20" color="#ebe0cd" vAlign="middle" autoClearText="true" text="55"/>
+    <image id="n23_n6sh" name="n23" src="cda5g" fileName="res/frame_fengexian.png" xy="387,159" group="n44_n6sh"/>
+    <text id="n24_n6sh" name="label_notice" xy="383,179" size="343,69" group="n44_n6sh" font="ui://27utqbizps391v" fontSize="22" color="#f9f8f6" autoSize="none" strokeColor="#191c1d" strokeSize="2" autoClearText="true" text="【公告】：贝你吉他国王已经大厦苏厦苏厦苏厦苏"/>
+    <group id="n44_n6sh" name="n44" xy="14,30" size="722,226" group="n48_yn25" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <group id="n48_yn25" name="n48" xy="14,30" size="722,226"/>
+    <component id="n45_s44m" name="n45" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133" group="n47_s44m" alpha="0.8">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n51_m9v8" name="btn_conquestRevive" src="m9v84d" fileName="btn_enter1.xml" xy="256,737" group="n47_s44m">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <image id="n52_m9v8" name="n52" src="cda5w" fileName="res/frame_tips.png" xy="38,172" group="n54_m9v8"/>
+    <text id="n53_m9v8" name="label_reviveTime" xy="215,185" size="320,54" group="n54_m9v8" font="ui://27utqbizps391v" fontSize="40" color="#ffecbd" align="center" vAlign="middle" autoSize="none" strokeColor="#c56f00" autoClearText="true" text="恢复中（3）"/>
+    <group id="n54_m9v8" name="group_revive" xy="38,172" size="674,80" group="n47_s44m" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <group id="n47_s44m" name="group_conquestRevive" xy="0,-133" size="750,1600" visible="false" advanced="true"/>
+  </displayList>
+</component>

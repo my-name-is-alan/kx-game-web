@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,490">
+  <displayList>
+    <image id="n52_ro4e" name="n52" src="ro4e1f" fileName="elite/frame_suipiandi.png" xy="55,0"/>
+    <image id="n57_ro4e" name="n57" src="ro4e1g" fileName="elite/frame_touming2.png" xy="83,33" size="584,290">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n53_ro4e" name="btn_sub" src="bh805d" fileName="btn_reduct2.xml" pkg="27utqbiz" xy="198,337"/>
+    <component id="n54_ro4e" name="btn_add" src="bh805c" fileName="btn_add2.xml" pkg="27utqbiz" xy="526,337"/>
+    <image id="n55_ro4e" name="n55" src="bh805e" fileName="ui/frame_progress bar_all.png" pkg="27utqbiz" xy="248,344" size="252,20"/>
+    <component id="n56_ro4e" name="slider_count" src="ro4e1h" fileName="elite/slider_count.xml" xy="248,344" size="252,20">
+      <relation target="" sidePair="center-center"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n59_ro4e" name="btn_comfirm" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,400"/>
+    <component id="n62_ro4e" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="662,-45"/>
+    <list id="n61_ro4e" name="list_item" xy="85,37" size="580,280" layout="flow_hz" overflow="scroll" scrollBarFlags="64" colGap="20" defaultItem="ui://j6s22r8hro4e1l" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n64_a8bs" name="label_empty" xy="301,160" size="148,34" group="n65_a8bs" font="ui://27utqbizps391v" fontSize="24" color="#767676" align="center" vAlign="middle" autoClearText="true" text="暂无可用侠侣">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n65_a8bs" name="group_empty" xy="301,160" size="148,34" visible="false" advanced="true"/>
+  </displayList>
+</component>

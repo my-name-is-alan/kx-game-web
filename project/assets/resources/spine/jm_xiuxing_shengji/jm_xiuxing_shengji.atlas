@@ -1,0 +1,20 @@
+
+jm_xiuxing_shengji.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01/003
+  rotate: false
+  xy: 2, 82
+  size: 178, 100
+  orig: 230, 100
+  offset: 0, 0
+  index: -1
+044
+  rotate: false
+  xy: 2, 184
+  size: 424, 242
+  orig: 425, 243
+  offset: 0, 1
+  index: -1

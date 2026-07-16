@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="191,34">
+  <displayList>
+    <text id="n120_mnt8" name="label_name" xy="0,0" size="52,34" fontSize="24" color="#16191a" vAlign="middle" text="闪避"/>
+    <text id="n121_mnt8" name="label_num" xy="88,0" size="80,34" fontSize="24" color="#16191a" vAlign="middle" autoSize="shrink" text="67"/>
+    <loader id="n122_mnt8" name="img_icon" xy="185,4" size="19,26" url="ui://27utqbizmnt82v" align="center" vAlign="middle" clearOnPublish="true"/>
+  </displayList>
+</component>

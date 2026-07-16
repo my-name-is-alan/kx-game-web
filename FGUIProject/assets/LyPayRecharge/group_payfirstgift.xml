@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,800">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n13_jf46" name="n13" src="jf464v" fileName="firstgift/frame_shouchongdiban2.png" xy="44,-110"/>
+    <image id="n12_jf46" name="n12" src="jf464u" fileName="firstgift/frame_shouchongdiban.png" xy="83,370"/>
+    <image id="n14_jf46" name="n14" src="jf464t" fileName="firstgift/frame_diaopai.png" xy="631,52"/>
+    <component id="n1_f4zx" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="628,-18"/>
+    <list id="n11_cjmr" name="list_item" xy="150,572" size="460,100" layout="row" overflow="scroll" scroll="horizontal" colGap="20" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <component id="n23_jf46" name="btn_pay" src="jf4653" fileName="firstgift/btn_normal1.xml" xy="268,728">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <image id="n15_jf46" name="img_title1" src="jf464z" fileName="firstgift/word_linggaozhanwuqi.png" xy="638,125">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n17_jf46" name="img_title2" src="jf4650" fileName="firstgift/word_liuopaidapeisuiyitiao.png" xy="639,104">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n16_jf46" name="img_title3" src="jf4652" fileName="firstgift/word_zizhaozhidi.png" xy="636,142">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n20_jf46" name="img_text1" src="jf4651" fileName="firstgift/word_shouchonghaoli.png" xy="76,-118">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n21_jf46" name="n21" src="jf464w" fileName="firstgift/word_2700fanliu.png" xy="66,77">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n19_jf46" name="img_text2" src="jf464y" fileName="firstgift/word_daoyouzixuan.png" xy="70,223">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n18_jf46" name="img_text3" src="jf464x" fileName="firstgift/word_chuanshuobanlv.png" xy="68,223">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <text id="n22_jf46" name="label_desc" xy="274,681" size="202,27" fontSize="18" color="#ecb176" vAlign="middle" text="购买后立即解锁战斗加速">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

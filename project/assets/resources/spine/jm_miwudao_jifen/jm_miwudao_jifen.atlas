@@ -1,0 +1,517 @@
+
+jm_miwudao_jifen.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/升级/images/sj4_01
+  rotate: false
+  xy: 122, 1541
+  size: 151, 196
+  orig: 205, 205
+  offset: 24, 2
+  index: -1
+images/升级/images/sj4_02
+  rotate: false
+  xy: 1067, 1659
+  size: 196, 187
+  orig: 205, 205
+  offset: 3, 0
+  index: -1
+images/升级/images/sj4_03
+  rotate: false
+  xy: 275, 1522
+  size: 178, 195
+  orig: 205, 205
+  offset: 24, 0
+  index: -1
+images/升级/images/sj4_04
+  rotate: false
+  xy: 974, 1458
+  size: 185, 199
+  orig: 205, 205
+  offset: 18, 0
+  index: -1
+images/升级/images/sj4_05
+  rotate: false
+  xy: 1161, 1451
+  size: 198, 199
+  orig: 205, 205
+  offset: 6, 0
+  index: -1
+images/升级/images/sj4_06
+  rotate: false
+  xy: 774, 1471
+  size: 198, 198
+  orig: 205, 205
+  offset: 4, 1
+  index: -1
+images/升级/images/sj4_07
+  rotate: false
+  xy: 1384, 1648
+  size: 199, 185
+  orig: 205, 205
+  offset: 4, 0
+  index: -1
+images/升级/images/sj4_08
+  rotate: false
+  xy: 455, 1496
+  size: 200, 196
+  orig: 205, 205
+  offset: 2, 2
+  index: -1
+images/升级/images/sj4_09
+  rotate: false
+  xy: 1361, 1446
+  size: 196, 200
+  orig: 205, 205
+  offset: 3, 1
+  index: -1
+images/升级/images/sj5_01
+  rotate: false
+  xy: 965, 1980
+  size: 304, 63
+  orig: 307, 77
+  offset: 0, 0
+  index: -1
+images/升级/images/sj5_02
+  rotate: false
+  xy: 1407, 1973
+  size: 279, 70
+  orig: 307, 77
+  offset: 8, 0
+  index: -1
+images/升级/images/sj5_03
+  rotate: false
+  xy: 1688, 1971
+  size: 271, 72
+  orig: 307, 77
+  offset: 15, 0
+  index: -1
+images/升级/images/sj5_04
+  rotate: false
+  xy: 730, 1987
+  size: 184, 56
+  orig: 307, 77
+  offset: 51, 18
+  index: -1
+images/升级/主界面/path1_00001
+  rotate: false
+  xy: 36, 2010
+  size: 33, 33
+  orig: 450, 1020
+  offset: 213, 364
+  index: -1
+images/升级/主界面/path1_00003
+  rotate: false
+  xy: 71, 2002
+  size: 44, 41
+  orig: 450, 1020
+  offset: 214, 365
+  index: -1
+images/升级/主界面/path1_00005
+  rotate: false
+  xy: 160, 1996
+  size: 57, 47
+  orig: 450, 1020
+  offset: 214, 365
+  index: -1
+images/升级/主界面/path1_00007
+  rotate: false
+  xy: 219, 1992
+  size: 72, 51
+  orig: 450, 1020
+  offset: 214, 365
+  index: -1
+images/升级/主界面/path1_00009
+  rotate: false
+  xy: 293, 1990
+  size: 87, 53
+  orig: 450, 1020
+  offset: 214, 366
+  index: -1
+images/升级/主界面/path1_00011
+  rotate: false
+  xy: 382, 1990
+  size: 101, 53
+  orig: 450, 1020
+  offset: 215, 367
+  index: -1
+images/升级/主界面/path1_00013
+  rotate: false
+  xy: 485, 1989
+  size: 115, 54
+  orig: 450, 1020
+  offset: 215, 367
+  index: -1
+images/升级/主界面/path1_00015
+  rotate: false
+  xy: 602, 1989
+  size: 126, 54
+  orig: 450, 1020
+  offset: 216, 367
+  index: -1
+images/升级/主界面/path1_00017
+  rotate: false
+  xy: 1271, 1978
+  size: 134, 65
+  orig: 450, 1020
+  offset: 216, 357
+  index: -1
+images/升级/主界面/path1_00019
+  rotate: false
+  xy: 55, 1915
+  size: 138, 79
+  orig: 450, 1020
+  offset: 217, 343
+  index: -1
+images/升级/主界面/path1_00021
+  rotate: false
+  xy: 195, 1894
+  size: 140, 94
+  orig: 450, 1020
+  offset: 217, 328
+  index: -1
+images/升级/主界面/path1_00023
+  rotate: false
+  xy: 392, 1877
+  size: 141, 110
+  orig: 450, 1020
+  offset: 217, 313
+  index: -1
+images/升级/主界面/path1_00025
+  rotate: false
+  xy: 751, 1860
+  size: 140, 125
+  orig: 450, 1020
+  offset: 218, 298
+  index: -1
+images/升级/主界面/path1_00027
+  rotate: false
+  xy: 1655, 1830
+  size: 140, 139
+  orig: 450, 1020
+  offset: 218, 283
+  index: -1
+images/升级/主界面/path1_00029
+  rotate: false
+  xy: 143, 1739
+  size: 139, 153
+  orig: 450, 1020
+  offset: 219, 269
+  index: -1
+images/升级/主界面/path1_00031
+  rotate: false
+  xy: 575, 1694
+  size: 138, 166
+  orig: 450, 1020
+  offset: 220, 256
+  index: -1
+images/升级/主界面/path1_00033
+  rotate: false
+  xy: 930, 1671
+  size: 135, 179
+  orig: 450, 1020
+  offset: 223, 243
+  index: -1
+images/升级/主界面/path1_00035
+  rotate: false
+  xy: 1585, 1638
+  size: 128, 190
+  orig: 450, 1020
+  offset: 231, 231
+  index: -1
+images/升级/主界面/path1_00037
+  rotate: false
+  xy: 2, 1569
+  size: 118, 202
+  orig: 450, 1020
+  offset: 241, 219
+  index: -1
+images/升级/主界面/path1_00039
+  rotate: false
+  xy: 1559, 1422
+  size: 107, 214
+  orig: 450, 1020
+  offset: 252, 207
+  index: -1
+images/升级/主界面/path1_00041
+  rotate: false
+  xy: 1899, 1378
+  size: 98, 224
+  orig: 450, 1020
+  offset: 260, 195
+  index: -1
+images/升级/主界面/path1_00043
+  rotate: false
+  xy: 119, 1304
+  size: 107, 235
+  orig: 450, 1020
+  offset: 251, 182
+  index: -1
+images/升级/主界面/path1_00045
+  rotate: false
+  xy: 228, 1276
+  size: 114, 244
+  orig: 450, 1020
+  offset: 244, 169
+  index: -1
+images/升级/主界面/path1_00047
+  rotate: false
+  xy: 344, 1244
+  size: 120, 250
+  orig: 450, 1020
+  offset: 238, 156
+  index: -1
+images/升级/主界面/path1_00049
+  rotate: false
+  xy: 466, 1235
+  size: 126, 259
+  orig: 450, 1020
+  offset: 232, 142
+  index: -1
+images/升级/主界面/path1_00051
+  rotate: false
+  xy: 1004, 1192
+  size: 132, 264
+  orig: 450, 1020
+  offset: 226, 128
+  index: -1
+images/升级/主界面/path1_00053
+  rotate: false
+  xy: 730, 1206
+  size: 135, 263
+  orig: 450, 1020
+  offset: 221, 113
+  index: -1
+images/升级/主界面/path1_00055
+  rotate: false
+  xy: 1138, 1184
+  size: 134, 265
+  orig: 450, 1020
+  offset: 218, 99
+  index: -1
+images/升级/主界面/path1_00057
+  rotate: false
+  xy: 867, 1193
+  size: 135, 263
+  orig: 450, 1020
+  offset: 214, 84
+  index: -1
+images/升级/主界面/path1_00059
+  rotate: false
+  xy: 594, 1216
+  size: 134, 262
+  orig: 450, 1020
+  offset: 211, 70
+  index: -1
+images/升级/主界面/path2_00001
+  rotate: false
+  xy: 2, 2011
+  size: 32, 32
+  orig: 450, 1020
+  offset: 135, 341
+  index: -1
+images/升级/主界面/path2_00003
+  rotate: false
+  xy: 117, 1997
+  size: 41, 46
+  orig: 450, 1020
+  offset: 128, 328
+  index: -1
+images/升级/主界面/path2_00005
+  rotate: false
+  xy: 916, 1984
+  size: 47, 59
+  orig: 450, 1020
+  offset: 124, 316
+  index: -1
+images/升级/主界面/path2_00007
+  rotate: false
+  xy: 1961, 1969
+  size: 51, 74
+  orig: 450, 1020
+  offset: 122, 302
+  index: -1
+images/升级/主界面/path2_00009
+  rotate: false
+  xy: 2, 1920
+  size: 51, 88
+  orig: 450, 1020
+  offset: 122, 289
+  index: -1
+images/升级/主界面/path2_00011
+  rotate: false
+  xy: 337, 1887
+  size: 53, 101
+  orig: 450, 1020
+  offset: 121, 276
+  index: -1
+images/升级/主界面/path2_00013
+  rotate: false
+  xy: 535, 1873
+  size: 54, 114
+  orig: 450, 1020
+  offset: 121, 264
+  index: -1
+images/升级/主界面/path2_00015
+  rotate: false
+  xy: 893, 1856
+  size: 55, 126
+  orig: 450, 1020
+  offset: 121, 251
+  index: -1
+images/升级/主界面/path2_00017
+  rotate: false
+  xy: 1594, 1833
+  size: 59, 138
+  orig: 450, 1020
+  offset: 121, 239
+  index: -1
+images/升级/主界面/path2_00019
+  rotate: false
+  xy: 1961, 1819
+  size: 65, 148
+  orig: 450, 1020
+  offset: 121, 229
+  index: -1
+images/升级/主界面/path2_00021
+  rotate: false
+  xy: 284, 1727
+  size: 74, 158
+  orig: 450, 1020
+  offset: 112, 219
+  index: -1
+images/升级/主界面/path2_00023
+  rotate: false
+  xy: 488, 1702
+  size: 85, 169
+  orig: 450, 1020
+  offset: 103, 209
+  index: -1
+images/升级/主界面/path2_00025
+  rotate: false
+  xy: 833, 1674
+  size: 95, 180
+  orig: 450, 1020
+  offset: 94, 199
+  index: -1
+images/升级/主界面/path2_00027
+  rotate: false
+  xy: 1715, 1634
+  size: 104, 194
+  orig: 450, 1020
+  offset: 87, 186
+  index: -1
+images/升级/主界面/path2_00029
+  rotate: false
+  xy: 1821, 1628
+  size: 109, 200
+  orig: 450, 1020
+  offset: 83, 173
+  index: -1
+images/升级/主界面/path2_00031
+  rotate: false
+  xy: 1932, 1604
+  size: 111, 213
+  orig: 450, 1020
+  offset: 82, 160
+  index: -1
+images/升级/主界面/path2_00033
+  rotate: false
+  xy: 1784, 1405
+  size: 113, 221
+  orig: 450, 1020
+  offset: 81, 148
+  index: -1
+images/升级/主界面/path2_00035
+  rotate: false
+  xy: 2, 1342
+  size: 115, 225
+  orig: 450, 1020
+  offset: 80, 140
+  index: -1
+images/升级/主界面/path2_00037
+  rotate: false
+  xy: 1668, 1413
+  size: 114, 219
+  orig: 450, 1020
+  offset: 78, 133
+  index: -1
+images/升级/主界面/path2_00039
+  rotate: false
+  xy: 657, 1480
+  size: 115, 206
+  orig: 450, 1020
+  offset: 77, 129
+  index: -1
+images/升级/主界面/path2_00041
+  rotate: false
+  xy: 1265, 1652
+  size: 117, 187
+  orig: 450, 1020
+  offset: 76, 128
+  index: -1
+images/升级/主界面/path2_00043
+  rotate: false
+  xy: 715, 1688
+  size: 116, 170
+  orig: 450, 1020
+  offset: 76, 128
+  index: -1
+images/升级/主界面/path2_00045
+  rotate: false
+  xy: 360, 1719
+  size: 126, 156
+  orig: 450, 1020
+  offset: 76, 127
+  index: -1
+images/升级/主界面/path2_00047
+  rotate: false
+  xy: 2, 1773
+  size: 139, 140
+  orig: 450, 1020
+  offset: 77, 126
+  index: -1
+images/升级/主界面/path2_00049
+  rotate: false
+  xy: 1115, 1848
+  size: 150, 130
+  orig: 450, 1020
+  offset: 79, 125
+  index: -1
+images/升级/主界面/path2_00051
+  rotate: false
+  xy: 591, 1862
+  size: 158, 123
+  orig: 450, 1020
+  offset: 81, 122
+  index: -1
+images/升级/主界面/path2_00053
+  rotate: false
+  xy: 950, 1852
+  size: 163, 126
+  orig: 450, 1020
+  offset: 81, 110
+  index: -1
+images/升级/主界面/path2_00055
+  rotate: false
+  xy: 1267, 1841
+  size: 162, 130
+  orig: 450, 1020
+  offset: 85, 97
+  index: -1
+images/升级/主界面/path2_00057
+  rotate: false
+  xy: 1431, 1835
+  size: 161, 136
+  orig: 450, 1020
+  offset: 86, 82
+  index: -1
+images/升级/主界面/path2_00059
+  rotate: false
+  xy: 1797, 1830
+  size: 162, 139
+  orig: 450, 1020
+  offset: 86, 69
+  index: -1

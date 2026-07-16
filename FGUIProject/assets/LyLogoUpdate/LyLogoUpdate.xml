@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n8_rl78" name="n8" src="fd6xc" fileName="res/bg_denglu.png" pkg="s1gej0dq" xy="0,-183">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n2_ig0z" name="label_version" xy="10,1285" size="46,34" fontSize="24" color="#ffffff" vAlign="middle" strokeColor="#000000" text="100">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <image id="n5_jloi" name="n5" src="bh805e" fileName="ui/frame_progress bar_all.png" pkg="27utqbiz" xy="103,1020" size="553,20">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <component id="n6_jloi" name="bar_loading" src="jloiu" fileName="bar_progress.xml" xy="103,1020" size="530,20">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n3_ig0z" name="label_text" xy="370,1048" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" text="">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n7_fd6x" name="label_notice" xy="0,1094" size="750,230" font="ui://27utqbizps391v" fontSize="20" color="#ffffff" align="center" vAlign="bottom" autoSize="none" strokeColor="#000000" text="">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

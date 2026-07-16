@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="104,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n10_fml9" name="n10" src="fml9y" fileName="res/frame_escort cart.png" xy="0,43"/>
+    <image id="n11_fml9" name="n11" src="fml9v" fileName="res/frame_pull scort cart.png" xy="2,-15" group="n6_fixk"/>
+    <image id="n18_fml9" name="n18" src="fml9q" fileName="res/pic_escorter back.png" xy="1,-111" group="n6_fixk" visible="false"/>
+    <loader3D id="n20_j655" name="spine_up" xy="52,15" size="1,1" group="n6_fixk" animation="" skin="" loop="true"/>
+    <image id="n15_fml9" name="n15" src="fml9x" fileName="res/frame_escort time.png" xy="4,25" group="n23_zo46"/>
+    <text id="n5_fixk" name="label_downtiem" xy="-34,20" size="169,33" group="n23_zo46" font="ui://27utqbizps391v" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="05:06"/>
+    <group id="n23_zo46" name="group_timeUp" xy="-34,20" size="169,33" group="n6_fixk" visible="false" advanced="true"/>
+    <image id="n26_rzrw" name="img_meUp" src="fml962" fileName="ui/icon_me.png" pkg="27utqbiz" xy="0,-64" group="n6_fixk" visible="false"/>
+    <group id="n6_fixk" name="group_up" xy="-34,-111" size="169,172" advanced="true"/>
+    <image id="n12_fml9" name="n12" src="fml9v" fileName="res/frame_pull scort cart.png" xy="3,133" group="n3_fixk" flip="vt"/>
+    <image id="n17_fml9" name="n17" src="fml9p" fileName="res/pic_escorter obverse.png" xy="1,123" group="n3_fixk" visible="false"/>
+    <loader3D id="n19_9h4m" name="spine_down" xy="51,250" size="1,1" group="n3_fixk" animation="" skin="" loop="true"/>
+    <image id="n16_fml9" name="n16" src="fml9x" fileName="res/frame_escort time.png" xy="7,127" group="n24_zo46"/>
+    <text id="n2_fixk" name="label_uptiem" xy="-33,124" size="163,29" group="n24_zo46" font="ui://27utqbizps391v" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="05:06"/>
+    <group id="n24_zo46" name="group_timeDown" xy="-33,124" size="163,29" group="n3_fixk" visible="false" advanced="true"/>
+    <image id="n25_rzrw" name="img_meDown" src="fml962" fileName="ui/icon_me.png" pkg="27utqbiz" xy="74,218" group="n3_fixk" visible="false"/>
+    <group id="n3_fixk" name="group_down" xy="-33,123" size="163,172" advanced="true"/>
+    <component id="n0_agvw" name="n0" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="11,50" scale="0.82,0.82" touchable="false"/>
+    <image id="n27_syru" name="img_only" src="syru56" fileName="res/icon_only.png" xy="9,50"/>
+  </displayList>
+  <Button/>
+</component>

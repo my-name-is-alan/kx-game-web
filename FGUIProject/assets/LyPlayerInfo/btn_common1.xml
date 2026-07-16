@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="94,186" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n10_j3rv" name="n10" src="cb8kd" fileName="res/main2/frame_special null3.png" xy="0,0"/>
+    <text id="n6_ub2k" name="label_name" xy="5,72" size="84,42" fontSize="30" color="#4d6d6a" align="center" autoSize="none" autoClearText="true" text="啊啊"/>
+    <loader id="n5_ub2k" name="icon" xy="0,0" size="94,186" align="center" vAlign="middle"/>
+    <image id="n8_ub2k" name="n8" src="ah8r5" fileName="res/main/31.png" xy="78,-9" size="22,23" visible="false"/>
+    <text id="n12_inps" name="title" xy="49,159" size="42,26" fontSize="18" color="#ffffff" vAlign="middle" strokeColor="#000000" autoClearText="true" text="31级">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

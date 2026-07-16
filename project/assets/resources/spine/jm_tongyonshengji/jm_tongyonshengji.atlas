@@ -1,0 +1,90 @@
+
+jm_tongyonshengji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jm_tongyong_shengji_01
+  rotate: true
+  xy: 2, 893
+  size: 115, 298
+  orig: 207, 339
+  offset: 52, 16
+  index: -1
+jm_tongyong_shengji_010
+  rotate: true
+  xy: 335, 301
+  size: 202, 286
+  orig: 207, 339
+  offset: 2, 7
+  index: -1
+jm_tongyong_shengji_011
+  rotate: true
+  xy: 623, 293
+  size: 207, 268
+  orig: 207, 339
+  offset: 0, 8
+  index: -1
+jm_tongyong_shengji_012
+  rotate: true
+  xy: 2, 716
+  size: 175, 250
+  orig: 207, 339
+  offset: 19, 24
+  index: -1
+jm_tongyong_shengji_02
+  rotate: true
+  xy: 574, 697
+  size: 171, 326
+  orig: 207, 339
+  offset: 23, 7
+  index: -1
+jm_tongyong_shengji_03
+  rotate: true
+  xy: 302, 879
+  size: 129, 328
+  orig: 207, 339
+  offset: 48, 4
+  index: -1
+jm_tongyong_shengji_04
+  rotate: true
+  xy: 632, 870
+  size: 138, 325
+  orig: 207, 339
+  offset: 41, 4
+  index: -1
+jm_tongyong_shengji_05
+  rotate: true
+  xy: 254, 708
+  size: 169, 318
+  orig: 207, 339
+  offset: 18, 8
+  index: -1
+jm_tongyong_shengji_06
+  rotate: true
+  xy: 2, 518
+  size: 188, 333
+  orig: 207, 339
+  offset: 6, 4
+  index: -1
+jm_tongyong_shengji_07
+  rotate: true
+  xy: 337, 505
+  size: 190, 335
+  orig: 207, 339
+  offset: 7, 3
+  index: -1
+jm_tongyong_shengji_08
+  rotate: true
+  xy: 674, 502
+  size: 193, 334
+  orig: 207, 339
+  offset: 7, 4
+  index: -1
+jm_tongyong_shengji_09
+  rotate: true
+  xy: 2, 318
+  size: 198, 331
+  orig: 207, 339
+  offset: 5, 6
+  index: -1

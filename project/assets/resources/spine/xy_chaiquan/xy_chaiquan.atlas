@@ -1,0 +1,153 @@
+
+xy_chaiquan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+er1
+  rotate: false
+  xy: 335, 954
+  size: 39, 37
+  orig: 39, 37
+  offset: 0, 0
+  index: -1
+er2
+  rotate: false
+  xy: 558, 930
+  size: 63, 61
+  orig: 63, 61
+  offset: 0, 0
+  index: -1
+huajuan
+  rotate: false
+  xy: 720, 894
+  size: 209, 97
+  orig: 209, 97
+  offset: 0, 0
+  index: -1
+mao1
+  rotate: false
+  xy: 2, 696
+  size: 346, 127
+  orig: 355, 127
+  offset: 9, 0
+  index: -1
+mao2
+  rotate: false
+  xy: 456, 782
+  size: 344, 110
+  orig: 344, 110
+  offset: 0, 0
+  index: -1
+maosui
+  rotate: true
+  xy: 177, 964
+  size: 27, 104
+  orig: 27, 104
+  offset: 0, 0
+  index: -1
+mei1
+  rotate: false
+  xy: 103, 973
+  size: 22, 18
+  orig: 22, 18
+  offset: 0, 0
+  index: -1
+mei2
+  rotate: false
+  xy: 77, 975
+  size: 24, 16
+  orig: 24, 16
+  offset: 0, 0
+  index: -1
+pijian
+  rotate: false
+  xy: 2, 873
+  size: 98, 100
+  orig: 98, 100
+  offset: 0, 0
+  index: -1
+she
+  rotate: false
+  xy: 283, 956
+  size: 50, 35
+  orig: 50, 35
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 350, 624
+  size: 301, 156
+  orig: 301, 156
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 653, 559
+  size: 216, 182
+  orig: 218, 182
+  offset: 2, 0
+  index: -1
+tui1
+  rotate: true
+  xy: 459, 934
+  size: 57, 97
+  orig: 57, 97
+  offset: 0, 0
+  index: -1
+tui2
+  rotate: true
+  xy: 102, 853
+  size: 109, 146
+  orig: 109, 146
+  offset: 0, 0
+  index: -1
+tui3
+  rotate: true
+  xy: 623, 930
+  size: 61, 95
+  orig: 61, 95
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: true
+  xy: 802, 743
+  size: 149, 189
+  orig: 150, 189
+  offset: 0, 0
+  index: -1
+weidou
+  rotate: false
+  xy: 250, 825
+  size: 204, 127
+  orig: 204, 127
+  offset: 0, 0
+  index: -1
+yan1
+  rotate: true
+  xy: 151, 968
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1
+yan2
+  rotate: false
+  xy: 127, 969
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+yanbi
+  rotate: false
+  xy: 2, 977
+  size: 73, 14
+  orig: 73, 14
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 376, 954
+  size: 81, 37
+  orig: 81, 37
+  offset: 0, 0
+  index: -1

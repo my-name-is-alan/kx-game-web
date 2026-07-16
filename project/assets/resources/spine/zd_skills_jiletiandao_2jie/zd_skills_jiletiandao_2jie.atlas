@@ -1,0 +1,118 @@
+
+zd_skills_jiletiandao_2jie.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jltd_dao1
+  rotate: true
+  xy: 522, 555
+  size: 141, 250
+  orig: 165, 274
+  offset: 11, 12
+  index: -1
+images/jltd_dg1/jltd_dg1_000
+  rotate: false
+  xy: 2, 494
+  size: 261, 202
+  orig: 283, 225
+  offset: 17, 0
+  index: -1
+images/jltd_dg1/jltd_dg1_002
+  rotate: false
+  xy: 265, 512
+  size: 255, 184
+  orig: 283, 225
+  offset: 17, 15
+  index: -1
+images/jltd_dg1/jltd_dg1_004
+  rotate: false
+  xy: 2, 314
+  size: 223, 178
+  orig: 283, 225
+  offset: 17, 15
+  index: -1
+images/jltd_dg1/jltd_dg1_006
+  rotate: false
+  xy: 384, 108
+  size: 111, 164
+  orig: 283, 225
+  offset: 21, 16
+  index: -1
+images/jltd_dg1/jltd_dg1_008
+  rotate: false
+  xy: 935, 34
+  size: 60, 112
+  orig: 283, 225
+  offset: 35, 26
+  index: -1
+images/jltd_hit_2jie/jltd_hit_2jie_000
+  rotate: true
+  xy: 935, 148
+  size: 89, 85
+  orig: 283, 290
+  offset: 94, 104
+  index: -1
+images/jltd_hit_2jie/jltd_hit_2jie_001
+  rotate: false
+  xy: 2, 2
+  size: 161, 156
+  orig: 283, 290
+  offset: 64, 65
+  index: -1
+images/jltd_hit_2jie/jltd_hit_2jie_002
+  rotate: false
+  xy: 209, 100
+  size: 173, 172
+  orig: 283, 290
+  offset: 55, 60
+  index: -1
+images/jltd_hit_2jie/jltd_hit_2jie_004
+  rotate: true
+  xy: 734, 58
+  size: 179, 199
+  orig: 283, 290
+  offset: 50, 61
+  index: -1
+images/jltd_hit_2jie/jltd_hit_2jie_006
+  rotate: true
+  xy: 507, 119
+  size: 207, 225
+  orig: 283, 290
+  offset: 36, 52
+  index: -1
+images/jltd_hit_2jie/jltd_hit_2jie_008
+  rotate: true
+  xy: 522, 328
+  size: 225, 241
+  orig: 283, 290
+  offset: 28, 44
+  index: -1
+images/jltd_hit_2jie/jltd_hit_2jie_010
+  rotate: true
+  xy: 774, 459
+  size: 237, 241
+  orig: 283, 290
+  offset: 23, 44
+  index: -1
+images/jltd_hit_2jie/jltd_hit_2jie_012
+  rotate: false
+  xy: 265, 274
+  size: 240, 236
+  orig: 283, 290
+  offset: 22, 49
+  index: -1
+images/jltd_hit_2jie/jltd_hit_2jie_014
+  rotate: true
+  xy: 765, 239
+  size: 218, 235
+  orig: 283, 290
+  offset: 36, 50
+  index: -1
+images/jltd_hit_2jie/jltd_hit_2jie_016
+  rotate: true
+  xy: 2, 160
+  size: 152, 205
+  orig: 283, 290
+  offset: 73, 57
+  index: -1

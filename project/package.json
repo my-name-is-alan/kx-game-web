@@ -1,0 +1,11 @@
+{
+  "name": "project",
+  "uuid": "9dfdab24-5bdc-4bc5-91e5-f2784f6a4740",
+  "creator": {
+    "version": "3.8.1"
+  },
+  "dependencies": {
+    "fairygui-cc": "^1.1.1",
+    "jszip": "^3.10.1"
+  }
+}

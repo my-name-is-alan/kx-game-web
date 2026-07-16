@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n14_vcsd" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n13_n7tl" name="group_main" src="n7tl5" fileName="group_loginaccount.xml" xy="0,442">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

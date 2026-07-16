@@ -1,0 +1,286 @@
+
+jm_menkechouka_yaoyue.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yaoyue0
+  rotate: false
+  xy: 1756, 1188
+  size: 263, 302
+  orig: 263, 302
+  offset: 0, 0
+  index: -1
+yaoyue1
+  rotate: true
+  xy: 964, 1950
+  size: 92, 438
+  orig: 92, 438
+  offset: 0, 0
+  index: -1
+yaoyue10
+  rotate: false
+  xy: 2, 1652
+  size: 483, 390
+  orig: 523, 390
+  offset: 10, 0
+  index: -1
+yaoyue11
+  rotate: false
+  xy: 1831, 1543
+  size: 205, 421
+  orig: 249, 467
+  offset: 36, 9
+  index: -1
+yaoyue12
+  rotate: true
+  xy: 828, 1258
+  size: 314, 121
+  orig: 356, 136
+  offset: 42, 15
+  index: -1
+yaoyue13
+  rotate: true
+  xy: 1763, 1632
+  size: 87, 43
+  orig: 88, 45
+  offset: 0, 0
+  index: -1
+yaoyue14
+  rotate: false
+  xy: 1369, 1894
+  size: 30, 54
+  orig: 30, 57
+  offset: 0, 0
+  index: -1
+yaoyue15
+  rotate: true
+  xy: 877, 1699
+  size: 43, 74
+  orig: 43, 74
+  offset: 0, 0
+  index: -1
+yaoyue17
+  rotate: false
+  xy: 1340, 1725
+  size: 62, 47
+  orig: 62, 47
+  offset: 0, 0
+  index: -1
+yaoyue18
+  rotate: true
+  xy: 1340, 1525
+  size: 88, 37
+  orig: 94, 37
+  offset: 6, 0
+  index: -1
+yaoyue19
+  rotate: true
+  xy: 1340, 1615
+  size: 39, 49
+  orig: 40, 49
+  offset: 1, 0
+  index: -1
+yaoyue2
+  rotate: true
+  xy: 487, 1902
+  size: 140, 475
+  orig: 140, 475
+  offset: 0, 0
+  index: -1
+yaoyue20
+  rotate: true
+  xy: 1392, 1878
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+yaoyue21
+  rotate: false
+  xy: 1369, 1879
+  size: 21, 13
+  orig: 21, 13
+  offset: 0, 0
+  index: -1
+yaoyue22
+  rotate: true
+  xy: 345, 1336
+  size: 166, 136
+  orig: 166, 136
+  offset: 0, 0
+  index: -1
+yaoyue23
+  rotate: false
+  xy: 1369, 1843
+  size: 20, 34
+  orig: 20, 34
+  offset: 0, 0
+  index: -1
+yaoyue24
+  rotate: false
+  xy: 345, 1504
+  size: 140, 146
+  orig: 140, 146
+  offset: 0, 0
+  index: -1
+yaoyue25
+  rotate: true
+  xy: 1756, 1492
+  size: 138, 72
+  orig: 138, 72
+  offset: 0, 0
+  index: -1
+yaoyue26
+  rotate: true
+  xy: 1391, 1460
+  size: 171, 363
+  orig: 171, 386
+  offset: 0, 0
+  index: -1
+yaoyue27
+  rotate: false
+  xy: 805, 1104
+  size: 142, 152
+  orig: 142, 152
+  offset: 0, 0
+  index: -1
+yaoyue28
+  rotate: false
+  xy: 2, 1084
+  size: 312, 230
+  orig: 312, 230
+  offset: 0, 0
+  index: -1
+yaoyue29
+  rotate: true
+  xy: 487, 1417
+  size: 159, 339
+  orig: 159, 339
+  offset: 0, 0
+  index: -1
+yaoyue3
+  rotate: true
+  xy: 459, 1041
+  size: 186, 222
+  orig: 186, 222
+  offset: 0, 0
+  index: -1
+yaoyue30
+  rotate: false
+  xy: 1340, 1656
+  size: 52, 67
+  orig: 52, 67
+  offset: 0, 0
+  index: -1
+yaoyue31
+  rotate: false
+  xy: 964, 1774
+  size: 403, 174
+  orig: 425, 182
+  offset: 0, 8
+  index: -1
+yaoyue32
+  rotate: false
+  xy: 887, 1744
+  size: 74, 156
+  orig: 74, 156
+  offset: 0, 0
+  index: -1
+yaoyue33
+  rotate: true
+  xy: 683, 1060
+  size: 167, 96
+  orig: 167, 96
+  offset: 0, 0
+  index: -1
+yaoyue34
+  rotate: true
+  xy: 345, 1185
+  size: 149, 112
+  orig: 159, 124
+  offset: 8, 4
+  index: -1
+yaoyue35
+  rotate: false
+  xy: 1831, 1966
+  size: 211, 76
+  orig: 247, 76
+  offset: 20, 0
+  index: -1
+yaoyue36
+  rotate: false
+  xy: 951, 1173
+  size: 242, 227
+  orig: 242, 227
+  offset: 0, 0
+  index: -1
+yaoyue37
+  rotate: true
+  xy: 1261, 1354
+  size: 155, 97
+  orig: 155, 97
+  offset: 0, 0
+  index: -1
+yaoyue38
+  rotate: false
+  xy: 487, 1578
+  size: 388, 181
+  orig: 395, 206
+  offset: 7, 4
+  index: -1
+yaoyue39
+  rotate: true
+  xy: 483, 1229
+  size: 186, 320
+  orig: 188, 326
+  offset: 0, 6
+  index: -1
+yaoyue4
+  rotate: true
+  xy: 951, 1402
+  size: 107, 308
+  orig: 107, 339
+  offset: 0, 0
+  index: -1
+yaoyue40
+  rotate: true
+  xy: 877, 1574
+  size: 123, 73
+  orig: 127, 73
+  offset: 0, 0
+  index: -1
+yaoyue5
+  rotate: true
+  xy: 2, 1316
+  size: 334, 341
+  orig: 334, 341
+  offset: 0, 0
+  index: -1
+yaoyue6
+  rotate: true
+  xy: 487, 1761
+  size: 139, 398
+  orig: 139, 398
+  offset: 0, 0
+  index: -1
+yaoyue7
+  rotate: true
+  xy: 1394, 1633
+  size: 86, 367
+  orig: 103, 367
+  offset: 0, 0
+  index: -1
+yaoyue8
+  rotate: true
+  xy: 1404, 1721
+  size: 321, 425
+  orig: 368, 458
+  offset: 5, 0
+  index: -1
+yaoyue9
+  rotate: false
+  xy: 963, 1511
+  size: 375, 261
+  orig: 375, 261
+  offset: 0, 0
+  index: -1

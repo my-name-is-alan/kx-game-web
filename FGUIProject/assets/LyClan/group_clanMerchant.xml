@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1098" designImageOffsetY="-317">
+  <displayList>
+    <image id="n43_r2p3" name="n43" src="r2p385" fileName="res3/frame_screen.png" xy="63,0"/>
+    <image id="n46_r2p3" name="n46" src="r2p380" fileName="res3/pic_bonsai.png" xy="0,421"/>
+    <component id="n59_r2p3" name="btn_close1" src="r2p38c" fileName="btn_close.xml" xy="668,293"/>
+    <loader3D id="n62_wgjo" name="loader_spine" xy="243,800" size="2,1" animation="" skin="" loop="true"/>
+    <image id="n42_r2p3" name="n42" src="r2p386" fileName="res3/frame_table.png" xy="0,589"/>
+    <image id="n45_r2p3" name="n45" src="r2p387" fileName="res3/frame_fan.png" xy="394,408"/>
+    <image id="n48_r2p3" name="n48" src="r2p38a" fileName="res3/frame_duihuakuang.png" xy="395,313" size="200,79"/>
+    <richtext id="n4_hbzk" name="label_bxl" xy="122,61" size="257,49" visible="false" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]神[/size]秘商人"/>
+    <text id="n32_hbzk" name="label_merchantStone" xy="518,450" size="72,42" fontSize="30" color="#ae4a0e" vAlign="middle" autoClearText="true" text="1000"/>
+    <text id="n33_hbzk" name="label_merchantPrice" xy="534,491" size="88,49" fontSize="36" color="#ffb98e" vAlign="middle" strokeColor="#c85915" strokeSize="3" autoClearText="true" text="1000"/>
+    <component id="n34_hbzk" name="group_goods1" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="95,147"/>
+    <component id="n35_hbzk" name="group_goods2" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="254,147"/>
+    <component id="n36_hbzk" name="group_goods3" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="416,147"/>
+    <component id="n37_hbzk" name="group_goods4" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="577,147"/>
+    <list id="n39_hbzk" name="list_merchantStatus" xy="95,839" size="575,229" overflow="scroll" lineGap="10" defaultItem="ui://8rnw66xwhbzkc" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n40_hbzk" name="label_bargainNumber" xy="99,779" size="249,36" fontSize="26" color="#c85915" vAlign="middle" autoClearText="true" text="当前28/47人议价111"/>
+    <text id="n49_r2p3" name="label_str105" xy="430,502" size="114,32" fontSize="22" color="#c85915" vAlign="middle" autoClearText="true" text="当前价格："/>
+    <text id="n51_r2p3" name="label_dec" xy="410,316" size="169,62" fontSize="24" color="#fffafa" vAlign="middle" autoSize="shrink" autoClearText="true" text="好吧，那就再给你便宜点..."/>
+    <loader id="n53_r2p3" name="n53" xy="473,451" size="40,40" url="ui://27utqbizi5tz7t" align="center" vAlign="middle" fill="scale"/>
+    <component id="n54_r2p3" name="btn_calnPopup2" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="480,758" size="80,80">
+      <relation target="n55_r2p3" sidePair="right-right"/>
+    </component>
+    <component id="n58_r2p3" name="btn_clanMerchantBargain" src="r2p313k" fileName="btn_paygroup1.xml" pkg="27utqbiz" xy="249,689">
+      <Button title="砍价" titleColor="#c85915" titleFontSize="36"/>
+    </component>
+    <image id="n60_m2rj" name="n60" src="m2rj8w" fileName="res3/dec_partition_line.png" xy="46,819"/>
+    <text id="n55_r2p3" name="label_coinBargain" xy="395,777" size="84,39" group="n63_nvxw" fontSize="28" color="#c85915" vAlign="middle" autoClearText="true" text="25214"/>
+    <loader id="n56_r2p3" name="n56" xy="365,781" size="30,30" group="n63_nvxw" url="ui://27utqbizi5tz7t" align="center" vAlign="middle" fill="scale"/>
+    <group id="n63_nvxw" name="n63" xy="365,777" size="114,39" advanced="true">
+      <relation target="n40_hbzk" sidePair="right-right"/>
+    </group>
+  </displayList>
+</component>

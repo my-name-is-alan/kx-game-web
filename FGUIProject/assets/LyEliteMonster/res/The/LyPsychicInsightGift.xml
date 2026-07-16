@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="664,940">
+  <displayList>
+    <image id="n94_d1na" name="n94" src="d1na4h" fileName="res/The/res/frame_shentongchaozhilibao.png" xy="7,0"/>
+    <list id="n95_d1na" name="list_all" xy="0,206" size="664,734" overflow="scroll" lineGap="-10" defaultItem="ui://xcpqvzp3ltem3v">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,76 @@
+
+jm_miji_feibian.png
+size: 1001,1001
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feibiao
+  rotate: false
+  xy: 372, 902
+  size: 116, 97
+  orig: 116, 97
+  offset: 0, 0
+  index: -1
+feibiao2
+  rotate: true
+  xy: 170, 903
+  size: 96, 97
+  orig: 116, 97
+  offset: 20, 0
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00002
+  rotate: false
+  xy: 590, 900
+  size: 100, 99
+  orig: 116, 115
+  offset: 8, 8
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00003
+  rotate: true
+  xy: 692, 900
+  size: 99, 100
+  orig: 116, 115
+  offset: 8, 7
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00004
+  rotate: false
+  xy: 794, 900
+  size: 99, 99
+  orig: 116, 115
+  offset: 8, 8
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00005
+  rotate: false
+  xy: 895, 900
+  size: 104, 99
+  orig: 116, 115
+  offset: 5, 8
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00006
+  rotate: false
+  xy: 269, 903
+  size: 101, 96
+  orig: 116, 115
+  offset: 7, 10
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00007
+  rotate: false
+  xy: 490, 901
+  size: 98, 98
+  orig: 116, 115
+  offset: 8, 9
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00008
+  rotate: false
+  xy: 2, 920
+  size: 79, 79
+  orig: 116, 115
+  offset: 18, 18
+  index: -1
+yingzi
+  rotate: false
+  xy: 83, 919
+  size: 85, 80
+  orig: 93, 83
+  offset: 0, 3
+  index: -1

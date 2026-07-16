@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,230">
+  <displayList>
+    <graph id="n59_nhm7" name="graph_frame" xy="0,0" size="640,230" type="rect" lineColor="#03000000" fillColor="#03ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n57_wnc2" name="n57" src="wnc21w" fileName="pet/frame_xuanzexialvdi.png" xy="0,0"/>
+    <component id="n30_inps" name="group_model" src="wnc223" fileName="pet/group_petmodel.xml" xy="17,11" touchable="false"/>
+    <image id="n58_wnc2" name="n58" src="wnc21x" fileName="pet/frame_mane.png" xy="190,4"/>
+    <text id="n6_kmnd" name="label_name" xy="220,9" size="52,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" vAlign="middle" strokeColor="#d4841b" strokeSize="2" text="青龙"/>
+    <text id="n7_kmnd" name="label_level" xy="282,8" size="38,34" font="ui://27utqbizps391v" fontSize="24" color="#d4841b" vAlign="bottom" text="1级">
+      <relation target="n6_kmnd" sidePair="right-right"/>
+    </text>
+    <component id="n16_81of" name="group_buff1" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="200,50" size="115,111" aspect="true" scale="0.75,0.75" touchable="false"/>
+    <component id="n55_puo9" name="group_buff2" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="298,50" size="115,111" aspect="true" scale="0.75,0.75" touchable="false"/>
+    <component id="n47_inps" name="group_buff3" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="394,50" size="115,111" scale="0.75,0.75" touchable="false"/>
+    <component id="n49_inps" name="group_buff4" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="492,50" size="115,111" scale="0.75,0.75" touchable="false"/>
+    <component id="n20_81of" name="group_buff5" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="200,135" size="115,111" aspect="true" scale="0.75,0.75" touchable="false"/>
+    <component id="n42_inps" name="group_buff6" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="298,135" size="115,111" aspect="true" scale="0.75,0.75" touchable="false"/>
+    <component id="n48_inps" name="group_buff7" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="394,135" size="115,111" aspect="true" scale="0.75,0.75" touchable="false"/>
+    <component id="n50_inps" name="group_buff8" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="492,135" size="115,111" aspect="true" scale="0.75,0.75" touchable="false"/>
+  </displayList>
+</component>

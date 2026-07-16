@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="74,127">
+  <displayList>
+    <component id="n9_isy4" name="item" src="isy4du17v" fileName="goroup_gift.xml" xy="0,0" scale="0.74,0.74"/>
+    <image id="n10_isy4" name="n10" src="c3ihdu16v" fileName="xz1/mk_sj.png" xy="30,74"/>
+    <image id="n12_isy4" name="n12" src="c3ihdu170" fileName="xz1/mk_jindutiao_quan.png" xy="21,91"/>
+    <text id="n13_isy4" name="label_score" xy="15,93" size="49,32" font="ui://27utqbizps391v" fontSize="20" color="#d26828" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" text="120"/>
+  </displayList>
+</component>

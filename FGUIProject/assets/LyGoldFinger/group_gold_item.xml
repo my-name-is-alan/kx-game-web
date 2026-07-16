@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,400">
+  <displayList>
+    <component id="n1_kluz" name="group_item1" src="kluzt" fileName="group_gold_item1.xml" xy="0,0"/>
+    <component id="n2_kluz" name="group_item2" src="kluzt" fileName="group_gold_item1.xml" xy="300,0"/>
+    <image id="n3_kluz" name="n3" src="kluzi" fileName="res/frame_fengexian2.png" xy="28,384"/>
+  </displayList>
+</component>

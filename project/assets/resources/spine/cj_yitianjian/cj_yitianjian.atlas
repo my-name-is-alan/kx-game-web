@@ -1,0 +1,160 @@
+
+cj_yitianjian.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fuwen
+  rotate: false
+  xy: 2, 60
+  size: 583, 281
+  orig: 583, 281
+  offset: 0, 0
+  index: -1
+jian
+  rotate: false
+  xy: 568, 392
+  size: 526, 628
+  orig: 527, 631
+  offset: 1, 1
+  index: -1
+jian_baozhu
+  rotate: false
+  xy: 150, 27
+  size: 34, 31
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+jian_nengliang
+  rotate: false
+  xy: 1309, 581
+  size: 111, 124
+  orig: 122, 134
+  offset: 5, 4
+  index: -1
+light
+  rotate: false
+  xy: 587, 62
+  size: 323, 328
+  orig: 325, 331
+  offset: 1, 1
+  index: -1
+light_2
+  rotate: true
+  xy: 912, 80
+  size: 310, 305
+  orig: 341, 329
+  offset: 8, 13
+  index: -1
+light_3
+  rotate: false
+  xy: 2, 343
+  size: 564, 677
+  orig: 571, 699
+  offset: 6, 16
+  index: -1
+linhuo1
+  rotate: false
+  xy: 1096, 707
+  size: 276, 313
+  orig: 276, 396
+  offset: 0, 7
+  index: -1
+linhuo2
+  rotate: true
+  xy: 1219, 166
+  size: 274, 174
+  orig: 295, 223
+  offset: 19, 5
+  index: -1
+linhuo2_2
+  rotate: false
+  xy: 1219, 75
+  size: 242, 89
+  orig: 252, 91
+  offset: 8, 1
+  index: -1
+linhuo3
+  rotate: false
+  xy: 912, 7
+  size: 166, 71
+  orig: 191, 71
+  offset: 25, 0
+  index: -1
+linhuo4
+  rotate: false
+  xy: 1096, 442
+  size: 211, 263
+  orig: 212, 265
+  offset: 0, 0
+  index: -1
+y2_body
+  rotate: false
+  xy: 122, 6
+  size: 28, 19
+  orig: 28, 19
+  offset: 0, 0
+  index: -1
+y2_chibang_L
+  rotate: true
+  xy: 186, 35
+  size: 23, 18
+  orig: 25, 19
+  offset: 1, 0
+  index: -1
+y2_chibang_R
+  rotate: false
+  xy: 72, 6
+  size: 48, 19
+  orig: 48, 19
+  offset: 0, 0
+  index: -1
+y3_chibang_L
+  rotate: false
+  xy: 194, 5
+  size: 18, 10
+  orig: 18, 10
+  offset: 0, 0
+  index: -1
+y3_chibang_R
+  rotate: false
+  xy: 194, 17
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+y_body
+  rotate: false
+  xy: 72, 27
+  size: 76, 31
+  orig: 76, 32
+  offset: 0, 1
+  index: -1
+y_cibang_L
+  rotate: true
+  xy: 2, 3
+  size: 55, 68
+  orig: 55, 70
+  offset: 0, 1
+  index: -1
+y_cibang_R
+  rotate: false
+  xy: 1080, 3
+  size: 62, 75
+  orig: 62, 75
+  offset: 0, 0
+  index: -1
+y_foot_L
+  rotate: true
+  xy: 173, 3
+  size: 22, 19
+  orig: 24, 21
+  offset: 1, 1
+  index: -1
+y_foot_R
+  rotate: false
+  xy: 152, 2
+  size: 19, 23
+  orig: 21, 25
+  offset: 1, 1
+  index: -1

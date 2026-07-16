@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="48,48" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_inps" name="n0" src="inps5r" fileName="res1/btn_zhedieshang.png" xy="0,0" pkg="27utqbiz">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_inps" name="n1" src="inps5s" fileName="res1/btn_zhediexia.png" xy="0,0" pkg="27utqbiz">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_inps" name="n2" src="inps5r" fileName="res1/btn_zhedieshang.png" xy="0,0" pkg="27utqbiz">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_inps" name="n3" src="inps5s" fileName="res1/btn_zhediexia.png" xy="0,0" pkg="27utqbiz">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

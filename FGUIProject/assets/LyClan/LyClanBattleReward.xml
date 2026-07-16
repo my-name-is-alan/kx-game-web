@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://8rnw66xwera28s" designImageOffsetY="-194" designImageAlpha="0">
+  <displayList>
+    <component id="n15_era2" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n0_era2" name="main" src="tny69y" fileName="group_clanBattleReward.xml" xy="0,253">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

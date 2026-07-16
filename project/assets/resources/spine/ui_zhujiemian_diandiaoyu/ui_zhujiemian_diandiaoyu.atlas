@@ -1,0 +1,209 @@
+
+ui_zhujiemian_diandiaoyu.png
+size: 1772,984
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ui_dyan1/ui_dyan1_02
+  rotate: false
+  xy: 441, 775
+  size: 214, 207
+  orig: 421, 403
+  offset: 107, 100
+  index: -1
+images/ui_dyan1/ui_dyan1_04
+  rotate: false
+  xy: 657, 771
+  size: 219, 211
+  orig: 421, 403
+  offset: 106, 97
+  index: -1
+images/ui_dyan1/ui_dyan1_06
+  rotate: false
+  xy: 1536, 769
+  size: 213, 213
+  orig: 421, 403
+  offset: 106, 99
+  index: -1
+images/ui_dyan1/ui_dyan1_08
+  rotate: false
+  xy: 2, 563
+  size: 215, 213
+  orig: 421, 403
+  offset: 105, 103
+  index: -1
+images/ui_dyan1/ui_dyan1_10
+  rotate: false
+  xy: 882, 552
+  size: 219, 216
+  orig: 421, 403
+  offset: 104, 100
+  index: -1
+images/ui_dyan1/ui_dyan1_12
+  rotate: false
+  xy: 1552, 549
+  size: 218, 218
+  orig: 421, 403
+  offset: 107, 95
+  index: -1
+images/ui_dyan1/ui_dyan1_14
+  rotate: false
+  xy: 1095, 770
+  size: 218, 212
+  orig: 421, 403
+  offset: 110, 104
+  index: -1
+images/ui_dyan1/ui_dyan1_16
+  rotate: false
+  xy: 2, 340
+  size: 221, 218
+  orig: 421, 403
+  offset: 107, 101
+  index: -1
+images/ui_dyan1/ui_dyan1_18
+  rotate: false
+  xy: 1315, 770
+  size: 219, 212
+  orig: 421, 403
+  offset: 107, 105
+  index: -1
+images/ui_dyan1/ui_dyan1_20
+  rotate: true
+  xy: 219, 560
+  size: 214, 215
+  orig: 421, 403
+  offset: 113, 102
+  index: -1
+images/ui_dyan1/ui_dyan1_22
+  rotate: true
+  xy: 2, 778
+  size: 204, 220
+  orig: 421, 403
+  offset: 114, 98
+  index: -1
+images/ui_dyan1/ui_dyan1_24
+  rotate: true
+  xy: 224, 776
+  size: 206, 215
+  orig: 421, 403
+  offset: 112, 102
+  index: -1
+images/ui_dyan1/ui_dyan1_26
+  rotate: true
+  xy: 878, 771
+  size: 211, 215
+  orig: 421, 403
+  offset: 108, 99
+  index: -1
+images/ui_dyan1/ui_dyan1_28
+  rotate: true
+  xy: 436, 558
+  size: 215, 217
+  orig: 421, 403
+  offset: 107, 96
+  index: -1
+images/ui_dyan1/ui_dyan1_30
+  rotate: true
+  xy: 1103, 552
+  size: 216, 223
+  orig: 421, 403
+  offset: 104, 95
+  index: -1
+images/ui_dyan1/ui_dyan1_32
+  rotate: true
+  xy: 225, 336
+  size: 220, 221
+  orig: 421, 403
+  offset: 102, 93
+  index: -1
+images/ui_dyan1/ui_dyan1_34
+  rotate: false
+  xy: 655, 554
+  size: 225, 215
+  orig: 421, 403
+  offset: 102, 94
+  index: -1
+images/ui_dyan1/ui_dyan1_36
+  rotate: false
+  xy: 1328, 550
+  size: 222, 217
+  orig: 421, 403
+  offset: 104, 95
+  index: -1
+images/ui_dyan1/ui_dyan1_38
+  rotate: false
+  xy: 448, 326
+  size: 232, 226
+  orig: 421, 403
+  offset: 99, 92
+  index: -1
+images/ui_dyan1/ui_dyan1_40
+  rotate: false
+  xy: 682, 297
+  size: 256, 253
+  orig: 421, 403
+  offset: 87, 79
+  index: -1
+images/ui_dyan1/ui_dyan1_42
+  rotate: false
+  xy: 1471, 282
+  size: 268, 265
+  orig: 421, 403
+  offset: 81, 74
+  index: -1
+images/ui_dyan1/ui_dyan1_44
+  rotate: false
+  xy: 908, 11
+  size: 277, 276
+  orig: 421, 403
+  offset: 78, 69
+  index: -1
+images/ui_dyan1/ui_dyan1_46
+  rotate: false
+  xy: 1187, 2
+  size: 287, 278
+  orig: 421, 403
+  offset: 71, 67
+  index: -1
+images/ui_dyan1/ui_dyan1_48
+  rotate: false
+  xy: 2, 69
+  size: 300, 265
+  orig: 421, 403
+  offset: 64, 70
+  index: -1
+images/ui_dyan1/ui_dyan1_50
+  rotate: false
+  xy: 304, 52
+  size: 311, 272
+  orig: 421, 403
+  offset: 59, 66
+  index: -1
+images/ui_dyan1/ui_dyan1_52
+  rotate: false
+  xy: 617, 21
+  size: 289, 274
+  orig: 421, 403
+  offset: 55, 63
+  index: -1
+images/ui_dyan1/ui_dyan1_54
+  rotate: false
+  xy: 1476, 2
+  size: 292, 278
+  orig: 421, 403
+  offset: 53, 61
+  index: -1
+images/ui_dyan1/ui_dyan1_56
+  rotate: true
+  xy: 940, 289
+  size: 261, 263
+  orig: 421, 403
+  offset: 84, 76
+  index: -1
+images/ui_dyan1/ui_dyan1_58
+  rotate: false
+  xy: 1205, 285
+  size: 264, 263
+  orig: 421, 403
+  offset: 83, 76
+  index: -1

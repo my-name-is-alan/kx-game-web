@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="31,136">
+  <displayList>
+    <image id="n53_me8j" name="n53" src="me8jq6" fileName="res/pet/res/frame_shengyu.png" xy="0,0" aspect="true"/>
+    <text id="n54_me8j" name="label_number" xy="4,17" size="21,83" font="ui://27utqbizps391v" fontSize="20" color="#ffffff" align="center" leading="1" autoSize="none" text="剩余1"/>
+  </displayList>
+</component>

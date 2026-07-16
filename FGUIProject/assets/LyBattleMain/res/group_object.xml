@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2,2">
+  <displayList>
+    <image id="n3_qfmw" name="img_shadow" src="qfmwu19n" fileName="ui/yingyin.png" pkg="27utqbiz" xy="1,1" pivot="0.5,0.5" anchor="true" visible="false"/>
+    <component id="n2_k7ww" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="0,0" pivot="0.5,1" anchor="true"/>
+    <component id="n1_kr97" name="group_topui" src="abrz14" fileName="res/group_topui.xml" xy="0,-420" pivot="0.5,1" anchor="true"/>
+  </displayList>
+</component>

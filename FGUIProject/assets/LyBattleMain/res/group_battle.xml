@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,938">
+  <displayList>
+    <component id="n10_hy8r" name="group_iner_ctn" src="hy8r2m" fileName="res/group_iner_ctn.xml" xy="0,0"/>
+    <component id="n11_hy8r" name="group_iner_eft" src="hy8r2n" fileName="res/group_iner_eft.xml" xy="0,0"/>
+  </displayList>
+</component>

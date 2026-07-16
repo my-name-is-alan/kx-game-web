@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="643,157">
+  <displayList>
+    <graph id="n89_ljrs" name="n89" xy="0,0" size="643,149" type="rect" lineSize="0" fillColor="#fff4eee5" corner="8"/>
+    <component id="n90_ljrs" name="group_icon" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="64,21" scale="0.7,0.7"/>
+    <component id="n97_9jvz" name="loader_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="41,72" size="202,103" scale="0.6,0.6"/>
+    <text id="n92_ljrs" name="label_clanName" xy="170,12" size="184,34" font="ui://27utqbizps391v" fontSize="24" color="#d82a21" vAlign="middle" autoClearText="true" text="【帮派名字六字】"/>
+    <text id="n93_ljrs" name="label_playerName" xy="353,12" size="184,34" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" autoClearText="true" text="【帮派名字六字】">
+      <relation target="n92_ljrs" sidePair="right-right"/>
+    </text>
+    <richtext id="n94_ljrs" name="label_dec" xy="170,51" size="136,32" fontSize="22" color="#16191a" vAlign="middle" ubb="true" autoClearText="true" text="帮派名字六字"/>
+    <text id="n95_ljrs" name="label_createTime" xy="170,103" size="126,32" fontSize="22" color="#16191a" vAlign="middle" autoSize="none" autoClearText="true" text="22：11：22"/>
+    <component id="n96_ljrs" name="btn_battle" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="453,89" size="172,51">
+      <Button title="反击" titleFontSize="28"/>
+    </component>
+  </displayList>
+</component>

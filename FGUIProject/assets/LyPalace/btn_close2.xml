@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="320,80" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n10_thpg" name="n10" src="ql4fut" fileName="ui/frame_title.png" pkg="27utqbiz" xy="0,-31"/>
+    <image id="n11_thpg" name="n11" src="jwvdvt" fileName="ui/btn_back1.png" pkg="27utqbiz" xy="80,-9"/>
+    <loader id="n13_ceii" name="n13" xy="174,15" size="50,50" url="ui://yblwt9kzceii2u" vAlign="middle"/>
+  </displayList>
+  <Button/>
+</component>

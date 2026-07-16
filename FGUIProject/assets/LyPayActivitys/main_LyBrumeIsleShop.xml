@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,800">
+  <displayList>
+    <image id="n36_m789" name="n36" src="m78915" fileName="giftgroup/frame_libaozhaomin.png" xy="27,-258"/>
+    <component id="n25_gxp4" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="375,350" pivot="0.5,1" anchor="true" scale="1.5,1.5"/>
+    <image id="n14_ehs5" name="n14" src="ehs5b" fileName="giftgroup/frame_zhigoulibaodiban.png" xy="-35,61"/>
+    <image id="n24_gxp4" name="n24" src="gxp410" fileName="giftgroup/frame_title.png" xy="29,69"/>
+    <list id="n11_cjmr" name="list_item" xy="114,332" size="520,100" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="40" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n12_ut5y" name="label_time" xy="370,476" size="10,32" fontSize="22" color="#c95252" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n17_ehs5" name="btn_pay" src="ehs5f" fileName="btn_paygroup.xml" pkg="27utqbiz" xy="245,523">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n15_ehs5" name="btn_arrowbigL" src="ehs5d" fileName="btn_arrowbig.xml" pkg="27utqbiz" xy="11,356"/>
+    <component id="n16_ehs5" name="btn_arrowbigR" src="ehs5d" fileName="btn_arrowbig.xml" pkg="27utqbiz" xy="690,359" scale="-1,1"/>
+    <component id="n13_ehs5" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="612,88"/>
+    <list id="n18_ehs5" name="list_group" xy="0,680" size="750,77" layout="flow_hz" scroll="horizontal" colGap="40" defaultItem="ui://yt4pdbecehs5c" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n19_xht3" name="list_point" xy="-2,777" size="750,50" group="n22_xht3" layout="flow_hz" scroll="horizontal" defaultItem="ui://yt4pdbecxht3g" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n20_xht3" name="btn_arrowsmallL" src="ehs5e" fileName="giftgroup/btn_arrowsmall.xml" xy="115,804" pivot="0.5,0.5" anchor="true" group="n22_xht3"/>
+    <component id="n21_xht3" name="btn_arrowsmallR" src="ehs5e" fileName="giftgroup/btn_arrowsmall.xml" xy="635,804" pivot="0.5,0.5" anchor="true" group="n22_xht3" scale="-1,1"/>
+    <group id="n22_xht3" name="group_point" xy="-2,777" size="750,50" advanced="true"/>
+    <image id="n33_m789" name="n33" src="m78916" fileName="giftgroup/word_wuyinshenmilibao.png" xy="123,143"/>
+    <image id="n34_m789" name="n34" src="m78918" fileName="giftgroup/word_1100%.png" xy="182,244"/>
+    <image id="n35_m789" name="n35" src="m78919" fileName="giftgroup/word_gaoefanli.png" xy="362,240"/>
+  </displayList>
+</component>

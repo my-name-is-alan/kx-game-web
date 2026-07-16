@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="642,109" designImageOffsetX="-407" designImageOffsetY="-472">
+  <displayList>
+    <graph id="n22_l7ic" name="n22" xy="0,0" size="642,109" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <graph id="n23_l7ic" name="btn_item" xy="90,0" size="350,109" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00333333"/>
+    <text id="n24_l7ic" name="label_leaderName" xy="187,63" size="92,32" fontSize="22" color="#16191a" vAlign="middle" text="玩家名看"/>
+    <text id="n25_l7ic" name="label_rank" xy="14,26" size="79,54" font="ui://27utqbizps391v" fontSize="40" align="center" autoSize="shrink" text="111"/>
+    <loader id="n26_l7ic" name="img_rank" xy="17,17" size="76,76" touchable="false" url="ui://27utqbizltemkh" clearOnPublish="true"/>
+    <text id="n27_l7ic" name="label_name" xy="186,16" size="132,39" fontSize="28" color="#16191a" vAlign="middle" text="帮派名字1"/>
+    <text id="n28_l7ic" name="label_level" xy="328,16" size="48,39" fontSize="28" color="#16191a" vAlign="middle" text="8级">
+      <relation target="n27_l7ic" sidePair="right-right"/>
+    </text>
+    <loader id="n29_l7ic" name="img_flag" xy="89,14" size="80,81" touchable="false" url="ui://27utqbizd373uw" align="center" vAlign="middle" fill="scale"/>
+    <image id="n30_l7ic" name="n30" src="q8va6t" fileName="ui/frame_connect1.png" pkg="27utqbiz" xy="426,50" size="20,262" rotation="90"/>
+    <text id="n31_l7ic" name="label_score" xy="481,37" size="132,34" fontSize="24" color="#16191a" text="积分：9999"/>
+  </displayList>
+</component>

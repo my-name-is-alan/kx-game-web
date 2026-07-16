@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="496,253">
+  <displayList>
+    <image id="n3_xpuh" name="n3" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,0" size="496,253"/>
+    <text id="n1_r8fe" name="label_name" xy="25,28" size="92,44" fontSize="32" text="asdsa"/>
+    <text id="n2_r8fe" name="label_dec" xy="25,83" size="445,140" fontSize="24" autoSize="none" text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"/>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="269,40" extention="ComboBox">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n4_f9xz" name="n4" xy="0,0" size="269,40" touchable="false" type="rect" lineSize="0" fillColor="#fff0f0f0"/>
+    <text id="n5_f9xz" name="title" xy="0,2" size="172,34" fontSize="24" vAlign="middle" singleLine="true" text="【至宝】或以上"/>
+  </displayList>
+  <ComboBox dropdown="ui://2uzp0flsf9xz39"/>
+</component>

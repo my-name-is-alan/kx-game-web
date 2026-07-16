@@ -1,0 +1,132 @@
+
+zd_skills_tianfuchuoxueci_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/wx_tfcxc_hit/wx_tfcxc_hit_00000
+  rotate: true
+  xy: 554, 449
+  size: 269, 268
+  orig: 336, 336
+  offset: 35, 34
+  index: -1
+images/wx_tfcxc_hit/wx_tfcxc_hit_00002
+  rotate: false
+  xy: 2, 693
+  size: 306, 307
+  orig: 336, 336
+  offset: 17, 15
+  index: -1
+images/wx_tfcxc_hit/wx_tfcxc_hit_00004
+  rotate: false
+  xy: 268, 107
+  size: 286, 286
+  orig: 336, 336
+  offset: 27, 25
+  index: -1
+images/wx_tfcxc_hit/wx_tfcxc_hit_00006
+  rotate: false
+  xy: 275, 410
+  size: 277, 281
+  orig: 336, 336
+  offset: 31, 28
+  index: -1
+images/wx_tfcxc_hit/wx_tfcxc_hit_00008
+  rotate: true
+  xy: 310, 720
+  size: 280, 276
+  orig: 336, 336
+  offset: 27, 29
+  index: -1
+images/wx_tfcxc_hit/wx_tfcxc_hit_00010
+  rotate: true
+  xy: 2, 395
+  size: 296, 271
+  orig: 336, 336
+  offset: 21, 27
+  index: -1
+images/wx_tfcxc_hit/wx_tfcxc_hit_00012
+  rotate: true
+  xy: 2, 99
+  size: 294, 264
+  orig: 336, 336
+  offset: 26, 37
+  index: -1
+images/wx_tfcxc_hit/wx_tfcxc_hit_00014
+  rotate: true
+  xy: 588, 749
+  size: 251, 247
+  orig: 336, 336
+  offset: 49, 50
+  index: -1
+images/wx_tfcxc_zd/wx_tfcxc_zd_00000
+  rotate: true
+  xy: 837, 726
+  size: 134, 163
+  orig: 164, 247
+  offset: 17, 78
+  index: -1
+images/wx_tfcxc_zd/wx_tfcxc_zd_00001
+  rotate: false
+  xy: 556, 315
+  size: 138, 132
+  orig: 164, 247
+  offset: 14, 75
+  index: -1
+images/wx_tfcxc_zd/wx_tfcxc_zd_00002
+  rotate: true
+  xy: 689, 40
+  size: 135, 129
+  orig: 164, 247
+  offset: 17, 35
+  index: -1
+images/wx_tfcxc_zd/wx_tfcxc_zd_00003
+  rotate: true
+  xy: 824, 450
+  size: 138, 155
+  orig: 164, 247
+  offset: 17, 12
+  index: -1
+images/wx_tfcxc_zd/wx_tfcxc_zd_00004
+  rotate: true
+  xy: 837, 862
+  size: 138, 163
+  orig: 164, 247
+  offset: 17, 7
+  index: -1
+images/wx_tfcxc_zd/wx_tfcxc_zd_00005
+  rotate: true
+  xy: 824, 313
+  size: 135, 155
+  orig: 164, 247
+  offset: 17, 16
+  index: -1
+images/wx_tfcxc_zd/wx_tfcxc_zd_00006
+  rotate: true
+  xy: 556, 40
+  size: 135, 131
+  orig: 164, 247
+  offset: 18, 38
+  index: -1
+images/wx_tfcxc_zd/wx_tfcxc_zd_00007
+  rotate: false
+  xy: 556, 177
+  size: 136, 136
+  orig: 164, 247
+  offset: 15, 33
+  index: -1
+images/wx_tfcxc_zd/wx_tfcxc_zd_00008
+  rotate: true
+  xy: 694, 177
+  size: 134, 132
+  orig: 164, 247
+  offset: 18, 81
+  index: -1
+images/wx_tfcxc_zd/wx_tfcxc_zd_00009
+  rotate: true
+  xy: 824, 590
+  size: 134, 163
+  orig: 164, 247
+  offset: 18, 79
+  index: -1

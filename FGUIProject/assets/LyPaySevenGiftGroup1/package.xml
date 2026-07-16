@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="fh9eg6hp">
+  <resources>
+    <component id="ba5i0" name="LyPaySevenGiftGroup1.xml" path="/" exported="true"/>
+    <component id="ba5i1" name="group_main.xml" path="/"/>
+    <image id="ba5id" name="bg_meirilibao.png" path="/res/" atlas="alone_npot"/>
+    <image id="ba5ih" name="btn_close1.png" path="/res/"/>
+    <component id="ba5il" name="btn_close1.xml" path="/res/"/>
+    <image id="ba5im" name="btn_small.png" path="/res/"/>
+    <image id="ba5io" name="btn_small3.png" path="/res/"/>
+    <image id="ba5iq" name="btn_big.png" path="/res/"/>
+    <component id="ba5ir" name="btn_big.xml" path="/res/"/>
+    <component id="ba5it" name="btn_small3.xml" path="/res/"/>
+    <image id="ba5iu" name="frame_daoju.png" path="/res/"/>
+    <image id="ba5iv" name="frame_mengban.png" path="/res/"/>
+    <component id="ba5iw" name="group_player.xml" path="/"/>
+    <image id="ba5ix" name="frame_kaifuxianding.png" path="/res/"/>
+    <image id="ba5iy" name="frame_menkepian.png" path="/res/"/>
+    <image id="ba5iz" name="frame_zhongshenyici.png" path="/res/"/>
+    <image id="ba5i10" name="frame_mengbanlv.png" path="/res/"/>
+    <image id="ba5i11" name="frame_name.png" path="/res/"/>
+    <image id="ba5i12" name="frame_qianjing.png" path="/res/"/>
+    <image id="itlt13" name="frame_chaozhi.png" path="/res/"/>
+    <component id="kdi014" name="btn_plaint.xml" path="/"/>
+    <component id="isca15" name="group_rate.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

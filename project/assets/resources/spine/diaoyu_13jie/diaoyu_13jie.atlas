@@ -1,0 +1,230 @@
+
+diaoyu_13jie.png
+size: 1174,1174
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dy_lg11/dy_lg11_10
+  rotate: true
+  xy: 990, 142
+  size: 121, 113
+  orig: 363, 254
+  offset: 120, 54
+  index: -1
+images/dy_lg11/dy_lg11_12
+  rotate: false
+  xy: 538, 270
+  size: 204, 157
+  orig: 363, 254
+  offset: 79, 26
+  index: -1
+images/dy_lg11/dy_lg11_14
+  rotate: true
+  xy: 904, 455
+  size: 220, 190
+  orig: 363, 254
+  offset: 65, 2
+  index: -1
+images/dy_lg11/dy_lg11_16
+  rotate: false
+  xy: 317, 308
+  size: 219, 124
+  orig: 363, 254
+  offset: 74, 73
+  index: -1
+images/dy_lg11/dy_lg11_18
+  rotate: true
+  xy: 862, 58
+  size: 184, 126
+  orig: 363, 254
+  offset: 72, 72
+  index: -1
+images/dy_lg11/dy_lg11_20
+  rotate: false
+  xy: 309, 13
+  size: 170, 112
+  orig: 363, 254
+  offset: 89, 82
+  index: -1
+images/dy_lg11/dy_lg11_22
+  rotate: false
+  xy: 991, 689
+  size: 152, 95
+  orig: 363, 254
+  offset: 84, 83
+  index: -1
+images/dy_lg11/dy_lg11_24
+  rotate: false
+  xy: 668, 897
+  size: 6, 3
+  orig: 363, 254
+  offset: 236, 164
+  index: -1
+images/dy_lg11/dy_lg11_26
+  rotate: false
+  xy: 974, 971
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+images/dy_lg_sg13_00
+  rotate: false
+  xy: 974, 974
+  size: 198, 198
+  orig: 214, 216
+  offset: 8, 9
+  index: -1
+images/dy_qg11/dy_qg11_20
+  rotate: false
+  xy: 309, 127
+  size: 190, 179
+  orig: 517, 452
+  offset: 165, 136
+  index: -1
+images/dy_qg11/dy_qg11_22
+  rotate: false
+  xy: 645, 429
+  size: 257, 246
+  orig: 517, 452
+  offset: 132, 115
+  index: -1
+images/dy_qg11/dy_qg11_24
+  rotate: false
+  xy: 351, 434
+  size: 292, 255
+  orig: 517, 452
+  offset: 128, 110
+  index: -1
+images/dy_qg11/dy_qg11_26
+  rotate: false
+  xy: 360, 902
+  size: 315, 270
+  orig: 517, 452
+  offset: 110, 97
+  index: -1
+images/dy_qg11/dy_qg11_28
+  rotate: false
+  xy: 2, 619
+  size: 347, 276
+  orig: 517, 452
+  offset: 101, 92
+  index: -1
+images/dy_qg11/dy_qg11_30
+  rotate: false
+  xy: 2, 897
+  size: 356, 275
+  orig: 517, 452
+  offset: 110, 91
+  index: -1
+images/dy_qg11/dy_qg11_32
+  rotate: false
+  xy: 2, 74
+  size: 305, 273
+  orig: 517, 452
+  offset: 107, 90
+  index: -1
+images/dy_qg11/dy_qg11_34
+  rotate: false
+  xy: 677, 897
+  size: 295, 275
+  orig: 517, 452
+  offset: 115, 90
+  index: -1
+images/dy_qg11/dy_qg11_36
+  rotate: false
+  xy: 2, 349
+  size: 313, 268
+  orig: 517, 452
+  offset: 114, 96
+  index: -1
+images/dy_qg11/dy_qg11_38
+  rotate: false
+  xy: 668, 677
+  size: 321, 218
+  orig: 517, 452
+  offset: 104, 140
+  index: -1
+images/dy_qg11/dy_qg11_40
+  rotate: false
+  xy: 360, 691
+  size: 306, 209
+  orig: 517, 452
+  offset: 124, 150
+  index: -1
+images/dy_zbg12/dy_zbg9_00
+  rotate: false
+  xy: 744, 244
+  size: 185, 183
+  orig: 242, 233
+  offset: 27, 30
+  index: -1
+images/dy_zbg12/dy_zbg9_10
+  rotate: false
+  xy: 744, 244
+  size: 185, 183
+  orig: 242, 233
+  offset: 27, 29
+  index: -1
+images/dy_zbg12/dy_zbg9_02
+  rotate: true
+  xy: 931, 265
+  size: 188, 178
+  orig: 242, 233
+  offset: 26, 29
+  index: -1
+images/dy_zbg12/dy_zbg9_12
+  rotate: true
+  xy: 931, 265
+  size: 188, 178
+  orig: 242, 233
+  offset: 26, 29
+  index: -1
+images/dy_zbg12/dy_zbg9_04
+  rotate: true
+  xy: 501, 98
+  size: 170, 180
+  orig: 242, 233
+  offset: 40, 28
+  index: -1
+images/dy_zbg12/dy_zbg9_14
+  rotate: true
+  xy: 501, 98
+  size: 170, 180
+  orig: 242, 233
+  offset: 40, 28
+  index: -1
+images/dy_zbg12/dy_zbg9_06
+  rotate: false
+  xy: 683, 66
+  size: 177, 176
+  orig: 242, 233
+  offset: 29, 32
+  index: -1
+images/dy_zbg12/dy_zbg9_16
+  rotate: false
+  xy: 683, 66
+  size: 177, 176
+  orig: 242, 233
+  offset: 29, 32
+  index: -1
+images/dy_zbg12/dy_zbg9_08
+  rotate: false
+  xy: 991, 786
+  size: 181, 186
+  orig: 242, 233
+  offset: 28, 26
+  index: -1
+images/dy_zbg12/dy_zbg9_18
+  rotate: false
+  xy: 991, 786
+  size: 181, 186
+  orig: 242, 233
+  offset: 28, 26
+  index: -1
+images/guangzhu
+  rotate: true
+  xy: 2, 12
+  size: 60, 167
+  orig: 62, 169
+  offset: 1, 2
+  index: -1

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n0_n7tl" name="group" src="n7tli" fileName="group_msgtip.xml" xy="75,500"/>
+  </displayList>
+  <transition name="trans_tips">
+    <item time="0" type="Alpha" target="n0_n7tl" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="XY" target="n0_n7tl" tween="true" startValue="75,500,0.1,0.375" endValue="75,300" duration="12"/>
+    <item time="36" type="Alpha" target="n0_n7tl" tween="true" startValue="1" endValue="0" duration="13"/>
+    <item time="36" type="XY" target="n0_n7tl" value="75,300"/>
+    <item time="49" type="XY" target="n0_n7tl" value="75,300"/>
+  </transition>
+</component>

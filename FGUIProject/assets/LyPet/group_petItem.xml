@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,118">
+  <displayList>
+    <loader id="n4_i05h" name="img_icon" xy="0,0" size="94,90" scale="0.9,0.9" url="ui://27utqbizi809lz" align="center" vAlign="middle"/>
+    <text id="n1_i05h" name="title" xy="2,84" size="80,34" font="ui://27utqbizps391v" fontSize="20" color="#6a6a6a" align="center" vAlign="middle" autoSize="none" text="&#xA;"/>
+  </displayList>
+</component>

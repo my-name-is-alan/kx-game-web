@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1230">
+  <displayList>
+    <image id="n51_l3px" name="n51" src="l3px1n" fileName="res/bg_meirilibao2.png" xy="16,-38"/>
+    <component id="n40_ba5i" name="group_spine_ram" src="l3px1m" fileName="group_player.xml" xy="374,860"/>
+    <component id="n34_ba5i" name="btn_close" src="l3px15" fileName="res/btn_close1.xml" xy="610,-38"/>
+    <image id="n52_l3px" name="n52" src="l3px1s" fileName="res/frame_mengbanlan.png" xy="43,410"/>
+    <image id="n53_l3px" name="n53" src="l3px1t" fileName="res/frame_name2.png" xy="449,577"/>
+    <image id="n54_l3px" name="n54" src="l3px1u" fileName="res/frame_qianjing2.png" xy="221,143"/>
+    <image id="n55_l3px" name="n55" src="l3px1v" fileName="res/frame_zhongshenyici2.png" xy="30,238"/>
+    <image id="n43_ba5i" name="n43" src="l3px1e" fileName="res/frame_menkepian.png" xy="184,472"/>
+    <image id="n56_l3px" name="n56" src="l3px1r" fileName="res/frame_kaifuxianding2.png" xy="52,632"/>
+    <image id="n57_l3px" name="n57" src="l3px1q" fileName="res/frame_daoju2.png" xy="40,768"/>
+    <list id="n11_cjmr" name="list_item" xy="105,787" size="540,100" layout="flow_hz" overflow="scroll" scroll="horizontal" scrollBarFlags="640" colGap="10" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n59_isca" name="img_arrow" src="isca1x" fileName="group_rate.xml" xy="590,787" pivot="0.5,0.5" anchor="true"/>
+    <text id="n45_ba5i" name="label_name" xy="477,511" size="150,65" font="ui://27utqbizps391v" fontSize="49" color="#ffffff" align="right" vAlign="middle" strokeColor="#344978" strokeSize="2" autoClearText="true" text="叶孤城">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n49_ba5i" name="label_desc" xy="495,574" size="132,44" font="ui://27utqbizps391v" fontSize="32" color="#3765a6" align="right" vAlign="middle" autoClearText="true" text="反击连击">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n12_ut5y" name="label_time" xy="299,708" size="152,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" align="center" vAlign="middle" ubb="true" strokeColor="#16191a" autoClearText="true" text="活动剩余：[color=#53FF46]{0}[/color]">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n37_ba5i" name="label_count" xy="316,932" size="118,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" vAlign="middle" strokeColor="#3867a8" autoClearText="true" text="每日限购：">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n58_kdi0" name="btn_detail" src="kdi01w" fileName="btn_plaint.xml" xy="490,502"/>
+    <component id="n35_ba5i" name="btn_pay" src="l3px19" fileName="res/btn_big.xml" xy="247,975">
+      <relation target="" sidePair="center-center"/>
+      <Button title="98"/>
+    </component>
+    <list id="n18_ehs5" name="list_group" xy="0,1125" size="750,106" layout="flow_hz" scroll="horizontal" colGap="5" defaultItem="ui://e4w4sulul3px1a" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n60_pskq" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="470,950" visible="false"/>
+  </displayList>
+</component>

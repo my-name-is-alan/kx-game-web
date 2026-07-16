@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetY="-189" designImageAlpha="94">
+  <displayList>
+    <component id="n31_n7df" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n30_l7ic" name="main" src="n7df1s" fileName="group_clanSoloTisp.xml" xy="0,418">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

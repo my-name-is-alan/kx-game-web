@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,840">
+  <displayList>
+    <image id="n19_k1vl" name="n19" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="30,0" size="690,840"/>
+    <component id="n22_k1vl" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,-25"/>
+    <image id="n17_k1vl" name="n17" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="164,36" size="432,38"/>
+    <text id="n18_k1vl" name="label_title" xy="179,35" size="400,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n21_k1vl" name="n21" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="63,100" size="620,240">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n7_j5iz" name="group_attr8" src="qhxyd" fileName="group_attr8.xml" xy="125,100"/>
+    <image id="n23_k1vl" name="n23" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="164,371" size="432,38"/>
+    <text id="n24_k1vl" name="label_add" xy="179,370" size="400,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n25_k1vl" name="n25" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="65,420" size="620,280">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <list id="n10_j5iz" name="list_attr" xy="195,420" size="360,120" layout="flow_hz" defaultItem="ui://qy0p8c70qhxy9">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <image id="n27_k1vl" name="n27" src="o66p4x" fileName="ui/frame_subsidiary explanation.png" pkg="27utqbiz" xy="135,546" size="480,74">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n13_j5iz" name="label_attrdesc" xy="370,566" size="10,34" fontSize="24" color="#faf9f7" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n14_j5iz" name="label_desc" xy="370,640" size="10,32" fontSize="22" color="#16191a" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n16_j5iz" name="btn_cancel" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="120,740"/>
+    <component id="n15_j5iz" name="btn_comfirm" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="420,740"/>
+  </displayList>
+</component>

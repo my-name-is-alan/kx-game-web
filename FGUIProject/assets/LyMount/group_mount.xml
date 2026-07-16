@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1100">
+  <displayList>
+    <image id="n52_r1me" name="n52" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="29,0" size="702,1105"/>
+    <image id="n74_ii8x" name="n74" src="ii8xq" fileName="res/bg_baixianglou1.png" xy="53,103"/>
+    <richtext id="n53_r1me" name="label_title" xy="56,34" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="仓&lt;库&lt;"/>
+    <component id="n70_r1me" name="btn_detail" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="184,0"/>
+    <component id="n54_r1me" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="671,34"/>
+    <component id="n79_phnl" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="200,418" pivot="0.5,1" anchor="true" scale="0.8,0.8"/>
+    <text id="n5_i3vf" name="label_singer" xy="58,460" size="298,36" font="ui://27utqbizps391v" fontSize="26" color="#69e3bf" align="center" autoSize="none" strokeColor="#16191a" text="">
+      <relation target="" sidePair=""/>
+    </text>
+    <component id="n60_r1me" name="btn_used" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="95,506"/>
+    <component id="n59_r1me" name="btn_active" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="95,506"/>
+    <text id="n6_i3vf" name="label_used" xy="57,517" size="298,34" fontSize="24" color="#b24444" align="center" autoSize="none" text="">
+      <relation target="" sidePair=""/>
+    </text>
+    <image id="n55_r1me" name="n55" src="r1mef" fileName="res/frame_attribute.png" xy="380,142" group="n15_i3vf"/>
+    <text id="n8_i3vf" name="label_tipbase" xy="383,151" size="300,32" group="n15_i3vf" font="ui://27utqbizps391v" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n9_i3vf" name="label_attr1" xy="383,196" size="300,29" group="n15_i3vf" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n10_i3vf" name="label_attr2" xy="383,226" size="300,29" group="n15_i3vf" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n11_i3vf" name="label_attr3" xy="383,256" size="300,29" group="n15_i3vf" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n12_i3vf" name="label_attr4" xy="383,286" size="300,29" group="n15_i3vf" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n13_i3vf" name="label_attr5" xy="383,316" size="300,29" group="n15_i3vf" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n14_i3vf" name="label_attr6" xy="383,346" size="300,29" group="n15_i3vf" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n15_i3vf" name="n15" xy="380,142" size="306,376"/>
+    <image id="n56_r1me" name="n56" src="r1mej" fileName="res/frame_now.png" xy="409,384" group="n23_i3vf"/>
+    <text id="n16_i3vf" name="label_tipc" xy="398,381" size="140,29" group="n23_i3vf" fontSize="20" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n17_i3vf" name="label_base1" xy="413,416" size="140,29" group="n23_i3vf" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n18_i3vf" name="label_base2" xy="413,446" size="140,29" group="n23_i3vf" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n19_i3vf" name="label_base3" xy="413,476" size="140,29" group="n23_i3vf" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n23_i3vf" name="n23" xy="398,381" size="155,124"/>
+    <image id="n62_r1me" name="n62" src="mnt82r" fileName="ui/n31.png" pkg="27utqbiz" xy="568,422" group="n28_i3vf" rotation="90"/>
+    <image id="n63_r1me" name="n63" src="mnt82r" fileName="ui/n31.png" pkg="27utqbiz" xy="568,452" group="n28_i3vf" rotation="90"/>
+    <image id="n64_r1me" name="n64" src="mnt82r" fileName="ui/n31.png" pkg="27utqbiz" xy="568,482" group="n28_i3vf" rotation="90"/>
+    <image id="n57_r1me" name="n57" src="r1mei" fileName="res/frame_next.png" xy="534,384" group="n28_i3vf"/>
+    <text id="n24_i3vf" name="label_tipn" xy="520,381" size="140,29" group="n28_i3vf" fontSize="20" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n25_i3vf" name="label_base1n" xy="574,416" size="140,29" group="n28_i3vf" fontSize="20" color="#5d9e32" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n26_i3vf" name="label_base2n" xy="574,446" size="140,29" group="n28_i3vf" fontSize="20" color="#5d9e32" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n27_i3vf" name="label_base3n" xy="574,476" size="140,29" group="n28_i3vf" fontSize="20" color="#5d9e32" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n28_i3vf" name="n28" xy="520,381" size="194,124"/>
+    <image id="n77_em2r" name="n77" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="70,580" size="620,280"/>
+    <list id="n1_r7co" name="list_mount" xy="123,603" size="640,100" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="2" colGap="20" defaultItem="ui://c3my3l4fii8xk" autoItemSize="false" vAlign="middle" renderOrder="arch" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n75_ppd1" name="btn_arrow_l" src="ppd1r" fileName="btn_arrow.xml" xy="78,618"/>
+    <component id="n76_ppd1" name="btn_arrow_r" src="ppd1r" fileName="btn_arrow.xml" xy="631,618" scale="-1,1"/>
+    <text id="n4_qlw8" name="label_name" xy="370,695" size="10,34" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n65_r1me" name="n65" src="r1meg" fileName="res/frame_equipment  name.png" xy="238,762"/>
+    <text id="n35_i3vf" name="label_stagelevel" xy="206,761" size="338,36" font="ui://27utqbizps391v" fontSize="26" color="#fff5ad" align="center" vAlign="middle" autoSize="none" strokeColor="#b24444" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n69_r1me" name="btn_tips" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="407,722"/>
+    <image id="n71_r1me" name="n71" src="bh805e" fileName="ui/frame_progress bar_all.png" pkg="27utqbiz" xy="110,804" size="533,20"/>
+    <component id="n37_i3vf" name="bar_progress" src="i3vf4" fileName="bar_progress.xml" xy="110,804" size="510,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <loader3D id="n78_k4zi" name="loader_spine_exp" xy="374,813" size="1,1" animation="" skin="" loop="true"/>
+    <component id="n67_r1me" name="btn_clothes" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="130,920"/>
+    <loader id="n41_i3vf" name="loader_icon" xy="470,872" size="40,40" fill="scaleFree"/>
+    <text id="n42_i3vf" name="label_need" xy="515,879" size="10,29" fontSize="20" vAlign="middle" text=""/>
+    <component id="n68_r1me" name="btn_upstage" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="420,920"/>
+    <component id="n66_r1me" name="btn_uplevel" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="420,920" group="n46_i3vf"/>
+    <component id="n43_i3vf" name="btn_check" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="440,978" size="205,50" group="n46_i3vf"/>
+    <text id="n44_i3vf" name="label_quick" xy="498,990" size="10,29" group="n46_i3vf" fontSize="20" color="#16191a" vAlign="middle" text=""/>
+    <text id="n45_i3vf" name="label_desc" xy="40,1025" size="669,34" group="n46_i3vf" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text=""/>
+    <group id="n46_i3vf" name="group_level" xy="40,920" size="669,139" advanced="true"/>
+  </displayList>
+</component>

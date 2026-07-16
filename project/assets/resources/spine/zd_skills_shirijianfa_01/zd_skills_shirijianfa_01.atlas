@@ -1,0 +1,97 @@
+
+zd_skills_shirijianfa_01.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/srjf_hwd/srjf_hwd_00
+  rotate: true
+  xy: 2, 3
+  size: 251, 93
+  orig: 285, 160
+  offset: 14, 4
+  index: -1
+images/effect/srjf_hwd/srjf_hwd_01
+  rotate: true
+  xy: 97, 17
+  size: 237, 142
+  orig: 285, 160
+  offset: 4, 5
+  index: -1
+images/effect/srjf_hwd/srjf_hwd_04
+  rotate: true
+  xy: 2, 256
+  size: 252, 125
+  orig: 285, 160
+  offset: 11, 22
+  index: -1
+images/effect/srjf_hwd/srjf_hwd_06
+  rotate: true
+  xy: 129, 282
+  size: 226, 114
+  orig: 285, 160
+  offset: 32, 31
+  index: -1
+images/effect/srjf_hwd/srjf_hwd_08
+  rotate: false
+  xy: 431, 2
+  size: 196, 101
+  orig: 285, 160
+  offset: 43, 39
+  index: -1
+images/effect/srjf_hwd/srjf_hwd_10
+  rotate: false
+  xy: 727, 25
+  size: 165, 97
+  orig: 285, 160
+  offset: 56, 41
+  index: -1
+images/effect/srjf_xl/srjf_xl_00
+  rotate: true
+  xy: 446, 317
+  size: 191, 190
+  orig: 220, 220
+  offset: 10, 15
+  index: -1
+images/effect/srjf_xl/srjf_xl_02
+  rotate: false
+  xy: 245, 307
+  size: 199, 201
+  orig: 220, 220
+  offset: 7, 11
+  index: -1
+images/effect/srjf_xl/srjf_xl_04
+  rotate: true
+  xy: 621, 124
+  size: 191, 183
+  orig: 220, 220
+  offset: 11, 20
+  index: -1
+images/effect/srjf_xl/srjf_xl_06
+  rotate: true
+  xy: 241, 76
+  size: 204, 188
+  orig: 220, 220
+  offset: 7, 17
+  index: -1
+images/effect/srjf_xl/srjf_xl_08
+  rotate: true
+  xy: 431, 105
+  size: 200, 188
+  orig: 220, 220
+  offset: 9, 17
+  index: -1
+images/effect/srjf_xl/srjf_xl_10
+  rotate: true
+  xy: 638, 347
+  size: 161, 157
+  orig: 220, 220
+  offset: 32, 32
+  index: -1
+images/effect/srjf_xl/srjf_xl_12
+  rotate: true
+  xy: 629, 23
+  size: 99, 96
+  orig: 220, 220
+  offset: 58, 63
+  index: -1

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1700">
+  <displayList>
+    <image id="n50_kpgn" name="n50" src="kpgndu18r" fileName="res/bg_zhandou.png" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n6_kpgn" name="n6" src="jv6udu18m" fileName="res/frame_fanhuidi.png" xy="1,111"/>
+    <image id="n7_kpgn" name="n7" src="jv6udu18p" fileName="res/word_gongchengluedi (2).png" xy="38,161"/>
+    <text id="n53_l2m4" name="label_cityLose" xy="248,673" size="357,66" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="该城池已被摧毁"/>
+    <image id="n4_kpgn" name="n4" src="jv6udu18h" fileName="res/frame_gerenxinxi.png" xy="8,273" size="421,140" group="n41_kpgn"/>
+    <loader id="n5_kpgn" name="icon_flag" xy="18,287" size="114,114" group="n41_kpgn" url="ui://27utqbizql4fuq" align="center" vAlign="middle" fill="scale"/>
+    <text id="n9_kpgn" name="label_atkSever" xy="149,331" size="76,34" group="n41_kpgn" fontSize="24" color="#ffffff" vAlign="middle" strokeColor="#060708" strokeSize="2" text="服务器"/>
+    <text id="n8_kpgn" name="label_atkName" xy="149,289" size="259,38" group="n41_kpgn" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#060708" strokeSize="2" text="qeweqw"/>
+    <component id="n10_kpgn" name="pro_atkHp" src="jhmn2n" fileName="ProgressBar1.xml" xy="150,375" size="242,20" group="n41_kpgn">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <group id="n41_kpgn" name="n41" xy="8,273" size="421,140" advanced="true"/>
+    <image id="n13_kpgn" name="n13" src="jhmn2o" fileName="res/frame_xichenqingquanname.png" xy="537,1427" size="214,31"/>
+    <image id="n15_kpgn" name="n15" src="jhmn2o" fileName="res/frame_xichenqingquanname.png" xy="543,1395" size="164,31"/>
+    <component id="n23_kpgn" name="btn_close" src="h8u4u19t" fileName="btn_blueback.xml" pkg="27utqbiz" xy="6,1563">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n28_kpgn" name="group_atkSpine" src="exgjudu1ai" fileName="group_atkSpine.xml" xy="510,777"/>
+    <component id="n39_kpgn" name="group_selfSpine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="134,1191" pivot="0.5,1" anchor="true" group="n49_kpgn" scale="-0.55,0.55"/>
+    <loader3D id="n38_kpgn" name="loader_selfSpine_pet" xy="75,1180" pivot="0.5,1" anchor="true" size="2,2" group="n49_kpgn" scale="0.45,0.45" animation="" skin="" loop="true"/>
+    <component id="n34_kpgn" name="group_selfPhase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="49,1131" group="n49_kpgn" scale="0.84,0.84"/>
+    <image id="n43_kpgn" name="n43" src="kpgndu18t" fileName="ui/frame_challenger2(1).png" xy="62,1243" group="n49_kpgn"/>
+    <text id="n44_kpgn" name="label_selfName" xy="138,1243" pivot="0.5,0.5" size="10,29" group="n49_kpgn" fontSize="20" color="#16191a" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n48_kpgn" name="n48" src="kpgndu18u" fileName="res/frame_force of arms.png" xy="68,1190" size="136,57" group="n49_kpgn" aspect="true"/>
+    <text id="n47_kpgn" name="label_combatPower" xy="113,1198" size="120,36" group="n49_kpgn" font="ui://27utqbizvkas4q" fontSize="20" color="#cc6600" vAlign="middle" leading="0" letterSpacing="-8" text="531231"/>
+    <loader3D id="n55_ky1m" name="loader_xuli" xy="140,1085" size="1,1" group="n49_kpgn" animation="" skin="" loop="true"/>
+    <group id="n49_kpgn" name="n49" xy="49,1085" size="202,187" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <component id="n11_kpgn" name="btn_attack" src="k7xe2f" fileName="Button1.xml" xy="556,1211" size="179,167" group="n51_l2m4">
+      <Button icon="ui://i35cf1mqk7xe3"/>
+    </component>
+    <text id="n17_kpgn" name="label_power" xy="576,1392" pivot="1,0" size="114,34" group="n51_l2m4" fontSize="24" color="#f6de9c" align="center" vAlign="middle" text="体力：5/1"/>
+    <component id="n16_kpgn" name="btn_add" src="bh805c" fileName="btn_add2.xml" pkg="27utqbiz" xy="689,1392" group="n51_l2m4"/>
+    <text id="n14_kpgn" name="label_timeref" xy="549,1427" pivot="0.5,0.5" size="184,29" group="n51_l2m4" fontSize="20" color="#74d644" align="center" vAlign="middle" text="10：00后恢复1体力"/>
+    <group id="n51_l2m4" name="group_atkBtn" xy="549,1211" size="186,245" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <image id="n19_kpgn" name="n19" src="k7xe16" fileName="res/frame_jinengdi.png" xy="10,1328" size="521,140" group="n52_l2m4"/>
+    <text id="n20_kpgn" name="n20" xy="28,1338" size="384,34" group="n52_l2m4" fontSize="20" color="#825027" vAlign="middle" autoSize="none" text="成功"/>
+    <list id="n21_kpgn" name="list_rewardItem" xy="30,1377" size="663,105" group="n52_l2m4" scale="0.74,0.74" layout="row" overflow="scroll" colGap="16" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n22_kpgn" name="Group_Chat" src="h8md27" fileName="Group_Chat.xml" pkg="27utqbiz" xy="0,1486" group="n52_l2m4"/>
+    <group id="n52_l2m4" name="n52" xy="0,1328" size="751,199" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+  </displayList>
+</component>

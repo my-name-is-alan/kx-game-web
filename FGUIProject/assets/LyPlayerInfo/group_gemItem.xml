@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="163,82">
+  <displayList>
+    <text id="n40_gur8" name="label_name" xy="0,0" size="163,34" font="ui://27utqbizps391v" fontSize="24" color="#16191a" align="center" vAlign="middle" autoSize="shrink" text="青龙灵脉（3）"/>
+    <text id="n42_gur8" name="label_dec" xy="0,39" size="163,29" fontSize="20" color="#2b841c" autoSize="height" text="每次暴击后"/>
+  </displayList>
+  <relation target="n42_gur8" sidePair="height-height"/>
+</component>

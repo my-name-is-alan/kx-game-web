@@ -1,0 +1,174 @@
+
+zd_zhiliao_qishou.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lxyz_plizi_001
+  rotate: false
+  xy: 184, 354
+  size: 171, 146
+  orig: 298, 240
+  offset: 57, 29
+  index: -1
+lxyz_plizi_003
+  rotate: true
+  xy: 574, 358
+  size: 165, 166
+  orig: 298, 240
+  offset: 65, 25
+  index: -1
+lxyz_plizi_005
+  rotate: false
+  xy: 809, 478
+  size: 174, 158
+  orig: 298, 240
+  offset: 63, 30
+  index: -1
+lxyz_plizi_007
+  rotate: true
+  xy: 429, 463
+  size: 199, 143
+  orig: 298, 240
+  offset: 44, 45
+  index: -1
+lxyz_plizi_009
+  rotate: true
+  xy: 2, 307
+  size: 182, 133
+  orig: 298, 240
+  offset: 65, 52
+  index: -1
+lxyz_plizi_011
+  rotate: false
+  xy: 533, 222
+  size: 174, 134
+  orig: 298, 240
+  offset: 68, 52
+  index: -1
+lxyz_plizi_013
+  rotate: false
+  xy: 137, 215
+  size: 165, 137
+  orig: 298, 240
+  offset: 68, 52
+  index: -1
+lxyz_plizi_015
+  rotate: false
+  xy: 357, 322
+  size: 174, 139
+  orig: 298, 240
+  offset: 64, 52
+  index: -1
+lxyz_plizi_017
+  rotate: false
+  xy: 199, 502
+  size: 180, 142
+  orig: 298, 240
+  offset: 65, 52
+  index: -1
+lxyz_plizi_019
+  rotate: false
+  xy: 2, 491
+  size: 180, 142
+  orig: 298, 240
+  offset: 68, 53
+  index: -1
+lxyz_plizi_021
+  rotate: false
+  xy: 2, 491
+  size: 180, 142
+  orig: 298, 240
+  offset: 68, 53
+  index: -1
+lxyz_plizi_023
+  rotate: false
+  xy: 2, 491
+  size: 180, 142
+  orig: 298, 240
+  offset: 68, 53
+  index: -1
+lxyz_plizi_025
+  rotate: false
+  xy: 429, 664
+  size: 196, 153
+  orig: 298, 240
+  offset: 36, 42
+  index: -1
+lxyz_plizi_027
+  rotate: false
+  xy: 225, 646
+  size: 202, 192
+  orig: 298, 240
+  offset: 38, 30
+  index: -1
+lxyz_plizi_029
+  rotate: false
+  xy: 452, 819
+  size: 199, 197
+  orig: 298, 240
+  offset: 43, 27
+  index: -1
+lxyz_plizi_031
+  rotate: true
+  xy: 2, 635
+  size: 191, 195
+  orig: 298, 240
+  offset: 48, 29
+  index: -1
+lxyz_plizi_033
+  rotate: false
+  xy: 2, 828
+  size: 221, 188
+  orig: 298, 240
+  offset: 30, 33
+  index: -1
+lxyz_plizi_035
+  rotate: false
+  xy: 225, 840
+  size: 225, 176
+  orig: 298, 240
+  offset: 40, 40
+  index: -1
+lxyz_plizi_037
+  rotate: true
+  xy: 843, 638
+  size: 196, 154
+  orig: 298, 240
+  offset: 49, 61
+  index: -1
+lxyz_plizi_039
+  rotate: false
+  xy: 742, 322
+  size: 174, 154
+  orig: 298, 240
+  offset: 72, 61
+  index: -1
+lxyz_plizi_041
+  rotate: false
+  xy: 653, 693
+  size: 188, 161
+  orig: 298, 240
+  offset: 80, 59
+  index: -1
+lxyz_plizi_043
+  rotate: false
+  xy: 627, 525
+  size: 180, 166
+  orig: 298, 240
+  offset: 85, 56
+  index: -1
+lxyz_plizi_045
+  rotate: true
+  xy: 847, 836
+  size: 180, 169
+  orig: 298, 240
+  offset: 63, 52
+  index: -1
+lxyz_plizi_047
+  rotate: false
+  xy: 653, 856
+  size: 192, 160
+  orig: 298, 240
+  offset: 67, 58
+  index: -1

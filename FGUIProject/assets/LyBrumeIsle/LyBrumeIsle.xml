@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1700">
+  <displayList>
+    <component id="n0_h8u4" name="main" src="h8u42d" fileName="main_LyBrumeIsle.xml" xy="0,0" size="750,1700">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

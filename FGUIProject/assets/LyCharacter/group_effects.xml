@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="613,657">
+  <displayList>
+    <image id="n93_psu4" name="n93" src="psu42o" fileName="res1/frame_baixiangloudiban.png" xy="-15,234" size="644,320" group="n87_ilda"/>
+    <loader3D id="n88_ilda" name="loader_spine" xy="187,48" size="20,20" group="n87_ilda" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader3D>
+    <loader3D id="n82_ilda" name="loader_spine1" xy="375,42" size="20,20" group="n87_ilda" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </loader3D>
+    <text id="n83_ilda" name="n83" xy="2,68" size="139,42" group="n87_ilda" font="ui://27utqbizps391v" fontSize="30" color="#47443f" autoSize="none" text="雷霆"/>
+    <text id="n84_ilda" name="n84" xy="2,116" size="436,97" group="n87_ilda" font="ui://27utqbizps391v" fontSize="24" color="#47443f" autoSize="none" text="攻击特效，啊肯德基阿松大骄傲"/>
+    <component id="n89_xpuh" name="n85" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="399,149" group="n87_ilda">
+      <Button title="播放"/>
+    </component>
+    <list id="n86_ilda" name="n86" xy="16,252" size="580,300" group="n87_ilda" layout="flow_hz" overflow="scroll" lineGap="14" colGap="20" defaultItem="ui://li7lbnd9ilda8" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n90_psu4" name="btn_unlock" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="212,611" size="188,53" group="n87_ilda">
+      <Button title="解锁1" titleFontSize="30"/>
+    </component>
+    <component id="n91_psu4" name="btn_alter" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="212,611" size="188,53" group="n87_ilda">
+      <Button title="幻化1" titleFontSize="30"/>
+    </component>
+    <component id="n92_psu4" name="group_needItem" src="i2m029" fileName="group_needItem.xml" xy="255,567" group="n87_ilda"/>
+    <group id="n87_ilda" name="n87" xy="-15,42" size="644,622"/>
+  </displayList>
+</component>

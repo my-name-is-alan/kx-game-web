@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n19_rl78" name="n19" src="fd6xc" fileName="res/bg_denglu.png" pkg="s1gej0dq" xy="0,-183">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <graph id="n3_c2w8" name="n3" xy="175,399" size="400,71" group="n4_fd9y" type="rect" fillColor="#ff003366"/>
+    <text id="n1_nhht" name="input_name" xy="185,413" size="380,42" group="n4_fd9y" fontSize="30" color="#ffffff" autoSize="none" text="" input="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n15_huv2" name="btn_create" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="273,578" group="n4_fd9y">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <group id="n4_fd9y" name="group_name" xy="175,399" size="400,237" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n6_fd9y" name="n6" src="fd9y2" fileName="res/01.png" xy="217,330" group="n14_fu6e"/>
+    <text id="n11_fu6e" name="label_roleName" xy="300,683" size="149,66" group="n14_fu6e" fontSize="50" color="#ffffff" align="center" autoSize="none" text="猪"/>
+    <list id="n12_fu6e" name="list_role" xy="142,779" size="465,102" group="n14_fu6e" layout="row" overflow="scroll" colGap="17" defaultItem="ui://duw28jhbfd9y3" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n16_id5m" name="btn_roleCreate" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="253,951" group="n14_fu6e">
+      <Button title="确定"/>
+    </component>
+    <group id="n14_fu6e" name="group_role" xy="142,330" size="465,679" visible="false" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

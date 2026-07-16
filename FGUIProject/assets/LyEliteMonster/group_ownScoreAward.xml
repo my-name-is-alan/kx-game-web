@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,178">
+  <displayList>
+    <image id="n34_isy4" name="n34" src="d1na4b" fileName="res/The/res/frame_huodongdiban.png" xy="0,0"/>
+    <image id="n30_isy4" name="n30" src="c3ihdu16u" fileName="xz1/mk_xiandian.png" xy="141,100"/>
+    <component id="n31_isy4" name="group_show" src="isy4du17v" fileName="goroup_gift.xml" xy="26,39"/>
+    <text id="n32_isy4" name="label_name" xy="139,65" size="131,32" fontSize="22" color="#412e05" vAlign="middle" letterSpacing="-1" text="红色门客自选"/>
+    <text id="n33_isy4" name="label_own" xy="137,108" size="154,32" fontSize="22" color="#412e05" vAlign="middle" letterSpacing="-1" autoSize="none" text="剩余"/>
+    <component id="n35_isy4" name="btn_com" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="456,69" size="190,50">
+      <Button title="领取" titleFontSize="30"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="126,38" bgColor="#ccff00">
+  <displayList>
+    <text id="n58_isiv" name="label_number" xy="53,4" size="56,29" fontSize="20" color="#ffff00" vAlign="middle" text="10/19"/>
+    <loader id="n69_ln3o" name="img_itemIcon" xy="15,0" size="38,38" url="ui://27utqbizi5tz81" align="center" vAlign="middle" fill="scale" shrinkOnly="true" clearOnPublish="true"/>
+  </displayList>
+  <relation target="n58_isiv" sidePair="rightext-right"/>
+</component>

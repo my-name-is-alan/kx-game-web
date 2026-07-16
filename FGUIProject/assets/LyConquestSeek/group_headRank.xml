@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1068">
+  <displayList>
+    <loader id="n5_tc1u" name="n5" xy="24,0" size="701,1068" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n7_tc1u" name="label_title" xy="42,27" size="257,54" font="ui://27utqbizps391v" fontSize="40" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]玩[/size]法属性"/>
+    <component id="n8_tc1u" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="666,40"/>
+    <image id="n9_tc1u" name="n9" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="576,859"/>
+    <text id="n10_tc1u" name="label_str26" xy="198,992" size="334,29" fontSize="20" color="#e86146" vAlign="middle" autoClearText="true" text="*活动结束后，奖励会以邮件形式发放">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n11_tc1u" name="n11" src="tc1u4h" fileName="res/frame_biaoqian.png" xy="140,119"/>
+    <text id="n12_tc1u" name="label_str14" xy="316,120" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#8c571d" align="center" vAlign="middle" text="我的属性"/>
+    <graph id="n15_tc1u" name="n15" xy="69,172" size="608,145" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <image id="n29_tc1u" name="n29" src="tc1u4h" fileName="res/frame_biaoqian.png" xy="140,322"/>
+    <text id="n30_tc1u" name="label_str20" xy="316,323" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#8c571d" align="center" vAlign="middle" text="我的属性"/>
+    <image id="n51_tc1u" name="n51" src="tc1u4n" fileName="res/frame_zonglan5.png" xy="69,425" size="607,560"/>
+    <image id="n50_tc1u" name="n50" src="tc1u4m" fileName="res/frame_zonglan.png" xy="68,379"/>
+    <text id="n34_tc1u" name="label_str21" xy="111,384" size="56,36" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoClearText="true" text="萨达"/>
+    <text id="n35_tc1u" name="label_str22" xy="245,384" size="108,36" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoClearText="true" text="小怪增益"/>
+    <text id="n36_tc1u" name="label_str23" xy="401,384" size="108,36" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoClearText="true" text="精英增益"/>
+    <text id="n37_tc1u" name="label_str24" xy="542,384" size="107,36" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoClearText="true" text="boss增益"/>
+    <list id="n54_tc1u" name="list_rank" xy="79,430" size="586,544" overflow="scroll" defaultItem="ui://shg18aritc1u4p">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n18_tc1u" name="img_icon" xy="112,197" size="100,100" group="n55_tc1u" url="ui://shg18aricda51m" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <loader id="n19_tc1u" name="img_iconFrame" xy="85,169" size="157,157" group="n55_tc1u" aspect="true" url="ui://27utqbizyn25du189" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <text id="n20_tc1u" name="label_name" xy="254,189" size="60,39" group="n55_tc1u" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoClearText="true" text="萨达"/>
+    <text id="n21_tc1u" name="label_str15" xy="251,240" size="99,32" group="n55_tc1u" fontSize="22" color="#16191a" align="center" vAlign="middle" autoClearText="true" text="小怪增益:"/>
+    <text id="n22_tc1u" name="label_str16" xy="251,270" size="99,32" group="n55_tc1u" fontSize="22" color="#16191a" align="center" vAlign="middle" autoClearText="true" text="小怪增益:"/>
+    <text id="n23_tc1u" name="label_str17" xy="499,240" size="99,32" group="n55_tc1u" fontSize="22" color="#16191a" align="center" vAlign="middle" autoClearText="true" text="小怪增益:"/>
+    <text id="n24_tc1u" name="label_str19" xy="499,270" size="157,32" group="n55_tc1u" fontSize="22" color="#838383" align="right" vAlign="middle" autoSize="none" autoClearText="true" text="小怪增益:"/>
+    <text id="n25_tc1u" name="label_rank" xy="525,193" size="112,32" group="n55_tc1u" fontSize="22" color="#16191a" align="center" vAlign="middle" autoClearText="true" text="当前排名:1"/>
+    <text id="n26_tc1u" name="label_monsterAttr1" xy="350,240" size="99,32" group="n55_tc1u" fontSize="22" color="#2b841c" align="center" vAlign="middle" autoClearText="true" text="小怪增益:"/>
+    <text id="n27_tc1u" name="label_monsterAttr2" xy="350,270" size="99,32" group="n55_tc1u" fontSize="22" color="#2b841c" align="center" vAlign="middle" autoClearText="true" text="小怪增益:"/>
+    <text id="n28_tc1u" name="label_monsterAttr3" xy="599,240" size="99,32" group="n55_tc1u" fontSize="22" color="#2b841c" align="center" vAlign="middle" autoClearText="true" text="小怪增益:"/>
+    <image id="n31_tc1u" name="n31" src="tc1u4j" fileName="res/frame_fengexianhui.png" xy="247,229" group="n55_tc1u"/>
+    <group id="n55_tc1u" name="group_rankInfo" xy="85,169" size="613,157" advanced="true"/>
+    <image id="n46_tc1u" name="group_noInfo" src="tc1u4k" fileName="res/frame_weibaoming.png" xy="248,180"/>
+  </displayList>
+</component>

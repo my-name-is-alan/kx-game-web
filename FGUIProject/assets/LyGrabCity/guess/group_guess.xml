@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1000">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n12_1093u" name="n12" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="24,-75" size="701,1084"/>
+    <image id="n22_1093u" name="n22" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="55,378" size="640,472">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n31_1093u" name="n31" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="55,620" size="640,230">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n14_1093u" name="n14" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="569,804"/>
+    <image id="n18_1093u" name="n18" src="k7xe1e" fileName="guess/frame_biaoqian.png" xy="141,50"/>
+    <image id="n19_1093u" name="n19" src="k7xe1e" fileName="guess/frame_biaoqian.png" xy="141,320"/>
+    <richtext id="n13_1093u" name="label_title" xy="54,-62" size="235,77" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" text="礼包"/>
+    <text id="n17_1093u" name="label_time" xy="454,864" size="260,100" font="ui://27utqbizps391v" fontSize="22" color="#3b942a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="竞猜开放中：&#xA;{0}"/>
+    <component id="n8_knid" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="655,-40"/>
+    <component id="n15_1093u" name="btn_reward" src="1093udu19d" fileName="guess/btn_reward.xml" xy="85,858"/>
+    <component id="n16_1093u" name="btn_save" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="268,886">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <text id="n20_1093u" name="label_sub1" xy="331,52" size="88,39" font="ui://27utqbizps391v" fontSize="28" color="#8c571d" align="center" vAlign="middle" autoClearText="true" text="已选区">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n21_1093u" name="label_sub2" xy="331,322" size="88,39" font="ui://27utqbizps391v" fontSize="28" color="#8c571d" align="center" vAlign="middle" autoClearText="true" text="已选区">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n23_1093u" name="group_add1" src="1093udu19e" fileName="guess/group_guessadd.xml" xy="70,85"/>
+    <component id="n25_1093u" name="group_add3" src="1093udu19e" fileName="guess/group_guessadd.xml" xy="470,89"/>
+    <component id="n24_1093u" name="group_add2" src="1093udu19e" fileName="guess/group_guessadd.xml" xy="270,85"/>
+    <component id="n28_1093u" name="group_result1" src="1093udu19e" fileName="guess/group_guessadd.xml" xy="70,347">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n29_1093u" name="group_result3" src="1093udu19e" fileName="guess/group_guessadd.xml" xy="470,351">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n30_1093u" name="group_result2" src="1093udu19e" fileName="guess/group_guessadd.xml" xy="270,347">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <list id="n27_1093u" name="list_item" xy="55,378" size="640,472" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" defaultItem="ui://i35cf1mq1093udu19e" align="center" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

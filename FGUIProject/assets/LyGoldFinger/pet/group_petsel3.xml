@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,840">
+  <displayList>
+    <image id="n72_wnc2" name="n72" src="wnc220" fileName="pet/frame_xialvhuhuandiban.png" xy="24,0"/>
+    <image id="n85_ncv3" name="n85" src="ncv32b" fileName="pet/frame_xuanzexialvdi2.png" xy="190,90"/>
+    <image id="n73_wnc2" name="n73" src="ro4e1g" fileName="elite/frame_touming2.png" xy="48,310" size="654,404">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n87_ncv3" name="n87" src="kluzg" fileName="res/frame_chongwushengxing2.png" xy="210,135"/>
+    <image id="n76_wnc2" name="n76" src="kluzh" fileName="res/frame_fengexian.png" xy="213,44"/>
+    <image id="n91_ncv3" name="n91" src="ncv32a" fileName="pet/frame_xiaobiaoti.png" xy="184,280"/>
+    <component id="n86_ncv3" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="65,116"/>
+    <text id="n77_wnc2" name="label_title" xy="301,25" size="148,49" font="ui://27utqbizps391v" fontSize="36" color="#f4e9d5" align="center" vAlign="middle" autoClearText="true" text="选择侠侣">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n92_ncv3" name="label_sub" xy="333,270" size="84,29" font="ui://27utqbizps391v" fontSize="20" color="#f3ead2" align="center" vAlign="middle" autoClearText="true" text="可选侠侣">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n59_ro4e" name="btn_comfirm" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,740"/>
+    <text id="n88_ncv3" name="label_name" xy="210,96" size="60,39" font="ui://27utqbizps391v" fontSize="28" color="#f4e9d5" vAlign="middle" strokeColor="#d4841b" strokeSize="2" autoClearText="true" text="张三"/>
+    <text id="n89_ncv3" name="label_level" xy="284,101" size="38,34" font="ui://27utqbizps391v" fontSize="24" color="#d4841b" vAlign="bottom" autoClearText="true" text="1级">
+      <relation target="n88_ncv3" sidePair="left-right"/>
+    </text>
+    <text id="n90_ncv3" name="label_desc" xy="210,160" size="470,29" fontSize="20" color="#c85231" autoSize="height" autoClearText="true" text="1级"/>
+    <list id="n93_ncv3" name="list_item" xy="50,312" size="650,400" layout="flow_hz" overflow="scroll" scrollBarFlags="64" lineGap="10" colGap="10" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

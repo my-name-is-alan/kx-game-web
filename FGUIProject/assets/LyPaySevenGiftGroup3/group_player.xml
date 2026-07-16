@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2,2" mask="n42_ijfm" reversedMask="true">
+  <displayList>
+    <loader3D id="n40_ba5i" name="loader_spine_role" xy="1,2" pivot="0.5,1" anchor="true" size="2,2" animation="" skin="" loop="true"/>
+    <graph id="n42_ijfm" name="n42" xy="-374,-100" size="750,400" type="rect"/>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="322,116" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_isiv" name="n3" src="isiv2p" fileName="ui/frame_back.png" pkg="27utqbiz" xy="0,0"/>
+    <image id="n6_isiv" name="n6" src="isiv2q" fileName="ui/btn_back.png" pkg="27utqbiz" xy="42,20"/>
+    <image id="n8_g6rs" name="n8" src="g6rs41" fileName="res/word_dandaofuhui.png" xy="122,40"/>
+  </displayList>
+  <Button/>
+</component>

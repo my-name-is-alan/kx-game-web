@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="220,318">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_lr1w" name="loader_back" xy="85,134" size="50,50" url="ui://6fyplu3llr1wi" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n1_lr1w" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="60,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <loader id="n9_kluz" name="loader_lock" xy="85,150" size="50,50" url="ui://6fyplu3lkluz1p" align="center" vAlign="middle" clearOnPublish="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </loader>
+    <loader id="n2_lr1w" name="loader_rank" xy="85,82" size="50,50" url="ui://6fyplu3llr1wm" align="center" vAlign="middle" clearOnPublish="true"/>
+    <loader id="n10_kluz" name="loader_score" xy="85,172" size="50,50" url="ui://6fyplu3lkluz1t" align="center" vAlign="middle" clearOnPublish="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <text id="n3_lr1w" name="label_rank" xy="101,87" size="17,41" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" strokeColor="#4c7fc3" strokeSize="2" autoClearText="true" text="1">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n6_lr1w" name="label_name" xy="100,142" size="19,37" fontSize="26" color="#fbeffe" align="center" vAlign="middle" strokeColor="#4c7fc3" strokeSize="2" autoClearText="true" text="1">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n7_lr1w" name="label_score" xy="100,180" size="18,34" fontSize="24" color="#f9e5ff" align="center" vAlign="middle" autoClearText="true" text="1">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n8_lr1w" name="list_item" xy="6,227" size="330,100" scale="0.62,0.62" layout="flow_hz" overflow="scroll" scroll="horizontal" scrollBarFlags="128" colGap="5" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

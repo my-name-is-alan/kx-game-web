@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="86,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4_ky0p" name="icon" xy="0,0" size="86,100" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader3D id="n5_t1rr" name="loader3d_spine" xy="42,47" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+  <Button/>
+</component>

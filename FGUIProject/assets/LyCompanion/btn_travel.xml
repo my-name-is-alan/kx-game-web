@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="228,211" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n7_isiv" name="n7" src="isiv2v" fileName="res2/icon_youli.png" xy="0,0"/>
+    <image id="n8_isiv" name="n8" src="kcwh2i" fileName="res2/frame_daojushuliangdi.png" xy="46,156"/>
+    <text id="n4_i05h" name="title" xy="52,160" size="118,29" font="ui://27utqbizps391v" fontSize="20" color="#fef5e0" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="体力：0/16"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

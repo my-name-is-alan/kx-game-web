@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n8_m2rj" name="n8" src="m2rj95" fileName="res3/word_bangpai_unselected.png" xy="30,11"/>
+    <image id="n4_m2rj" name="n4" src="bh806" fileName="ui/frame_selected tab.png" pkg="27utqbiz" xy="0,0" group="n6_m2rj"/>
+    <image id="n7_m2rj" name="n7" src="m2rj98" fileName="res3/word_bangpai_selected.png" xy="30,11" group="n6_m2rj"/>
+    <group id="n6_m2rj" name="n6" xy="0,0" size="170,60" advanced="true">
+      <gearDisplay controller="button" pages="1,3"/>
+    </group>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

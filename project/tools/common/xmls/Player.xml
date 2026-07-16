@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root id="1" money="100" phsycal2exp="1" recoverPhsycal="360" headicon="1000" headiconBg="15000101" buyPhysicalCount="5" buyPhysicalStone="100" buyGetPhysical="60" heroHateExpr="10000*a+b" monsterHateExpr="1/(b-a+100)" physicalDamageExpr="max(0.05*aa,(aa-(1-cc)*max(0,dd-ee))*bb)" magicDamageExpr="max(0.05*aa,(aa-(1-cc)*max(0,dd-ee))*bb)" realDamageExpr="a*b" finalDamageExpr="a*b" createBonuses="16052001" gradeMaxBlood="700,1000,1400,2000,2800,4000,7000,12000,30000" gradeAttack="100,140,180,250,300,370,450,620,1000" gradePhysicsDefence="35,60,100,150,220,350,500,700,1000" gradeMagicDefence="35,60,100,150,220,350,500,700,1000" bgHeroId="0" doubleBonus="3" monsterHpExpr="100+a*5" heroHpExpr="(10+235/30*a+a/20)/100" blacklistLimit="99" changeNameCardId="160002" changeNameCardLimit="2">
+  <sex>
+    <item firstName="刀心,刀仙,剑心,刀歌,游侠,刀意,剑仙,豪侠,剑隐,刀魂,剑影,大侠,刀圣,武魂,刀光,宗师,隐士,刀鸣,独行,刀风,剑霸,剑侠,剑锋,剑光,女侠,刀霸,剑圣,剑痕,侠客,护法,武灵,刀舞,行者,盟主,刀客,剑魄,剑魔,剑舞,武痴,刀影,刀隐,散人,武道,剑意,剑风,浪人,剑神,刀魔,剑鸣,武尊,剑歌," midName="玄冥子,寒星落,殷云寒,幽梦剑,影破空,影无痕,流水寒,剑锋寒,慕容轩,曦月侠,霜影侠,阿风影,欧阳飞,剑仙缘,剑舞蝶,李轻尘,剑流霜,剑惊云,剑舞天,墨云殇,雷霆怒,洛水寒,萧剑心,剑舞空,木影飞,炎阳剑,钟破尘,寒江月,霜凌侠,东方飞,墨璃殇,白羽飞,风破剑,逐风辰,凌风侠,晨曦侠,剑飞霜,剑如霜,绝影剑,乔峰影,凌霄客,燕回风,凌云霄,石云影,小飞鸿,狄破空,云破尘,霍凌波,辰星宇,谢飞鸿,令狐梦,碧空剑,剑归心,霍长歌,沧浪剑,寒霜剑,叶孤城,丘云飞,司徒凌,寒烟客,剑破军,白飞鸿,丘云岚,郭飞云,杨破空,逸尘风,剑心诀,霜刃客,雷霆剑,剑惊风,寒星澈,霜影寒,剑影寒,墨香寒,段剑心,墨霜寒,霜刃影,竹影飞,令狐寒,天山客,剑飞燕,狄风影,钟破晓,殷无痕,丐帮影,令狐飞,凌波影,凌霄剑,谢无痕,剑破星,逐风侠,云破晓,剑舞霞,令狐遥,木飞鸿,陆云影,剑破山,剑追日,幽梦影,阿飞雪,墨痕侠,龙战云,段飞鸿,霜雪剑,寒霜影,寒云剑,刀光寒,辰逸风,剑追风,苗飞燕,傲雪鹰,白云痕,丘月寒,钟飞雪,剑舞雪,凌霄羽,龙飞云,霜凌剑,剑影飞,墨羽飞,令狐剑,霜月影,梅月影,寒江客,碧月侠,凌风剑,黄天逸,陆寒烟,欧阳剑,辰星剑,沧浪客,虚月寒,李寒星,凌风行,岳轻鸿,寒光破,柳如烟,傲雪寒,黄凌霄,云锦轩,瑾瑜寒,独步天,欧阳雪,寒云侠,剑破云,司徒月,石惊天,林清风,虚无痕,羽飞霜,楚留香,霜月剑,剑光寒,寒月影,杨云梦,东方瑾,丐帮侠,晨曦寒,萧剑寒,凌云剑,石天逸,王飞鸿,段凌霄,炎龙剑,欧阳风,剑流烟,凌云侠,东方剑,小雨轩,寒霜破,烟雨客,墨无痕,林寒烟,逐梦剑,剑舞梅,幽泉剑,凌霄侠,狄寒星,碧月剑,寒星影,霜雪影,慕容飞,寒江雪,晨曦逸,剑无痕,慕容梦,剑飞鸿,剑映波,程飞燕,韦云凌,程破晓,逸风剑,雷霆侠,剑飞尘,逍遥子,小梦云,王寒烟,杨凌云,阿影飞,独步影,孤星寒,楚天行,林幽梦,慕容瑾,梅影雪,墨风歌,洛水云,谢轻尘,郭破晓,花落影,司徒寒,萧无痕,剑舞霓,凌云客,南宫傲,剑凌霄,影流烟,墨痕剑,霜月痕,殷寒星,剑如歌,剑映雪,墨云剑,燕归云,影舞月,梅寒影,玄冰侠,韦风凌,晨曦鹰,虚云影,洛水痕,岳轻烟,陆轻尘,晨曦舞,龙飞雪,苗凌波,沧浪侠,寒星剑,王剑痕,萧寒月,李月华,幽兰影,欧阳韵,花落雪,剑影月,曦月剑,绝影侠,玄霄隐,丐帮风,霁月寒,岳剑痕,剑醉人,影月剑,霜影剑,剑凌天,幻影剑,花映雪,霜雪寒,炎阳侠,黄剑心,晨曦剑,辰逸云,独步风,玄影剑,无双影,辰星寒,剑归鞘,燕归鸿,苗飞雪,幻月剑,令狐影,风影剑,剑归尘,霁月痕,木云逸,霍风痕,程飞雪,烟雨遥,慕容风,逐风剑,剑断水,墨风痕,乔峰云,羽飞鸿,玄冰剑,雪飘零,寒锋剑,逐梦尘,风云客,雷霆破,韦寒星,风霜剑,慕容剑," lastName=""/>
+  </sex>
+  <level>
+    <item level="1" exp="" maxPhysical="80"/>
+    <item level="2" exp="30" maxPhysical="82"/>
+    <item level="3" exp="40" maxPhysical="84"/>
+    <item level="4" exp="60" maxPhysical="86"/>
+    <item level="5" exp="80" maxPhysical="88"/>
+    <item level="6" exp="100" maxPhysical="90"/>
+    <item level="7" exp="120" maxPhysical="92"/>
+    <item level="8" exp="140" maxPhysical="94"/>
+    <item level="9" exp="160" maxPhysical="96"/>
+    <item level="10" exp="180" maxPhysical="98"/>
+    <item level="11" exp="210" maxPhysical="100"/>
+    <item level="12" exp="240" maxPhysical="102"/>
+    <item level="13" exp="270" maxPhysical="104"/>
+    <item level="14" exp="300" maxPhysical="106"/>
+    <item level="15" exp="330" maxPhysical="108"/>
+    <item level="16" exp="460" maxPhysical="110"/>
+    <item level="17" exp="590" maxPhysical="112"/>
+    <item level="18" exp="720" maxPhysical="114"/>
+    <item level="19" exp="850" maxPhysical="116"/>
+    <item level="20" exp="980" maxPhysical="118"/>
+    <item level="21" exp="600" maxPhysical="120"/>
+    <item level="22" exp="640" maxPhysical="122"/>
+    <item level="23" exp="680" maxPhysical="124"/>
+    <item level="24" exp="720" maxPhysical="126"/>
+    <item level="25" exp="760" maxPhysical="128"/>
+    <item level="26" exp="800" maxPhysical="130"/>
+    <item level="27" exp="840" maxPhysical="132"/>
+    <item level="28" exp="880" maxPhysical="134"/>
+    <item level="29" exp="920" maxPhysical="136"/>
+    <item level="30" exp="960" maxPhysical="138"/>
+    <item level="31" exp="1100" maxPhysical="140"/>
+    <item level="32" exp="1160" maxPhysical="142"/>
+    <item level="33" exp="1220" maxPhysical="144"/>
+    <item level="34" exp="1280" maxPhysical="146"/>
+    <item level="35" exp="1340" maxPhysical="148"/>
+    <item level="36" exp="1400" maxPhysical="150"/>
+    <item level="37" exp="1460" maxPhysical="150"/>
+    <item level="38" exp="1520" maxPhysical="150"/>
+    <item level="39" exp="1580" maxPhysical="150"/>
+    <item level="40" exp="1640" maxPhysical="150"/>
+    <item level="41" exp="1840" maxPhysical="150"/>
+    <item level="42" exp="2040" maxPhysical="150"/>
+    <item level="43" exp="2240" maxPhysical="150"/>
+    <item level="44" exp="2440" maxPhysical="150"/>
+    <item level="45" exp="2640" maxPhysical="150"/>
+    <item level="46" exp="2840" maxPhysical="150"/>
+    <item level="47" exp="3040" maxPhysical="150"/>
+    <item level="48" exp="3240" maxPhysical="150"/>
+    <item level="49" exp="3440" maxPhysical="150"/>
+    <item level="50" exp="4400" maxPhysical="150"/>
+    <item level="51" exp="4400" maxPhysical="150"/>
+    <item level="52" exp="4400" maxPhysical="150"/>
+    <item level="53" exp="4400" maxPhysical="150"/>
+    <item level="54" exp="4400" maxPhysical="150"/>
+    <item level="55" exp="4400" maxPhysical="150"/>
+    <item level="56" exp="4400" maxPhysical="150"/>
+    <item level="57" exp="4400" maxPhysical="150"/>
+    <item level="58" exp="4400" maxPhysical="150"/>
+    <item level="59" exp="4400" maxPhysical="150"/>
+    <item level="60" exp="4400" maxPhysical="150"/>
+    <item level="61" exp="4400" maxPhysical="150"/>
+    <item level="62" exp="4400" maxPhysical="150"/>
+    <item level="63" exp="4400" maxPhysical="150"/>
+    <item level="64" exp="4400" maxPhysical="150"/>
+    <item level="65" exp="4400" maxPhysical="150"/>
+    <item level="66" exp="4400" maxPhysical="150"/>
+    <item level="67" exp="4400" maxPhysical="150"/>
+    <item level="68" exp="4400" maxPhysical="150"/>
+    <item level="69" exp="4400" maxPhysical="150"/>
+    <item level="70" exp="4400" maxPhysical="150"/>
+    <item level="71" exp="4400" maxPhysical="150"/>
+    <item level="72" exp="4400" maxPhysical="150"/>
+    <item level="73" exp="4400" maxPhysical="150"/>
+    <item level="74" exp="4400" maxPhysical="150"/>
+    <item level="75" exp="4400" maxPhysical="150"/>
+    <item level="76" exp="4400" maxPhysical="150"/>
+    <item level="77" exp="4400" maxPhysical="150"/>
+    <item level="78" exp="4400" maxPhysical="150"/>
+    <item level="79" exp="4400" maxPhysical="150"/>
+    <item level="80" exp="4400" maxPhysical="150"/>
+    <item level="81" exp="4400" maxPhysical="150"/>
+    <item level="82" exp="4400" maxPhysical="150"/>
+    <item level="83" exp="4400" maxPhysical="150"/>
+    <item level="84" exp="4400" maxPhysical="150"/>
+    <item level="85" exp="4400" maxPhysical="150"/>
+    <item level="86" exp="4400" maxPhysical="150"/>
+    <item level="87" exp="4400" maxPhysical="150"/>
+    <item level="88" exp="4400" maxPhysical="150"/>
+    <item level="89" exp="4400" maxPhysical="150"/>
+    <item level="90" exp="4400" maxPhysical="150"/>
+    <item level="91" exp="4400" maxPhysical="150"/>
+    <item level="92" exp="4400" maxPhysical="150"/>
+    <item level="93" exp="4400" maxPhysical="150"/>
+    <item level="94" exp="4400" maxPhysical="150"/>
+    <item level="95" exp="4400" maxPhysical="150"/>
+    <item level="96" exp="4400" maxPhysical="150"/>
+    <item level="97" exp="4400" maxPhysical="150"/>
+    <item level="98" exp="4400" maxPhysical="150"/>
+    <item level="99" exp="4400" maxPhysical="150"/>
+    <item level="100" exp="4400" maxPhysical="150"/>
+  </level>
+  <label>
+    <item id="1" wisdom="5" wisdomName="小聪明" command="5" commandName="小统帅" glamour="5" glamourName="小诱惑" luck="5" luckName="小幸运" endurance="5" enduranceName="小坚挺"/>
+    <item id="2" wisdom="10" wisdomName="大聪明" command="10" commandName="大统帅" glamour="10" glamourName="大诱惑" luck="10" luckName="大欧皇" endurance="10" enduranceName="大坚强"/>
+  </label>
+  <specialTaskType>
+    <item conditionType="26"/>
+    <item conditionType="29"/>
+    <item conditionType="3"/>
+    <item conditionType="30"/>
+    <item conditionType="7"/>
+  </specialTaskType>
+</root>

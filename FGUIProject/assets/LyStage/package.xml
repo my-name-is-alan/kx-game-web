@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8ftoc02e">
+  <resources>
+    <component id="zts00" name="LyStage.xml" path="/" exported="true"/>
+    <component id="zts01" name="group_main.xml" path="/"/>
+    <component id="v0203" name="LyStageReward.xml" path="/" exported="true"/>
+    <image id="vkasa" name="frame_enemy name.png" path="/res/"/>
+    <component id="uzk8c" name="group_reward.xml" path="/"/>
+    <component id="uzk8d" name="group_rewarditem.xml" path="/"/>
+    <image id="jkive" name="frame_zhangjiejianglidiban.png" path="/res/"/>
+    <component id="n4fqf" name="btn_chapter.xml" path="/"/>
+    <image id="n4fqg" name="icon_zhangjiejiangli.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

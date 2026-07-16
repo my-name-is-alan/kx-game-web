@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n36_861b" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n38_ro4e" name="group_main" src="ro4e1e" fileName="elite/group_elitesel.xml" xy="0,422" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n39_x9bu" name="group_main2" src="x9bu1o" fileName="elite/group_elitesel2.xml" xy="0,422" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n40_x9bu" name="group_main3" src="x9bu1q" fileName="elite/group_elitesel3.xml" xy="0,422" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="772,1289">
+  <controller name="page" exported="true" pages="1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <image id="n1_l3tj" name="n1" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="704,1129" alpha="0.998"/>
+    <richtext id="n3_l3tj" name="label_title" xy="27,33" size="210,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="门客">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n9_l3tj" name="btn_rank" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="22,1113" size="134,49" group="n15_l3tj" aspect="true">
+      <Button checked="true" title="排行" titleFontSize="28" controller="page" page="1"/>
+    </component>
+    <component id="n10_l3tj" name="btn_task" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="154,1113" size="134,49" group="n15_l3tj">
+      <Button title="排行" titleFontSize="28" controller="page" page="2"/>
+    </component>
+    <component id="n11_l3tj" name="btn_gift" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="286,1113" size="134,49" group="n15_l3tj">
+      <Button title="排行" titleFontSize="28" controller="page" page="3"/>
+    </component>
+    <component id="n12_l3tj" name="btn_total" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="418,1113" size="134,49" group="n15_l3tj">
+      <Button title="排行" titleFontSize="28" controller="page" page="4"/>
+    </component>
+    <component id="n13_l3tj" name="btn_attack" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="550,1113" size="134,49" group="n15_l3tj">
+      <Button title="排行" titleFontSize="28" controller="page" page="5"/>
+    </component>
+    <group id="n15_l3tj" name="group_btn" xy="22,1113" size="662,49" advanced="true" layout="hz" lineGap="4" colGap="-2" excludeInvisibles="true"/>
+    <image id="n16_l3tj" name="n16" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="459,41" size="181,32"/>
+    <text id="n17_l3tj" name="label_emailNumber" xy="468,42" size="163,29" fontSize="18" color="#70d36b" align="center" vAlign="middle" autoSize="none" text="当前"/>
+    <component id="n58_ltem" name="page0" src="ltem40" fileName="res/attack/LyEliteRank.xml" xy="24,115" size="657,977">
+      <gearDisplay controller="page" pages="1"/>
+    </component>
+    <component id="n61_ltem" name="page1" src="ltem3z" fileName="res/attack/LyEliteAttackTask.xml" xy="13,108">
+      <gearDisplay controller="page" pages="2"/>
+    </component>
+    <component id="n59_ltem" name="page2" src="ltem3w" fileName="res/attack/LyEliteGift.xml" xy="16,109" size="663,979">
+      <gearDisplay controller="page" pages="3"/>
+    </component>
+    <component id="n62_ltem" name="page3" src="cgkl3u" fileName="res/attack/LyEliteTopUp.xml" xy="15,111">
+      <gearDisplay controller="page" pages="4"/>
+    </component>
+    <component id="n63_ltem" name="page4" src="cgkl3s" fileName="res/attack/LyEliteChoose.xml" xy="23,98">
+      <gearDisplay controller="page" pages="5"/>
+    </component>
+    <image id="n24_nogk" name="n24" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="554,927"/>
+    <component id="n4_l3tj" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="637,38">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n65_e9u4" name="btn_what" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="191,24"/>
+  </displayList>
+</component>

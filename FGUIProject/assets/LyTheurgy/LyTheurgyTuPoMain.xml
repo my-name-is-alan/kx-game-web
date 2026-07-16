@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="696,929">
+  <displayList>
+    <image id="n3_hhz9" name="n3" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,32" size="659,897"/>
+    <image id="n39_hhz9" name="n39" src="hhz9eo" fileName="res/frame_neirongdiban.png" xy="17,492"/>
+    <component id="n27_hhz9" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="618,0"/>
+    <image id="n28_hhz9" name="n28" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="139,65" size="376,38"/>
+    <text id="n29_hhz9" name="label_title" xy="269,61" size="126,43" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" text="突破预览"/>
+    <component id="n34_hhz9" name="group_item1" src="k70ee2" fileName="group_theurgy.xml" xy="67,152"/>
+    <component id="n35_hhz9" name="group_item2" src="k70ee2" fileName="group_theurgy.xml" xy="385,153"/>
+    <image id="n36_hhz9" name="n36" src="k70e5u" fileName="res/icon_shengji2.png" xy="298,268"/>
+    <image id="n37_hhz9" name="n37" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="166,521" size="351,11"/>
+    <richtext id="n38_hhz9" name="n38" xy="251,506" size="151,39" font="ui://27utqbizps391v" fontSize="28" align="center" vAlign="middle" autoSize="none" text="突破效果">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <image id="n40_hhz9" name="n40" src="hhz9ep" fileName="res/frame_neirongdiban2.png" xy="28,561"/>
+    <image id="n41_hhz9" name="n41" src="hhz9ep" fileName="res/frame_neirongdiban2.png" xy="28,663"/>
+    <text id="n42_hhz9" name="n42" xy="123,570" size="121,35" fontSize="22" color="#767676" vAlign="middle" autoSize="none" text="等级上限"/>
+    <text id="n43_hhz9" name="n43" xy="122,605" size="121,35" fontSize="22" color="#767676" vAlign="middle" autoSize="none" text="技能"/>
+    <text id="n44_hhz9" name="label_maxLevel" xy="284,571" size="121,35" fontSize="22" color="#767676" align="right" vAlign="middle" autoSize="none" text="25"/>
+    <text id="n45_hhz9" name="label_maxSkill" xy="288,606" size="121,35" fontSize="22" color="#767676" align="right" vAlign="middle" autoSize="none" text="1级"/>
+    <image id="n46_hhz9" name="n46" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="438,576"/>
+    <image id="n47_hhz9" name="n47" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="438,610"/>
+    <text id="n48_hhz9" name="label_nextMaxLevel" xy="505,572" size="124,32" fontSize="22" color="#5b9f57" vAlign="middle" autoSize="none" text="50"/>
+    <text id="n49_hhz9" name="label_nextMaxSkill" xy="501,607" size="124,32" fontSize="22" color="#5b9f57" vAlign="middle" autoSize="none" text="2"/>
+    <component id="n50_hhz9" name="group_needThe" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="274,787">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n51_hhz9" name="btn_tupo" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="235,832" size="188,52"/>
+    <component id="n54_kx2g" name="label_skillDes" src="kx2gpm" fileName="label_skillDest.xml" xy="115,673"/>
+  </displayList>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="214,58" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_pe7y" name="n0" src="pugclv" fileName="res/btn_orange.png" pkg="qnktu1il" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_pe7y" name="n1" src="pugclv" fileName="res/btn_orange.png" pkg="qnktu1il" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_pe7y" name="n2" src="pugclv" fileName="res/btn_orange.png" pkg="qnktu1il" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_pe7y" name="n3" src="pugclv" fileName="res/btn_orange.png" pkg="qnktu1il" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_pe7y" name="n4" xy="41,11" size="58,34" font="ui://27utqbizps391v" fontSize="24" color="#616161" vAlign="middle" text="30元"/>
+    <text id="n5_pe7y" name="title" xy="107,6" size="71,42" font="ui://27utqbizps391v" fontSize="30" color="#16191a" vAlign="middle" text="30元"/>
+    <graph id="n6_pe7y" name="n6" xy="36,25" size="68,1" type="rect" lineSize="0" lineColor="#ffffffff" fillColor="#ffff0000"/>
+    <graph id="n9_pe7y" name="n9" xy="36,29" size="68,1" type="rect" lineSize="0" lineColor="#ffffffff" fillColor="#ffff0000"/>
+  </displayList>
+  <Button/>
+</component>

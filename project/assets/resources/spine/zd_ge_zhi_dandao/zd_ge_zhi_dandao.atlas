@@ -1,0 +1,125 @@
+
+zd_ge_zhi_dandao.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lxyz_zidan_000
+  rotate: false
+  xy: 315, 432
+  size: 95, 40
+  orig: 360, 90
+  offset: 258, 25
+  index: -1
+lxyz_zidan_001
+  rotate: true
+  xy: 412, 256
+  size: 216, 72
+  orig: 360, 90
+  offset: 143, 9
+  index: -1
+lxyz_zidan_002
+  rotate: false
+  xy: 2, 242
+  size: 260, 75
+  orig: 360, 90
+  offset: 100, 8
+  index: -1
+lxyz_zidan_003
+  rotate: false
+  xy: 2, 163
+  size: 302, 77
+  orig: 360, 90
+  offset: 58, 7
+  index: -1
+lxyz_zidan_004
+  rotate: false
+  xy: 2, 82
+  size: 344, 79
+  orig: 360, 90
+  offset: 16, 6
+  index: -1
+lxyz_zidan_005
+  rotate: false
+  xy: 2, 319
+  size: 344, 50
+  orig: 360, 90
+  offset: 16, 20
+  index: -1
+lxyz_zidan_006
+  rotate: false
+  xy: 2, 371
+  size: 346, 31
+  orig: 360, 90
+  offset: 14, 30
+  index: -1
+lxyz_zidan_007
+  rotate: false
+  xy: 2, 404
+  size: 346, 13
+  orig: 360, 90
+  offset: 14, 39
+  index: -1
+lxyz_zidan_008
+  rotate: false
+  xy: 2, 419
+  size: 330, 11
+  orig: 360, 90
+  offset: 16, 40
+  index: -1
+lxyz_zidan_009
+  rotate: false
+  xy: 2, 433
+  size: 311, 10
+  orig: 360, 90
+  offset: 18, 40
+  index: -1
+lxyz_zidan_010
+  rotate: false
+  xy: 2, 445
+  size: 292, 9
+  orig: 360, 90
+  offset: 19, 41
+  index: -1
+lxyz_zidan_011
+  rotate: false
+  xy: 2, 465
+  size: 272, 7
+  orig: 360, 90
+  offset: 21, 42
+  index: -1
+lxyz_zidan_012
+  rotate: false
+  xy: 2, 456
+  size: 253, 7
+  orig: 360, 90
+  offset: 22, 42
+  index: -1
+lxyz_zidan_013
+  rotate: false
+  xy: 217, 474
+  size: 232, 5
+  orig: 360, 90
+  offset: 25, 43
+  index: -1
+lxyz_zidan_014
+  rotate: false
+  xy: 2, 475
+  size: 213, 4
+  orig: 360, 90
+  offset: 26, 43
+  index: -1
+lxyz_zidan_015
+  rotate: false
+  xy: 171, 481
+  size: 191, 3
+  orig: 360, 90
+  offset: 29, 44
+  index: -1
+lxyz_zidan_016
+  rotate: false
+  xy: 2, 482
+  size: 167, 2
+  orig: 360, 90
+  offset: 32, 44
+  index: -1

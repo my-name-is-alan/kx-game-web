@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,90">
+  <displayList>
+    <image id="n56_qow0" name="n56" src="qow06a" fileName="res/frame_lingshidi3.png" xy="0,0"/>
+    <image id="n55_qow0" name="n55" src="qow06o" fileName="res/frame_dengjidi.png" xy="40,39" group="n60_qow0"/>
+    <text id="n57_qow0" name="label_level" xy="41,39" size="22,24" group="n60_qow0" font="ui://27utqbizps391v" fontSize="16" color="#ffffff" align="center" vAlign="middle" letterSpacing="-2" autoSize="shrink" autoClearText="true" text="25"/>
+    <group id="n60_qow0" name="n60" xy="40,39" size="24,24" visible="false" advanced="true"/>
+    <text id="n59_qow0" name="label_name" xy="9,64" size="38,26" font="ui://27utqbizps391v" fontSize="18" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="申时"/>
+    <loader id="n58_qow0" name="loader_gem" xy="7,6" size="40,40" url="ui://2qr0czbaqow05u" autoSize="true" clearOnPublish="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader3D id="n61_h7sm" name="effect" xy="26,25" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

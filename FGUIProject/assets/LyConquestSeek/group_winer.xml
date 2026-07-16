@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,840" designImageOffsetX="-355" designImageOffsetY="-204">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n109_hsrt" name="n109" src="uu0c5h" fileName="winer/frame_bahuangbang.png" xy="-28,0"/>
+    <image id="n110_hsrt" name="n110" src="uu0c5i" fileName="winer/word_bahuangbang.png" xy="0,-74"/>
+    <image id="n113_hsrt" name="n113" src="uu0c5k" fileName="winer/word_bahuangbang3.png" xy="110,350"/>
+    <image id="n112_hsrt" name="n112" src="uu0c5j" fileName="winer/word_bahuangbang2.png" xy="668,111"/>
+    <component id="n121_hsrt" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="522,463" pivot="0.5,1" anchor="true"/>
+    <component id="n114_hsrt" name="group_faction" src="hsrt5n" fileName="group_winsal.xml" xy="155,525">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n116_hsrt" name="group_player" src="hsrt5n" fileName="group_winsal.xml" xy="410,429"/>
+    <component id="n97_ahj3" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="661,0"/>
+    <component id="n111_hsrt" name="btn_dianzan" src="hsrt5m" fileName="winer/btn_dianzan.xml" xy="273,730"/>
+    <loader id="n117_hsrt" name="loader_flag" xy="188,362" size="80,81" scale="2,2" touchable="false" url="ui://27utqbizd373uw" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <component id="n122_mcp4" name="loader_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="375,309" scale="1.5,1.5"/>
+  </displayList>
+</component>

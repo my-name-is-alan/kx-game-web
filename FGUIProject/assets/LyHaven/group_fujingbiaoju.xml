@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="639,531">
+  <displayList>
+    <image id="n40_j655" name="n40" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="129,3" size="375,38"/>
+    <text id="n41_j655" name="name" xy="245,0" size="145,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="附近镖局"/>
+    <list id="n68_j655" name="list_allItem" xy="0,57" size="639,474" overflow="hidden" lineGap="2" defaultItem="ui://rtusdzu1j6552g" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

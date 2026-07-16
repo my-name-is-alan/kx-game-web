@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="661,678" overflow="hidden">
+  <displayList>
+    <image id="n48_io2q" name="n48" src="c3ihdu17i" fileName="xz1/zsk_bg.png" xy="4,92"/>
+    <loader3D id="n46_io2q" name="loader_3D" xy="359,831" size="1,1" scale="1.8,1.8" animation="" skin="" loop="true"/>
+    <image id="n47_io2q" name="n47" src="c3ihdu176" fileName="xz1/mk_guang_01.png" xy="-78,503" size="836,178"/>
+  </displayList>
+</component>

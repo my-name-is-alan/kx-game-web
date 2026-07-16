@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1000">
+  <displayList>
+    <image id="n0_861b" name="n0" src="861b10" fileName="res/frame_chongwushengxing.png" xy="38,0"/>
+    <image id="n1_861b" name="n1" src="861bv" fileName="res/frame_chongwushengxing3.png" xy="48,23"/>
+    <image id="n3_861b" name="n3" src="kluzg" fileName="res/frame_chongwushengxing2.png" xy="210,105"/>
+    <image id="n6_861b" name="n6" src="861by" fileName="res/frame_jinduxian.png" xy="120,240"/>
+    <image id="n7_861b" name="img_step0" src="861bw" fileName="res/frame_jindudian.png" xy="90,210"/>
+    <image id="n8_861b" name="img_step1" src="861bw" fileName="res/frame_jindudian.png" xy="90,315"/>
+    <image id="n9_861b" name="img_step2" src="861bw" fileName="res/frame_jindudian.png" xy="90,420"/>
+    <image id="n10_861b" name="img_step3" src="861bw" fileName="res/frame_jindudian.png" xy="90,525"/>
+    <image id="n11_861b" name="img_step4" src="861bw" fileName="res/frame_jindudian.png" xy="90,630"/>
+    <image id="n12_861b" name="img_step5" src="861bw" fileName="res/frame_jindudian.png" xy="90,735"/>
+    <image id="n45_861b" name="img_stepgray0" src="861bx" fileName="res/frame_jindudian2.png" xy="90,210" visible="false"/>
+    <image id="n46_861b" name="img_stepgray1" src="861bx" fileName="res/frame_jindudian2.png" xy="90,315"/>
+    <image id="n47_861b" name="img_stepgray2" src="861bx" fileName="res/frame_jindudian2.png" xy="90,420"/>
+    <image id="n48_861b" name="img_stepgray3" src="861bx" fileName="res/frame_jindudian2.png" xy="90,525"/>
+    <image id="n49_861b" name="img_stepgray4" src="861bx" fileName="res/frame_jindudian2.png" xy="90,630"/>
+    <image id="n50_861b" name="img_stepgray5" src="861bx" fileName="res/frame_jindudian2.png" xy="90,735"/>
+    <loader3D id="n51_ro4e" name="loader_spine_main" xy="134,104" size="1,1" scale="0.25,0.25" animation="" skin="" loop="true"/>
+    <image id="n13_861b" name="img_star1" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="70,148"/>
+    <image id="n14_861b" name="img_star2" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="95,148"/>
+    <image id="n15_861b" name="img_star3" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="120,148"/>
+    <image id="n16_861b" name="img_star4" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="145,148"/>
+    <image id="n17_861b" name="img_star5" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="170,148"/>
+    <image id="n20_861b" name="n20" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="150,330"/>
+    <image id="n21_861b" name="n21" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="150,435"/>
+    <image id="n22_861b" name="n22" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="175,435"/>
+    <image id="n23_861b" name="n23" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="150,540"/>
+    <image id="n24_861b" name="n24" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="175,540"/>
+    <image id="n25_861b" name="n25" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="200,540"/>
+    <image id="n26_861b" name="n26" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="150,645"/>
+    <image id="n27_861b" name="n27" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="175,645"/>
+    <image id="n28_861b" name="n28" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="200,645"/>
+    <image id="n29_861b" name="n29" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="225,645"/>
+    <image id="n30_861b" name="n30" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="150,750"/>
+    <image id="n31_861b" name="n31" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="175,750"/>
+    <image id="n32_861b" name="n32" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="200,750"/>
+    <image id="n33_861b" name="n33" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="225,750"/>
+    <image id="n34_861b" name="n34" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="250,750"/>
+    <richtext id="n35_861b" name="label_tips0" xy="150,260" size="530,31" fontSize="22" color="#f4e9d6" ubb="true" autoSize="height" autoClearText="true" text="拥有者：[color=#F4E9D6]{0}[/color]"/>
+    <richtext id="n36_861b" name="label_tips1" xy="150,365" size="530,31" fontSize="22" color="#f4e9d6" ubb="true" autoSize="height" autoClearText="true" text="拥有者：[color=#F4E9D6]{0}[/color]"/>
+    <richtext id="n37_861b" name="label_tips2" xy="150,470" size="530,31" fontSize="22" color="#f4e9d6" ubb="true" autoSize="height" autoClearText="true" text="拥有者：[color=#F4E9D6]{0}[/color]"/>
+    <richtext id="n38_861b" name="label_tips3" xy="150,575" size="530,31" fontSize="22" color="#f4e9d6" ubb="true" autoSize="height" autoClearText="true" text="拥有者：[color=#F4E9D6]{0}[/color]"/>
+    <richtext id="n39_861b" name="label_tips4" xy="150,680" size="530,31" fontSize="22" color="#f4e9d6" ubb="true" autoSize="height" autoClearText="true" text="拥有者：[color=#F4E9D6]{0}[/color]"/>
+    <richtext id="n40_861b" name="label_tips5" xy="150,785" size="530,31" fontSize="22" color="#f4e9d6" ubb="true" autoSize="height" autoClearText="true" text="拥有者：[color=#F4E9D6]{0}[/color]"/>
+    <text id="n2_861b" name="label_name" xy="210,41" size="94,41" font="ui://27utqbizps391v" fontSize="30" color="#e94853" vAlign="middle" text="大头鬼"/>
+    <richtext id="n4_861b" name="label_owner" xy="210,78" size="121,31" fontSize="22" color="#fcc1aa" vAlign="middle" ubb="true" autoClearText="true" text="拥有者：[color=#F4E9D6]{0}[/color]"/>
+    <richtext id="n5_861b" name="label_desc" xy="210,127" size="460,66" fontSize="22" color="#fcc1aa" autoSize="none" autoClearText="true" text="此乃"/>
+    <component id="n41_861b" name="btn_upgrade" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="130,880">
+      <Button title="升星"/>
+    </component>
+    <component id="n42_861b" name="btn_use" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="400,880">
+      <Button title="使用"/>
+    </component>
+    <component id="n43_861b" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="606,20"/>
+  </displayList>
+</component>

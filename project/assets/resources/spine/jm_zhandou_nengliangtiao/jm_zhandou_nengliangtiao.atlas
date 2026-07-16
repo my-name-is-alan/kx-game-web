@@ -1,0 +1,20 @@
+
+jm_zhandou_nengliangtiao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jm_zhandou_nengliangtiao3
+  rotate: false
+  xy: 2, 76
+  size: 118, 28
+  orig: 118, 28
+  offset: 0, 0
+  index: -1
+jm_zhandou_nengliangtiao_2
+  rotate: false
+  xy: 2, 106
+  size: 141, 37
+  orig: 141, 37
+  offset: 0, 0
+  index: -1

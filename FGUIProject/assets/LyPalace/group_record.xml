@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900">
+  <displayList>
+    <image id="n13_ofdw" name="n13" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="30,0" size="690,900"/>
+    <component id="n14_ofdw" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,-25"/>
+    <image id="n15_ofdw" name="n15" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="164,36" size="432,38"/>
+    <text id="n16_ofdw" name="label_title" xy="179,35" size="400,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n4_aao6" name="list_record" xy="51,90" size="648,750" overflow="scroll" lineGap="5" defaultItem="ui://yblwt9kzq96922">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <image id="n17_mjzc" name="img_empty" src="mjzcu16u" fileName="ui/pic_no data.png" pkg="27utqbiz" xy="185,315">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

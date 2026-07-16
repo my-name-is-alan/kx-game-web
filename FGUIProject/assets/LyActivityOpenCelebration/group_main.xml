@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1135">
+  <displayList>
+    <image id="n31_liu3" name="n31" src="liu3du176" fileName="comombg/frame_tanchuang.png" pkg="27utqbiz" xy="1,-77" size="762,1140">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </image>
+    <loader3D id="n26_92au" name="loader_effect3" xy="374,418" size="1,1" animation="" skin="" loop="true"/>
+    <image id="n28_92au" name="n28" src="92auo" fileName="res/frame_change1.png" xy="17,136"/>
+    <image id="n30_92au" name="n30" src="92auq" fileName="res/frame_change2.png" xy="243,-106"/>
+    <loader3D id="n25_92au" name="loader_effect1" xy="384,233" size="1,1" animation="" skin="" loop="true"/>
+    <loader3D id="n24_92au" name="loader_effect" xy="54,59" size="1,1" animation="" skin="" loop="true"/>
+    <image id="n11_8em0" name="n11" src="8em05" fileName="res/word_kaifuqingdian.png" xy="65,-87"/>
+    <component id="n14_8em0" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="644,-20"/>
+    <image id="n3_8em0" name="n3" src="8em04" fileName="res/frame_huodongshijiantiao.png" xy="380,148"/>
+    <text id="n4_8em0" name="label_time" xy="330,149" size="380,29" font="ui://27utqbizps391v" fontSize="20" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n5_8em0" name="label_score" xy="408,178" size="10,29" font="ui://27utqbizps391v" fontSize="20" color="#feda9b" vAlign="middle" text=""/>
+    <image id="n6_8em0" name="n6" src="bh805e" fileName="ui/frame_progress bar_all.png" pkg="27utqbiz" xy="70,237" size="570,20"/>
+    <component id="n7_8em0" name="bar_progress" src="8em08" fileName="bar_progress.xml" xy="70,247" pivot="0,0.5" anchor="true" size="550,20">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n19_e7fb" name="group_line1" src="8em09" fileName="GroupItem2.xml" xy="150,247" pivot="0.5,0.414" anchor="true"/>
+    <component id="n20_e7fb" name="group_line2" src="8em09" fileName="GroupItem2.xml" xy="250,247" pivot="0.5,0.414" anchor="true"/>
+    <component id="n21_e7fb" name="group_line3" src="8em09" fileName="GroupItem2.xml" xy="350,247" pivot="0.5,0.414" anchor="true"/>
+    <component id="n22_e7fb" name="group_line4" src="8em09" fileName="GroupItem2.xml" xy="450,247" pivot="0.5,0.414" anchor="true"/>
+    <component id="n23_e7fb" name="group_line5" src="8em09" fileName="GroupItem2.xml" xy="550,247" pivot="0.5,0.414" anchor="true"/>
+    <component id="n8_8em0" name="group_line6" src="8em09" fileName="GroupItem2.xml" xy="650,247" pivot="0.5,0.414" anchor="true"/>
+    <component id="n9_8em0" name="group_scoreicon" src="8em0a" fileName="group_scoreicon.xml" xy="31,208"/>
+    <list id="n13_8em0" name="list_tab1" xy="41,333" size="660,666" overflow="scroll" margin="10,0,0,0" defaultItem="ui://dmbgg925abrun">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </list>
+    <list id="n12_8em0" name="list_tab2" xy="41,333" size="660,666" overflow="scroll" margin="10,0,0,0" defaultItem="ui://dmbgg925abruj">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </list>
+    <list id="n2_8em0" name="list_tab3" xy="41,333" size="660,666" overflow="scroll" margin="10,0,0,0" defaultItem="ui://dmbgg9258em0b">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </list>
+    <component id="n15_8em0" name="btn_tab1" src="a0tr1c" fileName="btn_actCommon.xml" pkg="27utqbiz" xy="102,1001" group="n17_8em0">
+      <Button checked="true"/>
+    </component>
+    <component id="n16_8em0" name="btn_tab2" src="a0tr1c" fileName="btn_actCommon.xml" pkg="27utqbiz" xy="302,1001" group="n17_8em0"/>
+    <component id="n18_8em0" name="btn_tab3" src="a0tr1c" fileName="btn_actCommon.xml" pkg="27utqbiz" xy="502,1001" group="n17_8em0"/>
+    <group id="n17_8em0" name="btn" xy="102,1001" size="546,208" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+  </displayList>
+</component>

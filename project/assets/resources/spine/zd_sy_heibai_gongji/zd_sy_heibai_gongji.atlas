@@ -1,0 +1,90 @@
+
+zd_sy_heibai_gongji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heibai_01
+  rotate: true
+  xy: 389, 249
+  size: 92, 128
+  orig: 92, 128
+  offset: 0, 0
+  index: -1
+heibai_02
+  rotate: false
+  xy: 394, 116
+  size: 88, 131
+  orig: 91, 131
+  offset: 0, 0
+  index: -1
+heibai_03
+  rotate: false
+  xy: 167, 2
+  size: 50, 61
+  orig: 50, 61
+  offset: 0, 0
+  index: -1
+heibai_04
+  rotate: true
+  xy: 394, 64
+  size: 50, 67
+  orig: 50, 67
+  offset: 0, 0
+  index: -1
+jltd_hit_2jie/jltd_hit_2jie_00
+  rotate: true
+  xy: 205, 65
+  size: 172, 187
+  orig: 236, 242
+  offset: 41, 33
+  index: -1
+jltd_hit_2jie/jltd_hit_2jie_000
+  rotate: false
+  xy: 392, 343
+  size: 135, 135
+  orig: 236, 242
+  offset: 76, 82
+  index: -1
+jltd_hit_2jie/jltd_hit_2jie_001
+  rotate: false
+  xy: 197, 437
+  size: 193, 187
+  orig: 236, 242
+  offset: 21, 33
+  index: -1
+jltd_hit_2jie/jltd_hit_2jie_002
+  rotate: false
+  xy: 392, 480
+  size: 145, 144
+  orig: 236, 242
+  offset: 45, 50
+  index: -1
+jltd_hit_2jie/jltd_hit_2jie_003
+  rotate: false
+  xy: 2, 43
+  size: 163, 177
+  orig: 236, 242
+  offset: 35, 48
+  index: -1
+jltd_hit_2jie/jltd_hit_2jie_004
+  rotate: false
+  xy: 2, 422
+  size: 193, 202
+  orig: 236, 242
+  offset: 21, 36
+  index: -1
+jltd_hit_2jie/jltd_hit_2jie_005
+  rotate: false
+  xy: 2, 222
+  size: 201, 198
+  orig: 236, 242
+  offset: 18, 40
+  index: -1
+jltd_hit_2jie/jltd_hit_2jie_006
+  rotate: false
+  xy: 205, 239
+  size: 182, 196
+  orig: 236, 242
+  offset: 30, 42
+  index: -1

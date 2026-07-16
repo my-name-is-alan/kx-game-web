@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1,1">
+  <displayList>
+    <loader3D id="n321_e8n4" name="loader_spine_heye" xy="0,0" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

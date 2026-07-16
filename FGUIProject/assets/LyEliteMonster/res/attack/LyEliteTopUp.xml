@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="671,976">
+  <displayList>
+    <image id="n38_cgkl" name="n38" src="l3tj2m" fileName="res/attack/pic_leichong.png" xy="16,0"/>
+    <list id="n39_cgkl" name="list_all" xy="0,275" size="671,701" overflow="scroll" lineGap="-3" defaultItem="ui://xcpqvzp3cgkl3t">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n40_cgkl" name="n40" xy="411,182" size="187,42" fontSize="20" color="#ffffff" align="right" vAlign="middle" letterSpacing="-2" autoSize="none" text="累计充值积分：100"/>
+    <component id="n41_cgkl" name="n41" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="567,151" visible="false"/>
+  </displayList>
+</component>

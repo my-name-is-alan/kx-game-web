@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,135">
+  <displayList>
+    <loader id="n0_m2rj" name="img_icon" xy="0,1" size="114,114" url="ui://27utqbizql4fup" clearOnPublish="true"/>
+    <text id="n1_m2rj" name="label_title" xy="12,103" size="92,32" font="ui://27utqbizps391v" fontSize="22" color="#ffffff" align="center" leading="0" strokeColor="#000000" strokeSize="2" text="名声渐起"/>
+  </displayList>
+</component>

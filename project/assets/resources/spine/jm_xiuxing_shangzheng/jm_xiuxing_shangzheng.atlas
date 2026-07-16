@@ -1,0 +1,76 @@
+
+jm_xiuxing_shangzheng.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiuxing01
+  rotate: false
+  xy: 102, 122
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+合成 1/zdq_00000
+  rotate: true
+  xy: 91, 199
+  size: 97, 95
+  orig: 128, 128
+  offset: 18, 17
+  index: -1
+合成 1/zdq_00002
+  rotate: false
+  xy: 94, 305
+  size: 93, 93
+  orig: 128, 128
+  offset: 21, 19
+  index: -1
+合成 1/zdq_00004
+  rotate: true
+  xy: 92, 3
+  size: 92, 89
+  orig: 128, 128
+  offset: 20, 25
+  index: -1
+合成 1/zdq_00006
+  rotate: true
+  xy: 2, 2
+  size: 93, 88
+  orig: 128, 128
+  offset: 17, 26
+  index: -1
+合成 1/zdq_00008
+  rotate: false
+  xy: 98, 407
+  size: 89, 93
+  orig: 128, 128
+  offset: 17, 22
+  index: -1
+合成 1/zdq_00010
+  rotate: false
+  xy: 2, 197
+  size: 87, 99
+  orig: 128, 128
+  offset: 16, 16
+  index: -1
+合成 1/zdq_00012
+  rotate: false
+  xy: 2, 400
+  size: 94, 100
+  orig: 128, 128
+  offset: 15, 12
+  index: -1
+合成 1/zdq_00014
+  rotate: false
+  xy: 2, 97
+  size: 98, 98
+  orig: 128, 128
+  offset: 15, 11
+  index: -1
+合成 1/zdq_00016
+  rotate: true
+  xy: 2, 298
+  size: 100, 90
+  orig: 128, 128
+  offset: 15, 15
+  index: -1

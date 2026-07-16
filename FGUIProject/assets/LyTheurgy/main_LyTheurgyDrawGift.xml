@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="734,981">
+  <displayList>
+    <image id="n30_rgsw" name="n30" src="rgswq9" fileName="2.0/frame_zhuanpan1.png" xy="0,644"/>
+    <image id="n8_rgsw" name="n8" src="rgswq8" fileName="2.0/frame_zhuanpan2.png" xy="23,86"/>
+    <image id="n11_rgsw" name="n11" src="rgswqh" fileName="2.0/frame_jianglikuang.png" xy="533,757" size="127,127" aspect="true"/>
+    <component id="n1_rgsw" name="draw" src="rgswqw" fileName="group_drop1.xml" xy="96,753" size="398,120"/>
+    <component id="n33_rgsw" name="group_itemMax" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="555,771" scale="0.8,0.8"/>
+    <image id="n2_rgsw" name="n2" src="c3ihdu17c" fileName="2.0/mk_di_01.png" pkg="xcpqvzp3" xy="545,848"/>
+    <text id="n3_rgsw" name="n3" xy="551,848" size="86,32" font="ui://27utqbizps391v" fontSize="22" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" text="200"/>
+    <image id="n6_rgsw" name="n6" src="rgswqe" fileName="2.0/btn_qiehuandian4.png" xy="484,833"/>
+    <image id="n9_rgsw" name="n9" src="rgswpx" fileName="2.0/word_mijiidunwu.png" xy="154,0"/>
+    <image id="n36_oi12" name="n36" src="rgswq7" fileName="2.0/frame_zhuanpan3.png" xy="277,112"/>
+    <component id="n10_rgsw" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="635,129"/>
+    <component id="n12_rgsw" name="btn_dw" src="rgswr3" fileName="2.0/Button1.xml" xy="252,294">
+      <Button icon="ui://yhkdb7e3rgswpw"/>
+    </component>
+    <component id="n19_rgsw" name="group_item1" src="rgswr4" fileName="group_zpItem.xml" xy="306,130"/>
+    <component id="n20_rgsw" name="group_item2" src="rgswr4" fileName="group_zpItem.xml" xy="440,174"/>
+    <component id="n21_rgsw" name="group_item4" src="rgswr4" fileName="group_zpItem.xml" xy="522,424"/>
+    <component id="n22_rgsw" name="group_item5" src="rgswr4" fileName="group_zpItem.xml" xy="437,538"/>
+    <component id="n23_rgsw" name="group_item6" src="rgswr4" fileName="group_zpItem.xml" xy="306,580"/>
+    <component id="n16_rgsw" name="group_item3" src="rgswr4" fileName="group_zpItem.xml" xy="521,286"/>
+    <component id="n24_rgsw" name="group_item7" src="rgswr4" fileName="group_zpItem.xml" xy="166,538"/>
+    <component id="n25_rgsw" name="group_item8" src="rgswr4" fileName="group_zpItem.xml" xy="92,426"/>
+    <component id="n26_rgsw" name="group_item9" src="rgswr4" fileName="group_zpItem.xml" xy="90,287"/>
+    <component id="n27_rgsw" name="group_item10" src="rgswr4" fileName="group_zpItem.xml" xy="171,173"/>
+    <text id="n29_rgsw" name="n29" xy="209,940" size="315,41" font="ui://27utqbizps391v" fontSize="22" color="#eac584" align="center" vAlign="middle" autoSize="none" text="每衍化1次增加1点顿悟积分"/>
+    <component id="n31_rgsw" name="btn_get" src="rgswr3" fileName="2.0/Button1.xml" xy="579,626" size="138,116" group="n34_oi12" alpha="0">
+      <Button icon="ui://yhkdb7e3rgswpw"/>
+    </component>
+    <loader3D id="n28_rgsw" name="loader3D_book" xy="626,690" size="1,1" group="n34_oi12" animation="" skin="" loop="true"/>
+    <group id="n34_oi12" name="group_get" xy="579,626" size="138,116" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="660,136">
+  <displayList>
+    <image id="n0_hdhb" name="n0" src="pq7g6" fileName="res/frame_jiangliliebiao.png" xy="-4,0"/>
+    <component id="n1_hdhb" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="50,18"/>
+    <image id="n5_oswz" name="img_bar_gray" src="pq7g9" fileName="res/frame_shujindutiao.png" xy="222,0" scale="1,0.5"/>
+    <image id="n6_oswz" name="img_bar_light" src="pq7ga" fileName="res/frame_shujindutiao2.png" xy="225,0" scale="1,0.5"/>
+    <image id="n11_q127" name="img_bar_gray1" src="pq7g9" fileName="res/frame_shujindutiao.png" xy="222,68" scale="1,0.5"/>
+    <image id="n12_q127" name="img_bar_light1" src="pq7ga" fileName="res/frame_shujindutiao2.png" xy="225,68" scale="1,0.5"/>
+    <image id="n3_hdhb" name="img_gray" src="pq7g5" fileName="res/frame_jianglijindukuai2.png" xy="199,35"/>
+    <image id="n2_hdhb" name="img_light" src="pq7g4" fileName="res/frame_jianglijindukuai.png" xy="199,35"/>
+    <text id="n9_q127" name="label_level" xy="162,52" size="140,32" fontSize="22" color="#ffefc9" align="center" vAlign="middle" autoSize="none" strokeColor="#54380f" text=""/>
+    <list id="n4_hdhb" name="list_item" xy="293,-12" size="380,160" layout="flow_hz" margin="0,0,30,30" colGap="10" defaultItem="ui://5w4f3ir7bza85h" vAlign="middle"/>
+  </displayList>
+  <transition name="t0" options="4" autoPlayRepeat="0">
+    <item time="0" type="Pivot" target="n1_hdhb" value="0.5,0.5"/>
+    <item time="0" type="Rotation" target="n1_hdhb" tween="true" startValue="0" endValue="20" duration="5" ease="Linear"/>
+    <item time="5" type="Rotation" target="n1_hdhb" tween="true" startValue="20" endValue="20" duration="5" ease="Linear"/>
+    <item time="10" type="Rotation" target="n1_hdhb" tween="true" startValue="20" endValue="-20" duration="5"/>
+    <item time="15" type="Rotation" target="n1_hdhb" tween="true" startValue="-20" endValue="0" duration="5" ease="Linear"/>
+    <item time="20" type="Rotation" target="n1_hdhb" tween="true" startValue="0" endValue="0" duration="4" ease="Linear"/>
+  </transition>
+</component>

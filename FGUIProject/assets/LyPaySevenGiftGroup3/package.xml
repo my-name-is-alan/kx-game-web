@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qq98aone">
+  <resources>
+    <component id="ijfm0" name="btn_close1.xml" path="/res/"/>
+    <image id="ijfm2" name="btn_small.png" path="/res/"/>
+    <image id="ijfm3" name="btn_big.png" path="/res/"/>
+    <component id="ijfm4" name="btn_big.xml" path="/res/"/>
+    <component id="ijfm5" name="btn_small3.xml" path="/res/"/>
+    <image id="ijfm9" name="frame_chaozhi.png" path="/res/"/>
+    <component id="ijfmh" name="LyPaySevenGiftGroup3.xml" path="/" exported="true"/>
+    <component id="ijfmi" name="group_main.xml" path="/"/>
+    <component id="ijfmj" name="group_player2.xml" path="/"/>
+    <image id="ijfmk" name="bg_meirilibao3.png" path="/res/" atlas="alone_npot"/>
+    <image id="ijfml" name="btn_close3.png" path="/res/"/>
+    <image id="ijfmm" name="btn_small4.png" path="/res/"/>
+    <image id="ijfmn" name="frame_daoju3.png" path="/res/"/>
+    <image id="ijfmo" name="frame_guang.png" path="/res/"/>
+    <image id="ijfmp" name="frame_kaifuxianding3.png" path="/res/"/>
+    <image id="ijfmq" name="frame_mengbanhuang.png" path="/res/"/>
+    <image id="ijfmr" name="frame_name3.png" path="/res/"/>
+    <image id="ijfms" name="frame_xialvpian.png" path="/res/"/>
+    <image id="ijfmt" name="frame_zhongshenyici3.png" path="/res/"/>
+    <image id="ijfmv" name="word_erxuanyi.png" path="/res/"/>
+    <component id="ijfmy" name="group_player.xml" path="/"/>
+    <component id="kdi0z" name="btn_plaint.xml" path="/"/>
+    <component id="isca10" name="group_rate.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

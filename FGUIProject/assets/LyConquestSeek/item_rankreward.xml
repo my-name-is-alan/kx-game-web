@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,320">
+  <displayList>
+    <loader id="n62_ljrs" name="img_bg" xy="0,0" size="668,320" url="ui://shg18aricda5b" align="center" clearOnPublish="true"/>
+    <component id="n72_113zk" name="img_title" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="182,65" scale="1.5,1.5"/>
+    <text id="n64_ljrs" name="label_top1" xy="223,11" size="222,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#d4841b" autoClearText="true" text="第一名"/>
+    <text id="n65_ljrs" name="label_top2" xy="223,11" size="222,42" visible="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#9b5fff" autoClearText="true" text="第二名"/>
+    <text id="n66_ljrs" name="label_top3" xy="223,11" size="222,42" visible="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#65bdff" autoClearText="true" text="第二名"/>
+    <text id="n67_ljrs" name="label_tops" xy="223,11" size="222,42" visible="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#67765c" strokeSize="2" autoClearText="true" text="第二名"/>
+    <list id="n63_ljrs" name="list_award" xy="42,194" size="583,100" layout="flow_hz" overflow="scroll" scroll="horizontal" lineGap="10" colGap="20" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

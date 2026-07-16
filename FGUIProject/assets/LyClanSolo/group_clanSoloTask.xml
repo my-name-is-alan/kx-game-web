@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1165">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n87_ljrs" name="n87" xy="24,0" size="701,1112" group="n92_ljrs" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n88_ljrs" name="label_title" xy="53,27" size="257,56" group="n92_ljrs" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]任[/size]务"/>
+    <component id="n89_ljrs" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40" group="n92_ljrs"/>
+    <component id="n90_ljrs" name="btn_gr" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="32,1105" group="n92_ljrs">
+      <Button title="任务" controller="c1" page="0"/>
+    </component>
+    <component id="n91_ljrs" name="btn_bp" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="203,1105" group="n92_ljrs">
+      <Button checked="true" title="协助" controller="c1" page="1"/>
+    </component>
+    <list id="n86_ljrs" name="list_task" xy="50,118" size="649,928" group="n92_ljrs" overflow="scroll" lineGap="8" defaultItem="ui://8rnw66xwhbzk8" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n93_10lj8" name="list_clanTask" xy="50,118" size="649,928" group="n92_ljrs" overflow="scroll" lineGap="8" defaultItem="ui://8rnw66xwhbzk8" autoClearItems="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n92_ljrs" name="n92" xy="24,0" size="726,1165" advanced="true"/>
+  </displayList>
+</component>

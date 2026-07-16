@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="713,987">
+  <displayList>
+    <component id="n40_kmnd" name="group_selectPet" src="oxm57y" fileName="group_selectPet.xml" xy="0,0"/>
+    <component id="n8_kmnd" name="group_select1" src="oxm57x" fileName="group_select1.xml" xy="0,0"/>
+    <component id="n53_81of" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="636,-14"/>
+    <image id="n60_i809" name="n60" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="160,27" size="383,38"/>
+    <text id="n4_kmnd" name="label_str57" xy="320,26" size="60,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" text="吞噬"/>
+  </displayList>
+</component>

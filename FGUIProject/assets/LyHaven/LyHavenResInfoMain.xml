@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="711,654">
+  <controller name="btn" exported="true" pages="0,,1," selected="0"/>
+  <controller name="con_win" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1_agvw" name="n1" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,23" size="695,629"/>
+    <image id="n57_pe7y" name="n57" src="pe7y5a" fileName="res/bg_resource info.png" xy="7,41"/>
+    <image id="n33_fml9" name="n33" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="156,60" size="377,38"/>
+    <component id="n3_agvw" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="633,0"/>
+    <text id="n4_agvw" name="label_title" xy="211,45" size="269,65" font="ui://27utqbizps391v" fontSize="29" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="资源详情"/>
+    <image id="n32_fml9" name="n32" src="fml911" fileName="res/dec_dsesss.png" xy="239,137"/>
+    <image id="n46_fml9" name="n46" src="fml91f" fileName="res/frame_details_escorter.png" xy="430,183"/>
+    <image id="n35_fml9" name="n35" src="fml910" fileName="res/frame_additional explanation.png" xy="103,362"/>
+    <component id="n52_ngxr" name="group_item" src="o6qjf" fileName="itemframe/GroupItem2.xml" pkg="27utqbiz" xy="294,181"/>
+    <text id="n22_fixk" name="label_max" xy="398,356" size="168,43" fontSize="20" color="#7f6c52" vAlign="middle" letterSpacing="-2" autoSize="none" text="镖师上限：2"/>
+    <text id="n21_fixk" name="label_number" xy="167,354" size="171,43" fontSize="20" color="#7f6c52" vAlign="middle" letterSpacing="-2" autoSize="none" text="可采集"/>
+    <text id="n28_fixk" name="label_time" xy="350,517" size="154,46" fontSize="22" color="#3b942a" vAlign="middle" autoSize="none" text="00:"/>
+    <text id="n27_fixk" name="n27" xy="258,519" size="141,40" fontSize="20" vAlign="middle" letterSpacing="2" autoSize="none" text="采集时间"/>
+    <image id="n47_fml9" name="n47" src="fml91f" fileName="res/frame_details_escorter.png" xy="101,190" group="n59_vp1r" flip="hz"/>
+    <text id="n42_fml9" name="label_desc1" xy="84,294" size="136,32" group="n59_vp1r" fontSize="22" color="#ab8f64" align="center" text="当前无人采集">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n40_fml9" name="img_xgdu1" src="fml917" fileName="res/pic_escorter2.png" xy="102,190" group="n59_vp1r"/>
+    <image id="n49_fml9" name="img_xg1" src="fml916" fileName="res/pic_escorter1.png" xy="103,191" group="n59_vp1r"/>
+    <group id="n59_vp1r" name="group_left" xy="84,190" size="179,136" advanced="true"/>
+    <component id="n29_fixk" name="btn_go" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="242,558">
+      <gearXY controller="btn" pages="0,1" values="242,558|404,559"/>
+    </component>
+    <component id="n36_fml9" name="btn_manage" src="fml91d" fileName="btn_manage.xml" xy="191,358"/>
+    <component id="n37_fml9" name="btn_rud" src="bh805d" fileName="btn_reduct2.xml" pkg="27utqbiz" xy="151,407"/>
+    <component id="n38_fml9" name="btn_add" src="bh805c" fileName="btn_add2.xml" pkg="27utqbiz" xy="515,405"/>
+    <text id="n43_fml9" name="label_desc2" xy="527,294" size="26,32" fontSize="22" color="#ab8f64" align="center" text="我">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n50_fml9" name="img_xjdu2" src="fml917" fileName="res/pic_escorter2.png" xy="492,187"/>
+    <image id="n48_fml9" name="img_xg2" src="fml916" fileName="res/pic_escorter1.png" xy="492,187">
+      <gearDisplay controller="btn" pages="1"/>
+    </image>
+    <image id="n44_fml9" name="img_me1" src="fml962" fileName="ui/icon_me.png" pkg="27utqbiz" xy="566,266">
+      <gearDisplay controller="btn" pages="1"/>
+    </image>
+    <image id="n45_fml9" name="img_me2" src="fml962" fileName="ui/icon_me.png" pkg="27utqbiz" xy="173,266" visible="false"/>
+    <component id="n53_d087" name="btn_goBack" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="80,559">
+      <gearDisplay controller="btn" pages="1"/>
+    </component>
+    <image id="n55_pe7y" name="win1" src="inps5r" fileName="ui/btn_zhedieshang.png" pkg="27utqbiz" xy="213,257" rotation="270"/>
+    <image id="n56_pe7y" name="winMe" src="inps5s" fileName="ui/btn_zhediexia.png" pkg="27utqbiz" xy="434,257" rotation="270"/>
+    <text id="n58_rghc" name="n58" xy="14,439" size="42,33" font="ui://27utqbizps391v" fontSize="23" autoClearText="true" text="123"/>
+  </displayList>
+</component>

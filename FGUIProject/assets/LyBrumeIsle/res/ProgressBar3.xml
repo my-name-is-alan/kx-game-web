@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="583,16" extention="ProgressBar">
+  <displayList>
+    <image id="n0_mchc" name="n0" src="mchco1" fileName="res/frame_jindutiaozi.png" xy="0,0" size="583,15">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_mchc" name="bar" src="mchco2" fileName="res/frame_jindutiaozi2.png" xy="3,1" size="570,12"/>
+    <component id="n5_mchc" name="1" src="mchco8" fileName="res/group_tsTimes.xml" xy="254,-26"/>
+    <component id="n8_mchc" name="2" src="mchco8" fileName="res/group_tsTimes.xml" xy="536,-26"/>
+    <image id="n9_mchc" name="n9" src="mchcnz" fileName="res/frame_denglongxiao.png" xy="530,-34" group="n13_mchc"/>
+    <image id="n10_mchc" name="n10" src="mchco0" fileName="res/frame_huangseyuandi.png" xy="505,-78" group="n13_mchc"/>
+    <text id="n11_mchc" name="n11" xy="513,-75" size="124,29" group="n13_mchc" font="ui://27utqbizps391v" fontSize="20" color="#815a26" align="center" vAlign="middle" text="当前连续探索"/>
+    <text id="n12_mchc" name="label_times" xy="561,-53" pivot="0.5,0.5" size="28,29" group="n13_mchc" fontSize="20" color="#ffffff" align="center" vAlign="middle" strokeColor="#9a7c4f" strokeSize="2" text="20"/>
+    <group id="n13_mchc" name="n13" xy="505,-78" size="142,128" advanced="true">
+      <relation target="n1_mchc" sidePair="right-right"/>
+    </group>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

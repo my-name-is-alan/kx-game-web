@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="210,250">
+  <displayList>
+    <image id="n10_phx9" name="back1" src="phx927" fileName="recharge/frame_jinzhu.png" xy="33,10"/>
+    <image id="n11_phx9" name="back2" src="phx928" fileName="recharge/frame_yubi.png" xy="33,10"/>
+    <graph id="n6_fdj4" name="graph_back" xy="22,0" size="200,250" type="rect" lineColor="#02000000" fillColor="#02ffffff"/>
+    <text id="n2_fdj4" name="label_name" xy="39,12" size="166,32" fontSize="22" align="center" autoSize="none" text=""/>
+    <loader id="n8_f4zx" name="loader_icon" xy="70,49" size="100,100" touchable="false"/>
+    <text id="n3_fdj4" name="label_count" xy="40,154" size="164,34" fontSize="24" color="#87352c" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n9_f4zx" name="label_rmb" xy="40,192" size="163,39" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#87352c" text=""/>
+    <image id="n12_phx9" name="n12" src="phx924" fileName="recharge/frame_first-recharge.png" xy="10,0" group="n17_phx9"/>
+    <image id="n14_phx9" name="n14" src="phx929" fileName="recharge/word_first-recharge double .png" xy="25,15" group="n17_phx9"/>
+    <group id="n17_phx9" name="group_double" xy="10,0" size="78,80" advanced="true"/>
+    <image id="n16_phx9" name="n16" src="phx924" fileName="recharge/frame_first-recharge.png" xy="10,0" group="n18_phx9"/>
+    <image id="n15_phx9" name="img_first" src="phx92a" fileName="recharge/word_first-recharge gift_ .png" xy="16,5" group="n18_phx9"/>
+    <image id="n19_phx9" name="img_nofirst" src="phx92d" fileName="recharge/word_first-recharge gift_1.png" xy="37,4" group="n18_phx9"/>
+    <loader id="n13_phx9" name="loader_coin" xy="0,26" size="40,40" group="n18_phx9" url="ui://27utqbizh6d7j" fill="scale"/>
+    <text id="n4_fdj4" name="label_give" xy="39,30" size="10,29" group="n18_phx9" fontSize="20" color="#ffffff" vAlign="middle" leading="0" strokeColor="#87352c" text=""/>
+    <group id="n18_phx9" name="group_give" xy="0,0" size="88,80" advanced="true"/>
+  </displayList>
+</component>

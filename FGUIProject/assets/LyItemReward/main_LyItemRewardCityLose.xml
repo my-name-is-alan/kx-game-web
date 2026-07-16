@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,460">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n26_osg9" name="back_lost" src="osg9v" fileName="res/frame_bottom3.png" xy="0,6">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <loader3D id="n18_tkum" name="loader_spine" xy="374,-25" size="2,2" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <image id="n28_osg9" name="n28" src="osg9x" fileName="res/frame_title3.png" xy="0,-154" group="n33_osg9"/>
+    <image id="n56_pqxt" name="n56" src="pqxtu1ay" fileName="res/word_jinjishibai.png" xy="198,-103" group="n33_osg9"/>
+    <group id="n33_osg9" name="n33" xy="0,-154" size="750,212" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <text id="n54_pqxt" name="label_desc1" xy="326,90" pivot="0.5,0.5" size="87,36" fontSize="26" color="#eed57e" vAlign="middle" text="eqwe1">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n55_pqxt" name="label_desc2" xy="112,137" pivot="0.5,0.5" size="525,190" fontSize="26" color="#dad9d7" ubb="true" autoSize="none" text="eqwe1"/>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="372,34">
+  <displayList>
+    <text id="n14_svlp" name="label_level" xy="0,0" size="42,34" fontSize="24" align="center" vAlign="middle" text="1级"/>
+    <text id="n16_svlp" name="label_attr" xy="340,0" size="32,34" fontSize="24" color="#5b9f57" align="center" vAlign="middle" text="+5"/>
+    <text id="n15_svlp" name="label_name" xy="103,0" size="52,34" fontSize="24" color="#5b9f57" align="center" vAlign="middle" text="生命"/>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="207,500" designImageOffsetX="-759" designImageOffsetY="-509" designImageAlpha="0">
+  <displayList>
+    <loader3D id="n3_ig8m" name="loader_spine_pet" xy="197,292" pivot="0.5,1" anchor="true" size="2,2" scale="0.6,0.6" animation="" skin="" loop="true"/>
+    <component id="n4_ig8m" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="110,306" pivot="0.5,1" anchor="true" scale="0.6,0.6"/>
+    <image id="n14_hzwj" name="n14" src="ig8m36" fileName="res/frame_fight score1.png" xy="-4,0" group="n17_phai"/>
+    <text id="n10_ig8m" name="label_str47" xy="46,18" size="60,39" group="n17_phai" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="积分"/>
+    <text id="n11_ig8m" name="label_winScore" xy="107,18" size="91,39" group="n17_phai" fontSize="28" color="#47a42e" align="center" vAlign="middle" autoSize="shrink" autoClearText="true" text="+100"/>
+    <text id="n13_ig8m" name="label_scoreScale" xy="9,56" size="189,32" group="n17_phai" fontSize="22" color="#a65907" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="积分"/>
+    <group id="n17_phai" name="n17" xy="-4,0" size="216,112"/>
+    <component id="n19_9jvz" name="loader_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="4,252" size="202,103"/>
+    <image id="n6_ig8m" name="n6" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="27,317" scale="0.8,0.8"/>
+    <text id="n7_ig8m" name="label_combatPower" xy="76,324" size="60,42" font="ui://27utqbizvkas4q" fontSize="24" vAlign="middle" letterSpacing="-8" text="12"/>
+    <text id="n16_hzwj" name="label_name" xy="9,373" size="189,34" fontSize="24" color="#16191a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="名字六个字"/>
+    <loader id="n18_r41c" name="btn_info" xy="0,0" size="207,500"/>
+    <component id="n8_ig8m" name="btn_battle" src="ig8m31" fileName="btn_battle2.xml" xy="34,381"/>
+  </displayList>
+</component>

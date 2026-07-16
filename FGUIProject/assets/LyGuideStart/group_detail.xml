@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <graph id="n0_myrs" name="graph_back" xy="0,0" size="750,1334" type="rect" lineColor="#b2000000" fillColor="#b2000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n1_myrs" name="group_main" src="myrs1" fileName="group_guidestart.xml" xy="0,820" touchable="false">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

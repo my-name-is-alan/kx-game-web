@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <graph id="n5_gxp4" name="n5" xy="0,0" size="750,1334" type="rect" lineColor="#4c000000" fillColor="#4c000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n0_f4zx" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_ehs5" name="group_main" src="ijfmi" fileName="group_main.xml" xy="0,52">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

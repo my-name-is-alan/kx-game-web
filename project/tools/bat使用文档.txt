@@ -1,0 +1,8 @@
+bat_genprotobin
+将服务器给到的proto.lua生成sproto协议文本集合到指定位置，提供js加载。
+
+bat_errcode
+对服务器给定的errcode.lua表，自动化插入到代码中，并把对应错误码文本提示语句插入到本地化文本列表，写入协议版本号。
+
+bat_xmltojson
+导出xml数据为json数据结构到指定目录，目前程序加载方式为json。

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n4_ug9j" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133" alpha="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_ug9j" name="group_gem" src="gur8o" fileName="proup_gem.xml" xy="155,434" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n0_ug9j" name="group_elite" src="gur8s" fileName="proup_elite.xml" xy="155,435" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n2_ug9j" name="group_mount" src="gur8u" fileName="proup_mount.xml" xy="155,435" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_ug9j" name="group_pet" src="gur8m" fileName="proup_pet.xml" xy="155,392" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_ug9j" name="group_gem1" src="ug9j1z" fileName="proup_gem1.xml" xy="95,493" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_r41c" name="proup_pet1" src="r41c24" fileName="proup_pet1.xml" xy="155,434" visible="false"/>
+  </displayList>
+</component>

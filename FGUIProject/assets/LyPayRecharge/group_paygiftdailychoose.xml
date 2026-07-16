@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900">
+  <displayList>
+    <image id="n20_liu3" name="n20" src="liu3du176" fileName="comombg/frame_tanchuang.png" pkg="27utqbiz" xy="-5,-85" size="774,994">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </image>
+    <loader3D id="n19_cgob" name="loader_effect3" xy="374,418" size="1,1" animation="" skin="" loop="true"/>
+    <loader3D id="n18_cgob" name="loader_effect" xy="54,59" size="1,1" animation="" skin="" loop="true"/>
+    <image id="n17_lqjl" name="n17" src="lqjl44" fileName="giftdaily/word_zixuanlibao.png" xy="47,-22"/>
+    <component id="n14_lqjl" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="647,-20"/>
+    <image id="n15_lqjl" name="n15" src="ef0l1y" fileName="ui/frame_time.png" pkg="27utqbiz" xy="467,80" size="180,28"/>
+    <text id="n16_lqjl" name="label_time" xy="449,78" size="218,29" font="ui://27utqbizps391v" fontSize="20" color="#f6de9c" align="center" vAlign="middle" autoSize="none" text=""/>
+    <list id="n11_cjmr" name="list_daily" xy="41,130" size="660,716" overflow="scroll" lineGap="10" defaultItem="ui://xebnjiy5gdpii" align="center">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </list>
+  </displayList>
+</component>

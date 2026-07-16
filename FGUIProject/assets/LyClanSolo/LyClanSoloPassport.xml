@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetX="-669" designImageOffsetY="-305" designImageAlpha="100">
+  <displayList>
+    <component id="n85_l7ic" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n86_ljrs" name="main" src="n7df1p" fileName="group_clanSoloFund.xml" xy="0,98">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

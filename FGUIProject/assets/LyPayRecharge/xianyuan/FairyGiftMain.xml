@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="773,1149">
+  <controller name="page" exported="true" pages="0,,1,,2," selected="2"/>
+  <displayList>
+    <image id="n2_ef0l" name="n2" src="ef0l24" fileName="xianyuan/res/frame_fengyunludikuang.png" xy="0,0" size="704,1106"/>
+    <image id="n35_ef0l" name="n35" src="ef0l2a" fileName="xianyuan/res/frame_xuanzhongdiban.png" xy="11,1089"/>
+    <component id="n71_ef0l" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="633,59"/>
+    <component id="n36_ef0l" name="btn_fyl" src="ef0l2y" fileName="xianyuan/btn_xianyuan.xml" xy="100,1100">
+      <Button title="风云录" controller="page" page="0"/>
+    </component>
+    <component id="n37_ef0l" name="btn_task" src="ef0l2y" fileName="xianyuan/btn_xianyuan.xml" xy="265,1100">
+      <Button title="任务" controller="page" page="1"/>
+    </component>
+    <component id="n38_ef0l" name="btn_gift" src="ef0l2y" fileName="xianyuan/btn_xianyuan.xml" xy="438,1101">
+      <Button checked="true" title="礼包" controller="page" page="2"/>
+    </component>
+    <image id="n34_ef0l" name="n34" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="555,922"/>
+    <image id="n6_ef0l" name="n6" src="ef0l25" fileName="xianyuan/res/frame_fengyunluhuodongbeijing.png" xy="21,184"/>
+    <image id="n3_ef0l" name="n3" src="ef0l2c" fileName="xianyuan/res/word_fengyunlu.png" xy="11,19" group="n87_q0m4"/>
+    <image id="n5_ef0l" name="n5" src="ef0l2e" fileName="xianyuan/res/word_jizanshengwanglingqujiangli.png" xy="314,134" group="n87_q0m4"/>
+    <text id="n7_ef0l" name="n7" xy="340,198" size="315,46" group="n87_q0m4" font="ui://27utqbizps391v" fontSize="32" color="#ffffff" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" strokeColor="#3b8a93" strokeSize="2" text="3000%超值奖励回报"/>
+    <text id="n8_ef0l" name="n8" xy="327,233" size="346,44" group="n87_q0m4" font="ui://27utqbizps391v" fontSize="24" color="#242c33" vAlign="middle" autoSize="none" text="解锁可获取价值           金珠奖励"/>
+    <text id="n9_ef0l" name="n9" xy="497,237" size="97,39" group="n87_q0m4" fontSize="24" color="#fcca75" vAlign="middle" autoSize="none" strokeColor="#9f5625" strokeSize="2" text="25000"/>
+    <component id="n10_ef0l" name="btn_cz1" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="401,284" size="190,50" group="n87_q0m4"/>
+    <component id="n136_t09v" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="572,252" group="n87_q0m4" visible="false"/>
+    <text id="n12_ef0l" name="n12" xy="481,333" size="120,34" group="n87_q0m4" fontSize="18" color="#323c42" vAlign="middle" letterSpacing="2" autoSize="none" text="后任务重置"/>
+    <image id="n134_hnc7" name="n134" src="hnc75z" fileName="xianyuan/res/frame_jifendi.png" xy="42,331" group="n87_q0m4"/>
+    <text id="n135_hnc7" name="label_nowScore" xy="45,332" size="181,29" group="n87_q0m4" font="ui://27utqbizps391v" fontSize="20" color="#ffcc53" align="center" vAlign="middle" autoSize="none" text="当前积分"/>
+    <group id="n87_q0m4" name="01" xy="11,19" size="671,348" advanced="true">
+      <gearDisplay controller="page" pages="0,1"/>
+    </group>
+    <image id="n18_ef0l" name="n18" src="ef0l2i" fileName="jj5z/frame_chaozhifuli.png" xy="253,395" group="n73_q0m4"/>
+    <text id="n13_ef0l" name="label_time" xy="364,338" size="116,26" group="n73_q0m4" fontSize="18" color="#2b841c" align="right" vAlign="middle" letterSpacing="2" autoSize="none" text="59"/>
+    <image id="n19_ef0l" name="n19" src="ef0l2p" fileName="jj5z/frame_jichufuli.png" xy="20,395" group="n73_q0m4"/>
+    <text id="n20_ef0l" name="n20" xy="82,399" size="101,31" group="n73_q0m4" font="ui://27utqbizps391v" fontSize="20" color="#0f0a08" align="center" vAlign="middle" autoSize="none" text="基础福利"/>
+    <text id="n21_ef0l" name="n21" xy="408,399" size="101,31" group="n73_q0m4" font="ui://27utqbizps391v" fontSize="20" color="#0f0a08" align="center" vAlign="middle" autoSize="none" text="超值福利"/>
+    <component id="n69_ef0l" name="list_reward" src="ef0l38" fileName="xianyuan/list_fl.xml" xy="16,443" size="663,593" group="n73_q0m4"/>
+    <list id="n124_bh0j" name="list_fitem" xy="19,433" size="660,615" group="n73_q0m4" overflow="scroll" defaultItem="ui://xebnjiy5ef0l30" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n73_q0m4" name="0" xy="16,338" size="667,710" advanced="true">
+      <gearDisplay controller="page" pages="0"/>
+    </group>
+    <text id="n74_q0m4" name="label_wc" xy="274,382" size="147,35" group="n85_q0m4" font="ui://27utqbizps391v" fontSize="20" color="#ffb853" align="center" vAlign="middle" autoSize="none" text="已完成"/>
+    <text id="n123_rpd0" name="label_timeTask" xy="364,338" size="116,26" group="n85_q0m4" fontSize="18" color="#2b841c" align="right" vAlign="middle" letterSpacing="2" autoSize="none" text="59"/>
+    <image id="n122_q0m4" name="n122" src="q0m43w" fileName="xianyuan/res/frame_dianzhuangshi.png" xy="125,396" group="n85_q0m4"/>
+    <list id="n84_q0m4" name="list_task" xy="19,429" size="660,623" group="n85_q0m4" overflow="scroll" lineGap="-9" defaultItem="ui://xebnjiy5q0m43u" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n85_q0m4" name="1" xy="19,338" size="660,714" advanced="true">
+      <gearDisplay controller="page" pages="1"/>
+    </group>
+    <graph id="n121_q0m4" name="n121" xy="22,381" size="660,671" group="n120_q0m4" type="rect" lineSize="0" lineColor="#fff3f2ed" fillColor="#fff7f6f2"/>
+    <image id="n90_q0m4" name="n90" src="ef0l2d" fileName="xianyuan/res/word_jimanxianfudajiangfengshang.png" xy="58,200" group="n120_q0m4"/>
+    <image id="n119_q0m4" name="n119" src="ef0l23" fileName="xianyuan/res/frame_fengyundubulibao2.png" xy="18,750" group="n120_q0m4"/>
+    <component id="n89_q0m4" name="group_free" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="38,276" group="n120_q0m4" scale="0.82,0.82"/>
+    <component id="n91_q0m4" name="group_pro" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="588,396" group="n120_q0m4" scale="0.82,0.82"/>
+    <image id="n94_q0m4" name="n94" src="ef0l27" fileName="xianyuan/res/frame_fengyunzhengfenglibao2.png" xy="21,474" group="n120_q0m4"/>
+    <image id="n92_q0m4" name="n92" src="ef0l26" fileName="xianyuan/res/frame_fengyunzhengfenglibao.png" xy="20,490" group="n120_q0m4"/>
+    <image id="n93_q0m4" name="n93" src="ef0l22" fileName="xianyuan/res/frame_fengyundubulibao.png" xy="19,764" group="n120_q0m4"/>
+    <text id="n95_q0m4" name="n95" xy="234,499" size="223,39" group="n120_q0m4" font="ui://27utqbizps391v" fontSize="28" color="#ffffff" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" strokeColor="#4d7c7f" strokeSize="2" text="风云争锋礼包"/>
+    <text id="n96_q0m4" name="n96" xy="238,772" size="217,39" group="n120_q0m4" font="ui://27utqbizps391v" fontSize="28" color="#ffffff" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" strokeColor="#b75125" strokeSize="2" text="风云独步礼包"/>
+    <list id="n97_q0m4" name="list_zf" xy="161,568" size="457,100" group="n120_q0m4" scale="0.82,0.82" layout="flow_hz" overflow="hidden" colGap="46" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n98_q0m4" name="list_db" xy="160,841" size="457,100" group="n120_q0m4" scale="0.82,0.82" layout="flow_hz" overflow="hidden" colGap="46" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n99_q0m4" name="btn_db" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="254,944" size="190,50" group="n120_q0m4"/>
+    <component id="n137_t09v" name="group_rebeatfan68" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="440,911" group="n120_q0m4" visible="false"/>
+    <component id="n100_q0m4" name="btn_zf" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="254,671" size="190,50" group="n120_q0m4"/>
+    <component id="n138_t09v" name="group_rebeatfan18" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="440,638" group="n120_q0m4" visible="false"/>
+    <image id="n101_q0m4" name="n101" src="phx924" fileName="recharge/frame_first-recharge.png" xy="46,492" size="89,92" group="n120_q0m4" aspect="true"/>
+    <image id="n102_q0m4" name="n102" src="phx924" fileName="recharge/frame_first-recharge.png" xy="47,767" size="89,92" group="n120_q0m4" aspect="true"/>
+    <image id="n103_q0m4" name="n103" src="ef0l2f" fileName="xianyuan/res/worf_chaozhi.png" xy="55,503" group="n120_q0m4"/>
+    <image id="n104_q0m4" name="n104" src="ef0l2f" fileName="xianyuan/res/worf_chaozhi.png" xy="54,779" group="n120_q0m4"/>
+    <image id="n105_q0m4" name="n105" src="phx922" fileName="recharge/dec_star1.png" xy="49,506" group="n120_q0m4"/>
+    <image id="n106_q0m4" name="n106" src="phx922" fileName="recharge/dec_star1.png" xy="130,531" group="n120_q0m4"/>
+    <image id="n107_q0m4" name="n107" src="phx922" fileName="recharge/dec_star1.png" xy="49,781" group="n120_q0m4"/>
+    <image id="n108_q0m4" name="n108" src="phx922" fileName="recharge/dec_star1.png" xy="130,806" group="n120_q0m4"/>
+    <text id="n109_q0m4" name="n109" xy="39,534" size="106,39" group="n120_q0m4" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#f37d3a" strokeSize="2" text="1000%"/>
+    <text id="n110_q0m4" name="n110" xy="39,808" size="106,39" group="n120_q0m4" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#f37d3a" strokeSize="2" text="800%"/>
+    <text id="n111_q0m4" name="label_cTime" xy="185,1022" size="156,34" group="n120_q0m4" fontSize="20" color="#2b841c" align="right" vAlign="middle" autoSize="none" text="59"/>
+    <text id="n112_q0m4" name="n112" xy="342,1022" size="300,34" group="n120_q0m4" fontSize="20" color="#030202" vAlign="middle" autoSize="none" text="后"/>
+    <text id="n113_q0m4" name="label_need" xy="36,393" size="512,29" group="n120_q0m4" font="ui://27utqbizps391v" fontSize="20" autoSize="none" text="还需要"/>
+    <component id="n117_q0m4" name="pro_czz" src="q0m43v" fileName="xianyuan/ProgressBar2.xml" xy="40,430" group="n120_q0m4">
+      <ProgressBar value="27" max="100"/>
+    </component>
+    <image id="n131_pi9a" name="get18" src="j69r10" fileName="ui/frame_yigoumai.png" pkg="27utqbiz" xy="270,668" group="n120_q0m4"/>
+    <image id="n132_pi9a" name="get68" src="j69r10" fileName="ui/frame_yigoumai.png" pkg="27utqbiz" xy="271,942" group="n120_q0m4"/>
+    <group id="n120_q0m4" name="2" xy="18,200" size="671,856" advanced="true">
+      <gearDisplay controller="page" pages="2"/>
+    </group>
+  </displayList>
+</component>

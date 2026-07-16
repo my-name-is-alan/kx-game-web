@@ -1,0 +1,20 @@
+
+jm_xingshouyingdao_shouzi.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jm_xingshouyingdao_shou_2
+  rotate: false
+  xy: 2, 119
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+jm_xingshouyingdao_shou_4
+  rotate: false
+  xy: 2, 2
+  size: 118, 115
+  orig: 118, 115
+  offset: 0, 0
+  index: -1

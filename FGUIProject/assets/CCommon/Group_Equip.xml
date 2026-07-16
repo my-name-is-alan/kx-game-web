@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="577,251">
+  <displayList>
+    <image id="n29_rvb5" name="n29" src="rvb52y" fileName="ui/frame_tihuanzhanshi.png" xy="0,-1" size="577,251"/>
+    <image id="n45_rvb5" name="n45" src="rvb53c" fileName="ui/dec_tihuanzhanshi_frame_top_left_corner.png" xy="22,48"/>
+    <loader id="n46_rvb5" name="loader_qua" xy="20,4" size="536,46" url="ui://27utqbizrvb535" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n5_lloi" name="label_name" xy="41,4" size="478,44" font="ui://27utqbizps391v" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="【极品】天界神兵"/>
+    <image id="n40_rvb5" name="n40" src="rvb538" fileName="ui/frame_bottom_layer.png" xy="163,63" size="377,165"/>
+    <image id="n43_rvb5" name="n43" src="rvb53d" fileName="ui/dec_tihuanzhanshi_frame_low_right_corner.png" xy="453,172" size="105,75" aspect="true"/>
+    <list id="n26_q6hr" name="list_special" xy="354,66" size="173,163" overflow="hidden" lineGap="-4" defaultItem="ui://27utqbizq6hr1x" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <component id="n48_daw3" name="group_eq" src="niv33k" fileName="itemframe/EquipItem.xml" xy="35,61"/>
+    <text id="n12_lloi" name="label_name2" xy="173,72" size="58,34" group="n49_xk2q" font="Microsoft YaHei" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="攻击"/>
+    <text id="n10_lloi" name="label_name1" xy="173,107" size="58,34" group="n49_xk2q" font="Microsoft YaHei" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="敏捷"/>
+    <text id="n14_lloi" name="label_name3" xy="173,142" size="58,34" group="n49_xk2q" font="Microsoft YaHei" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="攻击"/>
+    <text id="n16_lloi" name="label_name4" xy="173,177" size="58,34" group="n49_xk2q" font="Microsoft YaHei" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="攻击"/>
+    <group id="n49_xk2q" name="n49" xy="173,72" size="58,139" advanced="true" layout="vt" lineGap="1" colGap="-28" excludeInvisibles="true"/>
+    <text id="n13_lloi" name="label_num2" xy="246,72" size="123,34" group="n50_xk2q" font="Microsoft YaHei" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="1234"/>
+    <text id="n11_lloi" name="label_num1" xy="246,107" size="123,34" group="n50_xk2q" font="Microsoft YaHei" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="12"/>
+    <text id="n15_lloi" name="label_num3" xy="246,142" size="123,34" group="n50_xk2q" font="Microsoft YaHei" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="35"/>
+    <text id="n17_lloi" name="label_num4" xy="246,177" size="123,34" group="n50_xk2q" font="Microsoft YaHei" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="67"/>
+    <group id="n50_xk2q" name="n50" xy="246,72" size="123,139" advanced="true" layout="vt" lineGap="1" excludeInvisibles="true"/>
+  </displayList>
+</component>

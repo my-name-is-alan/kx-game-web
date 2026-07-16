@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="626,120">
+  <displayList>
+    <image id="n6_hl71" name="n6" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="0,0" size="626,120"/>
+    <list id="n7_hl71" name="list_rankItem" xy="171,17" size="433,100" scale="0.9,0.9" layout="row" overflow="scroll" scroll="horizontal" lineGap="51" colGap="10" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n8_hl71" name="n8" src="uzk85h" fileName="itemrank/frame_ranking_1.png" pkg="27utqbiz" xy="43,22" group="n10_hl71"/>
+    <group id="n10_hl71" name="group_top1" xy="43,22" size="76,76" visible="false" advanced="true"/>
+    <image id="n11_hl71" name="n11" src="uzk85i" fileName="itemrank/frame_ranking_2.png" pkg="27utqbiz" xy="51,28" group="n13_hl71"/>
+    <group id="n13_hl71" name="group_top2" xy="51,28" size="60,62" visible="false" advanced="true"/>
+    <image id="n14_hl71" name="n14" src="uzk85j" fileName="itemrank/frame_ranking_3.png" pkg="27utqbiz" xy="51,30" group="n16_hl71"/>
+    <group id="n16_hl71" name="group_top3" xy="51,30" size="60,62" visible="false" advanced="true"/>
+    <text id="n17_hl71" name="label_top" xy="6,40" size="151,36" visible="false" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" text="100"/>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item key="armedEscortNum" type="1" ext=""/>
+  <item key="companionItem1" type="3" ext="120026"/>
+  <item key="duelVictory" type="2" ext=""/>
+  <item key="mainTask" type="1" ext=""/>
+  <item key="duelTower" type="1" ext=""/>
+  <item key="playerLevel" type="1" ext=""/>
+  <item key="evolutionLevel" type="1" ext=""/>
+  <item key="companionItem4" type="3" ext="120029"/>
+  <item key="companionItem2" type="3" ext="120027"/>
+  <item key="playerPhase" type="1" ext=""/>
+  <item key="monsterKingStage" type="1" ext=""/>
+  <item key="companionItem3" type="3" ext="120028"/>
+</root>

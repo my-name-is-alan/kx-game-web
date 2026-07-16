@@ -1,0 +1,68 @@
+{
+"skeleton": {
+	"hash": "tLzNlyDBtAZlthNx4G6xPIHqIp8",
+	"spine": "3.8.99",
+	"x": -165.2,
+	"y": -169.4,
+	"width": 330.4,
+	"height": 338.8,
+	"images": "D:/工作/西游/武侠/特效/兽友战斗/神雕/攻击/tu/jltd_hit_2jie",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.8, "scaleY": 0.8 }
+],
+"slots": [
+	{ "name": "jltd_hit_2jie_01", "bone": "root", "attachment": "jltd_hit_2jie_09" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"jltd_hit_2jie_01": {
+				"jltd_hit_2jie_01": { "width": 472, "height": 484 },
+				"jltd_hit_2jie_02": { "width": 472, "height": 484 },
+				"jltd_hit_2jie_03": { "width": 472, "height": 484 },
+				"jltd_hit_2jie_04": { "width": 472, "height": 484 },
+				"jltd_hit_2jie_05": { "width": 472, "height": 484 },
+				"jltd_hit_2jie_06": { "width": 472, "height": 484 },
+				"jltd_hit_2jie_07": { "width": 472, "height": 484 },
+				"jltd_hit_2jie_08": { "width": 472, "height": 484 },
+				"jltd_hit_2jie_09": { "width": 472, "height": 484 }
+			}
+		}
+	}
+],
+"events": {
+	"hit": { "string": "hit" }
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"jltd_hit_2jie_01": {
+				"attachment": [
+					{ "name": "jltd_hit_2jie_01" },
+					{ "time": 0.0667, "name": "jltd_hit_2jie_02" },
+					{ "time": 0.1333, "name": "jltd_hit_2jie_03" },
+					{ "time": 0.2, "name": "jltd_hit_2jie_04" },
+					{ "time": 0.2667, "name": "jltd_hit_2jie_05" },
+					{ "time": 0.3333, "name": "jltd_hit_2jie_06" },
+					{ "time": 0.4, "name": "jltd_hit_2jie_07" },
+					{ "time": 0.5, "name": "jltd_hit_2jie_08" },
+					{ "time": 0.6, "name": "jltd_hit_2jie_09" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "y": 17.1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1, "name": "hit" }
+		]
+	}
+}
+}

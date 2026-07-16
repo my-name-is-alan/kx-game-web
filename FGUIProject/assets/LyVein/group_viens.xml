@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="626,473">
+  <displayList>
+    <component id="n55_qow0" name="n55" src="qow06s" fileName="group_sGem.xml" xy="234,301"/>
+    <component id="n60_qow0" name="n60" src="qow06s" fileName="group_sGem.xml" xy="96,218"/>
+    <component id="n61_qow0" name="n61" src="qow06s" fileName="group_sGem.xml" xy="56,122"/>
+    <component id="n62_qow0" name="n62" src="qow06s" fileName="group_sGem.xml" xy="144,74"/>
+    <component id="n63_qow0" name="n63" src="qow06s" fileName="group_sGem.xml" xy="308,94"/>
+    <component id="n64_qow0" name="n64" src="qow06s" fileName="group_sGem.xml" xy="447,182"/>
+    <component id="n65_qow0" name="n65" src="qow06s" fileName="group_sGem.xml" xy="481,274"/>
+    <component id="n66_qow0" name="n66" src="qow06s" fileName="group_sGem.xml" xy="389,324"/>
+    <component id="n67_qow0" name="n67" src="qow06t" fileName="group_bGem.xml" xy="74,307"/>
+    <component id="n73_qow0" name="n73" src="qow06t" fileName="group_bGem.xml" xy="0,0"/>
+    <component id="n74_qow0" name="n74" src="qow06t" fileName="group_bGem.xml" xy="433,48"/>
+    <component id="n75_qow0" name="n75" src="qow06t" fileName="group_bGem.xml" xy="515,347"/>
+  </displayList>
+</component>

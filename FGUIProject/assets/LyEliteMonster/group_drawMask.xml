@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="122,381" mask="n6_l1tk">
+  <displayList>
+    <loader3D id="n5_cgkl" name="loader_icon" xy="60,391" size="1,1" animation="" skin=""/>
+    <image id="n6_l1tk" name="n6" src="l1tk4w" fileName="res/main/word_mengban.png" xy="1,-20"/>
+  </displayList>
+</component>

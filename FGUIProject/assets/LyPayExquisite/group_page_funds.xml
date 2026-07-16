@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <image id="n0_sril" name="n0" src="sril9" fileName="res/bg_linglongge new.png" xy="0,0"/>
+    <image id="n7_qoto" name="n7" src="qoto3c" fileName="funds/frame_jijin banner.png" xy="26,66"/>
+    <image id="n10_qoto" name="n10" src="yb742f" fileName="funds/pic_jiliutajijin_banner.png" xy="128,55">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n11_qoto" name="n11" src="yb742l" fileName="funds/pic_yutangjijin_banner.png" xy="94,54">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n12_qoto" name="n12" src="yb742h" fileName="funds/pic_maoxianjijin_banner.png" xy="108,46">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n13_qoto" name="n13" src="yb742j" fileName="funds/pic_xiuweijijin_banner.png" xy="88,66">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <image id="n14_qoto" name="n14" src="qoto2w" fileName="funds/word_jiliutajijin.png" xy="80,152">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n15_qoto" name="n15" src="qoto35" fileName="funds/word_yutangjijin.png" xy="80,152">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n16_qoto" name="n16" src="qoto2z" fileName="funds/word_maoxianjijin.png" xy="80,152">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n17_qoto" name="n17" src="qoto32" fileName="funds/word_xiuweijijin.png" xy="80,152">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <text id="n4_sril" name="label_tips" xy="216,191" size="39,207" fontSize="28" color="#63300d" align="center" vAlign="middle" leading="0" autoSize="height" autoClearText="true" text="通关冒险关卡"/>
+    <text id="n18_qoto" name="label_desc1" xy="181,215" size="39,132" fontSize="26" color="#63300d" align="center" vAlign="middle" leading="0" autoSize="height" autoClearText="true" text="领取奖励"/>
+    <component id="n19_qoto" name="btn_preview" src="qoto3h" fileName="funds/btn_preview.xml" xy="149,340"/>
+    <component id="n32_t09v" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="588,296" visible="false"/>
+    <component id="n24_qoto" name="btn_pay" src="qoto3i" fileName="funds/btn_payfunds.xml" xy="324,385"/>
+    <image id="n21_qoto" name="n21" src="qoto3a" fileName="funds/frame_jichufuli title1.png" xy="50,472"/>
+    <image id="n31_qz7b" name="n31" src="qz7b41" fileName="funds/frame_chaozhilibao-title1.png" xy="311,472"/>
+    <text id="n22_qoto" name="label_tab1" xy="27,472" size="303,34" font="ui://27utqbizps391v" fontSize="24" color="#c29651" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="基础福利">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n23_qoto" name="label_tab2" xy="347,472" size="331,34" font="ui://27utqbizps391v" fontSize="24" color="#d28b1e" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="超值礼包">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n5_sril" name="group_value_chance" src="srilg" fileName="group_value.xml" xy="580,80"/>
+    <component id="n6_sril" name="group_value_stone" src="srilg" fileName="group_value.xml" xy="580,120"/>
+    <list id="n26_qoto" name="list_item" xy="40,511" size="660,500" overflow="scroll" defaultItem="ui://kl5mxoqpqoto3j">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n20_qoto" name="n20" src="qoto2v" fileName="funds/pic_40times.png" xy="594,431"/>
+    <component id="n27_qoto" name="btn_fundtab1" src="qoto3x" fileName="funds/btn_fundtab1.xml" xy="190,1020">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n28_qoto" name="btn_fundtab2" src="qoto3y" fileName="funds/btn_fundtab2.xml" xy="330,1020">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n30_qoto" name="btn_fundtab3" src="qoto3z" fileName="funds/btn_fundtab3.xml" xy="470,1020">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n29_qoto" name="btn_fundtab4" src="qoto40" fileName="funds/btn_fundtab4.xml" xy="610,1020">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

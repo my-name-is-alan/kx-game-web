@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="338,57" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_qoto" name="n0" src="qoto38" fileName="funds/btn_jijin.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_qoto" name="title" xy="0,0" size="338,57" font="ui://27utqbizps391v" fontSize="30" color="#ffe08d" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="68元解锁">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

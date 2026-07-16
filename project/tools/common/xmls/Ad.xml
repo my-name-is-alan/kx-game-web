@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <ad>
+    <item id="1" count="2" cd="0" param="1"/>
+    <item id="2" count="3" cd="0" param="1"/>
+    <item id="3" count="2" cd="0" param="1"/>
+    <item id="4" count="8" cd="3600" param="30"/>
+  </ad>
+</root>

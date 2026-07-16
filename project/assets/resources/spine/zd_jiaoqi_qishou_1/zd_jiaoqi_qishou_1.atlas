@@ -1,0 +1,118 @@
+
+zd_jiaoqi_qishou_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wx_msjyd_xl/wx_msjyd_xl_00000
+  rotate: false
+  xy: 128, 30
+  size: 101, 101
+  orig: 193, 193
+  offset: 47, 46
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00001
+  rotate: false
+  xy: 346, 54
+  size: 152, 137
+  orig: 193, 193
+  offset: 29, 28
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00002
+  rotate: true
+  xy: 182, 161
+  size: 157, 162
+  orig: 193, 193
+  offset: 23, 22
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00003
+  rotate: false
+  xy: 182, 320
+  size: 157, 168
+  orig: 193, 193
+  offset: 20, 19
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00004
+  rotate: true
+  xy: 343, 492
+  size: 155, 167
+  orig: 193, 193
+  offset: 20, 19
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00005
+  rotate: true
+  xy: 2, 304
+  size: 162, 178
+  orig: 193, 193
+  offset: 13, 6
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00006
+  rotate: false
+  xy: 2, 468
+  size: 162, 179
+  orig: 193, 193
+  offset: 13, 2
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00007
+  rotate: true
+  xy: 166, 490
+  size: 157, 175
+  orig: 193, 193
+  offset: 18, 2
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00008
+  rotate: false
+  xy: 2, 133
+  size: 155, 169
+  orig: 193, 193
+  offset: 20, 5
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00009
+  rotate: true
+  xy: 343, 344
+  size: 146, 160
+  orig: 193, 193
+  offset: 27, 6
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00010
+  rotate: false
+  xy: 346, 193
+  size: 138, 149
+  orig: 193, 193
+  offset: 33, 9
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00011
+  rotate: false
+  xy: 2, 2
+  size: 124, 129
+  orig: 193, 193
+  offset: 44, 21
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00012
+  rotate: true
+  xy: 231, 43
+  size: 116, 91
+  orig: 193, 193
+  offset: 52, 51
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00013
+  rotate: false
+  xy: 486, 266
+  size: 106, 76
+  orig: 193, 193
+  offset: 59, 58
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00014
+  rotate: false
+  xy: 512, 587
+  size: 84, 60
+  orig: 193, 193
+  offset: 67, 67
+  index: -1
+wx_msjyd_xl/wx_msjyd_xl_00015
+  rotate: true
+  xy: 512, 541
+  size: 44, 45
+  orig: 193, 193
+  offset: 75, 74
+  index: -1

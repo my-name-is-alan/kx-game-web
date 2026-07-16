@@ -1,0 +1,237 @@
+
+cj_fabaochouqu.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guanghuan_
+  rotate: false
+  xy: 1020, 1265
+  size: 723, 761
+  orig: 759, 770
+  offset: 0, 0
+  index: -1
+images/niaog_10
+  rotate: true
+  xy: 2, 196
+  size: 181, 199
+  orig: 256, 256
+  offset: 38, 35
+  index: -1
+images/niaog_12
+  rotate: true
+  xy: 203, 199
+  size: 178, 197
+  orig: 256, 256
+  offset: 41, 38
+  index: -1
+images/niaog_14
+  rotate: true
+  xy: 580, 202
+  size: 175, 193
+  orig: 256, 256
+  offset: 44, 43
+  index: -1
+images/niaog_16
+  rotate: true
+  xy: 1116, 27
+  size: 173, 188
+  orig: 256, 256
+  offset: 46, 49
+  index: -1
+images/niaog_18
+  rotate: true
+  xy: 580, 26
+  size: 174, 180
+  orig: 256, 256
+  offset: 45, 57
+  index: -1
+images/niaog_2
+  rotate: false
+  xy: 1020, 438
+  size: 160, 135
+  orig: 256, 256
+  offset: 62, 94
+  index: -1
+images/niaog_20
+  rotate: false
+  xy: 402, 201
+  size: 176, 176
+  orig: 256, 256
+  offset: 43, 61
+  index: -1
+images/niaog_22
+  rotate: false
+  xy: 775, 202
+  size: 176, 175
+  orig: 256, 256
+  offset: 42, 62
+  index: -1
+images/niaog_24
+  rotate: false
+  xy: 953, 202
+  size: 176, 175
+  orig: 256, 256
+  offset: 42, 62
+  index: -1
+images/niaog_26
+  rotate: true
+  xy: 1020, 1090
+  size: 173, 175
+  orig: 256, 256
+  offset: 42, 62
+  index: -1
+images/niaog_28
+  rotate: true
+  xy: 762, 26
+  size: 174, 175
+  orig: 256, 256
+  offset: 43, 61
+  index: -1
+images/niaog_30
+  rotate: false
+  xy: 939, 26
+  size: 175, 174
+  orig: 256, 256
+  offset: 43, 61
+  index: -1
+images/niaog_32
+  rotate: true
+  xy: 203, 20
+  size: 177, 174
+  orig: 256, 256
+  offset: 43, 61
+  index: -1
+images/niaog_34
+  rotate: false
+  xy: 1131, 915
+  size: 174, 173
+  orig: 256, 256
+  offset: 47, 63
+  index: -1
+images/niaog_36
+  rotate: false
+  xy: 1373, 930
+  size: 170, 165
+  orig: 256, 256
+  offset: 52, 71
+  index: -1
+images/niaog_38
+  rotate: false
+  xy: 1478, 770
+  size: 163, 158
+  orig: 256, 256
+  offset: 58, 79
+  index: -1
+images/niaog_4
+  rotate: true
+  xy: 1131, 270
+  size: 166, 127
+  orig: 256, 256
+  offset: 55, 101
+  index: -1
+images/niaog_40
+  rotate: false
+  xy: 2, 2
+  size: 158, 192
+  orig: 256, 256
+  offset: 61, 45
+  index: -1
+images/niaog_42
+  rotate: true
+  xy: 1305, 582
+  size: 162, 186
+  orig: 256, 256
+  offset: 54, 51
+  index: -1
+images/niaog_44
+  rotate: false
+  xy: 402, 19
+  size: 174, 180
+  orig: 256, 256
+  offset: 39, 57
+  index: -1
+images/niaog_46
+  rotate: true
+  xy: 1197, 1091
+  size: 172, 174
+  orig: 256, 256
+  offset: 41, 63
+  index: -1
+images/niaog_48
+  rotate: false
+  xy: 1131, 744
+  size: 172, 169
+  orig: 256, 256
+  offset: 43, 68
+  index: -1
+images/niaog_50
+  rotate: false
+  xy: 1305, 746
+  size: 171, 167
+  orig: 256, 256
+  offset: 45, 70
+  index: -1
+images/niaog_52
+  rotate: false
+  xy: 1373, 1097
+  size: 170, 166
+  orig: 256, 256
+  offset: 48, 71
+  index: -1
+images/niaog_54
+  rotate: true
+  xy: 1020, 575
+  size: 167, 161
+  orig: 256, 256
+  offset: 52, 76
+  index: -1
+images/niaog_56
+  rotate: false
+  xy: 1545, 1106
+  size: 166, 157
+  orig: 256, 256
+  offset: 55, 79
+  index: -1
+images/niaog_58
+  rotate: false
+  xy: 1545, 953
+  size: 164, 151
+  orig: 256, 256
+  offset: 58, 85
+  index: -1
+images/niaog_6
+  rotate: true
+  xy: 1260, 252
+  size: 180, 121
+  orig: 256, 256
+  offset: 39, 109
+  index: -1
+images/niaog_60
+  rotate: false
+  xy: 1306, 434
+  size: 162, 146
+  orig: 256, 256
+  offset: 61, 88
+  index: -1
+images/niaog_8
+  rotate: true
+  xy: 1470, 399
+  size: 181, 123
+  orig: 256, 256
+  offset: 37, 109
+  index: -1
+niao
+  rotate: true
+  xy: 1020, 1018
+  size: 70, 46
+  orig: 70, 46
+  offset: 0, 0
+  index: -1
+shazi3
+  rotate: false
+  xy: 2, 379
+  size: 1016, 1647
+  orig: 1016, 1647
+  offset: 0, 0
+  index: -1

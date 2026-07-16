@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,616">
+  <displayList>
+    <loader id="n62_ljrs" name="img_bg" xy="0,0" size="668,616" url="ui://shg18aricda5c" align="center" clearOnPublish="true"/>
+    <loader id="n77_d2gn" name="loader_line1" xy="309,62" size="50,50" url="ui://shg18arid2gn3q" align="center" vAlign="middle"/>
+    <loader id="n78_d2gn" name="loader_line2" xy="309,308" size="50,50" url="ui://shg18arid2gn3q" align="center" vAlign="middle"/>
+    <loader id="n79_d2gn" name="loader_line3" xy="309,447" size="50,50" url="ui://shg18arid2gn3q" align="center" vAlign="middle"/>
+    <text id="n64_ljrs" name="label_top1" xy="223,11" size="222,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#d4841b" autoClearText="true" text="第一名"/>
+    <text id="n65_ljrs" name="label_top2" xy="223,11" size="222,42" visible="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#9b5fff" autoClearText="true" text="第二名"/>
+    <text id="n66_ljrs" name="label_top3" xy="223,11" size="222,42" visible="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#65bdff" autoClearText="true" text="第二名"/>
+    <text id="n67_ljrs" name="label_tops" xy="223,11" size="222,42" visible="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#67765c" strokeSize="2" autoClearText="true" text="第二名"/>
+    <list id="n63_ljrs" name="list_award1" xy="42,105" size="583,210" layout="flow_hz" overflow="scroll" lineGap="10" colGap="20" defaultItem="ui://27utqbizewyha" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n72_i2pz" name="list_award2" xy="42,350" size="583,100" layout="flow_hz" overflow="scroll" scroll="horizontal" lineGap="10" colGap="20" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n73_i2pz" name="list_award3" xy="42,490" size="583,100" layout="flow_hz" overflow="scroll" scroll="horizontal" lineGap="10" colGap="20" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n74_i2pz" name="label_tip1" xy="308,70" size="52,34" font="ui://27utqbizps391v" fontSize="24" color="#71abd2" align="center" vAlign="middle" autoClearText="true" text="帮主">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n75_i2pz" name="label_tip2" xy="308,315" size="52,34" font="ui://27utqbizps391v" fontSize="24" color="#71abd2" align="center" vAlign="middle" autoClearText="true" text="帮主">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n76_i2pz" name="label_tip3" xy="308,455" size="52,34" font="ui://27utqbizps391v" fontSize="24" color="#71abd2" align="center" vAlign="middle" autoClearText="true" text="帮主">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n80_oszq" name="label_flag" xy="555,5" size="80,81" touchable="false" url="ui://27utqbizd373uw" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+  </displayList>
+</component>

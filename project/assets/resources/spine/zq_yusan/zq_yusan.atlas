@@ -1,0 +1,27 @@
+
+zq_yusan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hongdaizi
+  rotate: false
+  xy: 282, 294
+  size: 62, 50
+  orig: 62, 50
+  offset: 0, 0
+  index: -1
+yusan
+  rotate: false
+  xy: 2, 273
+  size: 278, 71
+  orig: 278, 71
+  offset: 0, 0
+  index: -1
+yusan_2
+  rotate: false
+  xy: 2, 250
+  size: 129, 21
+  orig: 129, 21
+  offset: 0, 0
+  index: -1

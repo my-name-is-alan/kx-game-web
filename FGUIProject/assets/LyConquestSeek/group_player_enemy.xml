@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="252,252" pivot="0.5,0.5">
+  <displayList>
+    <image id="n29_s44m" name="n29" src="s44m3b" fileName="res/frame_bosstouxiangkuang.png" xy="27,43"/>
+    <loader id="n32_q26v" name="img_icon" xy="63,63" size="126,126" url="ui://shg18aricda51m" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <loader id="n33_q26v" name="img_iconFrame" xy="24,24" size="200,200" url="ui://27utqbizyn25du189" align="center" vAlign="middle" clearOnPublish="true"/>
+    <image id="n16_cda5" name="n16" src="cda5t" fileName="res/frame_sheng.png" xy="64,143" group="n18_cda5"/>
+    <text id="n17_cda5" name="n17" xy="105,148" size="50,32" group="n18_cda5" fontSize="22" color="#fec854" align="center" autoSize="none" strokeColor="#000000" strokeSize="2" text="2"/>
+    <group id="n18_cda5" name="n18" xy="64,143" size="114,42" visible="false" advanced="true"/>
+    <image id="n20_cda5" name="n20" src="cda5p" fileName="res/frame_namedi.png" xy="29,230" size="192,62">
+      <relation target="n26_cda5" sidePair="height-height"/>
+    </image>
+    <text id="n22_cda5" name="label_name" xy="32,230" size="187,32" group="n26_cda5" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="啊啊啊"/>
+    <text id="n34_wzpv" name="label_money" xy="74,256" size="122,32" group="n36_wzpv" fontSize="22" color="#ead894" align="center" vAlign="middle" strokeColor="#000000" text="十大阿1111">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n35_wzpv" name="n35" src="cda5r" fileName="res/frame_shangjin.png" xy="45,258" group="n36_wzpv">
+      <relation target="n34_wzpv" sidePair="left-left"/>
+    </image>
+    <group id="n36_wzpv" name="group_money" xy="45,256" size="151,32" group="n26_cda5" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <group id="n26_cda5" name="n26" xy="32,230" size="187,58" advanced="true" layout="vt" lineGap="-6" excludeInvisibles="true"/>
+    <component id="n27_cda5" name="bar_hp" src="cda528" fileName="bar_hp3.xml" xy="53,199">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n8_cda5" name="n8" src="cda5o" fileName="res/frame_miaozhun.png" xy="109,186" pivot="0.5,0.5" group="n12_cda5"/>
+    <image id="n9_cda5" name="n9" src="cda5o" fileName="res/frame_miaozhun.png" xy="109,18" pivot="0.5,0.5" group="n12_cda5" rotation="180"/>
+    <image id="n10_cda5" name="n10" src="cda5o" fileName="res/frame_miaozhun.png" xy="25,102" pivot="0.5,0.5" group="n12_cda5" rotation="90"/>
+    <image id="n11_cda5" name="n11" src="cda5o" fileName="res/frame_miaozhun.png" xy="194,102" pivot="0.5,0.5" group="n12_cda5" rotation="-90"/>
+    <group id="n12_cda5" name="n12" xy="25,18" size="207,202" visible="false" advanced="true"/>
+  </displayList>
+  <transition name="ani_die">
+    <item time="0" type="Alpha" target="n29_s44m" value="1"/>
+    <item time="0" type="Alpha" target="n29_s44m" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Alpha" target="n32_q26v" value="1"/>
+    <item time="0" type="Alpha" target="n32_q26v" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Alpha" target="n33_q26v" value="1"/>
+    <item time="0" type="Alpha" target="n33_q26v" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="562,39">
+  <displayList>
+    <text id="n0_hbzk" name="label_name" xy="0,0" size="112,39" fontSize="28" color="#c85915" vAlign="middle" text="1.刷名字"/>
+    <text id="n2_hbzk" name="label_str106" xy="303,1" size="56,36" fontSize="26" color="#c85915" vAlign="middle" text="议价"/>
+    <text id="n3_hbzk" name="label_bargainPrice" xy="389,1" size="64,36" fontSize="26" color="#c85915" vAlign="middle" text="1000"/>
+    <loader id="n5_r2p3" name="n5" xy="359,4" size="30,30" url="ui://27utqbizi5tz7t" align="center" vAlign="middle" fill="scale"/>
+    <image id="n6_e8yx" name="n6" src="e8yx9t" fileName="res3/btn_light red.png" xy="467,2" size="119,46" group="n7_e8yx" scale="0.8,0.757"/>
+    <text id="n4_o1e8" name="label_str66" xy="481,3" size="70,32" group="n7_e8yx" font="ui://27utqbizps391v" fontSize="22" color="#fff0db" vAlign="middle" text="已购买"/>
+    <group id="n7_e8yx" name="group_status" xy="467,2" size="119,46" advanced="true"/>
+  </displayList>
+</component>

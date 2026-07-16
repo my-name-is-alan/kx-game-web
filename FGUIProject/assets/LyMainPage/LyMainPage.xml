@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetY="-330" designImageAlpha="100">
+  <displayList>
+    <image id="n340_psu4" name="n340" src="yqrs7b" fileName="res/main2/zjiemian_bg_10x10.png" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n3_rdh3" name="n3" src="rdh3s" fileName="group_main.xml" xy="0,0">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <loader3D id="n280_v5dk" name="loader_spine_bg" xy="374,404" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <component id="n321_e8n4" name="group_spine_heye" src="e8n478" fileName="group_spine_heye.xml" xy="235,568" group="n289_hbzk" scale="0.9,0.9"/>
+    <component id="n319_phnl" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="235,572" pivot="0.5,1" anchor="true" group="n289_hbzk" scale="0.8,0.8"/>
+    <loader3D id="n285_pttz" name="loader_spine_levelUp" xy="235,568" size="1,1" group="n289_hbzk" animation="" skin="" loop="true"/>
+    <loader3D id="n284_pttz" name="loader_spine_river" xy="414,474" size="1,1" group="n289_hbzk" visible="false" animation="" skin="" loop="true"/>
+    <loader3D id="n309_hcz7" name="loader_spine_rushui" xy="412,495" size="1,1" group="n289_hbzk" animation="" skin="" loop="true"/>
+    <group id="n289_hbzk" name="n289" xy="234,474" size="181,98" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <graph id="n306_hcz7" name="graph_dailywelfare" xy="277,513" size="322,88" group="n308_hcz7" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <loader3D id="n299_hcz7" name="loader_spine_dailywelfare" xy="521,557" size="10,10" group="n308_hcz7" animation="" skin="" loop="true"/>
+    <group id="n308_hcz7" name="n308" xy="277,513" size="322,88" advanced="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </group>
+    <component id="n310_f23h" name="img_equip0" src="f23h6p" fileName="group_equip.xml" xy="517,390" group="n298_hcz7"/>
+    <component id="n311_f23h" name="img_equip1" src="f23h6p" fileName="group_equip.xml" xy="485,416" group="n298_hcz7"/>
+    <component id="n312_f23h" name="img_equip2" src="f23h6p" fileName="group_equip.xml" xy="519,450" group="n298_hcz7"/>
+    <component id="n313_f23h" name="img_equip3" src="f23h6p" fileName="group_equip.xml" xy="520,427" group="n298_hcz7"/>
+    <component id="n314_f23h" name="img_equip4" src="f23h6p" fileName="group_equip.xml" xy="580,437" group="n298_hcz7"/>
+    <component id="n315_f23h" name="img_equip5" src="f23h6p" fileName="group_equip.xml" xy="571,403" group="n298_hcz7"/>
+    <component id="n322_pktd" name="img_equip6" src="f23h6p" fileName="group_equip.xml" xy="471,452" group="n298_hcz7"/>
+    <component id="n332_10pyd" name="img_equip7" src="f23h6p" fileName="group_equip.xml" xy="559,452" group="n298_hcz7"/>
+    <component id="n333_10pyd" name="img_equip8" src="f23h6p" fileName="group_equip.xml" xy="559,452" group="n298_hcz7"/>
+    <component id="n334_10pyd" name="img_equip9" src="f23h6p" fileName="group_equip.xml" xy="559,452" group="n298_hcz7"/>
+    <component id="n335_10pyd" name="img_equip10" src="f23h6p" fileName="group_equip.xml" xy="559,452" group="n298_hcz7"/>
+    <component id="n336_10pyd" name="img_equip11" src="f23h6p" fileName="group_equip.xml" xy="559,447" group="n298_hcz7"/>
+    <component id="n337_10pyd" name="img_equip12" src="f23h6p" fileName="group_equip.xml" xy="559,448" group="n298_hcz7"/>
+    <component id="n338_10pyd" name="img_equip13" src="f23h6p" fileName="group_equip.xml" xy="559,452" group="n298_hcz7"/>
+    <group id="n298_hcz7" name="n298" xy="471,390" size="209,162" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <list id="n69_jzhd" name="list_activity" xy="25,144" size="700,414" layout="flow_hz" overflow="hidden" colGap="20" defaultItem="ui://2uzp0flsjzhd11" scrollItemToViewOnClick="false">
+      <relation target="" sidePair="center-center,top-top"/>
+    </list>
+    <text id="n7_jzhd" name="label_name" xy="138,54" size="108,37" group="n22_jzhd" fontSize="26" text="小小屁妖"/>
+    <image id="n343_hdbv" name="n343" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="146,107" group="n22_jzhd"/>
+    <image id="n347_hdbv" name="n347" src="f4zx6o" fileName="iconvalues/item_value6.png" pkg="27utqbiz" xy="120,94" size="50,50" group="n22_jzhd"/>
+    <text id="n345_hdbv" name="label_chance" xy="167,106" size="126,34" group="n22_jzhd" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" text="1231311"/>
+    <component id="n346_hdbv" name="btn_addchance" src="jzhdz" fileName="btn_add3.xml" pkg="27utqbiz" xy="263,96" group="n22_jzhd"/>
+    <image id="n261_upv7" name="n261" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="336,107" group="n22_jzhd"/>
+    <image id="n278_he2e" name="n278" src="h6d7j" fileName="iconvalues/item_value4.png" pkg="27utqbiz" xy="310,94" size="50,50" group="n22_jzhd"/>
+    <text id="n85_jzhd" name="label_stone" xy="357,106" size="126,34" group="n22_jzhd" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" text="1231311"/>
+    <component id="n86_jzhd" name="btn_addstone" src="jzhdz" fileName="btn_add3.xml" pkg="27utqbiz" xy="453,96" group="n22_jzhd"/>
+    <image id="n262_upv7" name="n262" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="528,107" group="n22_jzhd"/>
+    <image id="n279_he2e" name="n279" src="bzm03t" fileName="iconvalues/item_value2.png" pkg="27utqbiz" xy="500,94" size="50,50" group="n22_jzhd"/>
+    <text id="n88_jzhd" name="label_money" xy="544,103" size="122,38" group="n22_jzhd" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" text="12313"/>
+    <image id="n264_vkas" name="n264" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="330,27" group="n22_jzhd"/>
+    <text id="n91_ghbs" name="label_combatPower" xy="383,42" size="156,42" group="n22_jzhd" font="ui://27utqbizvkas4q" fontSize="24" color="#cc6600" vAlign="middle" leading="0" letterSpacing="-8" text="531231"/>
+    <component id="n341_ddz8" name="group_headtop" src="ddz87v" fileName="group_headtop.xml" xy="27,32" group="n22_jzhd"/>
+    <group id="n22_jzhd" name="n22" xy="27,27" size="639,121" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <image id="n281_v5dk" name="n281" src="j3rv3v" fileName="res/main2/frame_main.png" xy="-6,612">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <component id="n23_jzhd" name="group_notice_b" src="m3mp32" fileName="group_notice_b.xml" xy="3,139" visible="false" touchable="false">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <loader3D id="n300_hcz7" name="loader_spine_mail" xy="670,660" size="10,10" group="n303_hcz7" animation="" skin="" loop="true"/>
+    <graph id="n302_hcz7" name="btn_mail" xy="587,598" size="100,73" group="n303_hcz7" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <group id="n303_hcz7" name="n303" xy="587,598" size="100,73" advanced="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </group>
+    <component id="n342_h283" name="btn_finger" src="h28383" fileName="btn_finger.xml" xy="574,412">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <text id="n34_jzhd" name="label_level" xy="56,642" size="287,41" group="n37_jzhd" font="ui://27utqbizps391v" fontSize="30" color="#4d6d6a" vAlign="middle" text="等级1  出入江湖-小鱼"/>
+    <component id="n208_cwvx" name="btn_stage" src="cwvx25" fileName="btn_upStage.xml" xy="589,674" size="108,43" group="n37_jzhd"/>
+    <component id="n327_erkz" name="bar_exp" src="erkz163" fileName="bar_level4.xml" pkg="27utqbiz" xy="49,680" size="547,38" group="n37_jzhd">
+      <ProgressBar value="62" max="100"/>
+    </component>
+    <loader3D id="n287_pttz" name="loader_spine_exp" xy="321,699" size="1,1" group="n37_jzhd" animation="" skin="" loop="true"/>
+    <group id="n37_jzhd" name="n37" xy="49,642" size="648,76" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <list id="n223_cwvx" name="list_equip1" xy="56,806" size="476,345" group="n83_jzhd" scale="0.9,0.9" layout="flow_hz" overflow="hidden" lineGap="6" colGap="16" defaultItem="ui://2uzp0flst0if4t">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n272_t0if" name="list_equip" xy="56,806" size="476,345" group="n83_jzhd" scale="0.9,0.9" layout="flow_hz" overflow="hidden" lineGap="6" colGap="16" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n83_jzhd" name="n83" xy="56,806" size="476,345" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n236_ub2k" name="btn_gem" src="ub2k3f" fileName="btn_common.xml" xy="598,727" group="n57_jzhd"/>
+    <component id="n238_ub2k" name="btn_treasure" src="ub2k3f" fileName="btn_common.xml" xy="598,917" group="n57_jzhd"/>
+    <component id="n241_ub2k" name="btn_theurgy" src="ub2k3f" fileName="btn_common.xml" xy="598,823" group="n57_jzhd"/>
+    <component id="n242_ub2k" name="loader_elite" src="ub2k3f" fileName="btn_common.xml" xy="493,727" group="n57_jzhd"/>
+    <component id="n249_upv7" name="btn_pet" src="j3rv46" fileName="btn_common1.xml" xy="493,822" group="n57_jzhd"/>
+    <component id="n250_upv7" name="btn_mount" src="j3rv47" fileName="btn_common2.xml" xy="494,1013" group="n57_jzhd"/>
+    <image id="n316_ihm0" name="n316" src="ihm06y" fileName="res/main/frame_duihuakuang.png" xy="628,685" group="n318_ihm0"/>
+    <text id="n317_ihm0" name="n317" xy="635,684" size="105,65" group="n318_ihm0" fontSize="22" color="#fcfcfc" align="center" vAlign="middle" autoSize="none" text="修行委托已完成"/>
+    <group id="n318_ihm0" name="group_gemTip" xy="628,684" size="118,71" group="n57_jzhd" visible="false" advanced="true"/>
+    <group id="n57_jzhd" name="n57" xy="493,684" size="253,407" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n40_jzhd" name="btn_arrows" src="jzhd15" fileName="btn_arrows.xml" xy="53,721" size="416,87" group="n58_jzhd"/>
+    <list id="n116_cwvx" name="list_basicAttr" xy="75,732" size="376,70" group="n58_jzhd" touchable="false" layout="flow_hz" overflow="hidden" colGap="36" defaultItem="ui://2uzp0flscwvx1c" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n97_ghbs" name="n97" src="rdh3h" fileName="res/main/10.png" xy="48,792" size="664,228" group="n114_cwvx" alpha="0.7" color="#666666"/>
+    <list id="n113_cwvx" name="list_moreAttr" xy="43,803" size="677,196" group="n114_cwvx" layout="flow_hz" overflow="scroll" lineGap="15" colGap="5" defaultItem="ui://2uzp0flscwvx1c">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n115_cwvx" name="btn_detailAttr" xy="576,976" size="132,44" group="n114_cwvx" fontSize="32" color="#006600" underline="true" italic="true" autoClearText="true" text="查看更多"/>
+    <group id="n114_cwvx" name="group_moreAttr" xy="43,792" size="677,228" group="n58_jzhd" visible="false" advanced="true"/>
+    <group id="n58_jzhd" name="n58" xy="43,721" size="677,299" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <image id="n286_pttz" name="n286" src="j3rv42" fileName="res/main2/dec_wave.png" xy="0,1223" group="n56_jzhd"/>
+    <component id="n45_jzhd" name="btn_operate" src="jzhd17" fileName="btn_operate.xml" xy="305,1165" group="n56_jzhd"/>
+    <component id="n42_jzhd" name="btn_home" src="jzhd16" fileName="btn_main.xml" xy="174,1222" group="n56_jzhd">
+      <Button icon="ui://2uzp0flsnia25d"/>
+    </component>
+    <component id="n43_jzhd" name="btn_clan" src="jzhd16" fileName="btn_main.xml" xy="41,1222" group="n56_jzhd">
+      <Button icon="ui://2uzp0flsnia25c"/>
+    </component>
+    <component id="n46_jzhd" name="btn_challenge" src="jzhd16" fileName="btn_main.xml" xy="473,1222" group="n56_jzhd">
+      <Button icon="ui://2uzp0flsnia25b"/>
+    </component>
+    <component id="n47_jzhd" name="btn_adventure" src="jzhd16" fileName="btn_main.xml" xy="608,1222" group="n56_jzhd">
+      <Button icon="ui://2uzp0flsnia25a"/>
+    </component>
+    <component id="n225_k7n5" name="btn_automation" src="k7n52j" fileName="btn_automatic.xml" xy="443,1139" group="n56_jzhd" scale="0.9,0.9"/>
+    <loader3D id="n288_pttz" name="loader_spine_automatic" xy="483,1167" size="1,1" group="n56_jzhd" animation="" skin="" loop="true"/>
+    <component id="n5_tkbw" name="group_task" src="tkbwt" fileName="group_task.xml" xy="21,1141" group="n56_jzhd"/>
+    <component id="n325_7yma" name="group_chat" src="7yma7c" fileName="Group_Chat.xml" xy="18,1093" group="n56_jzhd"/>
+    <component id="n224_cwvx" name="btn_evolution" src="cwvx2i" fileName="btn_evolution.xml" xy="564,1148" group="n56_jzhd"/>
+    <loader3D id="n324_yqrs" name="loader_spine_upLevel" xy="374,1247" size="1,1" group="n56_jzhd" animation="" skin="" loop="true"/>
+    <group id="n56_jzhd" name="n56" xy="0,1093" size="768,278" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n267_huv2" name="btn_testbattle" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="100,503" scale="0.6,0.6">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button title="战斗测试"/>
+    </component>
+    <component id="n266_huv2" name="btn_gm" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="100,543" scale="0.6,0.6">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button title="GM命令"/>
+    </component>
+    <component id="n265_huv2" name="btn_restart" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="100,584" scale="0.6,0.6">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button title="重启"/>
+    </component>
+  </displayList>
+  <transition name="ani_forge">
+    <item time="0" type="Scale" target="n45_jzhd" tween="true" startValue="1,1" endValue="0.9,0.9" duration="12"/>
+    <item time="12" type="Scale" target="n45_jzhd" tween="true" startValue="0.9,0.9" endValue="1,1" duration="12"/>
+    <item time="24" type="Scale" target="n45_jzhd" tween="true" startValue="1,1" endValue="0.9,0.9" duration="12"/>
+    <item time="36" type="Scale" target="n45_jzhd" tween="true" startValue="0.9,0.9" endValue="1,1" duration="12"/>
+    <item time="48" type="Scale" target="n45_jzhd" tween="true" startValue="1,1" endValue="0.9,0.9" duration="12"/>
+    <item time="60" type="Scale" target="n45_jzhd" tween="true" startValue="0.9,0.9" endValue="1,1" duration="12"/>
+  </transition>
+</component>

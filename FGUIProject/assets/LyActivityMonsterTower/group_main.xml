@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1040" overflow="hidden">
+  <displayList>
+    <image id="n30_v8pe" name="n30" src="v8peq" fileName="res/frame_buff under public4.png" xy="123,715" group="n46_tkum"/>
+    <component id="n22_qhxy" name="group_attr8" src="qhxyd" fileName="group_attr8.xml" xy="154,791" group="n46_tkum"/>
+    <image id="n33_k1vl" name="n33" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="200,751" size="432,38" group="n46_tkum"/>
+    <text id="n32_k1vl" name="label_add" xy="215,750" size="400,39" group="n46_tkum" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text=""/>
+    <component id="n41_riam" name="btn_auto" src="riam10" fileName="btn_autoattr.xml" xy="570,900" group="n46_tkum"/>
+    <group id="n46_tkum" name="group_outvisible" xy="123,715" size="596,320" advanced="true"/>
+    <image id="n45_tkum" name="n45" src="tkumrq" fileName="ui/frame_public4-2.png" pkg="27utqbiz" xy="-5,5" group="n47_tkum"/>
+    <loader id="n24_v8pe" name="loader_poster" xy="123,38" size="594,688" group="n47_tkum" url="ui://f7l7y9v7pl2sa" clearOnPublish="true"/>
+    <loader3D id="n11_palh" name="loader_spine_pet" xy="260,538" pivot="0.5,1" anchor="true" size="2,2" group="n47_tkum" scale="0.8,0.8" animation="" skin="" loop="true"/>
+    <loader3D id="n10_palh" name="loader_spine_role" xy="430,558" pivot="0.5,1" anchor="true" size="2,2" group="n47_tkum" animation="" skin="" loop="true"/>
+    <image id="n20_m8sp" name="n20" src="o66pb" fileName="ui/frame_subsidiary avatar low.png" pkg="27utqbiz" xy="643,244" group="n54_qyy6"/>
+    <list id="n21_m8sp" name="list_elite" xy="679,400" pivot="0.5,0.5" anchor="true" size="100,360" group="n54_qyy6" scale="0.54,0.54" lineGap="30" defaultItem="ui://27utqbizo66p4w"/>
+    <group id="n54_qyy6" name="group_elite" xy="629,220" size="100,360" group="n47_tkum" advanced="true"/>
+    <component id="n52_n4fq" name="btn_reward" src="n4fq19" fileName="btn_chapter.xml" xy="640,50" group="n47_tkum"/>
+    <component id="n53_n4fq" name="btn_rank" src="n4fq1b" fileName="btn_chapter2.xml" xy="640,150" group="n47_tkum"/>
+    <richtext id="n50_n6ue" name="label_info" xy="375,517" size="52,34" group="n47_tkum" fontSize="24" color="#ffffff" vAlign="middle" ubb="true" underline="true" strokeColor="#16191a" strokeSize="2" singleLine="true" autoClearText="true" text="怪物"/>
+    <graph id="n51_n6ue" name="graph_info" xy="368,501" size="100,63" group="n47_tkum" type="rect" lineColor="#03000000" fillColor="#03ffffff"/>
+    <component id="n16_m8sp" name="btn_info" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="313,495" group="n47_tkum"/>
+    <text id="n14_u2xm" name="label_reward1" xy="147,579" size="10,36" group="n47_tkum" fontSize="26" color="#16191a" vAlign="middle" ubb="true" text=""/>
+    <list id="n18_m8sp" name="list_item1" xy="146,620" size="150,100" group="n47_tkum" scale="0.8,0.8" layout="row" overflow="hidden" colGap="3" defaultItem="ui://27utqbizewyha" vAlign="middle"/>
+    <text id="n17_m8sp" name="label_reward2" xy="280,579" size="10,36" group="n47_tkum" fontSize="26" color="#16191a" vAlign="middle" ubb="true" text=""/>
+    <list id="n9_palh" name="list_item2" xy="280,620" size="250,100" group="n47_tkum" scale="0.8,0.8" layout="row" overflow="hidden" scroll="horizontal" colGap="20" defaultItem="ui://27utqbizewyha" vAlign="middle"/>
+    <richtext id="n19_m8sp" name="label_time" xy="436,590" size="320,36" group="n47_tkum" fontSize="26" color="#16191a" align="center" vAlign="middle" ubb="true" autoSize="none" text=""/>
+    <component id="n7_palh" name="btn_battle" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="489,630" group="n47_tkum"/>
+    <group id="n47_tkum" name="group_outright" xy="-5,5" size="773,762" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <image id="n42_tkum" name="n42" src="tkumrp" fileName="ui/frame_public4-1.png" pkg="27utqbiz" xy="-5,5" group="n44_tkum"/>
+    <image id="n43_tkum" name="n43" src="tkumrr" fileName="ui/frame_public4-3.png" pkg="27utqbiz" xy="36,386" group="n44_tkum"/>
+    <component id="n4_palh" name="btn_detail" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="20,14" group="n44_tkum"/>
+    <text id="n26_v8pe" name="label_title" xy="24,93" size="70,303" group="n44_tkum" font="ui://27utqbizps391v" fontSize="50" color="#53634a" align="center" vAlign="middle" autoSize="shrink" text="">
+      <relation target="" sidePair="top-top"/>
+    </text>
+    <text id="n27_v8pe" name="label_stage" xy="40,426" size="42,250" group="n44_tkum" fontSize="32" color="#cee29e" align="center" vAlign="middle" autoSize="shrink" text="">
+      <relation target="" sidePair="top-top"/>
+    </text>
+    <group id="n44_tkum" name="group_outleft" xy="-5,5" size="134,762" advanced="true">
+      <relation target="" sidePair="left-left"/>
+    </group>
+  </displayList>
+</component>

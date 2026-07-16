@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,140">
+  <displayList>
+    <graph id="n2_bd1g" name="n2" xy="0,0" size="600,140" type="rect" lineColor="#fff4eee5" fillColor="#fff4eee5" corner="10"/>
+    <loader id="n3_bd1g" name="loader_rank" xy="80,70" pivot="0.5,0.5" anchor="true" size="100,100" align="center" vAlign="middle" autoSize="true"/>
+    <text id="n4_bd1g" name="label_rank" xy="0,49" size="160,42" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text=""/>
+    <list id="n1_ib4p" name="list_item" xy="160,20" size="430,100" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha"/>
+  </displayList>
+</component>

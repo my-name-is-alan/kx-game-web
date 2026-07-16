@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="759,1172">
+  <displayList>
+    <image id="n2_eohi" name="n2" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="704,1172">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n48_qow0" name="n48" src="qow064" fileName="res/bg_lingmai.png" xy="19,139"/>
+    <image id="n89_qow0" name="n89" src="qow069" fileName="res/frame_shuxingdi.png" xy="30,765"/>
+    <loader3D id="n93_krh5" name="loader3D_weirao" xy="352,450" size="1,1" animation="" skin="" loop="true"/>
+    <image id="n81_qow0" name="n81" src="qow066" fileName="res/icon_shitou.png" xy="284,326"/>
+    <loader3D id="n95_krh5" name="loader3D_zhuzi" xy="348,397" size="1,1" animation="" skin="" loop="true"/>
+    <component id="n55_qow0" name="group_viens" src="qow06u" fileName="group_viens.xml" xy="50,168"/>
+    <image id="n97_pl5w" name="n97" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="39,791" size="623,36"/>
+    <list id="n24_eohi" name="list_mainArr" xy="66,795" size="603,29" layout="row" overflow="hidden" colGap="-16" defaultItem="ui://2qr0czbagqn03f" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n25_eohi" name="list_errArr" xy="63,845" size="615,94" layout="flow_hz" overflow="hidden" lineGap="-4" colGap="-17" defaultItem="ui://2qr0czbapl5w7b" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n31_eohi" name="group_needItem" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="291,1005">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <richtext id="n40_j2yt" name="label_zuhe0" xy="33,689" size="170,32" group="n44_j2yt" font="ui://27utqbizps391v" fontSize="22" color="#e6ece5" vAlign="middle" autoSize="none" underline="true" text="任脉套装(100)"/>
+    <richtext id="n76_qow0" name="label_zuhe1" xy="194,688" size="170,32" group="n44_j2yt" font="ui://27utqbizps391v" fontSize="22" color="#e6ece5" vAlign="middle" autoSize="none" underline="true" text="任脉套装(100)"/>
+    <richtext id="n78_qow0" name="label_zuhe2" xy="355,689" size="170,32" group="n44_j2yt" font="ui://27utqbizps391v" fontSize="22" color="#e6ece5" vAlign="middle" autoSize="none" underline="true" text="任脉套装(100)"/>
+    <richtext id="n77_qow0" name="label_zuhe3" xy="516,689" size="170,32" group="n44_j2yt" font="ui://27utqbizps391v" fontSize="22" color="#e6ece5" vAlign="middle" autoSize="none" underline="true" text="任脉套装(100)"/>
+    <group id="n44_j2yt" name="n44" xy="33,688" size="653,33" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n45_k5be" name="btn_what" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="86,18">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n46_k5be" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="643,46">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n51_qow0" name="n51" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="132,101" size="439,38"/>
+    <text id="n50_qow0" name="label_nowDes" xy="218,99" size="274,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="修行境界 第22层"/>
+    <richtext id="n52_qow0" name="label_title" xy="22,28" size="210,56" touchable="false" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="门客">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <image id="n79_qow0" name="n79" src="qow06v" fileName="res/frame_fengexianbai.png" xy="129,739" size="411,12"/>
+    <text id="n80_qow0" name="n80" xy="291,725" size="114,45" font="ui://27utqbizps391v" fontSize="28" color="#e6ece5" align="center" letterSpacing="-1" autoSize="none" text="属性加成"/>
+    <text id="n82_qow0" name="label_lv" xy="24,959" size="66,35" font="ui://27utqbizps391v" fontSize="20" align="right" vAlign="middle" autoSize="none" text="Lv.22"/>
+    <component id="n83_qow0" name="pro" src="qow06w" fileName="ProgressBar2.xml" xy="101,968">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n86_qow0" name="btn_satori" src="qow06z" fileName="Button3.xml" xy="556,1032"/>
+    <component id="n87_qow0" name="btn_auto" src="qow06z" fileName="Button3.xml" xy="81,1031">
+      <Button icon="ui://2qr0czbaqow06e"/>
+    </component>
+    <loader3D id="n94_krh5" name="loader3D_autobtn" xy="128,1077" size="1,1" animation="" skin="" loop="true"/>
+    <component id="n88_qow0" name="btn_stimulate" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="245,1046" size="214,60"/>
+    <loader3D id="n92_krh5" name="loader3D_guang" xy="478,268" size="1,1" animation="" skin="" loop="true"/>
+    <loader3D id="n91_jxkq" name="loader3D_stimulate" xy="365,414" size="1,1" animation="" skin="" loop="true"/>
+    <loader id="n98_pl5w" name="loader_dd" xy="328,375" size="45,45" aspect="true" url="ui://2qr0czbaqow05y" align="center" vAlign="middle" fill="scale"/>
+    <component id="n99_hewe" name="group_add1" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="246,33"/>
+    <component id="n100_hewe" name="group_add2" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="423,33"/>
+  </displayList>
+</component>

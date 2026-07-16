@@ -1,0 +1,48 @@
+
+zd_xy_huoyunxietuo_h.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huoyun_001
+  rotate: true
+  xy: 2, 192
+  size: 51, 129
+  orig: 60, 133
+  offset: 5, 4
+  index: -1
+huoyun_002
+  rotate: false
+  xy: 133, 58
+  size: 54, 128
+  orig: 60, 133
+  offset: 3, 5
+  index: -1
+huoyun_003
+  rotate: false
+  xy: 189, 58
+  size: 54, 128
+  orig: 60, 133
+  offset: 1, 5
+  index: -1
+huoyun_004
+  rotate: true
+  xy: 2, 138
+  size: 52, 129
+  orig: 60, 133
+  offset: 3, 4
+  index: -1
+huoyun_005
+  rotate: true
+  xy: 2, 83
+  size: 53, 129
+  orig: 60, 133
+  offset: 2, 4
+  index: -1
+huoyun_007
+  rotate: true
+  xy: 133, 188
+  size: 55, 69
+  orig: 56, 71
+  offset: 1, 2
+  index: -1

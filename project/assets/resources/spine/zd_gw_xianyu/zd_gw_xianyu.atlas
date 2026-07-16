@@ -1,0 +1,13 @@
+
+zd_gw_xianyu.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daodan
+  rotate: false
+  xy: 2, 2
+  size: 48, 89
+  orig: 48, 89
+  offset: 0, 0
+  index: -1

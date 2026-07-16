@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="543,39">
+  <displayList>
+    <richtext id="n28_mnt8" name="label_attr1" xy="12,0" size="227,39" fontSize="26" color="#ffffff" vAlign="middle" ubb="true" autoSize="shrink" text="生命1552"/>
+    <richtext id="n30_li64" name="label_attr2" xy="346,0" size="197,39" fontSize="26" color="#dfd58a" vAlign="middle" ubb="true" autoSize="shrink" text="生命1552"/>
+    <image id="n32_oxm5" name="n32" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="257,8"/>
+  </displayList>
+</component>

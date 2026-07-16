@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root resistanceExpr="b*2/3" finalDamageAdjustExpr="b*1.5" magicDamageAdjustExpr="b*1" criticalDamageAdjustExpr="b*1" petDamageAdjustExpr="b*1" healingAdjustExpr="b*1" blockAdjustExpr="b*0.04" armorPenetrationAdjustExpr="b*0.04">
+  <base>
+    <item id="1" attrValueLower="0" attrValueUpper="100" prePowerLower="10" prePowerUpper="20" powerExpr="-a*a/20+20*a" attr="health"/>
+    <item id="2" attrValueLower="100" attrValueUpper="2000" prePowerLower="5" prePowerUpper="10" powerExpr="-a*a/760+195*a/19-19250/19+1500" attr="health"/>
+    <item id="3" attrValueLower="2000" attrValueUpper="10000" prePowerLower="3.5" prePowerUpper="5" powerExpr="-3*a*a/32000+43*a/8-10375+15750" attr="health"/>
+    <item id="4" attrValueLower="10000" attrValueUpper="100000" prePowerLower="3.45" prePowerUpper="3.5" powerExpr="-a*a/3600000+631*a/180-315250/9+49750" attr="health"/>
+    <item id="5" attrValueLower="100000" attrValueUpper="1000000" prePowerLower="3.4" prePowerUpper="3.45" powerExpr="-a*a/36000000+311*a/90-3107500/9+362500" attr="health"/>
+    <item id="6" attrValueLower="1000000" attrValueUpper="2000000" prePowerLower="2.72" prePowerUpper="3.4" powerExpr="-17*a*a/50000000+102*a/25-3740000+3445000" attr="health"/>
+    <item id="7" attrValueLower="2000000" attrValueUpper="4000000" prePowerLower="2.18" prePowerUpper="2.72" powerExpr="-27*a*a/200000000+163*a/50-5980000+6505000" attr="health"/>
+    <item id="8" attrValueLower="4000000" attrValueUpper="8000000" prePowerLower="1.74" prePowerUpper="2.18" powerExpr="-11*a*a/200000000+131*a/50-9600000+11405000" attr="health"/>
+    <item id="9" attrValueLower="8000000" attrValueUpper="16000000" prePowerLower="1.4" prePowerUpper="1.74" powerExpr="-(17*a*a)/(800000000)+(52*a)/(25)-15280000+19245000" attr="health"/>
+    <item id="10" attrValueLower="16000000" attrValueUpper="32000000" prePowerLower="1.12" prePowerUpper="1.4" powerExpr="-(7*a*a)/(800000000)+(42*a)/(25)-24640000+31805000" attr="health"/>
+    <item id="11" attrValueLower="32000000" attrValueUpper="64000000" prePowerLower="0.9" prePowerUpper="1.12" powerExpr="-(11*a*a)/(3200000000)+(67*a)/(50)-39360000+51965000" attr="health"/>
+    <item id="12" attrValueLower="64000000" attrValueUpper="128000000" prePowerLower="0.72" prePowerUpper="0.9" powerExpr="-(9*a*a)/(6400000000)+(27*a)/(25)-63360000+84285000" attr="health"/>
+    <item id="13" attrValueLower="128000000" attrValueUpper="256000000" prePowerLower="0.6" prePowerUpper="0.72" powerExpr="-(3*a*a)/(6400000000)+(21*a)/(25)-99840000+136125000" attr="health"/>
+    <item id="14" attrValueLower="256000000" attrValueUpper="512000000" prePowerLower="0.48" prePowerUpper="0.6" powerExpr="-(3*a*a)/(12800000000)+(18*a)/(25)-168960000+220605000" attr="health"/>
+    <item id="15" attrValueLower="512000000" attrValueUpper="1000000000" prePowerLower="0.38" prePowerUpper="0.48" powerExpr="-(a*a)/(9760000000)+(892*a)/(1525)-16629760000/(61)+358845000" attr="health"/>
+    <item id="16" attrValueLower="1000000000" attrValueUpper="2000000000" prePowerLower="0.3" prePowerUpper="0.38" powerExpr="-(a*a)/(25000000000)+(23*a)/(50)-420000000+568685000" attr="health"/>
+    <item id="17" attrValueLower="2000000000" attrValueUpper="4000000000" prePowerLower="0.24" prePowerUpper="0.3" powerExpr="-(3*a*a)/(200000000000)+(9*a)/(25)-660000000+908685000" attr="health"/>
+    <item id="18" attrValueLower="4000000000" attrValueUpper="8000000000" prePowerLower="0.2" prePowerUpper="0.24" powerExpr="-(a*a)/(200000000000)+(7*a)/(25)-1040000000+1448685000" attr="health"/>
+    <item id="1" attrValueLower="0" attrValueUpper="20" prePowerLower="50" prePowerUpper="100" powerExpr="-5*a*a/4+100*a" attr="strength"/>
+    <item id="2" attrValueLower="20" attrValueUpper="400" prePowerLower="25" prePowerUpper="50" powerExpr="-5*a*a/152+975*a/19-19250/19+1500" attr="strength"/>
+    <item id="3" attrValueLower="400" attrValueUpper="2000" prePowerLower="17.5" prePowerUpper="25" powerExpr="-3*a*a/1280+215*a/8-10375+15750" attr="strength"/>
+    <item id="4" attrValueLower="2000" attrValueUpper="20000" prePowerLower="17.25" prePowerUpper="17.5" powerExpr="-a*a/144000+631*a/36-315250/9+49750" attr="strength"/>
+    <item id="5" attrValueLower="20000" attrValueUpper="200000" prePowerLower="17" prePowerUpper="17.25" powerExpr="-a*a/1440000+311*a/18-3107500/9+362500" attr="strength"/>
+    <item id="6" attrValueLower="200000" attrValueUpper="400000" prePowerLower="13.6" prePowerUpper="17" powerExpr="-17*a*a/2000000+102*a/5-3740000+3445000" attr="strength"/>
+    <item id="7" attrValueLower="400000" attrValueUpper="800000" prePowerLower="10.9" prePowerUpper="13.6" powerExpr="-27*a*a/8000000+163*a/10-5980000+6505000" attr="strength"/>
+    <item id="8" attrValueLower="800000" attrValueUpper="1600000" prePowerLower="8.7" prePowerUpper="10.9" powerExpr="-11*a*a/8000000+131*a/10-9600000+11405000" attr="strength"/>
+    <item id="9" attrValueLower="1600000" attrValueUpper="3200000" prePowerLower="7" prePowerUpper="8.7" powerExpr="-17*a*a/32000000+1039*a/100-15264000+19245000" attr="strength"/>
+    <item id="10" attrValueLower="3200000" attrValueUpper="6400000" prePowerLower="5.6" prePowerUpper="7" powerExpr="-7*a*a/32000000+42*a/5-24640000+31789000" attr="strength"/>
+    <item id="11" attrValueLower="6400000" attrValueUpper="12800000" prePowerLower="4.5" prePowerUpper="5.6" powerExpr="-11*a*a/128000000+67*a/10-39360000+51949000" attr="strength"/>
+    <item id="12" attrValueLower="12800000" attrValueUpper="25600000" prePowerLower="3.6" prePowerUpper="4.5" powerExpr="-9*a*a/256000000+27*a/5-63360000+84269000" attr="strength"/>
+    <item id="13" attrValueLower="25600000" attrValueUpper="51200000" prePowerLower="2.88" prePowerUpper="3.6" powerExpr="-9*a*a/640000000+108*a/25-101376000+136109000" attr="strength"/>
+    <item id="14" attrValueLower="51200000" attrValueUpper="100000000" prePowerLower="2.3" prePowerUpper="2.88" powerExpr="-29*a*a/4880000000+1064*a/305-9945088000/61+219053000" attr="strength"/>
+    <item id="15" attrValueLower="100000000" attrValueUpper="200000000" prePowerLower="1.8" prePowerUpper="2.3" powerExpr="-a*a/400000000+279*a/100-254000000+345445000" attr="strength"/>
+    <item id="16" attrValueLower="200000000" attrValueUpper="400000000" prePowerLower="1.44" prePowerUpper="1.8" powerExpr="-9*a*a/10000000000+54*a/25-396000000+549445000" attr="strength"/>
+    <item id="17" attrValueLower="400000000" attrValueUpper="800000000" prePowerLower="1.15" prePowerUpper="1.44" powerExpr="-(29*a*a)/(80000000000)+(173*a)/(100)-634000000+873445000" attr="strength"/>
+    <item id="18" attrValueLower="800000000" attrValueUpper="1600000000" prePowerLower="0.92" prePowerUpper="1.15" powerExpr="-(23*a*a)/(160000000000)+(69*a)/(50)-1012000000+1391445000" attr="strength"/>
+    <item id="1" attrValueLower="0" attrValueUpper="3" prePowerLower="300" prePowerUpper="600" powerExpr="-50*a*a+600*a" attr="defense"/>
+    <item id="2" attrValueLower="3" attrValueUpper="60" prePowerLower="150" prePowerUpper="300" powerExpr="-25*a*a/19+5850*a/19-17325/19+1350" attr="defense"/>
+    <item id="3" attrValueLower="60" attrValueUpper="300" prePowerLower="105" prePowerUpper="150" powerExpr="-3*a*a/32+645*a/4-18675/2+14175" attr="defense"/>
+    <item id="4" attrValueLower="300" attrValueUpper="3000" prePowerLower="103.5" prePowerUpper="105" powerExpr="-a*a/3600+631*a/6-31525+44775" attr="defense"/>
+    <item id="5" attrValueLower="3000" attrValueUpper="30000" prePowerLower="102" prePowerUpper="103.5" powerExpr="-a*a/36000+311*a/3-310750+326250" attr="defense"/>
+    <item id="6" attrValueLower="30000" attrValueUpper="60000" prePowerLower="81.6" prePowerUpper="102" powerExpr="-17*a*a/50000+612*a/5-3366000+3100500" attr="defense"/>
+    <item id="7" attrValueLower="60000" attrValueUpper="120000" prePowerLower="65.4" prePowerUpper="81.6" powerExpr="-27*a*a/200000+489*a/5-5382000+5854500" attr="defense"/>
+    <item id="8" attrValueLower="120000" attrValueUpper="240000" prePowerLower="52.2" prePowerUpper="65.4" powerExpr="-11*a*a/200000+393*a/5-8640000+10264500" attr="defense"/>
+    <item id="9" attrValueLower="240000" attrValueUpper="480000" prePowerLower="41.8" prePowerUpper="52.2" powerExpr="-(13*a*a)/(600000)+(313*a)/5-13776000+17320500" attr="defense"/>
+    <item id="10" attrValueLower="480000" attrValueUpper="1000000" prePowerLower="33.4" prePowerUpper="41.8" powerExpr="-(21*a*a)/(2600000)+(3221*a)/(65)-285024000/(13)+28600500" attr="defense"/>
+    <item id="11" attrValueLower="1000000" attrValueUpper="2000000" prePowerLower="26.8" prePowerUpper="33.4" powerExpr="-(33*a*a)/(10000000)+40*a-36700000+48152500" attr="defense"/>
+    <item id="12" attrValueLower="2000000" attrValueUpper="4000000" prePowerLower="21.4" prePowerUpper="26.8" powerExpr="-(27*a*a)/(20000000)+(161*a)/5-59000000+78252500" attr="defense"/>
+    <item id="13" attrValueLower="4000000" attrValueUpper="8000000" prePowerLower="17.2" prePowerUpper="21.4" powerExpr="-(21*a*a)/(40000000)+(128*a)/5-94000000+126452500" attr="defense"/>
+    <item id="14" attrValueLower="8000000" attrValueUpper="16000000" prePowerLower="13.8" prePowerUpper="17.2" powerExpr="-(17*a*a)/(80000000)+(103*a)/5-151200000+203652500" attr="defense"/>
+    <item id="15" attrValueLower="16000000" attrValueUpper="32000000" prePowerLower="11" prePowerUpper="13.8" powerExpr="-(7*a*a)/(80000000)+(83*a)/5-243200000+327652500" attr="defense"/>
+    <item id="16" attrValueLower="32000000" attrValueUpper="64000000" prePowerLower="8.8" prePowerUpper="11" powerExpr="-(11*a*a)/(320000000)+(66*a)/5-387200000+526052500" attr="defense"/>
+    <item id="17" attrValueLower="64000000" attrValueUpper="128000000" prePowerLower="7" prePowerUpper="8.8" powerExpr="-(9*a*a)/(640000000)+(53*a)/5-620800000+842852500" attr="defense"/>
+    <item id="18" attrValueLower="128000000" attrValueUpper="256000000" prePowerLower="5.6" prePowerUpper="7" powerExpr="-(7*a*a)/(1280000000)+(42*a)/5-985600000+1348452500" attr="defense"/>
+    <item id="1" attrValueLower="0" attrValueUpper="100" prePowerLower="450" prePowerUpper="900" powerExpr="-9*a*a/4+900*a" attr="agility"/>
+    <item id="2" attrValueLower="100" attrValueUpper="1000" prePowerLower="225" prePowerUpper="450" powerExpr="-a*a/8+475*a-46250+67500" attr="agility"/>
+    <item id="3" attrValueLower="1000" attrValueUpper="2000" prePowerLower="157.5" prePowerUpper="225" powerExpr="-27*a*a/800+585*a/2-258750+371250" attr="agility"/>
+    <item id="4" attrValueLower="2000" attrValueUpper="3000" prePowerLower="155.25" prePowerUpper="157.5" powerExpr="-9*a*a/8000+162*a-319500+562500" attr="agility"/>
+    <item id="5" attrValueLower="3000" attrValueUpper="4000" prePowerLower="153" prePowerUpper="155.25" powerExpr="-9*a*a/8000+162*a-475875+718875" attr="agility"/>
+    <item id="6" attrValueLower="4000" attrValueUpper="5000" prePowerLower="122.4" prePowerUpper="153" powerExpr="-153*a*a/10000+1377*a/5-856800+873000" attr="agility"/>
+    <item id="7" attrValueLower="5000" attrValueUpper="6000" prePowerLower="98.1" prePowerUpper="122.4" powerExpr="-243*a*a/20000+2439*a/10-915750+1010700" attr="agility"/>
+    <item id="8" attrValueLower="6000" attrValueUpper="7000" prePowerLower="78.3" prePowerUpper="98.1" powerExpr="-99*a*a/10000+2169*a/10-945000+1120950" attr="agility"/>
+    <item id="9" attrValueLower="7000" attrValueUpper="8000" prePowerLower="62.6" prePowerUpper="78.3" powerExpr="-(157*a*a)/(20000)+(941*a)/5-932750+1209150" attr="agility"/>
+    <item id="10" attrValueLower="8000" attrValueUpper="9000" prePowerLower="50" prePowerUpper="62.6" powerExpr="-(63*a*a)/(10000)+(817*a)/5-904000+1279600" attr="agility"/>
+    <item id="11" attrValueLower="9000" attrValueUpper="10000" prePowerLower="40" prePowerUpper="50" powerExpr="-(a*a)/(200)+140*a-855000+1335900" attr="agility"/>
+    <item id="12" attrValueLower="10000" attrValueUpper="12000" prePowerLower="32" prePowerUpper="40" powerExpr="-(a*a)/(500)+80*a-600000+1380900" attr="agility"/>
+    <item id="13" attrValueLower="12000" attrValueUpper="14000" prePowerLower="25.6" prePowerUpper="32" powerExpr="-(a*a)/(625)+(352*a)/5-614400+1452900" attr="agility"/>
+    <item id="14" attrValueLower="14000" attrValueUpper="16000" prePowerLower="20" prePowerUpper="25.6" powerExpr="-(7*a*a)/(5000)+(324*a)/5-632800+1510500" attr="agility"/>
+    <item id="15" attrValueLower="16000" attrValueUpper="18000" prePowerLower="16" prePowerUpper="20" powerExpr="-(a*a)/(1000)+52*a-576000+1556100" attr="agility"/>
+    <item id="16" attrValueLower="18000" attrValueUpper="20000" prePowerLower="12.8" prePowerUpper="16" powerExpr="-(a*a)/(1250)+(224*a)/5-547200+1592100" attr="agility"/>
+    <item id="17" attrValueLower="20000" attrValueUpper="40000" prePowerLower="10" prePowerUpper="12.8" powerExpr="-(7*a*a)/(100000)+(78*a)/5-284000+1620900" attr="agility"/>
+    <item id="18" attrValueLower="40000" attrValueUpper="80000" prePowerLower="8" prePowerUpper="10" powerExpr="-(a*a)/(40000)+12*a-440000+1848900" attr="agility"/>
+  </base>
+  <combat>
+    <item id="1" baseValueLower="0" baseValueUpper="5000" prePowerLower="200" prePowerUpper="500" preValuePowerExpr="200+300*a/5000"/>
+    <item id="2" baseValueLower="5000" baseValueUpper="15000" prePowerLower="500" prePowerUpper="1000" preValuePowerExpr="500+500*(a-5000)/10000"/>
+    <item id="3" baseValueLower="15000" baseValueUpper="30000" prePowerLower="1000" prePowerUpper="1500" preValuePowerExpr="1000+500*(a-15000)/15000"/>
+    <item id="4" baseValueLower="30000" baseValueUpper="60000" prePowerLower="1500" prePowerUpper="2100" preValuePowerExpr="1500+600*(a-30000)/30000"/>
+    <item id="5" baseValueLower="60000" baseValueUpper="120000" prePowerLower="2100" prePowerUpper="3000" preValuePowerExpr="2100+900*(a-60000)/60000"/>
+    <item id="6" baseValueLower="120000" baseValueUpper="240000" prePowerLower="3000" prePowerUpper="4200" preValuePowerExpr="3000+1200*(a-120000)/120000"/>
+    <item id="7" baseValueLower="240000" baseValueUpper="480000" prePowerLower="4200" prePowerUpper="5880" preValuePowerExpr="4200+1680*(a-240000)/240000"/>
+    <item id="8" baseValueLower="480000" baseValueUpper="960000" prePowerLower="5880" prePowerUpper="8232" preValuePowerExpr="5880+2352*(a-480000)/480000"/>
+    <item id="9" baseValueLower="960000" baseValueUpper="2000000" prePowerLower="8232" prePowerUpper="11500" preValuePowerExpr="8232+3268*(a-960000)/1040000"/>
+    <item id="10" baseValueLower="2000000" baseValueUpper="4000000" prePowerLower="11500" prePowerUpper="16000" preValuePowerExpr="11500+4500*(a-2000000)/2000000"/>
+    <item id="11" baseValueLower="4000000" baseValueUpper="8000000" prePowerLower="16000" prePowerUpper="22400" preValuePowerExpr="16000+6400*(a-4000000)/4000000"/>
+    <item id="12" baseValueLower="8000000" baseValueUpper="16000000" prePowerLower="22400" prePowerUpper="31360" preValuePowerExpr="22400+8960*(a-8000000)/8000000"/>
+    <item id="13" baseValueLower="16000000" baseValueUpper="32000000" prePowerLower="31360" prePowerUpper="44000" preValuePowerExpr="31360+12640*(a-16000000)/16000000"/>
+    <item id="14" baseValueLower="32000000" baseValueUpper="64000000" prePowerLower="44000" prePowerUpper="61600" preValuePowerExpr="44000+17600*(a-32000000)/32000000"/>
+    <item id="15" baseValueLower="64000000" baseValueUpper="128000000" prePowerLower="61600" prePowerUpper="86000" preValuePowerExpr="61600+24400*(a-64000000)/64000000"/>
+    <item id="16" baseValueLower="128000000" baseValueUpper="256000000" prePowerLower="86000" prePowerUpper="120000" preValuePowerExpr="86000+34000*(a-128000000)/128000000"/>
+    <item id="17" baseValueLower="256000000" baseValueUpper="512000000" prePowerLower="120000" prePowerUpper="168000" preValuePowerExpr="120000+48000*(a-256000000)/256000000"/>
+    <item id="18" baseValueLower="512000000" baseValueUpper="1000000000" prePowerLower="168000" prePowerUpper="235000" preValuePowerExpr="168000+67000*(a-512000000)/512000000"/>
+  </combat>
+</root>

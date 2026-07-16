@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,134">
+  <displayList>
+    <graph id="n20_e8yx" name="n20" xy="0,0" size="640,134" type="rect" lineSize="0" fillColor="#fff4eee5" corner="6"/>
+    <text id="n7_id3d" name="label_name" xy="138,21" size="56,36" fontSize="26" text="玩家"/>
+    <component id="n23_e8yx" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="25,21"/>
+    <loader id="n15_e8yx" name="img_role" xy="13,7" size="50,50" url="ui://8rnw66xwid3d1b" align="center" vAlign="middle" clearOnPublish="true"/>
+    <image id="n16_e8yx" name="n16" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="423,40" scale="0.7,0.7"/>
+    <text id="n17_e8yx" name="label_combatPower" xy="463,50" size="60,42" scale="0.7,0.7" font="ui://27utqbizvkas4q" fontSize="24" vAlign="middle" letterSpacing="-8" text="12"/>
+    <component id="n24_9jvz" name="loader_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="123,46" size="202,103" scale="0.8,0.8"/>
+  </displayList>
+</component>

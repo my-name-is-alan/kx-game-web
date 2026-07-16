@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8rnw66xw">
+  <resources>
+    <component id="d46u0" name="LyClan.xml" path="/" exported="true"/>
+    <image id="d46u2" name="frame_youlididian.png" path="/res/"/>
+    <component id="d46u3" name="btn_place.xml" path="/"/>
+    <component id="hbzk4" name="group_clanMap.xml" path="/"/>
+    <component id="hbzk5" name="LyClanBattle.xml" path="/" exported="true"/>
+    <image id="hbzk6" name="frame_nametiao.png" path="/res/"/>
+    <component id="hbzk7" name="LyClanTask.xml" path="/" exported="true"/>
+    <component id="hbzk8" name="item_task.xml" path="/" exported="true"/>
+    <component id="hbzk9" name="item_help.xml" path="/"/>
+    <component id="hbzka" name="LyClanShop.xml" path="/" exported="true"/>
+    <component id="hbzkb" name="LyClanMerchant.xml" path="/" exported="true"/>
+    <component id="hbzkc" name="item_bargain.xml" path="/"/>
+    <component id="hbzkd" name="LyClanMain.xml" path="/" exported="true"/>
+    <component id="hbzke" name="item_people.xml" path="/"/>
+    <component id="hbzkf" name="LyClanManage.xml" path="/" exported="true"/>
+    <component id="hbzkg" name="LyClanTisp.xml" path="/" exported="true"/>
+    <component id="hbzkh" name="LyClanLog.xml" path="/" exported="true"/>
+    <component id="hbzki" name="item_log.xml" path="/"/>
+    <component id="hbzkj" name="LyClanJoin.xml" path="/" exported="true"/>
+    <component id="hbzkl" name="item_clan.xml" path="/"/>
+    <component id="hbzkm" name="LyClanFound.xml" path="/" exported="true"/>
+    <component id="hbzkn" name="LyClanTitle.xml" path="/" exported="true"/>
+    <component id="hbzkp" name="LyClanHelp.xml" path="/" exported="true"/>
+    <component id="hbzkq" name="item_helpActivity.xml" path="/"/>
+    <component id="hbzkr" name="LyClanApply.xml" path="/" exported="true"/>
+    <component id="hbzks" name="item_apply.xml" path="/"/>
+    <component id="g7bht" name="LyClanInfo.xml" path="/" exported="true"/>
+    <component id="g7bhu" name="item_info.xml" path="/"/>
+    <component id="g7bhv" name="LyClanFlag.xml" path="/" exported="true"/>
+    <component id="g7bhx" name="LyClanRank.xml" path="/" exported="true"/>
+    <component id="g7bhy" name="item_rank.xml" path="/"/>
+    <component id="g7bh11" name="LyClanPopup.xml" path="/" exported="true"/>
+    <component id="g7bh12" name="item_porup1.xml" path="/"/>
+    <component id="g7bh13" name="item_porup2.xml" path="/"/>
+    <component id="g7bh14" name="item_porup3.xml" path="/"/>
+    <component id="g7bh15" name="btn_flag.xml" path="/"/>
+    <component id="cb8k16" name="LyClanRevise.xml" path="/" exported="true"/>
+    <image id="cb8k17" name="frame_shurukuang.png" path="/res/"/>
+    <component id="cb8k18" name="btn_revise.xml" path="/"/>
+    <image id="id3d19" name="role10.png" path="/res/" exported="true"/>
+    <image id="id3d1a" name="role9.png" path="/res/" exported="true"/>
+    <image id="id3d1b" name="role2.png" path="/res/" exported="true"/>
+    <component id="id3d1c" name="group_clanLog.xml" path="/"/>
+    <component id="u96x1d" name="group_clanApply.xml" path="/"/>
+    <component id="u96x1e" name="group_shopitem.xml" path="/" exported="true"/>
+    <image id="u96x1f" name="frame_store.png" path="/res/"/>
+    <component id="u96x1g" name="group_clanShop.xml" path="/"/>
+    <image id="jos61h" name="frame_landmark.png" path="/res2/"/>
+    <image id="jos61i" name="frame_write.png" path="/res2/" scale="9grid" scale9grid="9,11,7,4"/>
+    <image id="jos61j" name="word_guild.png" path="/res2/"/>
+    <image id="jos61k" name="bg_bangpai.png" path="/res2/"/>
+    <image id="jos61l" name="btn_search.png" path="/res2/"/>
+    <image id="jos61m" name="frame_blockade.png" path="/res2/"/>
+    <image id="jos61n" name="frame_info.png" path="/res2/" scale="9grid" scale9grid="95,29,190,58"/>
+    <component id="jos61p" name="btn_search.xml" path="/"/>
+    <image id="jos61q" name="frame_badge.png" path="/res2/"/>
+    <component id="jos61r" name="group_clanBattle.xml" path="/"/>
+    <component id="jos61s" name="group_clanRank.xml" path="/"/>
+    <image id="glyr1t" name="frame_youlididian.png" path="/res2/" scale9grid="8,31,16,62"/>
+    <component id="glyr1u" name="group_clanPopup.xml" path="/"/>
+    <component id="glyr1v" name="group_clanTask.xml" path="/"/>
+    <component id="g0131w" name="btn_clanMerchant.xml" path="/"/>
+    <component id="knxo7" name="LyClanBattleRank.xml" path="/" exported="true"/>
+    <component id="djmf1x" name="LyClanBattleTask.xml" path="/" exported="true"/>
+    <component id="djmf1y" name="group_clanBattleTask.xml" path="/"/>
+    <component id="djmf1z" name="item_clanBattleTask.xml" path="/"/>
+    <component id="o1e820" name="group_clanMerchant.xml" path="/"/>
+    <component id="rg0221" name="group_rank.xml" path="/"/>
+    <component id="rg0222" name="group_rankitem.xml" path="/"/>
+    <image id="ql4f25" name="icon_mingdongtianxia.png" path="/res3/"/>
+    <image id="ql4f27" name="icon_fengmangbilu.png" path="/res3/"/>
+    <image id="ql4f28" name="frame_write.png" path="/res3/" scale="9grid" scale9grid="8,10,7,7"/>
+    <image id="ql4f29" name="frame_landmark.png" path="/res3/"/>
+    <image id="ql4f2a" name="frame_info.png" path="/res3/"/>
+    <image id="ql4f2b" name="frame_blockade.png" path="/res3/"/>
+    <image id="ql4f2c" name="btn_search.png" path="/res3/"/>
+    <image id="ql4f2d" name="icon_shengmingjianqi.png" path="/res3/"/>
+    <image id="ql4f2e" name="btn_more.png" path="/res3/"/>
+    <image id="ql4f2f" name="bg_tianzhuanjiawa.png" path="/res3/"/>
+    <image id="ql4f2g" name="bg_bangpai1.png" path="/res3/"/>
+    <image id="ql4f2h" name="bg_bangpai.png" path="/res3/"/>
+    <image id="ql4f2i" name="word_guild.png" path="/res3/"/>
+    <image id="ql4f2j" name="icon_renshu.png" path="/res3/"/>
+    <image id="ql4f2k" name="icon_baoxiangguanbi.png" path="/res3/"/>
+    <image id="ql4f2l" name="icon_baoxiangdakai.png" path="/res3/"/>
+    <image id="ql4f2m" name="icon_xiongbahuanyu.png" path="/res3/"/>
+    <image id="ql4f2n" name="icon_weimingyuanyang.png" path="/res3/"/>
+    <image id="ql4f2o" name="btn_dynamic.png" path="/res3/"/>
+    <image id="ql4f2p" name="icon_shengweihaodang.png" path="/res3/"/>
+    <component id="ql4f2u" name="btn_set.xml" path="/"/>
+    <component id="ql4f2v" name="group_stone.xml" path="/"/>
+    <image id="ql4f2z" name="fex_select2.png" path="/res3/" scale="9grid" scale9grid="25,25,5,6"/>
+    <component id="tuv77f" name="btn_common.xml" path="/"/>
+    <component id="tuv733" name="btn_copy.xml" path="/"/>
+    <image id="r2p37g" name="bg_bangpai2.png" path="/res3/"/>
+    <component id="r2p37k" name="group_clanTisp.xml" path="/"/>
+    <component id="r2p37n" name="group_box.xml" path="/"/>
+    <image id="r2p37o" name="frame_worship.png" path="/res3/"/>
+    <image id="r2p37r" name="frame_integral.png" path="/res3/"/>
+    <component id="r2p37t" name="btn_rw.xml" path="/"/>
+    <image id="r2p37u" name="word_assist_selected.png" path="/res3/"/>
+    <image id="r2p37v" name="word_assist_unselected.png" path="/res3/"/>
+    <image id="r2p37w" name="word_task_selected.png" path="/res3/"/>
+    <image id="r2p37x" name="word_task_unselected.png" path="/res3/"/>
+    <component id="r2p37z" name="btn_xz.xml" path="/"/>
+    <image id="r2p380" name="pic_bonsai.png" path="/res3/"/>
+    <image id="r2p381" name="pic_face1.png" path="/res3/"/>
+    <image id="r2p382" name="pic_face2.png" path="/res3/"/>
+    <image id="r2p383" name="pic_face3.png" path="/res3/"/>
+    <image id="r2p384" name="pic_shop owner.png" path="/res3/"/>
+    <image id="r2p385" name="frame_screen.png" path="/res3/"/>
+    <image id="r2p386" name="frame_table.png" path="/res3/"/>
+    <image id="r2p387" name="frame_fan.png" path="/res3/"/>
+    <image id="r2p389" name="btn_light.png" path="/res3/"/>
+    <image id="r2p38a" name="frame_duihuakuang.png" path="/res3/" scale="9grid" scale9grid="29,17,58,34"/>
+    <component id="r2p38c" name="btn_close.xml" path="/"/>
+    <image id="r2p38d" name="frame_buff under public4.png" path="/res/"/>
+    <image id="r2p38l" name="icon_jiachengyushe.png" path="/res/"/>
+    <component id="r2p38n" name="btn_chapter.xml" path="/"/>
+    <image id="r2p38o" name="icon_paihangjiangli.png" path="/res/"/>
+    <image id="r2p38p" name="icon_tiaozhanjiangli.png" path="/res/"/>
+    <image id="era28q" name="icon_leijijiangli.png" path="/res/"/>
+    <component id="era28r" name="LyClanBattleReward.xml" path="/" exported="true"/>
+    <component id="era28t" name="group_logDec.xml" path="/"/>
+    <image id="m2rj8w" name="dec_partition_line.png" path="/res3/"/>
+    <image id="m2rj8x" name="frame_enemy name.png" path="/res3/"/>
+    <component id="m2rj8y" name="group_progressboss.xml" path="/"/>
+    <image id="m2rj8z" name="frame_enemy-progress-bar_all.png" path="/res3/" scale="9grid" scale9grid="91,22,170,44"/>
+    <component id="m2rj90" name="bar_progressboss.xml" path="/"/>
+    <image id="m2rj92" name="frame_enemy-progress-bar1_now.png" path="/res3/" scale="9grid" scale9grid="1,8,2,16"/>
+    <image id="m2rj93" name="frame_enemy-progress-bar2_now.png" path="/res3/" scale="9grid" scale9grid="1,8,2,16"/>
+    <image id="m2rj94" name="btn_yishouqing.png" path="/res3/"/>
+    <image id="m2rj95" name="word_bangpai_unselected.png" path="/res3/"/>
+    <image id="m2rj96" name="word_zhangong_selected.png" path="/res3/"/>
+    <image id="m2rj97" name="word_zhangong_unselected.png" path="/res3/"/>
+    <image id="m2rj98" name="word_bangpai_selected.png" path="/res3/"/>
+    <component id="m2rj99" name="btn_bpsd.xml" path="/"/>
+    <component id="m2rj9a" name="btn_zgsd.xml" path="/"/>
+    <component id="m2rj9d" name="group_phase.xml" path="/"/>
+    <component id="m2rj9e" name="group_titleDec.xml" path="/"/>
+    <image id="e8yx9h" name="frame_jifendi.png" path="/res3/"/>
+    <component id="e8yx9n" name="group_clanJoin.xml" path="/"/>
+    <component id="e8yx9o" name="group_clanFound.xml" path="/"/>
+    <component id="e8yx9p" name="group_clanFlag.xml" path="/"/>
+    <component id="e8yx9q" name="group_clanMain.xml" path="/"/>
+    <component id="e8yx9r" name="group_clanManage.xml" path="/"/>
+    <component id="e8yx9s" name="group_revise.xml" path="/"/>
+    <image id="e8yx9t" name="btn_light red.png" path="/res3/"/>
+    <component id="e8yx9u" name="group_clanInfo.xml" path="/"/>
+    <component id="tny69y" name="group_clanBattleReward.xml" path="/"/>
+    <component id="tny69z" name="group_clanHelp.xml" path="/"/>
+    <component id="sbhha0" name="group_canTisp.xml" path="/"/>
+    <component id="erkza1" name="group_needItem.xml" path="/"/>
+    <component id="erkza2" name="btn_place1.xml" path="/"/>
+    <component id="erkza3" name="group_clanTitle.xml" path="/"/>
+    <component id="rajya4" name="group_label.xml" path="/"/>
+    <image id="nvxwa5" name="icon_treasure lighting.png" path="/res3/"/>
+    <component id="psu4a7" name="group_declaration.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

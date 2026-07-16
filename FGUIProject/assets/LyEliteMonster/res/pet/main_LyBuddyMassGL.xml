@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="711,905">
+  <displayList>
+    <image id="n79_me8j" name="n79" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,26" size="696,879"/>
+    <image id="n72_me8j" name="n72" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="159,59" size="375,38">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="n74_me8j" sidePair="width-width"/>
+    </image>
+    <text id="n74_me8j" name="label_title" xy="240,58" size="211,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="奖励列表">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n80_me8j" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="633,0"/>
+    <list id="n85_me8j" name="list_all" xy="29,120" size="646,594" overflow="scroll" lineGap="-13" defaultItem="ui://xcpqvzp3me8jrc" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

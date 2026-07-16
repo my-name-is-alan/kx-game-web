@@ -1,0 +1,111 @@
+
+zd_buff_hudun.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/wjgz_buff/wjgz_buff_00
+  rotate: false
+  xy: 633, 854
+  size: 204, 166
+  orig: 280, 270
+  offset: 35, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_02
+  rotate: false
+  xy: 425, 826
+  size: 206, 194
+  orig: 280, 270
+  offset: 33, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_04
+  rotate: true
+  xy: 214, 813
+  size: 207, 209
+  orig: 280, 270
+  offset: 32, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_06
+  rotate: false
+  xy: 2, 641
+  size: 208, 186
+  orig: 280, 270
+  offset: 31, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_08
+  rotate: false
+  xy: 2, 829
+  size: 210, 191
+  orig: 280, 270
+  offset: 29, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_10
+  rotate: false
+  xy: 212, 612
+  size: 199, 199
+  orig: 280, 270
+  offset: 40, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_12
+  rotate: true
+  xy: 633, 657
+  size: 195, 203
+  orig: 280, 270
+  offset: 43, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_14
+  rotate: true
+  xy: 425, 632
+  size: 192, 201
+  orig: 280, 270
+  offset: 46, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_16
+  rotate: true
+  xy: 193, 433
+  size: 177, 185
+  orig: 280, 270
+  offset: 61, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_18
+  rotate: false
+  xy: 839, 848
+  size: 181, 172
+  orig: 280, 270
+  offset: 57, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_20
+  rotate: false
+  xy: 413, 452
+  size: 185, 178
+  orig: 280, 270
+  offset: 54, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_22
+  rotate: false
+  xy: 2, 475
+  size: 189, 164
+  orig: 280, 270
+  offset: 50, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_24
+  rotate: false
+  xy: 830, 465
+  size: 189, 185
+  orig: 280, 270
+  offset: 49, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_26
+  rotate: true
+  xy: 838, 652
+  size: 194, 180
+  orig: 280, 270
+  offset: 44, 22
+  index: -1
+effect/wjgz_buff/wjgz_buff_28
+  rotate: false
+  xy: 628, 497
+  size: 200, 158
+  orig: 280, 270
+  offset: 38, 22
+  index: -1

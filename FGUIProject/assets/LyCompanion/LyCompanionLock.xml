@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <loader id="n0_qav2" name="btn_close" xy="0,-133" size="750,1600" url="ui://l32lh3odqav23n" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <image id="n1_qav2" name="n1" src="qav23m" fileName="res2/bg_jiesuoteshutanchuang2.png" xy="-32,173" group="n14_qav2"/>
+    <loader3D id="n16_qav2" name="loader_spine" xy="359,665" size="20,20" group="n14_qav2" animation="" skin="" loop="true"/>
+    <loader id="n2_qav2" name="img_quality" xy="89,159" size="78,334" group="n4_qav2" url="ui://27utqbizrp911v"/>
+    <text id="n3_qav2" name="label_name" xy="108,279" size="36,44" group="n4_qav2" font="ui://27utqbizps391v" fontSize="32" color="#904a44" align="center" vAlign="middle" autoSize="height" text=""/>
+    <group id="n4_qav2" name="n4" xy="89,159" size="78,334" group="n14_qav2" advanced="true"/>
+    <image id="n5_qav2" name="n5" src="qav23o" fileName="res2/word_chenggongjiesuo.png" xy="101,649" group="n14_qav2"/>
+    <image id="n6_qav2" name="n6" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="223,911" group="n14_qav2"/>
+    <text id="n7_qav2" name="label_str43" xy="309,893" size="132,44" group="n14_qav2" font="ui://27utqbizps391v" fontSize="32" color="#dfd58a" vAlign="middle" text="兽友天赋"/>
+    <text id="n8_qav2" name="label_mainDec" xy="183,966" size="56,36" group="n14_qav2" fontSize="26" color="#ffffff" vAlign="middle" text="反击"/>
+    <text id="n9_qav2" name="label_sideAttr" xy="181,1013" size="56,36" group="n14_qav2" fontSize="26" color="#ffffff" vAlign="middle" text="灵脉"/>
+    <text id="n10_qav2" name="label_mainAttr" xy="512,968" size="58,36" group="n14_qav2" fontSize="26" color="#09e678" vAlign="middle" text="+5%"/>
+    <text id="n13_qav2" name="label_str44" xy="204,1168" size="341,34" group="n14_qav2" alpha="0.7" fontSize="24" color="#f6e2ce" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="点击空白处关闭界面"/>
+    <text id="n12_qav2" name="label_likingDec" xy="203,1088" size="344,36" group="n14_qav2" fontSize="26" color="#ff4e3e" align="center" vAlign="middle" autoSize="none" text="（好感20级解锁）"/>
+    <group id="n14_qav2" name="n14" xy="-32,159" size="818,1043" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

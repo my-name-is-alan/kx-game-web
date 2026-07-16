@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,804">
+  <displayList>
+    <loader id="n42_m2rj" name="n42" xy="25,30" size="700,776" group="n15_hbzk" url="ui://qnktu1ilpugclw" align="center" vAlign="middle" fill="scaleFree"/>
+    <image id="n43_m2rj" name="n43" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="189,68" size="374,38" group="n15_hbzk"/>
+    <text id="n48_m2rj" name="label_highestPhase" xy="27,106" size="694,229" group="n15_hbzk" visible="false" alpha="0.2" font="ui://27utqbizps391v" fontSize="140" align="center" vAlign="middle" letterSpacing="36" autoSize="none" text="雄霸寰宇"/>
+    <richtext id="n44_m2rj" name="label_bxl" xy="318,65" size="116,39" group="n15_hbzk" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="帮派旗帜"/>
+    <component id="n2_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,0" group="n15_hbzk"/>
+    <text id="n19_hbzk" name="n19" xy="283,296" size="184,42" group="n15_hbzk" font="ui://27utqbizps391v" fontSize="30" color="#16191a" autoClearText="true" text="历史最高头衔"/>
+    <image id="n49_m2rj" name="n49" src="q8va6t" fileName="ui/frame_connect1.png" pkg="27utqbiz" xy="506,334" size="20,266" group="n15_hbzk" rotation="90"/>
+    <loader id="n47_m2rj" name="img_highestPhase" xy="286,115" size="178,198" group="n15_hbzk" url="ui://27utqbizql4fuo" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <graph id="n66_m2rj" name="n66" xy="50,369" size="640,400" group="n15_hbzk" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <component id="n64_m2rj" name="group_titleDec" src="m2rj9e" fileName="group_titleDec.xml" xy="56,376" group="n15_hbzk"/>
+    <group id="n15_hbzk" name="n15" xy="25,0" size="725,806" advanced="true"/>
+  </displayList>
+</component>

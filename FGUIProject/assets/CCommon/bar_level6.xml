@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,28" extention="ProgressBar">
+  <displayList>
+    <image id="n17_ig8m" name="n17" src="ig8mu1a6" fileName="ui/frame_HP progress-bar2.png" xy="0,0" size="750,28">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n18_ig8m" name="bar" src="ig8mu1a5" fileName="ui/frame_HP progress-bar1.png" xy="0,2">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5_e0po" name="title" xy="8,-5" size="733,39" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" strokeColor="#ffffff" strokeSize="2" text="1231">
+      <relation target="" sidePair="width-width%,height-height,center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

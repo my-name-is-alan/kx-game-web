@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="641,980" designImageOffsetX="-52" designImageOffsetY="-440" designImageAlpha="100">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n96_ar1l" name="n96" src="ar1l1t" fileName="res/bg_baixianglou2.png" xy="1,-11"/>
+    <image id="n103_psu4" name="n103" src="psu42o" fileName="res1/frame_baixiangloudiban.png" xy="-1,274" size="644,555"/>
+    <image id="n101_psu4" name="n101" src="psu42r" fileName="res1/btn_biaoqian3.png" xy="39,188"/>
+    <text id="n70_ilda" name="n70" xy="35,239" size="84,29" visible="false" fontSize="20" color="#16191a" vAlign="middle" underline="true" autoClearText="true" text="累计加成"/>
+    <text id="n71_ilda" name="label_num" xy="17,0" size="75,29" visible="false" fontSize="20" color="#16191a" vAlign="middle" autoClearText="true" text="已经拥1"/>
+    <text id="n73_ilda" name="label_dec1" xy="158,129" size="325,34" fontSize="24" color="#6c6c6c" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="条件"/>
+    <text id="n74_ilda" name="label_dec2" xy="158,163" size="325,34" fontSize="24" color="#6c6c6c" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="条件"/>
+    <list id="n75_ilda" name="list_title" xy="7,310" size="626,510" layout="flow_hz" overflow="scroll" defaultItem="ui://li7lbnd9ildab" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n85_p30y" name="label_syz" xy="267,878" size="107,42" font="ui://27utqbizps391v" fontSize="30" color="#7a7a7a" autoClearText="true" text="使用中1"/>
+    <component id="n84_p30y" name="btn_alter" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="226,875" size="188,53">
+      <Button title="使用1" titleFontSize="30"/>
+    </component>
+    <component id="n89_ar1l" name="btn_attr" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="-36,203"/>
+    <text id="n95_ar1l" name="label_name" xy="97,82" size="30,36" visible="false" fontSize="26" color="#60757c" text="啊"/>
+    <component id="n100_psu4" name="btn_medal" src="psu42i" fileName="btn_common1.xml" xy="1,69" visible="false">
+      <Button icon="ui://li7lbnd9psu42l"/>
+    </component>
+    <component id="n98_psu4" name="btn_activity" src="psu42i" fileName="btn_common1.xml" xy="209,216" group="n104_psu4">
+      <Button checked="true" icon="ui://li7lbnd9psu42m" controller="c1" page="0"/>
+    </component>
+    <component id="n99_psu4" name="btn_special" src="psu42i" fileName="btn_common1.xml" xy="352,216" group="n104_psu4" touchable="false">
+      <Button icon="ui://li7lbnd9psu42l" controller="c1" page="2"/>
+    </component>
+    <group id="n104_psu4" name="n104" xy="209,216" size="223,80"/>
+    <component id="n106_r49i" name="group_titleIcon" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="320,72" pivot="0.5,0.5" anchor="true" scale="1.5,1.5"/>
+  </displayList>
+</component>

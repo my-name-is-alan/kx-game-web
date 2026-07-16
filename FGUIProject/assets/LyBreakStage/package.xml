@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="cho273r8">
+  <resources>
+    <component id="mnt80" name="LyBreakStage.xml" path="/" exported="true"/>
+    <image id="mnt82" name="img_jt.png" path="/res/"/>
+    <image id="mnt83" name="img_sjk2.png" path="/res/"/>
+    <image id="mnt84" name="img_sjk1.png" path="/res/"/>
+    <image id="mnt85" name="18.png" path="/res/"/>
+    <image id="mnt87" name="btn_jt.png" path="/res/"/>
+    <component id="mnt88" name="group_attr.xml" path="/"/>
+    <image id="mnt89" name="37.png" path="/res/"/>
+    <image id="mnt8a" name="38.png" path="/res/"/>
+    <image id="mnt8b" name="36.png" path="/res/" scale="9grid" scale9grid="135,9,270,18"/>
+    <component id="mnt8c" name="bar_task.xml" path="/"/>
+    <component id="mnt8d" name="group_task.xml" path="/"/>
+    <component id="li64e" name="LyThunder.xml" path="/" exported="true"/>
+    <image id="li64f" name="bg.jpg" path="/res/"/>
+    <image id="li64g" name="01.png" path="/res/"/>
+    <component id="li64h" name="group_attr1.xml" path="/"/>
+    <image id="fxnji" name="frame_agility.png" path="/res2/"/>
+    <image id="fxnjj" name="bg_upgrade.png" path="/res2/"/>
+    <image id="fxnjs" name="dec_arrow.png" path="/res2/"/>
+    <image id="fxnjw" name="frame_task reward3.png" path="/res2/" exported="true"/>
+    <image id="fxnjx" name="frame_task reward1.png" path="/res2/" exported="true"/>
+    <image id="fxnjy" name="frame_progress bar.png" path="/res2/"/>
+    <image id="fxnjz" name="frame_life.png" path="/res2/"/>
+    <image id="fxnj10" name="frame_defence.png" path="/res2/"/>
+    <image id="fxnj11" name="frame_before upgrading.png" path="/res2/"/>
+    <image id="fxnj12" name="frame_attack.png" path="/res2/"/>
+    <image id="fxnj14" name="frame_after upgrading.png" path="/res2/"/>
+    <image id="bhy615" name="frame_task reward2.png" path="/res2/" exported="true"/>
+    <component id="fe121g" name="group_stage.xml" path="/"/>
+    <image id="oxm51h" name="frame_tupojinjie.png" path="/res2/"/>
+    <image id="oxm51i" name="frame_tupojinjie2.png" path="/res2/"/>
+    <image id="oxm51j" name="frame_tupojinjie3.png" path="/res2/"/>
+    <image id="oxm51k" name="frame_zhanlidi.png" path="/res2/"/>
+    <image id="oxm51n" name="frame_jindutiaobig.png" path="/res2/"/>
+    <image id="oxm51o" name="frame_jindutiaobig2.png" path="/res2/" scale="9grid" scale9grid="14,5,7,10"/>
+    <image id="oxm51p" name="bd_dujie.png" path="/res2/"/>
+    <image id="oxm51q" name="des_left scroll.png" path="/res2/"/>
+    <image id="oxm51r" name="des_right scroll.png" path="/res2/"/>
+    <component id="oxm51s" name="bar_blood.xml" path="/"/>
+    <image id="oxm51v" name="des_zhong-scroll.png" path="/res2/"/>
+    <component id="oxm51w" name="group_start.xml" path="/"/>
+    <component id="hcz71x" name="group_breakStage.xml" path="/"/>
+    <image id="er9z1z" name="word_wujingtupo.png" path="/res2/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

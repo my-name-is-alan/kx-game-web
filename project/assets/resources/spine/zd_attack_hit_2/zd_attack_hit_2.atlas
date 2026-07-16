@@ -1,0 +1,104 @@
+
+zd_attack_hit_2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/hit1/hit1_00
+  rotate: false
+  xy: 497, 621
+  size: 173, 173
+  orig: 315, 315
+  offset: 71, 71
+  index: -1
+effect/hit1/hit1_01
+  rotate: false
+  xy: 408, 382
+  size: 237, 237
+  orig: 315, 315
+  offset: 39, 39
+  index: -1
+effect/hit1/hit1_02
+  rotate: false
+  xy: 183, 409
+  size: 223, 223
+  orig: 315, 315
+  offset: 46, 46
+  index: -1
+effect/hit1/hit1_04
+  rotate: false
+  xy: 672, 613
+  size: 179, 178
+  orig: 315, 315
+  offset: 70, 74
+  index: -1
+effect/hit1/hit1_06
+  rotate: true
+  xy: 2, 466
+  size: 178, 179
+  orig: 315, 315
+  offset: 70, 75
+  index: -1
+effect/hit1/hit1_08
+  rotate: false
+  xy: 318, 634
+  size: 177, 161
+  orig: 315, 315
+  offset: 71, 76
+  index: -1
+effect/hit1/hit1_10
+  rotate: false
+  xy: 314, 797
+  size: 167, 142
+  orig: 315, 315
+  offset: 74, 95
+  index: -1
+effect/hit1/hit1_12
+  rotate: false
+  xy: 151, 646
+  size: 165, 149
+  orig: 315, 315
+  offset: 75, 93
+  index: -1
+effect/hit1/hit1_14
+  rotate: true
+  xy: 2, 711
+  size: 157, 147
+  orig: 315, 315
+  offset: 77, 95
+  index: -1
+effect/hit1/hit1_16
+  rotate: false
+  xy: 635, 796
+  size: 154, 143
+  orig: 315, 315
+  offset: 74, 100
+  index: -1
+effect/hit1/hit1_18
+  rotate: false
+  xy: 791, 793
+  size: 148, 146
+  orig: 315, 315
+  offset: 76, 99
+  index: -1
+effect/hit1/hit1_20
+  rotate: false
+  xy: 483, 797
+  size: 150, 142
+  orig: 315, 315
+  offset: 73, 99
+  index: -1
+effect/hit1/hit1_22
+  rotate: false
+  xy: 159, 812
+  size: 153, 127
+  orig: 315, 315
+  offset: 70, 116
+  index: -1
+effect/hit1/hit1_24
+  rotate: false
+  xy: 2, 870
+  size: 155, 69
+  orig: 315, 315
+  offset: 67, 113
+  index: -1

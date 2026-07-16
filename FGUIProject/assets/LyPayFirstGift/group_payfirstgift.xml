@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n13_jf46" name="n13" src="j69r2" fileName="firstgift/frame_shouchongdiban2.png" xy="15,-180"/>
+    <image id="n26_j69r" name="n26" src="j69ri" fileName="firstgift/frame_huangnvxia.png" xy="100,-127"/>
+    <image id="n27_j69r" name="n27" src="j69rp" fileName="firstgift/frame_shouchongdiban3.png" xy="91,346"/>
+    <image id="n35_j69r" name="n35" src="j69rs" fileName="firstgift/word_chuanshuobanlv.png" xy="70,147"/>
+    <image id="n28_j69r" name="n28" src="j69rh" fileName="firstgift/frame_fanlidi.png" xy="68,280"/>
+    <image id="n14_jf46" name="n14" src="j69r4" fileName="firstgift/frame_diaopai.png" xy="608,0"/>
+    <image id="n25_j69r" name="n25" src="j69rg" fileName="firstgift/frame_chuanshuo.png" xy="604,52"/>
+    <image id="n24_j69r" name="n24" src="j69rn" fileName="firstgift/word_huangnvxia.png" xy="616,138"/>
+    <component id="n1_f4zx" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="605,-70"/>
+    <image id="n31_j69r" name="n31" src="j69rm" fileName="firstgift/word_5000.png" xy="135,280">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n30_j69r" name="n30" src="j69rl" fileName="firstgift/word_4000.png" xy="135,280">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n29_j69r" name="n29" src="j69rk" fileName="firstgift/word_3000.png" xy="135,280">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <component id="n41_oxdb" name="group_draw" src="oxdb11" fileName="firstgift/group_drawitem.xml" xy="82,6"/>
+    <component id="n33_j69r" name="btn_play" src="j69rr" fileName="firstgift/btn_play.xml" xy="515,298"/>
+    <list id="n32_j69r" name="list_item" xy="103,405" size="533,340" defaultItem="ui://8pumt1gij69rq" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <component id="n23_jf46" name="btn_pay" src="j69r5" fileName="firstgift/btn_normal1.xml" xy="260,755">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <image id="n40_j69r" name="img_paydone" src="j69r10" fileName="ui/frame_yigoumai.png" pkg="27utqbiz" xy="288,755"/>
+    <component id="n42_t09v" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="457,700" visible="false"/>
+    <image id="n36_j69r" name="n36" src="j69rt" fileName="firstgift/frame_countdown.png" xy="144,829" size="443,60" group="n39_j69r"/>
+    <image id="n34_j69r" name="n34" src="j69ro" fileName="firstgift/word_zhandoujiasu.png" xy="228,823" group="n39_j69r">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n22_jf46" name="label_desc" xy="240,861" size="256,27" group="n39_j69r" font="ui://27utqbizps391v" fontSize="18" color="#ecb176" vAlign="middle" text="（需要在当前页面充值后激活）">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n39_j69r" name="group_speed" xy="144,823" size="443,66" advanced="true"/>
+    <list id="n38_j69r" name="list_group" xy="0,900" size="750,100" layout="flow_hz" scroll="horizontal" colGap="30" defaultItem="ui://8pumt1gij69rx" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

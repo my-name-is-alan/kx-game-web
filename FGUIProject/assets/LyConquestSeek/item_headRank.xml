@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="586,103">
+  <displayList>
+    <image id="n52_tc1u" name="n52" src="tc1u4o" fileName="res/frame_juxingdi.png" xy="0,3"/>
+    <image id="n55_tc1u" name="n55" src="tc1u4s" fileName="res/frame_touxiangdi.png" xy="33,19"/>
+    <loader id="n39_tc1u" name="img_iconFrame" xy="14,0" size="102,102" aspect="true" url="ui://27utqbizyn25du189" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <text id="n40_tc1u" name="label_monsterAttr1" xy="193,39" size="48,32" fontSize="22" align="center" vAlign="middle" autoClearText="true" text="萨达"/>
+    <text id="n41_tc1u" name="label_monsterAttr2" xy="344,39" size="48,32" fontSize="22" align="center" vAlign="middle" autoClearText="true" text="萨达"/>
+    <text id="n42_tc1u" name="label_monsterAttr3" xy="494,39" size="48,32" fontSize="22" align="center" vAlign="middle" autoClearText="true" text="萨达"/>
+    <image id="n56_tc1u" name="n56" src="me8jqw" fileName="ui/frame_countdown.png" pkg="27utqbiz" xy="18,66" size="93,28"/>
+    <text id="n57_tc1u" name="label_rank" xy="0,65" size="135,29" font="ui://27utqbizps391v" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="10-90名"/>
+  </displayList>
+</component>

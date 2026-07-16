@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1cz6b9rk">
+  <resources>
+    <component id="oaf10" name="LyBackPack.xml" path="/" exported="true"/>
+    <component id="bh8059" name="LyBagRandom.xml" path="/" exported="true"/>
+    <image id="bh806" name="frame_selected tab.png" path="/res/"/>
+    <image id="bh807" name="frame_tab.png" path="/res/"/>
+    <image id="bh808" name="word_compose_selected.png" path="/res/"/>
+    <image id="bh809" name="word_compose_unselected.png" path="/res/"/>
+    <image id="bh80a" name="word_prop_selected.png" path="/res/"/>
+    <image id="bh80b" name="word_prop_unselected.png" path="/res/"/>
+    <component id="bh80c" name="btn_property.xml" path="/"/>
+    <component id="bh80d" name="btn_craft.xml" path="/"/>
+    <component id="bh80e" name="LyItemCraft.xml" path="/" exported="true"/>
+    <image id="bh80f" name="dec_tab partition line.png" path="/res/"/>
+    <component id="hvzw5c" name="LyBagRandomMain.xml" path="/"/>
+    <component id="sjma5d" name="LyBagChoose.xml" path="/" exported="true"/>
+    <component id="sjma5e" name="LyBagChooseMain.xml" path="/"/>
+    <component id="sjma5h" name="group_theChoose.xml" path="/" exported="true"/>
+    <component id="sjma5j" name="group_itemChoose.xml" path="/" exported="true"/>
+    <image id="sjma5k" name="frame_amount.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

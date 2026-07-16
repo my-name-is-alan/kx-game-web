@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="164,196">
+  <displayList>
+    <image id="n45_x3dl" name="n45" src="h8u4f" fileName="res/frame_zuobiaotouxiang.png" xy="0,0"/>
+    <component id="n48_x3dl" name="loader_icon" src="x3dlmr" fileName="Component1.xml" xy="25,35"/>
+  </displayList>
+</component>

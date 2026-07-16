@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="703,768" designImageOffsetX="-33" designImageOffsetY="-491">
+  <controller name="con_isAnd" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n1_f9xz" name="n1" xy="-2,0" size="682,768" group="n50_dxam" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n4_f9xz" name="label_zdms" xy="13,33" size="167,49" group="n50_dxam" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" align="center" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="[size=42]自[/size]动模式"/>
+    <image id="n53_q8va" name="n53" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="31,118" size="621,82" group="n39_f9xz"/>
+    <text id="n10_f9xz" name="label_zbpz" xy="58,139" size="116,39" group="n39_f9xz" font="ui://27utqbizps391v" fontSize="28" color="#333333" align="center" vAlign="middle" autoClearText="true" text="装备品质"/>
+    <component id="n87_nexh" name="cbox_quality" src="nexhsn" fileName="combo_prop3.xml" pkg="27utqbiz" xy="190,137" group="n39_f9xz">
+      <ComboBox title="aaa" visibleItemCount="10"/>
+    </component>
+    <group id="n39_f9xz" name="n39" xy="31,118" size="621,82" group="n50_dxam"/>
+    <image id="n55_q8va" name="n55" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="31,210" size="621,241" group="n40_f9xz"/>
+    <text id="n19_f9xz" name="label_he" xy="382,321" size="24,29" group="n40_f9xz" fontSize="20" color="#16191a" autoClearText="true" text="和"/>
+    <text id="n33_f9xz" name="label_he2" xy="382,401" size="24,29" group="n40_f9xz" fontSize="20" color="#16191a" autoClearText="true" text="和"/>
+    <component id="n57_q8va" name="btn_ts" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="235,256" size="103,50" group="n48_dxam">
+      <Button checked="true" title="同时" controller="con_isAnd" page="0"/>
+    </component>
+    <component id="n58_q8va" name="btn_h" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="341,256" size="92,50" group="n48_dxam">
+      <Button title="或" controller="con_isAnd" page="1"/>
+    </component>
+    <group id="n48_dxam" name="group_isAnd1" xy="235,256" size="198,50" group="n40_f9xz" advanced="true"/>
+    <component id="n59_q8va" name="btn_ts1" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="235,256" size="101,50" group="n49_dxam" touchable="false">
+      <Button title="同时1"/>
+    </component>
+    <component id="n60_q8va" name="btn_h1" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="341,256" size="90,50" group="n49_dxam" touchable="false">
+      <Button title="或1"/>
+    </component>
+    <group id="n49_dxam" name="group_isAnd2" xy="235,256" size="196,50" group="n40_f9xz" visible="false" advanced="true"/>
+    <component id="n56_q8va" name="btn_combatPower" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="57,216" size="260,50" group="n40_f9xz">
+      <Button title="装备战力提升时停止"/>
+    </component>
+    <component id="n63_q8va" name="btn_attr1" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="57,307" size="100,50" group="n40_f9xz">
+      <Button title="属性"/>
+    </component>
+    <component id="n67_q8va" name="btn_attr2" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="57,390" size="100,50" group="n40_f9xz">
+      <Button title="属性"/>
+    </component>
+    <component id="n81_t0if" name="cbox_battleAttr1" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="173,313" size="158,50" group="n40_f9xz">
+      <ComboBox title="aa" visibleItemCount="10"/>
+    </component>
+    <component id="n82_t0if" name="cbox_defenseAttr1" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="455,313" size="158,50" group="n40_f9xz">
+      <ComboBox title="aa" visibleItemCount="10"/>
+    </component>
+    <component id="n83_t0if" name="cbox_battleAttr2" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="173,391" size="158,50" group="n40_f9xz">
+      <ComboBox title="aa" visibleItemCount="10"/>
+    </component>
+    <component id="n84_t0if" name="cbox_defenseAttr2" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="455,391" size="158,50" group="n40_f9xz">
+      <ComboBox title="aa" visibleItemCount="10"/>
+    </component>
+    <text id="n90_nexh" name="label_huo" xy="239,364" size="24,29" group="n40_f9xz" fontSize="20" color="#16191a" vAlign="middle" autoClearText="true" text="或"/>
+    <graph id="n92_nexh" name="btn_attrAdd" xy="50,304" size="111,139" group="n40_f9xz" type="rect" lineSize="0" fillColor="#00ffffff"/>
+    <group id="n40_f9xz" name="n40" xy="31,210" size="621,241" group="n50_dxam"/>
+    <image id="n70_q8va" name="n70" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="31,461" size="621,160" group="n41_f9xz"/>
+    <text id="n35_f9xz" name="label_tl" xy="355,574" size="52,34" group="n41_f9xz" fontSize="24" color="#16191a" vAlign="middle" autoClearText="true" text="体力"/>
+    <component id="n71_q8va" name="btn_ticket" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="57,467" size="221,50" group="n41_f9xz">
+      <Button title="挑战状满时停止"/>
+    </component>
+    <component id="n72_q8va" name="btn_speed" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="57,516" size="153,50" group="n41_f9xz">
+      <Button title="锤炼加速"/>
+    </component>
+    <component id="n73_q8va" name="btn_count" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="57,567" size="183,50" group="n41_f9xz">
+      <Button title="基础锤炼消耗"/>
+    </component>
+    <component id="n86_t0if" name="cbox_count" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="252,568" size="100,49" group="n41_f9xz">
+      <ComboBox title="aa" visibleItemCount="10"/>
+    </component>
+    <text id="n89_nexh" name="label_str18" xy="197,524" size="10,34" group="n41_f9xz" fontSize="24" color="#ff0000" vAlign="middle" text=""/>
+    <group id="n41_f9xz" name="n41" xy="31,461" size="621,160" group="n50_dxam"/>
+    <component id="n51_xq64" name="btn_start" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="234,642" group="n42_f9xz"/>
+    <richtext id="n37_f9xz" name="label_fj" xy="197,696" size="292,34" group="n42_f9xz" fontSize="22" color="#16191a" align="center" vAlign="middle" ubb="true" autoSize="none" text="条件不足的装备将自动分解"/>
+    <group id="n42_f9xz" name="n42" xy="197,642" size="292,88" group="n50_dxam"/>
+    <component id="n54_q8va" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="620,40" group="n50_dxam"/>
+    <group id="n50_dxam" name="n50" xy="-2,0" size="700,768" advanced="true"/>
+    <image id="n91_nexh" name="n91" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="520,587"/>
+  </displayList>
+</component>

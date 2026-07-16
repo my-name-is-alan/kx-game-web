@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="650,686">
+  <displayList>
+    <image id="n1_85qw" name="n1" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,29" size="627,657"/>
+    <image id="n3_85qw" name="n3" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="23,83" size="578,539"/>
+    <component id="n2_85qw" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="572,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <list id="n10_85qw" name="list_all" xy="55,107" size="529,494" overflow="scroll" lineGap="10" defaultItem="ui://i35cf1mq85qwdu199">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,920" pivot="0.5,0.5">
+  <displayList>
+    <loader3D id="n8_l1tk" name="loader_3deffect" xy="124,549" size="1,1" animation="" skin="" loop="true"/>
+    <loader id="n2_cgkl" name="loader_qua" xy="0,0" size="250,920" url="ui://xcpqvzp3cgkl3l"/>
+    <component id="n5_cgkl" name="loader_icon" src="t7uv4q" fileName="3d.xml" xy="63,350" size="122,392"/>
+    <loader id="n6_l1tk" name="loader_di" xy="58,641" size="134,144" url="ui://xcpqvzp3l1tk4v" autoSize="true"/>
+    <image id="n3_cgkl" name="n3" src="y9su1m" fileName="ui/icon_piece.png" pkg="27utqbiz" xy="93,737" size="24,22" aspect="true"/>
+    <richtext id="n4_cgkl" name="label_count" xy="115,727" size="40,39" font="ui://27utqbizps391v" fontSize="28" color="#72746a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="1"/>
+    <image id="n9_koor" name="n9" src="koorry" fileName="res/main/frame_card.png" xy="34,-1"/>
+    <loader3D id="n10_h7sm" name="loader_card" xy="121,427" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+  <transition name="t0"/>
+</component>

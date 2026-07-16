@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <component id="n0_bza8" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="0,0"/>
+  </displayList>
+  <transition name="t0" options="4" autoPlayRepeat="0">
+    <item time="0" type="Pivot" target="n0_bza8" value="0.5,0.5"/>
+    <item time="0" type="Rotation" target="n0_bza8" tween="true" startValue="0" endValue="20" duration="5" ease="Linear"/>
+    <item time="5" type="Rotation" target="n0_bza8" tween="true" startValue="20" endValue="20" duration="5" ease="Linear"/>
+    <item time="10" type="Rotation" target="n0_bza8" tween="true" startValue="20" endValue="-20" duration="5"/>
+    <item time="15" type="Rotation" target="n0_bza8" tween="true" startValue="-20" endValue="0" duration="5" ease="Linear"/>
+    <item time="20" type="Rotation" target="n0_bza8" tween="true" startValue="0" endValue="0" duration="4" ease="Linear"/>
+  </transition>
+</component>

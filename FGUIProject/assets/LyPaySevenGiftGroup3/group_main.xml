@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1230">
+  <displayList>
+    <image id="n58_ijfm" name="n58" src="ijfmk" fileName="res/bg_meirilibao3.png" xy="0,-44"/>
+    <component id="n40_ba5i" name="group_spine_ram2" src="ijfmj" fileName="group_player2.xml" xy="307,585" rotation="-52"/>
+    <image id="n61_ijfm" name="n61" src="ijfmo" fileName="res/frame_guang.png" xy="49,26"/>
+    <component id="n67_ijfm" name="group_spine_ram" src="ijfmy" fileName="group_player.xml" xy="546,688"/>
+    <component id="n34_ba5i" name="btn_close" src="ijfm0" fileName="res/btn_close1.xml" xy="653,30"/>
+    <image id="n59_ijfm" name="n59" src="ijfmt" fileName="res/frame_zhongshenyici3.png" xy="656,107"/>
+    <image id="n62_ijfm" name="n62" src="ijfmq" fileName="res/frame_mengbanhuang.png" xy="239,476" size="462,159"/>
+    <image id="n66_ijfm" name="n66" src="ijfmr" fileName="res/frame_name3.png" xy="480,517"/>
+    <image id="n68_ijfm" name="n68" src="ijfmr" fileName="res/frame_name3.png" xy="48,458"/>
+    <image id="n63_ijfm" name="n63" src="ijfms" fileName="res/frame_xialvpian.png" xy="605,121"/>
+    <image id="n64_ijfm" name="n64" src="ijfmp" fileName="res/frame_kaifuxianding3.png" xy="48,671"/>
+    <image id="n65_ijfm" name="n65" src="ijfmv" fileName="res/word_erxuanyi.png" xy="116,521"/>
+    <image id="n60_ijfm" name="n60" src="ijfmn" fileName="res/frame_daoju3.png" xy="40,768"/>
+    <list id="n11_cjmr" name="list_item" xy="105,787" size="540,100" layout="flow_hz" overflow="scroll" scroll="horizontal" scrollBarFlags="640" colGap="10" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n50_itlt" name="img_arrow" src="isca10" fileName="group_rate.xml" xy="590,787" pivot="0.5,0.5" anchor="true"/>
+    <text id="n45_ba5i" name="label_name" xy="525,465" size="77,50" font="ui://27utqbizps391v" fontSize="37" color="#ffffff" align="right" vAlign="middle" strokeColor="#c9965b" strokeSize="2" autoClearText="true" text="龙儿">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n69_ijfm" name="label_name2" xy="93,406" size="77,50" font="ui://27utqbizps391v" fontSize="37" color="#ffffff" align="right" vAlign="middle" strokeColor="#c9965b" strokeSize="2" autoClearText="true" text="龙儿">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n49_ba5i" name="label_desc" xy="515,516" size="100,34" font="ui://27utqbizps391v" fontSize="24" color="#fcf1dd" align="right" vAlign="middle" autoClearText="true" text="反击连击">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n70_ijfm" name="label_desc2" xy="83,457" size="100,34" font="ui://27utqbizps391v" fontSize="24" color="#fcf1dd" align="right" vAlign="middle" autoClearText="true" text="反击连击">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n12_ut5y" name="label_time" xy="299,708" size="152,34" font="ui://27utqbizps391v" fontSize="24" color="#a54336" align="center" vAlign="middle" autoClearText="true" text="活动剩余：{0}">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n37_ba5i" name="label_count" xy="316,932" size="118,34" font="ui://27utqbizps391v" fontSize="24" color="#a54336" vAlign="middle" autoClearText="true" text="每日限购：">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n73_kdi0" name="btn_detail" src="kdi0z" fileName="btn_plaint.xml" xy="476,444"/>
+    <component id="n72_kdi0" name="btn_detail2" src="kdi0z" fileName="btn_plaint.xml" xy="44,385"/>
+    <component id="n35_ba5i" name="btn_pay" src="ijfm4" fileName="res/btn_big.xml" xy="247,975">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <list id="n18_ehs5" name="list_group" xy="0,1125" size="750,106" layout="flow_hz" scroll="horizontal" colGap="5" defaultItem="ui://qq98aoneijfm5" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n74_pskq" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="470,950" visible="false"/>
+  </displayList>
+</component>

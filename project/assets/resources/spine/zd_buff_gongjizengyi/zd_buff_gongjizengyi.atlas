@@ -1,0 +1,118 @@
+
+zd_buff_gongjizengyi.png
+size: 1577,824
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/buff_gjzy1/buff_gjzy1_00
+  rotate: true
+  xy: 1412, 495
+  size: 327, 149
+  orig: 644, 582
+  offset: 155, 31
+  index: -1
+images/buff_gjzy1/buff_gjzy1_02
+  rotate: true
+  xy: 2, 5
+  size: 339, 358
+  orig: 644, 582
+  offset: 146, 8
+  index: -1
+images/buff_gjzy1/buff_gjzy1_04
+  rotate: false
+  xy: 1062, 477
+  size: 348, 345
+  orig: 644, 582
+  offset: 137, 32
+  index: -1
+images/buff_gjzy1/buff_gjzy1_06
+  rotate: false
+  xy: 362, 6
+  size: 313, 338
+  orig: 644, 582
+  offset: 170, 42
+  index: -1
+images/buff_gjzy1/buff_gjzy1_08
+  rotate: false
+  xy: 2, 346
+  size: 527, 476
+  orig: 644, 582
+  offset: 66, 48
+  index: -1
+images/buff_gjzy1/buff_gjzy1_09
+  rotate: false
+  xy: 531, 356
+  size: 529, 466
+  orig: 644, 582
+  offset: 65, 52
+  index: -1
+images/buff_gjzy1/buff_gjzy1_10
+  rotate: true
+  xy: 677, 50
+  size: 304, 367
+  orig: 644, 582
+  offset: 180, 58
+  index: -1
+images/buff_gjzy1/buff_gjzy1_12
+  rotate: true
+  xy: 1062, 239
+  size: 236, 300
+  orig: 644, 582
+  offset: 221, 81
+  index: -1
+images/buff_gjzy1/buff_gjzy1_14
+  rotate: true
+  xy: 1046, 19
+  size: 218, 231
+  orig: 644, 582
+  offset: 229, 153
+  index: -1
+images/buff_gjzy1/buff_gjzy1_16
+  rotate: true
+  xy: 1364, 292
+  size: 183, 211
+  orig: 644, 582
+  offset: 248, 175
+  index: -1
+images/buff_gjzy1/buff_gjzy1_18
+  rotate: false
+  xy: 1279, 120
+  size: 110, 117
+  orig: 644, 582
+  offset: 248, 272
+  index: -1
+images/buff_gjzy1/buff_gjzy1_20
+  rotate: false
+  xy: 1279, 2
+  size: 50, 116
+  orig: 644, 582
+  offset: 302, 274
+  index: -1
+images/buff_gjzy1/buff_gjzy1_22
+  rotate: true
+  xy: 1364, 241
+  size: 49, 113
+  orig: 644, 582
+  offset: 302, 276
+  index: -1
+images/buff_gjzy1/buff_gjzy1_24
+  rotate: false
+  xy: 1331, 14
+  size: 47, 104
+  orig: 644, 582
+  offset: 302, 280
+  index: -1
+images/buff_gjzy1/buff_gjzy1_26
+  rotate: true
+  xy: 677, 9
+  size: 39, 92
+  orig: 644, 582
+  offset: 307, 282
+  index: -1
+images/buff_gjzy1/buff_gjzy1_28
+  rotate: true
+  xy: 1479, 249
+  size: 41, 90
+  orig: 644, 582
+  offset: 304, 284
+  index: -1

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n11_kcwh" name="n11" xy="53,8" size="60,39" font="ui://27utqbizps391v" fontSize="28" color="#c8c5a7" vAlign="middle" text="属性">
+      <gearDisplay controller="button" pages="0,2"/>
+    </text>
+    <image id="n12_kcwh" name="n12" src="bh806" fileName="ui/frame_selected tab.png" pkg="27utqbiz" xy="-2,-2" group="n14_kcwh"/>
+    <text id="n13_kcwh" name="n13" xy="53,8" size="60,39" group="n14_kcwh" font="ui://27utqbizps391v" fontSize="28" color="#f2ecb0" vAlign="middle" text="属性"/>
+    <group id="n14_kcwh" name="n14" xy="-2,-2" size="170,60" advanced="true">
+      <gearDisplay controller="button" pages="1,3"/>
+    </group>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

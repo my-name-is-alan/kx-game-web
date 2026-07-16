@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="cv8q519n">
+  <resources>
+    <component id="upe30" name="LyActivityReincarnationHall.xml" path="/" exported="true"/>
+    <component id="upe3e" name="group_itemgift.xml" path="/"/>
+    <component id="upe3g" name="group_itemtask.xml" path="/"/>
+    <image id="upe3k" name="bg_lunhuidianbeijing2.png" path="/res/"/>
+    <image id="upe3l" name="bg_lunhuidianbeijing3.png" path="/res/" scale="9grid" scale9grid="187,434,374,95"/>
+    <image id="upe3m" name="frame_neirongdiban.png" path="/res/" scale9grid="182,37,364,76"/>
+    <component id="upe3n" name="bar_progress.xml" path="/"/>
+    <component id="upe3o" name="GroupItem2.xml" path="/"/>
+    <image id="upe3p" name="btn_anniuzi.png" path="/res/"/>
+    <component id="upe3q" name="btn_goto.xml" path="/"/>
+    <image id="upe3r" name="frame_mingzidibanlan.png" path="/res/"/>
+    <component id="vvmqt" name="btn_close.xml" path="/"/>
+    <image id="dwjn16" name="frame_ziyuanxiangqingbuchongshuoming2.png" path="/res/"/>
+    <image id="fk1y17" name="pic_canwumiji.png" path="/poster/" exported="true"/>
+    <image id="fk1y18" name="pic_jiebanxialv.png" path="/poster/" exported="true"/>
+    <image id="fk1y19" name="pic_shoujishenbing.png" path="/poster/" exported="true"/>
+    <image id="fk1y1a" name="pic_zhaomumenke.png" path="/poster/" exported="true"/>
+    <image id="k8j01c" name="pic_canwumiji1.png" path="/poster/" exported="true"/>
+    <image id="k8j01d" name="pic_jiebanxialv1.png" path="/poster/" exported="true"/>
+    <image id="k8j01e" name="pic_shoujishenbing1.png" path="/poster/" exported="true"/>
+    <image id="k8j01f" name="pic_zhaomumenke1.png" path="/poster/" exported="true"/>
+    <image id="jcwk1g" name="word_zhoutiangubei.png" path="/res/"/>
+    <image id="vv891h" name="frame_zhezhao.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

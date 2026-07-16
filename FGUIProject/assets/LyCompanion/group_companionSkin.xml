@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="195,255">
+  <displayList>
+    <loader id="n25_isiv" name="loader_qu" xy="0,0" size="192,258" scale="0.8,0.8" url="ui://l32lh3odisiv2l"/>
+    <loader id="n24_isiv" name="img_icon" xy="0,0" size="152,205" url="ui://l32lh3odrp9115" align="center" vAlign="middle" fill="scaleMatchHeight" clearOnPublish="true"/>
+    <image id="n21_isiv" name="img_lock" src="isiv2l" fileName="res2/companion_bg4.png" xy="0,1" scale="0.8,0.8" alpha="0.5" color="#000000"/>
+    <text id="n13_fj2b" name="label_skinName" xy="-5,220" size="160,34" font="ui://27utqbizps391v" fontSize="21" color="#39404f" align="center" vAlign="middle" autoSize="none" text="金秋赏菊"/>
+    <image id="n17_kcwh" name="n17" src="rp9120" fileName="res2/frame_nametiao4.png" xy="11,217" group="n19_kcwh"/>
+    <text id="n18_kcwh" name="label_str26" xy="41,219" size="67,30" group="n19_kcwh" font="ui://27utqbizps391v" fontSize="21" color="#69381c" vAlign="middle" text="已幻化"/>
+    <group id="n19_kcwh" name="group_use" xy="11,217" size="184,38" visible="false" advanced="true"/>
+  </displayList>
+</component>

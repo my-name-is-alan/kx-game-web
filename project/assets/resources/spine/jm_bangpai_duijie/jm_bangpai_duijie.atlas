@@ -1,0 +1,174 @@
+
+jm_bangpai_duijie.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bangpai_zuijue01
+  rotate: false
+  xy: 260, 214
+  size: 225, 236
+  orig: 230, 241
+  offset: 4, 3
+  index: -1
+bangpai_zuijue02
+  rotate: true
+  xy: 2, 74
+  size: 113, 98
+  orig: 113, 98
+  offset: 0, 0
+  index: -1
+bangpai_zuijue03
+  rotate: false
+  xy: 102, 78
+  size: 108, 109
+  orig: 108, 109
+  offset: 0, 0
+  index: -1
+bangpai_zuijue04
+  rotate: false
+  xy: 2, 706
+  size: 304, 316
+  orig: 304, 316
+  offset: 0, 0
+  index: -1
+bangpai_zuijue05
+  rotate: true
+  xy: 231, 452
+  size: 252, 221
+  orig: 255, 224
+  offset: 2, 1
+  index: -1
+bangpai_zuijue06
+  rotate: true
+  xy: 2, 447
+  size: 257, 227
+  orig: 260, 231
+  offset: 1, 2
+  index: -1
+hg1
+  rotate: false
+  xy: 397, 4
+  size: 215, 208
+  orig: 260, 231
+  offset: 24, 11
+  index: -1
+images/qx_01
+  rotate: false
+  xy: 212, 83
+  size: 99, 104
+  orig: 128, 128
+  offset: 16, 12
+  index: -1
+images/qx_02
+  rotate: false
+  xy: 308, 920
+  size: 101, 102
+  orig: 128, 128
+  offset: 15, 13
+  index: -1
+images/qx_03
+  rotate: true
+  xy: 308, 816
+  size: 102, 94
+  orig: 128, 128
+  offset: 14, 17
+  index: -1
+images/qx_04
+  rotate: true
+  xy: 308, 714
+  size: 100, 97
+  orig: 128, 128
+  offset: 16, 15
+  index: -1
+images/qx_05
+  rotate: false
+  xy: 404, 818
+  size: 96, 100
+  orig: 128, 128
+  offset: 18, 14
+  index: -1
+images/qx_06
+  rotate: true
+  xy: 234, 2
+  size: 79, 71
+  orig: 128, 128
+  offset: 25, 28
+  index: -1
+images/qx_07
+  rotate: false
+  xy: 313, 148
+  size: 78, 64
+  orig: 128, 128
+  offset: 28, 31
+  index: -1
+images/qx_08
+  rotate: true
+  xy: 454, 648
+  size: 83, 63
+  orig: 128, 128
+  offset: 27, 30
+  index: -1
+images/qx_09
+  rotate: false
+  xy: 143, 3
+  size: 89, 73
+  orig: 128, 128
+  offset: 24, 27
+  index: -1
+images/qx_10
+  rotate: false
+  xy: 407, 733
+  size: 77, 83
+  orig: 128, 128
+  offset: 37, 22
+  index: -1
+images/qx_11
+  rotate: false
+  xy: 411, 926
+  size: 75, 96
+  orig: 128, 128
+  offset: 39, 16
+  index: -1
+images/qx_12
+  rotate: true
+  xy: 307, 3
+  size: 78, 88
+  orig: 128, 128
+  offset: 37, 20
+  index: -1
+images/qx_13
+  rotate: false
+  xy: 488, 936
+  size: 72, 86
+  orig: 128, 128
+  offset: 40, 21
+  index: -1
+images/qx_14
+  rotate: true
+  xy: 2, 3
+  size: 69, 77
+  orig: 128, 128
+  offset: 40, 27
+  index: -1
+images/qx_15
+  rotate: false
+  xy: 81, 6
+  size: 60, 66
+  orig: 128, 128
+  offset: 48, 33
+  index: -1
+images/qx_16
+  rotate: true
+  xy: 313, 91
+  size: 55, 13
+  orig: 128, 128
+  offset: 50, 51
+  index: -1
+qx2
+  rotate: false
+  xy: 2, 189
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1

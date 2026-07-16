@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1142">
+  <displayList>
+    <loader id="n56_fxnj" name="n56" xy="25,0" size="699,1097" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <image id="n55_fxnj" name="n55" src="fxnjj" fileName="res2/bg_upgrade.png" xy="45,-9"/>
+    <richtext id="n58_fxnj" name="label_str4" xy="47,30" size="176,49" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" leading="0" letterSpacing="-4" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" autoClearText="true" text="[size=42]武[/size]境提升"/>
+    <image id="n57_fxnj" name="n57" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="578,925"/>
+    <image id="n61_fxnj" name="n61" src="fxnj11" fileName="res2/frame_before upgrading.png" xy="262,127" group="n12_mnt8"/>
+    <text id="n11_mnt8" name="label_stage1" xy="270,187" size="31,254" group="n12_mnt8" font="ui://27utqbizps391v" fontSize="28" color="#4397c1" align="center" leading="0" autoSize="none" autoClearText="true" text="初出茅·庐"/>
+    <group id="n12_mnt8" name="n12" xy="262,127" size="50,314"/>
+    <image id="n60_fxnj" name="n60" src="fxnj14" fileName="res2/frame_after upgrading.png" xy="388,35" group="n16_mnt8"/>
+    <component id="n91_o56w" name="group_stage" src="fe121g" fileName="group_stage.xml" xy="395,59" group="n16_mnt8"/>
+    <group id="n16_mnt8" name="n16" xy="388,35" size="70,402"/>
+    <text id="n87_o56w" name="label_str5_2" xy="459,217" size="36,129" font="ui://27utqbizps391v" fontSize="20" color="#3483aa" align="center" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="等级上限"/>
+    <text id="n86_o56w" name="label_str5_1" xy="317,224" size="20,151" font="ui://27utqbizps391v" fontSize="18" color="#4397c1" align="center" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="等级上限"/>
+    <text id="n26_mnt8" name="label_level1" xy="279,327" size="97,64" font="ui://27utqbizps391v" fontSize="22" color="#4397c1" align="center" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="12&#xA;级"/>
+    <text id="n27_mnt8" name="label_level2" xy="401,321" size="155,73" font="ui://27utqbizps391v" fontSize="28" color="#3483aa" align="center" leading="0" autoSize="none" autoClearText="true" text="15&#xA;级"/>
+    <image id="n65_fxnj" name="n65" src="fxnjy" fileName="res2/frame_progress bar.png" xy="45,606" group="n48_li64"/>
+    <component id="n36_mnt8" name="group_task1" src="mnt8d" fileName="group_task.xml" xy="81,653" group="n48_li64"/>
+    <component id="n43_mnt8" name="group_task2" src="mnt8d" fileName="group_task.xml" xy="281,653" group="n48_li64"/>
+    <component id="n44_mnt8" name="group_task3" src="mnt8d" fileName="group_task.xml" xy="481,653" group="n48_li64"/>
+    <text id="n49_li64" name="label_str3" xy="143,568" size="488,34" group="n48_li64" fontSize="24" color="#16191a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="达成下列所有条件且经验足够时方可晋升！"/>
+    <component id="n92_rc7m" name="bar_exp" src="rc7m63" fileName="bar_level1.xml" pkg="27utqbiz" xy="56,614" group="n48_li64">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <group id="n48_li64" name="n48" xy="45,568" size="662,375"/>
+    <component id="n67_o56w" name="btn_up" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,967"/>
+    <component id="n68_o56w" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <image id="n69_o56w" name="n69" src="fxnjz" fileName="res2/frame_life.png" xy="95,324"/>
+    <image id="n70_o56w" name="n70" src="fxnj10" fileName="res2/frame_defence.png" xy="384,396"/>
+    <image id="n71_o56w" name="n71" src="fxnj12" fileName="res2/frame_attack.png" xy="233,392"/>
+    <image id="n72_o56w" name="n72" src="fxnji" fileName="res2/frame_agility.png" xy="527,325"/>
+    <text id="n73_o56w" name="label_hp1" xy="107,369" size="115,34" font="ui://27utqbizps391v" fontSize="24" color="#0a9263" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="732"/>
+    <text id="n74_o56w" name="label_hp2" xy="107,395" size="115,42" font="ui://27utqbizps391v" fontSize="30" color="#096838" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="+153"/>
+    <text id="n80_o56w" name="label_attack1" xy="244,439" size="116,34" font="ui://27utqbizps391v" fontSize="24" color="#cc3028" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="732"/>
+    <text id="n81_o56w" name="label_attack2" xy="243,463" size="121,42" font="ui://27utqbizps391v" fontSize="30" color="#ab1616" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="+153"/>
+    <text id="n82_o56w" name="label_defense1" xy="394,439" size="116,34" font="ui://27utqbizps391v" fontSize="24" color="#0872b5" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="732"/>
+    <text id="n83_o56w" name="label_defense2" xy="394,463" size="117,42" font="ui://27utqbizps391v" fontSize="30" color="#036be0" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="+153"/>
+    <text id="n84_o56w" name="label_spd1" xy="536,369" size="116,34" font="ui://27utqbizps391v" fontSize="24" color="#c66200" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="732"/>
+    <text id="n85_o56w" name="label_spd2" xy="536,393" size="118,42" font="ui://27utqbizps391v" fontSize="30" color="#ad6a00" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="+153"/>
+  </displayList>
+</component>

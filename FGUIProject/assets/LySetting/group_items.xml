@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="590,210">
+  <displayList>
+    <component id="n22_ah8r" name="btn_notice" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="-1,2" group="n45_ana3">
+      <Button icon="ui://qr6acijcana35l"/>
+    </component>
+    <component id="n23_ah8r" name="btn_code" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="123,1" group="n45_ana3">
+      <Button icon="ui://qr6acijcana35k"/>
+    </component>
+    <component id="n26_ah8r" name="btn_blacklist" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="249,1" group="n45_ana3">
+      <Button icon="ui://qr6acijcana35n"/>
+    </component>
+    <component id="n24_ah8r" name="btn_agreement" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="374,2" group="n45_ana3">
+      <Button icon="ui://qr6acijcana35i"/>
+    </component>
+    <component id="n25_ah8r" name="btn_policy" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="499,2" group="n45_ana3">
+      <Button icon="ui://qr6acijcana35h"/>
+    </component>
+    <component id="n28_ah8r" name="btn_kefu" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="-1,102" group="n45_ana3">
+      <Button icon="ui://qr6acijcana35e"/>
+    </component>
+    <component id="n29_ah8r" name="btn_warn" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="123,102" group="n45_ana3" visible="false">
+      <Button icon="ui://qr6acijcana35f"/>
+    </component>
+    <component id="n44_ana3" name="n44" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="249,102" group="n45_ana3" visible="false">
+      <Button icon="ui://qr6acijcana35j"/>
+    </component>
+    <component id="n43_ana3" name="n43" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="374,102" group="n45_ana3" visible="false">
+      <Button icon="ui://qr6acijcana35g"/>
+    </component>
+    <component id="n27_ah8r" name="n27" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="499,102" group="n45_ana3" visible="false">
+      <Button icon="ui://qr6acijcana35m"/>
+    </component>
+    <group id="n45_ana3" name="n45" xy="-1,1" size="590,211" advanced="true"/>
+  </displayList>
+</component>

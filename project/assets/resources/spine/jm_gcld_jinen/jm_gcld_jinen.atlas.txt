@@ -1,0 +1,111 @@
+
+jm_gcld_jinen.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huoyun_001
+  rotate: false
+  xy: 181, 2
+  size: 41, 103
+  orig: 48, 106
+  offset: 4, 3
+  index: -1
+huoyun_002
+  rotate: false
+  xy: 2, 3
+  size: 44, 102
+  orig: 48, 106
+  offset: 2, 4
+  index: -1
+huoyun_003
+  rotate: false
+  xy: 48, 3
+  size: 43, 102
+  orig: 48, 106
+  offset: 1, 4
+  index: -1
+huoyun_004
+  rotate: false
+  xy: 93, 2
+  size: 42, 103
+  orig: 48, 106
+  offset: 2, 3
+  index: -1
+huoyun_005
+  rotate: false
+  xy: 137, 2
+  size: 42, 103
+  orig: 48, 106
+  offset: 2, 3
+  index: -1
+huoyun_007
+  rotate: false
+  xy: 224, 58
+  size: 44, 56
+  orig: 45, 57
+  offset: 1, 1
+  index: -1
+srjf_mz/srjf_mz_00
+  rotate: true
+  xy: 2, 301
+  size: 194, 192
+  orig: 200, 200
+  offset: 4, 4
+  index: -1
+srjf_mz/srjf_mz_02
+  rotate: true
+  xy: 2, 107
+  size: 192, 190
+  orig: 200, 200
+  offset: 5, 4
+  index: -1
+srjf_mz/srjf_mz_04
+  rotate: false
+  xy: 194, 116
+  size: 178, 183
+  orig: 200, 200
+  offset: 10, 8
+  index: -1
+srjf_mz/srjf_mz_06
+  rotate: false
+  xy: 356, 326
+  size: 161, 169
+  orig: 200, 200
+  offset: 19, 27
+  index: -1
+srjf_mz/srjf_mz_08
+  rotate: false
+  xy: 196, 321
+  size: 158, 174
+  orig: 200, 200
+  offset: 16, 24
+  index: -1
+srjf_mz/srjf_mz_10
+  rotate: false
+  xy: 374, 159
+  size: 152, 165
+  orig: 200, 200
+  offset: 22, 28
+  index: -1
+srjf_mz/srjf_mz_12
+  rotate: true
+  xy: 519, 347
+  size: 148, 145
+  orig: 200, 200
+  offset: 25, 28
+  index: -1
+srjf_mz/srjf_mz_14
+  rotate: true
+  xy: 374, 25
+  size: 132, 129
+  orig: 200, 200
+  offset: 32, 43
+  index: -1
+za
+  rotate: false
+  xy: 224, 3
+  size: 40, 53
+  orig: 40, 53
+  offset: 0, 0
+  index: -1

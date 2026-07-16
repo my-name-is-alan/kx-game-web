@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,490">
+  <displayList>
+    <image id="n52_ro4e" name="n52" src="ro4e1f" fileName="elite/frame_suipiandi.png" xy="55,0"/>
+    <image id="n57_ro4e" name="n57" src="ro4e1g" fileName="elite/frame_touming2.png" xy="83,38" size="584,350">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <list id="n61_ro4e" name="list_item" xy="85,42" size="580,340" layout="flow_hz" overflow="scroll" scrollBarFlags="64" colGap="20" defaultItem="ui://j6s22r8hro4e1l" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

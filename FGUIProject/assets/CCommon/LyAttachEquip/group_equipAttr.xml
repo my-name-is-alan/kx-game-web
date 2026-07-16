@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="191,32">
+  <displayList>
+    <text id="n120_mnt8" name="label_name" xy="0,0" size="48,32" fontSize="22" text="攻击"/>
+    <text id="n121_mnt8" name="label_num" xy="49,0" size="113,32" fontSize="22" align="right" autoSize="none" text="95151"/>
+    <loader id="n122_mnt8" name="img_icon" xy="172,2" size="19,26" url="ui://27utqbizlloiz"/>
+  </displayList>
+</component>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,450">
+  <displayList>
+    <image id="n12_vcsd" name="n12" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="35,0" size="680,450">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n13_vcsd" name="n13" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="153,31" size="431,38"/>
+    <text id="n14_vcsd" name="label_title" xy="363,30" size="10,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" text="">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n11_vcsd" name="n11" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="225,155" size="300,40">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n1_n7tl" name="input_account" xy="224,155" size="300,40" fontSize="20" vAlign="middle" autoSize="none" text="" input="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n15_vcsd" name="label_acount" xy="226,120" size="10,32" font="ui://27utqbizps391v" fontSize="22" color="#16191a" vAlign="middle" letterSpacing="3" text=""/>
+    <image id="n10_vcsd" name="n10" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="225,245" size="300,40">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n3_n7tl" name="input_password" xy="224,245" size="300,40" fontSize="20" vAlign="middle" autoSize="none" text="" input="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n16_vcsd" name="label_pass" xy="226,210" size="10,32" font="ui://27utqbizps391v" fontSize="22" color="#16191a" vAlign="middle" letterSpacing="3" text=""/>
+    <component id="n9_huv2" name="btn_cancel" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="120,350"/>
+    <component id="n8_huv2" name="btn_confirm" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="420,350"/>
+  </displayList>
+</component>

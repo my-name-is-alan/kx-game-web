@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="514,100">
+  <displayList>
+    <image id="n9_85qw" name="n9" src="k7xei" fileName="res/frame_zonglan2.png" xy="0,0" size="514,100"/>
+    <loader id="n4_85qw" name="icon_flag" xy="29,9" size="81,81" aspect="true" url="ui://27utqbizd373uv" fill="scale"/>
+    <text id="n5_85qw" name="label_name" xy="121,15" size="192,33" fontSize="22" autoSize="none" text="超欧"/>
+    <component id="n6_85qw" name="pro_hp" src="jhmn2n" fileName="ProgressBar1.xml" xy="123,54" size="243,20" touchable="false">
+      <ProgressBar value="15" max="100"/>
+    </component>
+    <component id="n7_85qw" name="btn_atk" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="376,31" size="134,36" aspect="true">
+      <Button title="进攻" titleFontSize="24"/>
+    </component>
+  </displayList>
+</component>

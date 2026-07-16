@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="306,110" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_gm8n" name="n0" src="h8u48" fileName="res/frame_miwuxingshang.png" xy="0,-115">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n1_gm8n" name="n1" src="h8u48" fileName="res/frame_miwuxingshang.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n2_gm8n" name="n2" src="h8u48" fileName="res/frame_miwuxingshang.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+    </image>
+    <image id="n3_gm8n" name="n3" src="h8u48" fileName="res/frame_miwuxingshang.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+    </image>
+    <text id="n4_gm8n" name="title" xy="119,61" size="171,36" fontSize="24" color="#ffffff" align="right" vAlign="middle" autoSize="none" strokeColor="#6a4baf" strokeSize="2" text="00:00:00后过期"/>
+  </displayList>
+  <Button/>
+</component>

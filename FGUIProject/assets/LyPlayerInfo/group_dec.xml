@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,60" overflow="scroll">
+  <displayList>
+    <text id="n18_gur8" name="label_dec" xy="0,0" size="360,32" fontSize="22" color="#14980e" leading="0" autoSize="height" autoClearText="true" text="生命首次低于63？生命首次低"/>
+  </displayList>
+</component>

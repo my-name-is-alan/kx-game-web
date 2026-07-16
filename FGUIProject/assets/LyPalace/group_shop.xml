@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,650">
+  <displayList>
+    <image id="n107_ceii" name="n107" src="ceii2k" fileName="res/frame_tiandaoge.png" xy="0,100"/>
+    <image id="n108_ceii" name="n108" src="ceii2m" fileName="res/frame_ziyuanxiangqingbuchongshuoming2.png" xy="85,0" size="580,114"/>
+    <text id="n103_vhcv" name="label_name" xy="274,0" size="202,36" font="ui://27utqbizps391v" fontSize="26" color="#16191a" align="center" autoSize="none" autoClearText="true" text="武林高手"/>
+    <text id="n104_vhcv" name="label_attr1" xy="177,46" size="395,29" fontSize="20" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="攻击特效"/>
+    <text id="n105_vhcv" name="label_attr2" xy="178,78" size="394,34" fontSize="20" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="第二条属性"/>
+    <graph id="n106_vhcv" name="n106" xy="307,37" size="135,2" type="rect" fillColor="#ff000000" corner="001"/>
+    <component id="n110_ceii" name="btn_acyivity" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="292,587"/>
+    <list id="n111_ceii" name="list_item" xy="50,147" size="650,431" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" lineItemCount="3" defaultItem="ui://yblwt9kzceii2n" align="center" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

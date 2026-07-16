@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="127,31">
+  <displayList>
+    <text id="n15_gur8" name="label_name" xy="0,0" size="51,29" fontSize="20" color="#16191a" vAlign="middle" autoSize="shrink" autoClearText="true" text="攻击"/>
+    <text id="n18_gur8" name="label_attr" xy="51,0" size="76,29" fontSize="20" color="#14980e" vAlign="middle" autoSize="none" autoClearText="true" text="+9999万"/>
+  </displayList>
+</component>

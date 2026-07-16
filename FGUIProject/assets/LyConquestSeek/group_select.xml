@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="208,211" pivot="0.5,0.65" anchor="true">
+  <displayList>
+    <image id="n74_n6sh" name="n74" src="cda51e" fileName="res/frame_zhibiao2.png" xy="0,67" group="n75_n6sh"/>
+    <image id="n73_n6sh" name="n73" src="cda51d" fileName="res/frame_zhibiao.png" xy="58,0" group="n75_n6sh"/>
+    <group id="n75_n6sh" name="n75" xy="0,0" size="208,211" advanced="true"/>
+  </displayList>
+</component>

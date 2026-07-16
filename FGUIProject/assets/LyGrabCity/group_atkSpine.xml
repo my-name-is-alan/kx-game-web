@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="239,142">
+  <displayList>
+    <loader3D id="n28_kpgn" name="loader_atkSpine_pet" xy="205,18" pivot="0.5,1" anchor="true" size="2,2" group="n42_kpgn" scale="0.45,0.45" animation="" skin="" loop="true"/>
+    <component id="n29_kpgn" name="group_atkspine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="113,81" pivot="0.5,1" anchor="true" group="n42_kpgn" scale="0.55,0.55"/>
+    <image id="n31_kpgn" name="n31" src="kpgndu18t" fileName="ui/frame_challenger2(1).png" xy="22,92" group="n42_kpgn"/>
+    <component id="n33_kpgn" name="group_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="20,23" group="n42_kpgn" scale="0.82,0.82"/>
+    <text id="n32_kpgn" name="label_atkPeopleName" xy="98,92" pivot="0.5,0.5" size="10,29" group="n42_kpgn" fontSize="20" color="#16191a" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n35_kpgn" name="pro_atkselfHp" src="jhmn2n" fileName="ProgressBar1.xml" xy="0,122" size="239,20" group="n42_kpgn">
+      <ProgressBar max="100"/>
+    </component>
+    <loader3D id="n56_exgj" name="loader_attlck" xy="100,0" size="1,1" group="n42_kpgn" animation="" skin="" loop="true"/>
+    <group id="n42_kpgn" name="group_atkSpine" xy="0,0" size="239,142" advanced="true">
+      <relation target="" sidePair="top-top"/>
+    </group>
+  </displayList>
+</component>

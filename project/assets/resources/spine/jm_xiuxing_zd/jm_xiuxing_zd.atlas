@@ -1,0 +1,153 @@
+
+jm_xiuxing_zd.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qx2
+  rotate: false
+  xy: 2, 739
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+zd1
+  rotate: false
+  xy: 2, 609
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+合成 1/zdq_00000
+  rotate: true
+  xy: 185, 410
+  size: 97, 95
+  orig: 128, 128
+  offset: 18, 17
+  index: -1
+合成 1/zdq_00001
+  rotate: true
+  xy: 92, 4
+  size: 94, 93
+  orig: 128, 128
+  offset: 20, 19
+  index: -1
+合成 1/zdq_00002
+  rotate: false
+  xy: 186, 209
+  size: 93, 93
+  orig: 128, 128
+  offset: 21, 20
+  index: -1
+合成 1/zdq_00003
+  rotate: false
+  xy: 198, 551
+  size: 90, 91
+  orig: 128, 128
+  offset: 23, 23
+  index: -1
+合成 1/zdq_00004
+  rotate: true
+  xy: 187, 12
+  size: 92, 89
+  orig: 128, 128
+  offset: 20, 26
+  index: -1
+合成 1/zdq_00005
+  rotate: true
+  xy: 102, 106
+  size: 94, 89
+  orig: 128, 128
+  offset: 18, 26
+  index: -1
+合成 1/zdq_00006
+  rotate: true
+  xy: 132, 644
+  size: 93, 88
+  orig: 128, 128
+  offset: 17, 27
+  index: -1
+合成 1/zdq_00007
+  rotate: true
+  xy: 193, 115
+  size: 92, 89
+  orig: 128, 128
+  offset: 17, 27
+  index: -1
+合成 1/zdq_00008
+  rotate: false
+  xy: 190, 315
+  size: 89, 93
+  orig: 128, 128
+  offset: 17, 23
+  index: -1
+合成 1/zdq_00009
+  rotate: false
+  xy: 2, 2
+  size: 88, 96
+  orig: 128, 128
+  offset: 16, 20
+  index: -1
+合成 1/zdq_00010
+  rotate: false
+  xy: 96, 406
+  size: 87, 99
+  orig: 128, 128
+  offset: 16, 17
+  index: -1
+合成 1/zdq_00011
+  rotate: false
+  xy: 2, 201
+  size: 86, 100
+  orig: 128, 128
+  offset: 15, 14
+  index: -1
+合成 1/zdq_00012
+  rotate: false
+  xy: 2, 507
+  size: 94, 100
+  orig: 128, 128
+  offset: 15, 13
+  index: -1
+合成 1/zdq_00013
+  rotate: false
+  xy: 2, 100
+  size: 98, 99
+  orig: 128, 128
+  offset: 15, 13
+  index: -1
+合成 1/zdq_00014
+  rotate: false
+  xy: 98, 509
+  size: 98, 98
+  orig: 128, 128
+  offset: 15, 12
+  index: -1
+合成 1/zdq_00015
+  rotate: true
+  xy: 90, 202
+  size: 99, 94
+  orig: 128, 128
+  offset: 15, 13
+  index: -1
+合成 1/zdq_00016
+  rotate: true
+  xy: 2, 303
+  size: 100, 90
+  orig: 128, 128
+  offset: 15, 16
+  index: -1
+合成 1/zdq_00017
+  rotate: true
+  xy: 2, 405
+  size: 100, 92
+  orig: 128, 128
+  offset: 16, 17
+  index: -1
+合成 1/zdq_00018
+  rotate: true
+  xy: 94, 304
+  size: 99, 94
+  orig: 128, 128
+  offset: 16, 16
+  index: -1

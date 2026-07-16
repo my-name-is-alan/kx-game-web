@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="772,1289">
+  <controller name="page" exported="true" pages="1,,2,,3," selected="0"/>
+  <displayList>
+    <image id="n1_l3tj" name="n1" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="704,1104" alpha="0.998"/>
+    <richtext id="n3_l3tj" name="label_title" xy="19,28" size="210,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="门客">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <image id="n5_l3tj" name="n5" src="l3tj2c" fileName="frame_tab.png" xy="0,1094"/>
+    <component id="n9_l3tj" name="btn_rank" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="63,1090" group="n15_l3tj">
+      <Button checked="true" title="排行" titleFontSize="28" controller="page" page="1"/>
+    </component>
+    <component id="n10_l3tj" name="btn_task1" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="270,1090" group="n15_l3tj">
+      <Button title="排行" titleFontSize="28" controller="page" page="2"/>
+    </component>
+    <component id="n11_l3tj" name="btn_gift" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="477,1090" group="n15_l3tj">
+      <Button title="排行" titleFontSize="28" controller="page" page="3"/>
+    </component>
+    <group id="n15_l3tj" name="group_btn" xy="63,1090" size="584,60" advanced="true" layout="hz" lineGap="17" colGap="37" excludeInvisibles="true"/>
+    <image id="n24_nogk" name="n24" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="550,927"/>
+    <component id="n4_l3tj" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="637,38">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n65_e9u4" name="btn_what" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="178,20"/>
+    <component id="n67_d1na" name="page0" src="d1na4a" fileName="res/The/LyPsychicInsightTask.xml" xy="21,121" size="659,951">
+      <gearDisplay controller="page" pages="1"/>
+    </component>
+    <component id="n72_d1na" name="page1" src="d1na4o" fileName="res/The/LyPsychicInsightPulse.xml" xy="21,122">
+      <gearDisplay controller="page" pages="2"/>
+    </component>
+    <component id="n94_d1na" name="page2" src="d1na4p" fileName="res/The/LyPsychicInsightGift.xml" xy="12,121">
+      <gearDisplay controller="page" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <text id="n68_d1na" name="desc" xy="37,275" size="95,29" fontSize="20" color="#323c42" vAlign="middle" autoSize="none" text="活动时间:"/>
+    <text id="n69_d1na" name="label_time" xy="131,275" size="283,32" fontSize="20" color="#2b841c" vAlign="middle" autoSize="none" text="12"/>
+  </displayList>
+</component>

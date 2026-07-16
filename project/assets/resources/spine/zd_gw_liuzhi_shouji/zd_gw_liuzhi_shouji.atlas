@@ -1,0 +1,48 @@
+
+zd_gw_liuzhi_shouji.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wx_hmajj_hit/wx_hmajj_hit_00003
+  rotate: false
+  xy: 2, 334
+  size: 183, 170
+  orig: 195, 195
+  offset: 8, 13
+  index: -1
+wx_hmajj_hit/wx_hmajj_hit_00005
+  rotate: false
+  xy: 187, 334
+  size: 181, 170
+  orig: 195, 195
+  offset: 9, 13
+  index: -1
+wx_hmajj_hit/wx_hmajj_hit_00007
+  rotate: true
+  xy: 2, 155
+  size: 177, 164
+  orig: 195, 195
+  offset: 11, 16
+  index: -1
+wx_hmajj_hit/wx_hmajj_hit_00009
+  rotate: true
+  xy: 168, 167
+  size: 165, 159
+  orig: 195, 195
+  offset: 11, 20
+  index: -1
+wx_hmajj_hit/wx_hmajj_hit_00011
+  rotate: true
+  xy: 2, 2
+  size: 151, 161
+  orig: 195, 195
+  offset: 25, 22
+  index: -1
+wx_hmajj_hit/wx_hmajj_hit_00013
+  rotate: true
+  xy: 165, 8
+  size: 145, 144
+  orig: 195, 195
+  offset: 29, 29
+  index: -1

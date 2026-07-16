@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="30lp993a">
+  <resources>
+    <component id="t0if0" name="LyPlayerInfo.xml" path="/" exported="true"/>
+    <component id="ah8r1" name="group_equipNull.xml" path="/"/>
+    <image id="ah8r2" name="frame_null equip.png" path="/res/main/"/>
+    <component id="ah8r3" name="btn_common.xml" path="/"/>
+    <image id="ah8r4" name="frame_special null1.png" path="/res/main/"/>
+    <image id="ah8r5" name="31.png" path="/res/main/"/>
+    <component id="ah8r6" name="btn_common1.xml" path="/"/>
+    <image id="ah8r7" name="frame_special null3.png" path="/res/main/"/>
+    <component id="ah8r8" name="btn_common2.xml" path="/"/>
+    <image id="ah8r9" name="frame_special null4.png" path="/res/main/"/>
+    <component id="ah8ra" name="btn_arrows.xml" path="/"/>
+    <image id="ah8rb" name="btn_attribute_drop-down.png" path="/res/main/"/>
+    <image id="cb8kc" name="frame_special null1.png" path="/res/main2/"/>
+    <image id="cb8kd" name="frame_special null3.png" path="/res/main2/"/>
+    <image id="cb8ke" name="frame_special null4.png" path="/res/main2/"/>
+    <image id="l2d7g" name="frame_gerenxinxidiban.png" path="/res1/"/>
+    <image id="l2d7h" name="frame_zongshuxing.png" path="/res1/"/>
+    <image id="l2d7i" name="icon_jingshi.png" path="/res1/"/>
+    <image id="rnu5j" name="frame_null equip.png" path="/res/main2/"/>
+    <component id="rnu5k" name="group_pet.xml" path="/"/>
+    <component id="oj4el" name="btn_blockPlayer.xml" path="/"/>
+    <component id="gur8m" name="proup_pet.xml" path="/" exported="true"/>
+    <component id="gur8o" name="proup_gem.xml" path="/" exported="true"/>
+    <component id="gur8s" name="proup_elite.xml" path="/" exported="true"/>
+    <component id="gur8u" name="proup_mount.xml" path="/" exported="true"/>
+    <component id="krp3y" name="group_attr.xml" path="/"/>
+    <component id="krp3z" name="group_elite.xml" path="/"/>
+    <component id="krp310" name="group_gemItem.xml" path="/"/>
+    <component id="dtgk11" name="group_playerInfo.xml" path="/"/>
+    <image id="dtgk14" name="frame_miji.png" path="/res1/" scale="9grid" scale9grid="13,12,4,5"/>
+    <image id="dtgk15" name="icon_bangpaiqizhihuo.png" path="/res1/"/>
+    <image id="ublp16" name="bg_xianyoubeijing.png" path="/res1/"/>
+    <image id="feen17" name="pic_empty book.png" path="/res1/"/>
+    <image id="feen18" name="frame_xixian.png" path="/res1/"/>
+    <image id="feen19" name="bg_baixianglou1.png" path="/res1/"/>
+    <component id="psu41a" name="group_dec.xml" path="/"/>
+    <component id="kqmq1b" name="LyPlayerStronger.xml" path="/" exported="true"/>
+    <component id="kqmq1c" name="group_playerStronger.xml" path="/"/>
+    <image id="kqmq1d" name="icon_xiuxingzhu4.png" path="/res2/" exported="true"/>
+    <image id="kqmq1e" name="icon_xiuxingzhu5.png" path="/res2/" exported="true"/>
+    <image id="kqmq1f" name="icon_xiuxingzhu6.png" path="/res2/" exported="true"/>
+    <image id="kqmq1g" name="bg_xialv.png" path="/res2/"/>
+    <image id="kqmq1h" name="frame_tab.png" path="/res2/"/>
+    <image id="kqmq1i" name="icon_comment.png" path="/res2/"/>
+    <image id="kqmq1j" name="icon_details.png" path="/res2/"/>
+    <image id="kqmq1l" name="icon_xiuxingzhu1.png" path="/res2/" exported="true"/>
+    <image id="kqmq1m" name="icon_xiuxingzhu2.png" path="/res2/" exported="true"/>
+    <image id="kqmq1n" name="icon_xiuxingzhu3.png" path="/res2/" exported="true"/>
+    <component id="kqmq1q" name="btn_guangong.xml" path="/"/>
+    <image id="kqmq1r" name="frame_name of escort agency.png" path="/res2/" scale="9grid" scale9grid="152,0,15,60"/>
+    <image id="kqmq1s" name="frame_buff5.png" path="/res2/"/>
+    <image id="kqmq1t" name="frame_buff1.png" path="/res2/"/>
+    <component id="kqmq1w" name="btn_common3.xml" path="/"/>
+    <component id="ug9j1x" name="group_elite1.xml" path="/"/>
+    <component id="ug9j1y" name="LyPlayerTisp.xml" path="/" exported="true"/>
+    <component id="ug9j1z" name="proup_gem1.xml" path="/" exported="true"/>
+    <component id="ug9j21" name="group_gemItem1.xml" path="/"/>
+    <image id="pwpf22" name="icon_like.png" path="/res2/"/>
+    <component id="r41cdu176" name="btn_tab.xml" path="/"/>
+    <image id="r41c23" name="dec_title.png" path="/res2/" scale="9grid" scale9grid="13,7,4,16"/>
+    <component id="r41c24" name="proup_pet1.xml" path="/" exported="true"/>
+    <image id="r41c25" name="icon_arrow_down.png" path="/res2/"/>
+    <image id="r41c26" name="icon_arrow_up.png" path="/res2/"/>
+    <component id="nfindu177" name="btn_tab1.xml" path="/"/>
+    <component id="i2mkdu178" name="btn_normalIcon.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

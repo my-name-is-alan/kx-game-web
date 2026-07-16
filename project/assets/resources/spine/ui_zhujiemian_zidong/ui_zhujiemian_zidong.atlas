@@ -1,0 +1,111 @@
+
+ui_zhujiemian_zidong.png
+size: 293,397
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ui_zdan1/ui_zdan1_00
+  rotate: false
+  xy: 191, 82
+  size: 94, 78
+  orig: 137, 114
+  offset: 19, 14
+  index: -1
+images/ui_zdan1/ui_zdan1_02
+  rotate: false
+  xy: 185, 241
+  size: 95, 77
+  orig: 137, 114
+  offset: 19, 15
+  index: -1
+images/ui_zdan1/ui_zdan1_04
+  rotate: false
+  xy: 185, 162
+  size: 97, 77
+  orig: 137, 114
+  offset: 18, 15
+  index: -1
+images/ui_zdan1/ui_zdan1_06
+  rotate: false
+  xy: 96, 2
+  size: 98, 78
+  orig: 137, 114
+  offset: 18, 15
+  index: -1
+images/ui_zdan1/ui_zdan1_08
+  rotate: false
+  xy: 196, 2
+  size: 95, 78
+  orig: 137, 114
+  offset: 19, 15
+  index: -1
+images/ui_zdan1/ui_zdan1_10
+  rotate: false
+  xy: 2, 4
+  size: 92, 78
+  orig: 137, 114
+  offset: 21, 15
+  index: -1
+images/ui_zdan1/ui_zdan1_12
+  rotate: false
+  xy: 92, 163
+  size: 91, 78
+  orig: 137, 114
+  offset: 20, 16
+  index: -1
+images/ui_zdan1/ui_zdan1_14
+  rotate: false
+  xy: 2, 167
+  size: 88, 77
+  orig: 137, 114
+  offset: 22, 18
+  index: -1
+images/ui_zdan1/ui_zdan1_16
+  rotate: false
+  xy: 192, 320
+  size: 89, 75
+  orig: 137, 114
+  offset: 21, 18
+  index: -1
+images/ui_zdan1/ui_zdan1_18
+  rotate: false
+  xy: 2, 323
+  size: 93, 72
+  orig: 137, 114
+  offset: 18, 17
+  index: -1
+images/ui_zdan1/ui_zdan1_20
+  rotate: false
+  xy: 97, 321
+  size: 93, 74
+  orig: 137, 114
+  offset: 18, 16
+  index: -1
+images/ui_zdan1/ui_zdan1_22
+  rotate: false
+  xy: 2, 246
+  size: 89, 75
+  orig: 137, 114
+  offset: 23, 16
+  index: -1
+images/ui_zdan1/ui_zdan1_24
+  rotate: false
+  xy: 93, 243
+  size: 90, 76
+  orig: 137, 114
+  offset: 22, 15
+  index: -1
+images/ui_zdan1/ui_zdan1_26
+  rotate: false
+  xy: 2, 84
+  size: 92, 77
+  orig: 137, 114
+  offset: 21, 15
+  index: -1
+images/ui_zdan1/ui_zdan1_28
+  rotate: false
+  xy: 96, 83
+  size: 93, 77
+  orig: 137, 114
+  offset: 20, 15
+  index: -1

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="669,178">
+  <displayList>
+    <image id="n0_cgkl" name="label_number" src="a0tr1e" fileName="ui/frame_huodongdiban.png" pkg="27utqbiz" xy="2,0" size="668,176"/>
+    <text id="n1_cgkl" name="label_des" xy="28,19" size="375,34" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" letterSpacing="-2" autoSize="none" text="累计"/>
+    <list id="n4_cgkl" name="list_item" xy="29,61" size="526,108" scale="0.9,0.9" layout="flow_hz" colGap="12" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <image id="n6_cgkl" name="n6" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="458,71" group="n8_cgkl"/>
+    <text id="n7_cgkl" name="n7" xy="491,78" size="108,42" group="n8_cgkl" font="ui://27utqbizps391v" fontSize="30" color="#f3ffec" vAlign="middle" autoSize="none" text="已领取"/>
+    <group id="n8_cgkl" name="get" xy="458,71" size="158,58" visible="false" advanced="true"/>
+    <component id="n2_cgkl" name="btn_go" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="444,69" size="188,52" visible="false">
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n9_cgkl" name="btn_get" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="444,69" size="188,52" visible="false"/>
+  </displayList>
+</component>

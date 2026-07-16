@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n33_psu8" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n35_s742" name="n35" xy="52,436" size="645,437" group="n38_dbzf" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <list id="n30_j2yt" name="list_choose" xy="115,457" size="519,285" group="n38_dbzf" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" lineGap="-13" colGap="6" defaultItem="ui://xcpqvzp3j2yt6" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n36_s742" name="btn_sure" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="281,800" size="186,50" group="n38_dbzf">
+      <Button title="确定"/>
+    </component>
+    <text id="n37_lby0" name="label_time" xy="193,756" size="365,35" group="n38_dbzf" fontSize="18" color="#16191a" align="center" vAlign="middle" autoSize="none" text="勾选对应门客进行上阵"/>
+    <group id="n38_dbzf" name="n38" xy="52,436" size="645,437" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

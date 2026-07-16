@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n41_q0fr" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n0_q0fr" name="main" src="q0frmn" fileName="main_LyBrumeIsleChoose.xml" xy="26,119">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n44_x3dl" name="main_map" src="x3dlmq" fileName="group_map.xml" xy="0,-183" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="t0"/>
+</component>

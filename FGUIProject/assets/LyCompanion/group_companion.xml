@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="192,258">
+  <controller name="c1" pages="0,,1,,2,,3,,4," selected="3">
+    <remark page="0" value="已解锁"/>
+    <remark page="1" value="未解锁"/>
+    <remark page="2" value="道具解锁"/>
+    <remark page="3" value="可解锁(道具"/>
+    <remark page="4" value="可解锁(任务"/>
+  </controller>
+  <displayList>
+    <loader id="n31_ku62" name="img_qualityBg" xy="0,0" size="192,258" url="ui://l32lh3odisiv2l"/>
+    <loader id="n11_i05h" name="img_icon" xy="-1,0" size="194,258" align="center" vAlign="middle" clearOnPublish="true"/>
+    <image id="n33_isiv" name="n33" src="rp911k" fileName="res2/frame_nametiao3.png" xy="10,5"/>
+    <text id="n9_i05h" name="label_name" xy="9,19" size="30,81" font="ui://27utqbizps391v" fontSize="19" color="#ffffff" align="center" autoSize="none" text="小舞"/>
+    <text id="n10_i05h" name="label_attr" xy="3,223" size="185,34" font="ui://27utqbizps391v" fontSize="20" align="center" vAlign="middle" autoSize="shrink" text="最终减伤+1%"/>
+    <image id="n41_isiv" name="n41" src="kcwh2i" fileName="res2/frame_daojushuliangdi.png" xy="14,177" group="n16_upv7"/>
+    <loader id="n42_isiv" name="img_itemIcon" xy="18,175" size="22,22" group="n43_ln3o" scale="1.8,1.8" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <text id="n27_ku62" name="label_number" xy="56,179" size="111,34" group="n43_ln3o" fontSize="24" color="#ffff00" vAlign="middle" autoSize="shrink" text="0/193333"/>
+    <group id="n43_ln3o" name="n43" xy="18,175" size="149,38" group="n16_upv7" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <group id="n16_upv7" name="n16" xy="14,175" size="183,39" advanced="true">
+      <gearDisplay controller="c1" pages="2,3"/>
+    </group>
+    <image id="n37_isiv" name="n37" src="isiv2n" fileName="res2/companion_bg1.png" xy="0,0" alpha="0.5" color="#000000">
+      <gearDisplay controller="c1" pages="1,2,3,4"/>
+    </image>
+    <image id="n34_isiv" name="n34" src="rp9117" fileName="res2/frame_nametiao2.png" xy="66,200" group="n18_upv7"/>
+    <text id="n8_i05h" name="label_liking" xy="90,193" size="26,29" group="n18_upv7" fontSize="20" color="#ffffff" vAlign="middle" strokeColor="#000000" text="39"/>
+    <image id="n36_isiv" name="n36" src="rp911n" fileName="res2/icon_aixin2.png" xy="62,199" group="n18_upv7"/>
+    <group id="n18_upv7" name="n18" xy="62,193" size="68,29" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n38_isiv" name="n38" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="17,93" group="n40_isiv"/>
+    <text id="n39_isiv" name="label_str17" xy="58,105" size="76,34" group="n40_isiv" font="ui://27utqbizps391v" fontSize="24" color="#fcfdfb" strokeColor="#000000" text="可解锁"/>
+    <group id="n40_isiv" name="n40" xy="17,93" size="158,58" advanced="true">
+      <gearDisplay controller="c1" pages="3,4"/>
+    </group>
+    <image id="n45_h8ui" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="174,-1" visible="false"/>
+  </displayList>
+</component>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="774,822">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_knxo" name="n0" xy="5,0" size="688,778" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <component id="n3_knxo" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="634,47"/>
+    <richtext id="n13_hl71" name="label_title" xy="22,33" size="257,54" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="bottom" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]每[/size]周奖励预览"/>
+    <list id="n5_knxo" name="list_award" xy="32,112" size="623,583" overflow="scroll" lineGap="10" defaultItem="ui://5gmha8dnknxob" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n12_hl71" name="n12" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="556,599"/>
+    <text id="n14_hl71" name="label_time" xy="205,704" size="266,26" fontSize="18" color="#3c9c45" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="倒计时999">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n21_e8n4" name="label_timeMonth" xy="205,704" size="266,26" fontSize="18" color="#3c9c45" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="倒计时999">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <component id="n22_nvxw" name="btn_month" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="10,768">
+      <Button title="每周奖励" controller="c1" page="1"/>
+    </component>
+    <component id="n23_nvxw" name="btn_day" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="180,768">
+      <Button title="每周奖励" controller="c1" page="0"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,104 @@
+
+zd_skills_bailijianfa_hit.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bljf/bljf_dmql_00
+  rotate: false
+  xy: 301, 982
+  size: 238, 36
+  orig: 420, 90
+  offset: 5, 6
+  index: -1
+images/bljf/bljf_dmql_02
+  rotate: false
+  xy: 475, 820
+  size: 412, 73
+  orig: 420, 90
+  offset: 3, 6
+  index: -1
+images/bljf/bljf_dmql_04
+  rotate: false
+  xy: 211, 911
+  size: 397, 54
+  orig: 420, 90
+  offset: 4, 6
+  index: -1
+images/bljf/bljf_dmql_06
+  rotate: false
+  xy: 541, 967
+  size: 353, 51
+  orig: 420, 90
+  offset: 6, 7
+  index: -1
+images/bljf_mz/bljf_mz_00
+  rotate: false
+  xy: 2, 715
+  size: 216, 124
+  orig: 324, 162
+  offset: 54, 19
+  index: -1
+images/bljf_mz/bljf_mz_02
+  rotate: false
+  xy: 661, 591
+  size: 288, 129
+  orig: 324, 162
+  offset: 18, 20
+  index: -1
+images/bljf_mz/bljf_mz_04
+  rotate: false
+  xy: 2, 570
+  size: 231, 140
+  orig: 324, 162
+  offset: 45, 15
+  index: -1
+images/bljf_mz/bljf_mz_06
+  rotate: false
+  xy: 220, 712
+  size: 220, 127
+  orig: 324, 162
+  offset: 51, 11
+  index: -1
+images/bljf_mz/bljf_mz_08
+  rotate: false
+  xy: 442, 690
+  size: 217, 128
+  orig: 324, 162
+  offset: 52, 9
+  index: -1
+images/bljf_mz/bljf_mz_10
+  rotate: true
+  xy: 889, 722
+  size: 171, 129
+  orig: 324, 162
+  offset: 93, 8
+  index: -1
+images/bljf_zd/bljf_zd_00
+  rotate: false
+  xy: 2, 929
+  size: 207, 60
+  orig: 480, 78
+  offset: 268, 9
+  index: -1
+images/bljf_zd/bljf_zd_01
+  rotate: false
+  xy: 610, 895
+  size: 384, 70
+  orig: 480, 78
+  offset: 77, 4
+  index: -1
+images/bljf_zd/bljf_zd_02
+  rotate: false
+  xy: 2, 841
+  size: 471, 68
+  orig: 480, 78
+  offset: 1, 5
+  index: -1
+images/bljf_zd/bljf_zd_04
+  rotate: false
+  xy: 2, 991
+  size: 297, 27
+  orig: 480, 78
+  offset: 1, 23
+  index: -1

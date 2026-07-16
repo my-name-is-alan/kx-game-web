@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="70,70" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n5_q8va" name="n5" xy="0,0" size="70,70" type="eclipse" lineSize="0" fillColor="#ffb8a476"/>
+    <text id="n3_q8va" name="title" xy="-14,49" size="98,39" font="ui://27utqbizps391v" fontSize="28" align="center" vAlign="middle" autoSize="none" singleLine="true" text="啊啊"/>
+    <loader id="n4_q8va" name="icon" xy="0,0" size="70,70" align="center" vAlign="middle"/>
+  </displayList>
+  <Button/>
+</component>

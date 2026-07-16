@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="782,1148">
+  <displayList>
+    <image id="n1_ms39" name="n1" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="702,1123"/>
+    <richtext id="n2_ms39" name="label_title" xy="19,32" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="分组预览"/>
+    <component id="n3_ms39" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="638,42"/>
+    <image id="n4_ms39" name="n4" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="564,940"/>
+    <image id="n5_ms39" name="n5" src="k7xe1w" fileName="res/frame_fenzumingzhuangshi.png" xy="48,130"/>
+    <text id="n6_ms39" name="label_groupName" xy="64,117" size="161,39" font="ui://27utqbizps391v" fontSize="28" color="#8c571d" align="center" vAlign="middle" letterSpacing="-3" autoSize="shrink" text="A组-烽火连天"/>
+    <image id="n7_mv7y" name="n7" src="k7xe7" fileName="zonglan/frame_zonglan5.png" xy="45,216" size="608,804"/>
+    <image id="n8_mv7y" name="n8" src="k7xeb" fileName="zonglan/frame_zonglan.png" xy="46,173"/>
+    <text id="n9_mv7y" name="n9" xy="58,174" size="91,45" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoSize="none" text="排名"/>
+    <text id="n10_mv7y" name="n10" xy="204,174" size="113,45" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoSize="none" text="帮派"/>
+    <text id="n11_mv7y" name="label" xy="381,176" size="113,45" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="本轮伤害"/>
+    <text id="n12_mv7y" name="label_YJ" xy="494,176" size="165,45" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="预计获得积分"/>
+    <component id="n13_mv7y" name="cbox_group" src="jv6udu18e" fileName="combo_prop3.xml" xy="440,112" size="214,51">
+      <relation target="" sidePair="bottom-bottom"/>
+      <ComboBox title="A组" visibleItemCount="10" direction="up"/>
+    </component>
+    <list id="n14_mv7y" name="list_item" xy="59,228" size="598,784" overflow="scroll" lineGap="6" defaultItem="ui://i35cf1mqmv7yudu1ag" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

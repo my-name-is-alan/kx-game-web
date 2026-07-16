@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2,2" mask="n41_ba5i" reversedMask="true">
+  <displayList>
+    <loader3D id="n40_ba5i" name="loader_spine_role" xy="1,2" pivot="0.5,1" anchor="true" size="2,2" animation="" skin="" loop="true"/>
+    <image id="n41_ba5i" name="n41" src="ba5iv" fileName="res/frame_mengban.png" xy="-374,-424"/>
+  </displayList>
+</component>

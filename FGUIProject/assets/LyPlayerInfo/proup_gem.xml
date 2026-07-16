@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="439,466" designImageOffsetX="-260" designImageOffsetY="-637">
+  <displayList>
+    <image id="n1_gur8" name="n1" src="rvb52y" fileName="ui/frame_tihuanzhanshi.png" pkg="27utqbiz" xy="0,0" size="439,466"/>
+    <image id="n45_gur8" name="n45" src="rvb53c" fileName="ui/dec_tihuanzhanshi_frame_top_left_corner.png" pkg="27utqbiz" xy="21,51"/>
+    <loader id="n2_gur8" name="Loader_qu" xy="20,5" size="400,46" url="ui://27utqbizrvb53a"/>
+    <component id="n4_gur8" name="group_icon" src="o66p4w" fileName="Group_Elite.xml" pkg="27utqbiz" xy="180,64" scale="0.8,0.8"/>
+    <text id="n6_gur8" name="label_name" xy="31,149" size="378,32" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text="灵脉境界：第五十层"/>
+    <graph id="n8_gur8" name="n8" xy="30,200" size="181,248" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <graph id="n44_gur8" name="n44" xy="228,200" size="181,248" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <text id="n46_gur8" name="label_str105" xy="158,8" size="124,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" vAlign="middle" strokeColor="#000000" autoClearText="true" text="灵脉详情"/>
+    <list id="n47_krp3" name="list_errArr" xy="47,205" size="146,232" overflow="scroll" lineGap="3" defaultItem="ui://30lp993akrp3y">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n49_krp3" name="list_gen" xy="242,207" size="163,232" overflow="scroll" lineGap="3" defaultItem="ui://30lp993akrp310">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

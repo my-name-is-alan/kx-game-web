@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1150" designImageOffsetX="-25" designImageOffsetY="-323" designImageLayer="1">
+  <controller name="c1" pages="0,,1," selected="1">
+    <remark page="0" value="仙友"/>
+    <remark page="1" value="游历"/>
+  </controller>
+  <displayList>
+    <image id="n50_isiv" name="n50" src="rp9118" fileName="res2/frame_nametiao.png" xy="110,768" group="n34_fj2b" visible="false"/>
+    <loader id="n40_rp91" name="n40" xy="24,-3" size="701,1104" group="n34_fj2b" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <image id="n51_isiv" name="n51" src="rp911j" fileName="res2/bg_xianyouyoulibeijing.png" xy="49,104" group="n33_i05h"/>
+    <component id="n23_i05h" name="group_place0" src="i05h6" fileName="group_place.xml" xy="262,216" group="n33_i05h"/>
+    <component id="n24_i05h" name="group_place1" src="i05h6" fileName="group_place.xml" xy="517,147" size="43,130" group="n33_i05h"/>
+    <component id="n25_i05h" name="group_place2" src="i05h6" fileName="group_place.xml" xy="126,319" group="n33_i05h"/>
+    <component id="n26_i05h" name="group_place3" src="i05h6" fileName="group_place.xml" xy="588,767" group="n33_i05h"/>
+    <component id="n27_i05h" name="group_place4" src="i05h6" fileName="group_place.xml" xy="516,564" group="n33_i05h"/>
+    <component id="n28_i05h" name="group_place5" src="i05h6" fileName="group_place.xml" xy="159,640" group="n33_i05h"/>
+    <component id="n55_pi76" name="group_place6" src="i05h6" fileName="group_place.xml" xy="456,329" group="n33_i05h"/>
+    <component id="n29_i05h" name="btn_addExploreStamina" src="i05h7" fileName="btn_travel.xml" xy="247,828" group="n33_i05h"/>
+    <text id="n30_i05h" name="label_time" xy="196,1017" size="338,34" group="n33_i05h" fontSize="20" color="#74e635" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="1年后回复01体力"/>
+    <component id="n54_ln3o" name="btn_buy" src="ln3o3g" fileName="btn_add.xml" xy="382,965" group="n33_i05h"/>
+    <component id="n67_b5ry" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="380,944" group="n58_pi76" scale="0.65,0.65"/>
+    <group id="n58_pi76" name="group_player" xy="380,944" size="2,2" group="n33_i05h" advanced="true"/>
+    <component id="n60_cnrn" name="btn_ten" src="isiv2x" fileName="btn_gou2.xml" xy="545,977" group="n33_i05h"/>
+    <graph id="n61_cnrn" name="btn_openTen" xy="536,972" size="131,64" group="n33_i05h" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="n63_rajy" name="btn_what2" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="111,20" group="n33_i05h"/>
+    <group id="n33_i05h" name="n33" xy="49,20" size="646,1032" group="n34_fj2b" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n41_rp91" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40" group="n34_fj2b"/>
+    <richtext id="n42_rp91" name="label_bxl" xy="42,23" size="257,49" group="n34_fj2b" touchable="false" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]兽[/size]友"/>
+    <list id="n13_i05h" name="list_companion" xy="75,118" size="600,670" group="n22_i05h" layout="flow_hz" overflow="scroll" lineGap="11" colGap="11" defaultItem="ui://l32lh3odi05h1" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n43_rp91" name="n43" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="221,837" size="410,38" group="n22_i05h" scale="0.8,0.8"/>
+    <text id="n15_i05h" name="label_str16" xy="327,835" size="114,32" group="n22_i05h" font="ui://27utqbizps391v" fontSize="22" color="#16191a" vAlign="middle" autoClearText="true" text="收集总加成"/>
+    <image id="n59_cnrn" name="n59" src="cnrn44" fileName="res2/frame_fengexian.png" xy="51,907" group="n22_i05h"/>
+    <list id="n17_i05h" name="list_moreAttr" xy="92,912" size="601,113" group="n22_i05h" layout="flow_hz" overflow="scroll" defaultItem="ui://l32lh3odi05h5" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n19_i05h" name="label_attr0" xy="93,876" size="165,34" group="n22_i05h" font="ui://27utqbizps391v" fontSize="24" color="#6f9968" autoSize="shrink" text="生命：45678"/>
+    <text id="n20_i05h" name="label_attr1" xy="318,876" size="165,34" group="n22_i05h" font="ui://27utqbizps391v" fontSize="24" color="#cc5454" autoSize="shrink" text="攻击：45678"/>
+    <text id="n21_i05h" name="label_attr2" xy="542,875" size="165,34" group="n22_i05h" font="ui://27utqbizps391v" fontSize="24" color="#497998" autoSize="shrink" text="防御：45678"/>
+    <component id="n62_rajy" name="btn_what" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="111,20" group="n22_i05h"/>
+    <group id="n22_i05h" name="n22" xy="51,20" size="656,1005" group="n34_fj2b" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n52_isiv" name="n52" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="588,918" group="n34_fj2b"/>
+    <component id="n64_rajy" name="btn_xy" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="34,1091" group="n34_fj2b">
+      <Button title="兽友" controller="c1" page="0"/>
+    </component>
+    <component id="n66_rajy" name="btn_yl" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="205,1091" group="n34_fj2b">
+      <Button checked="true" title="游历" controller="c1" page="1"/>
+    </component>
+    <group id="n34_fj2b" name="n34" xy="24,-3" size="782,1154" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

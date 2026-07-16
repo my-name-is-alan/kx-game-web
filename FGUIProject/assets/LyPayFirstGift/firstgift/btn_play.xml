@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_j69r" name="n0" src="j69re" fileName="firstgift/btn_jinengyulan.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_j69r" name="n1" src="j69re" fileName="firstgift/btn_jinengyulan.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_j69r" name="n2" src="j69re" fileName="firstgift/btn_jinengyulan.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_j69r" name="n3" src="j69re" fileName="firstgift/btn_jinengyulan.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4_j69r" name="n4" src="i809ll" fileName="ui/frame_guild&amp;server.png" pkg="27utqbiz" xy="-18,79" size="120,30"/>
+    <text id="n5_j69r" name="title" xy="37,79" size="10,29" font="ui://27utqbizps391v" fontSize="20" color="#e4d5b9" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

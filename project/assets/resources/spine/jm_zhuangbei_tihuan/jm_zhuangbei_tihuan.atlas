@@ -1,0 +1,48 @@
+
+jm_zhuangbei_tihuan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jm_fenjie_01
+  rotate: false
+  xy: 2, 206
+  size: 114, 113
+  orig: 116, 115
+  offset: 1, 1
+  index: -1
+jm_fenjie_02
+  rotate: false
+  xy: 222, 234
+  size: 86, 85
+  orig: 86, 85
+  offset: 0, 0
+  index: -1
+srjf_xl/srjf_xl_00
+  rotate: true
+  xy: 2, 104
+  size: 100, 99
+  orig: 116, 115
+  offset: 5, 8
+  index: -1
+srjf_xl/srjf_xl_01
+  rotate: false
+  xy: 118, 111
+  size: 101, 103
+  orig: 116, 115
+  offset: 5, 7
+  index: -1
+srjf_xl/srjf_xl_03
+  rotate: true
+  xy: 118, 216
+  size: 103, 102
+  orig: 116, 115
+  offset: 5, 7
+  index: -1
+srjf_xl/srjf_xl_07
+  rotate: true
+  xy: 221, 110
+  size: 104, 98
+  orig: 116, 115
+  offset: 5, 9
+  index: -1

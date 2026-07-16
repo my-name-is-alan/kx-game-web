@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://5gmha8dnjwvd1x" designImageOffsetY="-274">
+  <displayList>
+    <component id="n12_jis8" name="group_charts" src="jis82" fileName="group_charts.xml" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n38_q8va" name="n38" src="q8vai" fileName="res/frame_title.png" xy="0,39" group="n51_hl71"/>
+    <component id="n59_jwvd" name="btn_close" src="jwvdvu" fileName="btn_back1.xml" pkg="27utqbiz" xy="53,73" group="n51_hl71"/>
+    <image id="n41_q8va" name="n41" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="54,201" group="n51_hl71"/>
+    <component id="n40_q8va" name="btn_qunyinBuy" src="jzhdz" fileName="btn_add3.xml" pkg="27utqbiz" xy="173,191" group="n51_hl71"/>
+    <loader id="n54_ne2h" name="n54" xy="25,189" size="47,47" group="n51_hl71" aspect="true" url="ui://27utqbizi5tz7d" fill="scale"/>
+    <text id="n8_jis8" name="label_time" xy="19,234" size="208,32" group="n51_hl71" fontSize="22" color="#238b07" align="center" vAlign="middle" autoSize="shrink" autoClearText="true" text="00"/>
+    <text id="n53_bhy6" name="label_coin" xy="76,199" size="102,34" group="n51_hl71" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" text="aa"/>
+    <image id="n60_jwvd" name="n60" src="jwvd1u" fileName="res/word_huashanlunjian.png" xy="123,94" group="n51_hl71"/>
+    <component id="n64_puks" name="btn_plaint" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="252,42" group="n51_hl71"/>
+    <group id="n51_hl71" name="n51" xy="0,39" size="568,227" group="n66_psu4" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <image id="n63_jwvd" name="n63" src="jwvd1v" fileName="res/dec_shade.png" xy="0,1126" size="750,208" group="n52_hl71"/>
+    <text id="n20_jis8" name="label_refreshNum" xy="634,1175" size="106,34" group="n52_hl71" fontSize="24" align="center" vAlign="middle" autoSize="shrink" text="0/99"/>
+    <image id="n62_jwvd" name="n62" src="jwvd1w" fileName="res/frame_frame_have&amp;use.png" xy="619,1035" size="118,50" group="n52_hl71" flip="hz"/>
+    <text id="n22_jis8" name="label_gold" xy="637,1038" size="98,34" group="n52_hl71" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" text="1999/21"/>
+    <richtext id="n32_jis8" name="label_rank2" xy="427,1261" size="228,34" group="n52_hl71" fontSize="24" vAlign="middle" text="（当前排名：5999）"/>
+    <richtext id="n28_jis8" name="label_rank1" xy="409,1229" size="246,39" group="n52_hl71" fontSize="28" vAlign="middle" ubb="true" autoSize="none" text="达到100名可领取"/>
+    <graph id="n34_nnj8" name="group_rank" xy="407,1219" size="326,79" group="n52_hl71" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="n42_q8va" name="btn_shop" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="15,1212" size="90,110" group="n52_hl71">
+      <Button icon="ui://27utqbizrg021p"/>
+    </component>
+    <component id="n43_q8va" name="btn_rank" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="105,1212" size="90,110" group="n52_hl71">
+      <Button icon="ui://27utqbizrg021n"/>
+    </component>
+    <component id="n44_q8va" name="btn_award" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="195,1212" size="90,110" group="n52_hl71">
+      <Button icon="ui://27utqbizql4f26"/>
+    </component>
+    <component id="n45_q8va" name="btn_log" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="285,1212" size="90,110" group="n52_hl71">
+      <Button icon="ui://27utqbizrg021o"/>
+    </component>
+    <component id="n46_q8va" name="btn_box" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="684,1266" pivot="0.5,0.5" anchor="true" size="90,110" group="n52_hl71" touchable="false">
+      <Button icon="ui://5gmha8dnjwvd1y"/>
+    </component>
+    <component id="n47_q8va" name="btn_refresh" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="638,1087" size="90,110" group="n52_hl71">
+      <Button icon="ui://5gmha8dnrg021q"/>
+    </component>
+    <loader id="n58_jwvd" name="n58" xy="620,1041" size="25,28" group="n52_hl71" url="ui://27utqbizi5tz7t" fill="scale"/>
+    <group id="n52_hl71" name="n52" xy="0,1035" size="750,299" group="n66_psu4" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <group id="n66_psu4" name="group_qunyin" xy="0,39" size="750,1295" advanced="true"/>
+    <loader3D id="n65_psu4" name="loader3d_join" xy="374,666" size="2,2" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+  </displayList>
+  <transition name="ani" options="4" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n46_q8va" tween="true" startValue="0" endValue="20" duration="6"/>
+    <item time="6" type="Rotation" target="n46_q8va" tween="true" startValue="20" endValue="0" duration="6"/>
+    <item time="12" type="Rotation" target="n46_q8va" tween="true" startValue="0" endValue="-20" duration="6"/>
+    <item time="18" type="Rotation" target="n46_q8va" tween="true" startValue="-20" endValue="0" duration="6"/>
+  </transition>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="355,68">
+  <displayList>
+    <text id="n3_psu8" name="label_level" xy="0,0" size="46,35" fontSize="22" color="#16191a" vAlign="middle" autoSize="none" text="1级"/>
+    <richtext id="n5_psu8" name="label_des" xy="61,0" size="291,35" fontSize="22" color="#16191a" vAlign="middle" ubb="true" autoSize="none" text="集齐该精怪共鸣"/>
+    <text id="n4_psu8" name="label_jc" xy="2,35" size="116,35" fontSize="22" color="#16191a" vAlign="middle" autoSize="none" text="加成属性"/>
+    <text id="n7_psu8" name="label_attr" xy="116,34" size="234,35" fontSize="22" color="#2b841c" vAlign="middle" autoSize="none" text="攻击+"/>
+  </displayList>
+</component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n0_sril" name="n0" src="sril9" fileName="res/bg_linglongge new.png" xy="0,0"/>
+    <image id="n1_sril" name="n1" src="srilf" fileName="giftdaily/word_meiritehui.png" xy="51,59"/>
+    <image id="n11_h269" name="n11" src="yb742n" fileName="giftdaily/pic_main banner.png" xy="364,12"/>
+    <image id="n12_tw6i" name="n12" src="me8jqw" fileName="ui/frame_countdown.png" pkg="27utqbiz" xy="58,190" size="360,30">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <richtext id="n4_sril" name="label_time" xy="132,186" size="219,37" fontSize="26" color="#ffffff" align="center" vAlign="middle" ubb="true" autoClearText="true" text="距离刷新时间：{0}">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n5_sril" name="group_value_chance" src="srilg" fileName="group_value.xml" xy="580,80"/>
+    <component id="n6_sril" name="group_value_stone" src="srilg" fileName="group_value.xml" xy="580,120"/>
+    <component id="n7_sril" name="group_leichong" src="srilh" fileName="group_leichong.xml" xy="50,280"/>
+    <list id="n8_sril" name="list_daily" xy="2,400" size="746,730" layout="flow_hz" overflow="scroll" lineGap="10" colGap="10" defaultItem="ui://kl5mxoqpsrilk" align="center" autoClearItems="true">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n10_sril" name="btn_rank" src="srilt" fileName="giftdaily/btn_rank.xml" xy="642,900">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n9_sril" name="btn_leichong" src="srilu" fileName="giftdaily/btn_leichong.xml" xy="642,1006">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

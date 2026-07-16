@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,178">
+  <displayList>
+    <image id="n29_a0tr" name="n29" src="a0tr1e" fileName="lclt/frame_huodongdiban.png" xy="0,-3" pkg="27utqbiz"/>
+    <richtext id="n21_evn5" name="label_des" xy="30,14" size="258,34" font="ui://27utqbizps391v" fontSize="20" vAlign="middle" autoSize="none" text="累计"/>
+    <list id="n27_evn5" name="list_item" xy="32,48" size="271,102" layout="flow_hz" overflow="hidden" scroll="horizontal" lineGap="2" colGap="17" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <component id="n30_a0tr" name="pro" src="a0tr1o" fileName="ProgressBar1.xml" xy="357,19">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n31_a0tr" name="btn_go" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="450,74" size="189,51"/>
+    <image id="n32_a0tr" name="n32" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="465,72" group="n34_a0tr"/>
+    <text id="n33_a0tr" name="title" xy="437,69" size="214,58" group="n34_a0tr" font="ui://27utqbizps391v" fontSize="36" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="已领取">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n34_a0tr" name="group_yilingqu" xy="437,69" size="214,61" advanced="true"/>
+  </displayList>
+</component>

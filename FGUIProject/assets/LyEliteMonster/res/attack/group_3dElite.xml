@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="297,434" opaque="false">
+  <displayList>
+    <loader id="n28_nogk" name="loader_break" xy="68,279" size="232,182" touchable="false" url="ui://xcpqvzp3mtsr46" align="center"/>
+    <loader3D id="n27_nogk" name="loader3D_monster" xy="178,306" size="1,1" scale="0.7,0.7" touchable="false" animation="" skin="" loop="true"/>
+    <loader id="n29_nogk" name="loader_EliteQua" xy="23,44" size="78,322" scale="0.8,0.8" touchable="false" url="ui://xcpqvzp3l3tj2j" autoSize="true" clearOnPublish="true"/>
+    <text id="n30_nogk" name="label_name" xy="41,122" size="40,136" scale="0.8,0.8" font="ui://27utqbizps391v" fontSize="30" align="center" leading="0" autoSize="none" text="将级门客"/>
+    <image id="n31_nogk" name="n31" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="105,376" group="n33_nogk"/>
+    <text id="n32_nogk" name="n32" xy="118,383" size="134,42" group="n33_nogk" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="已击败"/>
+    <group id="n33_nogk" name="group_die" xy="105,376" size="158,58" advanced="true"/>
+    <component id="n34_mtsr" name="btn_attack" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="88,377" size="192,52">
+      <Button title="驱散" titleFontSize="30"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1100">
+  <controller name="page" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n71_tn2s" name="n71" src="tn2s4i" fileName="leichong/frame_meirileichong.png" xy="0,-80"/>
+    <image id="n58_a0tr" name="n58" src="tn2s4c" fileName="leichong/frame_jinxingzhong.png" xy="126,180"/>
+    <image id="n61_a0tr" name="n61" src="tn2s4g" fileName="leichong/word_leitianchongzhi.png" xy="64,54"/>
+    <text id="n59_a0tr" name="label_time2" xy="201,181" size="70,31" font="ui://27utqbizps391v" fontSize="22" color="#f6de9c" align="center" vAlign="middle" autoClearText="true" text="进行中">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n72_tn2s" name="group_item" src="qoto3p" fileName="funds/group_item.xml" xy="600,140" scale="0.75,0.75"/>
+    <list id="n31_evn5" name="list_item" xy="41,235" size="668,830" overflow="scroll" defaultItem="ui://kl5mxoqptn2s48" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n44_a0tr" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="648,-20"/>
+  </displayList>
+</component>

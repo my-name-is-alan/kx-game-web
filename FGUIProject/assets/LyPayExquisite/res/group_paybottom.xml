@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,169">
+  <displayList>
+    <image id="n1_sril" name="n1" src="sril7" fileName="res/frame_tab.png" xy="0,0"/>
+    <component id="n0_sril" name="btn_close" src="sril6" fileName="res/btn_payclose.xml" xy="20,13"/>
+    <list id="n2_sril" name="list_page" xy="224,13" size="526,118" layout="row" overflow="scroll" scroll="horizontal" defaultItem="ui://kl5mxoqpsril8" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,420">
+  <displayList>
+    <image id="n23_i842" name="n23" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="35,41" size="680,360"/>
+    <image id="n19_k1vl" name="n19" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="109,80" size="530,38">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n12_pugc" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="654,10"/>
+    <text id="n4_n7tl" name="label_title" xy="370,79" size="10,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" text="">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n25_q609" name="n25" src="q6091p" fileName="res/frame_shurukuang.png" xy="212,180">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n26_q609" name="label_desc" xy="370,192" size="10,34" fontSize="24" color="#666666" align="center" vAlign="middle" letterSpacing="3" text="">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n16_pugc" name="btn_rand" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="120,300"/>
+    <component id="n15_pugc" name="btn_send" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="426,300"/>
+  </displayList>
+</component>

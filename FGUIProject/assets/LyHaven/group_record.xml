@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="636,104">
+  <displayList>
+    <image id="n35_tojh" name="n35" src="tojh1k" fileName="res/frame_in record interface.png" xy="0,0" size="636,114"/>
+    <image id="n37_tojh" name="n37" src="tojh1m" fileName="res/frame_connect3.png" xy="522,47" rotation="90"/>
+    <loader id="n27_tojh" name="loader_icon" xy="24,17" size="77,77" aspect="true" url="ui://2uzp0flsrdh36" fill="scaleFree"/>
+    <text id="n29_tojh" name="label_des" xy="140,62" size="339,35" fontSize="22" color="#3a9c27" vAlign="middle" autoSize="none" text="成功采集了3级葫芦"/>
+    <image id="n28_tojh" name="img_me" src="fml962" fileName="ui/icon_me.png" pkg="27utqbiz" xy="142,21" group="n31_tojh"/>
+    <text id="n30_tojh" name="label_name" xy="172,17" size="100,34" group="n31_tojh" fontSize="24" color="#16191a" vAlign="middle" text="暂定名字"/>
+    <group id="n31_tojh" name="n31" xy="142,17" size="130,34" advanced="true" layout="hz" excludeInvisibles="true"/>
+    <text id="n32_tojh" name="label_time" xy="518,23" size="113,46" group="n38_ve21" fontSize="22" color="#a06d21" align="center" vAlign="middle" autoSize="shrink" text="14：00"/>
+    <component id="n34_tojh" name="btn_go" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="520,64" size="108,30" group="n38_ve21">
+      <Button titleFontSize="20"/>
+    </component>
+    <group id="n38_ve21" name="n38" xy="518,23" size="113,71" advanced="true" layout="vt" lineGap="-5" colGap="-4" excludeInvisibles="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
+  </displayList>
+</component>

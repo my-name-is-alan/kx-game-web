@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="511,78">
+  <displayList>
+    <loader3D id="n10_hnc7" name="loader_spine" xy="153,49" size="1,1" animation="" skin="" loop="true"/>
+    <component id="n9_njmh" name="mian" src="hnc7h" fileName="main.xml" xy="-43,-45">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Pivot" target="n9_njmh" value="0.5,0.5"/>
+    <item time="0" type="Scale" target="n9_njmh" tween="true" startValue="0,0" endValue="1,1" duration="4" ease="Linear"/>
+    <item time="0" type="XY" target="n9_njmh" tween="true" startValue="-,-117" endValue="-,-54" duration="4" ease="Linear"/>
+    <item time="4" type="Pivot" target="n9_njmh" value="0.5,0.5"/>
+    <item time="4" type="Scale" target="n9_njmh" tween="true" startValue="1,1" endValue="0.95,0.95" duration="1" ease="Back.In"/>
+    <item time="5" type="Scale" target="n9_njmh" tween="true" startValue="0.95,0.95" endValue="1,1" duration="1"/>
+    <item time="6" type="Scale" target="n9_njmh" value="1,1"/>
+  </transition>
+</component>

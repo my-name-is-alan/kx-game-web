@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="420,46" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n21_q8va" name="n21" src="q8va6l" fileName="ui/frame_dropdown.png" pkg="27utqbiz" xy="0,0" size="420,46"/>
+    <richtext id="n19_q8va" name="title" xy="0,2" size="420,46" fontSize="22" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="收到">
+      <relation target="" sidePair="width-width,height-height"/>
+    </richtext>
+    <image id="n22_un85" name="n22" src="q8va6l" fileName="ui/frame_dropdown.png" pkg="27utqbiz" xy="0,44" size="420,2"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

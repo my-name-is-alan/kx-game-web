@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,41">
+  <displayList>
+    <loader id="n3_szl0" name="graph_back" xy="36,3" size="728,34" url="ui://2uzp0fls7yma7d"/>
+    <image id="n0_riam" name="n0" src="j3rv3l" fileName="ui/icon_chat.png" pkg="27utqbiz" xy="0,0" scale="1.1,1.1"/>
+    <richtext id="n2_riam" name="label_content" xy="55,4" size="600,32" touchable="false" fontSize="22" color="#475050" vAlign="middle" ubb="true" autoSize="none" text=""/>
+  </displayList>
+</component>

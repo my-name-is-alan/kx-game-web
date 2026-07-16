@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="625,120">
+  <displayList>
+    <image id="n8_hl71" name="n8" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="0,0" size="625,120"/>
+    <list id="n5_knxo" name="list_rankItem" xy="172,10" size="240,100" layout="row" overflow="scroll" scroll="horizontal" lineGap="51" colGap="10" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n9_hl71" name="group_top1" src="uzk85h" fileName="itemrank/frame_ranking_1.png" pkg="27utqbiz" xy="44,14" visible="false"/>
+    <image id="n16_hl71" name="group_top2" src="uzk85i" fileName="itemrank/frame_ranking_2.png" pkg="27utqbiz" xy="52,20" visible="false"/>
+    <image id="n20_hl71" name="group_top3" src="uzk85j" fileName="itemrank/frame_ranking_3.png" pkg="27utqbiz" xy="52,22" visible="false"/>
+    <text id="n22_hl71" name="label_top" xy="5,34" size="151,36" visible="false" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" text="100"/>
+    <image id="n28_qo8n" name="group_stage" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="442,30"/>
+    <richtext id="n6_jr3l" name="label_stage" xy="471,35" size="100,44" font="ui://27utqbizps391v" fontSize="32" color="#16191a" vAlign="middle" autoSize="none" autoClearText="true" text="未完成"/>
+  </displayList>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n0_s5qh" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n2_s5qh" name="btn_draw" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="278,1212" size="192,50" group="n4_s5qh">
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n3_s5qh" name="group_add" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="288,1168" group="n4_s5qh"/>
+    <text id="n26_hvzw" name="n26" xy="281,1296" size="184,29" group="n4_s5qh" fontSize="20" color="#cfcdc9" align="center" text="点击任意空白处关闭"/>
+    <group id="n4_s5qh" name="group_show" xy="278,1168" size="192,157" visible="false" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n6_s5qh" name="card0" src="s5qhkg" fileName="group_drawTen.xml" xy="267,20" group="n24_s5qh"/>
+    <component id="n15_s5qh" name="card1" src="s5qhkg" fileName="group_drawTen.xml" xy="487,211" group="n24_s5qh"/>
+    <component id="n16_s5qh" name="card2" src="s5qhkg" fileName="group_drawTen.xml" xy="486,498" group="n24_s5qh"/>
+    <component id="n17_s5qh" name="card3" src="s5qhkg" fileName="group_drawTen.xml" xy="485,787" group="n24_s5qh"/>
+    <component id="n18_s5qh" name="card4" src="s5qhkg" fileName="group_drawTen.xml" xy="267,883" group="n24_s5qh"/>
+    <component id="n19_s5qh" name="card5" src="s5qhkg" fileName="group_drawTen.xml" xy="49,786" group="n24_s5qh"/>
+    <component id="n20_s5qh" name="card6" src="s5qhkg" fileName="group_drawTen.xml" xy="49,499" group="n24_s5qh"/>
+    <component id="n21_s5qh" name="card7" src="s5qhkg" fileName="group_drawTen.xml" xy="48,211" group="n24_s5qh"/>
+    <component id="n22_s5qh" name="card8" src="s5qhkg" fileName="group_drawTen.xml" xy="268,308" group="n24_s5qh"/>
+    <component id="n23_s5qh" name="card9" src="s5qhkg" fileName="group_drawTen.xml" xy="268,595" group="n24_s5qh"/>
+    <group id="n24_s5qh" name="n24" xy="48,20" size="657,1147" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

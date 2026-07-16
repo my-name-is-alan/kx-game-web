@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="683,948">
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <list id="n23_me8j" name="list_all" xy="0,58" size="683,890" overflow="scroll" lineGap="-10" defaultItem="ui://xcpqvzp3ltem3y">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n25_me8j" name="btn_1" src="ltemkp" fileName="btn_rank1.xml" pkg="27utqbiz" xy="223,0">
+      <Button controller="c1" page="1"/>
+    </component>
+    <component id="n26_me8j" name="btn_2" src="ltemkp" fileName="btn_rank1.xml" pkg="27utqbiz" xy="13,0">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+  </displayList>
+</component>

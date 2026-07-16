@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,740">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n34_inob" name="n34" src="k1vlm3" fileName="res/frame_public3.png" pkg="qnktu1il" xy="58,0" size="634,740"/>
+    <image id="n32_inob" name="n32" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="165,40" size="431,38"/>
+    <image id="n22_1093u" name="n22" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="93,100" size="568,570">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n33_inob" name="label_title" xy="376,39" size="10,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" text="">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n27_1093u" name="list_item" xy="91,100" size="568,570" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" defaultItem="ui://i35cf1mqinobudu19h" align="center" autoClearItems="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n17_1093u" name="label_desc" xy="237,680" size="274,29" fontSize="20" color="#e86146" align="center" vAlign="middle" autoClearText="true" text="*只可手动领取达成的最高奖励">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

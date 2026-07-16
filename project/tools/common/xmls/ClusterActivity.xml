@@ -1,0 +1,4 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <activity id="300000" name="cluster demo" desc="cluster demo" type="6" detail="cluster demo demo demo" needLevel="1" icon="xxx" dayResetTime="0" closeTime="0"/>
+</root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" scroll="both" designImageAlpha="3">
+  <displayList>
+    <graph id="n76_m9v8" name="group_scene" xy="0,0" size="750,1334" type="rect" lineSize="0" fillColor="#ffb68e72"/>
+    <component id="n14_n6sh" name="group_bg" src="n6sh2v" fileName="group_mapBg.xml" xy="0,0" size="5200,2360"/>
+  </displayList>
+</component>

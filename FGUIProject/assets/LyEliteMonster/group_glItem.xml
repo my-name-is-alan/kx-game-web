@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="482,50">
+  <displayList>
+    <loader id="n42_fwug" name="loader_full" xy="73,4" size="200,42" url="ui://27utqbizj2mxhm" fill="scaleFree"/>
+    <loader id="n43_fwug" name="loader_suip" xy="282,4" size="200,42" url="ui://27utqbizj2mxhm" fill="scaleFree"/>
+    <image id="n44_fwug" name="n44" src="isiv91" fileName="ui/icon_piece.png" pkg="27utqbiz" xy="301,16"/>
+    <text id="n45_fwug" name="label_1" xy="103,6" size="147,39" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="0%"/>
+    <text id="n46_fwug" name="label_2" xy="313,6" size="147,39" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="0%"/>
+    <text id="n47_fwug" name="label_name" xy="0,0" size="71,50" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="下品"/>
+  </displayList>
+</component>

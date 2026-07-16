@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="753,30" opaque="false">
+  <displayList>
+    <image id="n25_t0if" name="n25" src="t0if54" fileName="res/main2/frame_bulletin board.png" xy="0,0" size="753,30"/>
+    <component id="n24_jzhd" name="group_notice_s" src="m3mp33" fileName="group_notice_s.xml" xy="79,0" touchable="false"/>
+  </displayList>
+</component>

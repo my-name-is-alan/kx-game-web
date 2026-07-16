@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,152" designImageOffsetX="-215" designImageOffsetY="-208">
+  <controller name="con_star" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <image id="n4_niv3" name="n4" src="rvb53e" fileName="ui/dec_pattern_behind_prop.png" xy="17,8"/>
+    <loader id="n1_niv3" name="loader_icon" xy="0,-7" pivot="0.5,0.5" size="106,100" url="ui://27utqbizniv320" align="center" vAlign="middle"/>
+    <image id="n5_niv3" name="n5" src="rvb539" fileName="ui/frame_body_kits.png" xy="2,65"/>
+    <text id="n6_niv3" name="label_solt" xy="25,62" size="59,29" font="ui://27utqbizps391v" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="饰品"/>
+    <loader3D id="n13_inps" name="loader_spine_item" xy="50,40" size="1,1" visible="false" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <component id="n15_gqdu" name="group_star" src="gqduvs" fileName="itemframe/group_star.xml" xy="-4,90" group="n16_pl5w" visible="false"/>
+    <text id="n2_niv3" name="label_count" xy="18,90" size="72,32" group="n16_pl5w" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="height" autoClearText="true" text="145级"/>
+    <group id="n16_pl5w" name="n16" xy="18,90" size="72,32" advanced="true" layout="vt" excludeInvisibles="true"/>
+  </displayList>
+</component>

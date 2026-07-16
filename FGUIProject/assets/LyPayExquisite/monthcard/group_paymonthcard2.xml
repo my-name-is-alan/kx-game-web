@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="348,1074">
+  <displayList>
+    <image id="n41_8inj" name="n41" src="8inj28" fileName="monthcard/frame_zhongshenka.png" xy="-4,-4"/>
+    <component id="n36_lu9o" name="btn_frame" src="e01h1d" fileName="monthcard/btn_paycardframe.xml" xy="-24,19"/>
+    <image id="n34_lu9o" name="n34" src="e01h1r" fileName="monthcard/icon_lifelong card.png" xy="83,-45"/>
+    <image id="n42_8inj" name="n42" src="8inj2a" fileName="monthcard/word_zhongshenka.png" xy="34,175"/>
+    <text id="n13_lu9o" name="label_tip1" xy="95,340" size="148,49" fontSize="36" color="#f2dfb0" align="center" vAlign="middle" autoClearText="true" text="终身受益">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n15_lu9o" name="label_tip0" xy="75,398" size="260,165" touchable="false" fontSize="26" color="#f2dfb0" vAlign="middle" leading="5" ubb="true" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n14_lu9o" name="label_tip2" xy="110,563" size="108,37" font="ui://27utqbizps391v" fontSize="26" color="#604831" align="center" vAlign="middle" autoClearText="true" text="专属特权">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n16_lu9o" name="label_desc" xy="34,614" size="280,260" touchable="false" fontSize="22" color="#f2dfb0" leading="5" ubb="true" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n32_lu9o" name="btn_pay" src="e01h1v" fileName="monthcard/btn_paycard2.xml" xy="104,863"/>
+    <text id="n28_lu9o" name="label_take" xy="163,891" size="10,42" font="ui://27utqbizps391v" fontSize="30" color="#cda158" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n43_8inj" name="btn_take" src="e01h1l" fileName="monthcard/btn_take1.xml" xy="67,881"/>
+    <component id="n44_t09v" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="238,850" visible="false"/>
+    <graph id="n40_kmtb" name="graph_front" xy="-24,19" size="402,1020" alpha="0.01" type="rect" lineColor="#00ffffff" fillColor="#00ffffff"/>
+  </displayList>
+</component>

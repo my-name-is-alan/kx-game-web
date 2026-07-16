@@ -1,0 +1,41 @@
+
+jm_zhujiemian_yu.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jm_meiri_yu_01
+  rotate: false
+  xy: 2, 56
+  size: 86, 62
+  orig: 86, 62
+  offset: 0, 0
+  index: -1
+jm_meiri_yu_02
+  rotate: false
+  xy: 2, 7
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+jm_meiri_yu_03
+  rotate: true
+  xy: 102, 102
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+jm_meiri_yu_04
+  rotate: false
+  xy: 52, 36
+  size: 66, 18
+  orig: 66, 18
+  offset: 0, 0
+  index: -1
+jm_meiri_yu_05
+  rotate: true
+  xy: 90, 68
+  size: 50, 10
+  orig: 50, 10
+  offset: 0, 0
+  index: -1

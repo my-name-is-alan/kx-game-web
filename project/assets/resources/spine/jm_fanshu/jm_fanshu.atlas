@@ -1,0 +1,55 @@
+
+jm_fanshu.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+m_miji_01
+  rotate: false
+  xy: 2, 2
+  size: 351, 478
+  orig: 352, 478
+  offset: 1, 0
+  index: -1
+m_miji_02
+  rotate: false
+  xy: 2, 962
+  size: 363, 488
+  orig: 363, 488
+  offset: 0, 0
+  index: -1
+m_miji_03
+  rotate: false
+  xy: 2, 482
+  size: 356, 478
+  orig: 356, 478
+  offset: 0, 0
+  index: -1
+m_miji_04
+  rotate: false
+  xy: 363, 1474
+  size: 359, 482
+  orig: 359, 482
+  offset: 0, 0
+  index: -1
+m_miji_06
+  rotate: false
+  xy: 355, 40
+  size: 332, 440
+  orig: 332, 440
+  offset: 0, 0
+  index: -1
+m_miji_07
+  rotate: false
+  xy: 360, 692
+  size: 257, 268
+  orig: 300, 300
+  offset: 20, 14
+  index: -1
+m_miji_09
+  rotate: false
+  xy: 2, 1452
+  size: 359, 504
+  orig: 359, 504
+  offset: 0, 0
+  index: -1

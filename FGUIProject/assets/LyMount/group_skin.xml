@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,990">
+  <displayList>
+    <image id="n58_ii8x" name="n58" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="30,-7" size="690,990"/>
+    <image id="n68_ii8x" name="n68" src="ii8xq" fileName="res/bg_baixianglou1.png" xy="53,16"/>
+    <component id="n59_ii8x" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,-32"/>
+    <image id="n60_ii8x" name="n60" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="164,29" size="432,38"/>
+    <text id="n61_ii8x" name="label_title" xy="179,28" size="400,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n69_phnl" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="361,390" pivot="0.5,1" anchor="true" scale="0.8,0.8"/>
+    <component id="n62_ii8x" name="btn_additive" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="16,-3"/>
+    <text id="n4_qlw8" name="label_additive" xy="86,32" size="10,29" fontSize="20" color="#16191a" vAlign="middle" text=""/>
+    <text id="n47_nxgl" name="label_name" xy="184,480" size="381,36" font="ui://27utqbizps391v" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n67_ii8x" name="n67" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="245,520"/>
+    <richtext id="n48_nxgl" name="label_desc" xy="75,528" size="600,34" fontSize="24" color="#16191a" align="center" vAlign="middle" ubb="true" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n49_nxgl" name="label_attr" xy="75,563" size="600,34" fontSize="24" align="center" vAlign="middle" ubb="true" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <list id="n1_r7co" name="list_mount" xy="67,609" size="600,180" layout="flow_hz" selectionMode="none" overflow="scroll" scrollBarFlags="2" defaultItem="ui://c3my3l4fii8xk" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n41_i3vf" name="loader_icon1" xy="318,830" size="40,40" group="n46_i3vf" fill="scaleFree"/>
+    <text id="n42_i3vf" name="label_need1" xy="370,833" size="10,34" group="n46_i3vf" fontSize="24" color="#b24444" vAlign="middle" text=""/>
+    <component id="n63_ii8x" name="btn_active" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="268,878" group="n46_i3vf"/>
+    <group id="n46_i3vf" name="group_active" xy="268,830" size="214,106" advanced="true"/>
+    <loader id="n50_nxgl" name="loader_icon2" xy="150,830" size="40,40" group="n53_nxgl" fill="scaleFree"/>
+    <text id="n51_nxgl" name="label_need2" xy="202,833" size="10,34" group="n53_nxgl" fontSize="24" color="#b24444" vAlign="middle" text=""/>
+    <component id="n64_ii8x" name="btn_uplevel" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="100,878" group="n53_nxgl"/>
+    <component id="n65_ii8x" name="btn_used" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="430,878" group="n53_nxgl"/>
+    <component id="n66_ii8x" name="btn_unused" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="430,878" group="n53_nxgl"/>
+    <group id="n53_nxgl" name="group_uplevel" xy="100,830" size="544,106" advanced="true"/>
+  </displayList>
+</component>

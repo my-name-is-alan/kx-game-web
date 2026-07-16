@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1140" designImageOffsetX="-3" designImageOffsetY="-294" designImageAlpha="100">
+  <displayList>
+    <image id="n122_liu3" name="n122" src="liu3du176" fileName="comombg/frame_tanchuang.png" pkg="27utqbiz" xy="-1,0"/>
+    <image id="n87_ljrs" name="n87" src="ljrs1g" fileName="res/pic_banner.png" xy="15,44"/>
+    <image id="n88_ljrs" name="n88" src="ljrs1h" fileName="res/word_ggzj.png" xy="55,99"/>
+    <loader id="n90_ljrs" name="btn_highItem" xy="424,417" size="279,38" url="ui://irbjwyufljrs1j"/>
+    <loader id="n91_ljrs" name="btn_midItem" xy="283,417" size="141,38" url="ui://irbjwyufljrs1k"/>
+    <image id="n92_ljrs" name="n92" src="ljrs1l" fileName="res/frame_ggzjdk1.png" xy="37,417"/>
+    <text id="n103_ljrs" name="str18" xy="167,418" size="100,34" font="ui://27utqbizps391v" fontSize="24" color="#ffc895" vAlign="middle" strokeColor="#b95f1c" strokeSize="2" autoClearText="true" text="基础福利"/>
+    <text id="n104_ljrs" name="str16" xy="305,418" size="100,34" font="ui://27utqbizps391v" fontSize="24" color="#ffcb5b" vAlign="middle" strokeColor="#b95f1c" strokeSize="2" autoClearText="true" text="基础福利"/>
+    <text id="n105_ljrs" name="str17" xy="503,418" size="100,34" font="ui://27utqbizps391v" fontSize="24" color="#ff981e" vAlign="middle" strokeColor="#a05000" strokeSize="2" autoClearText="true" text="基础福利"/>
+    <list id="n114_n7df" name="list_passport" xy="36,456" size="668,611" overflow="scroll" lineGap="-4" defaultItem="ui://irbjwyufn7df1o" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n115_n7df" name="label_time" xy="39,1083" size="672,29" fontSize="20" color="#ffe9ba" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="333q天21时19分后购买入口关闭"/>
+    <image id="n89_ljrs" name="n89" src="ljrs1i" fileName="res/frame_ggzjdk.png" xy="49,328" group="n117_n7df"/>
+    <text id="n101_ljrs" name="str19" xy="53,349" size="108,37" group="n117_n7df" font="ui://27utqbizps391v" fontSize="26" color="#16191a" vAlign="middle" autoClearText="true" text="击败人数"/>
+    <text id="n102_ljrs" name="label_winCount" xy="53,383" size="108,39" group="n117_n7df" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="16"/>
+    <text id="n108_ljrs" name="label_level" xy="166,353" size="100,34" group="n117_n7df" fontSize="24" color="#16191a" vAlign="middle" autoClearText="true" text="下级所需"/>
+    <component id="n121_phai" name="bar_level" src="phaidu16q" fileName="bar_level8.xml" pkg="27utqbiz" xy="166,393" size="189,10" group="n117_n7df">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <group id="n117_n7df" name="n117" xy="49,328" size="340,110"/>
+    <component id="n120_n7df" name="btn_close1" src="ltemkl" fileName="btn_close3.xml" pkg="27utqbiz" xy="640,-4" scale="1.5,1.5"/>
+  </displayList>
+</component>

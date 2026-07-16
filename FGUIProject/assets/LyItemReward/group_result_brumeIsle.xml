@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,460">
+  <displayList>
+    <image id="n27_osg9" name="back_win" src="osg9u" fileName="res/frame_bottom2.png" xy="0,6" size="750,476"/>
+    <richtext id="n34_nvxw" name="label_desc1" xy="75,79" size="592,76" fontSize="26" color="#ffeaa3" align="center" ubb="true" autoSize="none" autoClearText="true" text="您对金甲造成3.37亿伤害，成功击败敌方，获得以下奖励"/>
+    <image id="n48_8g2x" name="n48" src="osg9w" fileName="res/frame_title2.png" xy="-1,-157" group="n50_8g2x"/>
+    <image id="n49_8g2x" name="n49" src="osg910" fileName="res/word_gongxihuode.png" xy="197,-86" group="n50_8g2x"/>
+    <group id="n50_8g2x" name="title_win" xy="-1,-157" size="750,212" advanced="true"/>
+    <text id="n54_8g2x" name="n54" xy="274,469" size="202,32" alpha="0.7" fontSize="22" color="#f6e2ce" text="点击空白处关闭界面"/>
+    <list id="n55_8g2x" name="list_item" xy="376,292" pivot="0.5,0.5" anchor="true" size="620,244" layout="flow_hz" overflow="scroll" scrollBarFlags="128" colGap="30" defaultItem="ui://02ur49fwtclen" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader3D id="n56_8g2x" name="loader_spine2" xy="319,317" size="2,2" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+  </displayList>
+</component>

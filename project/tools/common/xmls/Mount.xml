@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root id="1" detail="一、坐骑养成&lt;br/&gt;&#10;1.作为出行的必备工具，选择好的坐骑能让冒险事半功倍。&lt;br/&gt;2.所有的坐骑共享养成等级。&lt;br/&gt;3.消耗珊瑚，能提升坐骑等级。在达到等级上限时，可使用陨星砂进阶，提升养成的等级上限。&lt;br/&gt;4.珊瑚和陨星砂可通过江湖擂台获得。&lt;br/&gt;5.装备不同的坐骑，能更换指定抗性的效果。">
+  <mountlevel>
+    <item id="1" mount_stage="1" mount_level_max="10" hp="1879" atk="282" def="47" resis="0" g_hp="50" g_atk="8" g_def="1" al_resis="12" level_item_id="120014" level_sum="3" stage_item_id="120015" stage_sum="10"/>
+    <item id="2" mount_stage="2" mount_level_max="20" hp="2969" atk="450" def="77" resis="12" g_hp="100" g_atk="15" g_def="3" al_resis="21.6" level_item_id="120014" level_sum="10" stage_item_id="120015" stage_sum="20"/>
+    <item id="3" mount_stage="3" mount_level_max="30" hp="5021" atk="758" def="138" resis="24" g_hp="152" g_atk="23" g_def="4" al_resis="31.2" level_item_id="120014" level_sum="10" stage_item_id="120015" stage_sum="30"/>
+    <item id="4" mount_stage="4" mount_level_max="60" hp="9630" atk="1455" def="259" resis="36" g_hp="201" g_atk="30" g_def="5" al_resis="40.8" level_item_id="120014" level_sum="20" stage_item_id="120015" stage_sum="120"/>
+    <item id="5" mount_stage="5" mount_level_max="120" hp="21963" atk="3296" def="566" resis="48" g_hp="474" g_atk="71" g_def="12" al_resis="50.4" level_item_id="120014" level_sum="25" stage_item_id="120015" stage_sum="300"/>
+    <item id="6" mount_stage="6" mount_level_max="280" hp="79904" atk="11975" def="2032" resis="60" g_hp="1535" g_atk="230" g_def="38" al_resis="60" level_item_id="120014" level_sum="30" stage_item_id="120015" stage_sum="840"/>
+    <item id="7" mount_stage="7" mount_level_max="435" hp="519825" atk="77910" def="12928" resis="72" g_hp="11764" g_atk="1765" g_def="294" al_resis="69.6" level_item_id="120014" level_sum="35" stage_item_id="120015" stage_sum="1060"/>
+    <item id="8" mount_stage="8" mount_level_max="480" hp="7126750" atk="1069092" def="178048" resis="84" g_hp="30843" g_atk="4626" g_def="771" al_resis="79.2" level_item_id="120014" level_sum="40" stage_item_id="120015" stage_sum="1560"/>
+    <item id="9" mount_stage="9" mount_level_max="606" hp="36438270" atk="5469683" def="909483" resis="96" g_hp="47267" g_atk="7083" g_def="1183" al_resis="88.8" level_item_id="120014" level_sum="50" stage_item_id="120015" stage_sum="2080"/>
+    <item id="10" mount_stage="10" mount_level_max="100000" hp="78098246" atk="11714617" def="1951897" resis="108" g_hp="72437" g_atk="10845" g_def="1815" al_resis="98.4" level_item_id="120014" level_sum="60" stage_item_id="120015" stage_sum="2360"/>
+  </mountlevel>
+  <mounttype>
+    <item id="1" name="竹叶" resis="0" modelId="4101" count="0"/>
+    <item id="2" name="笛子" resis="31" modelId="4102" count="480"/>
+    <item id="3" name="斗笠" resis="32" modelId="4103" count="480"/>
+    <item id="4" name="符箓" resis="33" modelId="4104" count="480"/>
+    <item id="5" name="折扇" resis="34" modelId="4105" count="480"/>
+    <item id="6" name="纸伞" resis="35" modelId="4106" count="480"/>
+    <item id="7" name="白鹤" resis="36" modelId="4107" count="480"/>
+  </mounttype>
+  <mountclothes>
+    <item id="1" attributeId="0" attribute="1" modelId="4201" name="天地乾鲲" item_id="161001" count="1"/>
+  </mountclothes>
+</root>

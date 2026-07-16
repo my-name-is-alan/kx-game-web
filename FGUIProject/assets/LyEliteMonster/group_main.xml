@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1135">
+  <displayList>
+    <image id="n0_fa2y" name="n0" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="704,1103" alpha="0.998"/>
+    <image id="n53_y9su" name="n53" src="y9su14" fileName="res/main/bg_menke.png" xy="21,96" alpha="0.998">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <richtext id="n1_fa2y" name="label_title" xy="11,31" size="210,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="门客">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <loader id="n44_y9su" name="loader_img0" xy="53,139" pivot="0.5,0.5" size="154,232" group="n64_dbzf" url="ui://xcpqvzp3y9su1k" align="center" vAlign="middle"/>
+    <loader id="n46_y9su" name="loader_img1" xy="265,139" pivot="0.5,0.5" size="154,232" group="n64_dbzf" url="ui://xcpqvzp3y9su1i" align="center" vAlign="middle"/>
+    <loader id="n47_y9su" name="loader_img2" xy="475,139" pivot="0.5,0.5" size="154,232" group="n64_dbzf" url="ui://xcpqvzp3y9su1i" align="center" vAlign="middle"/>
+    <group id="n64_dbzf" name="n64" xy="53,139" size="576,232" advanced="true"/>
+    <loader3D id="n2_j2yt" name="loader_on0" xy="128,421" pivot="0.5,0" anchor="true" size="2,2" scale="0.73,0.73" animation="" skin="" loop="true"/>
+    <loader3D id="n3_j2yt" name="loader_on1" xy="343,421" pivot="0.5,0" anchor="true" size="2,2" scale="0.73,0.73" animation="" skin="" loop="true"/>
+    <loader3D id="n4_j2yt" name="loader_on2" xy="552,421" pivot="0.5,0" anchor="true" size="2,2" scale="0.73,0.73" animation="" skin="" loop="true"/>
+    <loader3D id="n66_h7sm" name="loader_spine0" xy="128,254" pivot="0.5,0" anchor="true" size="2,2" scale="0.73,0.73" animation="" skin="" loop="true"/>
+    <loader3D id="n67_h7sm" name="loader_spine1" xy="343,254" pivot="0.5,0" anchor="true" size="2,2" scale="0.73,0.73" animation="" skin="" loop="true"/>
+    <loader3D id="n68_h7sm" name="loader_spine2" xy="552,254" pivot="0.5,0" anchor="true" size="2,2" scale="0.73,0.73" animation="" skin="" loop="true"/>
+    <list id="n31_d3qo" name="list_errArr" xy="48,856" size="586,118" layout="flow_hz" overflow="scroll" lineGap="-3" colGap="41" defaultItem="ui://xcpqvzp3y9su21" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n30_d3qo" name="list_mainArr" xy="45,816" size="590,34" layout="row" overflow="hidden" colGap="42" defaultItem="ui://xcpqvzp3ccr6i" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n32_d3qo" name="list_allEditMo" xy="78,483" size="547,276" layout="flow_hz" overflow="scroll" margin="-12,0,0,0" lineGap="-19" colGap="7" defaultItem="ui://xcpqvzp3j2yt6" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n42_y9su" name="n42" src="y9su1f" fileName="res/main/frame_edit&amp;switch.png" xy="464,397" group="n65_gq5l">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n41_y9su" name="btn_editTeam" src="y9su20" fileName="btn_cc1.xml" xy="605,388" group="n65_gq5l">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://xcpqvzp3y9su1j"/>
+    </component>
+    <component id="n39_y9su" name="btn_changeTeam" src="y9su20" fileName="btn_cc1.xml" xy="526,388" group="n65_gq5l">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://xcpqvzp3y9su1h"/>
+    </component>
+    <group id="n65_gq5l" name="n65" xy="464,388" size="220,50"/>
+    <image id="n45_y9su" name="n45" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="552,927"/>
+    <component id="n48_y9su" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="626,41">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n50_y9su" name="btn_what" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="73,16">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n54_y9su" name="n54" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="150,440" size="375,32">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n52_y9su" name="label_number" xy="286,440" pivot="0.5,0.5" size="102,32" font="ui://27utqbizps391v" fontSize="22" color="#16191a" align="center" vAlign="middle" leading="2" letterSpacing="-3" text="收集总加成">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n57_y9su" name="n57" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="159,777" size="377,32"/>
+    <text id="n58_y9su" name="label_de2" xy="291,776" size="114,32" font="ui://27utqbizps391v" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text="收集总加成"/>
+    <component id="n62_y9su" name="btn_darwCard" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="379,992" size="192,54">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n63_y9su" name="btn_resonance" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="114,993" size="186,50">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="羁绊"/>
+    </component>
+  </displayList>
+</component>

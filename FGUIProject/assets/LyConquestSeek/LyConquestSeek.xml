@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" bgColor="#66ffff">
+  <displayList>
+    <image id="n6_s44m" name="n6" src="cda51y" fileName="res/bg_bahuangzhujiemian.png" xy="0,-183">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n12_s44m" name="n12" src="cda51r" fileName="res/frame_bahuangfanhuidi.png" xy="0,-5"/>
+    <image id="n7_s44m" name="n7" src="cda51h" fileName="hall/word_bahuangfanhui.png" xy="76,84"/>
+    <image id="n8_s44m" name="n8" src="cda51i" fileName="hall/word_bahuangtanmi.png" xy="101,240">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n21_s2gy" name="n21" src="m7ba3e" fileName="hall/frame_challenger.png" xy="45,382" size="660,26">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n22_uu0c" name="btn_lastwiner" src="mf395e" fileName="hall/btn_lastwiner.xml" xy="310,1200">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n13_m7ba" name="btn_reward" src="m7ba3b" fileName="hall/btn_hallreward.xml" xy="430,1200">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n14_m7ba" name="btn_rank" src="m7ba3c" fileName="hall/btn_hallrank.xml" xy="530,1200">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n15_m7ba" name="btn_task" src="m7ba3a" fileName="hall/btn_halltask.xml" xy="630,1200">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n23_tc1u" name="btn_headRank" src="tc1u4v" fileName="btn_headRank.xml" xy="605,1011">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n17_m7ba" name="btn_enter" src="m7ba3h" fileName="hall/btn_enter.xml" xy="256,840">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n11_s44m" name="group_chat" src="h8md27" fileName="Group_Chat.xml" pkg="27utqbiz" xy="0,1150">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n16_m7ba" name="btn_detail" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="199,55"/>
+    <component id="n10_s44m" name="btn_close" src="n6shdu17t" fileName="btn_back2.xml" pkg="27utqbiz" xy="15,1208">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <text id="n20_m7ba" name="label_time" xy="297,378" size="156,34" fontSize="24" color="#67320b" align="center" vAlign="middle" autoClearText="true" text="活动时间：{0}">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n18_m7ba" name="label_battle" xy="310,1055" size="129,29" fontSize="20" color="#74d644" strokeColor="#16191a" autoClearText="true" text="活动时间：{0}">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n19_m7ba" name="label_cd" xy="320,1090" size="109,29" fontSize="20" color="#ffffff" strokeColor="#16191a" autoClearText="true" text="开战中：{0}">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

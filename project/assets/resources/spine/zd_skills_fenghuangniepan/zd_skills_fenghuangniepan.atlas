@@ -1,0 +1,153 @@
+
+zd_skills_fenghuangniepan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hfnp_hf/hfnp_hf_00
+  rotate: false
+  xy: 2, 935
+  size: 130, 87
+  orig: 340, 250
+  offset: 117, 56
+  index: -1
+images/hfnp_hf/hfnp_hf_02
+  rotate: false
+  xy: 567, 855
+  size: 208, 167
+  orig: 340, 250
+  offset: 65, 18
+  index: -1
+images/hfnp_hf/hfnp_hf_04
+  rotate: false
+  xy: 2, 697
+  size: 311, 170
+  orig: 340, 250
+  offset: 15, 22
+  index: -1
+images/hfnp_hf/hfnp_hf_06
+  rotate: false
+  xy: 315, 679
+  size: 307, 174
+  orig: 340, 250
+  offset: 19, 24
+  index: -1
+images/hfnp_hf/hfnp_hf_08
+  rotate: false
+  xy: 624, 663
+  size: 287, 187
+  orig: 340, 250
+  offset: 29, 26
+  index: -1
+images/hfnp_hf/hfnp_hf_10
+  rotate: false
+  xy: 406, 258
+  size: 309, 203
+  orig: 340, 250
+  offset: 18, 25
+  index: -1
+images/hfnp_hf/hfnp_hf_12
+  rotate: false
+  xy: 717, 253
+  size: 304, 208
+  orig: 340, 250
+  offset: 20, 30
+  index: -1
+images/hfnp_hf/hfnp_hf_14
+  rotate: false
+  xy: 2, 63
+  size: 268, 212
+  orig: 340, 250
+  offset: 39, 25
+  index: -1
+images/hfnp_hf/hfnp_hf_16
+  rotate: false
+  xy: 501, 32
+  size: 266, 219
+  orig: 340, 250
+  offset: 39, 22
+  index: -1
+images/hfnp_hf/hfnp_hf_18
+  rotate: false
+  xy: 769, 31
+  size: 253, 220
+  orig: 340, 250
+  offset: 37, 23
+  index: -1
+images/hfnp_hf/hfnp_hf_20
+  rotate: false
+  xy: 272, 40
+  size: 227, 216
+  orig: 340, 250
+  offset: 42, 26
+  index: -1
+images/hfnp_hf/hfnp_hf_22
+  rotate: false
+  xy: 351, 858
+  size: 214, 164
+  orig: 340, 250
+  offset: 56, 30
+  index: -1
+images/hfnp_hf/hfnp_hf_24
+  rotate: false
+  xy: 134, 869
+  size: 215, 153
+  orig: 340, 250
+  offset: 57, 36
+  index: -1
+images/hfnp_xl/hfnp_xl_02
+  rotate: true
+  xy: 777, 852
+  size: 170, 182
+  orig: 210, 210
+  offset: 16, 16
+  index: -1
+images/hfnp_xl/hfnp_xl_04
+  rotate: false
+  xy: 2, 507
+  size: 189, 188
+  orig: 210, 210
+  offset: 11, 9
+  index: -1
+images/hfnp_xl/hfnp_xl_06
+  rotate: true
+  xy: 193, 482
+  size: 195, 196
+  orig: 210, 210
+  offset: 8, 7
+  index: -1
+images/hfnp_xl/hfnp_xl_08
+  rotate: false
+  xy: 391, 479
+  size: 198, 198
+  orig: 210, 210
+  offset: 7, 6
+  index: -1
+images/hfnp_xl/hfnp_xl_10
+  rotate: false
+  xy: 591, 463
+  size: 198, 198
+  orig: 210, 210
+  offset: 6, 6
+  index: -1
+images/hfnp_xl/hfnp_xl_12
+  rotate: false
+  xy: 791, 463
+  size: 198, 198
+  orig: 210, 210
+  offset: 6, 6
+  index: -1
+images/hfnp_xl/hfnp_xl_14
+  rotate: false
+  xy: 2, 280
+  size: 200, 200
+  orig: 210, 210
+  offset: 5, 5
+  index: -1
+images/hfnp_xl/hfnp_xl_16
+  rotate: false
+  xy: 204, 277
+  size: 200, 200
+  orig: 210, 210
+  offset: 5, 5
+  index: -1

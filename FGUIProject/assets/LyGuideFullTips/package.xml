@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="y8tjkedl">
+  <resources>
+    <image id="g0p70" name="frame_menke2tips.png" path="/res/"/>
+    <image id="g0p71" name="frame_menketips.png" path="/res/"/>
+    <image id="g0p72" name="frame_mijitips.png" path="/res/"/>
+    <image id="g0p73" name="frame_xailvtips.png" path="/res/"/>
+    <component id="g0p75" name="LyGuideFullTips.xml" path="/" exported="true"/>
+    <component id="g0p76" name="group_theurgy.xml" path="/"/>
+    <component id="g0p77" name="group_pet.xml" path="/"/>
+    <component id="g0p78" name="group_elite1.xml" path="/"/>
+    <component id="g0p79" name="group_elite2.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

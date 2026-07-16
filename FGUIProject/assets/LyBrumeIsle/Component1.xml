@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,114" mask="n49_x3dl">
+  <displayList>
+    <loader id="n48_x3dl" name="loader_icon" xy="0,0" size="114,114" aspect="true" url="ui://27utqbizjxkqne" align="center" vAlign="middle"/>
+    <graph id="n49_x3dl" name="n49" xy="0,0" size="114,114" aspect="true" type="eclipse"/>
+  </displayList>
+</component>

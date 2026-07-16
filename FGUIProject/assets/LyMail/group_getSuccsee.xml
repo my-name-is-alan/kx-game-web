@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="364,130">
+  <displayList>
+    <image id="n137_d4db" name="n137" src="8u8ip9" fileName="ui/frame_tips.png" pkg="27utqbiz" xy="-21,-1"/>
+    <image id="n129_kuu9" name="n129" src="kuu923" fileName="res/word_receive.png" xy="47,38"/>
+  </displayList>
+</component>

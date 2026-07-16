@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,860">
+  <displayList>
+    <image id="n13_dcb1" name="n13" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="30,0" size="690,800"/>
+    <component id="n14_dcb1" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,-25"/>
+    <image id="n15_dcb1" name="n15" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="164,36" size="432,38"/>
+    <text id="n16_dcb1" name="label_title" xy="179,35" size="400,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n12_ib4p" name="label_time" xy="370,86" size="10,32" fontSize="22" color="#5b9f57" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n4_aao6" name="list_reward" xy="75,144" size="600,620" overflow="scroll" lineGap="10" defaultItem="ui://a20b95c1ib4p4">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <component id="n18_bd1g" name="btn_week" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="35,786"/>
+    <component id="n19_bd1g" name="btn_day" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="205,786"/>
+  </displayList>
+</component>

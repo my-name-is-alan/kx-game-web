@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="126,117">
+  <displayList>
+    <image id="n110_rgsw" name="n110" src="c3ihdu16w" fileName="mk_qipao.png" xy="126,0" scale="-1,1"/>
+    <component id="n90_c3ih" name="GroupItem" src="ewyha" fileName="itemframe/GroupItem.xml" xy="29,17" scale="0.74,0.74"/>
+  </displayList>
+</component>

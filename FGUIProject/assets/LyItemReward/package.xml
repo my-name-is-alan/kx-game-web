@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="02ur49fw">
+  <resources>
+    <component id="ewyh0" name="LyItemReward.xml" path="/" exported="true"/>
+    <component id="ewyh1" name="group_main.xml" path="/"/>
+    <component id="o6qja" name="LyBattleResult.xml" path="/" exported="true"/>
+    <component id="o6qjb" name="group_result.xml" path="/"/>
+    <component id="drqve" name="LyEliteAttackReward.xml" path="/" exported="true"/>
+    <component id="drqvf" name="LyEliteAttackRewardMain.xml" path="/"/>
+    <component id="8cb1d" name="LyTheurgyReward.xml" path="/" exported="true"/>
+    <component id="8cb1c" name="LyTheurgyRewardMain.xml" path="/"/>
+    <component id="osg913" name="group_result_duel.xml" path="/"/>
+    <image id="osg918" name="frame_fubiaotidianzhuangshi2.png" path="/res/"/>
+    <image id="r8oph" name="btn_shengjiyutang.png" path="/res/"/>
+    <image id="r8opi" name="btn_tiaozhanxialv.png" path="/res/"/>
+    <image id="r8opj" name="btn_tishengzhuangbei.png" path="/res/"/>
+    <component id="r8opk" name="btn_lostGo1.xml" path="/"/>
+    <component id="r8opl" name="btn_lostGo2.xml" path="/"/>
+    <component id="r8opm" name="btn_lostGo3.xml" path="/"/>
+    <component id="tclen" name="GroupItem2.xml" path="/" exported="true"/>
+    <component id="o55vp" name="LyItemRewardForge.xml" path="/" exported="true"/>
+    <component id="o55vr" name="group_forge.xml" path="/"/>
+    <image id="c88gt" name="frame_duijue.png" path="/res/"/>
+    <image id="osg9u" name="frame_bottom2.png" path="/res/" exported="true" scale="9grid" scale9grid="320,110,110,214"/>
+    <image id="osg9v" name="frame_bottom3.png" path="/res/" scale="9grid" scale9grid="120,110,510,214"/>
+    <image id="osg9w" name="frame_title2.png" path="/res/"/>
+    <image id="osg9x" name="frame_title3.png" path="/res/"/>
+    <image id="osg9y" name="frame_title4.png" path="/res/" exported="true"/>
+    <image id="osg9z" name="word_baibei.png" path="/res/"/>
+    <image id="osg910" name="word_gongxihuode.png" path="/res/"/>
+    <image id="osg911" name="word_shengli.png" path="/res/"/>
+    <image id="osg912" name="frame_bottom5_no title.png" path="/res/" scale="9grid" scale9grid="320,110,110,182"/>
+    <component id="qav21s" name="LyItemRewardExplore.xml" path="/" exported="true"/>
+    <component id="qav21t" name="group_mainExplore.xml" path="/"/>
+    <component id="qav21u" name="GroupItemExplore.xml" path="/" exported="true"/>
+    <image id="qav21v" name="icon_aixin2.png" path="/res/"/>
+    <image id="feen1w" name="word_youlifaxian.png" path="/res/"/>
+    <image id="bl0w1x" name="frame_title1.png" path="/res/" exported="true"/>
+    <image id="bl0wph" name="word_hechengchenggong.png" path="/res/" exported="true"/>
+    <image id="qav23v" name="word_shengjichenggong.png" path="/res/" exported="true"/>
+    <component id="jwvdpi" name="group_result_qunyin.xml" path="/"/>
+    <component id="nvxwpk" name="group_result_clanDuel.xml" path="/"/>
+    <image id="jo98pl" name="word_tiaozhanjieshu.png" path="/res/"/>
+    <image id="ds91u1aa" name="frame_bottom4.png" path="/res/" exported="true"/>
+    <image id="ds91u1a9" name="dec_4_zhaohuan&amp;tunshi.png" path="/res/" exported="true"/>
+    <component id="8g2xpm" name="LyBrumeIsleJoinReward.xml" path="/" exported="true"/>
+    <component id="8g2xpn" name="main_LyBrumeIsleJoinReward.xml" path="/"/>
+    <component id="8g2xpo" name="LyBrumeIsleDown.xml" path="/" exported="true"/>
+    <component id="8g2xpp" name="main_LyBrumeIsleDown.xml" path="/"/>
+    <image id="h9lcpm" name="frame_yun.png" path="/rebate/"/>
+    <image id="h9lcpn" name="word_yi.png" path="/rebate/"/>
+    <image id="h9lcpo" name="word_fanli.png" path="/rebate/"/>
+    <image id="h9lcpp" name="word_9.png" path="/rebate/"/>
+    <image id="h9lcpq" name="word_8.png" path="/rebate/"/>
+    <image id="h9lcpr" name="word_7.png" path="/rebate/"/>
+    <image id="h9lcps" name="word_6.png" path="/rebate/"/>
+    <image id="h9lcpt" name="word_yuan.png" path="/rebate/"/>
+    <image id="h9lcpu" name="word_5.png" path="/rebate/"/>
+    <image id="h9lcpv" name="word_3.png" path="/rebate/"/>
+    <image id="h9lcpw" name="word_2.png" path="/rebate/"/>
+    <image id="h9lcpx" name="word_1.png" path="/rebate/"/>
+    <image id="h9lcpy" name="word_0.png" path="/rebate/"/>
+    <image id="h9lcpz" name="word_..png" path="/rebate/"/>
+    <image id="h9lcq0" name="frame_yun2.png" path="/rebate/"/>
+    <image id="h9lcq1" name="word_4.png" path="/rebate/"/>
+    <image id="h9lcq2" name="word_zidongzhuanhuaweijinzhu.png" path="/rebate/"/>
+    <font id="h9lcq3" name="font_bmp_rebate.fnt" path="/rebate/" exported="true"/>
+    <component id="h9lcq4" name="group_rebate.xml" path="/"/>
+    <image id="h9lcq5" name="frame_fanli tips.png" path="/rebate/"/>
+    <component id="8g2xq6" name="group_result_brumeIsle.xml" path="/"/>
+    <component id="g6rsu1ab" name="group_result_clanSolo.xml" path="/"/>
+    <component id="ro4eu1ac" name="LyGoldFingerSucc.xml" path="/" exported="true"/>
+    <component id="ro4eu1ad" name="group_goldfinger.xml" path="/"/>
+    <component id="85qwu1ae" name="LyItemRewardCity.xml" path="/" exported="true"/>
+    <component id="85qwu1af" name="group_mainCity.xml" path="/"/>
+    <image id="85qwu1ad" name="word_jishachenggong2.png" path="/res/"/>
+    <image id="85qwu1ah" name="frame_gongxihuodedi.png" path="/ui/"/>
+    <image id="85qwu1ai" name="frame_shanlou.png" path="/ui/"/>
+    <image id="85qwu1aj" name="frame_taiyang.png" path="/ui/"/>
+    <image id="85qwu1ak" name="word_gognxihuode.png" path="/ui/"/>
+    <image id="85qwu1al" name="word_gognxihuode2.png" path="/ui/"/>
+    <image id="85qwu1am" name="word_jinjichenggong.png" path="/ui/"/>
+    <image id="85qwu1an" name="word_jinjichenggong2.png" path="/ui/"/>
+    <image id="85qwu1ao" name="word_shengli.png" path="/ui/"/>
+    <image id="85qwu1ap" name="word_shengli2.png" path="/ui/"/>
+    <image id="85qwu1aq" name="word_jishachenggong.png" path="/ui/"/>
+    <image id="85qwu1ar" name="word_jishachenggong2.png" path="/ui/"/>
+    <component id="pqxtu1as" name="LyItemRewardCityWin.xml" path="/" exported="true"/>
+    <component id="pqxtu1at" name="group_mainCityWin.xml" path="/"/>
+    <component id="pqxtu1au" name="LyItemRewardCityLose.xml" path="/" exported="true"/>
+    <component id="pqxtu1av" name="main_LyItemRewardCityLose.xml" path="/"/>
+    <image id="pqxtu1aw" name="word_jinjichenggong.png" path="/res/"/>
+    <image id="pqxtu1ax" name="word_jinjichenggong2.png" path="/res/"/>
+    <image id="pqxtu1ay" name="word_jinjishibai.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,750">
+  <displayList>
+    <image id="n0_fnqv" name="n0" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="30,0" size="690,749"/>
+    <component id="n1_fnqv" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,-25" size="78,76"/>
+    <image id="n4_fnqv" name="n4" src="pq7g3" fileName="res/frame_ewaijianglizonglan.png" xy="57,60"/>
+    <text id="n5_fnqv" name="label_title" xy="370,66" size="10,36" font="ui://27utqbizps391v" fontSize="26" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n2_fnqv" name="list_item" xy="60,119" size="630,600" overflow="scroll" defaultItem="ui://5w4f3ir7fnqv5g"/>
+  </displayList>
+</component>

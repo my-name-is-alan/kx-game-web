@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="214,58" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_pugc" name="n0" src="j69r6" fileName="firstgift/res/btn_orange.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_pugc" name="n1" src="j69r6" fileName="firstgift/res/btn_orange.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_pugc" name="n2" src="j69r6" fileName="firstgift/res/btn_orange.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_pugc" name="n3" src="j69r6" fileName="firstgift/res/btn_orange.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n5_jf46" name="loader_icon" xy="15,4" size="50,50" touchable="false" fill="scaleFree">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </loader>
+    <text id="n4_pugc" name="title" xy="0,0" size="214,58" font="ui://27utqbizps391v" fontSize="30" color="#fff6e6" align="center" vAlign="middle" autoSize="none" strokeColor="#ac5e21" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

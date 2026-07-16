@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n35_d3qo" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n53_y9su" name="group_main" src="y9su24" fileName="group_main.xml" xy="27,102" size="750,1135">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n55_i11v" name="group_mainTeam" src="j2yt3" fileName="group_mainTeam.xml" xy="0,0" visible="false">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n54_i11v" name="group_editTeam" src="j2yt7" fileName="group_editTeam.xml" xy="0,0" visible="false">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

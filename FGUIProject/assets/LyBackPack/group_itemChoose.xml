@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="358,108">
+  <displayList>
+    <component id="n38_sjma" name="item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="7,8" scale="0.8,0.8"/>
+    <image id="n36_sjma" name="n36" src="hl7112" fileName="ui/frame_challenger.png" pkg="27utqbiz" xy="0,5" group="n44_sjma"/>
+    <text id="n37_sjma" name="label_str28_1" xy="2,0" size="21,84" group="n44_sjma" fontSize="16" color="#fff1cc" align="center" vAlign="middle" autoSize="none" text="已拥有"/>
+    <group id="n44_sjma" name="group_have" xy="0,0" size="24,87" advanced="true"/>
+    <text id="n39_sjma" name="label_name" xy="102,23" size="84,49" fontSize="18" color="#16191a" autoSize="shrink" text="道具名称七个字"/>
+    <component id="n40_sjma" name="btn_add" src="bh805c" fileName="btn_add2.xml" pkg="27utqbiz" xy="322,29"/>
+    <component id="n41_sjma" name="btn_jianshao" src="bh805d" fileName="btn_reduct2.xml" pkg="27utqbiz" xy="216,29"/>
+    <image id="n43_sjma" name="n43" src="sjma5k" fileName="res/frame_amount.png" xy="255,37"/>
+    <text id="n42_sjma" name="label_number" xy="254,33" size="63,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#16191a" strokeSize="2" text="1"/>
+  </displayList>
+</component>

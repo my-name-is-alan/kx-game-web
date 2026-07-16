@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="746,376">
+  <displayList>
+    <image id="n9_x3dl" name="n9" src="h8u4b" fileName="res/frame_wuyinbiji2.png" xy="0,-26" group="n11_x3dl"/>
+    <loader3D id="n8_x3dl" name="loader3d_monster" xy="133,336" size="1,1" group="n11_x3dl" scale="0.7,0.7" animation="" skin="" loop="true"/>
+    <loader id="n10_x3dl" name="loader_img" xy="15,108" size="262,169" group="n11_x3dl" aspect="true" url="ui://h1d08dw1h8u425" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <text id="n3_x3dl" name="label_name" xy="237,24" size="195,42" group="n11_x3dl" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#67765c" strokeSize="2" text="失心狂明"/>
+    <text id="n4_x3dl" name="label_desc" xy="268,285" size="377,83" group="n11_x3dl" fontSize="22" color="#c99140" autoSize="none" text="小心"/>
+    <list id="n6_x3dl" name="list_reward" xy="270,124" size="476,218" group="n11_x3dl" scale="0.726,0.744" layout="flow_hz" overflow="scroll" lineGap="10" colGap="19" lineItemCount="4" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n5_x3dl" name="label_rewardName" xy="268,87" size="239,32" group="n11_x3dl" fontSize="22" color="#16191a" vAlign="middle" letterSpacing="-1" autoSize="none" text="击败奖励"/>
+    <group id="n11_x3dl" name="n11" xy="0,-26" size="746,406" advanced="true"/>
+  </displayList>
+</component>

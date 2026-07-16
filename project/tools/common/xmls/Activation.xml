@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <sys>
+    <item id="2" day="0" level="0" taskNum="7" bonuseId="11004" guideId="4" name="冒险" icon="frame_maoxian" desc="少侠，周围出现了一些敌人觊觎你的装备。快去清理一下吧。" info="剑指江湖，踏遍千山，武侠冒险等你开启"/>
+    <item id="3" day="0" level="0" taskNum="29" bonuseId="11004" guideId="9" name="江湖擂台" icon="frame_tiaozhan" desc="少侠，你已经学有所成了。&amp;不能闭门造车，去擂台实战一下吧！" info="比武论剑，江湖英豪一较高下"/>
+    <item id="4" day="0" level="0" taskNum="30" bonuseId="11004" guideId="5" name="坐骑" icon="frame_zuoqi" desc="每一个少侠都应该拥有坐骑，为什么坐骑是叶子？这不显得您武功高吗。" info="御风驰骋，千里良驹助阵江湖"/>
+    <item id="5" day="0" level="0" taskNum="48" bonuseId="11004" guideId="13" name="镖局" icon="frame_biaoju" desc="镖局开启了！我们去劫……啊不，去护镖吧！" info="江湖镖局，镖行天下护商贾"/>
+    <item id="6" day="0" level="0" taskNum="60" bonuseId="11004" guideId="10" name="心魔试炼" icon="frame_xinmoshilian" desc="战胜心魔可获得大量枸杞，为了枸杞冲啊！" info="心魔难除，试炼心性破幻境"/>
+    <item id="7" day="0" level="0" taskNum="64" bonuseId="11004" guideId="22" name="兽友" icon="frame_shouyou" desc="来了一些动物朋友们，快和他们打个招呼吧！" info="灵兽相伴，携手共闯武侠世界"/>
+    <item id="8" day="0" level="0" taskNum="68" bonuseId="11004" guideId="11" name="魔教来袭" icon="frame_mojiaolaixi" desc="魔教入侵，击退他们获得大量奖励!" info="邪魔乱世，武林侠士共御敌"/>
+    <item id="9" day="0" level="0" taskNum="69" bonuseId="11004" guideId="25" name="侠侣" icon="frame_xialv" desc="少侠，伴随着您的声名远扬，有妹妹愿意与你共闯江湖，快去看看吧！" info="情投意合，侠侣相伴闯天涯"/>
+    <item id="10" day="0" level="0" taskNum="73" bonuseId="11004" guideId="21" name="帮派" icon="frame_bangpai" desc="少侠，随着您的武艺精进，有帮派邀请您加入" info="兄弟齐心，帮派争霸展雄风"/>
+    <item id="11" day="0" level="0" taskNum="98" bonuseId="11004" guideId="15" name="门客" icon="frame_menke" desc="少侠，随着您声名大噪，有江湖英豪愿意做您的门客。" info="广纳门客，江湖豪杰聚一堂"/>
+    <item id="12" day="0" level="0" taskNum="162" bonuseId="11004" guideId="12" name="激流塔" icon="frame_jiliuta" desc="湖中有一座塔，拔地而起！快去看看吧！" info="激流勇进，塔中试炼显真章"/>
+    <item id="13" day="0" level="0" taskNum="163" bonuseId="11004" guideId="8" name="修行" icon="frame_shitou" desc="刚才在塔中发现了高深的功法，快来领悟一番。" info="静心修行，武道精进踏巅峰"/>
+    <item id="14" day="3" level="96" taskNum="0" bonuseId="11004" guideId="16" name="秘籍" icon="frame_miji" desc="大侠！随着修行的深入，您可以学习传世秘籍了！" info="武林秘籍，掌握绝学称霸江湖"/>
+    <item id="15" day="7" level="10" taskNum="0" bonuseId="" guideId="" name="镖师自动采集" icon="" desc="" info=""/>
+    <item id="16" day="26" level="156" taskNum="0" bonuseId="" guideId="" name="法宝" icon="" desc="" info=""/>
+    <item id="18" day="14" level="96" taskNum="0" bonuseId="" guideId="" name="聚灵阵" icon="" desc="" info=""/>
+    <item id="19" day="12" level="156" taskNum="0" bonuseId="" guideId="" name="装备精炼" icon="" desc="" info=""/>
+    <item id="20" day="12" level="156" taskNum="0" bonuseId="" guideId="" name="六道秘境" icon="" desc="" info=""/>
+    <item id="21" day="26" level="156" taskNum="0" bonuseId="" guideId="" name="征战诸天" icon="" desc="" info=""/>
+    <item id="22" day="33" level="156" taskNum="0" bonuseId="" guideId="" name="星宿试炼" icon="" desc="" info=""/>
+    <item id="23" day="0" level="0" taskNum="20" bonuseId="" guideId="" name="风云录" icon="" desc="" info=""/>
+    <item id="24" day="7" level="70" taskNum="0" bonuseId="11004" guideId="" name="华山论剑" icon="frame_huashanlunjian" desc="大侠！华山给你发邀请函了，要请您参加华山论剑。" info="群英荟萃，剑指苍穹争武林至尊"/>
+    <item id="25" day="0" level="0" taskNum="17" bonuseId="" guideId="" name="自动钓鱼" icon="" desc="" info=""/>
+    <item id="26" day="7" level="70" taskNum="0" bonuseId="11004" guideId="26" name="琅琊榜" icon="frame_langyabang" desc="大侠！您拥有了进入琅琊榜的资格！快去看看吧。" info="英雄豪杰，江湖风云尽入琅琊"/>
+    <item id="27" day="0" level="0" taskNum="20" bonuseId="" guideId="" name="武道秘录" icon="" desc="" info=""/>
+    <item id="28" day="0" level="0" taskNum="68" bonuseId="" guideId="" name="开服冲榜" icon="" desc="" info=""/>
+    <item id="30" day="0" level="0" taskNum="20" bonuseId="" guideId="" name="坊市" icon="" desc="" info=""/>
+    <item id="31" day="0" level="0" taskNum="20" bonuseId="" guideId="" name="每日福利（青蛙" icon="" desc="" info=""/>
+    <item id="32" day="0" level="0" taskNum="20" bonuseId="" guideId="" name="充值入口" icon="" desc="" info=""/>
+    <item id="33" day="0" level="0" taskNum="20" bonuseId="" guideId="" name="邀请好友" icon="" desc="" info=""/>
+    <item id="34" day="0" level="0" taskNum="20" bonuseId="" guideId="" name="七日签到" icon="" desc="" info=""/>
+    <item id="35" day="0" level="0" taskNum="20" bonuseId="" guideId="" name="开服庆典" icon="" desc="" info=""/>
+    <item id="36" day="0" level="96" taskNum="20" bonuseId="" guideId="" name="轮回殿" icon="" desc="" info=""/>
+    <item id="37" day="6" level="56" taskNum="20" bonuseId="" guideId="" name="运势" icon="" desc="" info=""/>
+    <item id="38" day="0" level="0" taskNum="98" bonuseId="" guideId="" name="开服门客" icon="" desc="" info=""/>
+    <item id="39" day="3" level="96" taskNum="0" bonuseId="" guideId="" name="开服秘籍" icon="" desc="" info=""/>
+    <item id="40" day="0" level="0" taskNum="69" bonuseId="" guideId="" name="伙伴集结（侠侣" icon="" desc="" info=""/>
+    <item id="41" day="0" level="0" taskNum="98" bonuseId="" guideId="" name="战斗倍数" icon="" desc="" info=""/>
+    <item id="42" day="0" level="0" taskNum="30" bonuseId="" guideId="" name="聊天限制" icon="" desc="" info=""/>
+    <item id="43" day="0" level="0" taskNum="65" bonuseId="" guideId="" name="兽友游历" icon="" desc="" info=""/>
+    <item id="44" day="0" level="0" taskNum="2" bonuseId="" guideId="33" name="聚宝盆" icon="frame_jubaopen" desc="" info=""/>
+    <item id="45" day="0" level="0" taskNum="20" bonuseId="" guideId="" name="我要变强" icon="" desc="" info=""/>
+    <item id="46" day="0" level="0" taskNum="69" bonuseId="" guideId="" name="雾隐岛" icon="" desc="" info=""/>
+  </sys>
+</root>

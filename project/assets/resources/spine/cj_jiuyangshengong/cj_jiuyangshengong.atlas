@@ -1,0 +1,76 @@
+
+cj_jiuyangshengong.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huo1
+  rotate: true
+  xy: 316, 3
+  size: 394, 506
+  orig: 445, 533
+  offset: 0, 23
+  index: -1
+huo2
+  rotate: true
+  xy: 793, 464
+  size: 187, 163
+  orig: 192, 169
+  offset: 5, 0
+  index: -1
+huo3
+  rotate: false
+  xy: 824, 287
+  size: 172, 175
+  orig: 172, 175
+  offset: 0, 0
+  index: -1
+huo4
+  rotate: true
+  xy: 519, 433
+  size: 218, 272
+  orig: 238, 359
+  offset: 0, 73
+  index: -1
+light
+  rotate: false
+  xy: 2, 399
+  size: 515, 596
+  orig: 568, 632
+  offset: 19, 4
+  index: -1
+piaodai
+  rotate: true
+  xy: 2, 2
+  size: 395, 312
+  orig: 395, 312
+  offset: 0, 0
+  index: -1
+shendai1
+  rotate: true
+  xy: 958, 482
+  size: 94, 116
+  orig: 94, 116
+  offset: 0, 0
+  index: -1
+shendai2
+  rotate: true
+  xy: 958, 578
+  size: 160, 119
+  orig: 160, 119
+  offset: 0, 0
+  index: -1
+shu
+  rotate: false
+  xy: 519, 653
+  size: 341, 342
+  orig: 449, 362
+  offset: 52, 13
+  index: -1
+zhiye
+  rotate: false
+  xy: 862, 740
+  size: 135, 255
+  orig: 135, 256
+  offset: 0, 1
+  index: -1

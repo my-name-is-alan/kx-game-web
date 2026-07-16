@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,52">
+  <displayList>
+    <loader id="n23_j2yt" name="loader_icon" xy="0,2" size="50,50"/>
+    <richtext id="n22_j2yt" name="label_grade" xy="50,-7" size="43,46" aspect="true" fontSize="18" autoSize="none" text="14"/>
+  </displayList>
+</component>

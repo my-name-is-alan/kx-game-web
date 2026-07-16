@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="i5q52a2q">
+  <resources>
+    <component id="ne2h0" name="LyActivitySevenDays.xml" path="/" exported="true"/>
+    <component id="ne2h2" name="group_dayItem.xml" path="/"/>
+    <image id="bae43" name="frame_sign in.png" path="/res/"/>
+    <image id="bae44" name="frame_special.png" path="/res/" scale="9grid" scale9grid="78,35,48,70"/>
+    <image id="bae45" name="frame_ordinary.png" path="/res/"/>
+    <image id="bae46" name="frame_received.png" path="/res/"/>
+    <component id="rp918" name="group_dayItem1.xml" path="/"/>
+    <component id="rp919" name="group_dayItem2.xml" path="/"/>
+    <image id="cnrnd" name="frame_catchline.png" path="/res/"/>
+    <component id="cnrne" name="group_activitySevenDays.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="272,80">
+  <displayList>
+    <image id="n0_yn25" name="n0" src="cda5q" fileName="res/frame_renwulan.png" xy="0,0"/>
+    <text id="n1_yn25" name="label_dec" xy="76,8" size="175,61" font="ui://27utqbizps391v" fontSize="20" color="#77705e" leading="0" autoSize="none" text="穿戴9件衣服"/>
+    <text id="n2_yn25" name="label_task" xy="76,39" size="175,31" fontSize="20" align="right" vAlign="middle" autoSize="none" text="(161/173)"/>
+    <component id="n3_yn25" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="3,2" scale="0.7,0.7"/>
+    <loader3D id="n4_yn25" name="loader_spine_get" xy="132,36" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

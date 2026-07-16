@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,650">
+  <displayList>
+    <image id="n27_m5aq" name="img_back" src="m5aq1r" fileName="res/word_tiandaohongfu2.png" xy="19,-35"/>
+    <loader3D id="n33_ty3g" name="loader_spine" xy="374,324" size="2,2" animation="" skin="" loop="true"/>
+    <image id="n28_m5aq" name="n28" src="m5aq1q" fileName="res/word_tiandaohongfu.png" xy="246,40"/>
+    <loader id="n32_cic0" name="loader_name" xy="350,386" size="50,50" url="ui://yblwt9kzcic02b" align="center" vAlign="middle" clearOnPublish="true"/>
+    <text id="n4_n7tl" name="label_title" xy="225,460" size="300,92" font="ui://27utqbizps391v" fontSize="24" color="#6d5a2a" align="center" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n26_q609" name="label_desc" xy="370,600" size="10,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" ubb="true" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n30_m5aq" name="label_tips" xy="370,720" size="10,32" alpha="0.7" fontSize="22" color="#f6e2ce" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

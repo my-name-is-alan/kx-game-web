@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="xebnjiy5">
+  <resources>
+    <component id="f4zx0" name="LyPayRecharge.xml" path="/" exported="true"/>
+    <component id="f4zx1" name="group_payrecharge.xml" path="/"/>
+    <component id="cjmr3" name="LyPayFirstGift.xml" path="/" exported="true"/>
+    <component id="cjmr4" name="group_payfirstgift.xml" path="/"/>
+    <component id="cjmr5" name="group_item.xml" path="/"/>
+    <component id="jm826" name="LyPayAllEntry.xml" path="/" exported="true"/>
+    <component id="jm827" name="group_payallentry.xml" path="/"/>
+    <component id="lyu79" name="LyPayMonthCard.xml" path="/" exported="true"/>
+    <component id="lyu7b" name="LyPayLifeCard.xml" path="/" exported="true"/>
+    <component id="lyu7c" name="group_paylifecard.xml" path="/"/>
+    <component id="gdpid" name="LyPayGiftDaily.xml" path="/" exported="true"/>
+    <component id="gdpie" name="group_paygiftdailyitem.xml" path="/"/>
+    <component id="gdpif" name="group_paygiftdaily.xml" path="/"/>
+    <component id="gdpig" name="LyPayGiftDailyChoose.xml" path="/" exported="true"/>
+    <component id="gdpih" name="group_paygiftdailychoose.xml" path="/"/>
+    <component id="gdpii" name="group_paygiftdailychooseitem.xml" path="/"/>
+    <component id="u57gj" name="LyPayGiftDailyChooseSel.xml" path="/" exported="true"/>
+    <component id="u57gk" name="group_paygiftdailychoosesel.xml" path="/"/>
+    <component id="evn5l" name="group_accumulate.xml" path="/"/>
+    <image id="a0trm" name="frame_fund1.png" path="/czjmzh/" exported="true"/>
+    <image id="a0trx" name="icon_chaozhilibao.png" path="/czjmzh/"/>
+    <image id="a0try" name="frame_value Pack.png" path="/czjmzh/" exported="true"/>
+    <image id="a0tr10" name="frame_self selected activities.png" path="/czjmzh/" exported="true"/>
+    <image id="a0tr11" name="frame_recharge.png" path="/czjmzh/" exported="true"/>
+    <image id="a0tr12" name="frame_monthly card.png" path="/czjmzh/" exported="true"/>
+    <image id="a0tr13" name="frame_lifetime lard.png" path="/czjmzh/" exported="true"/>
+    <image id="a0tr15" name="icon_recharge.png" path="/czjmzh/"/>
+    <component id="a0tr18" name="group_payallentryitem.xml" path="/"/>
+    <image id="a0tr1f" name="frame_jinxingzhong.png" path="/lclt/"/>
+    <image id="a0tr1g" name="frame_progress bar.png" path="/lclt/"/>
+    <image id="a0tr1h" name="frame_progress bar2.png" path="/lclt/"/>
+    <image id="a0tr1i" name="word_leiji.png" path="/lclt/"/>
+    <image id="a0tr1j" name="word_leijichongzhi.png" path="/lclt/"/>
+    <image id="a0tr1k" name="word_leijichongzhi2.png" path="/lclt/"/>
+    <image id="a0tr1l" name="word_leitian.png" path="/lclt/"/>
+    <image id="a0tr1m" name="word_leitianchongzhi.png" path="/lclt/"/>
+    <image id="a0tr1n" name="word_leitianchongzhi2.png" path="/lclt/"/>
+    <component id="a0tr1o" name="ProgressBar1.xml" path="/"/>
+    <image id="phx922" name="dec_star1.png" path="/recharge/"/>
+    <image id="phx923" name="dec_star2.png" path="/recharge/"/>
+    <image id="phx924" name="frame_first-recharge.png" path="/recharge/" scale="9grid" scale9grid="34,32,10,17"/>
+    <image id="phx925" name="frame_for jinzhu.png" path="/recharge/"/>
+    <image id="phx926" name="frame_for yubi.png" path="/recharge/"/>
+    <image id="phx927" name="frame_jinzhu.png" path="/recharge/"/>
+    <image id="phx928" name="frame_yubi.png" path="/recharge/"/>
+    <image id="phx929" name="word_first-recharge double .png" path="/recharge/"/>
+    <image id="phx92a" name="word_first-recharge gift_ .png" path="/recharge/"/>
+    <image id="phx92b" name="word_jinzhu.png" path="/recharge/"/>
+    <image id="phx92c" name="word_yubi.png" path="/recharge/"/>
+    <image id="phx92d" name="word_first-recharge gift_1.png" path="/recharge/"/>
+    <component id="a0tr0" name="LyFairyGift.xml" path="/xianyuan/" exported="true"/>
+    <image id="ef0l22" name="frame_fengyundubulibao.png" path="/xianyuan/res/"/>
+    <image id="ef0l23" name="frame_fengyundubulibao2.png" path="/xianyuan/res/"/>
+    <image id="ef0l24" name="frame_fengyunludikuang.png" path="/xianyuan/res/"/>
+    <image id="ef0l25" name="frame_fengyunluhuodongbeijing.png" path="/xianyuan/res/"/>
+    <image id="ef0l26" name="frame_fengyunzhengfenglibao.png" path="/xianyuan/res/"/>
+    <image id="ef0l27" name="frame_fengyunzhengfenglibao2.png" path="/xianyuan/res/"/>
+    <image id="ef0l28" name="frame_renwutiao.png" path="/xianyuan/res/"/>
+    <image id="ef0l29" name="frame_xuanzhong.png" path="/xianyuan/res/"/>
+    <image id="ef0l2a" name="frame_xuanzhongdiban.png" path="/xianyuan/res/"/>
+    <image id="ef0l2b" name="icon_sehngwang.png" path="/xianyuan/res/"/>
+    <image id="ef0l2c" name="word_fengyunlu.png" path="/xianyuan/res/"/>
+    <image id="ef0l2d" name="word_jimanxianfudajiangfengshang.png" path="/xianyuan/res/"/>
+    <image id="ef0l2e" name="word_jizanshengwanglingqujiangli.png" path="/xianyuan/res/"/>
+    <image id="ef0l2f" name="worf_chaozhi.png" path="/xianyuan/res/"/>
+    <image id="ef0l2i" name="frame_chaozhifuli.png" path="/jj5z/"/>
+    <image id="ef0l2o" name="frame_jiangliliebiao.png" path="/jj5z/"/>
+    <image id="ef0l2p" name="frame_jichufuli.png" path="/jj5z/"/>
+    <component id="ef0l2y" name="btn_xianyuan.xml" path="/xianyuan/"/>
+    <component id="ef0l30" name="xianyuanItem.xml" path="/xianyuan/" exported="true"/>
+    <component id="ef0l35" name="xianyuanTarget.xml" path="/xianyuan/" exported="true"/>
+    <component id="iq202i" name="group_payrechargeitem2.xml" path="/"/>
+    <image id="ef0l37" name="frame_shujindutiao2.png" path="/xianyuan/res/" scale="9grid" scale9grid="4,62,8,124"/>
+    <component id="ef0l38" name="list_fl.xml" path="/xianyuan/"/>
+    <component id="ef0l39" name="null.xml" path="/xianyuan/"/>
+    <component id="ef0l3b" name="FairyGiftMain.xml" path="/xianyuan/"/>
+    <component id="q0m43u" name="group_task.xml" path="/xianyuan/" exported="true"/>
+    <component id="q0m43v" name="ProgressBar2.xml" path="/xianyuan/"/>
+    <image id="q0m43w" name="frame_dianzhuangshi.png" path="/xianyuan/res/"/>
+    <image id="lqjl3x" name="frame_blue banner.png" path="/giftdaily/"/>
+    <image id="lqjl3y" name="frame_blue banner2.png" path="/giftdaily/"/>
+    <image id="lqjl3z" name="frame_green banner.png" path="/giftdaily/"/>
+    <image id="lqjl40" name="frame_green banner2.png" path="/giftdaily/"/>
+    <image id="lqjl41" name="frame_orange banner.png" path="/giftdaily/"/>
+    <image id="lqjl44" name="word_zixuanlibao.png" path="/giftdaily/"/>
+    <image id="lqjl45" name="word_chaozhilibao.png" path="/giftdaily/"/>
+    <image id="lqjl47" name="icon_jiahao.png" path="/giftdaily/"/>
+    <image id="ns7a48" name="frame_libaoneirong.png" path="/giftdaily/"/>
+    <image id="ns7a49" name="frame_libaoneirong2.png" path="/giftdaily/"/>
+    <image id="lu9o4a" name="btn_lifelong card.png" path="/monthcard/"/>
+    <image id="lu9o4b" name="btn_monthly card.png" path="/monthcard/"/>
+    <image id="lu9o4c" name="dec_arrow_lifelong card.png" path="/monthcard/"/>
+    <image id="lu9o4d" name="dec_arrow_monthly card.png" path="/monthcard/"/>
+    <image id="lu9o4e" name="fex_choose.png" path="/monthcard/" scale="9grid" scale9grid="100,140,191,12"/>
+    <image id="lu9o4f" name="frame_lifelong card.png" path="/monthcard/"/>
+    <image id="lu9o4g" name="frame_monthly card.png" path="/monthcard/"/>
+    <image id="lu9o4h" name="frame_red title.png" path="/giftdaily/"/>
+    <image id="lu9o4i" name="icon_lifelong card.png" path="/monthcard/"/>
+    <image id="lu9o4j" name="icon_monthly card.png" path="/monthcard/"/>
+    <image id="lu9o4k" name="word_lifelong card.png" path="/monthcard/"/>
+    <image id="lu9o4l" name="word_monthly card.png" path="/monthcard/"/>
+    <image id="lu9o4m" name="word_rebate over.png" path="/monthcard/"/>
+    <component id="lu9o4n" name="group_paymonthcard1.xml" path="/"/>
+    <component id="lu9o4o" name="btn_paycard.xml" path="/monthcard/"/>
+    <component id="lu9o4p" name="btn_paycard2.xml" path="/monthcard/"/>
+    <component id="lu9o4q" name="group_paymonthcard2.xml" path="/"/>
+    <component id="lu9o4r" name="btn_paycardframe.xml" path="/monthcard/"/>
+    <component id="lu9o4s" name="group_paymonthcard.xml" path="/"/>
+    <image id="jf464t" name="frame_diaopai.png" path="/firstgift/"/>
+    <image id="jf464u" name="frame_shouchongdiban.png" path="/firstgift/"/>
+    <image id="jf464v" name="frame_shouchongdiban2.png" path="/firstgift/"/>
+    <image id="jf464w" name="word_2700fanliu.png" path="/firstgift/"/>
+    <image id="jf464x" name="word_chuanshuobanlv.png" path="/firstgift/"/>
+    <image id="jf464y" name="word_daoyouzixuan.png" path="/firstgift/"/>
+    <image id="jf464z" name="word_linggaozhanwuqi.png" path="/firstgift/"/>
+    <image id="jf4650" name="word_liuopaidapeisuiyitiao.png" path="/firstgift/"/>
+    <image id="jf4651" name="word_shouchonghaoli.png" path="/firstgift/"/>
+    <image id="jf4652" name="word_zizhaozhidi.png" path="/firstgift/"/>
+    <component id="jf4653" name="btn_normal1.xml" path="/firstgift/"/>
+    <image id="jf4654" name="btn_orange.png" path="/firstgift/res/"/>
+    <image id="e3f755" name="btn_red.png" path="/monthcard/"/>
+    <image id="e3f756" name="btn_yuefei.png" path="/monthcard/"/>
+    <component id="e3f757" name="btn_take1.xml" path="/monthcard/"/>
+    <component id="e3f758" name="btn_take2.xml" path="/monthcard/"/>
+    <image id="oswz59" name="frame_xiuwei.png" path="/czjmzh/" exported="true"/>
+    <image id="oswz5a" name="frame_zhutang.png" path="/czjmzh/" exported="true"/>
+    <image id="oswz5f" name="word_chongzhihaoli.png" path="/czjmzh/"/>
+    <image id="hldt5k" name="frame_jiliuta.png" path="/czjmzh/" exported="true"/>
+    <image id="pi9a5u" name="frame_jianglijindukuai.png" path="/xianyuan/res/"/>
+    <image id="pi9a5v" name="frame_jianglijindukuai2.png" path="/xianyuan/res/"/>
+    <image id="pi9a5w" name="frame_jiangliliebiao.png" path="/xianyuan/res/"/>
+    <image id="pi9a5x" name="frame_shujindutiao.png" path="/xianyuan/res/"/>
+    <image id="hnc75z" name="frame_jifendi.png" path="/xianyuan/res/"/>
+    <image id="sw6b60" name="frame_baidi.png" path="/czjmzh/" scale="9grid" scale9grid="19,8,38,16"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

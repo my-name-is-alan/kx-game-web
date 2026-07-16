@@ -1,0 +1,153 @@
+
+zd_skills_jingangbuhuaijue.png
+size: 982,925
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/jgbhj_cx/jgbhj_cx_02
+  rotate: true
+  xy: 779, 116
+  size: 181, 183
+  orig: 240, 222
+  offset: 31, 8
+  index: -1
+images/jgbhj_cx/jgbhj_cx_04
+  rotate: true
+  xy: 424, 296
+  size: 203, 200
+  orig: 240, 222
+  offset: 20, 3
+  index: -1
+images/jgbhj_cx/jgbhj_cx_06
+  rotate: true
+  xy: 216, 253
+  size: 215, 206
+  orig: 240, 222
+  offset: 14, 3
+  index: -1
+images/jgbhj_cx/jgbhj_cx_08
+  rotate: true
+  xy: 2, 244
+  size: 224, 212
+  orig: 240, 222
+  offset: 8, 5
+  index: -1
+images/jgbhj_cx/jgbhj_cx_10
+  rotate: true
+  xy: 2, 697
+  size: 226, 213
+  orig: 240, 222
+  offset: 7, 5
+  index: -1
+images/jgbhj_cx/jgbhj_cx_12
+  rotate: true
+  xy: 2, 470
+  size: 225, 213
+  orig: 240, 222
+  offset: 8, 5
+  index: -1
+images/jgbhj_cx/jgbhj_cx_14
+  rotate: true
+  xy: 2, 19
+  size: 223, 212
+  orig: 240, 222
+  offset: 10, 6
+  index: -1
+images/jgbhj_cx/jgbhj_cx_16
+  rotate: true
+  xy: 216, 41
+  size: 210, 208
+  orig: 240, 222
+  offset: 22, 9
+  index: -1
+images/jgbhj_cx/jgbhj_cx_18
+  rotate: false
+  xy: 426, 100
+  size: 185, 194
+  orig: 240, 222
+  offset: 27, 19
+  index: -1
+images/jgbhj_cx/jgbhj_cx_20
+  rotate: true
+  xy: 792, 344
+  size: 160, 168
+  orig: 240, 222
+  offset: 40, 30
+  index: -1
+images/jgbhj_xs/jgbhj_xs_00
+  rotate: false
+  xy: 626, 299
+  size: 164, 205
+  orig: 180, 300
+  offset: 8, 7
+  index: -1
+images/jgbhj_xs/jgbhj_xs_02
+  rotate: false
+  xy: 613, 83
+  size: 164, 211
+  orig: 180, 300
+  offset: 8, 7
+  index: -1
+images/jgbhj_xs/jgbhj_xs_04
+  rotate: true
+  xy: 745, 506
+  size: 160, 230
+  orig: 180, 300
+  offset: 10, 10
+  index: -1
+images/jgbhj_xs/jgbhj_xs_06
+  rotate: false
+  xy: 681, 682
+  size: 154, 241
+  orig: 180, 300
+  offset: 13, 14
+  index: -1
+images/jgbhj_xs/jgbhj_xs_08
+  rotate: false
+  xy: 525, 674
+  size: 154, 249
+  orig: 180, 300
+  offset: 13, 13
+  index: -1
+images/jgbhj_xs/jgbhj_xs_10
+  rotate: false
+  xy: 217, 654
+  size: 152, 269
+  orig: 180, 300
+  offset: 14, 13
+  index: -1
+images/jgbhj_xs/jgbhj_xs_12
+  rotate: false
+  xy: 371, 668
+  size: 152, 255
+  orig: 180, 300
+  offset: 14, 14
+  index: -1
+images/jgbhj_xs/jgbhj_xs_14
+  rotate: true
+  xy: 217, 501
+  size: 151, 261
+  orig: 180, 300
+  offset: 15, 15
+  index: -1
+images/jgbhj_xs/jgbhj_xs_16
+  rotate: true
+  xy: 480, 520
+  size: 146, 263
+  orig: 180, 300
+  offset: 17, 17
+  index: -1
+images/jgbhj_xs/jgbhj_xs_18
+  rotate: false
+  xy: 837, 668
+  size: 143, 255
+  orig: 180, 300
+  offset: 19, 20
+  index: -1
+images/jgbhj_xs/jgbhj_xs_20
+  rotate: true
+  xy: 216, 2
+  size: 37, 188
+  orig: 180, 300
+  offset: 88, 50
+  index: -1

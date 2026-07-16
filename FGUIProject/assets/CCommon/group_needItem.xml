@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="103,39">
+  <displayList>
+    <loader id="n28_eohi" name="loader_item" xy="5,3" size="32,30" url="ui://27utqbizy9su1m" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <richtext id="n29_eohi" name="label_number" xy="42,4" size="56,29" fontSize="20" vAlign="middle" ubb="true" text="0/193"/>
+  </displayList>
+  <relation target="n29_eohi" sidePair="rightext-right"/>
+</component>

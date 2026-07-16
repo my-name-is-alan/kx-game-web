@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,10" extention="ProgressBar">
+  <displayList>
+    <image id="n0_phai" name="n0" src="phaidu16p" fileName="ui/frame_people progress-bar2.png" xy="0,0" size="50,10">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_phai" name="bar" src="phaidu16o" fileName="ui/frame_people progress-bar1.png" xy="1,0" size="48,10"/>
+    <text id="n2_r41c" name="title" xy="0,10" size="50,26" fontSize="18" align="center" vAlign="middle" autoSize="none" text="123">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ProgressBar/>
+</component>

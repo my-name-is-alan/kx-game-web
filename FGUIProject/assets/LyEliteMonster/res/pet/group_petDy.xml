@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="130,94">
+  <displayList>
+    <image id="n123_10pyd" name="img_add" src="10pyds4" fileName="res/pet/res/frame_tianjiahuoban.png" xy="33,0" size="64,64" aspect="true" pkg="27utqbiz"/>
+    <loader3D id="n132_10pyd" name="loader_spine3d" xy="65,63" size="1,1" scale="0.4,0.4" animation="" skin="" loop="true"/>
+    <image id="n130_10pyd" name="n130" src="10pyds9" fileName="res/pet/res/frame_paiqiansulv.png" xy="0,68" group="n133_10pyd"/>
+    <text id="n131_10pyd" name="label_time" xy="10,65" size="108,29" group="n133_10pyd" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="+210/分钟"/>
+    <group id="n133_10pyd" name="group_addTime" xy="0,65" size="130,29" visible="false" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root mainLikeStone="50" palaceLikeStone="50" grantLikeStoneRange="10,50" grantItemId="120032" grantTime="3600" detail="一、琅琊榜规则-1.在限时活动中获得称号的玩家，将成为琅琊榜中对应封地的主人。&lt;br/&gt;2.每日可以在琅琊榜内点赞一次，获得玉璧奖励与随机天道祝福。@二、封地规则-1.成为封地主人后，将进入对应封地的英豪录。&lt;br/&gt;2.成为封地新主人的三天内，玩家形象将展示在琅琊榜封地中，其他玩家可以每日前往封地并点赞。@三、天道规则-1.玩家每天在琅琊榜主界面点赞时会触发随机天道祝福。&lt;br/&gt;2.触发天道祝福所对应的行为时，将获得额外的加成效果。&lt;br/&gt;3.每日天道祝福触发次数有上限，未使用完的祝福会在次日0点时清除。@四、赐福规则-1.获得称号的玩家，在称号有效期内，每日都可以进行一次琅琊赐福，为全服玩家送去奖励。&lt;br/&gt;2.向全服玩家发送琅琊赐福时，根据当前生效的称号数量与品质，获得一定数量的琅琊玉，琅琊玉可在悬镜司中兑换稀有奖励。">
+  <palace>
+    <item id="1" name="璇玑阁" quality="1" titleId="101"/>
+    <item id="2" name="昆仑阁" quality="1" titleId="102"/>
+    <item id="3" name="月桂阁" quality="1" titleId="103"/>
+    <item id="4" name="丹霞阁" quality="1" titleId="104"/>
+    <item id="5" name="玄铁阁" quality="1" titleId="105"/>
+    <item id="6" name="月华宫" quality="2" titleId="201"/>
+    <item id="7" name="瑶台宫" quality="2" titleId="202"/>
+    <item id="8" name="梧桐宫" quality="2" titleId="203"/>
+    <item id="9" name="云上宫" quality="2" titleId="204"/>
+    <item id="10" name="琉璃宫" quality="2" titleId="205"/>
+    <item id="11" name="七星宫" quality="2" titleId="206"/>
+    <item id="12" name="金乌殿" quality="3" titleId="301"/>
+    <item id="13" name="蓬莱殿" quality="3" titleId="302"/>
+    <item id="14" name="扶桑殿" quality="3" titleId="303"/>
+    <item id="15" name="乾坤殿" quality="3" titleId="304"/>
+  </palace>
+  <quality>
+    <item id="1" quality="蓝" grantItemCount="10"/>
+    <item id="2" quality="紫" grantItemCount="15"/>
+    <item id="3" quality="金" grantItemCount="25"/>
+  </quality>
+  <server>
+    <item id="1" days="0" visualNumber="9"/>
+    <item id="2" days="100" visualNumber="15"/>
+    <item id="3" days="200" visualNumber="23"/>
+  </server>
+  <buff>
+    <item id="1" boostId="8" boostValue="10" weight="500" limit="3" name="除恶务尽" desc="心魔试炼速战额外获得枸杞10个，最多触发3次。" icon="word_chuewujin"/>
+    <item id="2" boostId="8" boostValue="20" weight="3000" limit="3" name="抽薪止沸" desc="心魔试炼速战额外获得枸杞20个，最多触发3次。" icon="word_chouxinzhifei"/>
+    <item id="3" boostId="8" boostValue="40" weight="1500" limit="3" name="斩草除根" desc="心魔试炼速战额外获得枸杞40个，最多触发3次。" icon="word_zhancaochugen"/>
+    <item id="4" boostId="7" boostValue="3" weight="500" limit="10" name="事半功倍" desc="分解装备获得3倍经验，最多触发10次。" icon="word_shibangongbei"/>
+    <item id="5" boostId="7" boostValue="3" weight="3000" limit="20" name="步步高升" desc="分解装备获得3倍经验，最多触发20次。" icon="word_bubugaosheng"/>
+    <item id="6" boostId="7" boostValue="3" weight="1500" limit="40" name="突飞猛进" desc="分解装备获得3倍经验，最多触发40次。" icon="word_tufeimengjin"/>
+  </buff>
+  <goods>
+    <item id="1" itemId="160103" count="10000"/>
+  </goods>
+  <grant>
+    <item id="1" text="琅琊赐福，豪气冲天"/>
+    <item id="3" text="名扬四海，誉满天下"/>
+    <item id="2" text="入主琅琊，剑指江湖"/>
+  </grant>
+</root>

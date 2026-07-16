@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="52,326">
+  <displayList>
+    <loader id="n91_o56w" name="img_stage" xy="0,43" size="52,120" url="ui://27utqbizfe128k" align="center" vAlign="bottom" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n94_fe12" name="img_stage1" xy="0,163" size="52,120" url="ui://27utqbizfe128i" align="center" vAlign="bottom" autoSize="true">
+      <relation target="n91_o56w" sidePair="bottom-bottom"/>
+    </loader>
+  </displayList>
+</component>

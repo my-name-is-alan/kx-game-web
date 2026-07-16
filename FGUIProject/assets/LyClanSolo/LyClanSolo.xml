@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://irbjwyufig8m3f" designImageOffsetX="-454" designImageOffsetY="-131" designImageAlpha="0" designImageLayer="1">
+  <displayList>
+    <image id="n37_ig8m" name="n37" src="ig8m2g" fileName="res/bg_dandaofuhui.png" xy="0,-183">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n84_p0hf" name="n84" src="10lj849" fileName="ui/frame_server.png" pkg="27utqbiz" xy="52,393" size="650,131" group="n39_ig8m"/>
+    <text id="n4_l7ic" name="label_nextStateTime" xy="98,400" size="244,34" group="n39_ig8m" fontSize="24" color="#67320b" vAlign="middle" text="活动时间：今年到明年"/>
+    <richtext id="n8_l7ic" name="label_more" xy="527,475" size="148,55" group="n39_ig8m" fontSize="24" color="#12940f" align="center" vAlign="middle" autoSize="none" underline="true" text="查看更多"/>
+    <richtext id="n41_ig8m" name="label_servers" xy="98,482" size="426,36" group="n39_ig8m" fontSize="24" color="#67320b" vAlign="middle" autoSize="ellipsis" autoClearText="true" text="参与数据：啊啊啊1服参与数据：啊啊啊1服参与数据：啊啊啊1服"/>
+    <image id="n77_are6" name="n77" src="ig8m3e" fileName="res3/word_logo1.png" xy="12,210" group="n39_ig8m"/>
+    <richtext id="n78_i1es" name="label_clanName" xy="98,441" size="426,36" group="n39_ig8m" fontSize="24" color="#67320b" vAlign="middle" autoSize="ellipsis" autoClearText="true" text="帮派名字"/>
+    <group id="n39_ig8m" name="n39" xy="12,210" size="726,320" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <image id="n53_ig8m" name="n53" src="ig8m2e" fileName="res/bg_like.png" xy="-1,-180" group="n54_ig8m">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n66_ig8m" name="btn_like" src="l7ic5" fileName="btn_battle.xml" xy="288,985" group="n54_ig8m">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://irbjwyufig8m2z"/>
+    </component>
+    <component id="n71_ig8m" name="group_playerTop" src="ig8m3h" fileName="item_clanSoloLike.xml" xy="237,534" group="n54_ig8m">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n55_ig8m" name="group_clanTop2" src="ig8m2w" fileName="item_clanRank2.xml" xy="18,173" group="n72_phai" visible="false"/>
+    <component id="n63_ig8m" name="group_clanTop1" src="ig8m2x" fileName="item_clanRank1.xml" xy="263,148" group="n72_phai" visible="false"/>
+    <component id="n64_ig8m" name="group_clanTop3" src="ig8m2y" fileName="item_clanRank3.xml" xy="507,173" group="n72_phai" visible="false"/>
+    <group id="n72_phai" name="n72" xy="18,148" size="719,391" group="n54_ig8m" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <group id="n54_ig8m" name="group_state5" xy="-1,-180" size="750,1700" advanced="true"/>
+    <component id="n0_l7ic" name="btn_close" src="l7ic1" fileName="btn_close.xml" xy="0,35">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <image id="n80_10lj8" name="n80" src="10lj84a" fileName="res3/frame_introduce.png" xy="119,665" size="512,154" group="n52_ig8m"/>
+    <text id="n46_ig8m" name="label_str28" xy="121,758" size="509,34" group="n52_ig8m" fontSize="24" color="#fadd9f" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="准备结束后将自动锁定帮派名单"/>
+    <text id="n45_ig8m" name="label_str27" xy="122,724" size="506,34" group="n52_ig8m" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="帮派人数≥10（符合条件/不符合条件）"/>
+    <text id="n44_ig8m" name="label_str26" xy="240,689" size="148,34" group="n52_ig8m" fontSize="24" color="#ffffff" vAlign="middle" autoClearText="true" text="开启倒计时："/>
+    <text id="n48_ig8m" name="label_nextStateTime2" xy="388,689" size="74,34" group="n52_ig8m" fontSize="24" color="#fadd9f" vAlign="middle" autoClearText="true" text="23456"/>
+    <text id="n75_r41c" name="label_str92" xy="122,723" size="259,34" group="n52_ig8m" fontSize="24" color="#ffffff" align="right" vAlign="middle" autoSize="none" autoClearText="true" text="暂未加入帮派"/>
+    <richtext id="n76_r41c" name="label_join" xy="394,720" size="157,34" group="n52_ig8m" fontSize="24" color="#34c830" vAlign="middle" autoSize="none" underline="true" autoClearText="true" text="加入帮派"/>
+    <group id="n52_ig8m" name="group_state2" xy="119,665" size="512,154" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n81_10lj8" name="n81" src="10lj84a" fileName="res3/frame_introduce.png" xy="122,736" size="505,74" group="n83_10lj8"/>
+    <text id="n82_10lj8" name="label_str101" xy="225,754" size="299,34" group="n83_10lj8" fontSize="24" color="#fadd9f" align="center" vAlign="middle" autoSize="none" text="本次活动没有的报名资格"/>
+    <group id="n83_10lj8" name="group_noJoin" xy="122,736" size="505,74" advanced="true"/>
+    <image id="n42_ig8m" name="n42" src="ig8m2i" fileName="res/frame_jifen&amp;paiming.png" xy="79,526" group="n32_n7df"/>
+    <text id="n9_l7ic" name="label_str8" xy="149,540" size="116,36" group="n32_n7df" fontSize="26" color="#16191a" vAlign="middle" autoClearText="true" text="我得积分:"/>
+    <text id="n11_l7ic" name="label_myScore" xy="266,540" size="64,36" group="n32_n7df" fontSize="26" color="#3fd83b" vAlign="middle" text="1111"/>
+    <text id="n12_l7ic" name="label_str7" xy="393,540" size="116,36" group="n32_n7df" fontSize="26" color="#16191a" vAlign="middle" text="我得排名:"/>
+    <text id="n13_l7ic" name="label_myRank" xy="510,540" size="64,36" group="n32_n7df" fontSize="26" color="#3fd83b" vAlign="middle" text="1111"/>
+    <text id="n14_l7ic" name="label_str25" xy="149,580" size="116,36" group="n32_n7df" fontSize="26" color="#16191a" vAlign="middle" autoClearText="true" text="帮派积分:"/>
+    <text id="n15_l7ic" name="label_clanScore" xy="266,580" size="64,36" group="n32_n7df" fontSize="26" color="#3fd83b" vAlign="middle" text="1111"/>
+    <text id="n16_l7ic" name="label_str24" xy="393,580" size="116,36" group="n32_n7df" fontSize="26" color="#16191a" vAlign="middle" text="帮派排名:"/>
+    <text id="n17_l7ic" name="label_clanRank" xy="510,580" size="64,36" group="n32_n7df" fontSize="26" color="#3fd83b" vAlign="middle" text="1111"/>
+    <component id="n26_l7ic" name="btn_battle" src="l7ic5" fileName="btn_battle.xml" xy="290,834" group="n32_n7df">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button icon="ui://irbjwyufig8m2l"/>
+    </component>
+    <group id="n32_n7df" name="group_state4" xy="79,526" size="592,468" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <component id="n18_l7ic" name="btn_award" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="319,1173" group="n30_n7df">
+      <Button icon="ui://27utqbizql4f26"/>
+    </component>
+    <component id="n19_l7ic" name="btn_rank" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="118,1173" group="n30_n7df">
+      <Button icon="ui://27utqbizrg021n"/>
+    </component>
+    <component id="n20_l7ic" name="btn_shop" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="219,1175" group="n30_n7df">
+      <Button icon="ui://27utqbizrg021p"/>
+    </component>
+    <component id="n21_l7ic" name="btn_task" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="419,1173" group="n30_n7df">
+      <Button icon="ui://27utqbizds91u1ab"/>
+    </component>
+    <component id="n22_l7ic" name="btn_gift" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="19,1173" group="n30_n7df">
+      <Button icon="ui://27utqbizds91u1aa"/>
+    </component>
+    <component id="n28_l7ic" name="btn_fund" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="640,1060" group="n30_n7df">
+      <Button icon="ui://27utqbizds91u1a9"/>
+    </component>
+    <component id="n29_l7ic" name="btn_log" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="640,1173" group="n30_n7df">
+      <Button icon="ui://27utqbizds91u1ac"/>
+    </component>
+    <group id="n30_n7df" name="n30" xy="19,1060" size="711,225" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n35_ksar" name="group_battleLoad" src="pc232d" fileName="group_battleLoad.xml" xy="0,0" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

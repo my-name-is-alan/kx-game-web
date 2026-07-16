@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="713,910">
+  <displayList>
+    <image id="n15_kcwh" name="n15" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,33" size="698,877" group="n19_kcwh"/>
+    <component id="n16_kcwh" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="635,0" group="n19_kcwh"/>
+    <image id="n17_kcwh" name="n17" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="139,67" size="407,38" group="n19_kcwh"/>
+    <text id="n18_kcwh" name="label_str27" xy="314,65" size="60,39" group="n19_kcwh" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" text="切磋"/>
+    <list id="n12_fj2b" name="list_battle" xy="25,126" size="638,713" group="n19_kcwh" overflow="scroll" lineGap="12" defaultItem="ui://l32lh3odfj2bi">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n19_kcwh" name="n19" xy="0,0" size="713,910" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

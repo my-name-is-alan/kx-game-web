@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1700">
+  <displayList>
+    <component id="n3_jhmn" name="main" src="jv6udu18c" fileName="main_LyGrabCityZone.xml" xy="0,0" size="750,1700">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n11_jv6u" name="main_ui" src="jv6udu18d" fileName="main_uiLyGrabCityZone.xml" xy="0,0" size="750,1700">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

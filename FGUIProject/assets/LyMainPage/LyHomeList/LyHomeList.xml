@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n0_av7q" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n3_k0i1" name="img_back" src="k0i163" fileName="LyChallengeList/frame_rukoudiban.png" xy="0,1095" size="272,113">
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <list id="n2_xpuh" name="list_item" xy="10,1104" size="253,96" overflow="hidden" margin="7,7,4,4" lineGap="4" defaultItem="ui://2uzp0flsav7q3i" autoClearItems="true">
+      <relation target="" sidePair="bottom-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

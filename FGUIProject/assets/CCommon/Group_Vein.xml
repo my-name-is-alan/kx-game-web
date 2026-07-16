@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="553,232">
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n29_rvb5" name="n29" src="rvb52y" fileName="ui/frame_tihuanzhanshi.png" xy="0,0" size="559,232">
+      <gearSize controller="c1" pages="1" values="559,517,1,1" default="559,232,1,1"/>
+    </image>
+    <image id="n45_rvb5" name="n45" src="rvb53c" fileName="ui/dec_tihuanzhanshi_frame_top_left_corner.png" xy="19,5"/>
+    <loader id="n46_rvb5" name="loader_qua" xy="20,6" size="520,46" url="ui://27utqbizrvb535" fill="scaleFree" clearOnPublish="true"/>
+    <image id="n40_rvb5" name="n40" src="rvb538" fileName="ui/frame_bottom_layer.png" xy="148,62" size="379,153"/>
+    <image id="n42_rvb5" name="n42" src="rvb52x" fileName="ui/frame_top_layer.png" xy="152,67" size="371,143"/>
+    <image id="n43_rvb5" name="n43" src="rvb53d" fileName="ui/dec_tihuanzhanshi_frame_low_right_corner.png" xy="408,136"/>
+    <text id="n5_lloi" name="label_name" xy="40,8" size="478,44" font="ui://27utqbizps391v" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="【极品】天界神兵"/>
+    <text id="n16_lloi" name="label_name4" xy="181,173" size="121,32" font="Microsoft YaHei" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" autoClearText="true" text="攻击"/>
+    <text id="n15_lloi" name="label_num2" xy="300,108" size="199,32" font="Microsoft YaHei" fontSize="20" color="#16191a" align="right" vAlign="middle" autoSize="none" autoClearText="true" text="95151"/>
+    <text id="n14_lloi" name="label_name3" xy="181,141" size="121,32" font="Microsoft YaHei" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" autoClearText="true" text="攻击"/>
+    <text id="n13_lloi" name="label_num3" xy="299,141" size="200,32" font="Microsoft YaHei" fontSize="20" color="#16191a" align="right" vAlign="middle" autoSize="none" autoClearText="true" text="95151"/>
+    <text id="n12_lloi" name="label_name2" xy="181,108" size="120,32" font="Microsoft YaHei" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" autoClearText="true" text="攻击"/>
+    <text id="n11_lloi" name="label_num1" xy="301,77" size="198,32" font="Microsoft YaHei" fontSize="20" color="#16191a" align="right" vAlign="middle" autoSize="none" autoClearText="true" text="95151"/>
+    <text id="n10_lloi" name="label_name1" xy="181,75" size="119,32" font="Microsoft YaHei" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" autoClearText="true" text="攻击"/>
+    <text id="n17_lloi" name="label_num4" xy="301,177" size="198,32" font="Microsoft YaHei" fontSize="20" color="#16191a" align="right" vAlign="middle" autoSize="none" autoClearText="true" text="95151"/>
+    <image id="n30_rvb5" name="n30" src="rvb53e" fileName="ui/dec_pattern_behind_prop.png" xy="54,67"/>
+    <loader id="n31_rvb5" name="Loader_icon" xy="51,63" size="76,77" url="ui://2qr0czbaqow05o" align="center" vAlign="middle"/>
+    <image id="n32_rvb5" name="n32" src="rvb539" fileName="ui/frame_body_kits.png" xy="40,126"/>
+    <text id="n33_rvb5" name="label_grade" xy="52,121" size="78,36" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="145级"/>
+    <image id="n49_zo46" name="n49" src="rvb538" fileName="ui/frame_bottom_layer.png" xy="28,232" size="496,267" group="n59_zo46"/>
+    <image id="n50_zo46" name="n50" src="rvb52x" fileName="ui/frame_top_layer.png" xy="34,241" size="486,253" group="n59_zo46"/>
+    <text id="n51_zo46" name="label_buffName1" xy="53,252" size="111,34" group="n59_zo46" font="ui://27utqbizps391v" fontSize="24" color="#16191a" letterSpacing="-2" autoSize="none" text="勾陈灵脉"/>
+    <text id="n52_zo46" name="label_buffDes1" xy="161,255" size="341,53" group="n59_zo46" fontSize="20" color="#16191a" autoSize="shrink" text="触发闪避"/>
+    <text id="n53_zo46" name="label_buffName2" xy="53,310" size="111,34" group="n59_zo46" font="ui://27utqbizps391v" fontSize="24" color="#16191a" letterSpacing="-2" autoSize="none" text="勾陈灵脉"/>
+    <text id="n54_zo46" name="label_buffDes2" xy="160,312" size="341,53" group="n59_zo46" fontSize="20" color="#16191a" autoSize="shrink" text="触发闪避"/>
+    <text id="n55_zo46" name="label_buffName3" xy="53,366" size="111,34" group="n59_zo46" font="ui://27utqbizps391v" fontSize="24" color="#16191a" letterSpacing="-2" autoSize="none" text="勾陈灵脉"/>
+    <text id="n56_zo46" name="label_buffDes3" xy="161,368" size="341,53" group="n59_zo46" fontSize="20" color="#16191a" autoSize="shrink" text="触发闪避"/>
+    <text id="n57_zo46" name="label_buffName4" xy="53,429" size="111,34" group="n59_zo46" font="ui://27utqbizps391v" fontSize="24" color="#16191a" letterSpacing="-2" autoSize="none" text="勾陈灵脉"/>
+    <text id="n58_zo46" name="label_buffDes4" xy="161,431" size="341,53" group="n59_zo46" fontSize="20" color="#16191a" autoSize="shrink" text="触发闪避"/>
+    <group id="n59_zo46" name="n59" xy="28,232" size="496,267" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+  <relation target="n29_rvb5" sidePair="height-height"/>
+</component>

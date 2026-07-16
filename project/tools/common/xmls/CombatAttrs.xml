@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root id="1">
+  <attr>
+    <item id="1" name="生命" desc="角色的最大生命值"/>
+    <item id="2" name="攻击" desc="角色的攻击力"/>
+    <item id="3" name="防御" desc="角色的防御力"/>
+    <item id="4" name="敏捷" desc="影响角色的攻击顺序"/>
+    <item id="5" name="连击" desc="攻击有概率再次攻击"/>
+    <item id="6" name="反击" desc="被攻击时有概率反击"/>
+    <item id="7" name="暴击" desc="攻击有概率造成高额伤害"/>
+    <item id="8" name="闪避" desc="被攻击时有概率不受伤害"/>
+    <item id="9" name="吸血" desc="攻击时，根据造成伤害按吸血百分比回复生命"/>
+    <item id="10" name="击晕" desc="攻击时有概率击晕对手，使其1回合无法行动"/>
+    <item id="11" name="抗连击" desc="减少对方的连击概率"/>
+    <item id="12" name="抗反击" desc="减少对方的反击概率"/>
+    <item id="13" name="抗暴击" desc="减少对方的暴击概率"/>
+    <item id="14" name="抗闪避" desc="减少对方的闪避概率"/>
+    <item id="15" name="抗吸血" desc="减少对方的吸血概率"/>
+    <item id="16" name="抗击晕" desc="减少对方的击晕概率"/>
+  </attr>
+</root>

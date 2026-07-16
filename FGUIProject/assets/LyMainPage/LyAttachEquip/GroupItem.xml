@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <loader id="n4_ewyh" name="loader_back" xy="0,0" size="100,100" url="ui://27utqbizewyh3">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_ewyh" name="loader_icon" xy="0,0" size="100,100">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n3_ewyh" name="label_count" xy="90,62" pivot="1,0" size="10,38" fontSize="16" color="#ffffff" align="right" vAlign="middle" strokeColor="#000000" autoClearText="true" text="&#xA;">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <component id="n2_ewyh" name="btn_frame" src="niv33e" fileName="itemframe/btn_item.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

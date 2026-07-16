@@ -1,0 +1,181 @@
+
+jm_menke_biankuang_tx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang_xulietu_2
+  rotate: true
+  xy: 239, 836
+  size: 170, 278
+  orig: 170, 278
+  offset: 0, 0
+  index: -1
+guang_xulietu_2_1
+  rotate: true
+  xy: 519, 836
+  size: 170, 278
+  orig: 170, 278
+  offset: 0, 0
+  index: -1
+guang_xulietu_2_2
+  rotate: false
+  xy: 239, 430
+  size: 170, 278
+  orig: 170, 278
+  offset: 0, 0
+  index: -1
+guang_xulietu_2_3
+  rotate: false
+  xy: 537, 556
+  size: 170, 278
+  orig: 170, 278
+  offset: 0, 0
+  index: -1
+guang_xulietu_2_4
+  rotate: false
+  xy: 709, 430
+  size: 170, 278
+  orig: 170, 278
+  offset: 0, 0
+  index: -1
+menke_guang_h_01
+  rotate: false
+  xy: 2, 115
+  size: 79, 891
+  orig: 79, 891
+  offset: 0, 0
+  index: -1
+menke_guang_h_01_1
+  rotate: false
+  xy: 164, 115
+  size: 73, 891
+  orig: 79, 891
+  offset: 1, 0
+  index: -1
+menke_guang_h_01_2
+  rotate: true
+  xy: 2, 34
+  size: 79, 891
+  orig: 79, 891
+  offset: 0, 0
+  index: -1
+menke_guang_h_01_3
+  rotate: false
+  xy: 895, 115
+  size: 79, 891
+  orig: 79, 891
+  offset: 0, 0
+  index: -1
+menke_guang_h_01_4
+  rotate: false
+  xy: 83, 115
+  size: 79, 891
+  orig: 79, 891
+  offset: 0, 0
+  index: -1
+menke_guang_h_02
+  rotate: true
+  xy: 411, 420
+  size: 134, 261
+  orig: 134, 287
+  offset: 0, 26
+  index: -1
+menke_guang_h_02_1
+  rotate: false
+  xy: 239, 167
+  size: 134, 261
+  orig: 134, 287
+  offset: 0, 26
+  index: -1
+menke_guang_h_02_2
+  rotate: false
+  xy: 674, 167
+  size: 134, 261
+  orig: 134, 287
+  offset: 0, 26
+  index: -1
+menke_guang_h_02_3
+  rotate: true
+  xy: 375, 284
+  size: 134, 261
+  orig: 134, 287
+  offset: 0, 26
+  index: -1
+menke_guang_h_02_4
+  rotate: true
+  xy: 375, 148
+  size: 134, 261
+  orig: 134, 287
+  offset: 0, 26
+  index: -1
+menke_guang_h_03
+  rotate: false
+  xy: 2, 2
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+menke_guang_h_03_1
+  rotate: false
+  xy: 34, 2
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+menke_guang_h_03_2
+  rotate: false
+  xy: 66, 2
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+menke_guang_h_03_3
+  rotate: false
+  xy: 98, 2
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+menke_guang_h_03_4
+  rotate: false
+  xy: 130, 2
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+menke_guang_h_05
+  rotate: false
+  xy: 799, 859
+  size: 92, 147
+  orig: 92, 147
+  offset: 0, 0
+  index: -1
+menke_guang_h_05_1
+  rotate: false
+  xy: 799, 710
+  size: 92, 147
+  orig: 92, 147
+  offset: 0, 0
+  index: -1
+menke_guang_h_05_2
+  rotate: true
+  xy: 239, 742
+  size: 92, 147
+  orig: 92, 147
+  offset: 0, 0
+  index: -1
+menke_guang_h_05_3
+  rotate: true
+  xy: 388, 742
+  size: 92, 147
+  orig: 92, 147
+  offset: 0, 0
+  index: -1
+menke_guang_h_05_4
+  rotate: false
+  xy: 411, 593
+  size: 92, 147
+  orig: 92, 147
+  offset: 0, 0
+  index: -1

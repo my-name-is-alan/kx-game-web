@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8pumt1gi">
+  <resources>
+    <component id="j69r0" name="LyPayFirstGift.xml" path="/" exported="true"/>
+    <component id="j69r1" name="group_payfirstgift.xml" path="/"/>
+    <image id="j69r2" name="frame_shouchongdiban2.png" path="/firstgift/"/>
+    <image id="j69r4" name="frame_diaopai.png" path="/firstgift/"/>
+    <component id="j69r5" name="btn_normal1.xml" path="/firstgift/"/>
+    <image id="j69r6" name="btn_orange.png" path="/firstgift/res/"/>
+    <image id="j69re" name="btn_jinengyulan.png" path="/firstgift/"/>
+    <image id="j69rf" name="frame_biaotou.png" path="/firstgift/"/>
+    <image id="j69rg" name="frame_chuanshuo.png" path="/firstgift/"/>
+    <image id="j69rh" name="frame_fanlidi.png" path="/firstgift/"/>
+    <image id="j69ri" name="frame_huangnvxia.png" path="/firstgift/"/>
+    <image id="j69rj" name="frame_renwukuang.png" path="/firstgift/"/>
+    <image id="j69rk" name="word_3000.png" path="/firstgift/"/>
+    <image id="j69rl" name="word_4000.png" path="/firstgift/"/>
+    <image id="j69rm" name="word_5000.png" path="/firstgift/"/>
+    <image id="j69rn" name="word_huangnvxia.png" path="/firstgift/"/>
+    <image id="j69ro" name="word_zhandoujiasu.png" path="/firstgift/"/>
+    <image id="j69rp" name="frame_shouchongdiban3.png" path="/firstgift/"/>
+    <component id="j69rq" name="group_item.xml" path="/"/>
+    <component id="j69rr" name="btn_play.xml" path="/firstgift/"/>
+    <image id="j69rs" name="word_chuanshuobanlv.png" path="/firstgift/"/>
+    <image id="j69rt" name="frame_countdown.png" path="/firstgift/" scale="9grid" scale9grid="49,7,98,14"/>
+    <component id="j69rx" name="btn_switch.xml" path="/giftgroup/"/>
+    <image id="j69ry" name="btn_zhigoulibao3.png" path="/giftgroup/"/>
+    <image id="j69rz" name="btn_zhigoulibao2.png" path="/giftgroup/"/>
+    <component id="oxdb11" name="group_drawitem.xml" path="/firstgift/"/>
+    <image id="oxdb12" name="frame_daojudikuangyuan2.png" path="/firstgift/res/"/>
+    <image id="oxdb13" name="frame_daojudikuangyuan.png" path="/firstgift/res/"/>
+    <image id="oxdb14" name="frame_baisedi.png" path="/firstgift/res/"/>
+    <component id="oxdb15" name="btn_empty.xml" path="/firstgift/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root id="1" refresh_cost_item="120009" refresh_cost_number="10" guarantees_pets="15001,15002,15003,15004,15005" guarantees_choice="15001,15002,15003,15004,15005" gurantees_trigger="5" summon_currency_item="120009" backpack_initial="11" initial_pet_refresh="11001,11002,11003" petDesc="一、侠侣培养-1.侠侣是侠客的亲密伙伴，上阵的侠侣可以在战斗中释放参战技能，为战局带来更多优势&lt;br/&gt;2.消耗朝露可以提升侠侣的等级，侠侣升级后带来的属性加成会获得提升，达到特定等级后参战技能等级也会提升&lt;br/&gt;3.重复获得的侠侣可以进行传功，传功会提升侠侣的属性加成和被动技能，传功高星级的侠侣会额外提升其对应的星级&lt;br/&gt;4.侠侣的属性加成和被动技能带来的属性需要上阵才会生效@二、侠侣结伴-1.在结伴界面中，每次会出现3位侠侣，消耗同心玉可以刷新当前出现的侠侣&lt;br/&gt;2.选中出现的侠侣可以查看其详情，花费同心玉则可以与该侠侣结伴@三、羁绊-1.获取特定的侠侣完成组合可以形成羁绊，羁绊会为侠客带来永久的属性加成&lt;br/&gt;2.侠侣归隐不会影响已激活的羁绊六、洗练1.传功达到一定星级的侠侣可以对被动技能进行洗练2.每次洗练都需要消耗混元散，洗练时会使所有被动技能发生变更，并可以对结果进行预览。侠客可以选择保存新结果或还原原有的被动技能，但洗练消耗的混元散不会返还&lt;br/&gt;3.洗练前可以消耗九仪珀锁定在洗练中不想发生变更的被动技能，被锁定的被动技能在洗练时不会受到影响&lt;br/&gt;4.无法获得相同品质相同效果的技能@" petEncyDesc="一、侠侣培养-1.侠侣是侠客的亲密伙伴，上阵的侠侣可以在战斗中释放参战技能，为战局带来更多优势&lt;br/&gt;2.消耗朝露可以提升侠侣的等级，侠侣升级后带来的属性加成会获得提升，达到特定等级后参战技能等级也会提升3.重复获得的侠侣可以进行传功，传功会提升侠侣的属性加成和被动技能，传功高星级的侠侣会额外提升其对应的星级&lt;br/&gt;3.侠侣的属性加成和被动技能带来的属性需要上阵才会生效@二、侠侣结伴-1.在结伴界面中，每次会出现3位侠侣，消耗同心玉可以刷新当前出现的侠侣&lt;br/&gt;2.选中出现的侠侣可以查看其详情，花费同心玉则可以与该侠侣结伴@三、羁绊-1.获取特定的侠侣完成组合可以形成羁绊，羁绊会为侠客带来永久的属性加成&lt;br/&gt;2.侠侣归隐不会影响已激活的羁绊六、洗练1.传功达到一定星级的侠侣可以对被动技能进行洗练2.每次洗练都需要消耗混元散，洗练时会使所有被动技能发生变更，并可以对结果进行预览。侠客可以选择保存新结果或还原原有的被动技能，但洗练消耗的混元散不会返还&lt;br/&gt;3.洗练前可以消耗九仪珀锁定在洗练中不想发生变更的被动技能，被锁定的被动技能在洗练时不会受到影响&lt;br/&gt;4.无法获得相同品质相同效果的技能@" petSummonDesc="一、侠侣培养-1.侠侣是侠客的亲密伙伴，上阵的侠侣可以在战斗中释放参战技能，为战局带来更多优势&lt;br/&gt;2.消耗朝露可以提升侠侣的等级，侠侣升级后带来的属性加成会获得提升，达到特定等级后参战技能等级也会提升3.重复获得的侠侣可以进行传功，传功会提升侠侣的属性加成和被动技能，传功高星级的侠侣会额外提升其对应的星级&lt;br/&gt;3.侠侣的属性加成和被动技能带来的属性需要上阵才会生效@二、侠侣结伴-1.在结伴界面中，每次会出现3位侠侣，消耗同心玉可以刷新当前出现的侠侣&lt;br/&gt;2.选中出现的侠侣可以查看其详情，花费同心玉则可以与该侠侣结伴@三、羁绊-1.获取特定的侠侣完成组合可以形成羁绊，羁绊会为侠客带来永久的属性加成&lt;br/&gt;2.侠侣归隐不会影响已激活的羁绊六、洗练1.传功达到一定星级的侠侣可以对被动技能进行洗练2.每次洗练都需要消耗混元散，洗练时会使所有被动技能发生变更，并可以对结果进行预览。侠客可以选择保存新结果或还原原有的被动技能，但洗练消耗的混元散不会返还&lt;br/&gt;3.洗练前可以消耗九仪珀锁定在洗练中不想发生变更的被动技能，被锁定的被动技能在洗练时不会受到影响&lt;br/&gt;4.无法获得相同品质相同效果的技能@" guarantees_default="15001" level_limit="200" rank_limit="40">
+  <items>
+    <items id="11001" name="琴侍" description="间隔3回合释放1次技能，造成主角60%攻击力的伤害，并提升主角20%攻击力，持续1回合。" quality="1" modelId="6101" refreshBuffGroup="101"/>
+    <items id="11002" name="棋侍" description="间隔4回合释放1次技能，造成主角75%攻击力的伤害，并提升主角20%防御力，持续1回合。" quality="1" modelId="6102" refreshBuffGroup="101"/>
+    <items id="11003" name="书侍" description="间隔4回合释放1次技能，造成主角37%攻击力的伤害，并击晕敌人1回合。" quality="1" modelId="6103" refreshBuffGroup="101"/>
+    <items id="11004" name="画侍" description="间隔4回合释放1次技能，治疗主角70%攻击力的生命，并提升主角10%攻击力，持续1回合。" quality="1" modelId="6104" refreshBuffGroup="101"/>
+    <items id="11005" name="剑侍" description="间隔4回合释放1次技能，造成主角70%攻击力的伤害，并降低敌人20%防御力，持续1回合。" quality="1" modelId="6105" refreshBuffGroup="101"/>
+    <items id="12001" name="子怡" description="间隔4回合释放1次技能，造成主角90%攻击力的伤害，并提升主角20%攻击力，持续1回合。" quality="2" modelId="6201" refreshBuffGroup="101"/>
+    <items id="12002" name="建宁" description="间隔4回合释放1次技能，造成主角90%攻击力的伤害，并降低敌人20%攻击力，持续1回合。" quality="2" modelId="6202" refreshBuffGroup="101"/>
+    <items id="12003" name="芷若" description="间隔1回合释放1次技能，造成主角30%攻击力的伤害。" quality="2" modelId="6203" refreshBuffGroup="101"/>
+    <items id="12004" name="素灵" description="间隔4回合释放1次技能，治疗主角110%攻击力的生命，并提升主角20%防御力，持续1回合。" quality="2" modelId="6204" refreshBuffGroup="101"/>
+    <items id="12005" name="小双" description="间隔4回合释放1次技能，造成主角120%攻击力的伤害，并降低敌人20%敏捷，持续1回合。" quality="2" modelId="6205" refreshBuffGroup="101"/>
+    <items id="13001" name="方师太" description="间隔3回合释放1次技能，造成主角90%攻击力的伤害，并提升主角20%暴击，持续1回合。" quality="3" modelId="6301" refreshBuffGroup="101"/>
+    <items id="13002" name="珂儿" description="间隔3回合释放1次技能，造成主角90%攻击力的伤害，并提升主角20%连击，持续1回合。" quality="3" modelId="6302" refreshBuffGroup="101"/>
+    <items id="13003" name="芙妹" description="间隔3回合释放1次技能，造成主角90%攻击力的伤害，并提升主角20%击晕，持续1回合。" quality="3" modelId="6303" refreshBuffGroup="101"/>
+    <items id="13004" name="香妃" description="间隔3回合释放1次技能，治疗主角75%攻击力的生命，并提升主角20%闪避，持续1回合。" quality="3" modelId="6304" refreshBuffGroup="101"/>
+    <items id="13005" name="童云" description="间隔3回合释放1次技能，治疗主角75%攻击力的生命，并提升主角20%反击，持续1回合。" quality="3" modelId="6305" refreshBuffGroup="101"/>
+    <items id="13006" name="素素" description="间隔3回合释放1次技能，治疗主角75%攻击力的生命，并提升主角10%敏捷和防御，持续1回合。" quality="3" modelId="6306" refreshBuffGroup="101"/>
+    <items id="13007" name="莫愁" description="间隔3回合释放1次技能，治疗主角75%攻击力的生命，并提升主角20%吸血，持续1回合。" quality="3" modelId="6307" refreshBuffGroup="101"/>
+    <items id="13008" name="无双" description="间隔3回合释放1次技能，造成主角90%攻击力的伤害，并提升主角10%攻击和防御，持续1回合。" quality="3" modelId="6308" refreshBuffGroup="101"/>
+    <items id="14001" name="黄女侠" description="间隔5回合释放1次技能，造成主角350%攻击力的伤害。" quality="4" modelId="6401" refreshBuffGroup="101"/>
+    <items id="14002" name="紫郡主" description="间隔3回合释放1次技能，造成主角120%攻击力的伤害，并提升主角20%闪避和反击，持续1回合。" quality="4" modelId="6402" refreshBuffGroup="101"/>
+    <items id="14003" name="灵珊" description="间隔3回合释放1次技能，造成主角120%攻击力的伤害，降低敌人20%连击并提升主角30%连击，持续1回合。" quality="4" modelId="6403" refreshBuffGroup="101"/>
+    <items id="14004" name="灵儿" description="间隔2回合释放1次技能，造成主角100%攻击力的伤害，并降低敌人40%防御，持续1回合。" quality="4" modelId="6404" refreshBuffGroup="101"/>
+    <items id="14005" name="婉清" description="间隔3回合释放1次技能，造成主角100%攻击力的伤害，如果敌人已眩晕则为主角恢复造成伤害100%的生命。" quality="4" modelId="6405" refreshBuffGroup="101"/>
+    <items id="14006" name="剑屏" description="间隔2回合释放1次技能，造成主角100%攻击力的伤害，并降低敌人50%治疗效果，持续1回合。" quality="4" modelId="6406" refreshBuffGroup="101"/>
+    <items id="14007" name="朱姑娘" description="间隔2回合释放1次技能，治疗主角85%攻击力的生命，并提升主角15%最终减伤，持续1回合。" quality="4" modelId="6407" refreshBuffGroup="101"/>
+    <items id="15001" name="盈盈" description="间隔1回合释放1次技能，造成主角60%攻击力的伤害，并且提升主角10%暴击，最多叠加5次，持续到战斗结束。" quality="5" modelId="6501" refreshBuffGroup="101"/>
+    <items id="15002" name="黄杉" description="间隔2回合释放1次技能，造成主角120%攻击力的伤害，并且提升主角10%连击和反击，最多叠加3次，持续到战斗结束。" quality="5" modelId="6502" refreshBuffGroup="101"/>
+    <items id="15003" name="龙儿" description="间隔2回合释放1次技能，造成主角120%攻击力的伤害，如果敌人已眩晕则效果变为造成180%攻击力的伤害，且延长眩晕1回合。" quality="5" modelId="6503" refreshBuffGroup="101"/>
+    <items id="15004" name="语嫣" description="间隔2回合释放1次技能，治疗主角110%攻击力的生命，并提升主角16%治疗效果，最多叠加5次，持续到战斗结束。" quality="5" modelId="6504" refreshBuffGroup="101"/>
+    <items id="15005" name="郭女侠" description="间隔2回合释放1次技能，造成主角120%攻击力的伤害，并且提升主角10%吸血和闪避，最多叠加3次，持续到战斗结束。" quality="5" modelId="6505" refreshBuffGroup="101"/>
+    <items id="15006" name="绍敏郡主" description="间隔2回合释放1次技能，造成主角150%攻击力的伤害，并且提升主角15%绝学伤害，最多叠加3次，持续到战斗结束。" quality="5" modelId="6506" refreshBuffGroup="101"/>
+  </items>
+  <buff>
+    <buff id="1" buffId="11" buffName="攻击力" buffEffect="1" buffParam="1,2,3,4,5,6,7,8,9,10" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="2" buffId="12" buffName="攻击力" buffEffect="1" buffParam="1.5,3,4.5,6,7.5,9,10.5,12,13.5,15" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="3" buffId="13" buffName="攻击力" buffEffect="1" buffParam="2,4,6,8,10,12,14,16,18,20" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="4" buffId="21" buffName="防御力" buffEffect="2" buffParam="1,2,3,4,5,6,7,8,9,10" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="5" buffId="22" buffName="防御力" buffEffect="2" buffParam="1.5,3,4.5,6,7.5,9,10.5,12,13.5,15" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="6" buffId="23" buffName="防御力" buffEffect="2" buffParam="2,4,6,8,10,12,14,16,18,20" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="7" buffId="31" buffName="敏捷" buffEffect="3" buffParam="1,2,3,4,5,6,7,8,9,10" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="8" buffId="32" buffName="敏捷" buffEffect="3" buffParam="1.5,3,4.5,6,7.5,9,10.5,12,13.5,15" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="9" buffId="33" buffName="敏捷" buffEffect="3" buffParam="2,4,6,8,10,12,14,16,18,20" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="10" buffId="41" buffName="生命" buffEffect="4" buffParam="1,2,3,4,5,6,7,8,9,10" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="11" buffId="42" buffName="生命" buffEffect="4" buffParam="1.5,3,4.5,6,7.5,9,10.5,12,13.5,15" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="12" buffId="43" buffName="生命" buffEffect="4" buffParam="2,4,6,8,10,12,14,16,18,20" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="13" buffId="461" buffName="弱化爆伤" buffEffect="46" buffParam="4.5,9,13.5,18,22.5,27,31.5,36,40.5,45" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="14" buffId="462" buffName="弱化爆伤" buffEffect="46" buffParam="6,12,18,24,30,36,42,48,54,60" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="15" buffId="463" buffName="弱化爆伤" buffEffect="46" buffParam="7.5,15,22.5,30,37.5,45,52.5,60,67.5,75" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="16" buffId="421" buffName="强化爆伤" buffEffect="42" buffParam="4.5,9,13.5,18,22.5,27,31.5,36,40.5,45" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="17" buffId="422" buffName="强化爆伤" buffEffect="42" buffParam="6,12,18,24,30,36,42,48,54,60" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="18" buffId="423" buffName="强化爆伤" buffEffect="42" buffParam="7.5,15,22.5,30,37.5,45,52.5,60,67.5,75" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="19" buffId="431" buffName="强化治疗" buffEffect="43" buffParam="6,12,18,24,30,36,42,48,54,60" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="20" buffId="432" buffName="强化治疗" buffEffect="43" buffParam="8,16,24,32,40,48,56,64,72,80" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="21" buffId="433" buffName="强化治疗" buffEffect="43" buffParam="10,20,30,40,50,60,70,80,90,100" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="22" buffId="471" buffName="弱化治疗" buffEffect="47" buffParam="6,12,18,24,30,36,42,48,54,60" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="23" buffId="472" buffName="弱化治疗" buffEffect="47" buffParam="8,16,24,32,40,48,56,64,72,80" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="24" buffId="473" buffName="弱化治疗" buffEffect="47" buffParam="10,20,30,40,50,60,70,80,90,100" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="25" buffId="441" buffName="强化侠侣" buffEffect="44" buffParam="4.5,9,13.5,18,22.5,27,31.5,36,40.5,45" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="26" buffId="442" buffName="强化侠侣" buffEffect="44" buffParam="6,12,18,24,30,36,42,48,54,60" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="27" buffId="443" buffName="强化侠侣" buffEffect="44" buffParam="7.5,15,22.5,30,37.5,45,52.5,60,67.5,75" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="28" buffId="481" buffName="弱化侠侣" buffEffect="48" buffParam="4.5,9,13.5,18,22.5,27,31.5,36,40.5,45" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="29" buffId="482" buffName="弱化侠侣" buffEffect="48" buffParam="6,12,18,24,30,36,42,48,54,60" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="30" buffId="483" buffName="弱化侠侣" buffEffect="48" buffParam="7.5,15,22.5,30,37.5,45,52.5,60,67.5,75" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="31" buffId="121" buffName="击晕" buffEffect="12" buffParam="1.5,3,4.5,6,7.5,9,10.5,12,13.5,15" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="32" buffId="122" buffName="击晕" buffEffect="12" buffParam="2,4,6,8,10,12,14,16,18,20" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="33" buffId="123" buffName="击晕" buffEffect="12" buffParam="2.5,5,7.5,10,12.5,15,17.5,20,22.5,25" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="34" buffId="111" buffName="暴击" buffEffect="11" buffParam="1.5,3,4.5,6,7.5,9,10.5,12,13.5,15" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="35" buffId="112" buffName="暴击" buffEffect="11" buffParam="2,4,6,8,10,12,14,16,18,20" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="36" buffId="113" buffName="暴击" buffEffect="11" buffParam="2.5,5,7.5,10,12.5,15,17.5,20,22.5,25" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="37" buffId="131" buffName="连击" buffEffect="13" buffParam="1.5,3,4.5,6,7.5,9,10.5,12,13.5,15" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="38" buffId="132" buffName="连击" buffEffect="13" buffParam="2,4,6,8,10,12,14,16,18,20" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="39" buffId="133" buffName="连击" buffEffect="13" buffParam="2.5,5,7.5,10,12.5,15,17.5,20,22.5,25" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="40" buffId="141" buffName="闪避" buffEffect="14" buffParam="1.5,3,4.5,6,7.5,9,10.5,12,13.5,15" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="41" buffId="142" buffName="闪避" buffEffect="14" buffParam="2,4,6,8,10,12,14,16,18,20" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="42" buffId="143" buffName="闪避" buffEffect="14" buffParam="2.5,5,7.5,10,12.5,15,17.5,20,22.5,25" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="43" buffId="151" buffName="反击" buffEffect="15" buffParam="1.5,3,4.5,6,7.5,9,10.5,12,13.5,15" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="44" buffId="152" buffName="反击" buffEffect="15" buffParam="2,4,6,8,10,12,14,16,18,20" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="45" buffId="153" buffName="反击" buffEffect="15" buffParam="2.5,5,7.5,10,12.5,15,17.5,20,22.5,25" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="46" buffId="161" buffName="吸血" buffEffect="16" buffParam="1.5,3,4.5,6,7.5,9,10.5,12,13.5,15" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="47" buffId="162" buffName="吸血" buffEffect="16" buffParam="2,4,6,8,10,12,14,16,18,20" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="48" buffId="163" buffName="吸血" buffEffect="16" buffParam="2.5,5,7.5,10,12.5,15,17.5,20,22.5,25" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="49" buffId="311" buffName="抗暴击" buffEffect="31" buffParam="3,6,9,12,15,18,21,24,27,30" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="50" buffId="312" buffName="抗暴击" buffEffect="31" buffParam="4,8,12,16,20,24,28,32,36,40" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="51" buffId="313" buffName="抗暴击" buffEffect="31" buffParam="5,10,15,20,25,30,35,40,45,50" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="52" buffId="321" buffName="抗击晕" buffEffect="32" buffParam="3,6,9,12,15,18,21,24,27,30" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="53" buffId="322" buffName="抗击晕" buffEffect="32" buffParam="4,8,12,16,20,24,28,32,36,40" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="54" buffId="323" buffName="抗击晕" buffEffect="32" buffParam="5,10,15,20,25,30,35,40,45,50" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="55" buffId="331" buffName="抗连击" buffEffect="33" buffParam="3,6,9,12,15,18,21,24,27,30" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="56" buffId="332" buffName="抗连击" buffEffect="33" buffParam="4,8,12,16,20,24,28,32,36,40" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="57" buffId="333" buffName="抗连击" buffEffect="33" buffParam="5,10,15,20,25,30,35,40,45,50" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="58" buffId="341" buffName="抗闪避" buffEffect="34" buffParam="3,6,9,12,15,18,21,24,27,30" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="59" buffId="342" buffName="抗闪避" buffEffect="34" buffParam="4,8,12,16,20,24,28,32,36,40" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="60" buffId="343" buffName="抗闪避" buffEffect="34" buffParam="5,10,15,20,25,30,35,40,45,50" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="61" buffId="351" buffName="抗反击" buffEffect="35" buffParam="3,6,9,12,15,18,21,24,27,30" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="62" buffId="352" buffName="抗反击" buffEffect="35" buffParam="4,8,12,16,20,24,28,32,36,40" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="63" buffId="353" buffName="抗反击" buffEffect="35" buffParam="5,10,15,20,25,30,35,40,45,50" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+    <buff id="64" buffId="361" buffName="抗吸血" buffEffect="36" buffParam="3,6,9,12,15,18,21,24,27,30" buffIcon="a_1" buffQuality="1" refreshBuffWeight="1000"/>
+    <buff id="65" buffId="362" buffName="抗吸血" buffEffect="36" buffParam="4,8,12,16,20,24,28,32,36,40" buffIcon="a_1" buffQuality="2" refreshBuffWeight="1000"/>
+    <buff id="66" buffId="363" buffName="抗吸血" buffEffect="36" buffParam="5,10,15,20,25,30,35,40,45,50" buffIcon="a_1" buffQuality="3" refreshBuffWeight="1000"/>
+  </buff>
+  <quality>
+    <quality quality_id="1" dimensional_gain_per_devour="1,1,1" required_material_id="120008" upgrade_material_growth="10" dimensional_gain_per_upgrade="0.1,0.1,0.1" initial_passive_count="1" material_return_on_release="80" currency_required_for_summon="30" initial_dimensional_value="4,4,4" material_count_for_pet_blank_value="600" currency_type_on_reset="4" currency_cost_on_reset="100" syncroDimensionApply="10" syncroBuffApply="10" syncroSoulApply="0" syncroSkillChance="20"/>
+    <quality quality_id="2" dimensional_gain_per_devour="1.5,1.5,1.5" required_material_id="120008" upgrade_material_growth="20" dimensional_gain_per_upgrade="0.15,0.15,0.15" initial_passive_count="2" material_return_on_release="80" currency_required_for_summon="80" initial_dimensional_value="6,6,6" material_count_for_pet_blank_value="1600" currency_type_on_reset="4" currency_cost_on_reset="120" syncroDimensionApply="15" syncroBuffApply="12" syncroSoulApply="0" syncroSkillChance="20"/>
+    <quality quality_id="3" dimensional_gain_per_devour="2,2,2" required_material_id="120008" upgrade_material_growth="50" dimensional_gain_per_upgrade="0.2,0.2,0.2" initial_passive_count="3" material_return_on_release="80" currency_required_for_summon="150" initial_dimensional_value="9,9,9" material_count_for_pet_blank_value="3000" currency_type_on_reset="4" currency_cost_on_reset="150" syncroDimensionApply="20" syncroBuffApply="14" syncroSoulApply="0" syncroSkillChance="20"/>
+    <quality quality_id="4" dimensional_gain_per_devour="2.5,2.5,2.5" required_material_id="120008" upgrade_material_growth="100" dimensional_gain_per_upgrade="0.25,0.25,0.25" initial_passive_count="3" material_return_on_release="80" currency_required_for_summon="300" initial_dimensional_value="12,12,12" material_count_for_pet_blank_value="6000" currency_type_on_reset="4" currency_cost_on_reset="200" syncroDimensionApply="25" syncroBuffApply="16" syncroSoulApply="40" syncroSkillChance="20"/>
+    <quality quality_id="5" dimensional_gain_per_devour="3,3,3" required_material_id="120008" upgrade_material_growth="200" dimensional_gain_per_upgrade="0.3,0.3,0.3" initial_passive_count="4" material_return_on_release="80" currency_required_for_summon="1000" initial_dimensional_value="15,15,15" material_count_for_pet_blank_value="20000" currency_type_on_reset="4" currency_cost_on_reset="300" syncroDimensionApply="30" syncroBuffApply="20" syncroSoulApply="50" syncroSkillChance="25"/>
+  </quality>
+  <encyclopedia>
+    <encyclopedia id="101" acquired_attribute_type="1,3" attribute_type_value_percent="1,1" activation_required_pet_id="11003,12002" pictorial_name="和硕长公主"/>
+    <encyclopedia id="102" acquired_attribute_type="2" attribute_type_value_percent="2" activation_required_pet_id="11004,11005,12003,13006" pictorial_name="芷剑素画"/>
+    <encyclopedia id="103" acquired_attribute_type="10" attribute_type_value_percent="2" activation_required_pet_id="12005" pictorial_name="慧心侠女"/>
+    <encyclopedia id="104" acquired_attribute_type="3,2" attribute_type_value_percent="2,1" activation_required_pet_id="15003,12004,13001" pictorial_name="冰雪灵灭"/>
+    <encyclopedia id="105" acquired_attribute_type="9" attribute_type_value_percent="3" activation_required_pet_id="13003,13005" pictorial_name="绝尘双傲"/>
+    <encyclopedia id="106" acquired_attribute_type="4" attribute_type_value_percent="2" activation_required_pet_id="12001,13002,13004" pictorial_name="侠影丽缘"/>
+    <encyclopedia id="107" acquired_attribute_type="2" attribute_type_value_percent="2" activation_required_pet_id="13008,14006" pictorial_name="花影双绝"/>
+    <encyclopedia id="108" acquired_attribute_type="8" attribute_type_value_percent="3" activation_required_pet_id="11001,14004" pictorial_name="灵音"/>
+    <encyclopedia id="109" acquired_attribute_type="6,1" attribute_type_value_percent="2,3" activation_required_pet_id="14001" pictorial_name="慧剑"/>
+    <encyclopedia id="110" acquired_attribute_type="10,7" attribute_type_value_percent="3,3" activation_required_pet_id="14002,14003" pictorial_name="幻紫幽兰"/>
+    <encyclopedia id="111" acquired_attribute_type="8,7" attribute_type_value_percent="5,3" activation_required_pet_id="13007,14005,14007,15005" pictorial_name="梦回江湖四芳华"/>
+    <encyclopedia id="112" acquired_attribute_type="1,2" attribute_type_value_percent="5,5" activation_required_pet_id="15001,15002,15003,15004" pictorial_name="风华绝代"/>
+  </encyclopedia>
+  <level>
+    <level id="1" pet_id="11001" level="1" skill_id="1100101" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="2" pet_id="11001" level="20" skill_id="1100102" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="3" pet_id="11001" level="40" skill_id="1100103" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="4" pet_id="11001" level="60" skill_id="1100104" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="5" pet_id="11001" level="80" skill_id="1100105" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="6" pet_id="11002" level="1" skill_id="1100201" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="7" pet_id="11002" level="20" skill_id="1100202" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="8" pet_id="11002" level="40" skill_id="1100203" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="9" pet_id="11002" level="60" skill_id="1100204" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="10" pet_id="11002" level="80" skill_id="1100205" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="11" pet_id="11003" level="1" skill_id="1100301" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="12" pet_id="11003" level="20" skill_id="1100302" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="13" pet_id="11003" level="40" skill_id="1100303" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="14" pet_id="11003" level="60" skill_id="1100304" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="15" pet_id="11003" level="80" skill_id="1100305" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="16" pet_id="11004" level="1" skill_id="1100401" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="17" pet_id="11004" level="20" skill_id="1100402" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="18" pet_id="11004" level="40" skill_id="1100403" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="19" pet_id="11004" level="60" skill_id="1100404" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="20" pet_id="11004" level="80" skill_id="1100405" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="21" pet_id="11005" level="1" skill_id="1100501" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="22" pet_id="11005" level="20" skill_id="1100502" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="23" pet_id="11005" level="40" skill_id="1100503" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="24" pet_id="11005" level="60" skill_id="1100504" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="25" pet_id="11005" level="80" skill_id="1100505" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="26" pet_id="12001" level="1" skill_id="1200101" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="27" pet_id="12001" level="20" skill_id="1200102" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="28" pet_id="12001" level="40" skill_id="1200103" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="29" pet_id="12001" level="60" skill_id="1200104" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="30" pet_id="12001" level="80" skill_id="1200105" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="31" pet_id="12002" level="1" skill_id="1200201" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="32" pet_id="12002" level="20" skill_id="1200202" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="33" pet_id="12002" level="40" skill_id="1200203" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="34" pet_id="12002" level="60" skill_id="1200204" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="35" pet_id="12002" level="80" skill_id="1200205" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="36" pet_id="12003" level="1" skill_id="1200301" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="1"/>
+    <level id="37" pet_id="12003" level="20" skill_id="1200302" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="1"/>
+    <level id="38" pet_id="12003" level="40" skill_id="1200303" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="1"/>
+    <level id="39" pet_id="12003" level="60" skill_id="1200304" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="1"/>
+    <level id="40" pet_id="12003" level="80" skill_id="1200305" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="1"/>
+    <level id="41" pet_id="12004" level="1" skill_id="1200401" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="42" pet_id="12004" level="20" skill_id="1200402" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="43" pet_id="12004" level="40" skill_id="1200403" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="44" pet_id="12004" level="60" skill_id="1200404" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="45" pet_id="12004" level="80" skill_id="1200405" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="46" pet_id="12005" level="1" skill_id="1200501" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="47" pet_id="12005" level="20" skill_id="1200502" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="48" pet_id="12005" level="40" skill_id="1200503" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="49" pet_id="12005" level="60" skill_id="1200504" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="50" pet_id="12005" level="80" skill_id="1200505" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="4"/>
+    <level id="51" pet_id="13001" level="1" skill_id="1300101" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="52" pet_id="13001" level="20" skill_id="1300102" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="53" pet_id="13001" level="40" skill_id="1300103" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="54" pet_id="13001" level="60" skill_id="1300104" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="55" pet_id="13001" level="80" skill_id="1300105" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="56" pet_id="13002" level="1" skill_id="1300201" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="57" pet_id="13002" level="20" skill_id="1300202" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="58" pet_id="13002" level="40" skill_id="1300203" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="59" pet_id="13002" level="60" skill_id="1300204" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="60" pet_id="13002" level="80" skill_id="1300205" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="61" pet_id="13003" level="1" skill_id="1300301" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="62" pet_id="13003" level="20" skill_id="1300302" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="63" pet_id="13003" level="40" skill_id="1300303" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="64" pet_id="13003" level="60" skill_id="1300304" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="65" pet_id="13003" level="80" skill_id="1300305" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="66" pet_id="13004" level="1" skill_id="1300401" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="67" pet_id="13004" level="20" skill_id="1300402" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="68" pet_id="13004" level="40" skill_id="1300403" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="69" pet_id="13004" level="60" skill_id="1300404" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="70" pet_id="13004" level="80" skill_id="1300405" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="71" pet_id="13005" level="1" skill_id="1300501" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="72" pet_id="13005" level="20" skill_id="1300502" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="73" pet_id="13005" level="40" skill_id="1300503" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="74" pet_id="13005" level="60" skill_id="1300504" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="75" pet_id="13005" level="80" skill_id="1300505" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="76" pet_id="13006" level="1" skill_id="1300601" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="77" pet_id="13006" level="20" skill_id="1300602" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="78" pet_id="13006" level="40" skill_id="1300603" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="79" pet_id="13006" level="60" skill_id="1300604" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="80" pet_id="13006" level="80" skill_id="1300605" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="81" pet_id="13007" level="1" skill_id="1300701" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="82" pet_id="13007" level="20" skill_id="1300702" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="83" pet_id="13007" level="40" skill_id="1300703" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="84" pet_id="13007" level="60" skill_id="1300704" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="85" pet_id="13007" level="80" skill_id="1300705" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="86" pet_id="13008" level="1" skill_id="1300801" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="87" pet_id="13008" level="20" skill_id="1300802" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="88" pet_id="13008" level="40" skill_id="1300803" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="89" pet_id="13008" level="60" skill_id="1300804" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="90" pet_id="13008" level="80" skill_id="1300805" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="91" pet_id="14001" level="1" skill_id="1400101" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="5"/>
+    <level id="92" pet_id="14001" level="20" skill_id="1400102" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="5"/>
+    <level id="93" pet_id="14001" level="40" skill_id="1400103" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="5"/>
+    <level id="94" pet_id="14001" level="60" skill_id="1400104" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="5"/>
+    <level id="95" pet_id="14001" level="80" skill_id="1400105" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="5"/>
+    <level id="96" pet_id="14002" level="1" skill_id="1400201" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="97" pet_id="14002" level="20" skill_id="1400202" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="98" pet_id="14002" level="40" skill_id="1400203" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="99" pet_id="14002" level="60" skill_id="1400204" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="100" pet_id="14002" level="80" skill_id="1400205" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="101" pet_id="14003" level="1" skill_id="1400301" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="102" pet_id="14003" level="20" skill_id="1400302" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="103" pet_id="14003" level="40" skill_id="1400303" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="104" pet_id="14003" level="60" skill_id="1400304" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="105" pet_id="14003" level="80" skill_id="1400305" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="106" pet_id="14004" level="1" skill_id="1400401" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="107" pet_id="14004" level="20" skill_id="1400402" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="108" pet_id="14004" level="40" skill_id="1400403" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="109" pet_id="14004" level="60" skill_id="1400404" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="110" pet_id="14004" level="80" skill_id="1400405" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="111" pet_id="14005" level="1" skill_id="1400501" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="112" pet_id="14005" level="20" skill_id="1400502" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="113" pet_id="14005" level="40" skill_id="1400503" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="114" pet_id="14005" level="60" skill_id="1400504" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="115" pet_id="14005" level="80" skill_id="1400505" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="3"/>
+    <level id="116" pet_id="14006" level="1" skill_id="1400601" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="117" pet_id="14006" level="20" skill_id="1400602" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="118" pet_id="14006" level="40" skill_id="1400603" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="119" pet_id="14006" level="60" skill_id="1400604" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="120" pet_id="14006" level="80" skill_id="1400605" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="121" pet_id="14007" level="1" skill_id="1400701" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="122" pet_id="14007" level="20" skill_id="1400702" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="123" pet_id="14007" level="40" skill_id="1400703" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="124" pet_id="14007" level="60" skill_id="1400704" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="125" pet_id="14007" level="80" skill_id="1400705" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="126" pet_id="15001" level="1" skill_id="1500101" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="1"/>
+    <level id="127" pet_id="15001" level="20" skill_id="1500102" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="1"/>
+    <level id="128" pet_id="15001" level="40" skill_id="1500103" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="1"/>
+    <level id="129" pet_id="15001" level="60" skill_id="1500104" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="1"/>
+    <level id="130" pet_id="15001" level="80" skill_id="1500105" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="1"/>
+    <level id="131" pet_id="15002" level="1" skill_id="1500201" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="132" pet_id="15002" level="20" skill_id="1500202" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="133" pet_id="15002" level="40" skill_id="1500203" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="134" pet_id="15002" level="60" skill_id="1500204" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="135" pet_id="15002" level="80" skill_id="1500205" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="136" pet_id="15003" level="1" skill_id="1500301" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="137" pet_id="15003" level="20" skill_id="1500302" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="138" pet_id="15003" level="40" skill_id="1500303" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="139" pet_id="15003" level="60" skill_id="1500304" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="140" pet_id="15003" level="80" skill_id="1500305" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="141" pet_id="15004" level="1" skill_id="1500401" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="142" pet_id="15004" level="20" skill_id="1500402" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="143" pet_id="15004" level="40" skill_id="1500403" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="144" pet_id="15004" level="60" skill_id="1500404" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="145" pet_id="15004" level="80" skill_id="1500405" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="146" pet_id="15005" level="1" skill_id="1500501" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="147" pet_id="15005" level="20" skill_id="1500502" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="148" pet_id="15005" level="40" skill_id="1500503" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="149" pet_id="15005" level="60" skill_id="1500504" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="150" pet_id="15005" level="80" skill_id="1500505" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="151" pet_id="15006" level="1" skill_id="1500601" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="152" pet_id="15006" level="20" skill_id="1500602" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="153" pet_id="15006" level="40" skill_id="1500603" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="154" pet_id="15006" level="60" skill_id="1500604" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+    <level id="155" pet_id="15006" level="80" skill_id="1500605" soulSculptingSkill1="0" soulSculptingSkill2="0" soulSculptingSkill3="0" soulSculptingSkill4="0" required_turns_for_action="2"/>
+  </level>
+  <pool>
+    <pool quality="1" weights="49.98" qualityname="常见"/>
+    <pool quality="2" weights="28.01" qualityname="稀有"/>
+    <pool quality="3" weights="16" qualityname="卓越"/>
+    <pool quality="4" weights="5.81" qualityname="传说"/>
+    <pool quality="5" weights="0.2" qualityname="神话"/>
+  </pool>
+  <backpack>
+    <backpack backpack_expansion="1" currency_cost_item="100002" currency_cost_number="100"/>
+    <backpack backpack_expansion="10" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="11" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="12" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="13" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="14" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="15" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="16" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="17" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="18" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="19" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="2" currency_cost_item="100002" currency_cost_number="200"/>
+    <backpack backpack_expansion="20" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="21" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="22" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="23" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="24" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="25" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="26" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="27" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="28" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="29" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="3" currency_cost_item="100002" currency_cost_number="300"/>
+    <backpack backpack_expansion="30" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="31" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="32" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="33" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="34" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="35" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="36" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="37" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="38" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="39" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="4" currency_cost_item="100002" currency_cost_number="400"/>
+    <backpack backpack_expansion="40" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="41" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="42" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="5" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="6" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="7" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="8" currency_cost_item="100002" currency_cost_number="500"/>
+    <backpack backpack_expansion="9" currency_cost_item="100002" currency_cost_number="500"/>
+  </backpack>
+  <buffWeight>
+    <buffWeight buffId="11" weight="151"/>
+    <buffWeight buffId="111" weight="152"/>
+    <buffWeight buffId="112" weight="152"/>
+    <buffWeight buffId="113" weight="152"/>
+    <buffWeight buffId="12" weight="151"/>
+    <buffWeight buffId="121" weight="151"/>
+    <buffWeight buffId="122" weight="151"/>
+    <buffWeight buffId="123" weight="152"/>
+    <buffWeight buffId="13" weight="151"/>
+    <buffWeight buffId="131" weight="152"/>
+    <buffWeight buffId="132" weight="152"/>
+    <buffWeight buffId="133" weight="152"/>
+    <buffWeight buffId="141" weight="152"/>
+    <buffWeight buffId="142" weight="152"/>
+    <buffWeight buffId="143" weight="152"/>
+    <buffWeight buffId="151" weight="152"/>
+    <buffWeight buffId="152" weight="152"/>
+    <buffWeight buffId="153" weight="152"/>
+    <buffWeight buffId="161" weight="152"/>
+    <buffWeight buffId="162" weight="152"/>
+    <buffWeight buffId="163" weight="152"/>
+    <buffWeight buffId="21" weight="151"/>
+    <buffWeight buffId="22" weight="151"/>
+    <buffWeight buffId="23" weight="151"/>
+    <buffWeight buffId="31" weight="151"/>
+    <buffWeight buffId="311" weight="152"/>
+    <buffWeight buffId="312" weight="152"/>
+    <buffWeight buffId="313" weight="152"/>
+    <buffWeight buffId="32" weight="151"/>
+    <buffWeight buffId="321" weight="152"/>
+    <buffWeight buffId="322" weight="152"/>
+    <buffWeight buffId="323" weight="152"/>
+    <buffWeight buffId="33" weight="151"/>
+    <buffWeight buffId="331" weight="152"/>
+    <buffWeight buffId="332" weight="152"/>
+    <buffWeight buffId="333" weight="152"/>
+    <buffWeight buffId="341" weight="152"/>
+    <buffWeight buffId="342" weight="152"/>
+    <buffWeight buffId="343" weight="152"/>
+    <buffWeight buffId="351" weight="152"/>
+    <buffWeight buffId="352" weight="152"/>
+    <buffWeight buffId="353" weight="152"/>
+    <buffWeight buffId="361" weight="152"/>
+    <buffWeight buffId="362" weight="152"/>
+    <buffWeight buffId="363" weight="152"/>
+    <buffWeight buffId="41" weight="151"/>
+    <buffWeight buffId="42" weight="151"/>
+    <buffWeight buffId="421" weight="151"/>
+    <buffWeight buffId="422" weight="151"/>
+    <buffWeight buffId="423" weight="151"/>
+    <buffWeight buffId="43" weight="151"/>
+    <buffWeight buffId="431" weight="151"/>
+    <buffWeight buffId="432" weight="151"/>
+    <buffWeight buffId="433" weight="151"/>
+    <buffWeight buffId="441" weight="151"/>
+    <buffWeight buffId="442" weight="151"/>
+    <buffWeight buffId="443" weight="151"/>
+    <buffWeight buffId="461" weight="151"/>
+    <buffWeight buffId="462" weight="151"/>
+    <buffWeight buffId="463" weight="151"/>
+    <buffWeight buffId="471" weight="151"/>
+    <buffWeight buffId="472" weight="151"/>
+    <buffWeight buffId="473" weight="151"/>
+    <buffWeight buffId="481" weight="151"/>
+    <buffWeight buffId="482" weight="151"/>
+    <buffWeight buffId="483" weight="151"/>
+  </buffWeight>
+  <soulSculpting>
+    <soulSculpting id="1" qualityId="1" soulSculptingTier="1" requiredMaterialId="120010" requiredMaterialQuantity="1" attributeObtained="0" attrCorrespondingParameter="1" triggerStageEffect="0" triggerCorrespondingParameter="0"/>
+    <soulSculpting id="2" qualityId="1" soulSculptingTier="2" requiredMaterialId="120010" requiredMaterialQuantity="1" attributeObtained="0" attrCorrespondingParameter="2" triggerStageEffect="0" triggerCorrespondingParameter="0"/>
+    <soulSculpting id="3" qualityId="1" soulSculptingTier="3" requiredMaterialId="120010" requiredMaterialQuantity="1" attributeObtained="0" attrCorrespondingParameter="0" triggerStageEffect="0" triggerCorrespondingParameter="0"/>
+    <soulSculpting id="4" qualityId="1" soulSculptingTier="4" requiredMaterialId="120010" requiredMaterialQuantity="11" attributeObtained="0" attrCorrespondingParameter="0" triggerStageEffect="0" triggerCorrespondingParameter="0"/>
+  </soulSculpting>
+  <refreshBuffGroup>
+    <refreshBuffGroup id="1" groupID="101" lockCnt="0" costID="1,160001,5"/>
+    <refreshBuffGroup id="2" groupID="101" lockCnt="1" costID="1,160001,10;1,161003,15"/>
+    <refreshBuffGroup id="3" groupID="101" lockCnt="2" costID="1,160001,20;1,161003,25"/>
+    <refreshBuffGroup id="4" groupID="101" lockCnt="3" costID="1,161003,35;1,160001,30"/>
+    <refreshBuffGroup id="5" groupID="101" lockCnt="4" costID="1,160001,40;1,161003,45"/>
+  </refreshBuffGroup>
+  <specialGuarantees>
+    <item id="1" consumption="100" bonuses="410001" box="131004"/>
+    <item id="2" consumption="200" bonuses="410002" box="0"/>
+    <item id="3" consumption="300" bonuses="410003" box="0"/>
+    <item id="4" consumption="400" bonuses="410004" box="131004"/>
+    <item id="5" consumption="500" bonuses="410005" box="0"/>
+    <item id="6" consumption="600" bonuses="410006" box="0"/>
+    <item id="7" consumption="700" bonuses="410007" box="0"/>
+    <item id="8" consumption="800" bonuses="410008" box="131004"/>
+    <item id="9" consumption="900" bonuses="410009" box="0"/>
+    <item id="10" consumption="1000" bonuses="410010" box="0"/>
+    <item id="11" consumption="1100" bonuses="410011" box="0"/>
+    <item id="12" consumption="1200" bonuses="410012" box="131004"/>
+    <item id="13" consumption="1300" bonuses="410013" box="0"/>
+    <item id="14" consumption="1400" bonuses="410014" box="0"/>
+    <item id="15" consumption="1500" bonuses="410015" box="0"/>
+    <item id="16" consumption="1600" bonuses="410016" box="131004"/>
+    <item id="17" consumption="1700" bonuses="410017" box="0"/>
+    <item id="18" consumption="1800" bonuses="410018" box="0"/>
+    <item id="19" consumption="1900" bonuses="410019" box="0"/>
+    <item id="20" consumption="2000" bonuses="410020" box="131004"/>
+  </specialGuarantees>
+</root>

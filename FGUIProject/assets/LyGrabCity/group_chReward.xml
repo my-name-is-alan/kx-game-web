@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="557,338">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n83_maep" name="loader_line" xy="12,17" size="532,10" url="ui://shg18arid2gn3q"/>
+    <component id="n72_113zk" name="img_title" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="128,20" scale="1.5,1.5">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <list id="n63_ljrs" name="list_award" xy="-13,127" pivot="0.5,0.5" size="583,213" scale="0.9,0.9" layout="flow_hz" overflow="scroll" scroll="horizontal" lineGap="12" colGap="20" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle">
+      <gearXY controller="c1" pages="0,1" values="-13,127|-13,46"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n84_maep" name="label_job" xy="252,3" size="52,34" font="ui://27utqbizps391v" fontSize="24" color="#71abd2" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="帮主">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+  <relation target="n63_ljrs" sidePair="bottomext-bottom"/>
+</component>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="yt4pdbec">
+  <resources>
+    <component id="ut5y0" name="LyPayDailyWelfare.xml" path="/" exported="true"/>
+    <component id="ut5y1" name="group_paydailywelfare.xml" path="/"/>
+    <component id="ehs52" name="LyPayGiftGroup.xml" path="/" exported="true"/>
+    <component id="ehs53" name="group_paygiftgroup.xml" path="/"/>
+    <image id="ehs55" name="btn_qiehuananniu2.png" path="/giftgroup/"/>
+    <image id="ehs57" name="btn_zhigoulibao2.png" path="/giftgroup/"/>
+    <image id="ehs58" name="btn_zhigoulibao3.png" path="/giftgroup/"/>
+    <image id="ehs5b" name="frame_zhigoulibaodiban.png" path="/giftgroup/"/>
+    <component id="ehs5c" name="btn_switch.xml" path="/giftgroup/"/>
+    <component id="ehs5e" name="btn_arrowsmall.xml" path="/giftgroup/"/>
+    <component id="xht3g" name="btn_point.xml" path="/giftgroup/" exported="true"/>
+    <image id="pheih" name="btn_close.png" path="/dailywelfare/"/>
+    <image id="pheii" name="frame_catchline.png" path="/dailywelfare/"/>
+    <image id="pheij" name="frame_meirifuli.png" path="/dailywelfare/"/>
+    <image id="pheik" name="word_meirifuli.png" path="/dailywelfare/"/>
+    <component id="pheil" name="btn_close.xml" path="/dailywelfare/"/>
+    <image id="xf59m" name="btn_receive.png" path="/dailywelfare/"/>
+    <component id="xf59n" name="btn_receive.xml" path="/dailywelfare/"/>
+    <image id="gxp4y" name="btn_qiehuanyuandian1.png" path="/giftgroup/"/>
+    <image id="gxp410" name="frame_title.png" path="/giftgroup/"/>
+    <image id="gxp411" name="btn_qiehuanyuandian2.png" path="/giftgroup/"/>
+    <image id="gxp412" name="pic_mijicangzhen.png" path="/giftgroup/"/>
+    <component id="m78913" name="LyBrumeIsleShop.xml" path="/" exported="true"/>
+    <component id="m78914" name="main_LyBrumeIsleShop.xml" path="/"/>
+    <image id="m78915" name="frame_libaozhaomin.png" path="/giftgroup/"/>
+    <image id="m78916" name="word_wuyinshenmilibao.png" path="/giftgroup/"/>
+    <image id="m78917" name="雾隐神秘礼包.png" path="/giftgroup/"/>
+    <image id="m78918" name="word_1100%.png" path="/giftgroup/"/>
+    <image id="m78919" name="word_gaoefanli.png" path="/giftgroup/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

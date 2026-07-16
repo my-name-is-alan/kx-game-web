@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n35_d3qo" name="btn_closeMask" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n55_y9su" name="main" src="s74228" fileName="group_infoMain.xml" xy="8,192">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n56_i11v" name="group_skillInfoitem" src="psu8j" fileName="group_skillInfoitem.xml" xy="0,0" visible="false">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

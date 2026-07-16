@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,136">
+  <displayList>
+    <image id="n117_87eo" name="n117" src="87eo1y" fileName="res/frame_suoxiangpimi.png" xy="388,0"/>
+    <image id="n118_87eo" name="n118" src="87eo1x" fileName="res/frame_shirupozhu.png" xy="248,0" size="140,136"/>
+    <image id="n119_87eo" name="n119" src="87eo1w" fileName="res/frame_jichufuli.png" xy="0,0"/>
+    <image id="n93_ljrs" name="img_gray1" src="ef0l2r" fileName="ui/frame_shujindutiao.png" pkg="27utqbiz" xy="59,10" size="20,86" group="n95_ljrs"/>
+    <image id="n114_87eo" name="img_gray2" src="ef0l2r" fileName="ui/frame_shujindutiao.png" pkg="27utqbiz" xy="59,90" size="20,86" group="n95_ljrs"/>
+    <image id="n94_ljrs" name="bg2" src="ef0l2n" fileName="ui/frame_jianglijindukuai2.png" pkg="27utqbiz" xy="36,32" group="n95_ljrs"/>
+    <group id="n95_ljrs" name="group_gray" xy="36,10" size="66,166" advanced="true"/>
+    <image id="n113_n7df" name="img_yellow1" src="ef0l2s" fileName="ui/frame_shujindutiao2.png" pkg="27utqbiz" xy="59,10" size="20,86" group="n98_ljrs"/>
+    <image id="n96_ljrs" name="img_yellow2" src="ef0l2s" fileName="ui/frame_shujindutiao2.png" pkg="27utqbiz" xy="59,90" size="20,86" group="n98_ljrs"/>
+    <image id="n97_ljrs" name="bg1" src="ef0l2m" fileName="ui/frame_jianglijindukuai.png" pkg="27utqbiz" xy="36,32" group="n98_ljrs"/>
+    <group id="n98_ljrs" name="group_yellow" xy="36,10" size="66,166" visible="false" advanced="true"/>
+    <text id="n99_ljrs" name="label_target" xy="46,50" size="48,34" font="ui://27utqbizps391v" fontSize="22" color="#ffefc9" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" strokeSize="3" text="455"/>
+    <component id="n109_n7df" name="group_lowItem" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="177,66" pivot="0.5,0.5" anchor="true"/>
+    <component id="n110_n7df" name="group_midItem" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="317,67" pivot="0.5,0.5" anchor="true"/>
+    <component id="n111_n7df" name="group_highItem" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="461,66" pivot="0.5,0.5" anchor="true"/>
+    <component id="n112_n7df" name="group_highItem2" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="577,66" pivot="0.5,0.5" anchor="true"/>
+    <graph id="n123_w4ww" name="group_midLock" xy="248,11" size="140,115" type="rect" lineColor="#00000000" fillColor="#00000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n126_w4ww" name="group_highLock" xy="389,10" size="271,116" type="rect" lineColor="#00000000" fillColor="#00000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n127_rem9" name="group_lowGet" xy="106,11" size="140,115" type="rect" lineColor="#00000000" fillColor="#00000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n130_rem9" name="group_midGet" xy="249,12" size="140,115" type="rect" lineColor="#00000000" fillColor="#00000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n129_rem9" name="group_highGet" xy="387,10" size="271,116" type="rect" lineColor="#00000000" fillColor="#00000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+  <transition name="ani_lowItem" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n109_n7df" value="0"/>
+    <item time="0" type="Rotation" target="n109_n7df" tween="true" startValue="0" endValue="-30" duration="4"/>
+    <item time="4" type="Rotation" target="n109_n7df" tween="true" startValue="-30" endValue="15" duration="4"/>
+    <item time="8" type="Rotation" target="n109_n7df" tween="true" startValue="15" endValue="-5" duration="4"/>
+    <item time="12" type="Rotation" target="n109_n7df" tween="true" startValue="-5" endValue="0" duration="6"/>
+  </transition>
+  <transition name="ani_midItem" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n110_n7df" value="0"/>
+    <item time="0" type="Rotation" target="n110_n7df" tween="true" startValue="0" endValue="-30" duration="4"/>
+    <item time="4" type="Rotation" target="n110_n7df" tween="true" startValue="-30" endValue="15" duration="4"/>
+    <item time="8" type="Rotation" target="n110_n7df" tween="true" startValue="15" endValue="-5" duration="4"/>
+    <item time="12" type="Rotation" target="n110_n7df" tween="true" startValue="-5" endValue="0" duration="6"/>
+  </transition>
+  <transition name="ani_highItem" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n111_n7df" value="0"/>
+    <item time="0" type="Rotation" target="n111_n7df" value="0"/>
+    <item time="0" type="Rotation" target="n111_n7df" tween="true" startValue="0" endValue="-30" duration="4"/>
+    <item time="0" type="Rotation" target="n112_n7df" value="0"/>
+    <item time="0" type="Rotation" target="n112_n7df" value="0"/>
+    <item time="0" type="Rotation" target="n112_n7df" tween="true" startValue="0" endValue="-30" duration="4"/>
+    <item time="4" type="Rotation" target="n111_n7df" tween="true" startValue="-30" endValue="15" duration="4"/>
+    <item time="4" type="Rotation" target="n112_n7df" tween="true" startValue="-30" endValue="15" duration="4"/>
+    <item time="8" type="Rotation" target="n111_n7df" tween="true" startValue="15" endValue="-5" duration="4"/>
+    <item time="8" type="Rotation" target="n112_n7df" tween="true" startValue="15" endValue="-5" duration="4"/>
+    <item time="12" type="Rotation" target="n111_n7df" tween="true" startValue="-5" endValue="0" duration="6"/>
+    <item time="12" type="Rotation" target="n112_n7df" tween="true" startValue="-5" endValue="0" duration="6"/>
+  </transition>
+</component>

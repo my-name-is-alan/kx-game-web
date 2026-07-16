@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,155">
+  <displayList>
+    <image id="n77_q0m4" name="label_number" src="a0tr1e" fileName="ui/frame_huodongdiban.png" pkg="27utqbiz" xy="0,0" size="668,155"/>
+    <text id="n80_q0m4" name="label_des" xy="29,16" size="375,32" font="ui://27utqbizps391v" fontSize="22" vAlign="middle" letterSpacing="-2" autoSize="none" text="冒险挑战1次"/>
+    <text id="n82_q0m4" name="label_count" xy="509,41" size="97,34" font="ui://27utqbizps391v" fontSize="24" color="#c95252" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="0/1"/>
+    <list id="n83_q0m4" name="list_item" xy="30,52" size="526,108" scale="0.82,0.82" layout="flow_hz" colGap="17" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <image id="n84_bh0j" name="n84" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="478,73" group="n86_bh0j"/>
+    <text id="n85_bh0j" name="n85" xy="511,80" size="108,42" group="n86_bh0j" font="ui://27utqbizps391v" fontSize="30" color="#f3ffec" vAlign="middle" autoSize="none" text="已领取"/>
+    <group id="n86_bh0j" name="get" xy="478,73" size="158,58" advanced="true"/>
+    <component id="n87_bh0j" name="btn_get" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="461,77" size="188,52"/>
+    <component id="n81_q0m4" name="btn_com" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="461,77" size="188,52"/>
+  </displayList>
+</component>

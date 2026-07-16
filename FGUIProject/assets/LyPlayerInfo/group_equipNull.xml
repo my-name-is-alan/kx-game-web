@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <image id="n1_t0if" name="n1" src="rnu5j" fileName="res/main2/frame_null equip.png" xy="0,0" size="100,100"/>
+    <text id="n2_t0if" name="label_name" xy="22,32" size="56,36" font="ui://27utqbizps391v" fontSize="26" color="#6092a0" vAlign="middle" text="武器"/>
+  </displayList>
+</component>

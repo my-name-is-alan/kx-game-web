@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="693,926">
+  <displayList>
+    <image id="n86_hhz9" name="n86" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,29" size="654,897"/>
+    <component id="n91_hhz9" name="group_item" src="k70ee2" fileName="group_theurgy.xml" xy="22,115"/>
+    <loader id="n95_hhz9" name="loader_bg" xy="244,115" size="392,350" url="ui://yhkdb7e3hhz9e4"/>
+    <image id="n103_hhz9" name="n103" src="hhz9e8" fileName="res/frame_chuzhandihuang.png" xy="47,417"/>
+    <image id="n100_hhz9" name="n100" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="22,492" size="285,373"/>
+    <image id="n101_hhz9" name="n101" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="338,492" size="285,373"/>
+    <image id="n105_hhz9" name="n105" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="11,519"/>
+    <image id="n106_hhz9" name="n106" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="328,518"/>
+    <text id="n107_hhz9" name="label_stage" xy="483,138" size="86,36" font="ui://27utqbizps391v" fontSize="26" vAlign="middle" autoSize="none" text="1级"/>
+    <text id="n59_p5o4" name="label_upDes" xy="44,413" size="152,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#81662e" strokeSize="2" text="出战中">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n60_p5o4" name="label_name" xy="277,126" size="216,54" font="ui://27utqbizps391v" fontSize="40" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" text="护体金光决">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n61_p5o4" name="label_des1" xy="277,208" size="360,34" fontSize="24" color="#16191a" vAlign="middle" autoSize="shrink" text="1级">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n63_p5o4" name="label_skillDes" src="k3c2pl" fileName="label_skillDes_Com.xml" xy="278,258"/>
+    <component id="n109_hhz9" name="btn_tupo" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="346,410" size="188,52" group="n121_sjma"/>
+    <component id="n64_p5o4" name="group_needThe" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="392,369" group="n121_sjma">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <group id="n121_sjma" name="n121" xy="346,369" size="188,93" advanced="true"/>
+    <richtext id="n66_p5o4" name="n66" xy="87,504" size="151,39" font="ui://27utqbizps391v" fontSize="28" align="center" vAlign="middle" autoSize="none" text="印记">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n69_p5o4" name="n69" xy="404,504" size="151,39" font="ui://27utqbizps391v" fontSize="28" align="center" vAlign="middle" autoSize="none" text="上阵效果">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n70_p5o4" name="label_gj" xy="364,587" size="212,32" fontSize="22" color="#4d6d6a" align="center" vAlign="middle" autoSize="none" text="攻击+621">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n71_p5o4" name="label_sm" xy="364,618" size="212,32" fontSize="22" color="#4d6d6a" align="center" vAlign="middle" autoSize="none" text="生命">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <richtext id="n72_p5o4" name="label_fy" xy="364,649" size="212,32" fontSize="22" color="#4d6d6a" align="center" vAlign="middle" autoSize="none" text="防御">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n83_l87x" name="loader_yj1" src="l87x4i" fileName="group_seal.xml" xy="99,569">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n84_l87x" name="loader_yj2" src="l87x4i" fileName="group_seal.xml" xy="99,709">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n73_p5o4" name="needItem1" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="419,696" group="n115_8u8i">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n74_p5o4" name="needItem2" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="419,731" group="n115_8u8i">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n110_hhz9" name="btn_sj" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="385,767" size="188,52" group="n115_8u8i"/>
+    <component id="n78_p5o4" name="btn_isTen" src="p5o43r" fileName="btn_gou2.xml" xy="435,815" size="149,41" group="n115_8u8i">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n115_8u8i" name="n115" xy="385,696" size="199,160" advanced="true"/>
+    <component id="n87_hhz9" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="615,0"/>
+    <image id="n88_hhz9" name="n88" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="139,64" size="376,38"/>
+    <text id="n89_hhz9" name="label_title" xy="282,60" size="94,43" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="详情"/>
+    <component id="n96_hhz9" name="btn_chuzhan" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="28,412" size="188,52"/>
+    <component id="n98_hhz9" name="btn_chongzhi" src="hhz9e6" fileName="btn_chongzhi.xml" xy="585,137"/>
+    <component id="n111_sex8" name="btn_add1" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="13,-11"/>
+    <component id="n112_sex8" name="btn_add2" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="194,-11"/>
+    <image id="n113_8u8i" name="n113" src="iuxmet" fileName="ui/frame_chuzhandihei.png" pkg="27utqbiz" xy="368,774" size="251,39" group="n117_8u8i"/>
+    <text id="n116_8u8i" name="n116" xy="370,772" size="214,42" group="n117_8u8i" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" strokeColor="#212424" text="已达到最高等级"/>
+    <group id="n117_8u8i" name="group_max" xy="368,772" size="251,42" visible="false" advanced="true"/>
+    <image id="n118_sjma" name="n118" src="iuxmet" fileName="ui/frame_chuzhandihei.png" pkg="27utqbiz" xy="396,402" size="149,39" group="n120_sjma"/>
+    <text id="n119_sjma" name="n119" xy="398,400" size="94,42" group="n120_sjma" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" strokeColor="#212424" text="已满阶"/>
+    <group id="n120_sjma" name="group_maxPhase" xy="396,400" size="149,42" visible="false" advanced="true"/>
+  </displayList>
+</component>

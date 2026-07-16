@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <graph id="n7_fd9y" name="n7" xy="0,0" size="100,100" type="rect"/>
+    <text id="n8_fd9y" name="label_name" xy="2,25" size="96,49" fontSize="36" align="center" autoSize="none" text="猪"/>
+  </displayList>
+</component>

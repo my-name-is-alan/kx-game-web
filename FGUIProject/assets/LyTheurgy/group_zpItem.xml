@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="126,114">
+  <displayList>
+    <image id="n16_rgsw" name="n16" src="rgswqm" fileName="2.0/frame_suijimiji.png" xy="7,0"/>
+    <component id="n18_rgsw" name="Group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="13,7"/>
+  </displayList>
+</component>

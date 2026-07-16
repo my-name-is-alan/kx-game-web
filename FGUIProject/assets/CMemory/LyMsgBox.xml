@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <graph id="n2_k1vl" name="n2" xy="0,0" size="750,1334" type="rect" lineColor="#b2000000" fillColor="#b2000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n3_i842" name="group_main" src="i842m8" fileName="group_msgbox2.xml" xy="0,437">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

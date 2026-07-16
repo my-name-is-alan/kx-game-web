@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="664,107">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n27_jhmn" name="n27" src="jhmndu19g" fileName="res/dec_separation-line.png" xy="0,2"/>
+    <loader id="n21_lr1w" name="loader_back" xy="-6,0" size="664,116" url="ui://xcpqvzp3jhmndu1a1" align="center" vAlign="middle" autoSize="true"/>
+    <loader id="n11_uzk8" name="loader_rank" xy="55,57" pivot="0.5,0.5" anchor="true" size="80,80" url="ui://6fyplu3llr1wp" align="center" vAlign="middle" clearOnPublish="true"/>
+    <text id="n10_f2ag" name="label_rank" xy="5,37" size="100,39" font="ui://27utqbizps391v" fontSize="28" color="#fefffe" align="center" vAlign="middle" autoSize="shrink" strokeColor="#7b2f2f" autoClearText="true" text="4"/>
+    <component id="n12_uzk8" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="113,20" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <text id="n0_ib4p" name="label_name" xy="204,30" size="200,34" fontSize="24" color="#864c01" vAlign="middle" autoSize="none" autoClearText="true" text="玩家">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n17_lr1w" name="label_score" xy="192,59" size="200,34" fontSize="24" color="#a3620d" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="123456">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <list id="n18_lr1w" name="list_item" xy="389,24" size="340,100" scale="0.7,0.7" layout="flow_hz" overflow="scroll" scroll="horizontal" scrollBarFlags="128" colGap="7" defaultItem="ui://27utqbizewyha" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n24_kluz" name="label_top" xy="199,114" size="299,32" visible="false" fontSize="22" color="#a3620d" vAlign="middle" autoClearText="true" text="上榜前3需要消费金竹&gt;=2000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n32_jhmn" name="loader_pos" xy="154,25" size="204,70" url="ui://xcpqvzp3jhmndu18y" autoSize="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </loader>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n7_ibj8" name="btn_back" src="v3t50" fileName="btn_back.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n0_u71x" name="group_main" src="ibj8f3" fileName="LyGM/group_maingm.xml" xy="0,217">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

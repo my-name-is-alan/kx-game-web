@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="192,262">
+  <displayList>
+    <image id="n8_hl71" name="n8" src="hl71q" fileName="res/frame_store.png" xy="0,0"/>
+    <text id="n2_fdj4" name="label_name" xy="6,17" size="181,36" fontSize="26" color="#fffafa" align="center" vAlign="middle" autoSize="shrink" strokeColor="#48739c" strokeSize="3" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n0_fdj4" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="51,61" scale="0.88,0.88"/>
+    <text id="n3_fdj4" name="label_limit" xy="-3,149" size="198,29" fontSize="20" color="#d12929" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n12_fezh" name="btn_buy" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="-11,185" scale="0.8,0.8">
+      <Button titleFontSize="28"/>
+    </component>
+  </displayList>
+</component>

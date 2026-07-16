@@ -1,0 +1,69 @@
+
+diaoyu_rushui.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dy_lg_sg1_00
+  rotate: false
+  xy: 2, 310
+  size: 198, 198
+  orig: 214, 216
+  offset: 8, 9
+  index: -1
+images/dy_rushui/dy_rushui_00
+  rotate: true
+  xy: 312, 67
+  size: 92, 90
+  orig: 304, 251
+  offset: 97, 81
+  index: -1
+images/dy_rushui/dy_rushui_02
+  rotate: false
+  xy: 2, 17
+  size: 157, 123
+  orig: 304, 251
+  offset: 63, 69
+  index: -1
+images/dy_rushui/dy_rushui_04
+  rotate: true
+  xy: 2, 142
+  size: 166, 128
+  orig: 304, 251
+  offset: 63, 65
+  index: -1
+images/dy_rushui/dy_rushui_06
+  rotate: false
+  xy: 161, 24
+  size: 149, 121
+  orig: 304, 251
+  offset: 69, 68
+  index: -1
+images/dy_rushui/dy_rushui_08
+  rotate: true
+  xy: 132, 147
+  size: 161, 114
+  orig: 304, 251
+  offset: 62, 65
+  index: -1
+images/dy_rushui/dy_rushui_10
+  rotate: true
+  xy: 202, 338
+  size: 170, 100
+  orig: 304, 251
+  offset: 56, 64
+  index: -1
+images/dy_rushui/dy_rushui_12
+  rotate: true
+  xy: 248, 161
+  size: 175, 85
+  orig: 304, 251
+  offset: 51, 63
+  index: -1
+images/dy_rushui/dy_rushui_14
+  rotate: false
+  xy: 2, 2
+  size: 34, 13
+  orig: 304, 251
+  offset: 128, 106
+  index: -1

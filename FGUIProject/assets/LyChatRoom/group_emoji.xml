@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="686,400">
+  <displayList>
+    <graph id="n139_vx99" name="graph_mask" xy="-32,-650" size="750,1700" type="rect" lineColor="#02000000" fillColor="#02ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <image id="n135_g1en" name="n135" src="riam2" fileName="res/frame_biaoqingbaoall.png" xy="0,0" size="686,400"/>
+    <image id="n136_g1en" name="n136" src="riam8" fileName="res/icon_biaoqingbao.png" xy="35,20"/>
+    <image id="n137_vx99" name="n137" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="43,80" size="600,2"/>
+    <list id="n138_vx99" name="list_emoji" xy="21,84" size="640,288" layout="flow_hz" overflow="scroll" defaultItem="ui://fuzg58b6vx99l" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

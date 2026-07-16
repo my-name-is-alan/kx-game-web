@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="348,1074">
+  <displayList>
+    <image id="n31_8inj" name="n31" src="8inj27" fileName="monthcard/frame_yueka.png" xy="-4,-4"/>
+    <component id="n26_lu9o" name="btn_frame" src="e01h1d" fileName="monthcard/btn_paycardframe.xml" xy="-24,19"/>
+    <image id="n5_lu9o" name="n5" src="e01h1f" fileName="monthcard/icon_monthly card.png" xy="83,-45"/>
+    <image id="n32_8inj" name="n32" src="8inj29" fileName="monthcard/word_yueka.png" xy="34,175"/>
+    <text id="n13_lu9o" name="label_tip1" xy="95,329" size="153,49" fontSize="36" color="#d3edff" align="center" vAlign="middle" autoClearText="true" text="60倍返利">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n15_lu9o" name="label_tip0" xy="75,378" size="260,120" touchable="false" fontSize="26" color="#d3edff" vAlign="middle" leading="5" ubb="true" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n14_lu9o" name="label_tip2" xy="110,498" size="108,37" font="ui://27utqbizps391v" fontSize="26" color="#3450a0" align="center" vAlign="middle" autoClearText="true" text="专属特权">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <richtext id="n16_lu9o" name="label_desc" xy="34,550" size="280,220" touchable="false" fontSize="22" color="#d3edff" leading="5" ubb="true" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n23_lu9o" name="label_take" xy="164,782" size="10,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n29_e3f7" name="btn_take" src="e01h1l" fileName="monthcard/btn_take1.xml" xy="65,770"/>
+    <component id="n17_lu9o" name="btn_pay" src="e01h1n" fileName="monthcard/btn_paycard.xml" xy="104,863"/>
+    <component id="n27_ib86" name="btn_renew" src="e01h1n" fileName="monthcard/btn_paycard.xml" xy="104,863"/>
+    <component id="n33_t09v" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="238,850" visible="false"/>
+    <text id="n25_lu9o" name="label_time" xy="132,973" size="76,27" fontSize="18" color="#b7c9ff" align="center" vAlign="middle" autoClearText="true" text="剩余天数">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <graph id="n30_kmtb" name="graph_front" xy="-24,19" size="402,1020" type="rect" lineColor="#00ffffff" fillColor="#00ffffff"/>
+  </displayList>
+</component>

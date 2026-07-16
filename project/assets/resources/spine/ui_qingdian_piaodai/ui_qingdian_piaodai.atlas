@@ -1,0 +1,13 @@
+
+ui_qingdian_piaodai.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sui
+  rotate: false
+  xy: 2, 2
+  size: 146, 224
+  orig: 146, 226
+  offset: 0, 2
+  index: -1

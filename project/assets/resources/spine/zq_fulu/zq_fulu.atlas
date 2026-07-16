@@ -1,0 +1,13 @@
+
+zq_fulu.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fulu
+  rotate: false
+  xy: 2, 217
+  size: 308, 93
+  orig: 308, 93
+  offset: 0, 0
+  index: -1

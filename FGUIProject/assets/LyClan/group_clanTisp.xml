@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,469">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <loader id="n41_r2p3" name="n41" xy="25,30" size="700,412" url="ui://qnktu1ilpugclw" align="center" vAlign="middle" fill="scaleFree"/>
+    <image id="n49_r2p3" name="n49" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="189,70" size="374,38"/>
+    <richtext id="n50_r2p3" name="label_bxl" xy="310,67" size="131,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="帮派旗帜"/>
+    <component id="n2_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,0"/>
+    <graph id="n6_hbzk" name="n6" xy="300,90" size="100,100" group="n24_hbzk" type="eclipse" lineSize="4"/>
+    <component id="n21_hbzk" name="btn_clanManage" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="84,299" group="n24_hbzk">
+      <Button title="帮派信息"/>
+    </component>
+    <text id="n19_hbzk" name="label_name1" xy="297,217" size="100,34" group="n24_hbzk" fontSize="24" text="做大做强"/>
+    <component id="n22_hbzk" name="btn_clanLog" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="400,300" group="n24_hbzk">
+      <Button title="帮派动态"/>
+    </component>
+    <component id="n23_hbzk" name="btn_leaveClan" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="83,411" group="n24_hbzk">
+      <Button title="推出帮派"/>
+    </component>
+    <component id="n40_cb8k" name="btn_dissolveClan" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="402,411" group="n24_hbzk">
+      <Button title="解散帮派"/>
+    </component>
+    <group id="n24_hbzk" name="group_info" xy="83,90" size="533,379" visible="false" advanced="true"/>
+    <text id="n33_hbzk" name="label_name2" xy="288,119" size="173,34" group="n37_hbzk" fontSize="24" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="玩家名字玩家名">
+      <gearXY controller="c1" pages="0,1,2" values="288,119|288,119|288,154"/>
+    </text>
+    <graph id="n47_r2p3" name="n47" xy="53,240" size="640,159" group="n37_hbzk" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <component id="n38_hbzk" name="btn_clanKickMember" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="315,165" size="216,58" group="n37_hbzk">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <Button title="踢出" titleFontSize="30"/>
+    </component>
+    <component id="n51_r2p3" name="btn_clanDesignateMember10" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="135,255" group="n37_hbzk">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n52_r2p3" name="btn_clanDesignateMember9" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="397,255" group="n37_hbzk">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n53_r2p3" name="btn_clanDesignateMember1" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="396,325" group="n37_hbzk">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1,2" values="396,325,0.529,0.693|397,291,0.529,0.62|397,295,0.529,0.631" positionsInPercent="true"/>
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n54_r2p3" name="btn_clanDesignateMember2" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="135,325" group="n37_hbzk">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1,2" values="135,325,0.18,0.693|135,291,0.18,0.62|110,297,0.154,0.633" positionsInPercent="true"/>
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n55_r2p3" name="btn_dissolveClanSelf" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="135,291" group="n37_hbzk">
+      <gearDisplay controller="c1" pages="2"/>
+      <Button title="解散" titleFontSize="30"/>
+    </component>
+    <component id="n56_r2p3" name="btn_leaveClanSelf" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="397,291" group="n37_hbzk">
+      <gearDisplay controller="c1" pages="2"/>
+      <Button title="退出" titleFontSize="30"/>
+    </component>
+    <component id="n57_tny6" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="179,119" group="n37_hbzk"/>
+    <group id="n37_hbzk" name="group_manage" xy="53,119" size="640,280" visible="false" advanced="true"/>
+  </displayList>
+</component>

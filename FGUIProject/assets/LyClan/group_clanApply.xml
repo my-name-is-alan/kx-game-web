@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="710,785" designImageOffsetX="-406" designImageOffsetY="-428">
+  <displayList>
+    <loader id="n50_r2p3" name="n50" xy="0,23" size="696,763" url="ui://qnktu1ilpugclw" align="center" vAlign="middle" fill="scaleFree"/>
+    <image id="n51_r2p3" name="n51" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="161,63" size="374,38"/>
+    <richtext id="n52_r2p3" name="label_bxl" xy="290,60" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="帮派旗帜"/>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="632,0" size="78,76"/>
+    <list id="n35_hbzk" name="list_clanApply" xy="25,117" size="640,423" overflow="scroll" lineGap="12" defaultItem="ui://8rnw66xwhbzks" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n41_hbzk" name="btn_clanApproveMemberNo" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="437,665" size="214,58">
+      <Button title="一键拒绝"/>
+    </component>
+    <component id="n45_hbzk" name="btn_mixPlayerPhase" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="64,570" size="292,50">
+      <Button title="入盟申请最低境界限制"/>
+    </component>
+    <component id="n46_hbzk" name="btn_needApply" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="64,620" size="295,50">
+      <Button title="允许其他玩家随机加入"/>
+    </component>
+    <component id="n47_hbzk" name="btn_sort" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="64,670" size="194,50" visible="false" touchable="false">
+      <Button title="按战斗力排序"/>
+    </component>
+    <component id="n48_hbzk" name="cbox_mixPlayerPhase" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="449,574" size="190,48">
+      <ComboBox title="练气后期" visibleItemCount="10"/>
+    </component>
+  </displayList>
+</component>

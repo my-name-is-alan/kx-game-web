@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="626,127">
+  <displayList>
+    <loader id="n22_hl71" name="img_isWin" xy="0,0" size="351,122" url="ui://5gmha8dnhl71w"/>
+    <loader id="n23_hl71" name="img_isWin1" xy="275,5" size="351,122" url="ui://5gmha8dnhl71x"/>
+    <component id="n34_ors2" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="21,21" size="100,100" scale="0.8,0.8"/>
+    <loader id="n8_knxo" name="img_icon" xy="58,42" size="50,50"/>
+    <text id="n11_knxo" name="label_name" xy="113,13" size="160,34" fontSize="22" vAlign="middle" autoSize="none" text="名字"/>
+    <text id="n12_knxo" name="label_level" xy="113,47" size="123,34" fontSize="18" vAlign="middle" autoSize="none" text="等级"/>
+    <text id="n13_knxo" name="label_rank" xy="113,77" size="123,34" fontSize="18" vAlign="middle" autoSize="none" text="排名"/>
+    <component id="n35_ors2" name="group_head1" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="530,31" scale="0.8,0.8"/>
+    <loader id="n14_knxo" name="img_icon1" xy="558,52" size="50,50"/>
+    <text id="n17_knxo" name="label_name1" xy="359,24" size="158,34" fontSize="22" vAlign="middle" autoSize="none" text="名字"/>
+    <text id="n18_knxo" name="label_level1" xy="359,57" size="123,34" fontSize="18" vAlign="middle" autoSize="none" text="等级"/>
+    <text id="n19_knxo" name="label_rank1" xy="359,87" size="123,34" fontSize="18" vAlign="middle" autoSize="none" text="排名"/>
+    <image id="n24_hl71" name="n24" src="hl7111" fileName="res/pic_pk.png" xy="277,24"/>
+    <image id="n25_hl71" name="n25" src="hl7112" fileName="ui/frame_challenger.png" pkg="27utqbiz" xy="8,0" group="n30_hl71"/>
+    <text id="n6_knxo" name="label_str28_1" xy="10,-5" size="21,84" group="n30_hl71" fontSize="16" color="#fff1cc" align="center" vAlign="middle" autoSize="none" text="挑战方"/>
+    <group id="n30_hl71" name="group_isBattle" xy="8,-5" size="24,87" visible="false" advanced="true"/>
+    <image id="n31_hl71" name="n31" src="hl7112" fileName="ui/frame_challenger.png" pkg="27utqbiz" xy="598,4" group="n33_hl71"/>
+    <text id="n32_hl71" name="label_str28_2" xy="600,-1" size="21,84" group="n33_hl71" fontSize="16" color="#fff1cc" align="center" vAlign="middle" autoSize="none" text="挑战方"/>
+    <group id="n33_hl71" name="group_isBattle1" xy="598,-1" size="24,87" visible="false" advanced="true"/>
+  </displayList>
+</component>

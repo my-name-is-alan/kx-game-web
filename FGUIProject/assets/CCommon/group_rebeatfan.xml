@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,110">
+  <displayList>
+    <image id="n0_t09v" name="n0" src="t09vdu1ah" fileName="ui/frame_fanhuan.png" xy="0,0"/>
+    <text id="n1_t09v" name="label_rebate" xy="0,47" size="110,39" font="ui://27utqbizps391v" fontSize="28" color="#fff2b8" align="center" vAlign="middle" autoSize="shrink" italic="true" strokeColor="#a5711f" strokeSize="2" autoClearText="true" text="10.2元">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

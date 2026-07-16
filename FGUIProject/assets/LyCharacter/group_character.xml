@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1162">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="形象"/>
+    <remark page="1" value="头像"/>
+    <remark page="2" value="称号"/>
+    <remark page="3" value="其他"/>
+  </controller>
+  <displayList>
+    <loader id="n1_ilda" name="n1" xy="24,0" size="701,1112" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <component id="n91_nnj8" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <component id="n30_ilda" name="group_model" src="ilda9" fileName="group_model.xml" xy="45,85">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n51_ilda" name="group_head" src="ildaa" fileName="group_head.xml" xy="53,101">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n69_ilda" name="group_title" src="ildac" fileName="group_title.xml" xy="54,116">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <component id="n88_ilda" name="loader_spine" src="ildae" fileName="group_effects.xml" xy="68,384">
+      <gearDisplay controller="c1" pages="3"/>
+    </component>
+    <richtext id="n93_ar1l" name="label_bxl" xy="44,24" size="257,54" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]百[/size]相楼"/>
+    <image id="n95_ar1l" name="n95" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="579,932"/>
+    <component id="n102_er9z" name="btn_xx" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="27,1102">
+      <Button checked="true" title="形象" controller="c1" page="0"/>
+    </component>
+    <component id="n103_er9z" name="btn_tx" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="198,1102">
+      <Button title="头像" controller="c1" page="1"/>
+    </component>
+    <component id="n104_er9z" name="btn_ch" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="368,1102">
+      <Button title="称号" controller="c1" page="2"/>
+    </component>
+    <component id="n105_er9z" name="btn_qt" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="538,1102" visible="false">
+      <Button title="其他" controller="c1" page="3"/>
+    </component>
+  </displayList>
+</component>

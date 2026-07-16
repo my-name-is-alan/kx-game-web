@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="756,1334">
+  <displayList>
+    <component id="n68_gcnf" name="btn_backMask" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-351" size="756,2313">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n56_gcnf" name="n56" xy="30,485" size="694,433" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <component id="n57_gcnf" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="668,458"/>
+    <image id="n58_gcnf" name="n58" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="168,527" size="421,38"/>
+    <text id="n59_gcnf" name="label_title" xy="347,524" size="63,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" text="加速">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n60_gcnf" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="336,580" scale="0.82,0.82"/>
+    <component id="n61_gcnf" name="btn_jian" src="bh805d" fileName="btn_reduct2.xml" pkg="27utqbiz" xy="208,710" scale="1.2,1.2"/>
+    <component id="n62_gcnf" name="btn_add" src="bh805c" fileName="btn_add2.xml" pkg="27utqbiz" xy="517,710" scale="1.2,1.2" rotation="1.2"/>
+    <image id="n63_gcnf" name="n63" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="150,759" size="459,50"/>
+    <richtext id="n64_gcnf" name="n64" xy="353,767" size="52,34" fontSize="24" color="#16191a" align="center" vAlign="middle" ubb="true" text="升级">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n65_gcnf" name="btn_sure" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="283,832" size="190,52">
+      <Button title="确定" titleFontSize="30"/>
+    </component>
+    <component id="n71_kfk5" name="pro" src="hvzws9" fileName="Slider1.xml" pkg="27utqbiz" xy="262,720" size="247,20">
+      <Slider value="50" max="100"/>
+    </component>
+    <text id="n72_kfk5" name="label_number" xy="297,677" size="167,29" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text="数量:1"/>
+  </displayList>
+</component>

@@ -1,0 +1,62 @@
+
+zd_xy_bing_shouji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wx_hmajj_hit_00000
+  rotate: false
+  xy: 2, 782
+  size: 192, 191
+  orig: 260, 260
+  offset: 26, 40
+  index: -1
+wx_hmajj_hit_00001
+  rotate: false
+  xy: 2, 544
+  size: 238, 226
+  orig: 260, 260
+  offset: 14, 18
+  index: -1
+wx_hmajj_hit_00003
+  rotate: false
+  xy: 242, 532
+  size: 244, 226
+  orig: 260, 260
+  offset: 11, 18
+  index: -1
+wx_hmajj_hit_00004
+  rotate: false
+  xy: 488, 526
+  size: 243, 226
+  orig: 260, 260
+  offset: 11, 18
+  index: -1
+wx_hmajj_hit_00005
+  rotate: false
+  xy: 733, 526
+  size: 240, 226
+  orig: 260, 260
+  offset: 13, 18
+  index: -1
+wx_hmajj_hit_00007
+  rotate: false
+  xy: 634, 754
+  size: 234, 219
+  orig: 260, 260
+  offset: 16, 21
+  index: -1
+wx_hmajj_hit_00009
+  rotate: false
+  xy: 412, 760
+  size: 220, 213
+  orig: 260, 260
+  offset: 15, 26
+  index: -1
+wx_hmajj_hit_00011
+  rotate: true
+  xy: 196, 772
+  size: 201, 214
+  orig: 260, 260
+  offset: 33, 30
+  index: -1

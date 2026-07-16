@@ -1,0 +1,34 @@
+
+cj_gongcheng_fire.png
+size: 330,330
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huodui_2
+  rotate: false
+  xy: 2, 240
+  size: 304, 88
+  orig: 306, 88
+  offset: 1, 0
+  index: -1
+xiaohuomiao1
+  rotate: true
+  xy: 308, 266
+  size: 18, 13
+  orig: 23, 14
+  offset: 0, 1
+  index: -1
+xiaohuomiao5
+  rotate: false
+  xy: 308, 286
+  size: 17, 17
+  orig: 19, 18
+  offset: 1, 0
+  index: -1
+xiaohuomiao7
+  rotate: true
+  xy: 308, 305
+  size: 23, 20
+  orig: 23, 22
+  offset: 0, 2
+  index: -1

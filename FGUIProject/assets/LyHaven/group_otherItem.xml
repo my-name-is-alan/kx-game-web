@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,156">
+  <displayList>
+    <image id="n66_j655" name="n66" src="tojh1k" fileName="res/frame_in record interface.png" xy="0,0" size="640,150"/>
+    <image id="n46_j655" name="n46" src="j3rv3z" fileName="ui/frame_basic profile.png" pkg="27utqbiz" xy="9,24" size="109,104" aspect="true"/>
+    <loader id="n47_j655" name="loader_tx" xy="24,41" size="74,70" align="center" vAlign="middle" fill="scale"/>
+    <text id="n48_j655" name="label_name" xy="122,15" size="100,34" fontSize="24" color="#16191a" vAlign="middle" text="暂定名字"/>
+    <component id="n50_j655" name="item0" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="123,56" group="n59_j655" scale="0.7,0.7"/>
+    <component id="n51_j655" name="item1" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="203,56" group="n59_j655" scale="0.7,0.7"/>
+    <component id="n60_j655" name="item2" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="283,56" group="n59_j655" scale="0.7,0.7"/>
+    <component id="n61_j655" name="item3" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="363,56" group="n59_j655" scale="0.7,0.7"/>
+    <component id="n62_j655" name="item4" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="443,56" group="n59_j655" scale="0.7,0.7"/>
+    <component id="n63_j655" name="item5" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="523,56" group="n59_j655" scale="0.7,0.7"/>
+    <group id="n59_j655" name="n59" xy="123,56" size="500,100" advanced="true" layout="hz" colGap="-20"/>
+    <component id="n67_j655" name="btn_go" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="511,19" size="106,30">
+      <Button title="前往" titleFontSize="20"/>
+    </component>
+    <image id="n69_i74e" name="n69" src="hl7112" fileName="ui/frame_challenger.png" pkg="27utqbiz" xy="0,130" group="n71_i74e" rotation="-90"/>
+    <text id="n70_i74e" name="n70" xy="9,106" size="61,24" group="n71_i74e" fontSize="16" color="#fff1cc" align="center" vAlign="middle" autoSize="none" text="采集中"/>
+    <group id="n71_i74e" name="isCj" xy="0,106" size="70,105" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,150">
+  <displayList>
+    <component id="n0_o6qj" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="0,-1"/>
+    <text id="n1_o6qj" name="label_name" xy="-10,105" size="120,48" font="ui://27utqbizps391v" fontSize="20" color="#7c473c" align="center" autoSize="shrink" autoClearText="true" text="碎片">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

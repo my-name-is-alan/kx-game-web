@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="651,290">
+  <displayList>
+    <loader id="n119_10pyd" name="loader_bg" xy="0,4" size="648,284" url="ui://xcpqvzp310pyds2"/>
+    <image id="n132_10pyd" name="n132" src="10pyds6" fileName="res/pet/res/frame_paiqianmapname.png" xy="311,4"/>
+    <richtext id="n95_me8j" name="label_name" xy="332,0" size="117,36" font="ui://27utqbizps391v" fontSize="26" color="#ffffff" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" strokeColor="#286982" strokeSize="2" text="江河之海"/>
+    <component id="n120_10pyd" name="group_dz" src="10pyds8" fileName="res/pet/group_petDz.xml" xy="14,17"/>
+    <text id="n102_me8j" name="n102" xy="447,5" size="91,29" group="n117_g946" fontSize="20" color="#f4f2ee" align="center" vAlign="middle" leading="0" autoSize="none" text="当前速率"/>
+    <text id="n101_me8j" name="label_addTime" xy="530,5" size="92,29" group="n117_g946" fontSize="20" color="#70d36b" align="center" vAlign="middle" leading="0" autoSize="shrink" text="60/分钟"/>
+    <group id="n117_g946" name="group_addTime" xy="447,5" size="175,29" advanced="true"/>
+    <component id="n123_10pyd" name="group_dy1" src="10pydsa" fileName="res/pet/group_petDy.xml" xy="192,140"/>
+    <component id="n133_10pyd" name="group_dy2" src="10pydsa" fileName="res/pet/group_petDy.xml" xy="303,166"/>
+    <component id="n134_10pyd" name="group_dy3" src="10pydsa" fileName="res/pet/group_petDy.xml" xy="410,139"/>
+    <component id="n135_10pyd" name="group_dy4" src="10pydsa" fileName="res/pet/group_petDy.xml" xy="518,165"/>
+  </displayList>
+</component>

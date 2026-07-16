@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="210,255">
+  <controller name="c1" pages="0,,1,,2,,3," selected="1"/>
+  <displayList>
+    <loader id="n9_1093u" name="n9" xy="80,75" size="50,50" url="ui://i35cf1mqk7xef" align="center" vAlign="middle">
+      <gearDisplay controller="c1" pages="0,2,3"/>
+    </loader>
+    <image id="n3_1093u" name="n3" src="k7xee" fileName="guess/frame_qizhitianjia2.png" xy="26,21">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n4_1093u" name="n4" src="k7xe17" fileName="guess/frame_bangpainame.png" xy="33,178">
+      <gearDisplay controller="c1" pages="1,2,3"/>
+    </image>
+    <image id="n6_1093u" name="n6" src="k7xeg" fileName="guess/frame_qizhirenshu.png" xy="50,220">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </image>
+    <loader id="n2_1093u" name="loader_flag" xy="105,99" pivot="0.5,0.5" anchor="true" size="80,81" scale="0.8,0.8" touchable="false" url="ui://27utqbizd373uw" align="center" vAlign="middle" clearOnPublish="true">
+      <gearDisplay controller="c1" pages="1,2,3"/>
+    </loader>
+    <loader id="n1_1093u" name="loader_rank" xy="10,130" size="50,50" url="ui://27utqbizuzk85h" align="center" vAlign="middle" clearOnPublish="true">
+      <gearDisplay controller="c1" pages="0,2,3"/>
+    </loader>
+    <text id="n5_1093u" name="label_name" xy="77,178" size="56,37" font="ui://27utqbizps391v" fontSize="26" color="#947c5d" vAlign="middle" autoClearText="true" text="逍遥">
+      <gearDisplay controller="c1" pages="1,2,3"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n7_1093u" name="label_count" xy="100,220" size="46,34" fontSize="24" color="#506d68" vAlign="middle" autoClearText="true" text="123">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </text>
+    <component id="n8_1093u" name="btn_check" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="0,0" size="210,255">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+  </displayList>
+</component>

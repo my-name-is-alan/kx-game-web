@@ -1,0 +1,48 @@
+
+jm_shouyou_xin.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jm_shouyou_xin_1
+  rotate: false
+  xy: 2, 100
+  size: 331, 334
+  orig: 331, 334
+  offset: 0, 0
+  index: -1
+jm_shouyou_xin_2
+  rotate: false
+  xy: 187, 32
+  size: 75, 66
+  orig: 75, 66
+  offset: 0, 0
+  index: -1
+jm_shouyou_xin_3
+  rotate: false
+  xy: 264, 42
+  size: 65, 56
+  orig: 65, 56
+  offset: 0, 0
+  index: -1
+jm_shouyou_xin_4
+  rotate: false
+  xy: 331, 60
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1
+jm_shouyou_xin_5
+  rotate: true
+  xy: 331, 33
+  size: 25, 35
+  orig: 25, 35
+  offset: 0, 0
+  index: -1
+jm_shouyou_xin_6
+  rotate: false
+  xy: 2, 2
+  size: 183, 96
+  orig: 183, 96
+  offset: 0, 0
+  index: -1

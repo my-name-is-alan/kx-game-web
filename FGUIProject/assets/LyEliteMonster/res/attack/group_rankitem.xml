@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="583,100">
+  <displayList>
+    <image id="n13_uzk8" name="n13" src="uzk85k" fileName="ui/frame_rank-list-one.png" pkg="27utqbiz" xy="0,0" size="583,100"/>
+    <loader id="n11_uzk8" name="loader_rank" xy="91,52" pivot="0.5,0.5" anchor="true" size="76,76" url="ui://27utqbizltemkh" align="center" vAlign="middle" autoSize="true"/>
+    <text id="n10_f2ag" name="label_rank" xy="41,30" size="100,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="1"/>
+    <loader id="n2_f2ag" name="loader_phase" xy="319,118" pivot="0.5,1" anchor="true" size="170,100" url="ui://27utqbizuzk85m" align="center" vAlign="middle" fill="scale" shrinkOnly="true"/>
+    <text id="n0_ib4p" name="label_name" xy="222,14" size="200,32" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text="玩家名称七个字"/>
+    <text id="n6_f2ag" name="label_duelScore" xy="386,34" size="200,36" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text="9999999"/>
+    <image id="n16_92au" name="n16" src="j3rv3z" fileName="ui/frame_basic profile.png" pkg="27utqbiz" xy="147,5" size="99,95" aspect="true"/>
+    <loader id="n15_92au" name="loader_icon" xy="163,20" size="68,65" fill="scale"/>
+  </displayList>
+</component>

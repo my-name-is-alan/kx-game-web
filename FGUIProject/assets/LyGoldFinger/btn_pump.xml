@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="296,112" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_kluz" name="n0" src="kluzo" fileName="res/btn_chouqu.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_kluz" name="title" xy="106,24" size="105,39" font="ui://27utqbizps391v" fontSize="28" color="#ffdfb0" vAlign="middle" autoClearText="true" text="抽取5次">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n2_wb4d" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="274,0" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1010">
+  <displayList>
+    <image id="n17_eern" name="n17" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="30,0" size="690,1010"/>
+    <component id="n18_eern" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,-25"/>
+    <image id="n19_eern" name="n19" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="164,36" size="432,38"/>
+    <text id="n20_eern" name="label_title" xy="179,35" size="400,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n21_eern" name="n21" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="65,71"/>
+    <text id="n22_eern" name="label_combatPower" xy="120,93" size="10,55" font="ui://27utqbizvkas4q" fontSize="32" letterSpacing="-15" text=""/>
+    <image id="n23_eern" name="n23" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="316,104"/>
+    <loader id="n24_eern" name="loader_icon" xy="298,99" size="40,40" fill="scaleFree"/>
+    <text id="n25_eern" name="label_count" xy="319,102" size="130,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text=""/>
+    <component id="n26_eern" name="btn_add" src="jzhdz" fileName="btn_add3.xml" pkg="27utqbiz" xy="435,93"/>
+    <list id="n4_aao6" name="list_match" xy="55,150" size="640,720" overflow="scroll" lineGap="5" defaultItem="ui://a20b95c1f2agb">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <component id="n27_eern" name="btn_refresh" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="268,926"/>
+    <image id="n16_f2ag" name="n16" src="bzm03t" fileName="iconvalues/item_value2.png" pkg="27utqbiz" xy="303,886" size="40,40"/>
+    <text id="n14_f2ag" name="label_need" xy="347,890" size="10,32" fontSize="22" color="#5b9f57" vAlign="middle" text=""/>
+  </displayList>
+</component>

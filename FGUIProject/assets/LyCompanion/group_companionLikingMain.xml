@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="717,956">
+  <controller name="c1" pages="0,,1," selected="0">
+    <remark page="0" value="天赋"/>
+    <remark page="1" value="属性"/>
+  </controller>
+  <displayList>
+    <image id="n20_rp91" name="n20" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,34" size="698,881" group="n30_ln3o"/>
+    <component id="n21_rp91" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="639,0" group="n30_ln3o"/>
+    <list id="n6_g0zl" name="list_liking" xy="30,136" size="638,728" group="n30_ln3o" overflow="scroll" lineGap="15" defaultItem="ui://l32lh3odg0zlk">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n24_rp91" name="n24" xy="27,119" size="644,752" group="n30_ln3o" type="rect" lineSize="0" fillColor="#fff4eee5" corner="2">
+      <gearDisplay controller="c1" pages="1"/>
+    </graph>
+    <list id="n19_svlp" name="list_arrAttr" xy="124,119" size="442,715" group="n30_ln3o" overflow="scroll" defaultItem="ui://l32lh3odsvlp10" align="center">
+      <gearDisplay controller="c1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n22_rp91" name="n22" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="155,63" size="388,38" group="n30_ln3o"/>
+    <text id="n23_rp91" name="label_str21" xy="277,61" size="144,39" group="n30_ln3o" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" text="好感度加成"/>
+    <image id="n27_kcwh" name="n27" src="bh807" fileName="ui/frame_tab.png" pkg="27utqbiz" xy="7,893" group="n30_ln3o"/>
+    <component id="n25_kcwh" name="n25" src="kcwh2a" fileName="btn_normal3.xml" xy="105,896" group="n30_ln3o">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n26_kcwh" name="n26" src="kcwh2d" fileName="btn_normal4.xml" xy="428,896" group="n30_ln3o">
+      <Button controller="c1" page="1"/>
+    </component>
+    <image id="n29_81of" name="n29" src="bh80f" fileName="ui/dec_tab partition line.png" pkg="27utqbiz" xy="348,906" group="n30_ln3o"/>
+    <group id="n30_ln3o" name="n30" xy="0,0" size="717,956" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

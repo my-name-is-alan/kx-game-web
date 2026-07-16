@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,460">
+  <displayList>
+    <image id="n23_i842" name="n23" src="pugclw" fileName="res/frame_public_tips.png" xy="35,41" size="680,400"/>
+    <image id="n19_k1vl" name="n19" src="k1vlm1" fileName="res/frame_vice_title.png" xy="159,80" size="431,38"/>
+    <component id="n12_pugc" name="btn_close" src="pugclx" fileName="btn_close.xml" xy="654,10"/>
+    <text id="n4_n7tl" name="label_title" xy="370,79" size="10,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" text="">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <richtext id="n2_n7tl" name="label_text_rich" xy="105,139" size="540,120" fontSize="26" color="#16191a" align="center" vAlign="middle" ubb="true" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n25_hz79" name="label_text" xy="105,139" size="540,120" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="shrink" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n10_pnot" name="btn_checkbox" src="x870lr" fileName="btn_checkbox.xml" xy="221,250" size="308,50" group="n24_i842"/>
+    <text id="n11_pnot" name="label_checkbox" xy="271,260" size="10,29" group="n24_i842" fontSize="20" color="#767676" vAlign="middle" text=""/>
+    <group id="n24_i842" name="group_checkbox" xy="221,250" size="308,50" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <richtext id="n22_ehms" name="label_count" xy="527,300" size="10,29" fontSize="20" color="#16191a" align="center" vAlign="middle" letterSpacing="3" ubb="true" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n17_pugc" name="btn_ok" src="pugcly" fileName="btn_normal1.xml" xy="273,340"/>
+    <component id="n16_pugc" name="btn_cancel" src="pugclz" fileName="btn_normal2.xml" xy="120,340"/>
+    <component id="n15_pugc" name="btn_confirm" src="pugcly" fileName="btn_normal1.xml" xy="426,340"/>
+  </displayList>
+</component>

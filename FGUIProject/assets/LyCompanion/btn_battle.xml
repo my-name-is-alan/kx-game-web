@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="70,78" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n8_kcwh" name="n8" src="rp911h" fileName="res2/btn_anniuorange.png" xy="0,1"/>
+    <image id="n10_isiv" name="n10" src="isiv2t" fileName="res2/icon_qiecuo.png" xy="12,13"/>
+    <image id="n9_kcwh" name="n9" src="kcwh2f" fileName="res2/frame_qiecuo.png" xy="9,48"/>
+    <image id="n11_h8ui" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="50,-1" visible="false"/>
+  </displayList>
+  <Button/>
+</component>

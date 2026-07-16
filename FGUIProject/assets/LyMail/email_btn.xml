@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="642,114" pivot="0,0.01" extention="Button" designImageOffsetX="-189" designImageOffsetY="-123">
+  <controller name="button" exported="true" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="con_read" pages="0,,1,,2," selected="0">
+    <remark page="0" value="未看"/>
+    <remark page="1" value="已看"/>
+    <remark page="2" value="领取"/>
+  </controller>
+  <displayList>
+    <image id="n20_kuu9" name="n20" src="kuu920" fileName="res/frame_unread.png" xy="-4,5">
+      <gearDisplay controller="con_read" pages="0"/>
+    </image>
+    <image id="n23_kuu9" name="n23" src="kuu91z" fileName="res/frame_read.png" xy="14,5">
+      <gearDisplay controller="con_read" pages="1,2"/>
+    </image>
+    <text id="n27_d4db" name="n27" xy="28,16" size="98,34" group="n22_kuu9" font="ui://27utqbizps391v" fontSize="24" color="#cc5454" vAlign="middle" autoSize="none" text="【未读】">
+      <gearDisplay controller="con_read" pages="0"/>
+    </text>
+    <text id="n28_d4db" name="n28" xy="28,15" size="98,34" group="n22_kuu9" font="ui://27utqbizps391v" fontSize="24" color="#5b9640" vAlign="middle" autoSize="none" text="【已读】">
+      <gearDisplay controller="con_read" pages="1"/>
+    </text>
+    <text id="n2_m9zz" name="title_text" xy="118,15" size="402,34" group="n22_kuu9" font="ui://27utqbizps391v" fontSize="24" color="#4d6d6a" vAlign="middle" autoSize="none" text="解散"/>
+    <image id="n30_jon9" name="img_red" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="527,20" group="n22_kuu9">
+      <gearDisplay controller="con_read" pages="0"/>
+    </image>
+    <text id="n3_m9zz" name="time_text" xy="443,64" size="132,36" group="n22_kuu9" fontSize="20" color="#8c9d72" vAlign="middle" autoSize="none" text="2024"/>
+    <text id="n21_kuu9" name="label_deletime" xy="36,67" size="376,29" group="n22_kuu9" fontSize="20" color="#8c9d72" vAlign="middle" autoSize="none" text="剩余"/>
+    <image id="n29_d4db" name="n29" src="m09jsj" fileName="iconitems/Props-rand5friendbox.png" pkg="27utqbiz" xy="36,12" size="52,48" group="n22_kuu9" aspect="true"/>
+    <group id="n22_kuu9" name="n22" xy="28,12" size="547,88" advanced="true">
+      <gearXY controller="con_read" pages="0,1,2" values="28,12|55,12|55,12"/>
+    </group>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

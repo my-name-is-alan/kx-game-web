@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,140">
+  <displayList>
+    <component id="n0_o6qj" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" xy="0,-1"/>
+    <text id="n1_o6qj" name="label_name" xy="-3,99" size="106,42" font="ui://27utqbizps391v" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" strokeSize="0" singleLine="true" autoClearText="true" text="枸杞">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

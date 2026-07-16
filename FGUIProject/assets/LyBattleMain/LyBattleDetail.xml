@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n1_cymh" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n0_cymh" name="group_main" src="krkh17" fileName="group_detail.xml" xy="0,100" size="750,1134">
+      <relation target="" sidePair="height-height%,top-top%"/>
+    </component>
+  </displayList>
+</component>

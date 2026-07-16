@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,818">
+  <displayList>
+    <image id="n49_l7ic" name="n49" src="l7ic9" fileName="res/frame_table.png" xy="0,308"/>
+    <image id="n50_l7ic" name="n50" src="l7ic8" fileName="res/pic_jiac.png" xy="45,0"/>
+    <image id="n51_l7ic" name="n51" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="163,412" size="423,38"/>
+    <text id="n52_l7ic" name="label_title" xy="279,408" size="191,42" font="ui://27utqbizps391v" fontSize="30" color="#16191a" align="center" vAlign="middle" autoSize="none" text="购买状态"/>
+    <text id="n53_l7ic" name="label_str39" xy="151,464" size="466,32" fontSize="22" color="#16191a" vAlign="middle" text="属性加成仅在本场战斗生效，最多购买一种道具"/>
+    <graph id="n54_l7ic" name="n54" xy="95,514" size="182,250" group="n62_l7ic" type="rect" lineSize="0" fillColor="#ffe3e6df"/>
+    <text id="n58_l7ic" name="label_attr1" xy="110,634" size="157,32" group="n62_l7ic" fontSize="22" color="#2b64c4" vAlign="middle" text="基础属性 +20%"/>
+    <text id="n59_l7ic" name="label_money1" xy="162,670" size="48,32" group="n62_l7ic" fontSize="22" color="#25870d" vAlign="middle" text="免费"/>
+    <component id="n60_l7ic" name="btn_buy1" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="113,708" size="148,42" group="n62_l7ic">
+      <Button title="购买" titleFontSize="26"/>
+    </component>
+    <image id="n87_f9g2" name="n87" src="upv73x" fileName="itemframe/item_back10.png" pkg="27utqbiz" xy="137,530" group="n62_l7ic"/>
+    <image id="n91_f9g2" name="n91" src="w4ww3l" fileName="res3/icon_jiacheng1.png" xy="137,530" group="n62_l7ic"/>
+    <group id="n62_l7ic" name="n62" xy="95,514" size="182,250"/>
+    <graph id="n69_l7ic" name="n69" xy="287,514" size="182,250" group="n74_l7ic" type="rect" lineSize="0" fillColor="#ffe3e6df"/>
+    <text id="n71_l7ic" name="label_attr2" xy="302,634" size="157,32" group="n74_l7ic" fontSize="22" color="#9555cc" vAlign="middle" text="基础属性 +20%"/>
+    <text id="n72_l7ic" name="label_money2" xy="348,670" size="91,32" group="n74_l7ic" fontSize="22" color="#25870d" vAlign="middle" text="5000/50"/>
+    <component id="n73_l7ic" name="btn_buy2" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="305,708" size="148,42" group="n74_l7ic">
+      <Button title="购买" titleFontSize="26"/>
+    </component>
+    <image id="n75_l7ic" name="n75" src="i5tz7t" fileName="iconitems/Props-yubi.png" pkg="27utqbiz" xy="285,635" pivot="0.5,0.5" group="n74_l7ic" scale="0.35,0.35"/>
+    <image id="n86_f9g2" name="n86" src="upv73y" fileName="itemframe/item_back11.png" pkg="27utqbiz" xy="328,530" group="n74_l7ic"/>
+    <image id="n90_f9g2" name="n90" src="w4ww3m" fileName="res3/icon_jiacheng2.png" xy="328,530" group="n74_l7ic"/>
+    <group id="n74_l7ic" name="n74" xy="285,514" size="184,250"/>
+    <graph id="n76_l7ic" name="n76" xy="482,514" size="182,250" group="n82_l7ic" type="rect" lineSize="0" fillColor="#ffe3e6df"/>
+    <text id="n78_l7ic" name="label_attr3" xy="497,634" size="157,32" group="n82_l7ic" fontSize="22" color="#e8903c" vAlign="middle" text="基础属性 +20%"/>
+    <text id="n79_l7ic" name="label_money3" xy="543,670" size="91,32" group="n82_l7ic" fontSize="22" color="#25870d" vAlign="middle" text="5000/50"/>
+    <component id="n80_l7ic" name="btn_buy3" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="500,708" size="148,42" group="n82_l7ic">
+      <Button title="购买" titleFontSize="26"/>
+    </component>
+    <image id="n81_l7ic" name="n81" src="i5tz7t" fileName="iconitems/Props-yubi.png" pkg="27utqbiz" xy="480,635" pivot="0.5,0.5" group="n82_l7ic" scale="0.35,0.35"/>
+    <image id="n88_f9g2" name="n88" src="upv73z" fileName="itemframe/item_back12.png" pkg="27utqbiz" xy="524,531" group="n82_l7ic"/>
+    <image id="n89_f9g2" name="n89" src="w4ww3n" fileName="res3/icon_jiacheng3.png" xy="524,531" group="n82_l7ic"/>
+    <group id="n82_l7ic" name="n82" xy="480,514" size="184,250"/>
+    <image id="n83_l7ic" name="n83" src="l7icb" fileName="res/frame_duihuakuang.png" xy="426,31" size="200,79"/>
+    <text id="n84_l7ic" name="label_dec" xy="446,36" size="173,62" fontSize="24" color="#fffafa" vAlign="middle" autoSize="shrink" autoClearText="true" text="这些道具能帮你战斗更有利"/>
+  </displayList>
+</component>

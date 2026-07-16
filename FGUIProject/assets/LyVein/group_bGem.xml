@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="111,126">
+  <displayList>
+    <image id="n67_qow0" name="n67" src="qow06c" fileName="res/frame_lingshidi.png" xy="0,0"/>
+    <image id="n68_qow0" name="n68" src="qow06b" fileName="res/frame_lingshidi2.png" xy="81,10"/>
+    <text id="n69_qow0" name="label_level" xy="84,15" size="25,26" font="ui://27utqbizps391v" fontSize="18" color="#ffffff" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" autoClearText="true" text="25"/>
+    <text id="n71_qow0" name="label_name" xy="84,39" size="24,51" font="ui://27utqbizps391v" fontSize="18" color="#ffffff" align="center" letterSpacing="-2" autoSize="none" text="丑时"/>
+    <loader id="n72_qow0" name="loader_gem" xy="7,8" size="76,76" url="ui://2qr0czbaqow05a" autoSize="true" clearOnPublish="true"/>
+    <loader3D id="n73_h7sm" name="effect" xy="44,46" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

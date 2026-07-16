@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="664,100">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n25_a8bs" name="n25" src="a8bs1z" fileName="res/frame_rank_horizontal.png" xy="0,-8" alpha="0.5"/>
+    <image id="n20_lr1w" name="n20" src="lr1wv" fileName="res/dec_separation-line.png" xy="7,95" size="650,10">
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <image id="n22_kluz" name="n22" src="kluz1s" fileName="res/pic_vacant4.png" xy="140,15">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <loader id="n11_uzk8" name="loader_rank" xy="50,50" pivot="0.5,0.5" anchor="true" size="80,80" url="ui://6fyplu3llr1wp" align="center" vAlign="middle" clearOnPublish="true"/>
+    <text id="n10_f2ag" name="label_rank" xy="0,30" size="100,39" font="ui://27utqbizps391v" fontSize="28" color="#fefffe" align="center" vAlign="middle" autoSize="shrink" strokeColor="#7b2f2f" autoClearText="true" text="4"/>
+    <component id="n12_uzk8" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="100,10" scale="0.8,0.8">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <text id="n0_ib4p" name="label_name" xy="185,17" size="200,34" fontSize="24" color="#a3620d" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="实打实大苏打大大">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n17_lr1w" name="label_score" xy="185,52" size="200,34" fontSize="24" color="#a3620d" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="123456">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <list id="n18_lr1w" name="list_item" xy="387,11" size="340,100" scale="0.8,0.8" layout="flow_hz" overflow="scroll" scroll="horizontal" scrollBarFlags="128" colGap="10" defaultItem="ui://27utqbizewyha" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n24_kluz" name="label_top" xy="186,104" size="291,31" visible="false" fontSize="22" color="#a3620d" vAlign="middle" autoClearText="true" text="上榜前3需要消费金竹&gt;=2000">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,48 @@
+
+zd_gongyong_dandao_01.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zd_gongyong_dandao_1
+  rotate: true
+  xy: 2, 131
+  size: 47, 106
+  orig: 56, 119
+  offset: 6, 1
+  index: -1
+zd_gongyong_dandao_2
+  rotate: true
+  xy: 118, 180
+  size: 46, 108
+  orig: 56, 119
+  offset: 4, 1
+  index: -1
+zd_gongyong_dandao_3
+  rotate: true
+  xy: 119, 77
+  size: 52, 107
+  orig: 56, 119
+  offset: 0, 2
+  index: -1
+zd_gongyong_dandao_4
+  rotate: true
+  xy: 2, 81
+  size: 48, 115
+  orig: 56, 119
+  offset: 6, 2
+  index: -1
+zd_gongyong_dandao_5
+  rotate: true
+  xy: 110, 131
+  size: 47, 116
+  orig: 56, 119
+  offset: 8, 2
+  index: -1
+zd_gongyong_dandao_6
+  rotate: true
+  xy: 2, 180
+  size: 46, 114
+  orig: 56, 119
+  offset: 7, 2
+  index: -1

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n9_t18c" name="n9" src="t18cr" fileName="res/frame_jinzhuqiu.png" xy="-25,-25"/>
+    <loader id="n7_d4js" name="loader_icon" xy="0,0" size="100,100" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n8_t18c" name="btn_frame" src="t18cs" fileName="btn_empty.xml" xy="0,0"/>
+  </displayList>
+</component>

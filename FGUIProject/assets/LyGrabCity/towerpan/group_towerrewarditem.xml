@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="648,138">
+  <displayList>
+    <image id="n8_syjq" name="n8" src="k7xe15" fileName="res/frame_jingcaijiangli.png" xy="0,0" size="648,138"/>
+    <richtext id="n0_ib4p" name="label_tips" xy="30,8" size="227,34" fontSize="24" color="#16191a" vAlign="middle" ubb="true" autoClearText="true" text="通关[color=#DC462D]第{0}重[/color]宝塔奖励"/>
+    <list id="n1_ib4p" name="list_item" xy="30,48" size="735,100" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha"/>
+  </displayList>
+</component>

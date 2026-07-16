@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n8_e01h" name="n8" src="sril9" fileName="res/bg_linglongge new.png" xy="0,0"/>
+    <component id="n7_e01h" name="group_cards" src="e01h1a" fileName="monthcard/group_paymonthcard0.xml" xy="0,20">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n9_8inj" name="group_week" src="8inj20" fileName="monthcard/group_paymonthcard0a.xml" xy="0,0">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n10_8inj" name="btn_cards" src="8inj2b" fileName="monthcard/btn_cardtab1.xml" xy="330,1020">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n11_8inj" name="btn_week" src="8inj2c" fileName="monthcard/btn_cardtab2.xml" xy="470,1020">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n12_8inj" name="group_value_chance" src="srilg" fileName="group_value.xml" xy="580,80"/>
+    <component id="n13_8inj" name="group_value_stone" src="srilg" fileName="group_value.xml" xy="580,120"/>
+  </displayList>
+</component>

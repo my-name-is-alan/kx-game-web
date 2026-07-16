@@ -1,0 +1,307 @@
+
+hb_yuelingshan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 146, 598
+  size: 75, 102
+  orig: 88, 102
+  offset: 13, 0
+  index: -1
+shou_L
+  rotate: true
+  xy: 271, 604
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+shou_L2
+  rotate: false
+  xy: 247, 673
+  size: 28, 35
+  orig: 28, 36
+  offset: 0, 1
+  index: -1
+shou_L3
+  rotate: false
+  xy: 223, 620
+  size: 21, 36
+  orig: 21, 36
+  offset: 0, 0
+  index: -1
+shou_R1
+  rotate: false
+  xy: 269, 636
+  size: 28, 35
+  orig: 28, 36
+  offset: 0, 1
+  index: -1
+shou_R2
+  rotate: true
+  xy: 257, 567
+  size: 30, 28
+  orig: 30, 28
+  offset: 0, 0
+  index: -1
+shou_R3
+  rotate: false
+  xy: 246, 620
+  size: 21, 36
+  orig: 21, 36
+  offset: 0, 0
+  index: -1
+shoubi_L
+  rotate: true
+  xy: 106, 702
+  size: 98, 85
+  orig: 98, 85
+  offset: 0, 0
+  index: -1
+shoubi_R
+  rotate: false
+  xy: 193, 710
+  size: 62, 98
+  orig: 62, 98
+  offset: 0, 0
+  index: -1
+weapon_f
+  rotate: true
+  xy: 2, 8
+  size: 187, 184
+  orig: 187, 184
+  offset: 0, 0
+  index: -1
+weapon_z
+  rotate: true
+  xy: 169, 810
+  size: 211, 138
+  orig: 211, 138
+  offset: 0, 0
+  index: -1
+yls_10
+  rotate: false
+  xy: 2, 2
+  size: 14, 4
+  orig: 14, 4
+  offset: 0, 0
+  index: -1
+yls_11
+  rotate: true
+  xy: 188, 3
+  size: 70, 75
+  orig: 70, 75
+  offset: 0, 0
+  index: -1
+yls_12
+  rotate: true
+  xy: 145, 197
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+yls_13
+  rotate: false
+  xy: 145, 210
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+yls_14
+  rotate: true
+  xy: 145, 225
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+yls_15
+  rotate: false
+  xy: 138, 243
+  size: 21, 14
+  orig: 21, 14
+  offset: 0, 0
+  index: -1
+yls_16
+  rotate: false
+  xy: 180, 508
+  size: 75, 88
+  orig: 75, 88
+  offset: 0, 0
+  index: -1
+yls_17
+  rotate: false
+  xy: 146, 501
+  size: 32, 95
+  orig: 33, 95
+  offset: 0, 0
+  index: -1
+yls_18
+  rotate: false
+  xy: 203, 402
+  size: 32, 46
+  orig: 32, 46
+  offset: 0, 0
+  index: -1
+yls_19
+  rotate: true
+  xy: 257, 539
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+yls_2
+  rotate: true
+  xy: 231, 452
+  size: 54, 39
+  orig: 55, 39
+  offset: 1, 0
+  index: -1
+yls_20
+  rotate: false
+  xy: 61, 201
+  size: 47, 40
+  orig: 47, 40
+  offset: 0, 0
+  index: -1
+yls_26
+  rotate: false
+  xy: 61, 243
+  size: 75, 156
+  orig: 75, 156
+  offset: 0, 0
+  index: -1
+yls_27
+  rotate: false
+  xy: 217, 86
+  size: 100, 110
+  orig: 100, 110
+  offset: 0, 0
+  index: -1
+yls_28
+  rotate: false
+  xy: 106, 802
+  size: 61, 219
+  orig: 61, 219
+  offset: 0, 0
+  index: -1
+yls_29
+  rotate: false
+  xy: 2, 197
+  size: 57, 202
+  orig: 58, 204
+  offset: 1, 2
+  index: -1
+yls_3
+  rotate: true
+  xy: 237, 405
+  size: 45, 52
+  orig: 45, 53
+  offset: 0, 0
+  index: -1
+yls_30
+  rotate: false
+  xy: 138, 259
+  size: 138, 140
+  orig: 138, 140
+  offset: 0, 0
+  index: -1
+yls_31
+  rotate: false
+  xy: 265, 3
+  size: 75, 81
+  orig: 75, 81
+  offset: 0, 0
+  index: -1
+yls_32
+  rotate: true
+  xy: 110, 201
+  size: 40, 33
+  orig: 40, 34
+  offset: 0, 1
+  index: -1
+yls_33
+  rotate: false
+  xy: 146, 408
+  size: 55, 91
+  orig: 55, 91
+  offset: 0, 0
+  index: -1
+yls_34
+  rotate: true
+  xy: 161, 198
+  size: 59, 106
+  orig: 59, 106
+  offset: 0, 0
+  index: -1
+yls_36
+  rotate: false
+  xy: 2, 701
+  size: 102, 320
+  orig: 102, 320
+  offset: 0, 0
+  index: -1
+yls_37
+  rotate: false
+  xy: 2, 401
+  size: 142, 298
+  orig: 142, 298
+  offset: 0, 0
+  index: -1
+yls_4
+  rotate: false
+  xy: 223, 658
+  size: 22, 50
+  orig: 22, 51
+  offset: 0, 1
+  index: -1
+yls_5
+  rotate: false
+  xy: 203, 450
+  size: 26, 56
+  orig: 26, 56
+  offset: 0, 0
+  index: -1
+yls_6
+  rotate: false
+  xy: 269, 198
+  size: 39, 59
+  orig: 40, 59
+  offset: 0, 0
+  index: -1
+yls_7
+  rotate: false
+  xy: 188, 75
+  size: 27, 121
+  orig: 27, 121
+  offset: 0, 0
+  index: -1
+yls_8
+  rotate: true
+  xy: 253, 599
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+yls_9
+  rotate: false
+  xy: 169, 803
+  size: 22, 5
+  orig: 22, 5
+  offset: 0, 0
+  index: -1
+yls_yby
+  rotate: false
+  xy: 257, 520
+  size: 17, 17
+  orig: 17, 18
+  offset: 0, 1
+  index: -1
+yls_zby
+  rotate: false
+  xy: 223, 598
+  size: 28, 20
+  orig: 28, 21
+  offset: 0, 1
+  index: -1

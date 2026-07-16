@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetY="-203" designImageAlpha="88">
+  <controller name="c1" pages="0,,1,,2,,3,,4,,5,,6," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_ah8r" name="n0" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="25,4" size="699,1098"/>
+    <richtext id="n46_l2d7" name="label_bxl" xy="49,27" size="266,49" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]玩[/size]家详情"/>
+    <component id="n28_ah8r" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <image id="n87_ublp" name="n87" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="576,925"/>
+    <image id="n84_dtgk" name="n84" src="dtgk14" fileName="res1/frame_miji.png" xy="63,706" size="624,196" group="n101_kqmq"/>
+    <component id="n75_krp3" name="loader_use0" src="krp3pd" fileName="group_the2.xml" pkg="yhkdb7e3" xy="86,722" size="181,219" group="n70_pju6" scale="0.7,0.7"/>
+    <component id="n76_krp3" name="loader_use1" src="krp3pd" fileName="group_the2.xml" pkg="yhkdb7e3" xy="237,722" size="181,219" group="n70_pju6" scale="0.7,0.7"/>
+    <component id="n77_krp3" name="loader_use2" src="krp3pd" fileName="group_the2.xml" pkg="yhkdb7e3" xy="388,722" size="182,219" group="n70_pju6" scale="0.7,0.7"/>
+    <component id="n78_krp3" name="loader_use3" src="krp3pd" fileName="group_the2.xml" pkg="yhkdb7e3" xy="540,722" size="181,219" group="n70_pju6" scale="0.7,0.7"/>
+    <group id="n70_pju6" name="group_theurgy" xy="86,722" size="635,219" group="n101_kqmq" advanced="true" layout="hz" colGap="-30" excludeInvisibles="true"/>
+    <group id="n101_kqmq" name="n101" xy="63,706" size="658,235"/>
+    <image id="n107_kqmq" name="n107" src="kqmq1h" fileName="res2/frame_tab.png" xy="29,1089" group="n162_kqmq"/>
+    <component id="n155_kqmq" name="btn_attr1" src="kqmq1w" fileName="btn_common3.xml" xy="34,1094" group="n162_kqmq">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n156_kqmq" name="btn_attr2" src="kqmq1w" fileName="btn_common3.xml" xy="128,1094" group="n162_kqmq">
+      <Button controller="c1" page="1"/>
+    </component>
+    <component id="n157_kqmq" name="btn_attr3" src="kqmq1w" fileName="btn_common3.xml" xy="222,1094" group="n162_kqmq">
+      <Button controller="c1" page="2"/>
+    </component>
+    <component id="n158_kqmq" name="btn_attr4" src="kqmq1w" fileName="btn_common3.xml" xy="316,1094" group="n162_kqmq">
+      <Button controller="c1" page="3"/>
+    </component>
+    <component id="n159_kqmq" name="btn_attr5" src="kqmq1w" fileName="btn_common3.xml" xy="410,1094" group="n162_kqmq">
+      <Button controller="c1" page="4"/>
+    </component>
+    <component id="n160_kqmq" name="btn_attr6" src="kqmq1w" fileName="btn_common3.xml" xy="504,1094" group="n162_kqmq">
+      <Button controller="c1" page="5"/>
+    </component>
+    <component id="n161_kqmq" name="btn_attr7" src="kqmq1w" fileName="btn_common3.xml" xy="598,1094" group="n162_kqmq">
+      <Button controller="c1" page="6"/>
+    </component>
+    <group id="n162_kqmq" name="n162" xy="29,1089" size="694,136" advanced="true"/>
+    <image id="n102_kqmq" name="n102" src="dtgk14" fileName="res1/frame_miji.png" xy="63,116" size="624,154" group="n167_ug9j"/>
+    <text id="n114_kqmq" name="label_attr" xy="292,147" size="52,34" group="n167_ug9j" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" autoClearText="true" text="装备"/>
+    <text id="n116_kqmq" name="label_gameOptions" xy="292,203" size="52,34" group="n167_ug9j" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" autoClearText="true" text="优势"/>
+    <image id="n119_kqmq" name="n119" src="feen18" fileName="res1/frame_xixian.png" xy="299,190" size="378,4" group="n167_ug9j"/>
+    <loader id="n120_kqmq" name="img_gameOptions" xy="48,111" size="230,162" group="n167_ug9j" url="ui://27utqbizpktdyu" align="center" vAlign="middle"/>
+    <group id="n167_ug9j" name="n167" xy="48,111" size="639,162"/>
+    <loader id="n105_kqmq" name="btn_pet" xy="62,279" size="307,419" group="n168_ug9j" url="ui://30lp993akqmq1g"/>
+    <loader3D id="n33_ah8r" name="loader_spine_pet" xy="218,643" pivot="0.5,1" anchor="true" size="2,2" group="n168_ug9j" scale="0.8,0.8" touchable="false" animation="" skin="" loop="true"/>
+    <loader id="n163_kqmq" name="img_quality" xy="64,276" size="78,418" group="n166_kqmq" scale="0.8,0.8" touchable="false" url="ui://27utqbizi809lk"/>
+    <richtext id="n164_kqmq" name="label_petName" xy="73,369" size="36,139" group="n166_kqmq" touchable="false" font="ui://27utqbizps391v" fontSize="26" color="#904a44" align="center" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="啊啊"/>
+    <loader3D id="n165_kqmq" name="loader_quality" xy="92,324" size="2,2" group="n166_kqmq" scale="0.8,0.8" touchable="false" animation="" skin="" loop="true"/>
+    <group id="n166_kqmq" name="n166" xy="64,276" size="78,418" group="n168_ug9j" advanced="true"/>
+    <group id="n168_ug9j" name="n168" xy="62,276" size="307,422"/>
+    <image id="n103_kqmq" name="n103" src="dtgk14" fileName="res1/frame_miji.png" xy="381,279" size="304,234" group="n170_ug9j"/>
+    <loader id="n104_kqmq" name="btn_vien" xy="381,524" size="304,174" group="n170_ug9j" url="ui://30lp993adtgk14" fill="scaleFree"/>
+    <loader id="n140_kqmq" name="img_veinIcon" xy="434,584" size="50,50" group="n170_ug9j" touchable="false" url="ui://30lp993akqmq1f" align="center" vAlign="middle" clearOnPublish="true"/>
+    <text id="n141_kqmq" name="label_veinName" xy="529,549" size="100,34" group="n170_ug9j" font="ui://27utqbizps391v" fontSize="24" color="#5c9937" align="center" autoClearText="true" text="离火朱雀"/>
+    <text id="n142_kqmq" name="label_veinDec" xy="532,602" size="126,60" group="n170_ug9j" fontSize="20" color="#161819" autoSize="none" autoClearText="true" text="爆伤越来越搞"/>
+    <component id="n143_kqmq" name="btn_elite" src="kqmq1q" fileName="btn_guangong.xml" xy="445,449" size="174,46" group="n170_ug9j"/>
+    <list id="n173_ug9j" name="list_elite" xy="361,311" pivot="0.5,0.5" size="343,118" group="n170_ug9j" layout="row" defaultItem="ui://30lp993aug9j1x" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n170_ug9j" name="n170" xy="361,279" size="343,419"/>
+    <image id="n106_kqmq" name="n106" src="dtgk14" fileName="res1/frame_miji.png" xy="63,908" size="624,130" group="n171_ug9j"/>
+    <image id="n177_r41c" name="n177" src="r41c23" fileName="res2/dec_title.png" xy="63,909" size="623,34" group="n171_ug9j"/>
+    <text id="n145_kqmq" name="label_desc" xy="66,909" size="618,34" group="n171_ug9j" fontSize="24" color="#5c9937" align="center" vAlign="middle" autoSize="none" text="该套路攻击次数越多暴击伤害越高"/>
+    <text id="n147_kqmq" name="label_serverid" xy="162,993" size="175,32" group="n171_ug9j" font="ui://27utqbizps391v" fontSize="22" color="#16191a" vAlign="middle" autoSize="none" autoClearText="true" text="区服：啊倒萨"/>
+    <text id="n148_kqmq" name="label_name" xy="162,962" size="151,34" group="n171_ug9j" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" autoSize="shrink" autoClearText="true" text="作者"/>
+    <component id="n149_kqmq" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="85,955" group="n171_ug9j" scale="0.7,0.7"/>
+    <component id="n150_kqmq" name="btn_detail" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="434,950" group="n171_ug9j">
+      <Button icon="ui://30lp993akqmq1j"/>
+    </component>
+    <component id="n151_kqmq" name="btn_comment" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="514,950" group="n171_ug9j">
+      <Button icon="ui://30lp993akqmq1i"/>
+    </component>
+    <component id="n181_i2mk" name="btn_praise" src="i2mkdu178" fileName="btn_normalIcon.xml" xy="595,950" group="n171_ug9j">
+      <Button icon="ui://30lp993apwpf22"/>
+    </component>
+    <group id="n171_ug9j" name="n171" xy="63,908" size="624,152"/>
+    <component id="n108_kqmq" name="btn_zrm" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="35,1218" size="131,60" group="n172_ug9j">
+      <Button checked="true" title="最热门" controller="c2" page="0"/>
+    </component>
+    <component id="n109_kqmq" name="btn_zx" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="172,1218" size="131,60" group="n172_ug9j">
+      <Button title="最热门" controller="c2" page="1"/>
+    </component>
+    <component id="n175_r41c" name="btn_syy" src="r41cdu176" fileName="btn_tab.xml" xy="444,1218" size="131,60" group="n172_ug9j">
+      <Button title="11" icon="ui://30lp993ar41c26"/>
+    </component>
+    <component id="n176_r41c" name="btn_xyy" src="r41cdu176" fileName="btn_tab.xml" xy="580,1218" size="131,60" group="n172_ug9j">
+      <Button icon="ui://30lp993ar41c25"/>
+    </component>
+    <component id="n179_nfin" name="btn_tg" src="nfindu177" fileName="btn_tab1.xml" xy="308,1218" size="131,60" group="n172_ug9j"/>
+    <group id="n172_ug9j" name="n172" xy="35,1218" size="676,60"/>
+  </displayList>
+</component>

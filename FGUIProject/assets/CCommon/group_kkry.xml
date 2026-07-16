@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="448,318">
+  <displayList>
+    <image id="n27_io2q" name="n27" src="81of4e" fileName="frame_xialvkongkongruye.png" xy="0,0"/>
+    <text id="n28_io2q" name="n28" xy="96,284" size="272,34" fontSize="24" color="#767676" align="center" vAlign="middle" autoSize="none" text="空空如也"/>
+  </displayList>
+</component>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root createClanStone="1000" merchantStone="3000" evolveSpeedUp="5" rejoinClanCD="0" leaveClanDeductPoint="20" merchantRate="10" clanLogLimit="100" evolveMostFreq="10" masterAutoTransfer="3" clanApplyTime="24" clanApplyMax="50" clanRenameStone="300" boxItemId="131003" buffAttrBonus="1" maxBuffCount="20" monsterStartDay="1" duelDesc="1.活动开启后，全帮派成员都可以进行挑战，根据造成的伤害，为全帮派成员赢取宝箱奖励。&lt;br/&gt;2.击破禁地首领可以使全帮派成员获得一份额外奖励，同时出现一名更强的禁地首领等待挑战。&lt;br/&gt;3.造成足够伤害，可以完成任务，获得帮派贡献奖励。&lt;br/&gt;4.若成功击败禁地首领，可以额外获得1次挑战次数，每天最多通过该方式获得2次额外挑战次数。&lt;br/&gt;5.该玩法每天刷新，重置禁地首领、挑战奖励、每日任务。&lt;br/&gt;6.新加入帮派的玩家需要次日才可参与该玩法。&lt;br/&gt;7.请及时领取奖励，未领取的奖励不会补发。" danDesc="一、段位介绍&lt;br/&gt;1.帮派段位可以在一定程度上代表帮派的综合实力，从低到高共有6个段位，分别为潜龙在渊、锋芒毕露、声名鹊起、威震四方、雄霸江湖、独步寰宇。&lt;br/&gt;2.帮派在“武道争锋”活动中的排名将影响帮派的段位。&lt;br/&gt;二、段位升降规则&lt;br/&gt;1.“武道争锋”活动开启时将根据帮派段位分组，经过多轮对战获得积分，活动结束时按照积分排名。&lt;br/&gt;2.根据帮派在活动中的排名，决定晋级、保级、降级名单。">
+  <clan>
+    <item id="1" level="1" number="20" exp="6000" deputy="1" elite="2"/>
+    <item id="2" level="2" number="22" exp="9900" deputy="1" elite="2"/>
+    <item id="3" level="3" number="24" exp="14400" deputy="1" elite="2"/>
+    <item id="4" level="4" number="26" exp="19500" deputy="1" elite="2"/>
+    <item id="5" level="5" number="28" exp="25200" deputy="1" elite="2"/>
+    <item id="6" level="6" number="30" exp="30000" deputy="1" elite="2"/>
+    <item id="7" level="7" number="32" exp="40000" deputy="1" elite="3"/>
+    <item id="8" level="8" number="34" exp="51000" deputy="1" elite="3"/>
+    <item id="9" level="9" number="36" exp="63000" deputy="2" elite="3"/>
+    <item id="10" level="10" number="38" exp="76000" deputy="2" elite="3"/>
+    <item id="11" level="11" number="40" exp="90000" deputy="2" elite="4"/>
+    <item id="12" level="12" number="42" exp="105000" deputy="2" elite="4"/>
+    <item id="13" level="13" number="44" exp="121000" deputy="2" elite="4"/>
+    <item id="14" level="14" number="46" exp="138000" deputy="2" elite="4"/>
+    <item id="15" level="15" number="48" exp="156000" deputy="2" elite="5"/>
+    <item id="16" level="16" number="50" exp="175000" deputy="2" elite="5"/>
+    <item id="17" level="17" number="50" exp="175000" deputy="2" elite="5"/>
+    <item id="18" level="18" number="50" exp="175000" deputy="2" elite="5"/>
+    <item id="19" level="19" number="50" exp="175000" deputy="2" elite="5"/>
+    <item id="20" level="20" number="50" exp="175000" deputy="2" elite="5"/>
+  </clan>
+  <goods>
+    <item id="1" type="1" itemId="120001" itemCount="10" amount="0" limit="1" requireLevel="1" requirePhase="0"/>
+    <item id="2" type="1" itemId="120001" itemCount="50" amount="1000" limit="1" requireLevel="1" requirePhase="0"/>
+    <item id="3" type="1" itemId="120001" itemCount="100" amount="1800" limit="1" requireLevel="2" requirePhase="0"/>
+    <item id="4" type="1" itemId="120008" itemCount="200" amount="600" limit="1" requireLevel="1" requirePhase="0"/>
+    <item id="5" type="1" itemId="120008" itemCount="500" amount="1300" limit="1" requireLevel="3" requirePhase="0"/>
+    <item id="6" type="1" itemId="120002" itemCount="5" amount="600" limit="1" requireLevel="1" requirePhase="0"/>
+    <item id="7" type="1" itemId="120002" itemCount="10" amount="1000" limit="1" requireLevel="4" requirePhase="0"/>
+    <item id="8" type="1" itemId="120017" itemCount="3" amount="540" limit="1" requireLevel="1" requirePhase="0"/>
+    <item id="9" type="1" itemId="120017" itemCount="5" amount="1000" limit="1" requireLevel="3" requirePhase="0"/>
+    <item id="10" type="1" itemId="130029" itemCount="1" amount="2200" limit="1" requireLevel="1" requirePhase="0"/>
+    <item id="11" type="1" itemId="130024" itemCount="1" amount="66000" limit="1" requireLevel="5" requirePhase="0"/>
+    <item id="12" type="1" itemId="2" itemCount="20000" amount="1000" limit="1" requireLevel="1" requirePhase="0"/>
+    <item id="13" type="2" itemId="142007" itemCount="1" amount="200" limit="5" requireLevel="1" requirePhase="0"/>
+    <item id="14" type="2" itemId="120020" itemCount="20" amount="100" limit="10" requireLevel="1" requirePhase="0"/>
+    <item id="15" type="2" itemId="120007" itemCount="1" amount="200" limit="5" requireLevel="1" requirePhase="0"/>
+    <item id="16" type="2" itemId="120025" itemCount="20" amount="100" limit="10" requireLevel="1" requirePhase="0"/>
+    <item id="17" type="2" itemId="120008" itemCount="200" amount="100" limit="99" requireLevel="1" requirePhase="0"/>
+    <item id="18" type="2" itemId="120014" itemCount="10" amount="150" limit="10" requireLevel="1" requirePhase="0"/>
+    <item id="19" type="2" itemId="120017" itemCount="1" amount="20" limit="99" requireLevel="1" requirePhase="0"/>
+    <item id="20" type="2" itemId="120004" itemCount="10" amount="100" limit="99" requireLevel="1" requirePhase="0"/>
+    <item id="21" type="2" itemId="120007" itemCount="1" amount="200" limit="5" requireLevel="1" requirePhase="4"/>
+  </goods>
+  <merchant>
+    <item id="1" itemId1="120001" itemCount1="30" itemId2="120017" itemCount2="10" itemId3="120022" itemCount3="1" itemId4="2" itemCount4="3000" weight="34"/>
+    <item id="2" itemId1="120004" itemCount1="10" itemId2="120007" itemCount2="1" itemId3="120022" itemCount3="1" itemId4="2" itemCount4="5000" weight="33"/>
+    <item id="3" itemId1="120009" itemCount1="10" itemId2="120008" itemCount2="100" itemId3="120014" itemCount3="5" itemId4="120002" itemCount4="5" weight="33"/>
+  </merchant>
+  <bargain>
+    <item id="1" range="0,20" cut="147,153"/>
+    <item id="2" range="21,22" cut="24,26"/>
+    <item id="3" range="23,24" cut="39,41"/>
+    <item id="4" range="25,26" cut="24,26"/>
+    <item id="5" range="27,28" cut="9,11"/>
+    <item id="6" range="29,30" cut="2,3"/>
+    <item id="7" range="31,999" cut="4,6"/>
+  </bargain>
+  <phase>
+    <item id="1" name="潜龙在渊" score="1000" icon="icon_shengmingjianqi"/>
+    <item id="2" name="锋芒毕露" score="1500" icon="icon_fengmangbilu"/>
+    <item id="3" name="声名鹊起" score="2000" icon="icon_weimingyuanyang"/>
+    <item id="4" name="威震四方" score="3000" icon="icon_shengweihaodang"/>
+    <item id="5" name="雄霸江湖" score="5000" icon="icon_mingdongtianxia"/>
+    <item id="6" name="独步寰宇" score="10000" icon="icon_xiongbahuanyu"/>
+  </phase>
+  <flag>
+    <item id="1" name="帮派旗帜-金" icon="icon_bangpaiqizhijin" type="1" desc="帮派旗帜-金" expire="0"/>
+    <item id="2" name="帮派旗帜-木" icon="icon_bangpaiqizhimu" type="1" desc="帮派旗帜-木" expire="0"/>
+    <item id="3" name="帮派旗帜-水" icon="icon_bangpaiqizhishui" type="1" desc="帮派旗帜-水" expire="0"/>
+    <item id="4" name="帮派旗帜-火" icon="icon_bangpaiqizhihuo" type="1" desc="帮派旗帜-火" expire="0"/>
+    <item id="5" name="帮派旗帜-土" icon="icon_bangpaiqizhitu" type="1" desc="帮派旗帜-土" expire="0"/>
+    <item id="6" name="八荒探秘" icon="icon_bahuangqiz" type="2" desc="八荒探寻冠军" expire="7"/>
+  </flag>
+  <active>
+    <item id="1" node="1" activeScore="200" bonusesId="360001"/>
+    <item id="2" node="2" activeScore="400" bonusesId="360002"/>
+    <item id="3" node="3" activeScore="600" bonusesId="360003"/>
+    <item id="4" node="4" activeScore="800" bonusesId="360004"/>
+    <item id="5" node="5" activeScore="1000" bonusesId="360005"/>
+  </active>
+  <monster>
+    <item id="1" monsterId="6000001" damageReward="5" defeatRewardNum="1" duelBonusesId="361001"/>
+    <item id="2" monsterId="6000002" damageReward="5" defeatRewardNum="1" duelBonusesId="361002"/>
+    <item id="3" monsterId="6000003" damageReward="4" defeatRewardNum="1" duelBonusesId="361003"/>
+    <item id="4" monsterId="6000004" damageReward="4" defeatRewardNum="1" duelBonusesId="361004"/>
+    <item id="5" monsterId="6000005" damageReward="4" defeatRewardNum="1" duelBonusesId="361005"/>
+    <item id="6" monsterId="6000006" damageReward="2" defeatRewardNum="1" duelBonusesId="361006"/>
+    <item id="7" monsterId="6000007" damageReward="2" defeatRewardNum="1" duelBonusesId="361007"/>
+    <item id="8" monsterId="6000008" damageReward="2" defeatRewardNum="1" duelBonusesId="361008"/>
+    <item id="9" monsterId="6000009" damageReward="2" defeatRewardNum="1" duelBonusesId="361009"/>
+    <item id="10" monsterId="6000010" damageReward="2" defeatRewardNum="1" duelBonusesId="361010"/>
+    <item id="11" monsterId="6000011" damageReward="2" defeatRewardNum="1" duelBonusesId="361011"/>
+    <item id="12" monsterId="6000012" damageReward="2" defeatRewardNum="1" duelBonusesId="361012"/>
+  </monster>
+  <recharge>
+    <item id="1" event="1" number="1" desc="一人充值" bonusesId="10001"/>
+    <item id="2" event="1" number="2" desc="二人充值" bonusesId="10001"/>
+    <item id="3" event="1" number="4" desc="四人充值" bonusesId="10001"/>
+    <item id="4" event="1" number="8" desc="八人充值" bonusesId="10001"/>
+    <item id="5" event="2" number="1" desc="一人充值" bonusesId="10001"/>
+  </recharge>
+  <dialogue>
+    <item id="1" priceInterval="1000,10000" dialogue1="欢迎光临，我这都是上好的宝贝！" dialogue2="本姑娘今天心情不错，算你便宜点吧。" dialogue3="客官真是慧眼识珠，以后还要多多来我这里买啊~" spine="stand_normal"/>
+    <item id="2" priceInterval="0,1000" dialogue1="降价清仓，买不了吃亏买不了上当~" dialogue2="小本生意不容易，还望客官高抬贵手。" dialogue3="怎么样，便宜也有好货吧！" spine="stand_1"/>
+    <item id="3" priceInterval="-10000,0" dialogue1="太过分了...呜呜呜，这下真要亏大了！" dialogue2="别砍价了，我赔钱卖你还不行嘛。" dialogue3="买完货就别再欺负我了吧..." spine="stand_2"/>
+  </dialogue>
+</root>

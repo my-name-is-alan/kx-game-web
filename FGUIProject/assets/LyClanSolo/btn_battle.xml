@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,160" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_l7ic" name="n3" xy="0,0" size="170,160" url="ui://irbjwyufig8m2j" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n8_ig8m" name="icon" xy="13,33" size="149,94" url="ui://irbjwyufig8m2z"/>
+    <text id="n10_ig8m" name="label_openTime" xy="-34,-38" size="238,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="开启中:35:21:39"/>
+    <text id="n11_ig8m" name="label_propTime" xy="11,194" size="148,29" fontSize="20" color="#74d644" align="center" vAlign="middle" leading="2" strokeColor="#16191a" strokeSize="2" autoClearText="true" text="开启中:35:21:39">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n9_ig8m" name="n9" src="ig8m2m" fileName="res/frame_paiqiansulv.png" xy="20,172" group="n12_ig8m"/>
+    <loader id="n6_l7ic" name="img_propIcon" xy="31,167" size="30,30" group="n12_ig8m" aspect="true" visible="false" url="ui://27utqbizfi8l13d" fill="scale"/>
+    <text id="n7_l7ic" name="label_propNum" xy="80,169" size="34,29" group="n12_ig8m" fontSize="20" color="#ffffff" vAlign="middle" autoClearText="true" text="1/5"/>
+    <text id="n13_o2rr" name="label_str33" xy="29,169" size="50,29" group="n12_ig8m" visible="false" fontSize="20" color="#ffffff" vAlign="middle" text="体力:"/>
+    <group id="n12_ig8m" name="group_prop" xy="20,167" size="130,31" advanced="true"/>
+  </displayList>
+  <Button/>
+</component>

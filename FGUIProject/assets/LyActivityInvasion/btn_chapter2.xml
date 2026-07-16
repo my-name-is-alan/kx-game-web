@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_n4fq" name="n3" src="n4fq12y" fileName="ui/frame_reward.png" pkg="27utqbiz" xy="-12,-20">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </image>
+    <image id="n8_n4fq" name="n8" src="n4fq130" fileName="ui/icon_ranking.png" pkg="27utqbiz" xy="19,10">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </image>
+    <image id="n5_n4fq" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="60,-3" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+    <text id="n6_n4fq" name="title" xy="21,52" size="56,37" font="ui://27utqbizps391v" fontSize="26" color="#f8f3bd" strokeColor="#9a5214" strokeSize="2" text="名字">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

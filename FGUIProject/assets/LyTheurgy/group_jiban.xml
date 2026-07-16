@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="644,264">
+  <displayList>
+    <image id="n12_y9su" name="n12" src="y9su1l" fileName="ui/frame_link.png" pkg="27utqbiz" xy="0,0" size="644,262"/>
+    <image id="n20_t6w7" name="n20" src="t6w7eu" fileName="ui/frame_link title.png" pkg="27utqbiz" xy="22,7"/>
+    <text id="n3_d3qo" name="label_name" xy="38,6" size="140,38" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" letterSpacing="-3" autoSize="none" text="江河之海"/>
+    <text id="n4_d3qo" name="label_grade" xy="165,8" size="140,38" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" ubb="true" autoSize="none" text="5级"/>
+    <list id="n5_d3qo" name="list_thes" xy="24,57" size="902,283" scale="0.5,0.5" layout="flow_hz" scroll="horizontal" margin="-19,0,0,0" lineGap="13" colGap="19" defaultItem="ui://yhkdb7e3k70ee2" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n6_d3qo" name="label_des" xy="28,214" size="365,38" fontSize="20" vAlign="middle" ubb="true" autoSize="none" text="组合"/>
+    <text id="n9_d3qo" name="label_arrt" xy="318,8" size="263,38" font="ui://27utqbizps391v" fontSize="24" color="#2b841c" align="right" vAlign="middle" letterSpacing="-2" autoSize="none" text="敏捷+11.5%"/>
+    <component id="n15_y9su" name="btn_active" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="439,206" size="188,54" visible="false"/>
+    <component id="n16_y9su" name="btn_up" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="439,206" size="188,54" visible="false"/>
+    <component id="n18_t6w7" name="btn_info" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="560,-22"/>
+  </displayList>
+</component>

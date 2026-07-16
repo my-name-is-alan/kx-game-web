@@ -1,0 +1,69 @@
+
+zd_skills_hanmeiaojianjue_buff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/wx_hmajj_bs/wx_hmajj_bs_00000
+  rotate: false
+  xy: 109, 372
+  size: 159, 129
+  orig: 187, 169
+  offset: 13, 8
+  index: -1
+images/wx_hmajj_bs/wx_hmajj_bs_00002
+  rotate: false
+  xy: 270, 370
+  size: 159, 131
+  orig: 187, 169
+  offset: 13, 8
+  index: -1
+images/wx_hmajj_bs/wx_hmajj_bs_00004
+  rotate: false
+  xy: 2, 236
+  size: 164, 134
+  orig: 187, 169
+  offset: 13, 8
+  index: -1
+images/wx_hmajj_bs/wx_hmajj_bs_00006
+  rotate: false
+  xy: 168, 233
+  size: 166, 135
+  orig: 187, 169
+  offset: 13, 8
+  index: -1
+images/wx_hmajj_bs/wx_hmajj_bs_00008
+  rotate: false
+  xy: 163, 92
+  size: 169, 139
+  orig: 187, 169
+  offset: 13, 7
+  index: -1
+images/wx_hmajj_bs/wx_hmajj_bs_00010
+  rotate: false
+  xy: 334, 87
+  size: 167, 143
+  orig: 187, 169
+  offset: 13, 8
+  index: -1
+images/wx_hmajj_bs/wx_hmajj_bs_00012
+  rotate: false
+  xy: 336, 232
+  size: 159, 136
+  orig: 187, 169
+  offset: 13, 8
+  index: -1
+images/wx_hmajj_bs/wx_hmajj_bs_00014
+  rotate: false
+  xy: 2, 98
+  size: 159, 136
+  orig: 187, 169
+  offset: 13, 8
+  index: -1
+images/wx_hmajj_bs_00041
+  rotate: true
+  xy: 2, 427
+  size: 74, 105
+  orig: 74, 105
+  offset: 0, 0
+  index: -1

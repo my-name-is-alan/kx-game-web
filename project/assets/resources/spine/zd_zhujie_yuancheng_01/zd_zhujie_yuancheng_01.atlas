@@ -1,0 +1,83 @@
+
+zd_zhujie_yuancheng_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dao
+  rotate: false
+  xy: 351, 671
+  size: 441, 123
+  orig: 482, 123
+  offset: 1, 0
+  index: -1
+wx_hmajj_fj_00000
+  rotate: false
+  xy: 694, 796
+  size: 216, 103
+  orig: 382, 121
+  offset: 163, 8
+  index: -1
+wx_hmajj_fj_00001
+  rotate: false
+  xy: 2, 715
+  size: 347, 115
+  orig: 382, 121
+  offset: 14, 2
+  index: -1
+wx_hmajj_fj_00002
+  rotate: false
+  xy: 345, 832
+  size: 347, 67
+  orig: 382, 121
+  offset: 14, 27
+  index: -1
+wx_hmajj_fj_00003
+  rotate: false
+  xy: 2, 839
+  size: 341, 60
+  orig: 382, 121
+  offset: 20, 31
+  index: -1
+wx_hmajj_fj_00004
+  rotate: false
+  xy: 324, 901
+  size: 336, 52
+  orig: 382, 121
+  offset: 24, 39
+  index: -1
+wx_hmajj_fj_00005
+  rotate: false
+  xy: 662, 901
+  size: 341, 52
+  orig: 382, 121
+  offset: 18, 39
+  index: -1
+wx_hmajj_fj_00006
+  rotate: false
+  xy: 2, 908
+  size: 320, 50
+  orig: 382, 121
+  offset: 34, 39
+  index: -1
+wx_hmajj_fj_00007
+  rotate: false
+  xy: 559, 955
+  size: 302, 48
+  orig: 382, 121
+  offset: 39, 39
+  index: -1
+wx_hmajj_fj_00008
+  rotate: false
+  xy: 267, 960
+  size: 290, 43
+  orig: 382, 121
+  offset: 41, 39
+  index: -1
+wx_hmajj_fj_00009
+  rotate: false
+  xy: 2, 987
+  size: 263, 16
+  orig: 382, 121
+  offset: 43, 53
+  index: -1

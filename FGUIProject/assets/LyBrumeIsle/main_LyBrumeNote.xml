@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="752,1164">
+  <controller name="c1" pages="0,,1,,3," selected="2"/>
+  <displayList>
+    <image id="n1_x3dl" name="n1" src="h8u4a" fileName="res/frame_wuyinbiji.png" xy="0,0"/>
+    <component id="n10_x3dl" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="631,41"/>
+    <list id="n11_x3dl" name="list_note" xy="44,123" size="663,874" overflow="scroll" lineGap="6" defaultItem="ui://h1d08dw1x3dlmt" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n15_m789" name="btn_1" src="h8md2g" fileName="btn_pos.xml" pkg="27utqbiz" xy="194,1006">
+      <Button title="受难山庄" controller="c1" page="0"/>
+    </component>
+    <component id="n16_m789" name="btn_2" src="h8md2g" fileName="btn_pos.xml" pkg="27utqbiz" xy="328,1010">
+      <Button controller="c1" page="1"/>
+    </component>
+    <component id="n17_m789" name="btn_3" src="h8md2g" fileName="btn_pos.xml" pkg="27utqbiz" xy="464,1006">
+      <Button checked="true" controller="c1" page="3"/>
+    </component>
+  </displayList>
+</component>

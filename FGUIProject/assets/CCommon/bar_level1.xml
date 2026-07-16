@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="637,40" extention="ProgressBar">
+  <displayList>
+    <image id="n15_rc7m" name="n15" src="bh805e" fileName="ui/frame_progress bar_all.png" xy="0,11" size="628,20"/>
+    <image id="n16_rc7m" name="bar" src="rc7m6h" fileName="ui/frame_progress bar_now.png" xy="2,13" size="604,16"/>
+    <text id="n13_o56w" name="title" xy="311,3" size="50,32" font="ui://27utqbizps391v" fontSize="22" color="#ffee91" align="center" vAlign="middle" strokeColor="#841f1f" text="1231"/>
+    <text id="n14_o56w" name="n14" xy="252,5" size="59,29" font="ui://27utqbizps391v" fontSize="20" color="#ffee91" align="center" vAlign="middle" strokeColor="#841f1f" text="修为："/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

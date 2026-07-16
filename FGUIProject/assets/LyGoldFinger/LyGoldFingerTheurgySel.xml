@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n36_861b" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n41_p8ls" name="group_main" src="p8ls2o" fileName="theurgy/group_theurgysel.xml" xy="0,277" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n43_p8ls" name="group_main2" src="p8ls2t" fileName="theurgy/group_theurgysel2.xml" xy="0,242" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n42_p8ls" name="group_main3" src="p8ls2s" fileName="theurgy/group_theurgysel3.xml" xy="0,277" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

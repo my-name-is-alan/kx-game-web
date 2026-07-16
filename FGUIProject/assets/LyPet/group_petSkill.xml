@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="377,71" overflow="scroll">
+  <displayList>
+    <text id="n43_95q1" name="label_petSkill" xy="0,0" size="377,218" font="ui://27utqbizps391v" fontSize="20" color="#5e5e5e" autoSize="height" autoClearText="true" text="参战技能（4级）：间隔5回合释放1次技能，攻击造成主角攻击力500%伤害。参战技能（4级）：间隔5回合释放1次技能，攻击造成主角攻击力500%伤害参战技能（4级）：间隔5回合释放1次技能，攻击造成主角攻击力500%伤害参战技能（4级）：间隔5回合释放1次技能，攻击造成主角攻击力500%伤害"/>
+  </displayList>
+</component>

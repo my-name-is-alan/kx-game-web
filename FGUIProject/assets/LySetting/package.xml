@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qr6acijc">
+  <resources>
+    <component id="ah8r55" name="LySetting.xml" path="/" exported="true"/>
+    <image id="ah8r58" name="btn_F5.png" path="/LySetting/"/>
+    <image id="ah8r5b" name="btn_aqua.png" path="/LySetting/"/>
+    <component id="ah8r5c" name="btn_common.xml" path="/"/>
+    <component id="ah8r5d" name="btn_aqua.xml" path="/"/>
+    <component id="872v0" name="LySettingMsgBox.xml" path="/" exported="true"/>
+    <image id="ana35e" name="icon_caidankefu.png" path="/LySetting/"/>
+    <image id="ana35f" name="icon_caidantixingshezhi.png" path="/LySetting/"/>
+    <image id="ana35g" name="icon_caidanxianju.png" path="/LySetting/"/>
+    <image id="ana35h" name="icon_caidanyinsishezhi.png" path="/LySetting/"/>
+    <image id="ana35i" name="icon_caidanyonghuxieyi.png" path="/LySetting/"/>
+    <image id="ana35j" name="icon_caidanyouxiquan.png" path="/LySetting/"/>
+    <image id="ana35k" name="icon_caidanduihuanma.png" path="/LySetting/"/>
+    <image id="ana35l" name="icon_caidangonggao.png" path="/LySetting/"/>
+    <image id="ana35m" name="icon_caidangongzhonghao.png" path="/LySetting/"/>
+    <image id="ana35n" name="icon_caidanheimingdan.png" path="/LySetting/"/>
+    <component id="ana35o" name="group_items.xml" path="/"/>
+    <image id="ana35p" name="icon_copy.png" path="/LySetting/"/>
+    <image id="ana35q" name="icon_refresh.png" path="/LySetting/"/>
+    <image id="ana35r" name="icon_rename.png" path="/LySetting/"/>
+    <image id="ana35t" name="btn_langyacifu.png" path="/LySetting/"/>
+    <component id="ana35u" name="btn_langyacifu.xml" path="/"/>
+    <component id="i26e5v" name="LySettingBlacklist.xml" path="/" exported="true"/>
+    <component id="i26e5x" name="group_blacklistitem.xml" path="/"/>
+    <image id="wb1u5y" name="frame_zhuangtailan.png" path="/LySetting/"/>
+    <image id="wb1u5z" name="icon_blacklist.png" path="/LySetting/"/>
+    <component id="wb1u60" name="LySettingWarn.xml" path="/" exported="true"/>
+    <component id="wb1u61" name="group_settingBlacklist.xml" path="/"/>
+    <component id="wb1u62" name="group_setting.xml" path="/"/>
+    <component id="wb1u63" name="group_settingMsgBox.xml" path="/"/>
+    <image id="wb1u67" name="btn_kai.png" path="/LySetting/"/>
+    <image id="wb1u68" name="btn_kaiguan.png" path="/LySetting/"/>
+    <image id="wb1u69" name="btn_guan.png" path="/LySetting/"/>
+    <component id="wb1u6a" name="btn_open.xml" path="/"/>
+    <component id="wb1u6b" name="group_settingWarn.xml" path="/"/>
+    <component id="nexh6c" name="group_itemNum.xml" path="/"/>
+    <image id="m2rj6d" name="btn_copy.png" path="/LySetting/"/>
+    <image id="m2rj6e" name="btn_rename.png" path="/LySetting/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

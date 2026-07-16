@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="226,200" pivot="0.5,0.5" extention="Button">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n10_pwyq" name="n0" src="pwyqm" fileName="res/icon_dianzan.png" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <image id="n13_pwyq" name="n1" src="pwyqn" fileName="res/icon_yidianzan.png" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <image id="n14_pwyq" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="191,36" pivot="0,1" anchor="true" visible="false">
+      <relation target="" sidePair="right-right%,top-top%"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

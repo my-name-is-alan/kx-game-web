@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n2_hi08" name="btn_backMask" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="-3,0" size="756,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n33_nogk" name="n33" xy="24,87" size="701,1127" url="ui://27utqbizrvb533" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n35_nogk" name="n35" src="nogk5o" fileName="LyEvolution/res/bg_fish pond.png" xy="69,225">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n36_nogk" name="n36" src="nogk5r" fileName="LyEvolution/res/frame_now.png" xy="44,209" size="388,47">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n37_nogk" name="n37" src="nogk5q" fileName="LyEvolution/res/frame_next.png" xy="421,210" size="283,47">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n38_nogk" name="n38" src="nogk5p" fileName="LyEvolution/res/frame_countdown.png" xy="394,935" aspect="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n53_gcnf" name="n53" src="gcnf6q" fileName="LyEvolution/res/frame_prop show2.png" xy="394,935">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n39_nogk" name="n39" src="nogk5s" fileName="LyEvolution/res/frame_prop show.png" xy="73,719" size="611,246">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n73_d4db" name="n73" src="d4db6v" fileName="LyEvolution/res/pic_fishing-rod.png" xy="48,107">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <list id="n8_hi08" name="list_show" xy="28,271" size="595,482" overflow="hidden" lineGap="4" defaultItem="ui://2uzp0flsoaf12l" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n9_thp3" name="list_reward" xy="126,805" size="662,131" scale="0.75,0.75" layout="row" overflow="scroll" scroll="horizontal" colGap="13" defaultItem="ui://27utqbizo6qjf" autoItemSize="false" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n16_oaf1" name="label_timeDes" xy="407,968" size="270,29" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text="升级所需时间">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n11_oaf1" name="label_time" xy="430,992" size="223,34" fontSize="24" color="#30a12d" align="center" vAlign="middle" autoSize="none" text="41241">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n19_oaf1" name="label_des1" xy="195,205" size="192,50" font="ui://27utqbizps391v" fontSize="26" color="#4e6868" align="right" vAlign="middle" letterSpacing="-1" autoSize="none" autoClearText="true" text="当前等级：4">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n20_oaf1" name="label_des2" xy="455,205" size="169,50" font="ui://27utqbizps391v" fontSize="26" color="#a76936" vAlign="middle" letterSpacing="-1" autoSize="none" autoClearText="true" text="下一等级">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <richtext id="n34_nogk" name="label_xxsx" xy="44,117" size="172,65" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" autoClearText="true" text="[size=46]鱼[/size]糖">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <text id="n43_nogk" name="n43" xy="122,769" size="501,32" font="ui://27utqbizps391v" fontSize="22" color="#506969" vAlign="middle" autoSize="none" text="升级后">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n44_nogk" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="662,128">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n79_i11v" name="n79" src="ryu98" fileName="ui/frame_ziyuanxiangqingbuchongshuoming2.png" pkg="27utqbiz" xy="287,1027" size="189,36" group="n47_nogk">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n45_nogk" name="group_need2" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="322,1027" group="n47_nogk">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n46_nogk" name="btn_addSpeed" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="275,1066" size="214,58" group="n47_nogk">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button titleFontSize="30"/>
+    </component>
+    <group id="n47_nogk" name="group_speed" xy="275,1027" size="214,97" advanced="true">
+      <gearXY controller="c1" pages="0" values="275,1027" default="393,1033"/>
+    </group>
+    <image id="n74_d4db" name="n74" src="ryu98" fileName="ui/frame_ziyuanxiangqingbuchongshuoming2.png" pkg="27utqbiz" xy="285,1027" size="189,36" group="n48_nogk">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n41_nogk" name="btn_up" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="274,1065" size="214,58" group="n48_nogk">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n42_nogk" name="group_need1" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="324,1027" group="n48_nogk">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n48_nogk" name="group_up" xy="274,1027" size="214,96" advanced="true">
+      <gearXY controller="c1" pages="1" values="274,1027" default="274,1027"/>
+    </group>
+    <loader id="n54_gcnf" name="btn_xiezu" xy="117,946" size="88,100" url="ui://2uzp0flsgcnf6p">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n75_qtsx" name="label_xiezu" xy="117,1009" size="89,39" font="ui://27utqbizps391v" fontSize="28" color="#fff7eb" align="center" vAlign="middle" autoSize="none" strokeColor="#231815" strokeSize="2" text="协助">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n77_dbzf" name="btn_ad" src="pe7ym9" fileName="btn_normal1_Ad.xml" pkg="qnktu1il" xy="146,1071" group="n81_i11v">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button titleFontSize="28"/>
+    </component>
+    <image id="n80_i11v" name="n80" src="ryu98" fileName="ui/frame_ziyuanxiangqingbuchongshuoming2.png" pkg="27utqbiz" xy="150,1041" size="189,36" group="n82_i11v">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n78_i11v" name="label_adtime" xy="218,1044" size="67,29" group="n82_i11v" fontSize="20" color="#16191a" align="center" vAlign="middle" autoClearText="true" text="eqwe1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n82_i11v" name="group_adTime" xy="150,1041" size="189,36" group="n81_i11v" advanced="true"/>
+    <group id="n81_i11v" name="n81" xy="146,1041" size="214,88" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

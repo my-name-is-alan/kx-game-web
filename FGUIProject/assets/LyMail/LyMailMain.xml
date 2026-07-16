@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="729,1102">
+  <displayList>
+    <image id="n114_kuu9" name="n114" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="699,1102">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <list id="n109_knjw" name="list_mails" xy="28,104" size="640,867" overflow="scroll" margin="0,0,7,0" scrollBarMargin="0,0,0,83" clipSoftness="0,-20" lineGap="7" defaultItem="ui://x0r2lfkpm9zzz" autoItemSize="false" align="center" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n115_kuu9" name="label_title" xy="21,31" size="210,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="门客">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <image id="n116_kuu9" name="n116" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="488,45" size="181,32"/>
+    <component id="n117_kuu9" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="651,41"/>
+    <component id="n118_kuu9" name="allget_btn" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="395,988" size="190,52">
+      <Button title="一键领取" titleFontSize="32"/>
+    </component>
+    <component id="n119_kuu9" name="delet_btn" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="120,987" size="190,52">
+      <Button titleFontSize="32"/>
+    </component>
+    <text id="n120_kuu9" name="label_emailNumber" xy="492,45" size="163,29" fontSize="20" color="#70d36b" align="center" vAlign="middle" autoSize="none" text="当前"/>
+    <image id="n121_kuu9" name="img_null" src="kuu921" fileName="res/pic_empty.png" xy="227,410"/>
+  </displayList>
+</component>

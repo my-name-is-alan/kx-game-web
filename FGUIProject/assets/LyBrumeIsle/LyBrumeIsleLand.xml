@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1700">
+  <displayList>
+    <component id="n0_gm8n" name="main" src="gm8n2l" fileName="main_LyBrumelseLand.xml" xy="0,-3" size="750,1700">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader3D id="n1_krzd" name="loader3d_join" xy="374,849" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+  </displayList>
+</component>

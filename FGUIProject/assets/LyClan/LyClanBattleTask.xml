@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n17_djmf" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-176">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n19_djmf" name="group_clanBattleTask" src="djmf1y" fileName="group_clanBattleTask.xml" xy="0,216">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

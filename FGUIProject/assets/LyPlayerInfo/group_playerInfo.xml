@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1167" designImageOffsetX="-26" designImageOffsetY="-201">
+  <displayList>
+    <image id="n0_ah8r" name="n0" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="25,-1" size="699,1167" group="n36_ah8r"/>
+    <image id="n96_feen" name="n96" src="feen19" fileName="res1/bg_baixianglou1.png" xy="50,98" group="n36_ah8r"/>
+    <richtext id="n46_l2d7" name="label_bxl" xy="49,27" size="266,49" group="n36_ah8r" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]玩[/size]家详情"/>
+    <component id="n28_ah8r" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40" group="n36_ah8r"/>
+    <image id="n47_l2d7" name="n47" src="l2d7h" fileName="res1/frame_zongshuxing.png" xy="57,105" group="n36_ah8r"/>
+    <image id="n48_l2d7" name="n48" src="l2d7g" fileName="res1/frame_gerenxinxidiban.png" xy="42,447" group="n36_ah8r"/>
+    <component id="n83_dtgk" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="555,356" group="n34_ah8r" scale="0.65,0.65"/>
+    <loader3D id="n33_ah8r" name="loader_spine_pet" xy="433,369" pivot="0.5,1" anchor="true" size="2,2" group="n34_ah8r" scale="0.55,0.55" animation="" skin="" loop="true"/>
+    <group id="n34_ah8r" name="n34" xy="432,356" size="125,13" group="n36_ah8r"/>
+    <text id="n15_ah8r" name="label_name" xy="203,457" size="151,34" group="n36_ah8r" fontSize="22" color="#16191a" vAlign="middle" autoSize="shrink" text="小小屁妖"/>
+    <component id="n101_9jvz" name="loader_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="201,508" size="202,103" group="n36_ah8r" scale="0.7,0.7"/>
+    <image id="n74_gur8" name="n74" src="njmhsp" fileName="ui/frame_new force of arms.png" pkg="27utqbiz" xy="394,371" group="n36_ah8r" scale="0.5,0.5"/>
+    <text id="n97_gqdu" name="label_combatPower" xy="443,390" size="132,42" group="n36_ah8r" font="ui://27utqbizvkas4q" fontSize="24" vAlign="middle" leading="0" letterSpacing="-8" singleLine="true" text="56789"/>
+    <list id="n20_ah8r" name="list_basicAttr" xy="79,145" size="196,133" group="n36_ah8r" layout="flow_hz" overflow="hidden" lineGap="-6" colGap="19" defaultItem="ui://2uzp0flscwvx1c" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <graph id="n79_dtgk" name="n79" xy="57,587" size="632,540" group="n36_ah8r" type="rect" lineSize="0" fillColor="#ffdddddd"/>
+    <text id="n27_ah8r" name="label_ip" xy="312,1082" size="59,29" group="n36_ah8r" font="ui://27utqbizps391v" fontSize="20" color="#727272" vAlign="middle" autoClearText="true" text="属地："/>
+    <text id="n49_l2d7" name="label_str107" xy="160,107" size="64,29" group="n36_ah8r" font="ui://27utqbizps391v" fontSize="20" color="#5c5351" text="总属性"/>
+    <loader id="n50_l2d7" name="img_stage" xy="174,511" size="50,50" group="n36_ah8r"/>
+    <text id="n26_ah8r" name="label_serverid" xy="121,1082" size="119,29" group="n36_ah8r" font="ui://27utqbizps391v" fontSize="20" color="#727272" vAlign="middle" autoClearText="true" text="区服：啊倒萨"/>
+    <image id="n84_dtgk" name="n84" src="dtgk14" fileName="res1/frame_miji.png" xy="67,903" size="617,165" group="n36_ah8r"/>
+    <image id="n91_feen" name="label_noTheurgy" src="feen17" fileName="res1/pic_empty book.png" xy="295,912" group="n36_ah8r" scale="0.8,0.8"/>
+    <component id="n75_krp3" name="loader_use0" src="krp3pd" fileName="group_the2.xml" pkg="yhkdb7e3" xy="86,912" size="181,219" group="n70_pju6" scale="0.7,0.7"/>
+    <component id="n76_krp3" name="loader_use1" src="krp3pd" fileName="group_the2.xml" pkg="yhkdb7e3" xy="237,912" size="181,219" group="n70_pju6" scale="0.7,0.7"/>
+    <component id="n77_krp3" name="loader_use2" src="krp3pd" fileName="group_the2.xml" pkg="yhkdb7e3" xy="388,912" size="182,219" group="n70_pju6" scale="0.7,0.7"/>
+    <component id="n78_krp3" name="loader_use3" src="krp3pd" fileName="group_the2.xml" pkg="yhkdb7e3" xy="540,912" size="181,219" group="n70_pju6" scale="0.7,0.7"/>
+    <group id="n70_pju6" name="group_theurgy" xy="86,912" size="635,219" group="n36_ah8r" advanced="true" layout="hz" colGap="-30" excludeInvisibles="true"/>
+    <component id="n52_rnu5" name="btn_gem" src="ah8r3" fileName="btn_common.xml" xy="580,595" group="n59_rnu5"/>
+    <component id="n53_rnu5" name="btn_treasure" src="ah8r3" fileName="btn_common.xml" xy="580,692" group="n59_rnu5" touchable="false"/>
+    <component id="n54_rnu5" name="btn_pet" src="ah8r3" fileName="btn_common.xml" xy="476,692" group="n59_rnu5"/>
+    <component id="n55_rnu5" name="btn_elite" src="ah8r3" fileName="btn_common.xml" xy="476,595" group="n59_rnu5"/>
+    <component id="n57_rnu5" name="btn_mount" src="ah8r8" fileName="btn_common2.xml" xy="476,786" group="n59_rnu5"/>
+    <group id="n59_rnu5" name="n59" xy="476,595" size="198,269" group="n36_ah8r" advanced="true"/>
+    <list id="n60_rnu5" name="list_equip1" xy="65,592" size="476,345" group="n62_rnu5" scale="0.9,0.9" layout="flow_hz" overflow="hidden" lineGap="4" colGap="8" defaultItem="ui://30lp993aah8r1">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n61_rnu5" name="list_equip" xy="65,592" size="476,345" group="n62_rnu5" scale="0.9,0.9" layout="flow_hz" overflow="hidden" lineGap="4" colGap="8" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n62_rnu5" name="n62" xy="65,592" size="476,345" group="n36_ah8r" advanced="true"/>
+    <component id="n71_oj4e" name="btn_blockPlayer" src="oj4el" fileName="btn_blockPlayer.xml" xy="38,1049" group="n36_ah8r">
+      <Button title="举报"/>
+    </component>
+    <list id="n72_gur8" name="list_basicAttr2" xy="79,262" size="196,163" group="n36_ah8r" layout="flow_hz" lineGap="-6" defaultItem="ui://2uzp0flscwvx1c" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n21_ah8r" name="btn_arrows" src="ah8ra" fileName="btn_arrows.xml" xy="228,361" size="113,92" group="n36_ah8r"/>
+    <loader id="n85_dtgk" name="img_flag" xy="348,468" size="200,200" group="n73_gur8" scale="0.5,0.5" url="ui://30lp993adtgk15"/>
+    <text id="n23_ah8r" name="label_clanName" xy="455,476" size="84,29" group="n73_gur8" font="ui://27utqbizps391v" fontSize="20" color="#5c5351" vAlign="middle" text="强盛集团"/>
+    <text id="n24_ah8r" name="label_clanNum" xy="455,499" size="61,29" group="n73_gur8" font="ui://27utqbizps391v" fontSize="20" color="#5c5351" vAlign="middle" text="20/50"/>
+    <text id="n25_ah8r" name="label_clanLevel" xy="455,524" size="41,29" group="n73_gur8" font="ui://27utqbizps391v" fontSize="20" color="#5c5351" vAlign="middle" text="11级"/>
+    <group id="n73_gur8" name="group_clan" xy="348,468" size="200,200" group="n36_ah8r" advanced="true"/>
+    <image id="n93_feen" name="n93" src="feen18" fileName="res1/frame_xixian.png" xy="70,258" group="n36_ah8r"/>
+    <component id="n99_e8yx" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="76,465" group="n36_ah8r"/>
+    <text id="n100_psu4" name="label_level" xy="203,488" size="151,34" group="n36_ah8r" fontSize="20" color="#5c5351" vAlign="middle" autoSize="shrink" text="小小屁妖"/>
+    <group id="n36_ah8r" name="n36" xy="25,-1" size="765,1167" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n87_ublp" name="n87" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="552,996"/>
+  </displayList>
+</component>

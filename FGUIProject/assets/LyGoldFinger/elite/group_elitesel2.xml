@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,490">
+  <displayList>
+    <image id="n63_x9bu" name="n63" src="x9bu1m" fileName="elite/frame_suipiandi2.png" xy="85,-9"/>
+    <image id="n68_x9bu" name="n68" src="ro4e1a" fileName="res/frame_jiantou.png" xy="309,119"/>
+    <image id="n65_x9bu" name="n65" src="x9bu1n" fileName="elite/frame_yuan.png" xy="170,120"/>
+    <image id="n66_x9bu" name="n66" src="x9bu1n" fileName="elite/frame_yuan.png" xy="440,120"/>
+    <component id="n59_ro4e" name="btn_comfirm" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,400"/>
+    <component id="n62_ro4e" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="646,-45"/>
+    <component id="n64_x9bu" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="186,130"/>
+    <component id="n67_x9bu" name="group_item2" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="456,130"/>
+    <text id="n70_x9bu" name="label_name" xy="189,240" size="100,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" align="center" vAlign="middle" strokeColor="#c85231" strokeSize="2" autoClearText="true" text="碎片名称">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n71_x9bu" name="label_name2" xy="460,240" size="100,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" align="center" vAlign="middle" strokeColor="#c85231" strokeSize="2" autoClearText="true" text="碎片名称">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n69_x9bu" name="label_count" xy="261,355" size="227,34" fontSize="24" color="#c85231" align="center" vAlign="middle" autoClearText="true" text="今日剩余次数：{0}次">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

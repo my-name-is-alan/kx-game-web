@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2uzp0fls">
+  <resources>
+    <component id="963n0" name="LyMainPage.xml" path="/" exported="true"/>
+    <image id="rdh36" name="21.png" path="/res/main/" exported="true"/>
+    <image id="rdh3h" name="10.png" path="/res/main/" scale="9grid" scale9grid="33,54,66,108"/>
+    <image id="pi5r6y" name="Icon_05.png" path="/iconactivitys/" exported="true"/>
+    <image id="pi5r6z" name="Icon_bags.png" path="/iconactivitys/" exported="true"/>
+    <image id="pi5r70" name="Icon_First Punch.png" path="/iconactivitys/" exported="true"/>
+    <image id="pi5r71" name="Icon_Fortune.png" path="/iconactivitys/" exported="true"/>
+    <image id="pi5r72" name="Icon_Hong Kong.png" path="/iconactivitys/" exported="true"/>
+    <image id="pi5r73" name="Icon_List.png" path="/iconactivitys/" exported="true"/>
+    <image id="pi5r74" name="Icon_Record.png" path="/iconactivitys/" exported="true"/>
+    <image id="pi5r75" name="Icon_Scripture.png" path="/iconactivitys/" exported="true"/>
+    <image id="pi5r76" name="Icon_Sign in.png" path="/iconactivitys/" exported="true"/>
+    <image id="rdh3p" name="activity001.png" path="/iconactivitys/" exported="true"/>
+    <component id="rdh3s" name="group_main.xml" path="/"/>
+    <component id="tkbwt" name="group_task.xml" path="/"/>
+    <component id="jzhd11" name="btn_activity.xml" path="/iconactivitys/"/>
+    <component id="jzhd15" name="btn_arrows.xml" path="/"/>
+    <component id="jzhd16" name="btn_main.xml" path="/"/>
+    <component id="jzhd17" name="btn_operate.xml" path="/"/>
+    <component id="cwvx1c" name="label_attr.xml" path="/" exported="true"/>
+    <component id="cwvx25" name="btn_upStage.xml" path="/"/>
+    <component id="cwvx26" name="LyDetailAttr.xml" path="/" exported="true"/>
+    <component id="cwvx2i" name="btn_evolution.xml" path="/"/>
+    <component id="k7n52j" name="btn_automatic.xml" path="/"/>
+    <component id="oaf12l" name="group_probability.xml" path="/LyEvolution/" exported="true"/>
+    <component id="oaf12m" name="LyEvolution.xml" path="/LyEvolution/" exported="true"/>
+    <image id="oaf12n" name="gy-03.png" path="/LyEvolution/res/"/>
+    <component id="mnt82o" name="LyAttachEquip.xml" path="/LyAttachEquip/" exported="true"/>
+    <component id="f7m430" name="LyDetailAttrEdit.xml" path="/" exported="true"/>
+    <component id="f7m431" name="label_attrEdit.xml" path="/"/>
+    <component id="f9xz31" name="LyAutomation.xml" path="/LyAutomation/" exported="true"/>
+    <image id="f9xz32" name="18.png" path="/res/" scale="9grid" scale9grid="16,2,32,4"/>
+    <component id="m3mp32" name="group_notice_b.xml" path="/"/>
+    <component id="m3mp33" name="group_notice_s.xml" path="/"/>
+    <component id="niv33d" name="GroupItem.xml" path="/LyAttachEquip/" exported="true"/>
+    <component id="niv33e" name="btn_item.xml" path="/LyAttachEquip/res/"/>
+    <component id="ub2k3f" name="btn_common.xml" path="/"/>
+    <component id="hpss3g" name="btn_test1.xml" path="/"/>
+    <component id="av7q3h" name="LyChallengeList.xml" path="/LyChallengeList/" exported="true"/>
+    <component id="av7q3i" name="group_challenge.xml" path="/LyChallengeList/"/>
+    <component id="av7q3j" name="btn_challenge.xml" path="/LyChallengeList/"/>
+    <image id="j3rv3m" name="frame_task.png" path="/res/main2/"/>
+    <image id="j3rv3n" name="frame_task detail.png" path="/res/main2/"/>
+    <image id="j3rv3o" name="frame_special null4.png" path="/res/main2/"/>
+    <image id="j3rv3p" name="frame_special null3.png" path="/res/main2/"/>
+    <image id="j3rv3q" name="frame_special null2.png" path="/res/main2/" scale="9grid" scale9grid="23,22,46,44"/>
+    <image id="j3rv3r" name="frame_special null1.png" path="/res/main2/"/>
+    <image id="j3rv3t" name="icon_new letter.png" path="/res/main2/"/>
+    <image id="j3rv3v" name="frame_main.png" path="/res/main2/"/>
+    <image id="j3rv3w" name="frame_level of pond.png" path="/res/main2/"/>
+    <image id="j3rv40" name="frame_attribute.png" path="/res/main2/"/>
+    <image id="j3rv41" name="fex_progress bar.png" path="/res/main2/"/>
+    <image id="j3rv42" name="dec_wave.png" path="/res/main2/" scale9grid="187,37,374,74" gridTile="16"/>
+    <image id="j3rv43" name="frame_null equip.png" path="/res/main2/"/>
+    <image id="j3rv44" name="icon_null letter.png" path="/res/main2/"/>
+    <component id="j3rv46" name="btn_common1.xml" path="/"/>
+    <component id="j3rv47" name="btn_common2.xml" path="/"/>
+    <component id="svlp49" name="LyHomeList.xml" path="/LyHomeList/" exported="true"/>
+    <component id="svlp4a" name="group_faction.xml" path="/LyHomeList/"/>
+    <component id="svlp4b" name="btn_faction.xml" path="/LyHomeList/"/>
+    <image id="kyb44d" name="frame_progress bar_all.png" path="/res/main2/"/>
+    <image id="kyb44e" name="frame_progress bar_now.png" path="/res/main2/"/>
+    <component id="q8va4g" name="btn_gou1.xml" path="/LyAutomation/"/>
+    <component id="q8va4h" name="btn_gou2.xml" path="/LyAutomation/"/>
+    <component id="q8va4i" name="cbox_equip.xml" path="/LyAutomation/"/>
+    <component id="q8va4j" name="cbox_equip1.xml" path="/LyAutomation/"/>
+    <component id="q8va4k" name="cbox_equip1_item.xml" path="/LyAutomation/"/>
+    <component id="q8va4l" name="cbox_equip1_popup.xml" path="/LyAutomation/"/>
+    <component id="q8va4m" name="cbox_equip_item.xml" path="/LyAutomation/"/>
+    <component id="q8va4n" name="cbox_equip_popup.xml" path="/LyAutomation/"/>
+    <image id="q8va4o" name="frame_setting.png" path="/LyAutomation/" scale="9grid" scale9grid="14,13,3,4"/>
+    <component id="hl714p" name="btn_add.xml" path="/"/>
+    <image id="nnam7b" name="icon_friend.png" path="/iconactivitys/" exported="true"/>
+    <image id="hl714q" name="btn_add_economy.png" path="/res/main2/"/>
+    <image id="hl714r" name="frame_economy.png" path="/res/main2/"/>
+    <image id="bhy64s" name="frame_basic profile.png" path="/res/main2/"/>
+    <component id="t0if4t" name="group_equipNull.xml" path="/"/>
+    <image id="t0if4u" name="frame_null equip(1).png" path="/res/main2/"/>
+    <image id="t0if50" name="btn_attribute_drop-down.png" path="/res/main2/"/>
+    <image id="t0if52" name="btn_level up.png" path="/res/main2/"/>
+    <image id="t0if53" name="word_level up.png" path="/res/main2/"/>
+    <image id="t0if54" name="frame_bulletin board.png" path="/res/main2/" scale="9grid" scale9grid="61,7,6,14"/>
+    <component id="jk9756" name="group_datailattredit.xml" path="/"/>
+    <image id="pttz57" name="icon_fishing2.png" path="/res/main2/"/>
+    <image id="pttz58" name="icon_fishing3.png" path="/res/main2/"/>
+    <image id="pttz59" name="icon_fishing1.png" path="/res/main2/"/>
+    <image id="nia25a" name="z_Button_Adventure.png" path="/res/main2/"/>
+    <image id="nia25b" name="z_Button_Challenges.png" path="/res/main2/"/>
+    <image id="nia25c" name="z_Button_Gang.png" path="/res/main2/"/>
+    <image id="nia25d" name="z_Button_Home.png" path="/res/main2/"/>
+    <image id="nia25e" name="z_Button_s_Automatic.png" path="/res/main2/"/>
+    <image id="nia25g" name="dec_wave_02.png" path="/res/main2/"/>
+    <image id="nia25l" name="z_Button_s_Base colour.png" path="/res/main2/"/>
+    <image id="cb8k5n" name="z_miji_Soul.png" path="/res/main2/"/>
+    <image id="nogk5o" name="bg_fish pond.png" path="/LyEvolution/res/" atlas="alone_npot"/>
+    <image id="nogk5p" name="frame_countdown.png" path="/LyEvolution/res/"/>
+    <image id="nogk5q" name="frame_next.png" path="/LyEvolution/res/"/>
+    <image id="nogk5r" name="frame_now.png" path="/LyEvolution/res/"/>
+    <image id="nogk5s" name="frame_prop show.png" path="/LyEvolution/res/" scale="9grid" scale9grid="146,61,292,122"/>
+    <component id="glf55u" name="bar_level.xml" path="/"/>
+    <image id="cj7y79" name="icon_celebration.png" path="/iconactivitys/" exported="true"/>
+    <image id="xpuh5u" name="frame_baixiangge.png" path="/LyHomeList/" exported="true"/>
+    <image id="xpuh5v" name="frame_longmenbiaoju.png" path="/LyHomeList/" exported="true"/>
+    <image id="xpuh5w" name="frame_shouyou.png" path="/LyHomeList/" exported="true"/>
+    <image id="xpuh5x" name="frame_xingnang.png" path="/LyHomeList/" exported="true"/>
+    <image id="xpuh5y" name="frame_doufa.png" path="/LyChallengeList/" exported="true"/>
+    <image id="xpuh5z" name="frame_qunyingbang.png" path="/LyChallengeList/" exported="true"/>
+    <image id="xpuh60" name="frame_tiaozhanyaowang.png" path="/LyChallengeList/" exported="true"/>
+    <image id="xpuh61" name="frame_yishouruqin.png" path="/LyChallengeList/" exported="true"/>
+    <image id="xpuh62" name="frame_zhenyaota.png" path="/LyChallengeList/" exported="true"/>
+    <image id="k0i163" name="frame_rukoudiban.png" path="/LyChallengeList/" scale="9grid" scale9grid="30,30,212,277"/>
+    <component id="l2d764" name="LyActivationOpen.xml" path="/LyActivationOpen/" exported="true"/>
+    <component id="7yma7c" name="Group_Chat.xml" path="/" exported="true"/>
+    <image id="7yma7d" name="frame_talk.png" path="/res/"/>
+    <image id="d37377" name="icon_stele.png" path="/iconactivitys/" exported="true"/>
+    <image id="jpwv7a" name="icon_countdown.png" path="/iconactivitys/" exported="true"/>
+    <image id="l2d765" name="bg_open.png" path="/LyActivationOpen/" atlas="alone_npot"/>
+    <image id="l2d766" name="dec_circle.png" path="/LyActivationOpen/"/>
+    <image id="l2d767" name="dec_cloud1.png" path="/LyActivationOpen/"/>
+    <image id="l2d768" name="dec_cloud2.png" path="/LyActivationOpen/"/>
+    <image id="l2d769" name="dec_function name.png" path="/LyActivationOpen/"/>
+    <image id="l2d76a" name="frame_open.png" path="/LyActivationOpen/"/>
+    <image id="l2d76b" name="word_xingongnengkaiqi.png" path="/LyActivationOpen/"/>
+    <image id="thpg7e" name="frame_xiangong.png" path="/LyHomeList/" exported="true"/>
+    <component id="l2d76e" name="btn_close.xml" path="/LyActivationOpen/"/>
+    <component id="l2d76f" name="btn_back.xml" path="/LyActivationOpen/"/>
+    <component id="l2d76g" name="group_activationOpen.xml" path="/LyActivationOpen/"/>
+    <image id="szl06j" name="frame_renwu.png" path="/res/main2/"/>
+    <image id="szl06o" name="btn_dengji.png" path="/res/main2/"/>
+    <component id="f23h6p" name="group_equip.xml" path="/"/>
+    <image id="gcnf6p" name="btn_yixiezhu.png" path="/LyEvolution/res/"/>
+    <image id="gcnf6q" name="frame_prop show2.png" path="/LyEvolution/res/"/>
+    <component id="gcnf6u" name="group_addSpeed.xml" path="/LyEvolution/" exported="true"/>
+    <image id="yisi7w" name="pic_jinxingtupo.png" path="/res/main2/"/>
+    <component id="yisi7x" name="group_break_point.xml" path="/"/>
+    <component id="mli57y" name="group_palace_point.xml" path="/"/>
+    <image id="d4db6v" name="pic_fishing-rod.png" path="/LyEvolution/res/"/>
+    <image id="oj4e6w" name="pic_fishing rod.png" path="/LyEvolution/res/"/>
+    <image id="d4db6w" name="pic_fishing rod.png" path="/LyEvolution/res/"/>
+    <component id="nexh6x" name="group_automation.xml" path="/LyAutomation/"/>
+    <image id="ihm06y" name="frame_duihuakuang.png" path="/res/main/"/>
+    <component id="dbzf78" name="group_timeAd.xml" path="/LyEvolution/" exported="true"/>
+    <component id="e8n478" name="group_spine_heye.xml" path="/"/>
+    <image id="yqrs7b" name="zjiemian_bg_10x10.png" path="/res/main2/" scale="9grid" scale9grid="2,2,4,4"/>
+    <component id="h28383" name="btn_finger.xml" path="/"/>
+    <image id="kj3584" name="icon_liushibaoxia.png" path="/iconactivitys/" exported="true"/>
+    <component id="ddz87v" name="group_headtop.xml" path="/"/>
+    <image id="sgzj7u" name="pic_langyacifu.png" path="/res/main2/"/>
+    <image id="erkz7g" name="frame_fangdajing.png" path="/res/main2/"/>
+    <image id="ra6b80" name="icon_Sevenday-Ativity.png" path="/iconactivitys/" exported="true"/>
+    <component id="d7qm7g" name="LyDemonPath.xml" path="/LyDemonPath/" exported="true"/>
+    <image id="d7qm7h" name="frame_wudaomilu.png" path="/LyDemonPath/res/"/>
+    <image id="d7qm7i" name="frame_wudaomilu2.png" path="/LyDemonPath/res/"/>
+    <image id="d7qm7k" name="frame_fangdajing.png" path="/res/main2/"/>
+    <component id="d7qm7l" name="group_demon.xml" path="/LyDemonPath/"/>
+    <component id="d7qm7m" name="main_LyDemonPath.xml" path="/LyDemonPath/"/>
+    <image id="koor7n" name="icon_wudao.png" path="/iconactivitys/" exported="true"/>
+    <image id="xk2q7o" name="icon_xialvpaiqian.png" path="/iconactivitys/" exported="true"/>
+    <component id="wgjo7o" name="gourp_boxExp.xml" path="/" exported="true"/>
+    <component id="wgjo7p" name="gourp_boxMoney.xml" path="/" exported="true"/>
+    <component id="wgjo7q" name="group_box.xml" path="/"/>
+    <image id="t18c7r" name="icon_jubaopen.png" path="/iconactivitys/" exported="true"/>
+    <image id="h8u47s" name="frame_lingquan.png" path="/LyHomeList/"/>
+    <image id="h8u47t" name="icon_wuyindao.png" path="/iconactivitys/" exported="true"/>
+    <image id="kzgt7z" name="icon_union-beat.png" path="/iconactivitys/" exported="true"/>
+    <image id="r41c81" name="icon_strong.png" path="/iconactivitys/" exported="true"/>
+    <image id="m7ba85" name="icon_eight-wildernesses.png" path="/iconactivitys/" exported="true"/>
+    <image id="m7ba86" name="icon_fubangtongxing.png" path="/iconactivitys/" exported="true"/>
+    <image id="m7ba87" name="icon_gongchengluedi.png" path="/iconactivitys/" exported="true"/>
+    <image id="dcbp88" name="frame_renwu1.png" path="/res/main2/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

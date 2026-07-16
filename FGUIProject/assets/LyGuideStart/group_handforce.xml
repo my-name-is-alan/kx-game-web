@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" mask="n4_ro68" reversedMask="true">
+  <displayList>
+    <graph id="n0_myrs" name="graph_back" xy="0,0" size="750,1334" type="rect" lineColor="#33000000" fillColor="#33000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n4_ro68" name="graph_hole" xy="325,-240" size="100,100" type="eclipse"/>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="92,111">
+  <displayList>
+    <component id="n4_gur8" name="item_elite" src="o66p4w" fileName="Group_Elite.xml" pkg="27utqbiz" xy="9,0" scale="0.75,0.75"/>
+    <text id="n6_gur8" name="label_name" xy="0,79" size="92,32" fontSize="22" color="#16191a" align="center" vAlign="middle" text="火云邪驼">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

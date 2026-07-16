@@ -1,0 +1,90 @@
+
+cj_jiuchong_baoxiang.png
+size: 443,443
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gaizi_off
+  rotate: true
+  xy: 100, 158
+  size: 148, 100
+  orig: 148, 105
+  offset: 0, 0
+  index: -1
+gaizi_on1
+  rotate: true
+  xy: 320, 36
+  size: 151, 38
+  orig: 151, 45
+  offset: 0, 0
+  index: -1
+gaizi_on2
+  rotate: true
+  xy: 387, 208
+  size: 147, 44
+  orig: 195, 98
+  offset: 24, 19
+  index: -1
+light1
+  rotate: false
+  xy: 2, 308
+  size: 229, 133
+  orig: 290, 150
+  offset: 30, 1
+  index: -1
+light2
+  rotate: true
+  xy: 2, 58
+  size: 248, 96
+  orig: 307, 105
+  offset: 25, 1
+  index: -1
+light3
+  rotate: false
+  xy: 233, 357
+  size: 189, 84
+  orig: 233, 142
+  offset: 20, 32
+  index: -1
+light_point
+  rotate: false
+  xy: 202, 298
+  size: 8, 8
+  orig: 14, 14
+  offset: 3, 3
+  index: -1
+mj1
+  rotate: false
+  xy: 233, 286
+  size: 152, 69
+  orig: 192, 171
+  offset: 22, 44
+  index: -1
+mj2
+  rotate: false
+  xy: 221, 65
+  size: 97, 122
+  orig: 192, 171
+  offset: 50, 28
+  index: -1
+txy1
+  rotate: false
+  xy: 202, 189
+  size: 144, 95
+  orig: 192, 171
+  offset: 21, 29
+  index: -1
+txy2
+  rotate: false
+  xy: 100, 50
+  size: 119, 106
+  orig: 192, 171
+  offset: 40, 31
+  index: -1
+xiangti
+  rotate: true
+  xy: 360, 70
+  size: 136, 81
+  orig: 136, 81
+  offset: 0, 0
+  index: -1

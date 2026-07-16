@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1124,1700" overflow="scroll" scroll="horizontal" scrollBarFlags="128" scrollBar="hidden" designImageOffsetX="148" designImageOffsetY="106" designImageAlpha="62" designImageLayer="1">
+  <displayList>
+    <image id="n9_jos6" name="n9" src="jos61k" fileName="res2/bg_bangpai.png" xy="0,0"/>
+    <loader3D id="n12_r2p3" name="loader_spine_bg" xy="561,849" size="1,1" animation="" skin="" loop="true"/>
+    <component id="n8_hbzk" name="n8" src="d46u3" fileName="btn_place.xml" xy="726,980" size="240,250" visible="false">
+      <Button title="武道争锋"/>
+    </component>
+    <component id="n10_g013" name="btn_clanMerchant" src="g0131w" fileName="btn_clanMerchant.xml" xy="627,853"/>
+    <component id="n13_erkz" name="n13" src="erkza2" fileName="btn_place1.xml" xy="131,401" size="160,250" visible="false">
+      <Button title="帮派争霸"/>
+    </component>
+    <component id="n14_erkz" name="btn_clanTask" src="erkza2" fileName="btn_place1.xml" xy="394,587" size="150,250">
+      <Button title="帮派事务"/>
+    </component>
+    <component id="n15_erkz" name="btn_clanShop" src="erkza2" fileName="btn_place1.xml" xy="677,598" size="150,250">
+      <Button title="帮派商店"/>
+    </component>
+    <component id="n16_erkz" name="btn_clanBattle" src="erkza2" fileName="btn_place1.xml" xy="55,790" size="192,250">
+      <Button title="境地挑战"/>
+    </component>
+    <component id="n17_nvxw" name="btn_clanMain" src="erkza2" fileName="btn_place1.xml" xy="336,901" size="250,250">
+      <Button title="帮派大殿"/>
+    </component>
+  </displayList>
+</component>

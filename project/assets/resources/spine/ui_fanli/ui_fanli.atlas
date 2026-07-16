@@ -1,0 +1,48 @@
+
+ui_fanli.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beiban
+  rotate: false
+  xy: 182, 29
+  size: 493, 149
+  orig: 502, 165
+  offset: 5, 12
+  index: -1
+gd_1
+  rotate: false
+  xy: 731, 87
+  size: 21, 21
+  orig: 25, 25
+  offset: 1, 2
+  index: -1
+yan1_1
+  rotate: true
+  xy: 677, 25
+  size: 83, 52
+  orig: 86, 58
+  offset: 3, 0
+  index: -1
+yan1_2
+  rotate: false
+  xy: 677, 110
+  size: 132, 68
+  orig: 134, 68
+  offset: 2, 0
+  index: -1
+yan2
+  rotate: true
+  xy: 811, 72
+  size: 106, 49
+  orig: 106, 51
+  offset: 0, 2
+  index: -1
+zhusun
+  rotate: true
+  xy: 2, 2
+  size: 176, 178
+  orig: 179, 192
+  offset: 0, 14
+  index: -1

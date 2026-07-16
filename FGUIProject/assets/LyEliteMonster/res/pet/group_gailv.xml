@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n152_9s31" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <image id="n139_9s31" name="n139" src="k1vlm3" fileName="res/frame_public3.png" pkg="qnktu1il" xy="34,441" size="685,392" group="n153_9s31"/>
+    <image id="n141_9s31" name="n141" src="me8jq9" fileName="res/pet/res/frame_yeqian2.png" xy="67,555" size="621,48" group="n153_9s31"/>
+    <text id="n142_9s31" name="n142" xy="121,558" size="133,40" group="n153_9s31" font="ui://27utqbizps391v" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" text="队长品质"/>
+    <text id="n140_9s31" name="n140" xy="251,833" size="253,29" group="n153_9s31" fontSize="20" color="#cfcdc9" align="center" vAlign="middle" autoSize="none" text="点击任意空白处关闭"/>
+    <text id="n137_9s31" name="label_title" xy="269,479" size="211,39" group="n138_9s31" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="队长品质效益"/>
+    <group id="n138_9s31" name="n138" xy="165,479" size="417,39" group="n153_9s31" advanced="true"/>
+    <image id="n136_9s31" name="n136" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="165,480" size="417,38" group="n138_9s31"/>
+    <text id="n143_9s31" name="n143" xy="355,560" size="169,40" group="n153_9s31" font="ui://27utqbizps391v" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" text="队伍收益加成"/>
+    <text id="n144_9s31" name="n144" xy="146,702" size="89,36" group="n154_ipw4" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" text="橙色"/>
+    <loader id="n146_9s31" name="n146" xy="259,701" size="341,40" group="n154_ipw4" url="ui://27utqbizi11vv5" fill="scaleFree"/>
+    <text id="n148_9s31" name="n148" xy="403,701" size="83,42" group="n154_ipw4" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="99%"/>
+    <image id="n150_9s31" name="n150" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="384,739" size="32,20" group="n154_ipw4" aspect="true" rotation="-90"/>
+    <group id="n154_ipw4" name="n154" xy="146,701" size="454,58" group="n153_9s31"/>
+    <text id="n145_9s31" name="n145" xy="146,633" size="89,36" group="n155_ipw4" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" text="红色"/>
+    <loader id="n147_9s31" name="n147" xy="258,632" size="341,40" group="n155_ipw4" url="ui://27utqbizi11vv5" fill="scaleFree"/>
+    <text id="n149_9s31" name="n149" xy="402,632" size="83,42" group="n155_ipw4" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="20%"/>
+    <image id="n151_9s31" name="n151" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="383,670" size="32,20" group="n155_ipw4" aspect="true" rotation="-90"/>
+    <group id="n155_ipw4" name="n155" xy="146,632" size="453,58" group="n153_9s31"/>
+    <group id="n153_9s31" name="n153" xy="34,441" size="685,421" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

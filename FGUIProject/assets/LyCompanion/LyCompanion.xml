@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetY="-213" designImageLayer="1">
+  <controller name="c1" pages="0,,1," selected="1">
+    <remark page="0" value="仙友"/>
+    <remark page="1" value="游历"/>
+  </controller>
+  <displayList>
+    <component id="n35_fj2b" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n50_isiv" name="main" src="ql4f3z" fileName="group_companionMain.xml" xy="-1,93">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

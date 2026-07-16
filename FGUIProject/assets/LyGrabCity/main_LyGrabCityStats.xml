@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="634,783">
+  <displayList>
+    <image id="n2_m4h7" name="n2" src="k1vlm3" fileName="res/frame_public3.png" pkg="qnktu1il" xy="0,0" size="634,754">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n13_m4h7" name="n13" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="26,81" size="582,303"/>
+    <image id="n3_m4h7" name="n3" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="104,34" size="420,38">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n5_m4h7" name="label_title" xy="233,30" size="166,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="城池属性">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <list id="n6_m4h7" name="list_all" xy="64,89" size="532,291" overflow="scroll" lineGap="6" defaultItem="ui://i35cf1mqm4h7du19i" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n14_m4h7" name="n14" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="25,485" size="582,232"/>
+    <image id="n15_m4h7" name="n15" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="108,397" size="420,38">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n16_m4h7" name="label_title2" xy="233,395" size="166,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="贡献详情">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n18_m4h7" name="n18" src="jhmn2p" fileName="res/frame_black.png" xy="44,447" size="542,37"/>
+    <text id="n19_m4h7" name="n19" xy="125,448" size="96,32" font="ui://27utqbizps391v" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="成员"/>
+    <text id="n20_m4h7" name="n20" xy="414,448" size="96,32" font="ui://27utqbizps391v" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="贡献值"/>
+    <list id="n23_m4h7" name="list_all2" xy="20,488" size="594,230" overflow="scroll" lineGap="-6" defaultItem="ui://i35cf1mqm4h7du19j" align="center" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n24_m4h7" name="n24" xy="225,754" size="184,29" fontSize="20" color="#cfcdc9" align="center" text="点击任意空白处关闭"/>
+  </displayList>
+</component>

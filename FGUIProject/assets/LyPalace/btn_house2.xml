@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="340,300" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_h5a9" name="n0" src="h5a97" fileName="res/icon_house2.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_h5a9" name="n1" src="h5a9d" fileName="res/frame_landmark.png" xy="22,33" group="n4_pwyq" pkg="27utqbiz"/>
+    <text id="n2_h5a9" name="title" xy="26,5" size="41,276" group="n4_pwyq" font="ui://27utqbizps391v" fontSize="31" color="#ffebb6" align="center" vAlign="middle" leading="0" autoSize="none" text="啊士大夫"/>
+    <group id="n4_pwyq" name="group_title" xy="22,5" size="48,278" advanced="true"/>
+    <image id="n3_pwyq" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="240,20" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

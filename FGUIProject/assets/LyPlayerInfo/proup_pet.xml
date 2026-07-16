@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,549" designImageOffsetX="-158" designImageOffsetY="-591" designImageAlpha="100">
+  <displayList>
+    <image id="n1_gur8" name="n1" src="rvb52y" fileName="ui/frame_tihuanzhanshi.png" pkg="27utqbiz" xy="0,0" size="440,549"/>
+    <loader id="n2_gur8" name="Loader_qu" xy="20,5" size="400,46" url="ui://27utqbizrvb53a"/>
+    <component id="n4_gur8" name="group_icon" src="o66p4w" fileName="Group_Elite.xml" pkg="27utqbiz" xy="180,64" scale="0.8,0.8"/>
+    <text id="n6_gur8" name="label_name" xy="119,146" size="195,32" fontSize="22" color="#16191a" vAlign="middle" autoClearText="true" text="Lv200 4阶火云邪神">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <graph id="n13_gur8" name="n13" xy="31,196" size="378,100" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <text id="n14_gur8" name="label_skill" xy="40,198" size="74,32" fontSize="22" color="#16191a" vAlign="middle" autoClearText="true" text="青龙11"/>
+    <component id="n18_gur8" name="label_skillDec" src="psu41a" fileName="group_dec.xml" xy="40,231"/>
+    <text id="n25_gur8" name="label_str106" xy="158,7" size="124,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" vAlign="middle" strokeColor="#000000" text="侠侣详情"/>
+    <graph id="n48_gur8" name="n48" xy="31,313" size="378,137" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <image id="n26_gur8" name="n26" src="rvb53c" fileName="ui/dec_tihuanzhanshi_frame_top_left_corner.png" pkg="27utqbiz" xy="21,51"/>
+    <text id="n30_gur8" name="label_attr2" xy="113,350" size="91,32" fontSize="22" color="#14980e" vAlign="middle" autoClearText="true" text="+9699万"/>
+    <text id="n31_gur8" name="label_attrName2" xy="48,350" size="48,32" fontSize="22" color="#16191a" vAlign="middle" autoClearText="true" text="攻击"/>
+    <text id="n32_gur8" name="label_attr3" xy="113,382" size="91,32" fontSize="22" color="#14980e" vAlign="middle" autoClearText="true" text="+9699万"/>
+    <text id="n33_gur8" name="label_attrName3" xy="48,382" size="48,32" fontSize="22" color="#16191a" vAlign="middle" autoClearText="true" text="攻击"/>
+    <text id="n36_gur8" name="label_attr1" xy="307,350" size="91,32" fontSize="22" color="#14980e" vAlign="middle" autoClearText="true" text="+9699万"/>
+    <text id="n37_gur8" name="label_attrName1" xy="238,350" size="48,32" fontSize="22" color="#16191a" vAlign="middle" autoClearText="true" text="攻击"/>
+    <text id="n40_gur8" name="n40" xy="334,126" size="48,32" visible="false" fontSize="22" color="#16191a" vAlign="middle" autoClearText="true" text="协同"/>
+    <component id="n41_gur8" name="n41" src="o66p4w" fileName="Group_Elite.xml" pkg="27utqbiz" xy="334,75" scale="0.5,0.5" visible="false"/>
+    <text id="n42_gur8" name="label_level" xy="110,198" size="83,32" fontSize="22" color="#16191a" vAlign="middle" autoClearText="true" text="（7级）">
+      <relation target="n14_gur8" sidePair="right-right"/>
+    </text>
+    <component id="n43_gur8" name="group_buff1" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="33,454" scale="0.75,0.75" touchable="false"/>
+    <component id="n44_gur8" name="group_buff2" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="129,454" scale="0.75,0.75" touchable="false"/>
+    <component id="n45_gur8" name="group_buff3" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="226,454" scale="0.75,0.75" touchable="false"/>
+    <component id="n46_gur8" name="group_buff4" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="323,454" scale="0.75,0.75" touchable="false"/>
+    <text id="n47_gur8" name="label_str103" xy="175,315" size="92,32" fontSize="22" color="#16191a" vAlign="middle" autoClearText="true" text="属性加成"/>
+    <graph id="n49_i2mk" name="n49" xy="21,449" size="398,100" type="rect" lineColor="#00ff0000" fillColor="#00ffffff"/>
+  </displayList>
+</component>

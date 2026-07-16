@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,150">
+  <displayList>
+    <graph id="n15_i26e" name="n15" xy="0,0" size="640,150" type="rect" lineSize="0" fillColor="#fff4eee5" corner="10"/>
+    <component id="n16_ir1m" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="29,7" touchable="false"/>
+    <image id="n5_i26e" name="n5" src="i26esm" fileName="ui/frame_jingjie.png" pkg="27utqbiz" xy="17,103" size="160,40" scale="0.8,0.8"/>
+    <image id="n6_i26e" name="n6" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="168,73" scale="0.9,0.9"/>
+    <text id="n11_i26e" name="label_name" xy="165,32" size="172,34" fontSize="24" text="玩家名字七个字"/>
+    <text id="n12_i26e" name="label_combatPower" xy="219,88" size="90,42" font="ui://27utqbizvkas4q" fontSize="24" vAlign="middle" leading="0" letterSpacing="-5" text="124"/>
+    <component id="n13_i26e" name="btn_blockPlayer" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="414,44">
+      <Button title="移除"/>
+    </component>
+    <text id="n14_i26e" name="label_level" xy="-15,109" size="200,24" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#a75522" text="12435">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

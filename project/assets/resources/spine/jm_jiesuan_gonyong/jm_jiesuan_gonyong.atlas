@@ -1,0 +1,55 @@
+
+jm_jiesuan_gonyong.png
+size: 557,557
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_shanlou
+  rotate: false
+  xy: 2, 424
+  size: 548, 131
+  orig: 548, 140
+  offset: 0, 9
+  index: -1
+frame_taiyang
+  rotate: true
+  xy: 444, 167
+  size: 255, 111
+  orig: 258, 112
+  offset: 1, 1
+  index: -1
+gongyontankuang_01
+  rotate: false
+  xy: 2, 83
+  size: 276, 48
+  orig: 276, 48
+  offset: 0, 0
+  index: -1
+gongyontankuang_04
+  rotate: false
+  xy: 2, 182
+  size: 253, 240
+  orig: 265, 256
+  offset: 5, 7
+  index: -1
+light
+  rotate: true
+  xy: 257, 178
+  size: 244, 185
+  orig: 300, 235
+  offset: 28, 25
+  index: -1
+light_point
+  rotate: false
+  xy: 345, 140
+  size: 35, 36
+  orig: 61, 60
+  offset: 14, 13
+  index: -1
+tx_1
+  rotate: false
+  xy: 2, 133
+  size: 341, 43
+  orig: 364, 49
+  offset: 2, 4
+  index: -1

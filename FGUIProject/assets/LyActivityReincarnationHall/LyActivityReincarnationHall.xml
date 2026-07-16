@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n3_upe3" name="n3" src="upe3k" fileName="res/bg_lunhuidianbeijing2.png" xy="0,0"/>
+    <loader id="n23_fk1y" name="loader_poster" xy="325,268" size="100,100" url="ui://cv8q519nk8j01f" align="center" vAlign="middle" clearOnPublish="true"/>
+    <component id="n16_vvmq" name="btn_close" src="vvmqt" fileName="btn_close.xml" xy="0,33"/>
+    <component id="n17_vvmq" name="btn_detail" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="242,14"/>
+    <image id="n11_upe3" name="n11" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="80,131" group="n15_upe3"/>
+    <loader id="n12_upe3" name="n12" xy="62,126" size="40,40" group="n15_upe3" url="ui://27utqbizf4zx6o" fill="scaleFree"/>
+    <text id="n13_upe3" name="label_chance" xy="83,129" size="130,34" group="n15_upe3" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text=""/>
+    <component id="n14_upe3" name="btn_addchance" src="jzhdz" fileName="btn_add3.xml" pkg="27utqbiz" xy="199,120" group="n15_upe3"/>
+    <group id="n15_upe3" name="n15" xy="62,120" size="189,52"/>
+    <image id="n25_hdbv" name="n25" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="268,131" group="n29_hdbv"/>
+    <loader id="n26_hdbv" name="n26" xy="250,126" size="40,40" group="n29_hdbv" url="ui://27utqbizh6d7j" fill="scaleFree"/>
+    <text id="n27_hdbv" name="label_stone" xy="271,129" size="130,34" group="n29_hdbv" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text=""/>
+    <component id="n28_hdbv" name="btn_add" src="jzhdz" fileName="btn_add3.xml" pkg="27utqbiz" xy="387,120" group="n29_hdbv"/>
+    <group id="n29_hdbv" name="n29" xy="250,120" size="189,52"/>
+    <component id="n7_upe3" name="btn_goto" src="upe3q" fileName="btn_goto.xml" xy="543,455"/>
+    <image id="n4_upe3" name="n4" src="upe3l" fileName="res/bg_lunhuidianbeijing3.png" xy="-1,444" size="750,890">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </image>
+    <image id="n20_dwjn" name="n20" src="dwjn16" fileName="res/frame_ziyuanxiangqingbuchongshuoming2.png" xy="-91,427"/>
+    <text id="n10_upe3" name="label_time" xy="50,429" size="10,32" fontSize="22" color="#2b841c" align="center" vAlign="middle" text=""/>
+    <image id="n8_upe3" name="img_lunci" src="upe3r" fileName="res/frame_mingzidibanlan.png" xy="8,482"/>
+    <text id="n9_upe3" name="label_lunci" xy="50,483" size="10,32" font="ui://27utqbizps391v" fontSize="22" color="#ffffff" vAlign="middle" text=""/>
+    <list id="n5_upe3" name="list_tab1" xy="0,530" size="750,710" overflow="scroll" margin="10,0,0,0" lineGap="10" defaultItem="ui://cv8q519nupe3g">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </list>
+    <list id="n6_upe3" name="list_tab2" xy="0,530" size="750,710" overflow="scroll" margin="10,0,0,0" lineGap="10" defaultItem="ui://cv8q519nupe3e" autoClearItems="true">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n24_vv89" name="n24" src="vv891h" fileName="res/frame_zhezhao.png" xy="0,1210" flip="vt">
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <component id="n21_8fbs" name="btn_tab1" src="8fbsmx" fileName="btn_tab.xml" pkg="27utqbiz" xy="230,1210">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n22_8fbs" name="btn_tab2" src="8fbsmx" fileName="btn_tab.xml" pkg="27utqbiz" xy="410,1210">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

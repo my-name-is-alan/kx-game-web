@@ -1,0 +1,62 @@
+
+ui_zhujiemian_jingyantiao.png
+size: 656,525
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ui_jytzz1/ui_jytzz1_00
+  rotate: true
+  xy: 454, 85
+  size: 123, 80
+  orig: 765, 231
+  offset: 84, 80
+  index: -1
+images/ui_jytzz1/ui_jytzz1_02
+  rotate: false
+  xy: 2, 105
+  size: 450, 103
+  orig: 765, 231
+  offset: 80, 69
+  index: -1
+images/ui_jytzz1/ui_jytzz1_04
+  rotate: false
+  xy: 2, 315
+  size: 563, 103
+  orig: 765, 231
+  offset: 79, 69
+  index: -1
+images/ui_jytzz1/ui_jytzz1_06
+  rotate: false
+  xy: 2, 420
+  size: 569, 103
+  orig: 765, 231
+  offset: 80, 69
+  index: -1
+images/ui_jytzz1/ui_jytzz1_08
+  rotate: false
+  xy: 2, 210
+  size: 546, 103
+  orig: 765, 231
+  offset: 108, 69
+  index: -1
+images/ui_jytzz1/ui_jytzz1_10
+  rotate: false
+  xy: 2, 2
+  size: 435, 101
+  orig: 765, 231
+  offset: 218, 70
+  index: -1
+images/ui_jytzz1/ui_jytzz1_12
+  rotate: true
+  xy: 550, 24
+  size: 289, 96
+  orig: 765, 231
+  offset: 360, 72
+  index: -1
+images/ui_jytzz1/ui_jytzz1_14
+  rotate: true
+  xy: 573, 379
+  size: 144, 81
+  orig: 765, 231
+  offset: 502, 81
+  index: -1

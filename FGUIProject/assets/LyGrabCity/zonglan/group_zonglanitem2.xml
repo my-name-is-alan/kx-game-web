@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="586,40">
+  <displayList>
+    <image id="n36_mo4u" name="n36" src="k7xe8" fileName="zonglan/frame_zonglan4.png" xy="0,0"/>
+    <text id="n37_mo4u" name="label_sort" xy="29,4" size="77,31" fontSize="22" text="第{0}名">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n38_mo4u" name="label_step1" xy="255,4" size="77,31" fontSize="22" text="第{0}名">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n39_mo4u" name="label_step2" xy="475,4" size="77,31" fontSize="22" text="第{0}名">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

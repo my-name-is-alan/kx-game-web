@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n0_o66p" name="btn_back" src="v3t50" fileName="btn_back.xml" xy="0,0" alpha="0.01">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_o66p" name="group_main" src="o66p4z" fileName="group_eliteTips.xml" xy="212,391"/>
+  </displayList>
+</component>

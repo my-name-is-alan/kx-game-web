@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900">
+  <displayList>
+    <image id="n0_zars" name="n0" src="k7xe1k" fileName="towerpan/bg_jiuchongbaota.png" xy="0,-400"/>
+    <image id="n6_zars" name="n6" src="k7xe2" fileName="towerpan/word_jiuchongbaota.png" xy="105,-135"/>
+    <image id="n1_zars" name="n1" src="k7xeh" fileName="towerpan/frame_jiuchongbaota.png" xy="126,-5"/>
+    <text id="n2_zars" name="label_name" xy="311,3" size="127,49" font="ui://27utqbizps391v" fontSize="36" color="#4d2b16" align="center" vAlign="middle" autoClearText="true" text="第{0}重">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n3_zars" name="n3" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="308,65"/>
+    <loader id="n4_zars" name="loader_icon" xy="323,60" size="40,40" fill="scaleFree">
+      <relation target="n5_zars" sidePair="right-left"/>
+    </loader>
+    <text id="n5_zars" name="label_count" xy="371,63" size="10,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n7_j4mu" name="group_baoxiang1" src="j4mudu191" fileName="towerpan/group_baoxiang.xml" xy="30,105"/>
+    <component id="n8_j4mu" name="group_baoxiang2" src="j4mudu191" fileName="towerpan/group_baoxiang.xml" xy="275,105"/>
+    <component id="n9_j4mu" name="group_baoxiang3" src="j4mudu191" fileName="towerpan/group_baoxiang.xml" xy="520,105"/>
+    <component id="n10_j4mu" name="group_baoxiang4" src="j4mudu191" fileName="towerpan/group_baoxiang.xml" xy="30,315"/>
+    <component id="n11_j4mu" name="group_baoxiang5" src="j4mudu191" fileName="towerpan/group_baoxiang.xml" xy="275,315"/>
+    <component id="n12_j4mu" name="group_baoxiang6" src="j4mudu191" fileName="towerpan/group_baoxiang.xml" xy="520,315"/>
+    <component id="n13_j4mu" name="group_baoxiang7" src="j4mudu191" fileName="towerpan/group_baoxiang.xml" xy="30,525"/>
+    <component id="n14_j4mu" name="group_baoxiang8" src="j4mudu191" fileName="towerpan/group_baoxiang.xml" xy="275,525"/>
+    <component id="n15_j4mu" name="group_baoxiang9" src="j4mudu191" fileName="towerpan/group_baoxiang.xml" xy="520,525"/>
+  </displayList>
+</component>

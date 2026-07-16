@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <loader id="n6_psu4" name="icon" xy="0,0" size="80,80" url="ui://li7lbnd9psu42m">
+      <gearLook controller="button" pages="0,1,2,3" values="1,0,1,1|1,0,0,1|1,0,1,1|1,0,0,1"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

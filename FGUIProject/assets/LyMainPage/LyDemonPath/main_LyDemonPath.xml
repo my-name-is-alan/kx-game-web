@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="772,1131">
+  <displayList>
+    <loader id="n1_d7qm" name="n1" xy="0,0" size="701,1105" url="ui://27utqbizrvb533" fill="scaleFree">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n3_d7qm" name="n3" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="554,923"/>
+    <richtext id="n5_d7qm" name="label_title" xy="22,24" size="172,65" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" autoClearText="true" text="[size=46]鱼[/size]糖">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n6_d7qm" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="641,38">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <list id="n7_d7qm" name="list_all" xy="29,119" size="664,936" overflow="scroll" lineGap="7" defaultItem="ui://2uzp0flsd7qm7l" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

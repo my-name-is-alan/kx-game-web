@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="649,158" designImage="ui://8rnw66xwr2p37p" designImageOffsetX="-390" designImageOffsetY="-488" designImageAlpha="0">
+  <displayList>
+    <image id="n10_r2p3" name="n10" src="y9su1l" fileName="ui/frame_link.png" pkg="27utqbiz" xy="0,0" size="649,158"/>
+    <text id="n0_hbzk" name="label_dec" xy="16,9" size="118,34" fontSize="24" color="#16191a" text="钓鱼100次"/>
+    <list id="n1_hbzk" name="list_item" xy="30,54" size="344,100" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="18" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n6_r2p3" name="bar_num" src="abrum" fileName="bar_count.xml" pkg="27utqbiz" xy="363,13" size="269,26">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n7_r2p3" name="n7" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="457,71" group="n8_r2p3"/>
+    <text id="n2_hbzk" name="n2" xy="490,78" size="94,42" group="n8_r2p3" font="ui://27utqbizps391v" fontSize="30" color="#f3ffec" align="center" vAlign="middle" text="已领取"/>
+    <group id="n8_r2p3" name="label_state3" xy="457,71" size="158,58" advanced="true"/>
+    <component id="n12_nvxw" name="btn_takeTaskBonuses" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="445,74" size="188,52" visible="false">
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n11_rajy" name="btn_go" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="445,74" size="188,52" visible="false">
+      <Button title="前往" titleFontSize="30"/>
+    </component>
+  </displayList>
+</component>

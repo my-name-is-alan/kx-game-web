@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n9_ne2h" name="n9" src="ne2h19" fileName="res/word_day reward_unselected.png" xy="29,12">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n5_ne2h" name="n5" src="bh806" fileName="ui/frame_selected tab.png" pkg="27utqbiz" xy="0,0" group="n7_ne2h"/>
+    <image id="n8_ne2h" name="n8" src="ne2h1c" fileName="res/word_day reward_selected.png" xy="29,12" group="n7_ne2h"/>
+    <group id="n7_ne2h" name="n7" xy="0,0" size="170,60" advanced="true">
+      <gearDisplay controller="button" pages="1,3"/>
+    </group>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

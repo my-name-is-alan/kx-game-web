@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" pages="0,,1," selected="0">
+    <remark page="0" value="任务"/>
+    <remark page="1" value="协助"/>
+  </controller>
+  <displayList>
+    <component id="n2_hbzk" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_hbzk" name="group_clanMerchant" src="o1e820" fileName="group_clanMerchant.xml" xy="0,132">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

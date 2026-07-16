@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="712,905">
+  <displayList>
+    <image id="n23_tojh" name="n23" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,25" pivot="1,0" size="698,880"/>
+    <component id="n3_agvw" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="634,0"/>
+    <image id="n20_tojh" name="n20" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="159,60" size="376,38"/>
+    <text id="n21_tojh" name="label_title" xy="316,58" size="73,40" font="ui://27utqbizps391v" fontSize="29" vAlign="middle" letterSpacing="-3" autoSize="none" text="记录"/>
+    <list id="n38_tojh" name="list_all" xy="30,114" size="643,757" overflow="scroll" lineGap="24" defaultItem="ui://rtusdzu1tojh1n" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

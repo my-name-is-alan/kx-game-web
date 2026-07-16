@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1700">
+  <displayList>
+    <image id="n46_x3dl" name="n46" src="h8u44" fileName="res/bg_ditu.png" xy="0,0"/>
+    <component id="n47_bbpl" name="n1" src="bbplng" fileName="group_name.xml" xy="196,872"/>
+    <component id="n50_bbpl" name="n2" src="bbplng" fileName="group_name.xml" xy="595,614"/>
+    <component id="n51_bbpl" name="n3" src="bbplng" fileName="group_name.xml" xy="365,297"/>
+    <component id="n45_x3dl" name="group_mapTx" src="x3dlmp" fileName="group_mapTx.xml" xy="480,297"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n45_x3dl" tween="true" startValue="1" endValue="0.25" duration="8"/>
+    <item time="8" type="Alpha" target="n45_x3dl" tween="true" startValue="0.25" endValue="1" duration="9"/>
+    <item time="17" type="Alpha" target="n45_x3dl" tween="true" startValue="1" endValue="0.25" duration="9"/>
+    <item time="26" type="Alpha" target="n45_x3dl" tween="true" startValue="0.25" endValue="1" duration="9"/>
+    <item time="35" type="Alpha" target="n45_x3dl" value="1"/>
+  </transition>
+</component>

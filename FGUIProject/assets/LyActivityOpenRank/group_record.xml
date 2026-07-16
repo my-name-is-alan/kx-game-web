@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1040">
+  <displayList>
+    <image id="n73_liu3" name="n73" src="liu3du176" fileName="comombg/frame_tanchuang.png" pkg="27utqbiz" xy="-6,-85" size="762,1140">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </image>
+    <loader3D id="n68_cgob" name="loader_effect3" xy="374,418" size="1,1" animation="" skin="" loop="true"/>
+    <loader3D id="n66_cgob" name="loader_effect" xy="54,59" size="1,1" animation="" skin="" loop="true"/>
+    <component id="n44_a0tr" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="648,-20"/>
+    <image id="n70_liu3" name="n70" src="lr1w4" fileName="record/word_fubangtongxing2.png" xy="33,-36"/>
+    <image id="n71_liu3" name="n71" src="lr1w5" fileName="record/word_July reward.png" xy="360,74"/>
+    <list id="n11_cjmr" name="list_item" xy="31,129" size="676,861" overflow="scroll" defaultItem="ui://6fyplu3lliu311" align="center" autoClearItems="true">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

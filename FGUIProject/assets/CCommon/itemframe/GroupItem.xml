@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" designImage="ui://27utqbizgqduvr" designImageOffsetX="-454" designImageOffsetY="-331">
+  <controller name="con_star" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <loader id="n4_ewyh" name="loader_back" xy="0,0" size="100,100" url="ui://27utqbizar1l6v" clearOnPublish="true">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <loader id="n5_ewyh" name="loader_icon" xy="0,0" size="100,100" url="ui://h1d08dw1gm8n2k" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <image id="n7_nvlr" name="img_count" src="y9su54" fileName="ui/frame_menke level.png" xy="46,69" size="52,28" group="n11_nogk" visible="false">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <text id="n3_ewyh" name="label_count" xy="55,68" size="40,32" group="n11_nogk" font="ui://27utqbizps391v" fontSize="22" color="#ffffff" vAlign="middle" strokeColor="#2a2a2a" strokeSize="2" autoClearText="true" text="123">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <group id="n11_nogk" name="group_count" xy="46,68" size="52,32" advanced="true"/>
+    <loader3D id="n8_pttz" name="loader_spine_item" xy="49,49" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <graph id="n9_e7fb" name="img_dark" xy="0,0" size="100,100" visible="false" touchable="false" type="rect" lineColor="#4c000000" fillColor="#4c000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n10_e7fb" name="img_check" src="u71x12" fileName="ui/img_gou.png" xy="30,31" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n12_oswz" name="img_lock" src="ar1l16" fileName="ui/icon_lock.png" xy="55,6" visible="false"/>
+    <loader3D id="n22_wgjo" name="loader_spine_new" xy="49,49" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <component id="n2_ewyh" name="btn_frame" src="ewyhe" fileName="itemframe/btn_item.xml" xy="0,0" size="100,100">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n20_p1qs" name="loader_superscript" xy="97,9" size="2,2" touchable="false" url="ui://27utqbizaox6137" align="center" vAlign="middle" clearOnPublish="true"/>
+    <component id="n19_gqdu" name="group_star" src="gqduvs" fileName="itemframe/group_star.xml" xy="-7,3" visible="false" touchable="false"/>
+    <image id="n21_srs4" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="84,-6" visible="false"/>
+  </displayList>
+</component>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="i35cf1mq">
+  <resources>
+    <image id="k7xe1" name="bg_chengchi.png" path="/res/" exported="true" duplicatePadding="true"/>
+    <image id="k7xe2" name="word_jiuchongbaota.png" path="/towerpan/"/>
+    <image id="k7xe3" name="word_jingong.png" path="/res/"/>
+    <image id="k7xe4" name="word_gongchengluedi.png" path="/res/"/>
+    <image id="k7xe5" name="word_gognchengliqi.png" path="/res/"/>
+    <image id="k7xe6" name="word_chongzhibaota.png" path="/towerpan/" exported="true"/>
+    <image id="k7xe7" name="frame_zonglan5.png" path="/zonglan/" scale="9grid" scale9grid="152,112,304,224"/>
+    <image id="k7xe8" name="frame_zonglan4.png" path="/zonglan/"/>
+    <image id="k7xe9" name="word_qianwangxiayiceng.png" path="/towerpan/" exported="true"/>
+    <image id="k7xea" name="frame_zonglan3.png" path="/zonglan/"/>
+    <image id="k7xeb" name="frame_zonglan.png" path="/zonglan/"/>
+    <image id="k7xec" name="frame_xinxidi.png" path="/res/"/>
+    <image id="k7xed" name="frame_wode.png" path="/res/"/>
+    <image id="k7xee" name="frame_qizhitianjia2.png" path="/guess/"/>
+    <image id="k7xef" name="frame_qizhitianjia.png" path="/guess/"/>
+    <image id="k7xeg" name="frame_qizhirenshu.png" path="/guess/"/>
+    <image id="k7xeh" name="frame_jiuchongbaota.png" path="/towerpan/"/>
+    <image id="k7xei" name="frame_zonglan2.png" path="/zonglan/" scale="9grid" scale9grid="146,25,292,50"/>
+    <image id="k7xe13" name="frame_jingcaijiangli2.png" path="/res/"/>
+    <image id="k7xe15" name="frame_jingcaijiangli.png" path="/res/" scale="9grid" scale9grid="299,34,127,68"/>
+    <image id="k7xe16" name="frame_jinengdi.png" path="/res/"/>
+    <image id="k7xe17" name="frame_bangpainame.png" path="/guess/"/>
+    <image id="k7xe18" name="frame_3.png" path="/res/" exported="true"/>
+    <image id="k7xe19" name="frame_2.png" path="/res/" exported="true"/>
+    <image id="k7xe1a" name="frame_1.png" path="/res/" exported="true"/>
+    <image id="k7xe1b" name="btn_zonglan.png" path="/res/"/>
+    <image id="k7xe1c" name="btn_zhuchengjiliang.png" path="/res/"/>
+    <image id="k7xe1d" name="btn_jiuchongbaota.png" path="/res/"/>
+    <image id="k7xe1e" name="frame_biaoqian.png" path="/guess/"/>
+    <image id="k7xe1f" name="btn_jingcai.png" path="/res/"/>
+    <image id="k7xe1g" name="btn_gongchengliqi.png" path="/res/"/>
+    <image id="k7xe1h" name="btn_fenzu.png" path="/res/"/>
+    <image id="k7xe1i" name="btn_bangpaixieli.png" path="/res/"/>
+    <image id="k7xe1j" name="btn-fenzupaiming.png" path="/res/"/>
+    <image id="k7xe1k" name="bg_jiuchongbaota.png" path="/towerpan/" atlas="alone_npot"/>
+    <component id="j4mudu191" name="group_baoxiang.xml" path="/towerpan/"/>
+    <component id="j4mudu192" name="LyGrabCityTowerReward.xml" path="/" exported="true"/>
+    <component id="j4mudu193" name="group_towerreward.xml" path="/towerpan/"/>
+    <component id="j4mudu194" name="group_towerrewarditem.xml" path="/towerpan/"/>
+    <image id="k7xe1l" name="bg_gongchengluedi.png" path="/res/" atlas="alone_npot"/>
+    <image id="k7xe1m" name="bg_chengchi2.png" path="/res/" exported="true" duplicatePadding="true"/>
+    <image id="k7xe1n" name="btn_jiangliyulan.png" path="/towerpan/"/>
+    <image id="k7xe1o" name="frame_chakanfenzu.png" path="/res/"/>
+    <image id="k7xe1p" name="frame_chakanfenzu2.png" path="/res/"/>
+    <image id="k7xe1q" name="frame_chakanfenzu3.png" path="/res/"/>
+    <image id="k7xe1r" name="frame_jianglidi2.png" path="/res/" scale="9grid" scale9grid="131,35,262,70"/>
+    <image id="k7xe1s" name="frame_jianglidi.png" path="/res/"/>
+    <image id="k7xe1t" name="frame_gongxianfenzu.png" path="/res/"/>
+    <image id="k7xe1u" name="frame_gongchengliqi2.png" path="/res/"/>
+    <image id="k7xe1v" name="frame_gongchengliqi.png" path="/res/" atlas="alone_npot"/>
+    <image id="k7xe1w" name="frame_fenzumingzhuangshi.png" path="/res/"/>
+    <image id="k7xe1x" name="frame_duizhanri.png" path="/zonglan/"/>
+    <image id="k7xe1y" name="frame_chengchimengban.png" path="/res/"/>
+    <image id="k7xe1z" name="frame_chengchi3_zero.png" path="/res/" exported="true"/>
+    <image id="k7xe24" name="frame_chengchi2.png" path="/res/" exported="true"/>
+    <image id="k7xe25" name="frame_chengchi1_zero.png" path="/res/" exported="true"/>
+    <image id="k7xe26" name="frame_chengchi1.png" path="/res/" exported="true"/>
+    <image id="k7xe27" name="frame_chakanfenzu4.png" path="/res/"/>
+    <image id="k7xe28" name="frame_jinengdi2.png" path="/res/"/>
+    <component id="k7xe2a" name="group_severText.xml" path="/"/>
+    <image id="k7xe2b" name="btn_libao.png" path="/res/"/>
+    <image id="k7xe2c" name="btn_biji.png" path="/res/"/>
+    <image id="k7xe2d" name="btn_hunpo.png" path="/res/"/>
+    <component id="1093udu19b" name="LyGrabCityGuess.xml" path="/" exported="true"/>
+    <component id="1093udu19c" name="group_guess.xml" path="/guess/"/>
+    <component id="1093udu19d" name="btn_reward.xml" path="/guess/"/>
+    <component id="1093udu19e" name="group_guessadd.xml" path="/guess/"/>
+    <image id="k7xe2e" name="frame_baomingdi.png" path="/res/"/>
+    <component id="k7xe2f" name="Button1.xml" path="/"/>
+    <image id="k7xe2g" name="btn_yuandi.png" path="/res/"/>
+    <image id="k7xe2h" name="word_jinru.png" path="/res/"/>
+    <component id="k7xe2i" name="LyGrabCity.xml" path="/" exported="true"/>
+    <component id="jhmn2j" name="LyGrabCityZone.xml" path="/" exported="true"/>
+    <component id="jhmn2k" name="group_city.xml" path="/" exported="true"/>
+    <component id="jhmndu188" name="bar_level(1).xml" path="/" exported="true"/>
+    <component id="jhmn2n" name="ProgressBar1.xml" path="/"/>
+    <image id="jhmn2o" name="frame_xichenqingquanname.png" path="/res/"/>
+    <image id="jhmn2p" name="frame_black.png" path="/res/"/>
+    <image id="jv6udu189" name="frame_xiuzhan.png" path="/res/"/>
+    <image id="jv6udu18a" name="icon_level12.png" path="/res/"/>
+    <component id="jv6udu18b" name="draw_city.xml" path="/"/>
+    <component id="jv6udu18c" name="main_LyGrabCityZone.xml" path="/"/>
+    <component id="jv6udu18d" name="main_uiLyGrabCityZone.xml" path="/"/>
+    <component id="jv6udu18e" name="combo_prop3.xml" path="/" exported="true"/>
+    <component id="zarsdu18w" name="LyGrabCityTower.xml" path="/" exported="true"/>
+    <component id="zarsdu18x" name="group_tower.xml" path="/towerpan/"/>
+    <component id="syjqdu196" name="group_towerrewarditem2.xml" path="/towerpan/"/>
+    <component id="zarsdu18y" name="btn_reward.xml" path="/towerpan/"/>
+    <image id="zarsdu18z" name="frame_bahuangfanhuidi.png" path="/towerpan/"/>
+    <component id="jv6udu18f" name="combo_prop3_popup.xml" path="/"/>
+    <component id="jv6udu18g" name="combo_prop3_item.xml" path="/"/>
+    <image id="jv6udu18h" name="frame_gerenxinxi.png" path="/res/"/>
+    <image id="jv6udu18i" name="frame_fengexian2.png" path="/res/"/>
+    <component id="jv6udu18j" name="ProgressBar1(1).xml" path="/"/>
+    <image id="jv6udu18k" name="frame_jindulv.png" path="/res/" scale="9grid" scale9grid="88,5,176,10"/>
+    <image id="jv6udu18l" name="frame_jindulv2.png" path="/res/"/>
+    <image id="jv6udu18m" name="frame_fanhuidi.png" path="/res/"/>
+    <image id="jv6udu18o" name="btn_zhanbao.png" path="/res/"/>
+    <image id="jv6udu18p" name="word_gongchengluedi (2).png" path="/res/"/>
+    <image id="kpgndu18r" name="bg_zhandou.png" path="/res/" atlas="alone_npot"/>
+    <image id="kpgndu18s" name="frame_challenger2.png" path="/ui/"/>
+    <image id="kpgndu18t" name="frame_challenger2(1).png" path="/ui/"/>
+    <image id="kpgndu18u" name="frame_force of arms.png" path="/res/" exported="true" scale9grid="67,19,119,38"/>
+    <component id="kpgndu18v" name="LyGrabCityBattle.xml" path="/" exported="true"/>
+    <image id="c4dvdu190" name="word_jiuchongbaota2.png" path="/towerpan/"/>
+    <component id="85qwdu191" name="LyGrabCityWeapon.xml" path="/" exported="true"/>
+    <component id="inobudu19f" name="LyGrabCityGuessReward.xml" path="/" exported="true"/>
+    <component id="inobudu19g" name="group_guessreward.xml" path="/guess/"/>
+    <component id="inobudu19h" name="group_guessrewarditem.xml" path="/guess/"/>
+    <component id="85qwdu192" name="group_skill.xml" path="/"/>
+    <component id="85qwdu193" name="group_weapon.xml" path="/"/>
+    <image id="85qw11" name="btn_close3(1).png" path="/res/"/>
+    <component id="85qwdu194" name="main_LyGrabCityWeapon.xml" path="/"/>
+    <image id="85qwdu195" name="frame_jinengdi3.png" path="/res/" exported="true"/>
+    <image id="85qwdu196" name="frame_jinengdi4.png" path="/res/" exported="true"/>
+    <component id="85qwdu198" name="LyGrabCityWeaponAtk.xml" path="/" exported="true"/>
+    <component id="85qwdu199" name="group_atkChoose.xml" path="/"/>
+    <component id="85qwdu19a" name="main_LyGrabCityWeaponAtk.xml" path="/"/>
+    <component id="i1bpdu19b" name="LyGrabCityBattleLog.xml" path="/" exported="true"/>
+    <component id="i1bpdu19c" name="group_ranksh.xml" path="/" exported="true"/>
+    <component id="cvordu19d" name="main_LyGrabCityBattleLog.xml" path="/"/>
+    <component id="cvordu19e" name="LyGrabCityReady.xml" path="/" exported="true"/>
+    <component id="mo4uudu19i" name="LyGrabCityZongLan.xml" path="/" exported="true"/>
+    <component id="mo4uudu19j" name="group_zonglan.xml" path="/zonglan/"/>
+    <component id="mo4uudu19k" name="group_zonglanitem2.xml" path="/zonglan/"/>
+    <component id="mo4uudu19l" name="group_zonglanitem1.xml" path="/zonglan/"/>
+    <component id="m4h7du19f" name="group_cy.xml" path="/" exported="true"/>
+    <component id="m4h7du19g" name="main_LyGrabCityReady.xml" path="/"/>
+    <component id="m4h7du19h" name="LyGrabCityStats.xml" path="/" exported="true"/>
+    <component id="m4h7du19i" name="group_stats1.xml" path="/"/>
+    <component id="m4h7du19j" name="group_gx.xml" path="/" exported="true"/>
+    <component id="m4h7du19k" name="main_LyGrabCityStats.xml" path="/"/>
+    <image id="pqxtdu19l" name="frame_chengchi2_zero.png" path="/res/" exported="true"/>
+    <image id="pqxtdu19m" name="frame_chengchi3.png" path="/res/" exported="true"/>
+    <component id="ky1m84b" name="LyGrabCityAward.xml" path="/" exported="true"/>
+    <component id="ky1m84c" name="group_grabCityReward.xml" path="/"/>
+    <component id="ky1m84d" name="LyGrabCityRank.xml" path="/" exported="true"/>
+    <component id="ky1m84e" name="group_LyLyGrabCityRank.xml" path="/"/>
+    <component id="ky1moa" name="group_rank(1).xml" path="/"/>
+    <component id="ky1mob" name="main_LyGrabCityGift.xml" path="/"/>
+    <component id="ky1moc" name="LyGrabCityGift.xml" path="/" exported="true"/>
+    <component id="maep84b" name="item_clanSoloAward(1).xml" path="/" exported="true"/>
+    <component id="maepudu19h" name="group_guessreward.xml" path="/guess/"/>
+    <component id="maepudu19i" name="group_guessrewarditem.xml" path="/guess/"/>
+    <component id="maepudu19j" name="group_reward.xml" path="/"/>
+    <component id="maepudu19k" name="group_chReward.xml" path="/"/>
+    <component id="maepudu19l" name="group_clanHelp.xml" path="/"/>
+    <image id="maepudu19m" name="bg_tianzhuanjiawa.png" path="/res/"/>
+    <component id="maepudu19n" name="item_helpActivity.xml" path="/"/>
+    <component id="maepudu19o" name="LyGrabCityClanHelp.xml" path="/" exported="true"/>
+    <image id="maepudu19p" name="bg_like.png" path="/res/" atlas="alone_npot"/>
+    <component id="maepudu19q" name="btn_battle.xml" path="/"/>
+    <image id="maepudu19r" name="btn_match.png" path="/res/"/>
+    <image id="maepudu19s" name="word_like.png" path="/res/"/>
+    <image id="maepudu19t" name="frame_paiqiansulv.png" path="/res/"/>
+    <component id="maepudu19u" name="item_clanSoloLike.xml" path="/"/>
+    <image id="maepudu19v" name="frame_diyiming2.png" path="/res/"/>
+    <image id="maepudu19w" name="frame_ranking1.png" path="/res/"/>
+    <component id="maepudu19x" name="item_clanRank2.xml" path="/"/>
+    <image id="maepudu19y" name="frame_rank2.png" path="/res/"/>
+    <image id="maepudu19z" name="frame_ranking2.png" path="/res/"/>
+    <component id="maepudu1a0" name="item_clanRank1.xml" path="/"/>
+    <image id="maepudu1a1" name="frame_rank1.png" path="/res/"/>
+    <component id="maepudu1a2" name="item_clanRank3.xml" path="/"/>
+    <image id="maepudu1a3" name="frame_rank3.png" path="/res/"/>
+    <image id="maepudu1a4" name="frame_ranking3.png" path="/res/"/>
+    <component id="ms39udu1a5" name="LyGrabCityGroup.xml" path="/" exported="true"/>
+    <image id="ms39udu1a7" name="frame_duizhanri.png" path="/zonglan/"/>
+    <image id="ms39udu1a8" name="frame_zonglan.png" path="/zonglan/"/>
+    <image id="ms39udu1a9" name="frame_zonglan2.png" path="/zonglan/"/>
+    <image id="ms39udu1aa" name="frame_zonglan3.png" path="/zonglan/"/>
+    <image id="ms39udu1ab" name="frame_zonglan4.png" path="/zonglan/"/>
+    <image id="ms39udu1ac" name="frame_zonglan5.png" path="/zonglan/"/>
+    <component id="ms39udu1ad" name="group_zonglan.xml" path="/zonglan/"/>
+    <component id="ms39udu1ae" name="group_zonglanitem1.xml" path="/zonglan/"/>
+    <component id="ms39udu1af" name="group_zonglanitem2.xml" path="/zonglan/"/>
+    <component id="mv7yudu1ag" name="group_ranksh(1).xml" path="/" exported="true"/>
+    <component id="mv7yudu1ah" name="main_LyGrabCityGroup.xml" path="/"/>
+    <component id="exgjudu1ai" name="group_atkSpine.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

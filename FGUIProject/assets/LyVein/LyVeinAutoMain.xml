@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="714,915">
+  <controller name="con_isAnd" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n86_j2mx" name="n86" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="1,28" size="696,878"/>
+    <image id="n87_j2mx" name="n87" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="119,73" size="454,38"/>
+    <text id="n88_j2mx" name="label_zdms" xy="290,69" size="115,44" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="自动模式"/>
+    <image id="n55_q8va" name="n55" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="24,157" size="649,378"/>
+    <text id="n10_f9xz" name="label_zbpz" xy="118,206" size="48,32" fontSize="22" color="#16191a" align="center" vAlign="middle" autoClearText="true" text="品质"/>
+    <component id="n52_q8va" name="cbox_quality" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="199,198" size="422,50">
+      <ComboBox title="你的名字" visibleItemCount="10"/>
+    </component>
+    <component id="n83_k5be" name="cbox_buff" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="203,553" size="424,50">
+      <ComboBox title="aa" visibleItemCount="10"/>
+    </component>
+    <text id="n80_k5be" name="label_huo" xy="385,485" size="24,29" fontSize="20" color="#333333" autoClearText="true" text="或"/>
+    <component id="n92_pl5w" name="cbox_battleAttr1" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="251,405" size="145,48">
+      <ComboBox title="aa" visibleItemCount="10"/>
+    </component>
+    <component id="n93_pl5w" name="cbox_defenseAttr1" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="472,405" size="145,48">
+      <ComboBox title="aa" visibleItemCount="10"/>
+    </component>
+    <component id="n57_q8va" name="btn_ts" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="269,333" size="122,50">
+      <Button title="同时" titleFontSize="20" controller="con_isAnd" page="1"/>
+    </component>
+    <component id="n58_q8va" name="btn_h" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="396,332" size="122,50">
+      <Button checked="true" title="或" titleFontSize="20" controller="con_isAnd" page="0"/>
+    </component>
+    <component id="n56_q8va" name="btn_attr1" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="112,405" size="50,50">
+      <Button title="属性" titleFontSize="24"/>
+    </component>
+    <component id="n63_q8va" name="btn_combatPower" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="112,274" size="50,50">
+      <Button title="属性" titleFontSize="24"/>
+    </component>
+    <component id="n82_k5be" name="cbox_defenseAttr2" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="479,484" size="145,48" group="n98_pl5w">
+      <ComboBox title="aa" visibleItemCount="10"/>
+    </component>
+    <component id="n81_k5be" name="cbox_battleAttr2" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="258,484" size="145,48" group="n98_pl5w">
+      <ComboBox title="aa" visibleItemCount="10"/>
+    </component>
+    <text id="n19_f9xz" name="label_he" xy="427,494" size="24,29" group="n98_pl5w" fontSize="20" color="#16191a" autoClearText="true" text="和"/>
+    <group id="n98_pl5w" name="n98" xy="258,484" size="366,48" visible="false" advanced="true"/>
+    <component id="n72_q8va" name="btn_speed" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="74,631">
+      <Button title="锤炼加速"/>
+    </component>
+    <component id="n73_q8va" name="btn_zuhe" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="69,551">
+      <Button title="套装" titleColor="#16191a"/>
+    </component>
+    <component id="n51_xq64" name="btn_start" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="250,754" group="n42_f9xz"/>
+    <group id="n42_f9xz" name="n42" xy="250,754" size="214,58"/>
+    <component id="n54_q8va" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="639,8"/>
+    <text id="n37_f9xz" name="label_fj" xy="141,119" size="411,34" fontSize="22" color="#16191a" align="center" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="开启自动模式后，满足一下条件将提示"/>
+    <text id="n89_j2mx" name="n89" xy="274,638" size="222,36" fontSize="24" color="#d52e26" vAlign="middle" autoSize="none" text="购买终身"/>
+    <component id="n96_pl5w" name="btn_mainAttr" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="65,600" size="50,50" visible="false">
+      <Button title="主属性" titleFontSize="24"/>
+    </component>
+    <component id="n97_pl5w" name="cbox_mainAttr" src="q8va6k" fileName="combo_prop2.xml" pkg="27utqbiz" xy="259,604" size="145,48" visible="false">
+      <ComboBox title="aa" visibleItemCount="10"/>
+    </component>
+  </displayList>
+</component>

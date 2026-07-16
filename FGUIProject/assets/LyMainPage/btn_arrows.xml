@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="416,84" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n6_t8rt" name="n6" src="j3rv40" fileName="res/main2/frame_attribute.png" xy="0,0"/>
+    <image id="n7_erkz" name="n7" src="erkz7g" fileName="res/main2/frame_fangdajing.png" xy="364,37"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5gmha8dn">
+  <resources>
+    <component id="jis80" name="LyCrossQunYin.xml" path="/" exported="true"/>
+    <component id="jis82" name="group_charts.xml" path="/"/>
+    <component id="jis85" name="LyCrossQunYinShop.xml" path="/" exported="true"/>
+    <component id="knxo8" name="group_rankitem.xml" path="/"/>
+    <component id="knxo9" name="group_rank.xml" path="/"/>
+    <component id="knxoa" name="LyCrossQunYinAward.xml" path="/" exported="true"/>
+    <component id="knxob" name="group_awardItem.xml" path="/"/>
+    <component id="knxoc" name="LyCrossQunYinLog.xml" path="/" exported="true"/>
+    <component id="knxod" name="group_logItem.xml" path="/"/>
+    <component id="jr3lf" name="LyCrossQunYinAchievement.xml" path="/" exported="true"/>
+    <component id="jr3lg" name="group_achievementItem.xml" path="/"/>
+    <image id="q8vai" name="frame_title.png" path="/res/"/>
+    <component id="hl71l" name="group_qunyinItem.xml" path="/"/>
+    <component id="hl71m" name="group_qunyinItem1.xml" path="/"/>
+    <component id="hl71p" name="group_shopitem.xml" path="/"/>
+    <image id="hl71q" name="frame_store.png" path="/res/"/>
+    <image id="hl71v" name="frame_left fail.png" path="/"/>
+    <image id="hl71w" name="frame_left1.png" path="/res/" exported="true"/>
+    <image id="hl71x" name="frame_right2.png" path="/res/" exported="true"/>
+    <image id="hl71y" name="frame_right1.png" path="/res/" exported="true"/>
+    <image id="hl7110" name="frame_left2.png" path="/res/" exported="true"/>
+    <image id="hl7111" name="pic_pk.png" path="/res/"/>
+    <image id="bhy613" name="frame_ranking-reward-completed.png" path="/res/"/>
+    <image id="ne2h14" name="icon_piece.png" path="/res/"/>
+    <image id="ne2h15" name="icon_ranking rewards.png" path="/res/"/>
+    <image id="ne2h19" name="word_day reward_unselected.png" path="/res/"/>
+    <image id="ne2h1a" name="word_week reward_selected.png" path="/res/"/>
+    <image id="ne2h1b" name="word_week reward_unselected.png" path="/res/"/>
+    <image id="ne2h1c" name="word_day reward_selected.png" path="/res/"/>
+    <image id="ne2h1f" name="icon_F5.png" path="/res/"/>
+    <component id="qo8n1g" name="btn_normal.xml" path="/"/>
+    <image id="kcwh1h" name="dec.png" path="/res/"/>
+    <component id="gfx31j" name="LyCrossQunYinRank.xml" path="/" exported="true"/>
+    <component id="rg021k" name="group_bg.xml" path="/"/>
+    <image id="rg021l" name="bg_huashanlunjian.png" path="/res/" atlas="alone_npot"/>
+    <image id="rg021q" name="icon_shuaxin.png" path="/res/"/>
+    <image id="jwvd1s" name="frame_duihuakuang.png" path="/res/" scale="9grid" scale9grid="6,17,6,34"/>
+    <image id="jwvd1u" name="word_huashanlunjian.png" path="/res/"/>
+    <image id="jwvd1v" name="dec_shade.png" path="/res/" scale="9grid" scale9grid="2,129,4,11"/>
+    <image id="jwvd1w" name="frame_frame_have&amp;use.png" path="/res/" scale="9grid" scale9grid="22,12,8,24"/>
+    <image id="jwvd1y" name="icon_jianglimubiao.png" path="/res/"/>
+    <component id="jwvd1z" name="group_crossQunYinAchievement.xml" path="/"/>
+    <component id="jwvd20" name="group_crossQunYinAward.xml" path="/"/>
+    <component id="jwvd21" name="group_crossQunYinLog.xml" path="/"/>
+    <component id="jwvd22" name="group_crossQunYinShop.xml" path="/"/>
+    <component id="nvxw23" name="btn_day.xml" path="/"/>
+    <component id="nvxw24" name="btn_month.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

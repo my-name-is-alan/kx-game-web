@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetX="-321" designImageOffsetY="-266" designImageAlpha="100">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="形象"/>
+    <remark page="1" value="头像"/>
+    <remark page="2" value="称号"/>
+    <remark page="3" value="其他"/>
+  </controller>
+  <displayList>
+    <image id="n107_ceii" name="n107" src="q60915" fileName="res/bg_tiandaoge.png" xy="0,-183" group="n118_ceii"/>
+    <component id="n116_ceii" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="379,752" pivot="0.5,1" anchor="true" group="n118_ceii"/>
+    <group id="n118_ceii" name="n118" xy="0,-183" size="750,1700" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n108_ceii" name="btn_close" src="ceii2q" fileName="btn_close2.xml" xy="0,30"/>
+    <image id="n109_ceii" name="n109" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="78,151"/>
+    <loader id="n110_ceii" name="loader_icon" xy="60,146" size="40,40" fill="scaleFree"/>
+    <text id="n111_ceii" name="label_count" xy="81,149" size="130,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text=""/>
+    <component id="n112_ceii" name="btn_add" src="jzhdz" fileName="btn_add3.xml" pkg="27utqbiz" xy="197,140"/>
+    <image id="n113_ceii" name="n113" src="ceii2l" fileName="res/frame_tipsgreen.png" xy="158,220"/>
+    <text id="n114_ceii" name="label_desc" xy="370,235" size="10,32" font="ui://27utqbizps391v" fontSize="22" color="#f9f8f6" vAlign="middle" strokeColor="#16191a" strokeSize="2" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n103_vhcv" name="group_main" src="ceii2i" fileName="group_shop.xml" xy="0,684">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n115_ceii" name="btn_play" src="ceii2r" fileName="firstgift/btn_play.xml" xy="614,566">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

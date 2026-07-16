@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,808" designImageOffsetX="-29" designImageOffsetY="-426" designImageLayer="1">
+  <displayList>
+    <loader id="n38_r2p3" name="n38" xy="27,30" size="696,778" url="ui://qnktu1ilpugclw" align="center" vAlign="middle" fill="scaleFree"/>
+    <image id="n39_r2p3" name="n39" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="188,70" size="374,38"/>
+    <richtext id="n40_r2p3" name="label_str58" xy="317,68" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" ubb="true" autoClearText="true" text="帮派旗帜"/>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,0"/>
+    <graph id="n41_r2p3" name="n41" xy="55,123" size="639,595" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <list id="n31_hbzk" name="list_log" xy="80,125" size="590,559" overflow="scroll" lineGap="12" defaultItem="ui://8rnw66xwhbzki" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n37_hbzk" name="label_str57" xy="276,740" size="197,32" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text="最多保留200条记录"/>
+  </displayList>
+</component>

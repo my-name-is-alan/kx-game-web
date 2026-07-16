@@ -1,0 +1,90 @@
+
+jm_bahuang_siwan.png
+size: 942,942
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+siwang/wx_podun_00010
+  rotate: false
+  xy: 735, 282
+  size: 189, 189
+  orig: 270, 270
+  offset: 42, 40
+  index: -1
+siwang/wx_podun_00011
+  rotate: false
+  xy: 2, 691
+  size: 250, 249
+  orig: 270, 270
+  offset: 12, 10
+  index: -1
+siwang/wx_podun_00012
+  rotate: true
+  xy: 254, 690
+  size: 250, 249
+  orig: 270, 270
+  offset: 12, 10
+  index: -1
+siwang/wx_podun_00014
+  rotate: true
+  xy: 2, 447
+  size: 242, 241
+  orig: 270, 270
+  offset: 16, 14
+  index: -1
+siwang/wx_podun_00016
+  rotate: false
+  xy: 245, 447
+  size: 242, 241
+  orig: 270, 270
+  offset: 16, 14
+  index: -1
+siwang/wx_podun_00018
+  rotate: false
+  xy: 489, 452
+  size: 234, 236
+  orig: 270, 270
+  offset: 20, 17
+  index: -1
+siwang/wx_podun_00020
+  rotate: false
+  xy: 505, 711
+  size: 230, 229
+  orig: 270, 270
+  offset: 22, 20
+  index: -1
+siwang/wx_podun_00022
+  rotate: false
+  xy: 2, 220
+  size: 231, 225
+  orig: 270, 270
+  offset: 24, 22
+  index: -1
+siwang/wx_podun_00023
+  rotate: true
+  xy: 235, 207
+  size: 238, 222
+  orig: 270, 270
+  offset: 22, 23
+  index: -1
+siwang/wx_podun_00024
+  rotate: false
+  xy: 489, 229
+  size: 244, 221
+  orig: 270, 270
+  offset: 20, 21
+  index: -1
+siwang/wx_podun_00025
+  rotate: true
+  xy: 725, 473
+  size: 236, 215
+  orig: 270, 270
+  offset: 24, 22
+  index: -1
+siwang/wx_podun_00026
+  rotate: true
+  xy: 737, 715
+  size: 225, 199
+  orig: 270, 270
+  offset: 31, 28
+  index: -1

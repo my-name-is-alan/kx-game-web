@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="230,366">
+  <displayList>
+    <loader id="n61_ig8m" name="n61" xy="17,0" size="196,366" url="ui://irbjwyufig8m2p"/>
+    <loader id="n62_ig8m" name="img_clanFlag" xy="0,0" size="230,232" url="ui://27utqbizd373uw" align="center" vAlign="middle" fill="scale"/>
+    <text id="n63_ig8m" name="label_clanName" xy="27,230" size="174,39" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="shrink" text="帮会名字"/>
+    <text id="n64_ig8m" name="label_clanServer" xy="27,265" size="174,34" fontSize="24" color="#16191a" align="center" vAlign="middle" autoSize="shrink" text="帮会名字"/>
+    <loader id="n65_ig8m" name="n65" xy="88,307" size="52,52" url="ui://irbjwyufig8m2s"/>
+    <text id="n66_ig8m" name="n66" xy="107,312" size="16,39" font="ui://27utqbizps391v" fontSize="28" color="#feec89" align="center" vAlign="middle" strokeColor="#c35a43" strokeSize="2" text="1"/>
+  </displayList>
+</component>

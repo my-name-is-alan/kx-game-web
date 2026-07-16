@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="29,29" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_c3ih" name="n0" src="c3ihdu179" fileName="xz1/mk_di_04.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_c3ih" name="n1" src="c3ihdu179" fileName="xz1/mk_di_04.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_c3ih" name="n2" src="c3ihdu179" fileName="xz1/mk_di_04.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_c3ih" name="n3" src="c3ihdu179" fileName="xz1/mk_di_04.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5_c3ih" name="n13" src="c3ihdu17l" fileName="res/icon_tick1.png" xy="-1,-5" scale="0.907,1">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <text id="n6_c3ih" name="title" xy="38,-1" size="10,34" fontSize="24" color="#cd9145" vAlign="middle" text=""/>
+  </displayList>
+  <Button mode="Check"/>
+</component>

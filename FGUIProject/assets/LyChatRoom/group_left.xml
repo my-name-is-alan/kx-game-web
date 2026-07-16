@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="620,150">
+  <displayList>
+    <component id="n17_rtrv" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="50,22"/>
+    <component id="n19_9jvz" name="loader_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="20,84" scale="0.8,0.8"/>
+    <text id="n9_riam" name="label_name" xy="205,34" size="10,36" fontSize="26" color="#16191a" vAlign="middle" text=""/>
+    <image id="n12_g1en" name="img_text" src="riam6" fileName="res/frame_liaotiankuang.png" xy="205,77" size="360,42"/>
+    <text id="n10_riam" name="label_content" xy="220,88" size="10,32" fontSize="22" color="#ffffff" vAlign="middle" text=""/>
+    <loader id="n13_vx99" name="loader_content" xy="205,77" size="56,56" url="ui://fuzg58b6riam1" autoSize="true" clearOnPublish="true"/>
+    <image id="n15_sp0p" name="img_time" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="160,9"/>
+    <text id="n16_sp0p" name="label_time" xy="305,0" size="10,28" fontSize="19" color="#6a6a6a" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

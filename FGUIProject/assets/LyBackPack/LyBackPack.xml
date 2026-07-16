@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n2_oaf1" name="btn_mask" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <image id="n7_rvb5" name="n7" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="29,66" size="702,1105" group="n20_bh80"/>
+    <component id="n9_bh80" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="667,101" group="n20_bh80"/>
+    <list id="n4_oaf1" name="list_item" xy="86,187" size="596,926" group="n20_bh80" layout="flow_hz" overflow="scroll" lineGap="13" colGap="20" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n5_l16u" name="label_title" xy="56,100" size="235,56" group="n20_bh80" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="仓&lt;库&lt;"/>
+    <image id="n13_bh80" name="n13" src="bh807" fileName="res/frame_tab.png" xy="32,1159" group="n20_bh80"/>
+    <image id="n8_rvb5" name="n8" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="583,988" group="n20_bh80"/>
+    <component id="n16_bh80" name="btn_property" src="bh80c" fileName="btn_property.xml" xy="120,1158" group="n20_bh80">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n17_bh80" name="btn_craft" src="bh80d" fileName="btn_craft.xml" xy="446,1159" group="n20_bh80">
+      <Button controller="c1" page="1"/>
+    </component>
+    <image id="n18_bh80" name="n18" src="bh80f" fileName="res/dec_tab partition line.png" xy="375,1170" group="n20_bh80"/>
+    <group id="n20_bh80" name="n20" xy="29,66" size="772,1153" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

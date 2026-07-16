@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1030">
+  <controller name="c1" exported="true" pages="0,个人,1,帮派" selected="1"/>
+  <displayList>
+    <image id="n18_uzk8" name="n18" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="20,-70" size="702,1105"/>
+    <richtext id="n19_uzk8" name="label_title" xy="47,-42" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" text="排行"/>
+    <list id="n30_m789" name="list_clan" xy="51,32" size="642,866" group="n37_m789" overflow="scroll" lineGap="10" defaultItem="ui://h1d08dw1m789n5" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n31_m789" name="btn_item" xy="57,904" size="632,84" group="n36_m789" url="ui://27utqbizltemkr"/>
+    <text id="n32_m789" name="label_clanRank" xy="206,951" size="18,34" group="n36_m789" fontSize="24" autoClearText="true" text="1"/>
+    <text id="n33_m789" name="label_clanName" xy="205,912" size="140,39" group="n36_m789" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="七道轮回 1"/>
+    <loader id="n34_m789" name="label_flag" xy="113,906" size="82,79" group="n36_m789" url="ui://27utqbizd373uv" align="center" vAlign="middle" fill="scale" clearOnPublish="true"/>
+    <text id="n35_m789" name="label_myClanRankScore" xy="533,934" size="132,34" group="n36_m789" fontSize="24" color="#16191a" text="积分：9999"/>
+    <group id="n36_m789" name="n36" xy="57,904" size="632,84" group="n37_m789" advanced="true"/>
+    <group id="n37_m789" name="n37" xy="51,32" size="642,956" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n25_ryaq" name="n25" src="ryaqu19p" fileName="ui/bg_kaifubang.png" pkg="27utqbiz" xy="42,26" group="n38_m789"/>
+    <image id="n22_uzk8" name="n22" src="uzk85f" fileName="ui/frame_rank list.png" pkg="27utqbiz" xy="55,487" group="n38_m789"/>
+    <image id="n27_ryaq" name="n27" src="ltemkr" fileName="ui/frame_ranking .png" pkg="27utqbiz" xy="59,905" group="n38_m789"/>
+    <image id="n20_uzk8" name="n20" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="574,852" group="n38_m789"/>
+    <text id="n15_palh" name="label_rank" xy="110,488" size="10,36" group="n38_m789" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <text id="n16_palh" name="label_name" xy="340,488" size="10,36" group="n38_m789" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <text id="n17_palh" name="label_damage" xy="503,488" size="10,36" group="n38_m789" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <image id="n26_ryaq" name="img_empty_mask" src="mjzcu16u" fileName="ui/pic_no data.png" pkg="27utqbiz" xy="185,581" group="n38_m789"/>
+    <list id="n4_aao6" name="list_rank" xy="77,530" size="580,372" group="n38_m789" overflow="scroll" lineGap="10" defaultItem="ui://h1d08dw1h8u42">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n7_aao6" name="label_selfrank" xy="114,933" size="10,36" group="n38_m789" font="ui://27utqbizps391v" fontSize="26" color="#16191a" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n29_ryaq" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="203,905" group="n38_m789" scale="0.8,0.8"/>
+    <image id="n28_ryaq" name="n28" src="ryaqu19r" fileName="ui/frame_tips_02.png" pkg="27utqbiz" xy="59,896" group="n38_m789"/>
+    <text id="n8_aao6" name="label_selfdamage" xy="308,927" size="10,36" group="n38_m789" fontSize="26" color="#16191a" vAlign="middle" text=""/>
+    <component id="n12_gk3o" name="group_player1" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="120,380" group="n38_m789"/>
+    <component id="n13_gk3o" name="group_player0" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="325,313" group="n38_m789"/>
+    <component id="n14_gk3o" name="group_player2" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="540,380" group="n38_m789"/>
+    <group id="n38_m789" name="n38" xy="42,26" size="750,1034" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n39_m789" name="btn_gr" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="376,1027">
+      <Button title="个人" controller="c1" page="0"/>
+    </component>
+    <component id="n40_m789" name="btn_bp" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="544,1027">
+      <Button checked="true" title="帮派" controller="c1" page="1"/>
+    </component>
+    <component id="n21_uzk8" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,-27"/>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="192,290">
+  <displayList>
+    <loader id="n43_fxnj" name="img_state" xy="0,0" size="192,290" url="ui://cho273r8fxnjw" align="center" vAlign="middle"/>
+    <component id="n37_mnt8" name="group_icon" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="96,143" pivot="0.5,0.5" anchor="true" touchable="false"/>
+    <text id="n39_mnt8" name="label_state" xy="41,43" size="111,44" font="ui://27utqbizps391v" fontSize="26" color="#57696c" align="center" vAlign="middle" autoSize="none" text="进行中"/>
+    <text id="n40_mnt8" name="label_dec" xy="-1,194" size="195,34" fontSize="24" align="center" vAlign="middle" autoSize="shrink" text="等级达到235级"/>
+    <text id="n44_fxnj" name="label_task" xy="-1,233" size="195,34" fontSize="22" align="center" vAlign="middle" autoSize="shrink" text="(10/10)"/>
+  </displayList>
+  <transition name="ani_ok" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n37_mnt8" tween="true" startValue="0" endValue="-30" duration="4"/>
+    <item time="4" type="Rotation" target="n37_mnt8" tween="true" startValue="-30" endValue="15" duration="4"/>
+    <item time="8" type="Rotation" target="n37_mnt8" tween="true" startValue="15" endValue="-5" duration="4"/>
+    <item time="12" type="Rotation" target="n37_mnt8" tween="true" startValue="-5" endValue="0" duration="6"/>
+  </transition>
+</component>

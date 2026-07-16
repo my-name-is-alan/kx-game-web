@@ -1,0 +1,34 @@
+
+zd_gw_yunzhonhe_dandao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wyj_cy_00
+  rotate: false
+  xy: 160, 219
+  size: 91, 32
+  orig: 168, 44
+  offset: 2, 4
+  index: -1
+wyj_cy_01
+  rotate: false
+  xy: 2, 218
+  size: 156, 33
+  orig: 168, 44
+  offset: 11, 4
+  index: -1
+wyj_cy_02
+  rotate: false
+  xy: 2, 185
+  size: 156, 31
+  orig: 168, 44
+  offset: 11, 5
+  index: -1
+wyj_cy_03
+  rotate: false
+  xy: 2, 153
+  size: 154, 30
+  orig: 168, 44
+  offset: 13, 5
+  index: -1

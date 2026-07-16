@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="715,939">
+  <displayList>
+    <image id="n51_8cb1" name="n51" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,33" size="692,906"/>
+    <image id="n62_8cb1" name="n62" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="45,514" size="611,336"/>
+    <image id="n66_sex8" name="n66" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="364,113" size="292,370"/>
+    <image id="n65_8cb1" name="n65" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="46,114" size="292,370"/>
+    <image id="n68_sex8" name="img_noHave1" src="sex8ox" fileName="res/frame_yinjidiban.png" xy="43,515" group="n70_gcnf"/>
+    <text id="n69_gcnf" name="n69" xy="272,665" size="166,34" group="n70_gcnf" fontSize="18" color="#16191a" align="center" vAlign="middle" autoSize="none" text="暂无更多印记"/>
+    <group id="n70_gcnf" name="img_noHave" xy="43,515" size="612,333" advanced="true"/>
+    <list id="n41_l87x" name="list_all" xy="44,560" size="611,281" layout="flow_hz" overflow="scroll" lineGap="-5" colGap="-11" lineItemCount="5" defaultItem="ui://yhkdb7e3l87x4i" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n54_8cb1" name="n54" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="31,141" size="350,11"/>
+    <text id="n42_l87x" name="n42" xy="124,126" size="138,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" text="当前穿戴"/>
+    <text id="n43_l87x" name="n43" xy="440,126" size="138,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" text="选中印记"/>
+    <component id="n44_l87x" name="seal1" src="l87x4i" fileName="group_seal.xml" xy="127,200">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n45_l87x" name="seal2" src="l87x4i" fileName="group_seal.xml" xy="443,200">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n52_8cb1" name="n52" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="160,66" size="376,38"/>
+    <text id="n53_8cb1" name="label_title" xy="303,62" size="94,43" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="详情"/>
+    <image id="n56_8cb1" name="n56" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="346,141" size="352,11"/>
+    <component id="n57_8cb1" name="btn_zhuangbei" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="414,389" size="188,52">
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n58_8cb1" name="btn_xiexia" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="100,388" size="188,52">
+      <Button titleFontSize="30"/>
+    </component>
+    <image id="n59_8cb1" name="n59" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="168,530" size="393,11"/>
+    <text id="n60_8cb1" name="n60" xy="279,516" size="138,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" text="当前拥有"/>
+    <component id="n61_8cb1" name="btn_merge" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="246,858" size="188,52">
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n64_8cb1" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="637,0"/>
+  </displayList>
+</component>

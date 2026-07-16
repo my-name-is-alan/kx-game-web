@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="96,88" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_h8md" name="n0" src="h8md2f" fileName="ui/btn_yeqian22.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_h8md" name="n1" src="h8md2e" fileName="ui/btn_yeqian21.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_h8md" name="n2" src="h8md2f" fileName="ui/btn_yeqian22.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_h8md" name="n3" src="h8md2e" fileName="ui/btn_yeqian21.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_h8md" name="title" xy="9,5" size="77,78" font="ui://27utqbizps391v" fontSize="26" color="#d7cf9a" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#687341" strokeSize="2" text="受难山庄">
+      <gearColor controller="button" pages="0,2" values="#d7cf9a,#687341|#d7cf9a,#687341" default="#6a5a36,#fffec6"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="rtusdzu1">
+  <resources>
+    <component id="agvw0" name="LyHavenResInfo.xml" path="/" exported="true"/>
+    <component id="agvwd" name="pro_grip.xml" path="/"/>
+    <component id="agvwe" name="pro.xml" path="/"/>
+    <component id="fixkg" name="LyHaven.xml" path="/" exported="true"/>
+    <component id="sgc5h" name="LyHavenManage.xml" path="/" exported="true"/>
+    <image id="fml9o" name="btn_damozushi.png" path="/res/"/>
+    <image id="fml9p" name="pic_escorter obverse.png" path="/res/"/>
+    <image id="fml9q" name="pic_escorter back.png" path="/res/"/>
+    <image id="fml9r" name="icon_escorter condition4.png.png" path="/res/"/>
+    <image id="fml9s" name="icon_escorter condition3.png.png" path="/res/"/>
+    <image id="fml9t" name="icon_escorter condition2.png.png" path="/res/"/>
+    <image id="fml9u" name="icon_escorter condition1.png" path="/res/"/>
+    <image id="fml9v" name="frame_pull scort cart.png" path="/res/"/>
+    <image id="fml9w" name="frame_in control interface.png" path="/res/" scale="9grid" scale9grid="5,5,10,10"/>
+    <image id="fml9y" name="frame_escort cart.png" path="/res/"/>
+    <image id="fml9z" name="frame_control escorter.png" path="/res/"/>
+    <image id="fml910" name="frame_additional explanation.png" path="/res/"/>
+    <image id="fml911" name="dec_dsesss.png" path="/res/"/>
+    <image id="fml912" name="dec_worship_under prop frame.png" path="/res/"/>
+    <image id="fml913" name="dec_point to escort.png" path="/res/"/>
+    <image id="fml914" name="btn_yuefei.png" path="/res/"/>
+    <image id="fml915" name="btn_guangong.png" path="/res/"/>
+    <image id="fml916" name="pic_escorter1.png" path="/res/"/>
+    <image id="fml917" name="pic_escorter2.png" path="/res/"/>
+    <component id="fml91d" name="btn_manage.xml" path="/"/>
+    <image id="fml91e" name="frame_control-escorter1.png" path="/res/"/>
+    <image id="fml91f" name="frame_details_escorter.png" path="/res/"/>
+    <image id="tojh1g" name="bg_biaoju.png" path="/res/"/>
+    <image id="tojh2a" name="frame_progress bar_all(1).png" path="/res/"/>
+    <component id="tojh1h" name="ProgressBar1.xml" path="/"/>
+    <component id="tojh1i" name="group_my.xml" path="/" exported="true"/>
+    <component id="tojh1j" name="LyHavenRecord.xml" path="/" exported="true"/>
+    <image id="tojh1k" name="frame_in record interface.png" path="/res/" scale="9grid" scale9grid="5,5,10,10"/>
+    <image id="tojh1l" name="frame_connect2.png" path="/res/"/>
+    <image id="tojh1m" name="frame_connect3.png" path="/res/" scale="9grid" scale9grid="5,101,10,202"/>
+    <component id="tojh1n" name="group_record.xml" path="/" exported="true"/>
+    <component id="ngxr2b" name="LyHavenPot.xml" path="/" exported="true"/>
+    <image id="ngxr2c" name="dec_worship_under prop frame.png" path="/"/>
+    <component id="j6552d" name="LyHavenFind.xml" path="/" exported="true"/>
+    <component id="j6552f" name="LyHavenMain.xml" path="/"/>
+    <component id="j6552g" name="group_otherItem.xml" path="/" exported="true"/>
+    <component id="j6552h" name="group_fujingbiaoju.xml" path="/"/>
+    <component id="j6552i" name="group_tonghangbiaoju.xml" path="/"/>
+    <component id="j6552j" name="group_drag.xml" path="/"/>
+    <component id="j6552k" name="LyHavenManageMain.xml" path="/"/>
+    <component id="d0872l" name="LyHavenResInfoMain.xml" path="/"/>
+    <component id="d0872m" name="LyHavenFindMain.xml" path="/"/>
+    <component id="d0872n" name="LyHavenRecordMain.xml" path="/"/>
+    <image id="fml9x" name="frame_escort time.png" path="/res/" scale="9grid" scale9grid="23,6,46,12"/>
+    <image id="iuxm2o" name="bg_baishenxiang.png" path="/res/"/>
+    <image id="iuxm2p" name="btn_damozushi2.png" path="/res/"/>
+    <image id="iuxm2q" name="btn_guangong1.png" path="/res/"/>
+    <image id="iuxm2r" name="btn_yuefei2.png" path="/res/"/>
+    <image id="iuxm2s" name="pic_damozushi.png" path="/res/"/>
+    <image id="iuxm2t" name="pic_guangong.png" path="/res/"/>
+    <image id="iuxm2u" name="pic_yuefei.png" path="/res/"/>
+    <image id="iuxm2v" name="dec_baishenxiang.png" path="/res/"/>
+    <component id="iuxm2w" name="btn_choose.xml" path="/"/>
+    <component id="iuxm2x" name="btn_pay.xml" path="/"/>
+    <component id="iuxm2y" name="LyHavenPotMain.xml" path="/"/>
+    <component id="8cb14u" name="LyHavenAuto.xml" path="/" exported="true"/>
+    <component id="8cb12z" name="group_choose.xml" path="/"/>
+    <image id="ky0p4w" name="icon_baifoxiang.png" path="/res/"/>
+    <image id="ky0p4x" name="icon_jilu.png" path="/res/"/>
+    <image id="ky0p4y" name="icon_shuaxin.png" path="/res/"/>
+    <image id="ky0p4z" name="icon_tanxun.png" path="/res/"/>
+    <image id="ky0p50" name="icon_zhangguituoguan.png" path="/res/"/>
+    <component id="ky0p53" name="btn_comm.xml" path="/"/>
+    <image id="syru56" name="icon_only.png" path="/res/"/>
+    <image id="syru57" name="pic_no escorter.png" path="/res/"/>
+    <image id="pe7y58" name="frame_name of escort agency.png" path="/res/"/>
+    <image id="pe7y5a" name="bg_resource info.png" path="/res/"/>
+    <component id="pe7y5f" name="group_adRefresh.xml" path="/" exported="true"/>
+    <component id="pe7y5g" name="group_refreshHaven.xml" path="/" exported="true"/>
+    <component id="pe7y5h" name="group_xufei.xml" path="/" exported="true"/>
+    <component id="pe7y5i" name="btn_30.xml" path="/"/>
+    <image id="chaq5j" name="frame_worship.png" path="/res/"/>
+    <image id="chaq5k" name="word_1500%.png" path="/res/"/>
+    <image id="chaq5l" name="word_2000%.png" path="/res/"/>
+    <image id="chaq5m" name="frame_quantity.png" path="/res/"/>
+    <image id="vp1r5p" name="btn_30days.png" path="/res/"/>
+    <image id="vp1r5q" name="btn_7days.png" path="/res/"/>
+    <image id="vp1r5r" name="frame_housekeeper.png" path="/res/"/>
+    <component id="vp1r5t" name="btn_7.xml" path="/"/>
+    <component id="vp1r5v" name="btn_7(1).xml" path="/"/>
+    <image id="vp1r5w" name="btn_close.png" path="/res/"/>
+    <component id="vp1r5x" name="btn_close.xml" path="/"/>
+    <image id="hewe5y" name="btn_renew.png" path="/res/"/>
+    <component id="hewe5z" name="btn_xf.xml" path="/"/>
+    <image id="d7qm60" name="frame_xuanzhongkuang.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

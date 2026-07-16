@@ -1,0 +1,62 @@
+
+zd_skills_hanmeiaojianjue.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/wx_hmajj_xl/wx_hmajj_xl_00000
+  rotate: false
+  xy: 275, 805
+  size: 261, 193
+  orig: 300, 300
+  offset: 7, 65
+  index: -1
+images/wx_hmajj_xl/wx_hmajj_xl_00002
+  rotate: false
+  xy: 2, 773
+  size: 271, 225
+  orig: 300, 300
+  offset: 13, 41
+  index: -1
+images/wx_hmajj_xl/wx_hmajj_xl_00004
+  rotate: false
+  xy: 275, 577
+  size: 257, 226
+  orig: 300, 300
+  offset: 35, 38
+  index: -1
+images/wx_hmajj_xl/wx_hmajj_xl_00006
+  rotate: false
+  xy: 538, 751
+  size: 260, 247
+  orig: 300, 300
+  offset: 31, 17
+  index: -1
+images/wx_hmajj_xl/wx_hmajj_xl_00008
+  rotate: false
+  xy: 2, 524
+  size: 250, 247
+  orig: 300, 300
+  offset: 39, 17
+  index: -1
+images/wx_hmajj_xl/wx_hmajj_xl_00010
+  rotate: true
+  xy: 534, 522
+  size: 227, 237
+  orig: 300, 300
+  offset: 37, 27
+  index: -1
+images/wx_hmajj_xl/wx_hmajj_xl_00012
+  rotate: false
+  xy: 800, 806
+  size: 198, 192
+  orig: 300, 300
+  offset: 40, 46
+  index: -1
+images/wx_hmajj_xl/wx_hmajj_xl_00014
+  rotate: false
+  xy: 800, 646
+  size: 159, 158
+  orig: 300, 300
+  offset: 53, 54
+  index: -1

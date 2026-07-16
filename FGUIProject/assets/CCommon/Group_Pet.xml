@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,280">
+  <displayList>
+    <image id="n30_rvb5" name="n30" src="rvb52y" fileName="ui/frame_tihuanzhanshi.png" xy="0,0" size="440,280"/>
+    <loader id="n33_rvb5" name="Loader_qu" xy="20,5" size="400,46" url="ui://27utqbizrvb52z" clearOnPublish="true"/>
+    <text id="n5_lloi" name="label_name" xy="21,5" size="398,44" font="ui://27utqbizps391v" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#1d8fb9" text="葫芦果"/>
+    <text id="n6_lloi" name="label_dec1" xy="45,180" size="350,80" fontSize="18" color="#333333" autoSize="none" autoClearText="true" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n31_rvb5" name="n31" src="rvb53e" fileName="ui/dec_pattern_behind_prop.png" xy="55,70"/>
+    <loader id="n32_rvb5" name="loader_item" xy="44,60" size="90,90" url="ui://27utqbizrvb52t" autoSize="true"/>
+    <image id="n34_rvb5" name="n34" src="rvb53f" fileName="ui/dec_partition_line.png" xy="90,165"/>
+  </displayList>
+  <relation target="n30_rvb5" sidePair="bottomext-bottom"/>
+</component>

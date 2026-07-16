@@ -1,0 +1,118 @@
+
+cj_bangpai.png
+size: 1887,1887
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bj
+  rotate: false
+  xy: 2, 184
+  size: 1189, 1701
+  orig: 1189, 1701
+  offset: 0, 0
+  index: -1
+qingyan1
+  rotate: false
+  xy: 187, 38
+  size: 266, 144
+  orig: 268, 147
+  offset: 1, 2
+  index: -1
+shan
+  rotate: true
+  xy: 1247, 122
+  size: 1126, 311
+  orig: 1128, 321
+  offset: 2, 9
+  index: -1
+shu_L
+  rotate: true
+  xy: 1560, 272
+  size: 530, 247
+  orig: 533, 274
+  offset: 3, 27
+  index: -1
+shu_R1
+  rotate: true
+  xy: 2, 2
+  size: 180, 183
+  orig: 181, 186
+  offset: 1, 0
+  index: -1
+shu_R2
+  rotate: true
+  xy: 1560, 804
+  size: 444, 301
+  orig: 446, 301
+  offset: 0, 0
+  index: -1
+shu_R3_1
+  rotate: false
+  xy: 774, 68
+  size: 162, 114
+  orig: 168, 115
+  offset: 0, 0
+  index: -1
+shu_R3_2
+  rotate: true
+  xy: 774, 21
+  size: 45, 48
+  orig: 63, 48
+  offset: 15, 0
+  index: -1
+yan2
+  rotate: false
+  xy: 938, 4
+  size: 181, 64
+  orig: 181, 64
+  offset: 0, 0
+  index: -1
+yan3
+  rotate: false
+  xy: 1604, 1311
+  size: 184, 63
+  orig: 184, 63
+  offset: 0, 0
+  index: -1
+yan4
+  rotate: false
+  xy: 938, 70
+  size: 307, 112
+  orig: 307, 112
+  offset: 0, 0
+  index: -1
+yan5
+  rotate: false
+  xy: 455, 54
+  size: 317, 128
+  orig: 317, 128
+  offset: 0, 0
+  index: -1
+yan6
+  rotate: false
+  xy: 1121, 5
+  size: 538, 63
+  orig: 538, 63
+  offset: 0, 0
+  index: -1
+yun
+  rotate: true
+  xy: 1193, 1250
+  size: 635, 409
+  orig: 674, 410
+  offset: 28, 1
+  index: -1
+yun2
+  rotate: true
+  xy: 1604, 1376
+  size: 509, 276
+  orig: 542, 278
+  offset: 1, 1
+  index: -1
+yun3
+  rotate: true
+  xy: 1661, 47
+  size: 223, 186
+  orig: 229, 201
+  offset: 1, 1
+  index: -1

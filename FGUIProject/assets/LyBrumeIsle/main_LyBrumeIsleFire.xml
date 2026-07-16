@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="767,930">
+  <displayList>
+    <image id="n1_bbpl" name="n1" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="700,900"/>
+    <richtext id="n2_bbpl" name="label_title" xy="22,32" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" text="魂魄"/>
+    <component id="n3_bbpl" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="641,40"/>
+    <image id="n4_bbpl" name="n4" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="549,722"/>
+    <image id="n5_bbpl" name="n5" src="h8u49" fileName="res/frame_nuhunsanpo.png" xy="16,437"/>
+    <image id="n7_bbpl" name="n7" src="h8u4e" fileName="res/frame_youhunfuzhen.png" xy="16,96"/>
+    <text id="n8_bbpl" name="n8" xy="109,799" size="510,47" fontSize="24" color="#c96254" vAlign="middle" autoSize="none" text="保存雾隐岛中未打开的宝鼎，活动结束后清空"/>
+    <image id="n9_bbpl" name="n9" src="bbplnk" fileName="res/word_wuyinxiaohunpo.png" xy="48,120"/>
+    <image id="n10_bbpl" name="n10" src="bbplnj" fileName="res/word_huoyanwuyinhunpo.png" xy="48,461"/>
+    <list id="n11_bbpl" name="list_item1" xy="51,217" size="465,119" scale="0.832,0.813" layout="row" overflow="scroll" lineGap="25" colGap="15" defaultItem="ui://27utqbizewyha" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n12_bbpl" name="loader_2" xy="457,478" size="195,211" aspect="true" url="ui://27utqbizgm8n2j" fill="scale"/>
+    <loader id="n13_bbpl" name="loader_1" xy="461,146" size="193,209" aspect="true" url="ui://27utqbizgm8n2k" fill="scale"/>
+    <component id="n14_bbpl" name="group_needItem1" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="497,334" scale="1.2,1.2">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n15_bbpl" name="group_needItem2" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="497,673" scale="1.2,1.2">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n16_bbpl" name="btn_get1" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="464,372" size="188,54">
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n17_bbpl" name="btn_get2" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="464,713" size="188,54">
+      <Button titleFontSize="30"/>
+    </component>
+    <image id="n24_bbpl" name="n24" src="bbplnm" fileName="res/frame_yiyongyou.png" xy="526,124"/>
+    <list id="n21_bbpl" name="list_item2" xy="52,558" size="465,119" scale="0.832,0.813" layout="row" overflow="scroll" lineGap="25" colGap="15" defaultItem="ui://27utqbizewyha" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n22_bbpl" name="label_have1" xy="535,131" size="119,34" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" text="已拥有"/>
+    <image id="n25_bbpl" name="n25" src="bbplnm" fileName="res/frame_yiyongyou.png" xy="526,467"/>
+    <text id="n23_bbpl" name="label_have2" xy="534,474" size="119,34" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" text="已拥有：0"/>
+  </displayList>
+</component>

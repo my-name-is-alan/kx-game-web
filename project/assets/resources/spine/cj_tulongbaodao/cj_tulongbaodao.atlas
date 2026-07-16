@@ -1,0 +1,118 @@
+
+cj_tulongbaodao.png
+size: 1556,1556
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dao
+  rotate: false
+  xy: 605, 1006
+  size: 542, 548
+  orig: 568, 554
+  offset: 2, 1
+  index: -1
+huxu_L
+  rotate: false
+  xy: 1149, 1186
+  size: 90, 83
+  orig: 93, 83
+  offset: 0, 0
+  index: -1
+huxu_R
+  rotate: false
+  xy: 2, 129
+  size: 166, 157
+  orig: 166, 158
+  offset: 0, 0
+  index: -1
+light_point
+  rotate: false
+  xy: 1271, 1371
+  size: 19, 19
+  orig: 23, 23
+  offset: 2, 2
+  index: -1
+long_body
+  rotate: true
+  xy: 605, 2
+  size: 449, 514
+  orig: 449, 607
+  offset: 0, 91
+  index: -1
+long_foot2_L
+  rotate: false
+  xy: 2, 64
+  size: 47, 63
+  orig: 76, 68
+  offset: 19, 2
+  index: -1
+long_foot2_R
+  rotate: false
+  xy: 170, 224
+  size: 46, 62
+  orig: 71, 65
+  offset: 22, 2
+  index: -1
+long_tou
+  rotate: false
+  xy: 1271, 1392
+  size: 126, 162
+  orig: 133, 163
+  offset: 2, 1
+  index: -1
+lvjing
+  rotate: false
+  xy: 2, 874
+  size: 601, 680
+  orig: 601, 680
+  offset: 0, 0
+  index: -1
+lvjing2
+  rotate: false
+  xy: 605, 458
+  size: 432, 546
+  orig: 432, 546
+  offset: 0, 0
+  index: -1
+mao
+  rotate: false
+  xy: 1121, 282
+  size: 128, 169
+  orig: 131, 169
+  offset: 0, 0
+  index: -1
+shuijin
+  rotate: true
+  xy: 1039, 453
+  size: 551, 425
+  orig: 551, 425
+  offset: 0, 0
+  index: -1
+shuijin2
+  rotate: false
+  xy: 2, 288
+  size: 601, 584
+  orig: 601, 584
+  offset: 0, 0
+  index: -1
+yupei
+  rotate: false
+  xy: 1149, 1271
+  size: 120, 283
+  orig: 120, 283
+  offset: 0, 0
+  index: -1
+yupei_2_1
+  rotate: false
+  xy: 1121, 234
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+yupei_2_2
+  rotate: false
+  xy: 1251, 397
+  size: 20, 54
+  orig: 20, 55
+  offset: 0, 0
+  index: -1

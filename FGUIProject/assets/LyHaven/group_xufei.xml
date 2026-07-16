@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n68_gcnf" name="btn_backMask" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n56_gcnf" name="n56" xy="27,483" size="694,382" group="n89_pe7y" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <component id="n57_gcnf" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="668,458" group="n89_pe7y"/>
+    <image id="n58_gcnf" name="n58" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="161,533" size="421,38" group="n89_pe7y"/>
+    <text id="n59_gcnf" name="label_title" xy="337,530" size="63,39" group="n89_pe7y" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" text="加速">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n80_pe7y" name="n80" src="fml9p" fileName="res/pic_escorter obverse.png" xy="171,567" group="n89_pe7y"/>
+    <component id="n81_pe7y" name="btn_six" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="135,758" group="n89_pe7y"/>
+    <text id="n82_pe7y" name="n82" xy="276,602" size="121,42" group="n89_pe7y" fontSize="28" color="#16191a" vAlign="middle" autoSize="none" text="镖局掌柜"/>
+    <text id="n84_pe7y" name="label_time" xy="452,645" size="48,39" group="n89_pe7y" fontSize="28" color="#15a31c" vAlign="middle" text="6天"/>
+    <text id="n85_pe7y" name="n85" xy="274,644" size="198,42" group="n89_pe7y" fontSize="28" color="#16191a" vAlign="middle" letterSpacing="-2" autoSize="none" text="剩余雇佣时长："/>
+    <text id="n86_pe7y" name="n86" xy="171,725" size="141,34" group="n89_pe7y" fontSize="24" color="#15a31c" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="雇佣7天"/>
+    <text id="n87_pe7y" name="n87" xy="428,726" size="141,34" group="n89_pe7y" fontSize="24" color="#15a31c" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="雇佣1个月"/>
+    <component id="n88_pe7y" name="btn_30" src="pe7y5i" fileName="btn_30.xml" xy="390,759" group="n89_pe7y"/>
+    <group id="n89_pe7y" name="n89" xy="27,458" size="719,407" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

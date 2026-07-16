@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="eawofj71">
+  <resources>
+    <component id="95q10" name="LyPet.xml" path="/" exported="true"/>
+    <component id="95q12" name="btn_battle.xml" path="/"/>
+    <component id="95q13" name="btn_suo.xml" path="/"/>
+    <component id="i05h7" name="group_predestination.xml" path="/"/>
+    <component id="i05h8" name="group_petItem.xml" path="/"/>
+    <component id="i05hc" name="btn_summon.xml" path="/"/>
+    <component id="ogvdd" name="LyPetSet.xml" path="/" exported="true"/>
+    <component id="kmnde" name="LyPetDevourpet.xml" path="/" exported="true"/>
+    <component id="kmndf" name="group_devourpet.xml" path="/"/>
+    <component id="uun63n" name="btn_pet.xml" path="/"/>
+    <component id="r8fe3o" name="group_attr.xml" path="/"/>
+    <component id="r8fe3q" name="group_dec.xml" path="/" exported="true"/>
+    <image id="81of3u" name="frame_xialvbg4.png" path="/res1/"/>
+    <image id="81of3w" name="btn_chongzhi.png" path="/res1/"/>
+    <image id="81of3x" name="btn_jiesuo.png" path="/res1/"/>
+    <image id="81of3y" name="btn_liqu.png" path="/res1/"/>
+    <image id="81of3z" name="btn_suoding.png" path="/res1/"/>
+    <image id="81of40" name="frame_fangkuaidi.png" path="/res1/"/>
+    <image id="81of41" name="frame_fangkuaidi2.png" path="/res1/"/>
+    <image id="81of42" name="frame_fangkuaidi3.png" path="/res1/"/>
+    <image id="81of43" name="frame_juexingbeijing.png" path="/res1/"/>
+    <image id="81of44" name="frame_juexingtongyongdikuang.png" path="/res1/"/>
+    <image id="81of45" name="frame_juexingxing.png" path="/res1/"/>
+    <image id="81of48" name="frame_star.png" path="/res1/"/>
+    <image id="81of49" name="frame_xialvbg.png" path="/res1/"/>
+    <image id="81of4a" name="icon_xialvjieban.png" path="/res1/"/>
+    <image id="81of4b" name="icon_tongxing.png" path="/res1/"/>
+    <image id="81of4c" name="icon_suhun.png" path="/res1/"/>
+    <image id="81of4d" name="icon_shangzhen.png" path="/res1/"/>
+    <image id="81of4k" name="frame_yizhaohuan.png" path="/res1/"/>
+    <image id="81of4l" name="frame_xialvbg2.png" path="/res1/"/>
+    <image id="81of4m" name="frame_zhaohuanchongwuzhezhao.png" path="/res1/"/>
+    <image id="81of4o" name="frame_zhaomuchongwufaguang.png" path="/res1/"/>
+    <image id="81of4p" name="frame_zhaomuchongwufaguang2.png" path="/res1/"/>
+    <image id="81of4t" name="icon_anniushengzi.png" path="/res1/"/>
+    <image id="81of4v" name="frame_xialvbg3.png" path="/res1/"/>
+    <component id="81of4y" name="btn_common1.xml" path="/"/>
+    <component id="81of4z" name="btn_common2.xml" path="/"/>
+    <component id="81of50" name="btn_normal1.xml" path="/"/>
+    <component id="81of51" name="btn_normal2.xml" path="/"/>
+    <component id="81of52" name="btn_normal3.xml" path="/"/>
+    <component id="81of54" name="group_petItem2.xml" path="/"/>
+    <image id="81of57" name="frame_azhu.png" path="/res1/"/>
+    <image id="81of58" name="btn_add.png" path="/res1/"/>
+    <image id="81of59" name="btn_lock.png" path="/res1/"/>
+    <image id="81of5a" name="frame_jinengditiao.png" path="/res1/"/>
+    <image id="81of5b" name="frame_jinengditiao2.png" path="/res1/"/>
+    <image id="81of5c" name="frame_toumingkuang.png" path="/res1/"/>
+    <image id="81of5d" name="frame_xuanzhongkuang.png" path="/res1/"/>
+    <image id="81of5e" name="frame_yishangzhen.png" path="/res1/"/>
+    <image id="81of5f" name="icon_lock.png" path="/res1/"/>
+    <image id="81of5g" name="icon_lock2.png" path="/res1/"/>
+    <component id="inps5t" name="btn_jt.xml" path="/"/>
+    <component id="i8095v" name="LyPetTisp.xml" path="/" exported="true"/>
+    <image id="i8095w" name="bg_suhun.png" path="/res1/"/>
+    <image id="i8095x" name="frame_zhaohuanchenggong.png" path="/res1/"/>
+    <image id="i8096e" name="frame_tunshichenggong.png" path="/res1/"/>
+    <image id="i8096f" name="frame_lianjiexian.png" path="/res1/"/>
+    <image id="i8096g" name="frame_jinengwenbenkuang.png" path="/res1/"/>
+    <image id="i8096h" name="frame_huaxingyulan.png" path="/res1/"/>
+    <image id="i8096i" name="frame_fubiaotidianzhuangshi2.png" path="/res1/"/>
+    <image id="i8096j" name="btn_xialvhuanying.png" path="/res1/"/>
+    <image id="i8096k" name="btn_texiaoyuan.png" path="/res1/"/>
+    <image id="i8096l" name="btn_suhun.png" path="/res1/"/>
+    <image id="i8096m" name="btn_shuxingjiacheng.png" path="/res1/"/>
+    <image id="i8096n" name="btn_jinengqianghua.png" path="/res1/"/>
+    <image id="i8096o" name="btn_beidongkuozhan.png" path="/res1/"/>
+    <image id="i8096p" name="bg_xilianbeijing.png" path="/res1/"/>
+    <image id="i8096q" name="icon_lock1.png" path="/res1/"/>
+    <image id="i8096r" name="icon_play.png" path="/res1/"/>
+    <component id="i8096s" name="group_petTisp.xml" path="/"/>
+    <image id="i8096u" name="star_0.png" path="/res1/" exported="true"/>
+    <image id="i8096v" name="star_1.png" path="/res1/" exported="true"/>
+    <image id="i8096w" name="star_2.png" path="/res1/" exported="true"/>
+    <image id="i8096x" name="star_3.png" path="/res1/" exported="true"/>
+    <image id="i8096y" name="star_4.png" path="/res1/" exported="true"/>
+    <image id="i8096z" name="star_5.png" path="/res1/" exported="true"/>
+    <image id="i80970" name="star_6.png" path="/res1/" exported="true"/>
+    <image id="i80971" name="star_7.png" path="/res1/" exported="true"/>
+    <image id="i80972" name="starSmall_0.png" path="/res1/" exported="true"/>
+    <image id="i80973" name="starSmall_1.png" path="/res1/" exported="true"/>
+    <image id="i80974" name="starSmall_2.png" path="/res1/" exported="true"/>
+    <image id="i80975" name="starSmall_3.png" path="/res1/" exported="true"/>
+    <image id="i80976" name="starSmall_4.png" path="/res1/" exported="true"/>
+    <image id="i80977" name="starSmall_5.png" path="/res1/" exported="true"/>
+    <image id="i80978" name="starSmall_6.png" path="/res1/" exported="true"/>
+    <image id="i80979" name="starSmall_7.png" path="/res1/" exported="true"/>
+    <component id="i8097b" name="group_star.xml" path="/"/>
+    <image id="i8097e" name="frame1.png" path="/res1/" exported="true"/>
+    <image id="i8097f" name="frame2.png" path="/res1/" exported="true"/>
+    <image id="i8097g" name="frame3.png" path="/res1/" exported="true"/>
+    <image id="i8097h" name="frame4.png" path="/res1/" exported="true"/>
+    <image id="i8097i" name="frame5.png" path="/res1/" exported="true"/>
+    <component id="i8097j" name="group_star1.xml" path="/"/>
+    <component id="l2d77u" name="group_pet.xml" path="/"/>
+    <component id="l2d77v" name="group_petDevourpet.xml" path="/"/>
+    <component id="l2d77w" name="group_petSet.xml" path="/"/>
+    <component id="oxm57x" name="group_select1.xml" path="/"/>
+    <component id="oxm57y" name="group_selectPet.xml" path="/"/>
+    <component id="oxm57z" name="btn_common.xml" path="/"/>
+    <image id="oxm581" name="item_btndown.png" path="/itemframe/"/>
+    <image id="oxm582" name="18.png" path="/res/"/>
+    <image id="oxm583" name="frame_vice_title.png" path="/res/"/>
+    <image id="oxm584" name="memory_btn_common2.png" path="/res/"/>
+    <image id="szl085" name="qualityItem.png" path="/res1/" exported="true" scale="9grid" scale9grid="7,36,14,20"/>
+    <image id="szl086" name="qualityItem2.png" path="/res1/" exported="true"/>
+    <image id="szl087" name="qualityItem3.png" path="/res1/" exported="true"/>
+    <image id="szl088" name="qualityItem4.png" path="/res1/" exported="true"/>
+    <image id="szl089" name="qualityItem5.png" path="/res1/" exported="true"/>
+    <image id="rg028a" name="qualityItem1.png" path="/res1/" exported="true"/>
+    <component id="rg028b" name="group_petItem1.xml" path="/"/>
+    <component id="pktd8h" name="LyPetRefreshBuff.xml" path="/" exported="true"/>
+    <component id="pktd8j" name="btn_suo2.xml" path="/"/>
+    <component id="pktd8k" name="group_needItem.xml" path="/"/>
+    <image id="pktd8m" name="dec_arrow_lifelong card.png" path="/res1/"/>
+    <component id="pktd8n" name="group_petRefreshBuff.xml" path="/"/>
+    <image id="snx08o" name="bg_bangpai1.png" path="/res1/"/>
+    <component id="puo98p" name="LyPetPopup.xml" path="/" exported="true"/>
+    <component id="puo98q" name="group_quality.xml" path="/"/>
+    <component id="puo98r" name="group_petPopup.xml" path="/"/>
+    <component id="puo98s" name="LyPetBuffTips.xml" path="/" exported="true"/>
+    <component id="puo98t" name="group_petBuffTips.xml" path="/"/>
+    <image id="puo98w" name="frame_xialvren.png" path="/res1/"/>
+    <component id="puo991" name="group_skill.xml" path="/"/>
+    <image id="fezh96" name="frame_xialvren1.png" path="/res1/" exported="true"/>
+    <image id="fezh97" name="frame_xialvren2.png" path="/res1/" exported="true"/>
+    <image id="fezh98" name="frame_xialvren3.png" path="/res1/" exported="true"/>
+    <image id="fezh99" name="frame_xialvren4.png" path="/res1/" exported="true"/>
+    <image id="fezh9a" name="frame_xialvren5.png" path="/res1/" exported="true"/>
+    <component id="fezh9b" name="group_num.xml" path="/"/>
+    <component id="yqrs9e" name="group_petSkill.xml" path="/"/>
+    <image id="yqrs9f" name="frame_daojukuangmengban.png" path="/res1/"/>
+    <image id="yqrs9g" name="frame_xingcai.png" path="/res1/"/>
+    <image id="yqrs9h" name="frame_xingzi.png" path="/res1/"/>
+    <image id="yqrs9i" name="frame_xingqianlan2.png" path="/res1/"/>
+    <image id="yqrs9j" name="frame_xingqianlan.png" path="/res1/"/>
+    <image id="yqrs9k" name="frame_xinglv2.png" path="/res1/"/>
+    <image id="yqrs9l" name="frame_xinglv.png" path="/res1/"/>
+    <image id="yqrs9m" name="frame_xinglan2.png" path="/res1/"/>
+    <image id="yqrs9n" name="frame_xingzi2.png" path="/res1/"/>
+    <image id="yqrs9o" name="frame_xinglan.png" path="/res1/"/>
+    <image id="yqrs9p" name="frame_xinghuang.png" path="/res1/"/>
+    <image id="yqrs9q" name="frame_xinghong2.png" path="/res1/"/>
+    <image id="yqrs9r" name="frame_xinghong.png" path="/res1/"/>
+    <image id="yqrs9s" name="frame_xingcheng2.png" path="/res1/"/>
+    <image id="yqrs9t" name="frame_xingcheng.png" path="/res1/"/>
+    <image id="yqrs9u" name="frame_xingcai2.png" path="/res1/"/>
+    <image id="yqrs9v" name="frame_xinghuang2.png" path="/res1/"/>
+    <image id="yqrs9w" name="icon_xing.png" path="/res1/"/>
+    <image id="rode9x" name="frame_quality1.png" path="/res1/" exported="true"/>
+    <image id="rode9y" name="frame_quality2.png" path="/res1/" exported="true"/>
+    <image id="rode9z" name="frame_quality3.png" path="/res1/" exported="true"/>
+    <image id="rodea0" name="frame_quality4.png" path="/res1/" exported="true"/>
+    <image id="rodea1" name="frame_quality5.png" path="/res1/" exported="true"/>
+    <component id="tny6a3" name="btn_petItem.xml" path="/"/>
+    <image id="sbhha4" name="word_zhaohuanchenggong.png" path="/res1/"/>
+    <image id="sbhha8" name="frame_nametiao4.png" path="/res1/" scale="9grid" scale9grid="56,9,38,18"/>
+    <image id="sbhha9" name="word_tunshichenggong.png" path="/res1/"/>
+    <image id="sbhhaa" name="word_shengjichenggong.png" path="/res1/"/>
+    <image id="erkzab" name="word_chuangongwancheng.png" path="/res1/"/>
+    <image id="i2mkac" name="mk_di.png" path="/res2/"/>
+    <image id="i2mkad" name="zsk_xialv_2.png" path="/res2/"/>
+    <image id="i2mkae" name="mk_zhouka.png" path="/res2/"/>
+    <image id="i2mkaf" name="zsk_xialv_1.png" path="/res2/"/>
+    <image id="i2mkah" name="miji_bg05.png" path="/res2/" scale="9grid" scale9grid="11,6,22,12"/>
+    <component id="i2mkai" name="btn_unite.xml" path="/"/>
+    <component id="i2mkaj" name="LyPetRecruitpet.xml" path="/" exported="true"/>
+    <image id="i2mkak" name="frame_baoxiangbiaotidi.png" path="/res2/"/>
+    <image id="i2mkal" name="frame_baoxiangbiaotidi2.png" path="/res2/"/>
+    <image id="i2mkam" name="word_xiaohaotongxinyu.png" path="/res2/"/>
+    <image id="i2mkao" name="frame_renwutiao2.png" path="/res2/"/>
+    <component id="i2mkap" name="groupItem_lock.xml" path="/" exported="true"/>
+    <component id="i2mkaq" name="group_recruitpetItem.xml" path="/"/>
+    <image id="i2mkar" name="btn_qiehuandian4.png" path="/res2/"/>
+    <image id="i2mkas" name="btn_qiehuandian.png" path="/res2/"/>
+    <image id="i2mkat" name="btn_qiehuandian2.png" path="/res2/"/>
+    <image id="i2mkau" name="btn_qiehuandian3.png" path="/res2/"/>
+    <component id="i2mkav" name="group_point.xml" path="/"/>
+    <image id="i2mkax" name="frame_shujindutiao2.png" path="/res2/" scale="9grid" scale9grid="4,62,8,124"/>
+    <image id="i2mkay" name="frame_qipao.png" path="/res2/"/>
+    <component id="i2mkaz" name="PetRecruitpet.xml" path="/"/>
+    <component id="qgq7b0" name="btn_point.xml" path="/"/>
+    <component id="qgq7b1" name="btn_arrows.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,62 @@
+
+jm_zhujiemian_renwu.png
+size: 366,366
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01/jm_zhujiemian_renwu01
+  rotate: false
+  xy: 2, 2
+  size: 204, 56
+  orig: 206, 57
+  offset: 0, 0
+  index: -1
+01/jm_zhujiemian_renwu02
+  rotate: false
+  xy: 2, 234
+  size: 206, 56
+  orig: 206, 57
+  offset: 0, 0
+  index: -1
+01/jm_zhujiemian_renwu03
+  rotate: false
+  xy: 2, 176
+  size: 206, 56
+  orig: 206, 57
+  offset: 0, 0
+  index: -1
+01/jm_zhujiemian_renwu04
+  rotate: true
+  xy: 210, 87
+  size: 203, 56
+  orig: 206, 57
+  offset: 0, 0
+  index: -1
+01/jm_zhujiemian_renwu05
+  rotate: false
+  xy: 2, 60
+  size: 205, 56
+  orig: 206, 57
+  offset: 0, 0
+  index: -1
+01/jm_zhujiemian_renwu06
+  rotate: true
+  xy: 268, 166
+  size: 198, 56
+  orig: 206, 57
+  offset: 0, 0
+  index: -1
+jm_zhujiemian_01
+  rotate: false
+  xy: 2, 118
+  size: 206, 56
+  orig: 206, 56
+  offset: 0, 0
+  index: -1
+jm_zhujiemian_02
+  rotate: false
+  xy: 2, 292
+  size: 222, 72
+  orig: 222, 72
+  offset: 0, 0
+  index: -1

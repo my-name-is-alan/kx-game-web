@@ -1,0 +1,13 @@
+
+cj_fabaochouqu_star.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light_point
+  rotate: false
+  xy: 2, 2
+  size: 42, 56
+  orig: 56, 68
+  offset: 7, 6
+  index: -1

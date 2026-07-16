@@ -1,0 +1,48 @@
+
+zd_muwanqing_shouji.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bljf_mz/bljf_mz_00
+  rotate: false
+  xy: 2, 156
+  size: 180, 105
+  orig: 270, 135
+  offset: 45, 15
+  index: -1
+images/bljf_mz/bljf_mz_02
+  rotate: false
+  xy: 2, 371
+  size: 240, 107
+  orig: 270, 135
+  offset: 15, 17
+  index: -1
+images/bljf_mz/bljf_mz_04
+  rotate: false
+  xy: 244, 361
+  size: 192, 117
+  orig: 270, 135
+  offset: 38, 12
+  index: -1
+images/bljf_mz/bljf_mz_06
+  rotate: false
+  xy: 2, 263
+  size: 183, 106
+  orig: 270, 135
+  offset: 43, 9
+  index: -1
+images/bljf_mz/bljf_mz_08
+  rotate: false
+  xy: 187, 252
+  size: 181, 107
+  orig: 270, 135
+  offset: 43, 7
+  index: -1
+images/bljf_mz/bljf_mz_10
+  rotate: true
+  xy: 370, 215
+  size: 144, 108
+  orig: 270, 135
+  offset: 77, 6
+  index: -1

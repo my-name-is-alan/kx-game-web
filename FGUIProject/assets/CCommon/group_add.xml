@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="165,40">
+  <displayList>
+    <image id="n49_iuxm" name="n49" src="iuxmer" fileName="ui/frame_shuliangzengjia.png" xy="2,4"/>
+    <richtext id="n48_iuxm" name="label_number" xy="34,2" size="100,34" fontSize="24" color="#f6de9c" align="center" vAlign="middle" ubb="true" autoSize="shrink" singleLine="true" text=""/>
+    <loader id="n17_d3qo" name="loader_icon" xy="0,0" size="38,40" url="ui://27utqbizi5tz8h" fill="scale"/>
+    <component id="n46_iuxm" name="btn_add" src="bh805c" fileName="btn_add2.xml" xy="129,1"/>
+  </displayList>
+</component>

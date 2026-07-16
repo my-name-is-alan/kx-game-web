@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="86,180">
+  <displayList>
+    <image id="n1_r2p3" name="group_close" src="ql4f2k" fileName="res3/icon_baoxiangguanbi.png" xy="0,100"/>
+    <image id="n0_r2p3" name="group_open" src="ql4f2l" fileName="res3/icon_baoxiangdakai.png" xy="0,100" visible="false"/>
+    <image id="n5_nvxw" name="group_ok" src="nvxwa5" fileName="res3/icon_treasure lighting.png" xy="44,139" pivot="0.5,0.5" anchor="true" size="78,74" aspect="true"/>
+    <image id="n3_r2p3" name="n3" src="r2p37r" fileName="res3/frame_integral.png" xy="8,80"/>
+    <text id="n2_r2p3" name="label_score" xy="10,78" size="62,32" fontSize="22" color="#d26828" align="center" vAlign="middle" autoSize="none" text="250"/>
+    <image id="n6_nvxw" name="n6" src="o66p4x" fileName="ui/frame_subsidiary explanation.png" pkg="27utqbiz" xy="-33,0" group="n8_nvxw"/>
+    <list id="n7_nvxw" name="list_show" xy="-22,6" size="216,100" group="n8_nvxw" scale="0.6,0.6" layout="row" overflow="scroll" colGap="16" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+    </list>
+    <group id="n8_nvxw" name="group_boxShow" xy="-33,0" size="227,106" visible="false" advanced="true"/>
+    <graph id="n9_ors2" name="group_click" xy="0,77" size="86,100" type="rect" lineColor="#00000000" fillColor="#00ffffff"/>
+  </displayList>
+  <transition name="ani_ok" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n5_nvxw" tween="true" startValue="0" endValue="-30" duration="4"/>
+    <item time="4" type="Rotation" target="n5_nvxw" tween="true" startValue="-30" endValue="15" duration="4"/>
+    <item time="8" type="Rotation" target="n5_nvxw" tween="true" startValue="15" endValue="-5" duration="4"/>
+    <item time="12" type="Rotation" target="n5_nvxw" tween="true" startValue="-5" endValue="0" duration="6"/>
+  </transition>
+</component>

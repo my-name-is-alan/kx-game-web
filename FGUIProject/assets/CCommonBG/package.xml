@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="f7l7y9v7">
+  <resources>
+    <folder id="/stageback/" name="stageback" path="/" atlas="alone"/>
+    <folder id="/stageposter/" name="stageposter" path="/" atlas="alone"/>
+    <image id="pl2s3" name="bd_jinditiaozhan.jpg" path="/stageback/" exported="true"/>
+    <image id="pl2s4" name="bg_adventure_s.jpg" path="/stageposter/" exported="true"/>
+    <image id="pl2s5" name="bg_adventure_3_s.jpg" path="/stageposter/" exported="true"/>
+    <image id="pl2s6" name="bg_adventure_2_s.jpg" path="/stageposter/" exported="true"/>
+    <image id="pl2s7" name="bd_zhandoubeij_6_s.jpg" path="/stageposter/" exported="true"/>
+    <image id="pl2s8" name="bd_zhandoubeij_5_s.jpg" path="/stageposter/" exported="true"/>
+    <image id="pl2s9" name="bd_zhandoubeij_4_s.jpg" path="/stageposter/" exported="true"/>
+    <image id="pl2sa" name="bg_jiliuta_s.jpg" path="/stageposter/" exported="true"/>
+    <image id="pl2sb" name="bd_jinditiaozhan_s.jpg" path="/stageposter/" exported="true"/>
+    <image id="pl2sc" name="bg_adventure_5.jpg" path="/stageback/" exported="true"/>
+    <image id="pl2sd" name="bg_adventure_4.jpg" path="/stageback/" exported="true"/>
+    <image id="pl2se" name="bd_zhandoubeij_3.jpg" path="/stageback/" exported="true"/>
+    <image id="pl2sf" name="bd_zhandoubeij_2.jpg" path="/stageback/" exported="true"/>
+    <image id="pl2sg" name="bd_zhandoubeij_1.jpg" path="/stageback/" exported="true"/>
+    <image id="pl2sh" name="bd_mojiaoruqin.jpg" path="/stageback/" exported="true"/>
+    <image id="pl2si" name="bg_adventure_6.jpg" path="/stageback/" exported="true"/>
+    <image id="pl2sj" name="bg_mojiaoruqin_s.jpg" path="/stageposter/" exported="true"/>
+    <image id="uwllk" name="bg_jiliuta.jpg" path="/stageback/" exported="true"/>
+    <image id="sbhhl" name="bg_jiliuta1.png" path="/stageposter/" exported="true"/>
+    <image id="alzfm" name="bg_langyabang_yulan.png" path="/stageback/" exported="true"/>
+    <image id="alzfn" name="bd_zhandoubeij_7_s.jpg" path="/stageposter/" exported="true"/>
+    <image id="iey1o" name="bg_langyabang_wudao1.jpg" path="/stageback/" exported="true"/>
+    <image id="iey1p" name="bg_langyabang_wudao2.jpg" path="/stageback/" exported="true"/>
+    <image id="iey1q" name="bg_langyabang_wudao3.jpg" path="/stageback/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,76 @@
+
+ch_wulinxiake.png
+size: 636,636
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bj
+  rotate: false
+  xy: 2, 516
+  size: 496, 118
+  orig: 523, 124
+  offset: 14, 3
+  index: -1
+huan
+  rotate: false
+  xy: 2, 8
+  size: 213, 213
+  orig: 213, 213
+  offset: 0, 0
+  index: -1
+light1
+  rotate: true
+  xy: 524, 169
+  size: 465, 65
+  orig: 482, 73
+  offset: 9, 0
+  index: -1
+light2
+  rotate: false
+  xy: 2, 369
+  size: 394, 145
+  orig: 519, 289
+  offset: 44, 59
+  index: -1
+shanti1
+  rotate: true
+  xy: 398, 261
+  size: 253, 124
+  orig: 257, 126
+  offset: 3, 1
+  index: -1
+shanti2
+  rotate: false
+  xy: 397, 2
+  size: 106, 96
+  orig: 109, 98
+  offset: 1, 1
+  index: -1
+yuanpan
+  rotate: false
+  xy: 2, 223
+  size: 321, 144
+  orig: 321, 162
+  offset: 0, 0
+  index: -1
+yuanpan2
+  rotate: true
+  xy: 217, 42
+  size: 179, 178
+  orig: 179, 178
+  offset: 0, 0
+  index: -1
+yun
+  rotate: true
+  xy: 397, 100
+  size: 159, 46
+  orig: 159, 46
+  offset: 0, 0
+  index: -1
+yun2
+  rotate: true
+  xy: 445, 100
+  size: 159, 46
+  orig: 159, 46
+  offset: 0, 0
+  index: -1

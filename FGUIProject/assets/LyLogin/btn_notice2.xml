@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="146,62" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n4_ds93" name="n4" xy="0,0" size="146,62" type="rect"/>
+    <text id="n3_ds93" name="title" xy="7,6" size="52,34" fontSize="24" singleLine="true" text="题目"/>
+    <text id="n5_7rrc" name="label_time" xy="1,33" size="144,26" fontSize="18" align="right" autoSize="none" singleLine="true" text="12312312"/>
+  </displayList>
+  <Button/>
+</component>

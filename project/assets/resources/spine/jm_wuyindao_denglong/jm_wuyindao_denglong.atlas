@@ -1,0 +1,62 @@
+
+jm_wuyindao_denglong.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001
+  rotate: true
+  xy: 328, 514
+  size: 243, 408
+  orig: 243, 408
+  offset: 0, 0
+  index: -1
+002
+  rotate: true
+  xy: 2, 38
+  size: 474, 698
+  orig: 542, 708
+  offset: 0, 0
+  index: -1
+003
+  rotate: true
+  xy: 2, 905
+  size: 41, 46
+  orig: 41, 53
+  offset: 0, 7
+  index: -1
+004
+  rotate: false
+  xy: 50, 846
+  size: 147, 100
+  orig: 147, 100
+  offset: 0, 0
+  index: -1
+005
+  rotate: false
+  xy: 199, 824
+  size: 230, 122
+  orig: 230, 122
+  offset: 0, 0
+  index: -1
+006
+  rotate: false
+  xy: 431, 759
+  size: 309, 187
+  orig: 309, 187
+  offset: 0, 0
+  index: -1
+007
+  rotate: true
+  xy: 2, 594
+  size: 228, 324
+  orig: 235, 335
+  offset: 3, 5
+  index: -1
+008
+  rotate: false
+  xy: 742, 743
+  size: 204, 203
+  orig: 204, 203
+  offset: 0, 0
+  index: -1

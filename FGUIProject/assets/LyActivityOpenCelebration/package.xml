@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dmbgg925">
+  <resources>
+    <component id="k4zi0" name="LyActivityOpenCelebration.xml" path="/" exported="true"/>
+    <image id="8em02" name="frame_dengyu.png" path="/res/"/>
+    <image id="8em03" name="frame_difendikuang.png" path="/res/"/>
+    <image id="8em04" name="frame_huodongshijiantiao.png" path="/res/"/>
+    <image id="8em05" name="word_kaifuqingdian.png" path="/res/"/>
+    <component id="8em06" name="group_main.xml" path="/"/>
+    <component id="8em08" name="bar_progress.xml" path="/"/>
+    <component id="8em09" name="GroupItem2.xml" path="/"/>
+    <component id="8em0a" name="group_scoreicon.xml" path="/"/>
+    <component id="8em0b" name="group_itemgift.xml" path="/"/>
+    <component id="abruj" name="group_itemtask.xml" path="/"/>
+    <component id="abrun" name="group_itemexchange.xml" path="/"/>
+    <image id="92auo" name="frame_change1.png" path="/res/"/>
+    <image id="92auq" name="frame_change2.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

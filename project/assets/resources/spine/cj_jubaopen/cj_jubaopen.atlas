@@ -1,0 +1,132 @@
+
+cj_jubaopen.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_guangyun
+  rotate: true
+  xy: 2, 487
+  size: 535, 511
+  orig: 584, 562
+  offset: 17, 31
+  index: -1
+frame_jinrileiji
+  rotate: true
+  xy: 1103, 664
+  size: 80, 256
+  orig: 82, 256
+  offset: 0, 0
+  index: -1
+frame_jubaopen2
+  rotate: true
+  xy: 2, 41
+  size: 444, 259
+  orig: 446, 260
+  offset: 1, 1
+  index: -1
+frame_jubaopen3
+  rotate: true
+  xy: 1103, 746
+  size: 276, 114
+  orig: 339, 207
+  offset: 33, 50
+  index: -1
+frame_jubaopen4
+  rotate: true
+  xy: 1219, 746
+  size: 276, 114
+  orig: 339, 207
+  offset: 33, 50
+  index: -1
+frame_jubaopen5
+  rotate: true
+  xy: 1335, 754
+  size: 268, 114
+  orig: 339, 207
+  offset: 33, 50
+  index: -1
+frame_leftyun
+  rotate: true
+  xy: 789, 294
+  size: 362, 229
+  orig: 362, 230
+  offset: 0, 0
+  index: -1
+frame_rightyun
+  rotate: true
+  xy: 1161, 399
+  size: 263, 180
+  orig: 264, 180
+  offset: 1, 0
+  index: -1
+frame_xingxing
+  rotate: true
+  xy: 700, 506
+  size: 141, 87
+  orig: 198, 172
+  offset: 26, 54
+  index: -1
+frame_xingxing2
+  rotate: false
+  xy: 263, 4
+  size: 87, 53
+  orig: 122, 105
+  offset: 16, 32
+  index: -1
+frame_xingxing3
+  rotate: false
+  xy: 352, 12
+  size: 45, 45
+  orig: 56, 56
+  offset: 5, 5
+  index: -1
+frame_zhuzi
+  rotate: true
+  xy: 263, 59
+  size: 426, 524
+  orig: 426, 524
+  offset: 0, 0
+  index: -1
+yan1
+  rotate: true
+  xy: 515, 649
+  size: 373, 238
+  orig: 373, 238
+  offset: 0, 0
+  index: -1
+yan2
+  rotate: true
+  xy: 1045, 63
+  size: 284, 202
+  orig: 284, 202
+  offset: 0, 0
+  index: -1
+yan3
+  rotate: false
+  xy: 789, 2
+  size: 254, 290
+  orig: 254, 290
+  offset: 0, 0
+  index: -1
+yan4
+  rotate: true
+  xy: 515, 500
+  size: 147, 183
+  orig: 147, 183
+  offset: 0, 0
+  index: -1
+yan5
+  rotate: false
+  xy: 1020, 349
+  size: 139, 307
+  orig: 237, 316
+  offset: 58, 0
+  index: -1
+yan6
+  rotate: true
+  xy: 755, 658
+  size: 364, 346
+  orig: 472, 365
+  offset: 0, 0
+  index: -1

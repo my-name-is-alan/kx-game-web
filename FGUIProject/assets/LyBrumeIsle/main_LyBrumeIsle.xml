@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1700">
+  <displayList>
+    <loader3D id="n40_gm8n" name="loader_bg" xy="375,849" size="1,1" scale="1.01,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <component id="n3_h8u4" name="btn_close" src="h8u4u19t" fileName="btn_blueback.xml" pkg="27utqbiz" xy="7,1609" group="n44_kpgn"/>
+    <component id="n7_h8u4" name="Group_Chat" src="h8md27" fileName="Group_Chat.xml" pkg="27utqbiz" xy="1,1531" group="n44_kpgn"/>
+    <component id="n21_h8u4" name="btn_join" src="h8u429" fileName="Button1.xml" xy="294,1285" group="n44_kpgn">
+      <Button icon="ui://h1d08dw1h8u4h"/>
+    </component>
+    <component id="n20_h8u4" name="btn_ready" src="h8u429" fileName="Button1.xml" xy="295,1286" group="n44_kpgn">
+      <Button icon="ui://h1d08dw1h8u41k"/>
+    </component>
+    <component id="n19_h8u4" name="btn_Overreward" src="h8u429" fileName="Button1.xml" xy="295,1286" group="n44_kpgn">
+      <Button icon="ui://h1d08dw1h8u4j"/>
+    </component>
+    <component id="n27_h8u4" name="btn_reward" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="281,1589" group="n44_kpgn">
+      <Button icon="ui://27utqbizql4f26"/>
+    </component>
+    <component id="n28_h8u4" name="btn_rank" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="369,1589" group="n44_kpgn">
+      <Button icon="ui://27utqbizrg021n"/>
+    </component>
+    <component id="n29_h8u4" name="btn_gift" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="458,1589" group="n44_kpgn">
+      <Button icon="ui://h1d08dw1h8u413"/>
+    </component>
+    <component id="n30_h8u4" name="btn_note" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="546,1589" group="n44_kpgn">
+      <Button icon="ui://h1d08dw1h8u410"/>
+    </component>
+    <component id="n31_h8u4" name="btn_chests" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="634,1589" group="n44_kpgn">
+      <Button icon="ui://h1d08dw1h8u412"/>
+    </component>
+    <text id="n42_krzd" name="label_actTime" xy="207,1454" size="358,52" group="n44_kpgn" fontSize="20" color="#74d644" align="center" vAlign="middle" autoSize="none" strokeColor="#16191a" strokeSize="2" text=""/>
+    <text id="n39_h8u4" name="label_joinPaseTime" xy="141,1218" size="481,65" group="n44_kpgn" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#181b1d" strokeSize="2" text="进行中: 53:49:01"/>
+    <group id="n44_kpgn" name="n44" xy="1,1218" size="751,481" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <image id="n22_h8u4" name="n22" src="h8u42a" fileName="res/frame_fanhuidi.png" xy="0,55" size="367,118" group="n45_kpgn"/>
+    <image id="n23_h8u4" name="n23" src="h8u4p" fileName="res/word_wuyindao.png" xy="41,104" group="n45_kpgn"/>
+    <component id="n24_h8u4" name="btn_point" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="128,77" size="100,100" group="n45_kpgn" scale="1.2,1.2"/>
+    <group id="n45_kpgn" name="n45" xy="0,55" size="367,122" advanced="true"/>
+    <component id="n52_mchc" name="group_task" src="mchco6" fileName="group_task.xml" xy="551,606">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n2_h8u4" name="n2" src="h8u4c" fileName="res/frame_wuyindaobiaotou.png" xy="179,334" group="n46_kpgn"/>
+    <image id="n14_h8u4" name="n14" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="29,582" size="698,420" group="n37_h8u4"/>
+    <component id="n15_h8u4" name="btn_closeSever" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="661,560" group="n37_h8u4"/>
+    <image id="n16_h8u4" name="n16" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="163,624" size="419,38" group="n37_h8u4"/>
+    <image id="n18_h8u4" name="n18" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="55,675" size="639,292" group="n37_h8u4"/>
+    <text id="n34_h8u4" name="label_jointime" xy="215,695" size="42,34" group="n37_h8u4" fontSize="24" color="#16191a" vAlign="middle" autoClearText="true" text="5月"/>
+    <text id="n17_h8u4" name="label_SeverTitle" xy="168,623" size="400,39" group="n37_h8u4" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="参与区服">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n32_h8u4" name="n32" xy="106,694" size="138,36" group="n37_h8u4" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="活动日期："/>
+    <text id="n33_h8u4" name="n33" xy="106,732" size="150,36" group="n37_h8u4" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="参与服务器："/>
+    <list id="n35_h8u4" name="list_allSever" xy="239,733" size="425,155" group="n37_h8u4" layout="flow_hz" overflow="scroll" lineGap="-6" colGap="15" defaultItem="ui://h1d08dw1h8u42c" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n38_h8u4" name="n38" xy="107,915" size="373,36" group="n37_h8u4" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="参与帮派名单将在报名结束时锁定"/>
+    <group id="n37_h8u4" name="group_sever" xy="29,560" size="710,442" group="n46_kpgn" visible="false" advanced="true"/>
+    <image id="n41_isy4" name="n41" src="10lj849" fileName="ui/frame_server.png" pkg="27utqbiz" xy="55,489" size="644,99" group="n46_kpgn"/>
+    <richtext id="n9_h8u4" name="label_moreSever" xy="547,536" size="116,42" group="n46_kpgn" fontSize="22" color="#3fd83b" align="center" vAlign="middle" autoSize="shrink" underline="true" text="查看更多"/>
+    <text id="n10_h8u4" name="n10" xy="85,502" size="143,36" group="n46_kpgn" fontSize="26" color="#671e0b" align="center" vAlign="middle" autoSize="none" text="活动时间："/>
+    <text id="n11_h8u4" name="label_openTime" xy="209,501" size="284,36" group="n46_kpgn" fontSize="26" color="#671e0b" vAlign="middle" autoClearText="true" text="8/258/258/258/258/25"/>
+    <text id="n12_h8u4" name="n12" xy="87,539" size="143,36" group="n46_kpgn" fontSize="26" color="#671e0b" align="center" vAlign="middle" autoSize="none" text="参与区服："/>
+    <text id="n13_h8u4" name="label_sever" xy="209,540" size="322,36" group="n46_kpgn" fontSize="26" color="#671e0b" vAlign="middle" autoSize="shrink" autoClearText="true" text="参与区服：参与区服：参与区服："/>
+    <group id="n46_kpgn" name="n46" xy="29,334" size="710,668" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

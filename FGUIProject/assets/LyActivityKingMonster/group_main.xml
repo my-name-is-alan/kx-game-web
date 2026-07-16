@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1000">
+  <displayList>
+    <image id="n6_phei" name="n6" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="20,-75" size="702,1105"/>
+    <richtext id="n7_phei" name="label_title" xy="47,-41" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="仓&lt;库&lt;"/>
+    <component id="n8_phei" name="btn_detail" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="175,-75"/>
+    <component id="n9_phei" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="662,-41"/>
+    <list id="n4_hchg" name="list_king" xy="50,35" size="640,900" overflow="scroll" margin="10,0,0,0" lineGap="10" defaultItem="ui://3dtw4164hchg2">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <image id="n11_hnau" name="n11" src="hnau5" fileName="res/frame_yaoqinghaoyoudibanmengban.png" xy="44,879"/>
+    <text id="n5_hchg" name="label_desc" xy="369,945" size="10,32" fontSize="22" color="#16191a" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n10_hnau" name="n10" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="571,850"/>
+  </displayList>
+</component>

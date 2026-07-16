@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,460">
+  <displayList>
+    <image id="n27_osg9" name="back_win" src="osg9u" fileName="res/frame_bottom2.png" xy="0,6"/>
+    <image id="n30_osg9" name="n30" src="osg9w" fileName="res/frame_title2.png" xy="0,-154"/>
+    <image id="n42_jo98" name="n42" src="jo98pl" fileName="res/word_tiaozhanjieshu.png" xy="197,-78"/>
+    <richtext id="n34_nvxw" name="label_desc1" xy="7,115" size="736,76" fontSize="28" color="#fff3b6" align="center" ubb="true" autoSize="none" text="累计对XX怪造成555点伤害（9%）&#xA;你为所有帮派成员赢得禁地挑战宝箱X1"/>
+    <image id="n38_nvxw" name="n38" src="q8va6l" fileName="ui/frame_dropdown.png" pkg="27utqbiz" xy="0,264" size="750,80" alpha="0.3"/>
+    <richtext id="n35_nvxw" name="label_desc2" xy="133,196" size="484,44" fontSize="32" color="#fff3b6" ubb="true" autoSize="none" text="成功击破禁地首领，获得挑战奖励"/>
+    <text id="n36_nvxw" name="label_desc3" xy="140,272" size="470,64" fontSize="24" color="#5ed218" align="center" autoSize="none" text="成功击败妖邪或每造成"/>
+    <text id="n41_jo98" name="label_tips" xy="370,428" size="10,32" alpha="0.7" fontSize="22" color="#f6e2ce" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

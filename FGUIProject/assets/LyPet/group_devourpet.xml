@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="644,234">
+  <displayList>
+    <loader id="n29_81of" name="img_bg" xy="1,0" size="644,234" url="ui://eawofj7181of43"/>
+    <image id="n53_szl0" name="n53" src="szl085" fileName="res1/qualityItem.png" xy="222,42" size="30,192" rotation="-90"/>
+    <text id="n6_kmnd" name="label_name" xy="234,9" size="52,34" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" text="青龙"/>
+    <text id="n7_kmnd" name="label_level" xy="296,8" size="38,34" font="ui://27utqbizps391v" fontSize="24" color="#16191a" vAlign="middle" text="1级">
+      <relation target="n6_kmnd" sidePair="leftext-right"/>
+    </text>
+    <component id="n16_81of" name="group_buff1" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="200,50" size="115,111" aspect="true" scale="0.75,0.75" touchable="false"/>
+    <component id="n20_81of" name="group_buff5" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="200,135" size="115,111" aspect="true" scale="0.75,0.75" touchable="false"/>
+    <loader id="n30_inps" name="img_quality" xy="17,11" size="148,212" touchable="false" url="ui://eawofj71i8097f" fill="scaleFree"/>
+    <loader id="n39_inps" name="img_icon" xy="23,23" size="135,172" touchable="false" url="ui://27utqbizpp7e43" align="center" vAlign="middle" clearOnPublish="true"/>
+    <component id="n42_inps" name="group_buff6" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="298,135" size="115,111" aspect="true" scale="0.75,0.75" touchable="false"/>
+    <component id="n47_inps" name="group_buff3" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="394,50" size="115,111" scale="0.75,0.75" touchable="false"/>
+    <component id="n48_inps" name="group_buff7" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="394,135" size="115,111" aspect="true" scale="0.75,0.75" touchable="false"/>
+    <component id="n49_inps" name="group_buff4" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="492,50" size="115,111" scale="0.75,0.75" touchable="false"/>
+    <component id="n50_inps" name="group_buff8" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="492,135" size="115,111" aspect="true" scale="0.75,0.75" touchable="false"/>
+    <loader3D id="n51_us2v" name="loader_spine" xy="87,181" size="20,20" scale="0.4,0.4" animation="" skin="" loop="true"/>
+    <component id="n52_oxm5" name="group_star" src="i8097j" fileName="group_star1.xml" xy="26,196" touchable="false"/>
+    <component id="n55_puo9" name="group_buff2" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="298,50" size="115,111" aspect="true" scale="0.75,0.75" touchable="false"/>
+    <image id="n56_yqrs" name="img_lock" src="ar1l16" fileName="ui/icon_lock.png" pkg="27utqbiz" xy="20,15" size="42,22" visible="false"/>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="206,356">
+  <displayList>
+    <loader3D id="n28_szl0" name="loader_select2" xy="98,173" size="10,10" animation="" skin="" loop="true"/>
+    <loader id="n5_81of" name="img_quality" xy="0,0" size="206,356" url="ui://eawofj71i8097g"/>
+    <loader3D id="n26_us2v" name="loader_spine" xy="95,302" size="20,20" scale="0.7,0.7" animation="" skin="" loop="true"/>
+    <loader id="n17_81of" name="img_quality2" xy="11,13" size="30,144" url="ui://eawofj7181of4h"/>
+    <richtext id="n8_81of" name="label_name" xy="12,31" size="28,89" font="ui://27utqbizps391v" fontSize="20" color="#ffffff" align="center" ubb="true" autoSize="none" text="应龙"/>
+    <component id="n19_81of" name="group_gold" src="fezh9b" fileName="group_num.xml" xy="54,309">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <image id="n23_81of" name="n23" src="81of4m" fileName="res1/frame_zhaohuanchongwuzhezhao.png" xy="0,0" group="n13_81of"/>
+    <image id="n22_81of" name="n22" src="81of4k" fileName="res1/frame_yizhaohuan.png" xy="6,125" group="n13_81of"/>
+    <group id="n13_81of" name="group_state2" xy="0,0" size="206,356" visible="false" advanced="true"/>
+    <loader3D id="n27_szl0" name="loader_select1" xy="100,179" size="10,10" touchable="false" animation="" skin="" loop="true"/>
+    <loader3D id="n29_rg02" name="loader_upLevel" xy="105,180" size="10,10" touchable="false" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

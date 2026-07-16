@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,218">
+  <displayList>
+    <image id="n30_rvb5" name="n30" src="rvb52y" fileName="ui/frame_tihuanzhanshi.png" xy="0,0" size="440,214">
+      <relation target="n6_lloi" sidePair="bottomext-bottom"/>
+    </image>
+    <loader id="n33_rvb5" name="Loader_qu" xy="20,5" size="398,46" url="ui://27utqbizrvb52z" clearOnPublish="true"/>
+    <text id="n5_lloi" name="label_name" xy="21,5" size="398,44" font="ui://27utqbizps391v" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#1d8fb9" text="葫芦果"/>
+    <text id="n6_lloi" name="label_dec1" xy="148,102" size="259,74" fontSize="18" color="#333333" autoSize="height" autoClearText="true" text="group_maingroupgroup__maingroup_maingromaingroup_maingro"/>
+    <image id="n31_rvb5" name="n31" src="rvb53e" fileName="ui/dec_pattern_behind_prop.png" xy="55,70"/>
+    <loader id="n32_rvb5" name="loader_item" xy="44,60" size="90,90" url="ui://27utqbizss7zu16k" align="center" vAlign="middle" fill="scale"/>
+    <image id="n34_rvb5" name="n34" src="rvb53f" fileName="ui/dec_partition_line.png" xy="139,94"/>
+    <richtext id="n35_rvb5" name="label_count" xy="312,63" size="89,26" fontSize="18" color="#333333" vAlign="middle" text="已拥有: 50">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <text id="n38_d4db" name="label_paseTime" xy="145,179" size="158,26" fontSize="18" color="#c42813" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="3天23">
+      <relation target="n30_rvb5" sidePair="bottom-bottom"/>
+    </text>
+  </displayList>
+  <relation target="n30_rvb5" sidePair="bottomext-bottom"/>
+</component>

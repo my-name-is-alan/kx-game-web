@@ -1,0 +1,69 @@
+
+zd_gcld_xuli_1.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/lxyz_juqi/lxyz_juqi_002
+  rotate: false
+  xy: 153, 9
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+images/lxyz_juqi/lxyz_juqi_004
+  rotate: false
+  xy: 305, 9
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+images/lxyz_juqi/lxyz_juqi_006
+  rotate: false
+  xy: 2, 11
+  size: 149, 149
+  orig: 150, 150
+  offset: 1, 1
+  index: -1
+images/lxyz_juqi/lxyz_juqi_008
+  rotate: true
+  xy: 286, 311
+  size: 144, 150
+  orig: 150, 150
+  offset: 6, 0
+  index: -1
+images/lxyz_juqi/lxyz_juqi_010
+  rotate: true
+  xy: 304, 161
+  size: 148, 150
+  orig: 150, 150
+  offset: 2, 0
+  index: -1
+images/lxyz_juqi/lxyz_juqi_012
+  rotate: true
+  xy: 152, 162
+  size: 147, 150
+  orig: 150, 150
+  offset: 3, 0
+  index: -1
+images/lxyz_juqi/lxyz_juqi_014
+  rotate: true
+  xy: 2, 167
+  size: 146, 148
+  orig: 150, 150
+  offset: 4, 2
+  index: -1
+images/lxyz_juqi/lxyz_juqi_016
+  rotate: true
+  xy: 142, 315
+  size: 140, 142
+  orig: 150, 150
+  offset: 5, 8
+  index: -1
+images/lxyz_juqi/lxyz_juqi_018
+  rotate: true
+  xy: 2, 323
+  size: 132, 138
+  orig: 150, 150
+  offset: 12, 11
+  index: -1

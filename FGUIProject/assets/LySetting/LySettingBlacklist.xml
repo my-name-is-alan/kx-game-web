@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetX="-121" designImageOffsetY="-246">
+  <displayList>
+    <component id="n12_wb1u" name="btn_close1" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n0_i26e" name="group_main" src="wb1u61" fileName="group_settingBlacklist.xml" xy="27,199">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

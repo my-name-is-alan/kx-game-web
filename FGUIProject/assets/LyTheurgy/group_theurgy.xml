@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="196,298">
+  <displayList>
+    <loader id="n76_k70e" name="loader_icon" xy="16,8" size="174,244" url="ui://yhkdb7e3ejo7nb" fill="scaleFree"/>
+    <loader id="n77_k70e" name="loader_dikuang" xy="12,245" size="178,48" url="ui://yhkdb7e3k70e53" fill="scaleFree"/>
+    <loader id="n83_k70e" name="loader_qua" xy="8,0" size="188,298" url="ui://yhkdb7e3k70e51" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n78_k70e" name="label_name" xy="15,248" size="174,46" font="ui://27utqbizps391v" fontSize="34" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="寒梅傲剑决"/>
+    <loader id="n79_k70e" name="loader_grade" xy="110,211" size="79,39" group="n89_hvzw" aspect="true" url="ui://yhkdb7e3k70e52" fill="scaleFree"/>
+    <text id="n80_k70e" name="label_grade" xy="107,217" size="73,32" group="n89_hvzw" fontSize="22" color="#ffffff" align="right" vAlign="middle" autoSize="none" text="25级"/>
+    <group id="n89_hvzw" name="group_grade" xy="107,211" size="82,39" advanced="true"/>
+    <image id="n81_k70e" name="img_new" src="k70e5s" fileName="res/icon_new.png" xy="0,2" scale="1.4,1.4" visible="false"/>
+    <image id="n85_iqt4" name="img_piece" src="y9su1m" fileName="ui/icon_piece.png" pkg="27utqbiz" xy="152,3" size="41,41" aspect="true" visible="false"/>
+    <loader id="n86_ldgl" name="loader_type" xy="5,2" size="56,177" group="n88_ldgl" aspect="true" url="ui://yhkdb7e3ldglfc" fill="scaleFree"/>
+    <richtext id="n87_ldgl" name="label_type" xy="11,22" size="40,94" group="n88_ldgl" font="ui://27utqbizps391v" fontSize="33" color="#fdfdfd" align="center" leading="2" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="2" text="绝[size=24]学[size]"/>
+    <group id="n88_ldgl" name="group_type" xy="5,2" size="56,177" visible="false" advanced="true"/>
+    <image id="n90_adf1" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="173,0" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+</component>

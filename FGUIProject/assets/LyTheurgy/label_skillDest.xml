@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="448,61" overflow="scroll">
+  <displayList>
+    <richtext id="n52_hhz9" name="label_skillDes" xy="0,0" size="448,32" fontSize="22" color="#242627" ubb="true" autoSize="height" text="进行"/>
+  </displayList>
+</component>

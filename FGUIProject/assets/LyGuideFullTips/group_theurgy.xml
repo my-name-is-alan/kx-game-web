@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="318,368">
+  <displayList>
+    <image id="n39_g0p7" name="n39" src="g0p72" fileName="res/frame_mijitips.png" xy="0,0"/>
+    <image id="n34_rvb5" name="n34" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="29,134"/>
+    <text id="n5_lloi" name="label_name" xy="10,25" size="164,54" font="ui://27utqbizps391v" fontSize="40" color="#a84437" vAlign="middle" autoClearText="true" text="万剑归宗"/>
+    <text id="n40_g0p7" name="label_note" xy="10,80" size="108,37" font="ui://27utqbizps391v" fontSize="26" color="#6d6c65" vAlign="middle" autoClearText="true" text="满级预览"/>
+    <text id="n41_g0p7" name="label_level" xy="10,141" size="234,34" fontSize="24" color="#b65438" vAlign="middle" autoClearText="true" text="1阶（通过侠侣触发）"/>
+    <text id="n6_lloi" name="label_desc" xy="10,183" size="300,180" fontSize="20" color="#484a49" autoSize="none" autoClearText="true" text="这是秘籍描述"/>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="138,138" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4_ig8m" name="n4" src="ig8m2j" fileName="res/btn_match.png" xy="0,0" size="138,138" aspect="true"/>
+    <image id="n5_ig8m" name="n5" src="ig8m32" fileName="res/word_challenge.png" xy="6,23"/>
+  </displayList>
+  <Button/>
+</component>

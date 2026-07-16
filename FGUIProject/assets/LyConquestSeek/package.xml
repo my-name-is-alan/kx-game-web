@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="shg18ari">
+  <resources>
+    <folder id="/hall/" name="hall" path="/" atlas="7"/>
+    <folder id="/resMap/" name="resMap" path="/" atlas="8"/>
+    <folder id="/start/" name="start" path="/" atlas="9"/>
+    <folder id="/winer/" name="winer" path="/" atlas="10"/>
+    <component id="ipku0" name="LyConquestSeekMain.xml" path="/" exported="true"/>
+    <component id="ipku1" name="group_player.xml" path="/" exported="true"/>
+    <component id="rubt2" name="btn_joystick.xml" path="/"/>
+    <component id="rubt3" name="group_arrow.xml" path="/"/>
+    <component id="rubt4" name="LyConquestSeek.xml" path="/" exported="true"/>
+    <component id="rubt5" name="group_map.xml" path="/"/>
+    <image id="cda56" name="frame_yaogan2.png" path="/res/"/>
+    <image id="cda57" name="frame_diren1.png" path="/res/" exported="true"/>
+    <image id="cda58" name="frame_diren2.png" path="/res/" exported="true"/>
+    <image id="cda59" name="frame_complayer_b3.png" path="/hall/" exported="true"/>
+    <image id="cda5a" name="frame_complayer3.png" path="/hall/" exported="true"/>
+    <image id="cda5b" name="frame_complayer1.png" path="/hall/" exported="true"/>
+    <image id="cda5c" name="frame_complayer_b1.png" path="/hall/" exported="true"/>
+    <image id="cda5d" name="frame_duiyou1.png" path="/res/" exported="true"/>
+    <image id="cda5e" name="frame_duiyou2.png" path="/res/" exported="true"/>
+    <image id="cda5f" name="frame_fangdajing.png" path="/res/"/>
+    <image id="cda5g" name="frame_fengexian.png" path="/res/"/>
+    <image id="cda5h" name="frame_fengexianhuang.png" path="/res/"/>
+    <image id="cda5i" name="frame_fengexianzi.png" path="/res/"/>
+    <image id="cda5j" name="frame_gerenbeijing.png" path="/res/"/>
+    <image id="cda5k" name="frame_complayer4.png" path="/hall/" exported="true"/>
+    <image id="cda5l" name="frame_complayer2.png" path="/hall/" exported="true"/>
+    <image id="cda5m" name="frame_complayer_b4.png" path="/hall/" exported="true"/>
+    <image id="cda5n" name="frame_map2.png" path="/res/"/>
+    <image id="cda5o" name="frame_miaozhun.png" path="/res/"/>
+    <image id="cda5p" name="frame_namedi.png" path="/res/"/>
+    <image id="cda5q" name="frame_renwulan.png" path="/res/"/>
+    <image id="cda5r" name="frame_shangjin.png" path="/res/"/>
+    <image id="cda5s" name="frame_shangyun.png" path="/res/"/>
+    <image id="cda5t" name="frame_sheng.png" path="/res/"/>
+    <image id="cda5u" name="frame_shouling.png" path="/res/" exported="true"/>
+    <image id="cda5v" name="frame_shouling2.png" path="/res/" exported="true"/>
+    <image id="cda5w" name="frame_tips.png" path="/res/"/>
+    <image id="cda5x" name="frame_wanjia.png" path="/res/"/>
+    <image id="cda5y" name="frame_wanjiafanwei.png" path="/res/"/>
+    <image id="cda5z" name="frame_xiaoguai.png" path="/res/" exported="true"/>
+    <image id="cda510" name="frame_xiaoguai2.png" path="/res/" exported="true"/>
+    <image id="cda511" name="frame_map.png" path="/res/"/>
+    <image id="cda512" name="frame_complayer_b2.png" path="/hall/" exported="true"/>
+    <image id="cda513" name="frame_chuanwen.png" path="/res/"/>
+    <image id="cda514" name="frame_boss3.png" path="/res/" exported="true"/>
+    <image id="cda515" name="frame_yaogan3.png" path="/res/"/>
+    <image id="cda516" name="frame_yuan.png" path="/res/" exported="true"/>
+    <image id="cda517" name="frame_yuanbigblue.png" path="/res/" exported="true"/>
+    <image id="cda518" name="frame_yuanbigguai.png" path="/res/" exported="true"/>
+    <image id="cda519" name="frame_yuanbigred.png" path="/res/" exported="true"/>
+    <image id="cda51a" name="frame_yuansmallblue.png" path="/res/" exported="true"/>
+    <image id="cda51b" name="frame_yuansmallguai.png" path="/res/" exported="true"/>
+    <image id="cda51c" name="frame_yuansmallred.png" path="/res/" exported="true"/>
+    <image id="cda51d" name="frame_zhibiao.png" path="/res/"/>
+    <image id="cda51e" name="frame_zhibiao2.png" path="/res/"/>
+    <image id="cda51f" name="frame_zhidinglan.png" path="/res/"/>
+    <image id="cda51g" name="frame_ziji.png" path="/res/" exported="true"/>
+    <image id="cda51h" name="word_bahuangfanhui.png" path="/hall/"/>
+    <image id="cda51i" name="word_bahuangtanmi.png" path="/hall/"/>
+    <image id="cda51j" name="word_baoming.png" path="/hall/"/>
+    <image id="cda51k" name="word_baoming2.png" path="/hall/"/>
+    <image id="cda51l" name="word_chongzhen.png" path="/res/"/>
+    <image id="cda51m" name="frame_boss2.png" path="/res/" exported="true"/>
+    <image id="cda51n" name="frame_boss1.png" path="/res/" exported="true"/>
+    <image id="cda51o" name="frame_beilou3.png" path="/res/" exported="true"/>
+    <image id="cda51p" name="frame_beilou2.png" path="/res/" exported="true"/>
+    <image id="cda51q" name="frame_beilou.png" path="/res/" exported="true"/>
+    <image id="cda51r" name="frame_bahuangfanhuidi.png" path="/res/"/>
+    <image id="cda51s" name="frame_xiayun.png" path="/res/"/>
+    <image id="cda51t" name="btn_yuandi2.png" path="/res/" scale="tile"/>
+    <image id="cda51v" name="btn_chuansong.png" path="/res/"/>
+    <image id="cda51w" name="bg_duizhan2.png" path="/res/"/>
+    <image id="cda51y" name="bg_bahuangzhujiemian.png" path="/res/" atlas="alone_npot"/>
+    <image id="cda51z" name="word_chongzhen2.png" path="/res/"/>
+    <image id="cda520" name="btn_qianwang.png" path="/res/"/>
+    <image id="cda521" name="frame_yaogan.png" path="/res/"/>
+    <image id="cda522" name="frame_xuetiaogreen.png" path="/res/"/>
+    <image id="cda523" name="frame_xuetiaored.png" path="/res/"/>
+    <image id="cda524" name="frame_xuetiao.png" path="/res/"/>
+    <image id="cda525" name="frame_xuetiaoblue.png" path="/res/"/>
+    <component id="cda526" name="bar_hp1.xml" path="/"/>
+    <component id="cda527" name="bar_hp2.xml" path="/"/>
+    <component id="cda528" name="bar_hp3.xml" path="/"/>
+    <component id="cda52a" name="group_player_friend.xml" path="/" exported="true"/>
+    <component id="cda52b" name="group_player_enemy.xml" path="/" exported="true"/>
+    <component id="nfin2c" name="group_playerMap.xml" path="/"/>
+    <image id="n6sh2d" name="bahuang_bg_2.png" path="/resMap/"/>
+    <image id="n6sh2e" name="bahuang_bg_3.png" path="/resMap/"/>
+    <image id="n6sh2f" name="bahuang_bg_4.png" path="/resMap/"/>
+    <image id="n6sh2g" name="bahuang_bg_5.png" path="/resMap/"/>
+    <image id="n6sh2h" name="bahuang_bg_6.png" path="/resMap/"/>
+    <image id="n6sh2i" name="bahuang_bg_7.png" path="/resMap/"/>
+    <image id="n6sh2j" name="bahuang_bg_8.png" path="/resMap/"/>
+    <image id="n6sh2k" name="bahuang_bg_9.png" path="/resMap/"/>
+    <image id="n6sh2l" name="bahuang_bg_10.png" path="/resMap/"/>
+    <image id="n6sh2m" name="bahuang_bg_11.png" path="/resMap/"/>
+    <image id="n6sh2n" name="bahuang_bg_12.png" path="/resMap/"/>
+    <image id="n6sh2o" name="bahuang_bg_13.png" path="/resMap/"/>
+    <image id="n6sh2p" name="bahuang_bg.png" path="/resMap/"/>
+    <image id="n6sh2q" name="bahuang_bg_1.png" path="/resMap/"/>
+    <image id="n6sh2s" name="bahuang_bg_14.png" path="/resMap/"/>
+    <image id="n6sh2t" name="bahuang_bg_15.png" path="/resMap/"/>
+    <component id="i2pz3i" name="LyConquestSeekRankReward.xml" path="/" exported="true"/>
+    <component id="i2pz3j" name="group_rankreward.xml" path="/"/>
+    <component id="i2pz3k" name="item_rankreward.xml" path="/" exported="true"/>
+    <image id="i2pz3l" name="frame_paimingdi.png" path="/hall/"/>
+    <component id="i2pz3m" name="item_rankreward1.xml" path="/" exported="true"/>
+    <image id="d2gn3q" name="frame_fengexian1.png" path="/hall/" exported="true"/>
+    <image id="d2gn3r" name="frame_fengexian2.png" path="/hall/" exported="true"/>
+    <component id="n6sh2v" name="group_mapBg.xml" path="/"/>
+    <component id="n6sh2x" name="btn_maxMap.xml" path="/"/>
+    <component id="n6sh2y" name="btn_qianwang.xml" path="/"/>
+    <component id="n6sh30" name="group_miniMap.xml" path="/"/>
+    <component id="n6sh31" name="LyConquestSeekMap.xml" path="/" exported="true"/>
+    <image id="mf394f" name="btn_shangqipaihang.png" path="/hall/"/>
+    <component id="mf395e" name="btn_lastwiner.xml" path="/hall/"/>
+    <component id="uu0c5f" name="LyConquestSeekWiner.xml" path="/" exported="true"/>
+    <component id="uu0c5g" name="group_winer.xml" path="/"/>
+    <image id="uu0c5h" name="frame_bahuangbang.png" path="/winer/"/>
+    <image id="uu0c5i" name="word_bahuangbang.png" path="/winer/"/>
+    <image id="uu0c5j" name="word_bahuangbang2.png" path="/winer/"/>
+    <image id="uu0c5k" name="word_bahuangbang3.png" path="/winer/"/>
+    <image id="hsrt5l" name="btn_dianzan.png" path="/winer/"/>
+    <component id="hsrt5m" name="btn_dianzan.xml" path="/winer/"/>
+    <component id="hsrt5n" name="group_winsal.xml" path="/"/>
+    <component id="n6sh33" name="group_point.xml" path="/" exported="true"/>
+    <component id="n6sh34" name="btn_tp.xml" path="/"/>
+    <component id="bshy36" name="group_select.xml" path="/" exported="true"/>
+    <image id="s44m3b" name="frame_bosstouxiangkuang.png" path="/res/"/>
+    <image id="m7ba37" name="icon_jiangli.png" path="/hall/"/>
+    <image id="m7ba38" name="icon_paihang.png" path="/hall/"/>
+    <image id="m7ba39" name="icon_task.png" path="/hall/"/>
+    <component id="m7ba3a" name="btn_halltask.xml" path="/hall/"/>
+    <component id="m7ba3b" name="btn_hallreward.xml" path="/hall/"/>
+    <component id="m7ba3c" name="btn_hallrank.xml" path="/hall/"/>
+    <image id="m7ba3d" name="btn_match.png" path="/hall/"/>
+    <image id="m7ba3e" name="frame_challenger.png" path="/hall/"/>
+    <image id="m7ba3f" name="word_jinru.png" path="/hall/"/>
+    <image id="m7ba3g" name="word_lingjiangqi.png" path="/hall/"/>
+    <component id="m7ba3h" name="btn_enter.xml" path="/hall/"/>
+    <component id="yn253i" name="group_task.xml" path="/"/>
+    <component id="v0hr3k" name="group_map1.xml" path="/"/>
+    <component id="ahj33s" name="LyConquestSeekRank.xml" path="/" exported="true"/>
+    <component id="ahj33t" name="group_ranklist.xml" path="/"/>
+    <component id="ahj33u" name="item_rank.xml" path="/"/>
+    <component id="ahj33v" name="group_rankitem.xml" path="/"/>
+    <component id="ahj33w" name="item_task.xml" path="/"/>
+    <component id="ahj33x" name="LyConquestSeekTask.xml" path="/" exported="true"/>
+    <component id="ahj33z" name="group_taskss.xml" path="/"/>
+    <component id="ahj340" name="LyConquestSeekStart.xml" path="/" exported="true"/>
+    <component id="ahj341" name="group_start.xml" path="/"/>
+    <image id="ahj342" name="bg_bahuantanmihuodong.png" path="/start/"/>
+    <image id="ahj343" name="btn_lijiqianwang.png" path="/start/"/>
+    <image id="ahj344" name="frame_daojudi.png" path="/start/"/>
+    <image id="ahj345" name="frame_time.png" path="/start/"/>
+    <image id="ahj346" name="frame_yun.png" path="/start/"/>
+    <image id="ahj347" name="frame_yun2.png" path="/start/"/>
+    <image id="ahj348" name="word_bahuangtanmi.png" path="/start/"/>
+    <image id="ahj349" name="word_xuanchuanwenzi.png" path="/start/"/>
+    <component id="ahj34a" name="btn_enter.xml" path="/start/"/>
+    <image id="92mg4b" name="frame_fengexian3.png" path="/hall/" exported="true"/>
+    <image id="92mg4c" name="frame_fengexian4.png" path="/hall/" exported="true"/>
+    <component id="m9v84d" name="btn_enter1.xml" path="/"/>
+    <component id="hs6z4e" name="group_maintask.xml" path="/"/>
+    <image id="wzpv4f" name="frame_boss4.png" path="/res/" exported="true"/>
+    <component id="tc1u4g" name="LyConquestSeekHeadRank.xml" path="/" exported="true"/>
+    <image id="tc1u4h" name="frame_biaoqian.png" path="/res/"/>
+    <image id="tc1u4j" name="frame_fengexianhui.png" path="/res/"/>
+    <image id="tc1u4k" name="frame_weibaoming.png" path="/res/"/>
+    <image id="tc1u4m" name="frame_zonglan.png" path="/res/"/>
+    <image id="tc1u4n" name="frame_zonglan5.png" path="/res/" scale="9grid" scale9grid="152,112,304,224"/>
+    <image id="tc1u4o" name="frame_juxingdi.png" path="/res/"/>
+    <component id="tc1u4p" name="item_headRank.xml" path="/"/>
+    <image id="tc1u4s" name="frame_touxiangdi.png" path="/res/"/>
+    <component id="tc1u4t" name="group_headRank.xml" path="/"/>
+    <image id="tc1u4u" name="btn_wodeshuxing.png" path="/res/"/>
+    <component id="tc1u4v" name="btn_headRank.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

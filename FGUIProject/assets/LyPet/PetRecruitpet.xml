@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1130">
+  <controller name="c1" pages="1,,2,,3,,4,,5,,6," selected="0"/>
+  <displayList>
+    <image id="n2_i2mk" name="n2" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="24,0" size="702,1103"/>
+    <component id="n34_i2mk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <image id="n33_i2mk" name="n33" src="i2mkak" fileName="res2/frame_baoxiangbiaotidi.png" xy="54,112"/>
+    <text id="n3_i2mk" name="label_title" xy="47,29" size="10,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" strokeColor="#000000" strokeSize="3" text=""/>
+    <image id="n5_i2mk" name="n5" src="i2mkam" fileName="res2/word_xiaohaotongxinyu.png" xy="112,168"/>
+    <image id="n6_i2mk" name="n6" src="i2mkal" fileName="res2/frame_baoxiangbiaotidi2.png" xy="394,69"/>
+    <text id="n7_i2mk" name="label_str28" xy="106,232" size="226,50" font="ui://27utqbizps391v" fontSize="37" color="#c86342" text="获得高额奖励"/>
+    <list id="n23_i2mk" name="list_bonuses" xy="40,345" size="668,660" overflow="scroll" lineGap="-42" defaultItem="ui://eawofj71i2mkaq" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n35_i2mk" name="n35" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="577,922"/>
+    <component id="n43_qgq7" name="btn_left" src="qgq7b1" fileName="btn_arrows.xml" xy="109,1016" group="n32_i2mk">
+      <Button icon="ui://eawofj71i2mkau"/>
+    </component>
+    <component id="n36_qgq7" name="group_point1" src="qgq7b0" fileName="btn_point.xml" xy="180,1021" group="n32_i2mk">
+      <Button checked="true" controller="c1" page="1"/>
+    </component>
+    <component id="n37_qgq7" name="group_point2" src="qgq7b0" fileName="btn_point.xml" xy="247,1021" group="n32_i2mk">
+      <Button controller="c1" page="2"/>
+    </component>
+    <component id="n38_qgq7" name="group_point3" src="qgq7b0" fileName="btn_point.xml" xy="314,1021" group="n32_i2mk">
+      <Button controller="c1" page="3"/>
+    </component>
+    <component id="n39_qgq7" name="group_point4" src="qgq7b0" fileName="btn_point.xml" xy="381,1021" group="n32_i2mk">
+      <Button controller="c1" page="4"/>
+    </component>
+    <component id="n40_qgq7" name="group_point5" src="qgq7b0" fileName="btn_point.xml" xy="448,1021" group="n32_i2mk">
+      <Button controller="c1" page="5"/>
+    </component>
+    <component id="n41_qgq7" name="group_point6" src="qgq7b0" fileName="btn_point.xml" xy="515,1021" group="n32_i2mk">
+      <Button controller="c1" page="6"/>
+    </component>
+    <component id="n42_qgq7" name="btn_right" src="qgq7b1" fileName="btn_arrows.xml" xy="582,1016" group="n32_i2mk">
+      <Button icon="ui://eawofj71i2mkar"/>
+    </component>
+    <group id="n32_i2mk" name="n32" xy="109,1016" size="517,48" advanced="true" layout="hz" colGap="27" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

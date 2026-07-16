@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n14_d3qo" name="btn_closeMask" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <image id="n16_y9su" name="n16" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="29,204" size="698,880">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <list id="n12_d3qo" name="list_jiban" xy="56,288" size="649,774" overflow="scroll" lineGap="7" defaultItem="ui://27utqbizt6w7et" align="center" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n18_y9su" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="663,176">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n19_y9su" name="n19" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="189,242" size="375,37">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n20_y9su" name="group_title" xy="316,238" size="117,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="门客羁绊">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

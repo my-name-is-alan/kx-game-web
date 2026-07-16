@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="659,979">
+  <displayList>
+    <image id="n44_ltem" name="n44" src="l3tj2n" fileName="res/attack/pic_libao.png" xy="14,0"/>
+    <text id="n46_ltem" name="label_soreNumber" xy="396,183" size="200,42" fontSize="20" color="#ffffff" align="right" vAlign="middle" letterSpacing="-1" autoSize="none" autoClearText="true" text="累计充值积分:100"/>
+    <list id="n47_ltem" name="list_all" xy="0,275" size="659,704" overflow="scroll" lineGap="-3" defaultItem="ui://xcpqvzp3ltem3v">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="696,984">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n0_pktd" name="n0" xy="0,32" size="696,952" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <component id="n2_pktd" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="636,0"/>
+    <image id="n49_snx0" name="n49" src="snx08o" fileName="res1/bg_bangpai1.png" xy="15,112" alpha="0.8"/>
+    <loader3D id="n48_pktd" name="loader_spine" xy="341,366" size="20,20" scale="0.7,0.7" animation="" skin="" loop="true"/>
+    <image id="n3_pktd" name="n3" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="160,66" size="376,38"/>
+    <text id="n4_pktd" name="label_str124" xy="305,63" size="85,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="洗炼"/>
+    <image id="n6_pktd" name="n6" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="23,461" size="646,374"/>
+    <image id="n51_snx0" name="n51" src="szl085" fileName="res1/qualityItem.png" xy="272,411" size="33,198" rotation="-90"/>
+    <component id="n7_pktd" name="group_star" src="i8097j" fileName="group_star1.xml" xy="279,381" scale="1.1,1.1"/>
+    <image id="n9_pktd" name="n9" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="196,487" size="332,11"/>
+    <text id="n10_pktd" name="label_str125" xy="290,471" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" leading="0" autoClearText="true" text="被动技能">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n11_pktd" name="label_str126" xy="94,522" size="508,34" fontSize="24" color="#16191a" vAlign="middle" text="洗练将重新随机未锁定的所有技能，并保留等级">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n12_pktd" name="label_str127" xy="178,550" size="340,34" fontSize="24" color="#5b9f57" vAlign="middle" text="洗练的结果可以选择取消或保留">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <component id="n25_pktd" name="btn_refreshBuffSkill" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="241,890" scale="0.88,0.9">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="确定1"/>
+    </component>
+    <component id="n28_pktd" name="group_coin1" src="pktd8k" fileName="group_needItem.xml" xy="287,852">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearXY controller="c2" pages="0" values="287,852" default="188,852"/>
+    </component>
+    <component id="n29_pktd" name="group_coin2" src="pktd8k" fileName="group_needItem.xml" xy="368,852">
+      <gearDisplay controller="c1" pages="0"/>
+      <gearDisplay2 controller="c2" pages="1" condition="0"/>
+    </component>
+    <component id="n21_pktd" name="btn_suo1" src="pktd8j" fileName="btn_suo2.xml" xy="185,687" group="n30_pktd"/>
+    <component id="n22_pktd" name="btn_suo2" src="pktd8j" fileName="btn_suo2.xml" xy="283,687" group="n30_pktd"/>
+    <component id="n23_pktd" name="btn_suo3" src="pktd8j" fileName="btn_suo2.xml" xy="380,687" group="n30_pktd"/>
+    <component id="n24_pktd" name="btn_suo4" src="pktd8j" fileName="btn_suo2.xml" xy="477,687" group="n30_pktd"/>
+    <group id="n30_pktd" name="n30" xy="185,687" size="342,50" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <component id="n13_pktd" name="group_newBuff1" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="192,770" group="n31_pktd" scale="0.75,0.75" touchable="false"/>
+    <component id="n18_pktd" name="group_newBuff2" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="289,770" group="n31_pktd" scale="0.75,0.75" touchable="false"/>
+    <component id="n19_pktd" name="group_newBuff3" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="386,770" group="n31_pktd" scale="0.75,0.75" touchable="false"/>
+    <component id="n20_pktd" name="group_newBuff4" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="483,770" group="n31_pktd" scale="0.75,0.75" touchable="false"/>
+    <group id="n31_pktd" name="n31" xy="192,770" size="406,111" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+      <gearXY controller="c1" pages="1" values="168,691" default="192,770"/>
+    </group>
+    <text id="n37_pktd" name="label_str129" xy="290,471" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" leading="0" autoClearText="true" text="洗炼结果">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <component id="n38_pktd" name="group_oldBuff1" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="168,599" group="n42_pktd" scale="0.75,0.75" touchable="false"/>
+    <component id="n39_pktd" name="group_oldBuff2" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="265,599" group="n42_pktd" scale="0.75,0.75" touchable="false"/>
+    <component id="n40_pktd" name="group_oldBuff3" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="362,599" group="n42_pktd" scale="0.75,0.75" touchable="false"/>
+    <component id="n41_pktd" name="group_oldBuff4" src="uun63m" fileName="btn_attr.xml" pkg="27utqbiz" xy="459,599" group="n42_pktd" scale="0.75,0.75" touchable="false"/>
+    <group id="n42_pktd" name="n42" xy="168,599" size="406,111" advanced="true">
+      <gearDisplay controller="c1" pages=""/>
+      <gearXY controller="c1" pages="0,1" values="168,599|168,547"/>
+    </group>
+    <image id="n44_pktd" name="n44" src="pktd8m" fileName="res1/dec_arrow_lifelong card.png" xy="329,628" scale="1.4,1.4">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <component id="n45_pktd" name="btn_cancel" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="108,890" scale="0.88,0.9">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n47_pktd" name="btn_saveRefreshBuffSkill" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="373,890" scale="0.88,0.9">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="保存"/>
+    </component>
+  </displayList>
+</component>

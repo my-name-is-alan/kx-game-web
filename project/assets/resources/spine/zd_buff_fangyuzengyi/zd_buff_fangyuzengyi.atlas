@@ -1,0 +1,118 @@
+
+zd_buff_fangyuzengyi.png
+size: 1490,784
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/buff_fyzy1/buff_fyzy1_00
+  rotate: true
+  xy: 947, 61
+  size: 269, 92
+  orig: 610, 556
+  offset: 158, 53
+  index: -1
+images/buff_fyzy1/buff_fyzy1_02
+  rotate: false
+  xy: 1062, 221
+  size: 325, 275
+  orig: 610, 556
+  offset: 153, 43
+  index: -1
+images/buff_fyzy1/buff_fyzy1_04
+  rotate: false
+  xy: 1062, 498
+  size: 336, 284
+  orig: 610, 556
+  offset: 151, 45
+  index: -1
+images/buff_fyzy1/buff_fyzy1_06
+  rotate: false
+  xy: 361, 13
+  size: 302, 308
+  orig: 610, 556
+  offset: 152, 51
+  index: -1
+images/buff_fyzy1/buff_fyzy1_08
+  rotate: false
+  xy: 2, 323
+  size: 527, 459
+  orig: 610, 556
+  offset: 44, 55
+  index: -1
+images/buff_fyzy1/buff_fyzy1_09
+  rotate: false
+  xy: 531, 332
+  size: 529, 450
+  orig: 610, 556
+  offset: 43, 58
+  index: -1
+images/buff_fyzy1/buff_fyzy1_10
+  rotate: true
+  xy: 2, 12
+  size: 309, 357
+  orig: 610, 556
+  offset: 153, 58
+  index: -1
+images/buff_fyzy1/buff_fyzy1_12
+  rotate: false
+  xy: 665, 41
+  size: 280, 289
+  orig: 610, 556
+  offset: 154, 59
+  index: -1
+images/buff_fyzy1/buff_fyzy1_14
+  rotate: false
+  xy: 1041, 2
+  size: 252, 217
+  orig: 610, 556
+  offset: 177, 132
+  index: -1
+images/buff_fyzy1/buff_fyzy1_16
+  rotate: true
+  xy: 1295, 8
+  size: 211, 185
+  orig: 610, 556
+  offset: 193, 165
+  index: -1
+images/buff_fyzy1/buff_fyzy1_18
+  rotate: true
+  xy: 1400, 638
+  size: 144, 88
+  orig: 610, 556
+  offset: 255, 263
+  index: -1
+images/buff_fyzy1/buff_fyzy1_20
+  rotate: true
+  xy: 1400, 532
+  size: 104, 80
+  orig: 610, 556
+  offset: 255, 271
+  index: -1
+images/buff_fyzy1/buff_fyzy1_22
+  rotate: false
+  xy: 1389, 382
+  size: 98, 76
+  orig: 610, 556
+  offset: 258, 273
+  index: -1
+images/buff_fyzy1/buff_fyzy1_24
+  rotate: false
+  xy: 1400, 460
+  size: 88, 70
+  orig: 610, 556
+  offset: 263, 277
+  index: -1
+images/buff_fyzy1/buff_fyzy1_26
+  rotate: false
+  xy: 1389, 314
+  size: 80, 66
+  orig: 610, 556
+  offset: 267, 280
+  index: -1
+images/buff_fyzy1/buff_fyzy1_28
+  rotate: false
+  xy: 1389, 251
+  size: 76, 61
+  orig: 610, 556
+  offset: 268, 282
+  index: -1

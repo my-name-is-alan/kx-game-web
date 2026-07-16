@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="o2pyykjc">
+  <resources>
+    <component id="sip80" name="LyBattleMain.xml" path="/" exported="true"/>
+    <component id="sip81" name="group_main.xml" path="/"/>
+    <component id="l22a2" name="group_battle.xml" path="/res/"/>
+    <component id="l21m3" name="group_object.xml" path="/res/" exported="true"/>
+    <component id="l6soa" name="group_start.xml" path="/start/"/>
+    <component id="qv9ii" name="group_head.xml" path="/res/"/>
+    <image id="l6sow" name="battle_text1.png" path="/text/" exported="true"/>
+    <image id="qv9ij" name="battle_text2.png" path="/text/" exported="true"/>
+    <image id="qv9ik" name="battle_text3.png" path="/text/" exported="true"/>
+    <image id="qv9il" name="battle_text4.png" path="/text/" exported="true"/>
+    <image id="qv9im" name="battle_text5.png" path="/text/" exported="true"/>
+    <component id="ni3j12" name="group_bufficon.xml" path="/res/" exported="true"/>
+    <component id="abrz14" name="group_topui.xml" path="/res/"/>
+    <image id="lz4b15" name="battle_text6.png" path="/text/" exported="true"/>
+    <component id="krkh16" name="LyBattleDetail.xml" path="/" exported="true"/>
+    <component id="krkh17" name="group_detail.xml" path="/"/>
+    <component id="krkh18" name="group_content.xml" path="/"/>
+    <image id="huv219" name="btn_x1.png" path="/res/"/>
+    <image id="huv21a" name="btn_x2.png" path="/res/"/>
+    <image id="huv21b" name="des_left scroll.png" path="/res/"/>
+    <image id="huv21c" name="des_ribbon_low_right_corner.png" path="/res/"/>
+    <image id="huv21d" name="des_ribbon_top_left_corner.png" path="/res/"/>
+    <image id="huv21e" name="des_right scroll.png" path="/res/"/>
+    <image id="huv21f" name="frame_bar_all.png" path="/res/" scale="9grid" scale9grid="10,6,127,4"/>
+    <image id="huv21g" name="frame_blood bar.png" path="/res/"/>
+    <image id="huv21h" name="frame_energy bar.png" path="/res/"/>
+    <image id="huv21i" name="frame_scroll.png" path="/res/"/>
+    <image id="huv21j" name="frame_title of round.png" path="/res/"/>
+    <component id="huv21k" name="bar_anger.xml" path="/res/"/>
+    <component id="huv21l" name="bar_blood.xml" path="/res/"/>
+    <component id="wym01m" name="btn_speed.xml" path="/res/"/>
+    <image id="g0ot1n" name="btn_skip.png" path="/res/"/>
+    <component id="g0ot1o" name="btn_skip.xml" path="/res/"/>
+    <image id="7mjc1p" name="battle_text7.png" path="/text/" exported="true"/>
+    <image id="7mjc1q" name="battle_text8.png" path="/text/" exported="true"/>
+    <image id="7mjc1r" name="battle_text9.png" path="/text/" exported="true"/>
+    <image id="7mjc1s" name="word_ULT_bailijianfa.png" path="/textname/" exported="true"/>
+    <image id="7mjc1t" name="word_ULT_jingangbuhuaijue.png" path="/textname/" exported="true"/>
+    <image id="7mjc1u" name="word_ULT_taijishenjian.png" path="/textname/" exported="true"/>
+    <image id="7mjc1v" name="word_ULT_zhanyishibadie.png" path="/textname/" exported="true"/>
+    <image id="lvip1w" name="frame_enemy-progress-bar1_now.png" path="/res/"/>
+    <image id="lvip1x" name="frame_enemy-progress-bar2_now.png" path="/res/" scale="9grid" scale9grid="2,10,2,13"/>
+    <image id="lvip1y" name="frame_enemy-progress-bar_all.png" path="/res/"/>
+    <image id="lvip20" name="icon_ranking rewards.png" path="/res/"/>
+    <component id="lvip21" name="group_progressboss.xml" path="/res/"/>
+    <component id="lvip22" name="bar_progressboss.xml" path="/res/"/>
+    <component id="tcle23" name="group_box.xml" path="/res/" exported="true"/>
+    <image id="q2jc24" name="btn_x3.png" path="/res/"/>
+    <image id="oxdb25" name="word_jinengyulan.png" path="/res/"/>
+    <image id="r7x226" name="word_ULT_bagualianhuanzhang.png" path="/textname/" exported="true"/>
+    <image id="r7x227" name="word_ULT_guixishu.png" path="/textname/" exported="true"/>
+    <image id="r7x228" name="word_ULT_hanmeiaojianjue.png" path="/textname/" exported="true"/>
+    <image id="r7x229" name="word_ULT_hanshanquan.png" path="/textname/" exported="true"/>
+    <image id="pm212l" name="word_ULT_huofengniepan.png" path="/textname/" exported="true"/>
+    <image id="r7x22b" name="word_ULT_jiletiandao.png" path="/textname/" exported="true"/>
+    <image id="r7x22c" name="word_ULT_kuihuadianxueshou.png" path="/textname/" exported="true"/>
+    <image id="r7x22d" name="word_ULT_lingxiyizhi.png" path="/textname/" exported="true"/>
+    <image id="r7x22e" name="word_ULT_luojinjue.png" path="/textname/" exported="true"/>
+    <image id="r7x22f" name="word_ULT_mieshenjueyidao.png" path="/textname/" exported="true"/>
+    <image id="r7x22g" name="word_ULT_ranmudao.png" path="/textname/" exported="true"/>
+    <image id="r7x22h" name="word_ULT_shirijianfa.png" path="/textname/" exported="true"/>
+    <image id="r7x22i" name="word_ULT_tianfuchuoxueci.png" path="/textname/" exported="true"/>
+    <image id="r7x22j" name="word_ULT_wanjianguizong.png" path="/textname/" exported="true"/>
+    <image id="r7x22k" name="word_ULT_wuyingjiao.png" path="/textname/" exported="true"/>
+    <component id="hy8r2m" name="group_iner_ctn.xml" path="/res/"/>
+    <component id="hy8r2n" name="group_iner_eft.xml" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,13 @@
+
+zd_gw_shanzi.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wuqi
+  rotate: false
+  xy: 2, 10
+  size: 99, 91
+  orig: 99, 91
+  offset: 0, 0
+  index: -1

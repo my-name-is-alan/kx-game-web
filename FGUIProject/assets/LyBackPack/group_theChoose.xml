@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="201,300">
+  <displayList>
+    <component id="n29_sjma" name="the" src="k70ee2" fileName="group_theurgy.xml" pkg="yhkdb7e3" xy="5,2" scale="0.629,0.634"/>
+    <image id="n27_sjma" name="n27" src="hl7112" fileName="ui/frame_challenger.png" pkg="27utqbiz" xy="11,5" group="n35_sjma"/>
+    <text id="n28_sjma" name="label_str28_1" xy="13,0" size="21,84" group="n35_sjma" fontSize="16" color="#fff1cc" align="center" vAlign="middle" autoSize="none" text="挑战方"/>
+    <group id="n35_sjma" name="group_have" xy="11,0" size="24,87" advanced="true"/>
+    <component id="n30_sjma" name="btn_add" src="bh805c" fileName="btn_add2.xml" pkg="27utqbiz" xy="106,202"/>
+    <component id="n31_sjma" name="btn_jianshao" src="bh805d" fileName="btn_reduct2.xml" pkg="27utqbiz" xy="0,202"/>
+    <image id="n34_sjma" name="n34" src="sjma5k" fileName="res/frame_amount.png" xy="40,210"/>
+    <text id="n33_sjma" name="label_number" xy="38,206" size="63,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#16191a" strokeSize="2" text="1"/>
+  </displayList>
+</component>

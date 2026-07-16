@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,140" pivot="0.5,0.5" extention="Button" designImageOffsetX="-280" designImageOffsetY="-1468">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n9_pttz" name="n9" src="pttz58" fileName="res/main2/icon_fishing3.png" xy="-18,-18" scale="0.9,0.9"/>
+    <image id="n8_pttz" name="n8" src="pttz57" fileName="res/main2/icon_fishing2.png" xy="1,-22" scale="0.99,0.99"/>
+    <loader3D id="n10_pttz" name="loader_spine_forge" xy="72,69" size="1,1" animation="" skin="" loop="true"/>
+    <image id="n7_pttz" name="n7" src="pttz59" fileName="res/main2/icon_fishing1.png" xy="10,18" scale="0.9,0.9"/>
+    <image id="n13_hbzk" name="n13" src="nia25l" fileName="res/main2/z_Button_s_Base colour.png" xy="4,106" scale="0.9,0.9"/>
+    <text id="n6_ghbs" name="label_physical" xy="42,109" size="83,43" font="ui://27utqbizps391v" fontSize="31" color="#ffffff" align="center" vAlign="middle" letterSpacing="-3" autoSize="shrink" text="46">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n14_hbzk" name="n14" src="i5tz8d" fileName="iconitems/Props-gouqi.png" pkg="27utqbiz" xy="5,113" scale="0.4,0.4"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

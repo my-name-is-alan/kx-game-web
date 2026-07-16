@@ -1,0 +1,48 @@
+
+jm_jieshuan.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gongyontankuang_01
+  rotate: false
+  xy: 47, 963
+  size: 276, 48
+  orig: 276, 48
+  offset: 0, 0
+  index: -1
+gongyontankuang_02
+  rotate: false
+  xy: 325, 896
+  size: 207, 115
+  orig: 209, 118
+  offset: 1, 1
+  index: -1
+gongyontankuang_03
+  rotate: false
+  xy: 262, 688
+  size: 749, 195
+  orig: 749, 195
+  offset: 0, 0
+  index: -1
+gongyontankuang_04
+  rotate: false
+  xy: 2, 711
+  size: 258, 250
+  orig: 265, 256
+  offset: 2, 3
+  index: -1
+gongyontankuang_gongxi
+  rotate: false
+  xy: 534, 885
+  size: 350, 126
+  orig: 352, 127
+  offset: 1, 1
+  index: -1
+light_point
+  rotate: false
+  xy: 2, 969
+  size: 43, 42
+  orig: 61, 60
+  offset: 9, 10
+  index: -1

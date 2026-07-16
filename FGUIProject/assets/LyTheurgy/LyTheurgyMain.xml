@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="810,1183">
+  <controller name="con_type" exported="true" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <image id="n2_eohi" name="n2" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="54,43" size="702,1107">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader3D id="n99_sex8" name="loader_3d_effect" xy="404,348" size="1,1" animation="" skin="" loop="true"/>
+    <image id="n95_sex8" name="n95" src="hhz9eo" fileName="res/frame_neirongdiban.png" xy="81,595" size="648,516"/>
+    <image id="n112_d7qm" name="img_no" src="d7qmpk" fileName="res/frame_zanwushuju.png" xy="219,732"/>
+    <text id="n89_k70e" name="label_title" xy="76,72" size="210,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="门客">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <list id="n45_mxxu" name="list_theurgy" xy="87,704" size="1021,499" scale="0.628,0.628" layout="flow_hz" overflow="scroll" lineGap="12" colGap="7" defaultItem="ui://yhkdb7e3k70ee2" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n57_ikda" name="loader_use0" src="p5o44e" fileName="group_the.xml" xy="67,140"/>
+    <component id="n58_ikda" name="loader_use1" src="p5o44e" fileName="group_the.xml" xy="374,144"/>
+    <component id="n59_ikda" name="loader_use2" src="p5o44e" fileName="group_the.xml" xy="94,343"/>
+    <component id="n60_ikda" name="loader_use3" src="p5o44e" fileName="group_the.xml" xy="341,344"/>
+    <component id="n62_k70e" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="693,81"/>
+    <component id="n87_k70e" name="btn_draw" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="459,1035" size="188,52"/>
+    <component id="n88_k70e" name="btn_group" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="142,1037" size="188,52"/>
+    <image id="n90_k70e" name="n90" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="606,966"/>
+    <component id="n92_iqt4" name="btn_what" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="156,57"/>
+    <component id="n65_k70e" name="btn_0" src="k70e5k" fileName="btn_choose.xml" xy="193,600" group="n96_sex8">
+      <Button checked="true" controller="con_type" page="0"/>
+    </component>
+    <component id="n67_k70e" name="btn_1" src="k70e5k" fileName="btn_choose.xml" xy="303,599" group="n96_sex8">
+      <Button controller="con_type" page="1"/>
+    </component>
+    <component id="n68_k70e" name="btn_2" src="k70e5k" fileName="btn_choose.xml" xy="413,599" group="n96_sex8">
+      <Button controller="con_type" page="2"/>
+    </component>
+    <component id="n69_k70e" name="btn_3" src="k70e5k" fileName="btn_choose.xml" xy="523,599" group="n96_sex8">
+      <Button controller="con_type" page="3"/>
+    </component>
+    <group id="n96_sex8" name="n96" xy="193,599" size="426,89" advanced="true" layout="hz" colGap="14" excludeInvisibles="true"/>
+    <image id="n97_sex8" name="n97" src="sex8p0" fileName="res/frame_fengexian.png" xy="136,690"/>
+  </displayList>
+</component>

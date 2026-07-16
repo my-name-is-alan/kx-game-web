@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="c3my3l4f">
+  <resources>
+    <component id="r7co0" name="LyMount.xml" path="/" exported="true"/>
+    <component id="si2u2" name="group_mount.xml" path="/"/>
+    <component id="i3vf4" name="bar_progress.xml" path="/"/>
+    <component id="nxgl5" name="group_skin.xml" path="/"/>
+    <component id="nxgl6" name="LyMountSkin.xml" path="/" exported="true"/>
+    <component id="nxglc" name="LyMountAttr.xml" path="/" exported="true"/>
+    <component id="nxgld" name="group_attr.xml" path="/"/>
+    <image id="r1mee" name="fex_choose.png" path="/res/" scale="9grid" scale9grid="9,9,2,2"/>
+    <image id="r1mef" name="frame_attribute.png" path="/res/"/>
+    <image id="r1meg" name="frame_equipment  name.png" path="/res/"/>
+    <image id="r1meh" name="frame_mount.png" path="/res/"/>
+    <image id="r1mei" name="frame_next.png" path="/res/"/>
+    <image id="r1mej" name="frame_now.png" path="/res/"/>
+    <component id="ii8xk" name="group_item_mount.xml" path="/"/>
+    <component id="ii8xl" name="btn_item.xml" path="/"/>
+    <image id="ii8xo" name="btn_arrow.png" path="/res/"/>
+    <image id="ii8xp" name="frame_challenger.png" path="/res/"/>
+    <image id="ii8xq" name="bg_baixianglou1.png" path="/res/"/>
+    <component id="ppd1r" name="btn_arrow.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

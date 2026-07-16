@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root id="1" phase="2">
+  <ticker>
+    <ticker id="1" activityId="1" type="突破阶段" describe="" content="[color=#CD950C]{0}[/color]成功突破至[color=#CD950C]{1}[/color]"/>
+    <ticker id="2" activityId="1" type="合成门客" describe="指定门客才广播" content="英雄齐聚，[color=#CD950C]{0}[/color]成功合成[color=#CD950C]{14}[/color]前来助阵。"/>
+    <ticker id="3" activityId="1" type="抽取法宝" describe="抽出金的广播" content="[color=#CD950C]{0}[/color]在试剑馈宝中收割赞叹，成功席卷传说中的[color=#CD950C]{2}[/color]，武力飙升！"/>
+    <ticker id="4" activityId="1" type="合成法宝" describe="合成红的广播" content="[color=#CD950C]{0}[/color]凝神聚气，成功合成了珍宝[color=#CD950C]{2}[/color]，武力大涨！"/>
+    <ticker id="5" activityId="1" type="抽取门客" describe="抽出金/红广播" content="[color=#CD950C]{0}[/color]在品茗阁偶遇[color=#CD950C]{14}[/color]，一番畅谈，相识恨晚，结为知己。"/>
+    <ticker id="6" activityId="1" type="升级鱼塘" describe="广播10级以上鱼塘" content="[color=#CD950C]{0}[/color]成功升级鱼塘至[color=#CD950C]{3}[/color]，鱼跃水清钓鱼产出品质提高。"/>
+    <ticker id="7" activityId="1" type="抽取侠侣" describe="成功召唤红侠侣" content="[color=#CD950C]{0}[/color]的真情得到回应，成功与 [color=#CD950C]{12}[/color]觅得侠侣知音。"/>
+    <ticker id="8" activityId="1" type="击败玩家" describe="(活动)" content="来自[color=#CD950C]{4}[/color]的[color=#CD950C]{5}[/color]击败了[color=#CD950C]{6}[/color]的[color=#CD950C]{7}[/color]，达成[color=#FFFF00]{8}[/color]连胜，获得了[color=#CD950C]{10}[/color]*[color=#CD950C]{11}[/color]"/>
+    <ticker id="9" activityId="1" type="终结连胜" describe="(活动)" content="来自[color=#CD950C]{4}[/color]的[color=#CD950C]{5}[/color]终结了[color=#CD950C]{6}[/color][color=#CD950C]{7}[/color]的[color=#CD950C]{9}[/color]连胜，达成[color=#FFFF00]{8}[/color]连胜，获得了[color=#CD950C]{10}[/color]*[color=#CD950C]{11}[/color]"/>
+    <ticker id="10" activityId="1" type="抽取金手指" describe="抽出任意金手指的广播" content="金光破云而出，[color=#CD950C]{0}[/color]获得绝世奇珍[color=#CD950C]{15}[/color]，江湖之路，自此坦荡无阻！"/>
+  </ticker>
+  <syn>
+    <syn monsterId="20035"/>
+    <syn monsterId="20036"/>
+    <syn monsterId="20037"/>
+    <syn monsterId="20038"/>
+    <syn monsterId="20039"/>
+    <syn monsterId="20040"/>
+    <syn monsterId="20041"/>
+    <syn monsterId="20042"/>
+    <syn monsterId="20043"/>
+    <syn monsterId="20044"/>
+    <syn monsterId="20045"/>
+  </syn>
+</root>

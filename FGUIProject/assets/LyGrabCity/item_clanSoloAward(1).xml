@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,1055">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n62_ljrs" name="img_bg" xy="0,0" size="668,1055" url="ui://irbjwyufljrsr" fill="scaleFree">
+      <relation target="n87_maep" sidePair="bottomext-bottom"/>
+    </loader>
+    <text id="n64_ljrs" name="label_top1" xy="223,30" size="222,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#d4841b" autoClearText="true" text="第一名"/>
+    <text id="n65_ljrs" name="label_top2" xy="223,30" size="222,42" visible="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#8b55e4" autoClearText="true" text="第二名"/>
+    <text id="n66_ljrs" name="label_top3" xy="223,30" size="222,42" visible="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#569bdc" autoClearText="true" text="第二名"/>
+    <text id="n67_ljrs" name="label_tops" xy="223,30" size="222,42" visible="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#67765c" strokeSize="2" autoClearText="true" text="第二名"/>
+    <component id="n83_maep" name="loader_line1" src="maepudu19k" fileName="group_chReward.xml" xy="65,91" group="n88_maep"/>
+    <component id="n86_maep" name="loader_line2" src="maepudu19k" fileName="group_chReward.xml" xy="65,402" group="n88_maep"/>
+    <component id="n87_maep" name="loader_line3" src="maepudu19k" fileName="group_chReward.xml" xy="65,713" group="n88_maep"/>
+    <group id="n88_maep" name="n88" xy="65,91" size="557,952" advanced="true" layout="vt" lineGap="-19" colGap="-21" excludeInvisibles="true"/>
+  </displayList>
+  <relation target="n62_ljrs" sidePair="height-height"/>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,28">
+  <controller name="con_star" pages="0,,1,,2,,3,,4," selected="4"/>
+  <displayList>
+    <loader id="n19_gqdu" name="img_star1" xy="9,-1" size="28,30" group="n24_gqdu" url="ui://27utqbizgqduvp" autoSize="true">
+      <gearDisplay controller="con_star" pages="2,3,4"/>
+    </loader>
+    <loader id="n20_gqdu" name="img_star2" xy="26,-1" size="28,30" group="n24_gqdu" url="ui://27utqbizgqduvp" autoSize="true">
+      <gearDisplay controller="con_star" pages="1,2,3,4"/>
+    </loader>
+    <loader id="n21_gqdu" name="img_star3" xy="43,-1" size="28,30" group="n24_gqdu" url="ui://27utqbizgqduvp" autoSize="true">
+      <gearDisplay controller="con_star" pages="0,1,2,3,4"/>
+    </loader>
+    <loader id="n22_gqdu" name="img_star4" xy="60,-1" size="28,30" group="n24_gqdu" url="ui://27utqbizgqduvp" autoSize="true">
+      <gearDisplay controller="con_star" pages="3,4"/>
+    </loader>
+    <loader id="n23_gqdu" name="img_star5" xy="77,-1" size="28,30" group="n24_gqdu" url="ui://27utqbizgqduvp" autoSize="true">
+      <gearDisplay controller="con_star" pages="4"/>
+    </loader>
+    <group id="n24_gqdu" name="group_star" xy="9,-1" size="96,30" advanced="true" layout="hz" lineGap="12" colGap="-11" excludeInvisibles="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

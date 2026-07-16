@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,460">
+  <displayList>
+    <image id="n14_osg9" name="back_win" src="osg9u" fileName="res/frame_bottom2.png" xy="0,6"/>
+    <loader3D id="n7_tkum" name="loader_spine" xy="374,-25" size="2,2" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <image id="n10_osg9" name="n10" src="osg9w" fileName="res/frame_title2.png" xy="0,-153" group="n12_osg9"/>
+    <image id="n13_osg9" name="n13" src="osg910" fileName="res/word_gongxihuode.png" xy="198,-82" group="n12_osg9"/>
+    <group id="n12_osg9" name="title_win" xy="0,-153" size="750,212" advanced="true"/>
+    <list id="n2_ewyh" name="list_item" xy="375,210" pivot="0.5,0.5" anchor="true" size="620,320" group="n8_tkum" layout="flow_hz" overflow="scroll" scrollBarFlags="640" colGap="30" defaultItem="ui://02ur49fwtclen" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <list id="n16_x9bu" name="list_item10" xy="375,210" pivot="0.5,0.5" anchor="true" size="620,320" group="n8_tkum" layout="flow_hz" overflow="scroll" scrollBarFlags="64" colGap="30" defaultItem="ui://02ur49fwtclen" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <loader3D id="n9_ui7m" name="loader_spine2" xy="374,210" size="2,2" group="n8_tkum" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <group id="n8_tkum" name="group_outani" xy="65,50" size="620,320" visible="false" advanced="true"/>
+    <component id="n15_h9lc" name="group_rebate" src="h9lcq4" fileName="group_rebate.xml" xy="75,-350" visible="false"/>
+  </displayList>
+</component>

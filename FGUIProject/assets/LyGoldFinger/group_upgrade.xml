@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader3D id="n34_ro4e" name="loader_spine_bj" xy="374,666" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <loader3D id="n35_ro4e" name="loader_spine_frame" xy="374,666" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <loader3D id="n36_ro4e" name="loader_spine_main" xy="374,492" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <loader3D id="n37_ro4e" name="loader_spine_star" xy="374,666" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <image id="n9_kluz" name="n9" src="kluzh" fileName="res/frame_fengexian.png" xy="213,77"/>
+    <image id="n12_kluz" name="n12" src="kluzl" fileName="res/frame_mingpai.png" xy="668,388"/>
+    <loader id="n4_kluz" name="loader_name" xy="562,301" size="100,100" url="ui://j6s22r8hkluz6" align="center" vAlign="middle" clearOnPublish="true"/>
+    <image id="n32_ro4e" name="n32" src="ro4e1a" fileName="res/frame_jiantou.png" xy="443,745" rotation="90">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <component id="n30_ro4e" name="group_upgradeitem" src="ro4e17" fileName="group_upgradeitem.xml" xy="55,645">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n31_ro4e" name="group_upgradenext" src="ro4e17" fileName="group_upgradeitem.xml" xy="55,850">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n33_ro4e" name="group_upgradeitem2" src="ro4e1b" fileName="group_upgradeitem2.xml" xy="55,700">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n26_kluz" name="btn_pump" src="kluzp" fileName="btn_pump.xml" xy="227,1080">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <text id="n10_kluz" name="label_title" xy="301,58" size="148,49" font="ui://27utqbizps391v" fontSize="36" color="#f4e9d5" align="center" vAlign="middle" autoClearText="true" text="寻龙分金">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n13_kluz" name="label_right" xy="681,444" size="30,179" fontSize="24" color="#ffc29e" align="center" leading="0" autoSize="height" autoClearText="true" text="分解经验翻倍"/>
+    <loader id="n22_kluz" name="loader_icon" xy="362,1038" size="40,40" fill="scaleFree">
+      <relation target="" sidePair="bottom-bottom"/>
+      <relation target="n23_kluz" sidePair="right-left"/>
+    </loader>
+    <text id="n23_kluz" name="label_need" xy="407,1045" size="10,29" fontSize="20" color="#221e17" vAlign="middle" bold="true" text="">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

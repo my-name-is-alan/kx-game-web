@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="780,1215">
+  <displayList>
+    <image id="n1_85qw" name="n1" src="k7xe1v" fileName="res/frame_gongchengliqi.png" xy="0,0"/>
+    <image id="n2_85qw" name="n2" src="k7xe5" fileName="res/word_gognchengliqi.png" xy="109,497"/>
+    <component id="n3_85qw" name="btn_point" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="615,547" scale="1.2,1.2"/>
+    <text id="n4_85qw" name="n4" xy="194,627" size="374,34" font="ui://27utqbizps391v" fontSize="24" color="#a54336" align="center" vAlign="middle" autoSize="none" text="攻城利器造成总伤害=两倍战力"/>
+    <image id="n14_85qw" name="n14" src="k7xe1s" fileName="res/frame_jianglidi.png" xy="106,966"/>
+    <text id="n15_85qw" name="n15" xy="298,975" size="167,36" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="奖励预览"/>
+    <list id="n16_85qw" name="list_reward" xy="187,1016" size="552,102" scale="0.72,0.72" layout="row" overflow="scroll" colGap="19" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n19_85qw" name="btn_skipAnim" src="me8jrb" fileName="btn_gou.xml" pkg="27utqbiz" xy="534,1129">
+      <Button title="跳过动画"/>
+    </component>
+    <component id="n21_85qw" name="btn_close" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="620,42" size="90,82">
+      <Button icon="ui://i35cf1mq85qw11"/>
+    </component>
+    <list id="n22_85qw" name="list_weapon" xy="97,674" size="570,290" overflow="scroll" lineGap="7" defaultItem="ui://i35cf1mq85qwdu193" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

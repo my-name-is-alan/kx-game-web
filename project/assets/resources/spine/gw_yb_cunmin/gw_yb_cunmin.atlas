@@ -1,0 +1,160 @@
+
+gw_yb_cunmin.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 317
+  size: 122, 190
+  orig: 122, 190
+  offset: 0, 0
+  index: -1
+bozi
+  rotate: false
+  xy: 173, 333
+  size: 43, 62
+  orig: 43, 62
+  offset: 0, 0
+  index: -1
+erduo
+  rotate: true
+  xy: 218, 322
+  size: 16, 35
+  orig: 16, 35
+  offset: 0, 0
+  index: -1
+foot_L
+  rotate: true
+  xy: 249, 275
+  size: 45, 30
+  orig: 45, 30
+  offset: 0, 0
+  index: -1
+foot_L2
+  rotate: true
+  xy: 265, 367
+  size: 37, 32
+  orig: 40, 32
+  offset: 0, 0
+  index: -1
+foot_R
+  rotate: true
+  xy: 265, 328
+  size: 37, 32
+  orig: 40, 32
+  offset: 3, 0
+  index: -1
+foot_R2
+  rotate: false
+  xy: 232, 423
+  size: 44, 29
+  orig: 44, 29
+  offset: 0, 0
+  index: -1
+kuqun
+  rotate: true
+  xy: 2, 2
+  size: 131, 118
+  orig: 131, 118
+  offset: 0, 0
+  index: -1
+shou_L1
+  rotate: false
+  xy: 271, 459
+  size: 37, 48
+  orig: 37, 48
+  offset: 0, 0
+  index: -1
+shou_R1
+  rotate: false
+  xy: 218, 340
+  size: 45, 57
+  orig: 45, 65
+  offset: 0, 8
+  index: -1
+shoubi_L1
+  rotate: true
+  xy: 165, 144
+  size: 63, 106
+  orig: 63, 106
+  offset: 0, 0
+  index: -1
+shoubi_L2
+  rotate: false
+  xy: 192, 423
+  size: 38, 84
+  orig: 38, 84
+  offset: 0, 0
+  index: -1
+shoubi_R1
+  rotate: false
+  xy: 126, 397
+  size: 64, 110
+  orig: 64, 110
+  offset: 0, 0
+  index: -1
+shoubi_R2
+  rotate: false
+  xy: 126, 317
+  size: 45, 78
+  orig: 45, 78
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 165, 209
+  size: 82, 106
+  orig: 82, 106
+  offset: 0, 0
+  index: -1
+toufa1
+  rotate: false
+  xy: 122, 14
+  size: 114, 123
+  orig: 114, 123
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: false
+  xy: 232, 454
+  size: 37, 53
+  orig: 37, 53
+  offset: 0, 0
+  index: -1
+toufa3
+  rotate: true
+  xy: 192, 399
+  size: 22, 53
+  orig: 22, 53
+  offset: 0, 0
+  index: -1
+toufa4
+  rotate: true
+  xy: 249, 234
+  size: 39, 36
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+tui_L
+  rotate: false
+  xy: 2, 135
+  size: 74, 180
+  orig: 74, 180
+  offset: 0, 0
+  index: -1
+tui_R
+  rotate: false
+  xy: 78, 139
+  size: 85, 176
+  orig: 85, 176
+  offset: 0, 0
+  index: -1
+yezi
+  rotate: true
+  xy: 247, 406
+  size: 15, 28
+  orig: 15, 28
+  offset: 0, 0
+  index: -1

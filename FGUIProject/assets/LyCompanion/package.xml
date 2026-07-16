@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="l32lh3od">
+  <resources>
+    <component id="i05h0" name="LyCompanion.xml" path="/" exported="true"/>
+    <component id="i05h1" name="group_companion.xml" path="/" exported="true"/>
+    <component id="i05h5" name="label_attr.xml" path="/"/>
+    <component id="i05h6" name="group_place.xml" path="/"/>
+    <component id="i05h7" name="btn_travel.xml" path="/"/>
+    <component id="fj2b8" name="LyCompanionInfo.xml" path="/" exported="true"/>
+    <component id="fj2b9" name="btn_switch.xml" path="/"/>
+    <component id="fj2ba" name="btn_skin.xml" path="/"/>
+    <component id="fj2bf" name="LyCompanionSkin.xml" path="/" exported="true"/>
+    <component id="fj2bg" name="group_companionSkin.xml" path="/"/>
+    <component id="fj2bh" name="LyCompanionBattle.xml" path="/" exported="true"/>
+    <component id="fj2bi" name="group_companionBattle.xml" path="/"/>
+    <component id="g0zlj" name="LyCompanionLiking.xml" path="/" exported="true"/>
+    <component id="g0zlk" name="group_companionLiking.xml" path="/"/>
+    <component id="svlpt" name="btn_prop.xml" path="/"/>
+    <component id="svlpx" name="btn_item.xml" path="/"/>
+    <component id="svlpy" name="btn_gou.xml" path="/"/>
+    <component id="svlpz" name="group_attr.xml" path="/"/>
+    <component id="svlp10" name="group_allAttr.xml" path="/"/>
+    <image id="rp9115" name="Fhead_heibaishuangdiao.png" path="/res2/"/>
+    <image id="rp9116" name="frame_nametiao5.png" path="/res2/"/>
+    <image id="rp9117" name="frame_nametiao2.png" path="/res2/" scale="9grid" scale9grid="16,4,32,8"/>
+    <image id="rp9118" name="frame_nametiao.png" path="/res2/"/>
+    <image id="rp9119" name="frame_jindutiaobig2.png" path="/res2/"/>
+    <image id="rp911a" name="frame_jindutiaobig.png" path="/res2/"/>
+    <image id="rp911b" name="frame_jiejitisheng.png" path="/res2/"/>
+    <image id="rp911c" name="frame_haogandujiachengdi.png" path="/res2/"/>
+    <image id="rp911d" name="frame_buffxiaoguodiukuang2.png" path="/res2/"/>
+    <image id="rp911e" name="frame_buffxiaoguodikuang.png" path="/res2/"/>
+    <image id="rp911f" name="btn_zhediexia.png" path="/res2/"/>
+    <image id="rp911g" name="btn_zhedieshang.png" path="/res2/"/>
+    <image id="rp911h" name="btn_anniuorange.png" path="/res2/"/>
+    <image id="rp911i" name="btn_anniugreen.png" path="/res2/"/>
+    <image id="rp911j" name="bg_xianyouyoulibeijing.png" path="/res2/"/>
+    <image id="rp911k" name="frame_nametiao3.png" path="/res2/"/>
+    <image id="rp911l" name="bg_xianyouhuanhuabeijing.png" path="/res2/"/>
+    <image id="rp911m" name="icon_lock.png" path="/res2/"/>
+    <image id="rp911n" name="icon_aixin2.png" path="/res2/"/>
+    <image id="rp911o" name="icon_aixin.png" path="/res2/"/>
+    <image id="rp911p" name="frame_zhediexiakuai.png" path="/res2/"/>
+    <image id="rp911q" name="frame_zhedieshangkuai.png" path="/res2/"/>
+    <image id="rp911s" name="frame_youlididian.png" path="/res2/"/>
+    <image id="rp911t" name="frame_touxiang.png" path="/res2/"/>
+    <image id="rp911z" name="bg_xianyoubeijing.png" path="/res2/"/>
+    <image id="rp9120" name="frame_nametiao4.png" path="/res2/"/>
+    <component id="rp9121" name="btn_normal1.xml" path="/"/>
+    <component id="rp9124" name="btn_normal2.xml" path="/"/>
+    <image id="rp9125" name="frame_jianglijindukuai.png" path="/res2/"/>
+    <image id="rp9126" name="frame_jianglijindukuai2.png" path="/res2/"/>
+    <image id="rp9127" name="frame_shujindutiao.png" path="/res2/" scale="9grid" scale9grid="5,131,10,262"/>
+    <image id="rp9128" name="frame_shujindutiao2.png" path="/res2/" scale="9grid" scale9grid="4,62,8,124"/>
+    <component id="kcwh2a" name="btn_normal3.xml" path="/"/>
+    <component id="kcwh2d" name="btn_normal4.xml" path="/"/>
+    <image id="kcwh2e" name="frame_yitongguan.png" path="/res2/"/>
+    <image id="kcwh2f" name="frame_qiecuo.png" path="/res2/"/>
+    <image id="kcwh2g" name="frame_xianyouhuanhua.png" path="/res2/"/>
+    <component id="kcwh2h" name="btn_battle.xml" path="/"/>
+    <image id="kcwh2i" name="frame_daojushuliangdi.png" path="/res2/"/>
+    <component id="kcwh2j" name="btn_jt.xml" path="/"/>
+    <component id="kcwh2k" name="btn_common.xml" path="/"/>
+    <image id="isiv2l" name="companion_bg4.png" path="/res2/" exported="true"/>
+    <image id="isiv2m" name="companion_bg2.png" path="/res2/" exported="true"/>
+    <image id="isiv2n" name="companion_bg1.png" path="/res2/" exported="true"/>
+    <image id="isiv2o" name="companion_bg3.png" path="/res2/" exported="true"/>
+    <component id="isiv2r" name="btn_close.xml" path="/"/>
+    <image id="isiv2s" name="word_xianyouhuanhua.png" path="/res2/"/>
+    <image id="isiv2t" name="icon_qiecuo.png" path="/res2/"/>
+    <image id="isiv2u" name="icon_xianyouhuanhua.png" path="/res2/"/>
+    <image id="isiv2v" name="icon_youli.png" path="/res2/"/>
+    <image id="isiv2w" name="frame_shuliangzengjia2.png" path="/res2/"/>
+    <component id="isiv2x" name="btn_gou2.xml" path="/"/>
+    <image id="8u8i37" name="frame_name1.png" path="/res2/"/>
+    <image id="8u8i38" name="frame_name2.png" path="/res2/"/>
+    <image id="8u8i39" name="frame_name3.png" path="/res2/"/>
+    <image id="8u8i3a" name="frame_name4.png" path="/res2/"/>
+    <image id="ln3o3b" name="btn_qiehuananniu2.png" path="/res2/"/>
+    <component id="ln3o3c" name="LyCompanionTravel.xml" path="/" exported="true"/>
+    <component id="ln3o3e" name="item_icon.xml" path="/"/>
+    <component id="ln3o3f" name="group_companionTravel.xml" path="/"/>
+    <component id="ln3o3g" name="btn_add.xml" path="/"/>
+    <component id="krp33h" name="bar_level.xml" path="/"/>
+    <image id="ublp3k" name="frame_youlifaxian.png" path="/res2/"/>
+    <component id="qav23l" name="LyCompanionLock.xml" path="/" exported="true"/>
+    <image id="qav23m" name="bg_jiesuoteshutanchuang2.png" path="/res2/"/>
+    <image id="qav23n" name="bg_jiesuoteshutanchuang.png" path="/res2/"/>
+    <image id="qav23o" name="word_chenggongjiesuo.png" path="/res2/"/>
+    <component id="qav23q" name="LyCompanionLevel.xml" path="/" exported="true"/>
+    <image id="qav23r" name="frame_tupojinjie2.png" path="/res2/"/>
+    <image id="feen3w" name="frame_congratulation.png" path="/res2/" scale="9grid" scale9grid="220,100,440,202"/>
+    <component id="ql4f3x" name="group_lock.xml" path="/"/>
+    <component id="ql4f3z" name="group_companionMain.xml" path="/"/>
+    <component id="ql4f40" name="group_companionBattleMain.xml" path="/"/>
+    <component id="ql4f41" name="group_companionInfoMain.xml" path="/"/>
+    <component id="ql4f43" name="group_companionLikingMain.xml" path="/"/>
+    <image id="cnrn44" name="frame_fengexian.png" path="/res2/"/>
+    <component id="gqdu45" name="LyCompanionUse.xml" path="/" exported="true"/>
+    <component id="gqdu46" name="group_buy.xml" path="/"/>
+    <component id="gqdu47" name="slider_count.xml" path="/"/>
+    <component id="gqdu48" name="slider_count_grip.xml" path="/"/>
+    <image id="gqdu49" name="btn_point.png" path="/res/"/>
+    <component id="jwvd4a" name="group_number.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

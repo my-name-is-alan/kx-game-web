@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,140">
+  <displayList>
+    <graph id="n13_eern" name="n13" xy="0,0" size="640,140" type="rect" lineColor="#fff4eee5" fillColor="#fff4eee5" corner="10">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n15_pm6p" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="25,20"/>
+    <text id="n0_ib4p" name="label_name" xy="146,8" size="10,34" fontSize="24" color="#16191a" vAlign="middle" text=""/>
+    <text id="n6_f2ag" name="label_score" xy="146,43" size="10,34" fontSize="24" color="#5b9f57" vAlign="middle" text=""/>
+    <image id="n10_eern" name="n10" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="145,70"/>
+    <text id="n11_eern" name="label_power" xy="200,92" size="10,55" font="ui://27utqbizvkas4q" fontSize="32" letterSpacing="-15" text=""/>
+    <list id="n9_f2ag" name="list_item" xy="370,35" size="210,100" scale="0.8,0.8" layout="row" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha"/>
+    <component id="n14_riam" name="btn_challenge" src="riamn" fileName="btn_tiaozhan.xml" xy="545,20"/>
+  </displayList>
+</component>

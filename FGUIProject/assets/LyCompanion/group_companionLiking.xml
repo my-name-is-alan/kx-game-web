@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="620,114">
+  <displayList>
+    <image id="n16_rp91" name="n16" src="rp911c" fileName="res2/frame_haogandujiachengdi.png" xy="48,0"/>
+    <text id="n6_g0zl" name="label_open" xy="518,11" size="76,34" fontSize="24" color="#cc5f57" autoClearText="true" text="已解锁"/>
+    <text id="n12_g0zl" name="label_name" xy="97,5" size="121,34" fontSize="24" autoClearText="true" text="1.萍水相逢"/>
+    <text id="n14_g0zl" name="label_mainAttr" xy="97,42" size="148,34" fontSize="24" color="#5b9f57" autoClearText="true" text="1.攻击力+5%"/>
+    <text id="n15_g0zl" name="label_sideAttr" xy="97,74" size="148,34" fontSize="24" color="#5b9f57" autoClearText="true" text="1.攻击力+5%"/>
+    <loader id="n25_ln3o" name="img_tiao" xy="23,56" size="20,146" group="n28_ln3o" url="ui://l32lh3odrp9128" fill="scaleFree"/>
+    <loader id="n26_ln3o" name="n26" xy="0,24" size="66,66" group="n28_ln3o" url="ui://l32lh3odrp9125" align="center"/>
+    <image id="n27_ln3o" name="n27" src="rp911o" fileName="res2/icon_aixin.png" xy="18,46" group="n28_ln3o" scale="0.4,0.4"/>
+    <group id="n28_ln3o" name="group_item" xy="0,24" size="92,178" advanced="true"/>
+    <loader id="n17_rp91" name="img_unTiao" xy="22,56" size="20,146" group="n29_ln3o" url="ui://l32lh3odrp9127" fill="scaleFree"/>
+    <loader id="n18_rp91" name="n18" xy="0,24" size="66,66" group="n29_ln3o" grayed="true" url="ui://l32lh3odrp9125" align="center"/>
+    <text id="n24_ln3o" name="label_level" xy="1,43" size="64,29" group="n29_ln3o" fontSize="20" color="#ffefc9" align="center" vAlign="middle" autoSize="none" strokeColor="#313131" text="3"/>
+    <group id="n29_ln3o" name="group_unItem" xy="0,24" size="66,178" advanced="true"/>
+  </displayList>
+</component>

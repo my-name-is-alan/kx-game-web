@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="736,1066">
+  <controller name="btn" exported="true" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n37_ngxr" name="n37" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="25,93" size="696,878"/>
+    <image id="n42_iuxm" name="n42" src="iuxm2o" fileName="res/bg_baishenxiang.png" xy="34,112"/>
+    <image id="n43_iuxm" name="n43" src="iuxm2s" fileName="res/pic_damozushi.png" xy="126,174">
+      <gearDisplay controller="btn" pages="0"/>
+    </image>
+    <image id="n44_iuxm" name="n44" src="iuxm2t" fileName="res/pic_guangong.png" xy="0,0">
+      <gearDisplay controller="btn" pages="2"/>
+    </image>
+    <image id="n45_iuxm" name="n45" src="iuxm2u" fileName="res/pic_yuefei.png" xy="123,175">
+      <gearDisplay controller="btn" pages="1"/>
+    </image>
+    <image id="n38_ngxr" name="n38" src="ngxr2c" fileName="dec_worship_under prop frame.png" xy="534,669"/>
+    <image id="n39_ngxr" name="n39" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="183,129" size="377,38"/>
+    <text id="n40_ngxr" name="label_title" xy="329,126" size="94,43" font="ui://27utqbizps391v" fontSize="30" vAlign="middle" letterSpacing="-3" autoSize="none" text="拜神像"/>
+    <component id="n46_iuxm" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="658,69"/>
+    <image id="n47_iuxm" name="n47" src="iuxm2v" fileName="res/dec_baishenxiang.png" xy="13,872"/>
+    <component id="n48_iuxm" name="n48" src="iuxm2w" fileName="btn_choose.xml" xy="126,883">
+      <Button checked="true" controller="btn" page="0"/>
+    </component>
+    <component id="n49_iuxm" name="n49" src="iuxm2w" fileName="btn_choose.xml" xy="296,883">
+      <Button icon="ui://rtusdzu1iuxm2r" controller="btn" page="1"/>
+    </component>
+    <component id="n50_iuxm" name="n50" src="iuxm2w" fileName="btn_choose.xml" xy="469,883">
+      <Button icon="ui://rtusdzu1iuxm2q" controller="btn" page="2"/>
+    </component>
+    <component id="n51_iuxm" name="btn_dmPay" src="iuxm2x" fileName="btn_pay.xml" xy="264,800">
+      <gearDisplay controller="btn" pages="0"/>
+      <Button title="免费激活" titleColor="#af7545" titleFontSize="33"/>
+    </component>
+    <component id="n54_iuxm" name="btn_yfPay" src="iuxm2x" fileName="btn_pay.xml" xy="264,799">
+      <gearDisplay controller="btn" pages="1"/>
+      <Button title="30" titleColor="#5b7077" titleFontSize="33" icon="ui://rtusdzu1fml914"/>
+    </component>
+    <component id="n55_iuxm" name="btn_ggPay" src="iuxm2x" fileName="btn_pay.xml" xy="264,799">
+      <gearDisplay controller="btn" pages="2"/>
+      <Button title="30" titleColor="#e4a91b" titleFontSize="33" icon="ui://rtusdzu1fml915"/>
+    </component>
+    <text id="n58_iuxm" name="label_proDes" xy="55,765" size="411,39" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="每次成功采集他人镖局都能增加2%拜神进度"/>
+    <component id="n59_iuxm" name="pro" src="rc7m62" fileName="bar_level.xml" pkg="27utqbiz" xy="50,738" size="540,36">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n61_chaq" name="n61" src="chaq5j" fileName="res/frame_worship.png" xy="79,136"/>
+    <text id="n62_chaq" name="label_name" xy="91,168" size="31,117" font="ui://27utqbizps391v" fontSize="28" color="#9f581a" leading="1" autoSize="none" text="拜神像"/>
+    <image id="n63_chaq" name="n63" src="chaq5k" fileName="res/word_1500%.png" xy="445,179">
+      <gearDisplay controller="btn" pages="1"/>
+    </image>
+    <image id="n64_chaq" name="n64" src="chaq5l" fileName="res/word_2000%.png" xy="457,167">
+      <gearDisplay controller="btn" pages="2"/>
+    </image>
+    <component id="n66_chaq" name="group_item" src="ne2h1" fileName="itemframe/GroupItem1.xml" pkg="27utqbiz" xy="589,721" scale="0.87,0.87"/>
+    <text id="n67_chaq" name="label_number" xy="575,803" size="121,39" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="1" autoSize="none" strokeColor="#000000" strokeSize="2" text="X60000"/>
+  </displayList>
+</component>

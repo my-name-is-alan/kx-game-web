@@ -1,0 +1,76 @@
+
+zd_azi_shouji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bljf_fs_00
+  rotate: true
+  xy: 368, 202
+  size: 66, 105
+  orig: 195, 200
+  offset: 66, 48
+  index: -1
+bljf_fs_01
+  rotate: false
+  xy: 189, 18
+  size: 186, 168
+  orig: 195, 200
+  offset: 2, 16
+  index: -1
+bljf_fs_02
+  rotate: true
+  xy: 189, 188
+  size: 186, 177
+  orig: 195, 200
+  offset: 4, 12
+  index: -1
+bljf_fs_03
+  rotate: false
+  xy: 2, 180
+  size: 185, 185
+  orig: 195, 200
+  offset: 5, 8
+  index: -1
+bljf_fs_04
+  rotate: false
+  xy: 2, 367
+  size: 184, 189
+  orig: 195, 200
+  offset: 6, 6
+  index: -1
+bljf_fs_05
+  rotate: true
+  xy: 188, 376
+  size: 180, 183
+  orig: 195, 200
+  offset: 5, 13
+  index: -1
+bljf_fs_06
+  rotate: false
+  xy: 2, 2
+  size: 168, 176
+  orig: 195, 200
+  offset: 5, 19
+  index: -1
+bljf_fs_07
+  rotate: false
+  xy: 373, 413
+  size: 164, 143
+  orig: 195, 200
+  offset: 8, 26
+  index: -1
+bljf_fs_08
+  rotate: false
+  xy: 373, 270
+  size: 162, 141
+  orig: 195, 200
+  offset: 7, 29
+  index: -1
+bljf_fs_09
+  rotate: false
+  xy: 377, 64
+  size: 82, 136
+  orig: 195, 200
+  offset: 79, 33
+  index: -1

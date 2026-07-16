@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <condition>
+    <item id="11051001" type="3" paramList="1" desc="活动挑战妖王解锁条件1001"/>
+    <item id="11051002" type="3" paramList="2" desc="活动挑战妖王解锁条件1002"/>
+    <item id="11051003" type="3" paramList="3" desc="活动挑战妖王解锁条件1003"/>
+    <item id="11051004" type="3" paramList="4" desc="活动挑战妖王解锁条件1004"/>
+    <item id="11051005" type="3" paramList="5" desc="活动挑战妖王解锁条件1005"/>
+    <item id="11051006" type="3" paramList="6" desc="活动挑战妖王解锁条件1006"/>
+    <item id="11051007" type="3" paramList="7" desc="活动挑战妖王解锁条件1007"/>
+    <item id="11051008" type="3" paramList="8" desc="活动挑战妖王解锁条件1008"/>
+    <item id="11051009" type="3" paramList="9" desc="活动挑战妖王解锁条件1009"/>
+    <item id="11051010" type="3" paramList="10" desc="活动挑战妖王解锁条件1010"/>
+    <item id="11051011" type="3" paramList="11" desc="活动挑战妖王解锁条件1011"/>
+    <item id="11051012" type="3" paramList="12" desc="活动挑战妖王解锁条件1012"/>
+    <item id="11051013" type="3" paramList="13" desc="活动挑战妖王解锁条件1013"/>
+    <item id="11051014" type="3" paramList="14" desc="活动挑战妖王解锁条件1014"/>
+    <item id="11051015" type="3" paramList="15" desc="活动挑战妖王解锁条件1015"/>
+    <item id="11051016" type="3" paramList="16" desc="活动挑战妖王解锁条件1016"/>
+    <item id="11051017" type="3" paramList="17" desc="活动挑战妖王解锁条件1017"/>
+    <item id="11051018" type="3" paramList="18" desc="活动挑战妖王解锁条件1018"/>
+    <item id="11051019" type="3" paramList="19" desc="活动挑战妖王解锁条件1019"/>
+    <item id="11051020" type="3" paramList="20" desc="活动挑战妖王解锁条件1020"/>
+    <item id="11051021" type="3" paramList="21" desc="活动挑战妖王解锁条件1021"/>
+    <item id="11051022" type="3" paramList="22" desc="活动挑战妖王解锁条件1022"/>
+    <item id="11051023" type="3" paramList="23" desc="活动挑战妖王解锁条件1023"/>
+    <item id="11051024" type="3" paramList="24" desc="活动挑战妖王解锁条件1024"/>
+    <item id="11051025" type="3" paramList="25" desc="活动挑战妖王解锁条件1025"/>
+    <item id="11051026" type="3" paramList="26" desc="活动挑战妖王解锁条件1026"/>
+    <item id="11051027" type="3" paramList="27" desc="活动挑战妖王解锁条件1027"/>
+    <item id="11051028" type="3" paramList="28" desc="活动挑战妖王解锁条件1028"/>
+    <item id="11051029" type="3" paramList="29" desc="活动挑战妖王解锁条件1029"/>
+    <item id="11051030" type="3" paramList="30" desc="活动挑战妖王解锁条件1030"/>
+  </condition>
+</root>

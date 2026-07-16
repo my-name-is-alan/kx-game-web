@@ -1,0 +1,111 @@
+
+zd_mujianping_shouji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rmd_mz_00
+  rotate: true
+  xy: 208, 75
+  size: 171, 173
+  orig: 245, 245
+  offset: 37, 37
+  index: -1
+rmd_mz_01
+  rotate: true
+  xy: 449, 676
+  size: 215, 217
+  orig: 245, 245
+  offset: 15, 15
+  index: -1
+rmd_mz_02
+  rotate: true
+  xy: 223, 465
+  size: 215, 217
+  orig: 245, 245
+  offset: 15, 15
+  index: -1
+rmd_mz_03
+  rotate: true
+  xy: 2, 457
+  size: 215, 217
+  orig: 245, 245
+  offset: 15, 15
+  index: -1
+rmd_mz_04
+  rotate: true
+  xy: 668, 676
+  size: 215, 217
+  orig: 245, 245
+  offset: 15, 15
+  index: -1
+rmd_mz_05
+  rotate: true
+  xy: 442, 459
+  size: 215, 217
+  orig: 245, 245
+  offset: 15, 15
+  index: -1
+rmd_mz_06
+  rotate: true
+  xy: 221, 248
+  size: 215, 217
+  orig: 245, 245
+  offset: 15, 15
+  index: -1
+rmd_mz_07
+  rotate: false
+  xy: 2, 674
+  size: 219, 217
+  orig: 245, 245
+  offset: 11, 15
+  index: -1
+rmd_mz_08
+  rotate: false
+  xy: 661, 464
+  size: 219, 210
+  orig: 245, 245
+  offset: 8, 19
+  index: -1
+rmd_mz_09
+  rotate: false
+  xy: 223, 682
+  size: 224, 209
+  orig: 245, 245
+  offset: 5, 19
+  index: -1
+rmd_mz_10
+  rotate: true
+  xy: 2, 229
+  size: 226, 204
+  orig: 245, 245
+  offset: 3, 22
+  index: -1
+rmd_mz_11
+  rotate: false
+  xy: 661, 265
+  size: 230, 197
+  orig: 245, 245
+  offset: 2, 27
+  index: -1
+rmd_mz_12
+  rotate: false
+  xy: 440, 270
+  size: 190, 187
+  orig: 245, 245
+  offset: 30, 30
+  index: -1
+rmd_mz_13
+  rotate: false
+  xy: 440, 97
+  size: 179, 171
+  orig: 245, 245
+  offset: 38, 38
+  index: -1
+rmd_mz_14
+  rotate: false
+  xy: 2, 76
+  size: 157, 151
+  orig: 245, 245
+  offset: 54, 43
+  index: -1

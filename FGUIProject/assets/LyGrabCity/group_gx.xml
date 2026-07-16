@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="595,36">
+  <displayList>
+    <text id="n21_m4h7" name="label_name" xy="0,0" size="302,36" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text="慕城之光"/>
+    <text id="n22_m4h7" name="label_number" xy="291,0" size="304,36" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text="70"/>
+  </displayList>
+</component>

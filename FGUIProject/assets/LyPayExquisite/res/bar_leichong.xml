@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,12" extention="ProgressBar">
+  <displayList>
+    <image id="n5_h269" name="n5" src="h2695g" fileName="res/frame_leichong_progress-bar.png" xy="0,0" size="200,12">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4_tn2s" name="bar" src="tn2s4n" fileName="res/frame_leichong_progress bar now.png" xy="0,-1" size="200,14">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <text id="n6_h269" name="title" xy="70,-11" size="60,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" autoClearText="true" text="1231">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

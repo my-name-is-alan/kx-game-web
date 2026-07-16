@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900">
+  <displayList>
+    <image id="n11_lyjn" name="n11" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="29,0" size="702,900"/>
+    <richtext id="n12_lyjn" name="label_title" xy="56,34" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="仓&lt;库&lt;"/>
+    <list id="n4_aao6" name="list_reward" xy="53,102" size="644,710" overflow="scroll" lineGap="10" defaultItem="ui://7u60ig6llyjnk">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <component id="n8_knid" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="660,42"/>
+    <text id="n13_lyjn" name="label_desc" xy="370,824" size="10,29" fontSize="20" color="#16191a" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

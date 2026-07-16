@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="669,965">
+  <displayList>
+    <image id="n28_me8j" name="n28" src="me8jqy" fileName="res/pet/res/frame_huobanouyu.png" xy="9,0"/>
+    <list id="n29_me8j" name="list_all" xy="0,247" size="669,718" overflow="scroll" lineGap="-7" defaultItem="ui://xcpqvzp3ltem3v">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

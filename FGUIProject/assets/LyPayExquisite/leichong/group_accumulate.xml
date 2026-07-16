@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,178">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n35_tn2s" name="n35" src="tn2s4j" fileName="leichong/frame_meirileichong1.png" xy="0,0"/>
+    <richtext id="n21_evn5" name="label_name" xy="30,14" size="52,34" fontSize="24" color="#cc582e" vAlign="middle" text="累计"/>
+    <component id="n30_a0tr" name="progress" src="tn2s49" fileName="leichong/bar_leichong.xml" xy="30,50" size="410,10">
+      <ProgressBar value="31" max="100"/>
+    </component>
+    <list id="n27_evn5" name="list_item" xy="30,67" size="430,102" scale="0.9,0.9" layout="flow_hz" overflow="hidden" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <component id="n36_tn2s" name="btn_goto" src="tn2s4k" fileName="res/btn_goto.xml" xy="469,102">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n38_jru5" name="btn_take" src="srilq" fileName="res/btn_paybuy.xml" xy="469,102">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <text id="n33_a0tr" name="label_take" xy="504,104" size="88,39" font="ui://27utqbizps391v" fontSize="28" color="#cf7243" align="center" vAlign="middle" autoClearText="true" text="已领取">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

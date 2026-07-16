@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetY="-273" designImageAlpha="51" designImageLayer="1">
+  <displayList>
+    <component id="n17_872v" name="btn_close1" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n25_x66o" name="group_main" src="wb1u63" fileName="group_settingMsgBox.xml" xy="29,415">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

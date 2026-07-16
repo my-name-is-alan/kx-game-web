@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="526,118">
+  <displayList>
+    <text id="n15_s742" name="label_skillGrade" xy="182,0" size="96,39" fontSize="22" color="#16191a" vAlign="middle" autoSize="none" autoClearText="true" text=""/>
+    <text id="n16_s742" name="label_lock" xy="344,0" size="170,34" fontSize="22" color="#d67620" vAlign="middle" autoSize="none" text="获得门客时解锁"/>
+    <text id="n17_s742" name="label_des" xy="1,44" size="518,74" fontSize="22" color="#16191a" autoSize="none" text="第1回合"/>
+    <text id="n18_s742" name="label_skillName" xy="1,0" size="100,34" fontSize="24" color="#16191a" vAlign="middle" text="你的名字"/>
+  </displayList>
+</component>

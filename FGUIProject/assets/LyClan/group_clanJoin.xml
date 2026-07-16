@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1133">
+  <displayList>
+    <loader id="n1_hbzk" name="n1" xy="24,0" size="701,1124" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n4_hbzk" name="label_title" xy="55,26" size="257,49" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]加[/size]入帮派"/>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <list id="n35_hbzk" name="list_clan" xy="55,109" size="641,786" overflow="scroll" lineGap="10" defaultItem="ui://8rnw66xwhbzkl" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n38_hbzk" name="btn_clanFound" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="386,1013" size="222,60" scale="0.85,0.85"/>
+    <component id="n40_jos6" name="btn_searchClanInfo" src="jos61p" fileName="btn_search.xml" xy="539,920"/>
+    <image id="n45_glf5" name="n45" src="cgklkg" fileName="ui/frame_shurukuang.png" pkg="27utqbiz" xy="183,918"/>
+    <text id="n36_hbzk" name="label_searchClanInfo" xy="194,922" size="296,50" fontSize="22" color="#a7b6b3" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="输入你要查询的帮派编号"/>
+    <text id="n42_jos6" name="label_str80" xy="69,924" size="108,36" font="ui://27utqbizps391v" fontSize="26" color="#1d694f" vAlign="middle" autoClearText="true" text="查找帮派"/>
+    <component id="n43_jos6" name="btn_joinClan" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="146,1013" size="222,60" scale="0.85,0.85"/>
+    <image id="n44_jos6" name="n44" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="574,920"/>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="380,50">
+  <displayList>
+    <image id="n0_eern" name="n0" src="k1vlm2" fileName="res/frame_top_layer.png" pkg="qnktu1il" xy="0,0" size="380,50">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_yab3" name="label_name" xy="20,9" size="10,32" fontSize="22" color="#16191a" vAlign="middle" text=""/>
+    <text id="n2_yab3" name="label_how" xy="300,9" size="10,32" fontSize="22" color="#16191a" align="right" vAlign="middle" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <component id="n5_yab3" name="btn_goto" src="yab3b" fileName="btn_goto.xml" xy="320,0"/>
+  </displayList>
+</component>

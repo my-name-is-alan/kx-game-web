@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,463" designImageOffsetX="-270" designImageOffsetY="-591">
+  <displayList>
+    <image id="n1_gur8" name="n1" src="rvb52y" fileName="ui/frame_tihuanzhanshi.png" pkg="27utqbiz" xy="0,0" size="440,463"/>
+    <loader id="n2_gur8" name="Loader_qu" xy="20,5" size="400,46" url="ui://27utqbizrvb53a"/>
+    <text id="n6_gur8" name="label_name" xy="21,146" size="398,32" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text="葫芦 8阶292级"/>
+    <graph id="n13_gur8" name="n13" xy="31,199" size="378,244" type="rect" lineSize="0" fillColor="#ffe3e7e1"/>
+    <text id="n14_gur8" name="label_str101" xy="174,201" size="92,32" fontSize="22" color="#16191a" vAlign="middle" autoClearText="true" text="属性加成"/>
+    <text id="n15_gur8" name="label_baseName1" xy="50,233" size="48,32" fontSize="22" color="#16191a" vAlign="middle" text="攻击"/>
+    <text id="n16_gur8" name="label_baseName3" xy="240,233" size="48,32" fontSize="22" color="#16191a" vAlign="middle" text="生命"/>
+    <text id="n17_gur8" name="label_baseName2" xy="50,264" size="48,32" fontSize="22" color="#16191a" vAlign="middle" text="防御"/>
+    <text id="n18_gur8" name="label_base1" xy="114,233" size="91,32" fontSize="22" color="#14980e" vAlign="middle" text="+9699万"/>
+    <text id="n19_gur8" name="label_base2" xy="114,264" size="91,32" fontSize="22" color="#14980e" vAlign="middle" text="+9699万"/>
+    <text id="n20_gur8" name="label_base3" xy="306,233" size="91,32" fontSize="22" color="#14980e" vAlign="middle" text="+9699万"/>
+    <image id="n26_gur8" name="n26" src="rvb53c" fileName="ui/dec_tihuanzhanshi_frame_top_left_corner.png" pkg="27utqbiz" xy="21,51"/>
+    <text id="n27_gur8" name="label_attrName1" xy="49,307" size="70,32" fontSize="22" color="#16191a" vAlign="middle" text="攻击率"/>
+    <text id="n29_gur8" name="label_attr1" xy="123,307" size="91,32" fontSize="22" color="#14980e" vAlign="middle" text="+9699万"/>
+    <text id="n30_gur8" name="label_attr2" xy="123,339" size="91,32" fontSize="22" color="#14980e" vAlign="middle" text="+9699万"/>
+    <text id="n31_gur8" name="label_attrName2" xy="49,339" size="70,32" fontSize="22" color="#16191a" vAlign="middle" text="攻击率"/>
+    <text id="n32_gur8" name="label_attr3" xy="123,371" size="91,32" fontSize="22" color="#14980e" vAlign="middle" text="+9699万"/>
+    <text id="n33_gur8" name="label_attrName3" xy="49,371" size="70,32" fontSize="22" color="#16191a" vAlign="middle" text="攻击率"/>
+    <text id="n34_gur8" name="label_attrName4" xy="231,307" size="70,32" fontSize="22" color="#16191a" vAlign="middle" text="攻击率"/>
+    <text id="n35_gur8" name="label_attr4" xy="305,307" size="91,32" fontSize="22" color="#14980e" vAlign="middle" text="+9699万"/>
+    <text id="n36_gur8" name="label_attr5" xy="305,339" size="91,32" fontSize="22" color="#14980e" vAlign="middle" text="+9699万"/>
+    <text id="n37_gur8" name="label_attrName5" xy="231,339" size="70,32" fontSize="22" color="#16191a" vAlign="middle" text="攻击率"/>
+    <text id="n38_gur8" name="label_attr6" xy="305,371" size="91,32" fontSize="22" color="#14980e" vAlign="middle" text="+9699万"/>
+    <text id="n39_gur8" name="label_attrName6" xy="231,371" size="70,32" fontSize="22" color="#16191a" vAlign="middle" text="攻击率"/>
+    <text id="n40_gur8" name="label_str100" xy="158,7" size="124,42" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" vAlign="middle" strokeColor="#000000" autoClearText="true" text="座驾详情"/>
+    <loader id="n44_dtgk" name="img_icon" xy="125,58" size="190,70" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>

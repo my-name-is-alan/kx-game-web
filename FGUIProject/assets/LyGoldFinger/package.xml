@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="j6s22r8h">
+  <resources>
+    <component id="h2830" name="LyGoldFinger.xml" path="/" exported="true"/>
+    <image id="h2831" name="btn_fanhui.png" path="/res/"/>
+    <component id="h2832" name="btn_close.xml" path="/"/>
+    <image id="h2833" name="bg_zhizunbaoxia.png" path="/res/" atlas="alone_npot"/>
+    <image id="kluz4" name="frame_baowuname.png" path="/icon/" exported="true"/>
+    <image id="kluz5" name="frame_baowuname2.png" path="/icon/" exported="true"/>
+    <image id="kluz6" name="frame_baowuname2_2.png" path="/icon/" exported="true"/>
+    <image id="kluz7" name="frame_baowuname3.png" path="/icon/" exported="true"/>
+    <image id="kluz8" name="frame_baowuname3_2.png" path="/icon/" exported="true"/>
+    <image id="kluz9" name="frame_baowuname_2.png" path="/icon/" exported="true"/>
+    <component id="kluza" name="bar_progress.xml" path="/"/>
+    <image id="kluzb" name="btn_jiangchi.png" path="/res/"/>
+    <image id="kluzc" name="btn_zhibao.png" path="/res/"/>
+    <component id="kluzd" name="btn_jiangchi.xml" path="/"/>
+    <component id="kluze" name="btn_zhibao.xml" path="/"/>
+    <image id="kluzf" name="frame_baowudengjifengexian.png" path="/res/"/>
+    <image id="kluzg" name="frame_chongwushengxing2.png" path="/res/"/>
+    <image id="kluzh" name="frame_fengexian.png" path="/res/"/>
+    <image id="kluzi" name="frame_fengexian2.png" path="/res/"/>
+    <image id="kluzj" name="btn_jiangliyulan.png" path="/res/"/>
+    <component id="kluzk" name="btn_reward.xml" path="/"/>
+    <image id="kluzl" name="frame_mingpai.png" path="/res/"/>
+    <image id="kluzm" name="frame_xiaobiaotidi.png" path="/res/"/>
+    <image id="kluzn" name="frame_zhuangshidian.png" path="/res/"/>
+    <image id="kluzo" name="btn_chouqu.png" path="/res/"/>
+    <component id="kluzp" name="btn_pump.xml" path="/"/>
+    <component id="kluzq" name="group_main.xml" path="/"/>
+    <component id="kluzr" name="group_golds.xml" path="/"/>
+    <component id="kluzs" name="group_gold_item.xml" path="/"/>
+    <component id="kluzt" name="group_gold_item1.xml" path="/"/>
+    <image id="kluzu" name="frame_jingqingqidai.png" path="/res/"/>
+    <image id="861bv" name="frame_chongwushengxing3.png" path="/res/"/>
+    <image id="861bw" name="frame_jindudian.png" path="/res/"/>
+    <image id="861bx" name="frame_jindudian2.png" path="/res/"/>
+    <image id="861by" name="frame_jinduxian.png" path="/res/"/>
+    <component id="861bz" name="group_level.xml" path="/"/>
+    <image id="861b10" name="frame_chongwushengxing.png" path="/res/" atlas="alone_npot"/>
+    <component id="861b11" name="LyGoldFingerLevel.xml" path="/" exported="true"/>
+    <component id="ro4e12" name="LyGoldFingerUpgrade.xml" path="/" exported="true"/>
+    <component id="ro4e13" name="group_upgrade.xml" path="/"/>
+    <image id="ro4e14" name="frame_baowudengjidiban.png" path="/res/"/>
+    <image id="ro4e15" name="frame_baowudengjidiban2.png" path="/res/"/>
+    <image id="ro4e16" name="frame_baowudengjidiban3.png" path="/res/"/>
+    <component id="ro4e17" name="group_upgradeitem.xml" path="/"/>
+    <image id="ro4e18" name="frame_qianghua.png" path="/res/"/>
+    <image id="ro4e19" name="frame_xinzenggongneng.png" path="/res/"/>
+    <image id="ro4e1a" name="frame_jiantou.png" path="/res/"/>
+    <component id="ro4e1b" name="group_upgradeitem2.xml" path="/"/>
+    <image id="ro4e1c" name="dec_arrow_lifelong card.png" path="/res/"/>
+    <component id="ro4e1d" name="LyGoldFingerEliteSel.xml" path="/" exported="true"/>
+    <component id="ro4e1e" name="group_elitesel.xml" path="/elite/"/>
+    <image id="ro4e1f" name="frame_suipiandi.png" path="/elite/" atlas="alone_npot"/>
+    <image id="ro4e1g" name="frame_touming2.png" path="/elite/" scale="9grid" scale9grid="30,30,592,314"/>
+    <component id="ro4e1h" name="slider_count.xml" path="/elite/"/>
+    <component id="ro4e1i" name="slider_count_grip.xml" path="/elite/"/>
+    <image id="ro4e1j" name="btn_point.png" path="/elite/"/>
+    <component id="ro4e1l" name="GroupItem2.xml" path="/elite/" exported="true"/>
+    <image id="x9bu1m" name="frame_suipiandi2.png" path="/elite/" atlas="alone_npot"/>
+    <image id="x9bu1n" name="frame_yuan.png" path="/elite/"/>
+    <component id="x9bu1o" name="group_elitesel2.xml" path="/elite/"/>
+    <image id="x9bu1p" name="frame_suipianwenhao.png" path="/elite/" exported="true"/>
+    <component id="x9bu1q" name="group_elitesel3.xml" path="/elite/"/>
+    <component id="x9bu1r" name="group_petsel.xml" path="/pet/"/>
+    <component id="x9bu1s" name="group_petitem.xml" path="/pet/"/>
+    <component id="x9bu1u" name="group_star.xml" path="/pet/"/>
+    <component id="x9bu1v" name="LyGoldFingerPetSel.xml" path="/" exported="true"/>
+    <image id="wnc21w" name="frame_xuanzexialvdi.png" path="/pet/"/>
+    <image id="wnc21x" name="frame_mane.png" path="/pet/"/>
+    <image id="wnc21y" name="frame_xialvhuhuandiban2.png" path="/pet/" atlas="alone_npot"/>
+    <image id="wnc21z" name="btn_tianjia.png" path="/elite/" exported="true"/>
+    <image id="wnc220" name="frame_xialvhuhuandiban.png" path="/pet/" atlas="alone_npot"/>
+    <component id="wnc221" name="group_petsel2.xml" path="/pet/"/>
+    <image id="wnc222" name="frame_shuxingdi.png" path="/pet/"/>
+    <component id="wnc223" name="group_petmodel.xml" path="/pet/"/>
+    <component id="wnc224" name="group_petmodel1.xml" path="/pet/"/>
+    <component id="wnc225" name="group_num.xml" path="/pet/"/>
+    <image id="8gnv26" name="frame_mengban.png" path="/pet/"/>
+    <image id="8gnv27" name="frame_wenhao.png" path="/pet/"/>
+    <image id="8gnv28" name="name_suijichuanhuoxialv.png" path="/pet/"/>
+    <component id="ncv329" name="group_petsel3.xml" path="/pet/"/>
+    <image id="ncv32a" name="frame_xiaobiaoti.png" path="/pet/"/>
+    <image id="ncv32b" name="frame_xuanzexialvdi2.png" path="/pet/"/>
+    <image id="ncv32c" name="frame_shuxingdi2.png" path="/res/"/>
+    <component id="ey4i2d" name="LyGoldFingerRate.xml" path="/" exported="true"/>
+    <component id="ey4i2e" name="GroupItem3.xml" path="/" exported="true"/>
+    <component id="qam12f" name="group_rate.xml" path="/"/>
+    <image id="nhm72g" name="btn_jiangchi2.png" path="/res/"/>
+    <image id="nhm72h" name="btn_zhibao2.png" path="/res/"/>
+    <image id="nhm72i" name="frame_jiahao.png" path="/elite/" exported="true"/>
+    <component id="fii32j" name="LyGoldFingerEquipSel.xml" path="/" exported="true"/>
+    <component id="fii32k" name="group_equipsel.xml" path="/"/>
+    <image id="fii32m" name="frame_daojudi.png" path="/res/" atlas="alone_npot"/>
+    <component id="p8ls2n" name="LyGoldFingerTheurgySel.xml" path="/" exported="true"/>
+    <component id="p8ls2o" name="group_theurgysel.xml" path="/theurgy/"/>
+    <image id="p8ls2p" name="frame_mijidi.png" path="/theurgy/" atlas="alone_npot"/>
+    <image id="p8ls2q" name="frame_mijidi2.png" path="/theurgy/"/>
+    <image id="p8ls2r" name="frame_mijidi3.png" path="/theurgy/" exported="true"/>
+    <component id="p8ls2s" name="group_theurgysel3.xml" path="/theurgy/"/>
+    <component id="p8ls2t" name="group_theurgysel2.xml" path="/theurgy/"/>
+    <component id="p8ls2u" name="group_theurgy_sel.xml" path="/theurgy/"/>
+    <image id="a8bs2v" name="frame_mijidi4.png" path="/theurgy/" exported="true"/>
+    <image id="8inj2y" name="frame_baowuname4_2.png" path="/icon/" exported="true"/>
+    <image id="8inj2z" name="frame_baowuname4.png" path="/icon/" exported="true"/>
+    <image id="8inj30" name="frame_baowuname5.png" path="/icon/" exported="true"/>
+    <image id="8inj31" name="frame_baowuname5_2.png" path="/icon/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

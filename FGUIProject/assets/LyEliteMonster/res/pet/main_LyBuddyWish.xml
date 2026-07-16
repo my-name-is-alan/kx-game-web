@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="685,421">
+  <displayList>
+    <image id="n2_9s31" name="n2" src="k1vlm3" fileName="res/frame_public3.png" pkg="qnktu1il" xy="0,0" size="685,394"/>
+    <text id="n5_9s31" name="n5" xy="217,392" size="253,29" fontSize="20" color="#cfcdc9" align="center" vAlign="middle" autoSize="none" text="点击任意空白处关闭"/>
+    <text id="n7_9s31" name="label_title" xy="235,38" size="211,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="奖励列表">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n8_9s31" name="n8" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="132,40" size="417,38">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="n7_9s31" sidePair="width-width"/>
+    </image>
+    <image id="n19_9s31" name="n19" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="34,132" size="619,158"/>
+    <component id="n20_9s31" name="group_pet" src="me8jrm" fileName="res/pet/group_pet2.xml" xy="121,154"/>
+    <text id="n21_9s31" name="n21" xy="238,164" size="389,55" fontSize="20" color="#16191a" letterSpacing="1" autoSize="none" text="随机祝福一个队长槽位"/>
+  </displayList>
+</component>

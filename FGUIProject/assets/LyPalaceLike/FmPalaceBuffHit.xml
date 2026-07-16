@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" opaque="false">
+  <displayList>
+    <component id="n4_m5aq" name="group_main" src="m5aq6" fileName="group_buffhit.xml" xy="119,200">
+      <relation target="" sidePair="center-center"/>
+    </component>
+  </displayList>
+</component>

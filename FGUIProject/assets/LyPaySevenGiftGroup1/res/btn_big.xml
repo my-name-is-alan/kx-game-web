@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="256,70" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ba5i" name="n0" src="ba5iq" fileName="res/btn_big.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_ba5i" name="title" xy="123,9" size="10,49" font="ui://27utqbizps391v" fontSize="36" color="#fffdca" align="center" vAlign="middle" strokeColor="#d0771f" strokeSize="2" text="">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

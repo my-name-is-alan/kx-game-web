@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,750">
+  <displayList>
+    <image id="n13_osg9" name="n13" src="osg910" fileName="res/word_gongxihuode.png" xy="198,-82"/>
+    <loader3D id="n17_ro4e" name="loader_spine_main" xy="374,430" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <loader id="n16_ro4e" name="loader_name" xy="350,660" size="50,50" url="ui://j6s22r8hkluz4" align="center" vAlign="middle" clearOnPublish="true"/>
+    <text id="n18_ro4e" name="label_tips" xy="370,780" size="10,32" alpha="0.7" fontSize="22" color="#f6e2ce" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

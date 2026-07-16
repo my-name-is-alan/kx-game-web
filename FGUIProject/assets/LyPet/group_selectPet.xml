@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="697,952">
+  <displayList>
+    <loader id="n60_oxm5" name="n60" xy="0,0" size="697,952" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <list id="n40_kmnd" name="list_preyPet" xy="26,71" size="645,840" overflow="scroll" lineGap="19" defaultItem="ui://eawofj71kmndf">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n56_inps" name="n56" src="81of4e" fileName="res1/frame_xialvkongkongruye.png" xy="124,182" group="n58_inps" pkg="27utqbiz"/>
+    <text id="n57_inps" name="label_str108" xy="127,497" size="442,34" group="n58_inps" fontSize="24" color="#767676" align="center" vAlign="middle" autoSize="none" text="大撒大撒"/>
+    <group id="n58_inps" name="group_isPet" xy="124,182" size="448,349" visible="false" advanced="true"/>
+  </displayList>
+</component>

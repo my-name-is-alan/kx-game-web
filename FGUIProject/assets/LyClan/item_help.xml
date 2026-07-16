@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,118" designImageOffsetX="-55" designImageOffsetY="-592" designImageAlpha="100">
+  <displayList>
+    <graph id="n16_r2p3" name="n16" xy="0,0" size="640,118" type="rect" lineSize="0" fillColor="#fff4eee5" corner="8"/>
+    <text id="n0_hbzk" name="label_name" xy="137,19" size="76,34" fontSize="24" color="#16191a" vAlign="middle" text="帅名字"/>
+    <text id="n2_hbzk" name="n2" xy="529,12" size="84,29" fontSize="20" color="#a06d21" vAlign="middle" text="已被协助"/>
+    <text id="n7_hbzk" name="label_dec" xy="139,65" size="343,45" fontSize="22" color="#3a9c27" autoSize="none" text="15级树升级中，快来相助"/>
+    <text id="n9_acey" name="label_ok" xy="533,71" size="76,34" visible="false" fontSize="24" text="已协助"/>
+    <text id="n10_r2p3" name="label_evolveHelpCount" xy="503,38" size="137,32" fontSize="22" color="#3a9c27" align="center" vAlign="middle" autoSize="none" text="10/10次"/>
+    <component id="n11_r2p3" name="btn_clanEvolveSpeedUp" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="518,75" size="106,28">
+      <Button title="协助加速" titleFontSize="20"/>
+    </component>
+    <image id="n17_r2p3" name="n17" src="q8va6t" fileName="ui/frame_connect1.png" pkg="27utqbiz" xy="516,48" size="20,405" rotation="90"/>
+    <component id="n18_nvxw" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="9,9"/>
+  </displayList>
+</component>

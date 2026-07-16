@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="754,812">
+  <displayList>
+    <loader id="n1_jr3l" name="n1" xy="0,0" size="686,773" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n3_jr3l" name="label_str24" xy="19,27" size="257,54" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]排[/size]行奖励"/>
+    <component id="n4_jr3l" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="628,38"/>
+    <list id="n6_jr3l" name="list_award" xy="34,107" size="627,579" overflow="scroll" lineGap="10" defaultItem="ui://5gmha8dnjr3lg" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n14_hl71" name="n14" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="536,604"/>
+    <text id="n15_hl71" name="label_str23" xy="203,697" size="274,26" fontSize="18" autoClearText="true" text="首次达到指定名次可领取对应奖励"/>
+  </displayList>
+</component>

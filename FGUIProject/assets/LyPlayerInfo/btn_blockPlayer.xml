@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_oj4e" name="n3" src="l2d7i" fileName="res1/icon_jingshi.png" xy="27,25" group="n5_dtgk"/>
+    <text id="n4_gur8" name="title" xy="2,46" size="96,29" group="n5_dtgk" font="ui://27utqbizps391v" fontSize="16" color="#ffffff" align="center" autoSize="none" strokeColor="#9d7a4a" text="sa"/>
+    <group id="n5_dtgk" name="n5" xy="2,25" size="96,50" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,2904" overflow="scroll" scrollBarFlags="128" designImageOffsetY="67">
+  <displayList>
+    <loader id="n20_snx0" name="n20" xy="0,0" size="750,180" url="ui://5gmha8dnrg021l"/>
+    <loader id="n19_eejo" name="img_bg" xy="0,0" size="750,264" fill="scaleFree"/>
+    <component id="n12_jis8" name="group_rank1" src="jis81" fileName="group_qunyinItem.xml" pkg="27utqbiz" xy="270,209"/>
+    <component id="n13_jis8" name="group_rank2" src="jis81" fileName="group_qunyinItem.xml" pkg="27utqbiz" xy="52,388"/>
+    <component id="n14_jis8" name="group_rank3" src="jis81" fileName="group_qunyinItem.xml" pkg="27utqbiz" xy="495,383"/>
+    <list id="n18_jis8" name="list_rank" xy="0,817" size="750,1977" defaultItem="ui://27utqbizjis81" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

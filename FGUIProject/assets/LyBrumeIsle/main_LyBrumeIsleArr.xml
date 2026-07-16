@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="746,636">
+  <displayList>
+    <image id="n63_m789" name="n63" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="702,602"/>
+    <image id="n71_m789" name="n71" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="35,114" size="636,187" alpha="0.35"/>
+    <image id="n73_m789" name="n73" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="33,314" size="638,249" alpha="0.35"/>
+    <richtext id="n64_m789" name="label_title" xy="24,28" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="属性"/>
+    <component id="n65_m789" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="641,38"/>
+    <image id="n66_m789" name="n66" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="528,428"/>
+    <image id="n67_m789" name="n67" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="193,143" size="351,11"/>
+    <richtext id="n68_m789" name="n68" xy="277,127" size="151,39" font="ui://27utqbizps391v" fontSize="28" align="center" vAlign="middle" autoSize="none" text="属性加成">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <image id="n69_m789" name="n69" src="hhz9eg" fileName="ui/frame_fubiaotidianzhaungshi.png" pkg="27utqbiz" xy="175,335" size="392,11"/>
+    <richtext id="n70_m789" name="n70" xy="279,320" size="151,39" font="ui://27utqbizps391v" fontSize="28" align="center" vAlign="middle" autoSize="none" text="当前拥有">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <list id="n74_m789" name="list_item" xy="73,363" size="672,231" scale="0.86,0.844" layout="flow_hz" overflow="scroll" lineGap="20" colGap="40" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n75_m789" name="n75" xy="162,192" size="75,32" group="n77_m789" fontSize="22" color="#16191a" vAlign="middle" autoSize="none" text="攻击："/>
+    <text id="n76_m789" name="label_atk" xy="213,192" size="59,32" group="n77_m789" fontSize="22" color="#44961f" vAlign="middle" text="+555"/>
+    <group id="n77_m789" name="n77" xy="162,192" size="110,32"/>
+    <text id="n78_m789" name="n78" xy="391,192" size="75,32" group="n80_m789" fontSize="22" color="#16191a" vAlign="middle" autoSize="none" text="生命："/>
+    <text id="n79_m789" name="label_hp" xy="442,192" size="59,32" group="n80_m789" fontSize="22" color="#44961f" vAlign="middle" text="+555"/>
+    <group id="n80_m789" name="n80" xy="391,192" size="110,32"/>
+    <text id="n81_m789" name="n81" xy="162,239" size="75,32" group="n83_m789" fontSize="22" color="#16191a" vAlign="middle" autoSize="none" text="防御："/>
+    <text id="n82_m789" name="label_def" xy="213,239" size="59,32" group="n83_m789" fontSize="22" color="#44961f" vAlign="middle" text="+555"/>
+    <group id="n83_m789" name="n83" xy="162,239" size="110,32"/>
+    <text id="n84_m789" name="n84" xy="391,239" size="75,32" group="n86_m789" fontSize="22" color="#16191a" vAlign="middle" autoSize="none" text="敏捷："/>
+    <text id="n85_m789" name="label_mj" xy="442,239" size="59,32" group="n86_m789" fontSize="22" color="#44961f" vAlign="middle" text="+555"/>
+    <group id="n86_m789" name="n86" xy="391,239" size="110,32"/>
+  </displayList>
+</component>

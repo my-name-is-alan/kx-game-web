@@ -1,0 +1,83 @@
+
+ui_chefu_xiaoji.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_Z
+  rotate: true
+  xy: 113, 108
+  size: 97, 92
+  orig: 97, 92
+  offset: 0, 0
+  index: -1
+chibang_L
+  rotate: true
+  xy: 32, 52
+  size: 30, 18
+  orig: 30, 18
+  offset: 0, 0
+  index: -1
+chibang_R
+  rotate: true
+  xy: 119, 54
+  size: 30, 18
+  orig: 30, 18
+  offset: 0, 0
+  index: -1
+eye_L
+  rotate: false
+  xy: 2, 47
+  size: 28, 35
+  orig: 28, 35
+  offset: 0, 0
+  index: -1
+eye_R
+  rotate: false
+  xy: 57, 97
+  size: 35, 41
+  orig: 35, 41
+  offset: 0, 0
+  index: -1
+foot_L_Z
+  rotate: true
+  xy: 151, 78
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+foot_R_Z
+  rotate: true
+  xy: 92, 56
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+jiguang
+  rotate: true
+  xy: 57, 52
+  size: 43, 33
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 2, 140
+  size: 109, 65
+  orig: 109, 65
+  offset: 0, 0
+  index: -1
+yan
+  rotate: false
+  xy: 2, 84
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: -1
+zui
+  rotate: true
+  xy: 94, 86
+  size: 20, 55
+  orig: 20, 55
+  offset: 0, 0
+  index: -1

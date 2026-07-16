@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,680">
+  <displayList>
+    <image id="n18_lqjl" name="n18" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="20,-75" size="702,773"/>
+    <richtext id="n19_lqjl" name="label_title" xy="47,-41" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="仓&lt;库&lt;"/>
+    <component id="n1_f4zx" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="650,-37"/>
+    <list id="n12_u57g" name="list_item" xy="100,45" size="540,120" layout="flow_hz" scroll="horizontal" colGap="20" defaultItem="ui://27utqbizewyha" align="center" vAlign="middle"/>
+    <image id="n22_ns7a" name="img_arrow" src="ns7a48" fileName="giftdaily/frame_libaoneirong.png" xy="373,169" pivot="0.5,0" anchor="true"/>
+    <image id="n21_ns7a" name="n21" src="ns7a49" fileName="giftdaily/frame_libaoneirong2.png" xy="55,183"/>
+    <text id="n13_u57g" name="label_name" xy="200,189" size="327,36" font="ui://27utqbizps391v" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n14_u57g" name="label_desc" xy="119,231" size="500,76" fontSize="22" color="#16191a" align="center" vAlign="middle" leading="10" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n20_lqjl" name="n20" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="57,324" size="626,213"/>
+    <list id="n15_u57g" name="list_choose" xy="137,324" size="580,263" scale="0.8,0.8" layout="flow_hz" overflow="scroll" margin="20,0,0,0" lineGap="10" colGap="20" defaultItem="ui://27utqbizewyha">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <component id="n16_u57g" name="btn_cancel" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="110,570"/>
+    <component id="n17_u57g" name="btn_confirm" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="420,570"/>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="146,40">
+  <displayList>
+    <loader id="n37_wb1u" name="n37" xy="0,0" size="40,40" url="ui://27utqbizi5tz8b" fill="scale"/>
+    <text id="n38_wb1u" name="label_itemNum" xy="43,5" size="103,29" fontSize="20" color="#c9554d" vAlign="middle" text="111111111"/>
+  </displayList>
+  <relation target="n38_wb1u" sidePair="rightext-right"/>
+</component>

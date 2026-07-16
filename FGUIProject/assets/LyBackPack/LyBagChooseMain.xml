@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="439,615">
+  <displayList>
+    <image id="n4_bh80" name="n4" src="rvb52y" fileName="ui/frame_tihuanzhanshi.png" pkg="27utqbiz" xy="0,0" size="440,600">
+      <relation target="n7_bh80" sidePair="bottomext-bottom"/>
+    </image>
+    <loader id="n5_bh80" name="Loader_qu" xy="20,6" size="400,46" url="ui://27utqbizrvb52z" clearOnPublish="true"/>
+    <text id="n6_bh80" name="label_name" xy="19,4" size="400,44" font="ui://27utqbizps391v" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#1d8fb9" text="葫芦果"/>
+    <text id="n7_bh80" name="label_dec1" xy="147,99" size="257,26" font="SimHei" fontSize="18" color="#333333" autoSize="height" autoClearText="true" text=""/>
+    <image id="n8_bh80" name="n8" src="rvb53e" fileName="ui/dec_pattern_behind_prop.png" pkg="27utqbiz" xy="55,67" size="72,74"/>
+    <loader id="n9_bh80" name="loader_item" xy="43,57" size="90,90" url="ui://27utqbizrvb52t" autoSize="true"/>
+    <image id="n10_bh80" name="n10" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="139,95" size="260,2"/>
+    <text id="n11_bh80" name="label_count" xy="203,57" size="185,34" font="SimHei" fontSize="18" color="#333333" align="right" vAlign="middle" autoSize="none" text="已拥有: 50"/>
+    <richtext id="n13_bh80" name="label_haveNumber" xy="187,481" size="76,26" group="n45_ve21" fontSize="18" color="#16191a" vAlign="middle" ubb="true" text="已选择：">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n22_bh80" name="n22" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="33,139" size="375,333" group="n45_ve21"/>
+    <component id="n16_bh80" name="btn_use" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="113,509" size="214,58" group="n45_ve21">
+      <Button title="使用"/>
+    </component>
+    <list id="n34_sjma" name="list_the" xy="65,144" size="335,331" group="n45_ve21" layout="flow_hz" overflow="scroll" lineGap="-49" colGap="-23" lineItemCount="2" defaultItem="ui://1cz6b9rksjma5h">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n43_sjma" name="list_item" xy="38,146" size="363,318" group="n45_ve21" overflow="scroll" lineGap="-13" colGap="-23" defaultItem="ui://1cz6b9rksjma5j">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n44_ve21" name="label_paseTime" xy="137,567" size="158,26" group="n45_ve21" fontSize="18" color="#c42813" align="center" vAlign="middle" autoSize="none" text="3天23"/>
+    <group id="n45_ve21" name="n45" xy="33,139" size="375,454" advanced="true">
+      <relation target="n4_bh80" sidePair="bottom-bottom"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="770,1172">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0_i1bp" name="n0" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="704,1125" alpha="0.998"/>
+    <richtext id="n1_i1bp" name="label_title" xy="31,30" size="210,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="战报">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n2_i1bp" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="636,39">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n3_i1bp" name="n3" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="552,939"/>
+    <image id="n6_i1bp" name="n6" src="k7xe7" fileName="res/frame_zonglan5.png" xy="43,160" size="608,874"/>
+    <image id="n5_i1bp" name="n5" src="k7xeb" fileName="res/frame_zonglan.png" xy="44,117"/>
+    <component id="n17_i1bp" name="btn_sj" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="348,1112" size="171,60">
+      <Button checked="true" title="受击统计" controller="c1" page="0"/>
+    </component>
+    <component id="n18_i1bp" name="btn_jg" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="521,1112" size="171,60">
+      <Button title="进攻统计" controller="c1" page="1"/>
+    </component>
+    <list id="n19_i1bp" name="list_all" xy="57,170" size="599,853" overflow="scroll" lineGap="5" colGap="35" defaultItem="ui://i35cf1mqi1bpdu19c" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n20_cvor" name="label_desc" xy="188,1044" size="326,34" fontSize="20" color="#e86146" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="按照对方已照成的伤害排序"/>
+    <text id="n22_cvor" name="n22" xy="67,117" size="91,45" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoSize="none" text="排名"/>
+    <text id="n23_cvor" name="n23" xy="286,118" size="113,45" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoSize="none" text="帮派"/>
+    <text id="n24_cvor" name="label" xy="507,118" size="113,45" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" text="受到伤害">
+      <gearText controller="c1" pages="0" values="受到伤害" default="造成伤害"/>
+    </text>
+  </displayList>
+</component>

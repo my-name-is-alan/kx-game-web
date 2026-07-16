@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,153" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n4_ar1l" name="n4" src="j3rv3z" fileName="ui/frame_basic profile.png" pkg="27utqbiz" xy="13,12" pivot="0.5,0.5" scale="1.2,1.2"/>
+    <image id="n14_psu4" name="n14" src="psu42z" fileName="res1/frame_touxiangxuanzhongkuang.png" xy="4,2" pivot="0.5,0.5">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <loader id="n5_ar1l" name="icon" xy="30,26" pivot="0.5,0.5" size="100,100" scale="1.2,1.2" url="ui://27utqbizsnx010z" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n11_ar1l" name="img_headK" xy="8,4" pivot="0.5,0.5" size="144,144" scale="1.2,1.2" visible="false" url="ui://li7lbnd9ar1l14"/>
+    <image id="n6_ar1l" name="img_select" src="u71x12" fileName="ui/img_gou.png" pkg="27utqbiz" xy="98,8" visible="false"/>
+    <graph id="n8_ar1l" name="n8" xy="30,26" pivot="0.5,0.5" size="100,100" group="n13_q6yu" scale="1.2,1.2" type="eclipse" lineSize="0" fillColor="#99000000"/>
+    <image id="n12_q6yu" name="n12" src="ar1l16" fileName="ui/icon_lock.png" pkg="27utqbiz" xy="59,65" pivot="0.5,0.5" group="n13_q6yu" scale="1.2,1.2"/>
+    <group id="n13_q6yu" name="img_suo" xy="30,26" size="100,100" visible="false" advanced="true"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

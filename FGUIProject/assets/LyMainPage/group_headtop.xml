@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <component id="n341_ddz8" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="0,0"/>
+    <component id="n342_ddz8" name="group_palace_point" src="mli57y" fileName="group_palace_point.xml" xy="-24,109" touchable="false"/>
+    <image id="n343_mli5" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="78,0" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+</component>

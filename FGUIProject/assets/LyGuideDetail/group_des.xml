@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="547,73">
+  <displayList>
+    <richtext id="n9_s742" name="label_name" xy="0,0" size="148,37" font="ui://27utqbizps391v" fontSize="26" vAlign="middle" letterSpacing="-1" ubb="true" autoClearText="true" text="一，门客培养"/>
+    <richtext id="n10_s742" name="label_content" xy="17,41" size="530,31" fontSize="22" color="#16191a" ubb="true" autoSize="height" autoClearText="true" text="ew1qe12312"/>
+  </displayList>
+  <relation target="n10_s742" sidePair="bottomext-bottom"/>
+</component>

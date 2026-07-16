@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="82,98" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n5_sex8" name="n5" src="ky0p4v" fileName="ui/btn_shuaxinshipin.png" xy="0,1"/>
+    <image id="n7_sex8" name="n7" src="i809ll" fileName="ui/frame_guild&amp;server.png" xy="-23,74" size="130,26"/>
+    <text id="n4_sex8" name="title" xy="-19,64" size="122,46" font="ui://27utqbizps391v" fontSize="20" color="#e4d5b9" align="center" vAlign="middle" letterSpacing="-2" autoSize="shrink" singleLine="true" text="免费刷新：2/2"/>
+    <image id="n9_kmfd" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="59,0" visible="false"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="528,20" extention="ProgressBar">
+  <displayList>
+    <image id="n0_oxm5" name="n0" src="oxm51n" fileName="res2/frame_jindutiaobig.png" xy="0,0" size="528,20">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_oxm5" name="bar" src="oxm51o" fileName="res2/frame_jindutiaobig2.png" xy="2,0" size="493,20"/>
+  </displayList>
+  <ProgressBar/>
+</component>

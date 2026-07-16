@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1088">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n0_n7n6" name="n0" src="jd3s1" fileName="res/bg_yunshi.png" xy="43,0"/>
+    <image id="n13_jw70" name="n13" src="jw70a" fileName="res/frame_hong.png" xy="57,100">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </image>
+    <loader id="n51_pidb" name="loader_title" xy="350,0" size="50,50" url="ui://ygxt77oipidbq" align="center" vAlign="middle" clearOnPublish="true"/>
+    <component id="n8_ryu9" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="630,-25"/>
+    <image id="n4_ryu9" name="n4" src="ryu98" fileName="ui/frame_ziyuanxiangqingbuchongshuoming2.png" pkg="27utqbiz" xy="85,77"/>
+    <richtext id="n5_ryu9" name="label_time_act" xy="370,80" size="10,29" fontSize="20" color="#323c42" align="center" vAlign="middle" ubb="true" text="">
+      <gearDisplay controller="c1" pages="0,2"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n7_ryu9" name="label_time" xy="370,80" size="10,29" fontSize="20" color="#323c42" align="center" vAlign="middle" ubb="true" singleLine="true" text="">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <component id="n6_ryu9" name="btn_detail" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="557,45"/>
+    <list id="n1_8fbs" name="list_tab2" xy="44,130" size="660,820" overflow="scroll" margin="10,0,0,0" defaultItem="ui://ygxt77oi8fbs3"/>
+    <list id="n2_8fbs" name="list_tab3" xy="44,130" size="660,820" overflow="scroll" margin="10,0,0,0" defaultItem="ui://ygxt77oi8fbs5"/>
+    <image id="n3_ryu9" name="n3" src="ryu97" fileName="res/frame_yaoqinghaoyoudiban3mengban.png" xy="48,894">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </image>
+    <component id="n10_ryu9" name="btn_tab1" src="8fbsmx" fileName="btn_tab.xml" pkg="27utqbiz" xy="155,975">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n12_ryu9" name="btn_tab2" src="8fbsmx" fileName="btn_tab.xml" pkg="27utqbiz" xy="325,975">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n11_ryu9" name="btn_tab3" src="8fbsmx" fileName="btn_tab.xml" pkg="27utqbiz" xy="495,975">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <loader3D id="n50_o3xx" name="loader_spine" xy="379,520" pivot="0.5,1" anchor="true" size="2,2" group="n23_jw70" animation="" skin="" loop="true"/>
+    <component id="n39_d4js" name="group_drawitem1" src="d4jsl" fileName="group_drawitem.xml" xy="198,160" group="n23_jw70"/>
+    <component id="n40_d4js" name="group_drawitem2" src="d4jsl" fileName="group_drawitem.xml" xy="500,188" group="n23_jw70"/>
+    <component id="n41_d4js" name="group_drawitem3" src="d4jsl" fileName="group_drawitem.xml" xy="65,263" group="n23_jw70"/>
+    <component id="n42_d4js" name="group_drawitem4" src="d4jsl" fileName="group_drawitem.xml" xy="343,232" group="n23_jw70"/>
+    <component id="n43_d4js" name="group_drawitem5" src="d4jsl" fileName="group_drawitem.xml" xy="515,334" group="n23_jw70"/>
+    <component id="n45_d4js" name="group_drawitem6" src="d4jsl" fileName="group_drawitem.xml" xy="74,429" group="n23_jw70"/>
+    <component id="n46_d4js" name="group_drawitem7" src="d4jsl" fileName="group_drawitem.xml" xy="185,319" group="n23_jw70"/>
+    <component id="n47_d4js" name="group_drawitem8" src="d4jsl" fileName="group_drawitem.xml" xy="570,450" group="n23_jw70"/>
+    <component id="n48_d4js" name="group_drawitem9" src="d4jsl" fileName="group_drawitem.xml" xy="164,542" group="n23_jw70"/>
+    <component id="n49_d4js" name="group_drawitem10" src="d4jsl" fileName="group_drawitem.xml" xy="494,565" group="n23_jw70"/>
+    <component id="n37_a1dw" name="btn_rate" src="a1dwh" fileName="btn_rate.xml" xy="60,70" group="n23_jw70"/>
+    <text id="n36_a1dw" name="label_tips" xy="370,120" size="10,29" group="n23_jw70" fontSize="20" color="#fffa98" align="center" vAlign="middle" strokeColor="#000000" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n14_jw70" name="n14" src="bh805e" fileName="ui/frame_progress bar_all.png" pkg="27utqbiz" xy="120,729" size="470,20" group="n23_jw70"/>
+    <component id="n15_jw70" name="bar_progress" src="jw70b" fileName="bar_progress.xml" xy="120,739" pivot="0,0.5" anchor="true" size="450,20" group="n23_jw70">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n31_a1dw" name="group_line1" src="a1dwe" fileName="GroupItem2.xml" xy="200,739" pivot="0.5,0.414" anchor="true" group="n23_jw70"/>
+    <component id="n32_a1dw" name="group_line2" src="a1dwe" fileName="GroupItem2.xml" xy="300,739" pivot="0.5,0.414" anchor="true" group="n23_jw70"/>
+    <component id="n33_a1dw" name="group_line3" src="a1dwe" fileName="GroupItem2.xml" xy="400,739" pivot="0.5,0.414" anchor="true" group="n23_jw70"/>
+    <component id="n34_a1dw" name="group_line4" src="a1dwe" fileName="GroupItem2.xml" xy="500,739" pivot="0.5,0.414" anchor="true" group="n23_jw70"/>
+    <component id="n35_a1dw" name="group_line5" src="a1dwe" fileName="GroupItem2.xml" xy="600,739" pivot="0.5,0.414" anchor="true" group="n23_jw70"/>
+    <component id="n22_jw70" name="group_scoreicon" src="jw70c" fileName="group_scoreicon.xml" xy="81,700" group="n23_jw70"/>
+    <loader id="n27_jw70" name="loader_icon1" xy="208,816" size="40,40" group="n23_jw70" fill="scaleFree">
+      <relation target="n28_jw70" sidePair="right-left"/>
+    </loader>
+    <text id="n28_jw70" name="label_need1" xy="255,819" size="10,34" group="n23_jw70" fontSize="24" color="#b24444" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n30_jw70" name="btn_draw1" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="138,856" group="n23_jw70"/>
+    <loader id="n24_jw70" name="loader_icon10" xy="480,816" size="40,40" group="n23_jw70" fill="scaleFree">
+      <relation target="n25_jw70" sidePair="right-left"/>
+    </loader>
+    <text id="n25_jw70" name="label_need10" xy="527,819" size="10,34" group="n23_jw70" fontSize="24" color="#b24444" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n26_jw70" name="btn_draw10" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="410,856" group="n23_jw70"/>
+    <component id="n52_pidb" name="btn_check" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="540,920" size="205,50" group="n23_jw70"/>
+    <text id="n53_pidb" name="label_quick" xy="593,932" size="10,29" group="n23_jw70" fontSize="20" color="#ffffff" vAlign="middle" strokeColor="#16191a" text=""/>
+    <group id="n23_jw70" name="list_tab1" xy="60,70" size="685,900" advanced="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetX="-321" designImageOffsetY="-266" designImageAlpha="100">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0">
+    <remark page="0" value="形象"/>
+    <remark page="1" value="头像"/>
+    <remark page="2" value="称号"/>
+    <remark page="3" value="其他"/>
+  </controller>
+  <displayList>
+    <component id="n0_ilda" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_ilda" name="group_character" src="psu42e" fileName="group_character.xml" xy="0,87">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

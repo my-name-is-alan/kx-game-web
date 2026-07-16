@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="75,15" extention="ProgressBar">
+  <displayList>
+    <image id="n3_y9su" name="n3" src="y9su50" fileName="ui/frame_have&amp;use1.png" pkg="27utqbiz" xy="-18,-6" size="93,26"/>
+    <image id="n5_y9su" name="bar" src="y9su53" fileName="ui/frame_have&amp;use4.png" pkg="27utqbiz" xy="-11,-6" size="86,25"/>
+    <image id="n4_y9su" name="full" src="y9su52" fileName="ui/frame_have&amp;use3.png" pkg="27utqbiz" xy="-12,-7" size="88,27" visible="false"/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

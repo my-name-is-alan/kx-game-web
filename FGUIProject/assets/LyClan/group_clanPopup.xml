@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="701,855" designImageOffsetX="-347" designImageOffsetY="-313">
+  <displayList>
+    <loader id="n0_hbzk" name="n0" xy="0,30" size="701,796" group="n15_hbzk" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n1_hbzk" name="label_bxl" xy="12,60" size="257,49" group="n15_hbzk" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]布[/size]阵详情"/>
+    <text id="n43_g7bh" name="label_dec" xy="68,182" size="562,105" group="n15_hbzk" fontSize="24" autoSize="none" text="叽里呱啦说一堆叽里呱啦说一堆叽里呱啦说一堆叽里呱啦说一堆叽里呱啦说一堆叽里呱啦说一堆叽里呱啦说一堆叽里呱啦说一堆叽里呱啦说一堆叽里呱"/>
+    <text id="n47_g7bh" name="n47" xy="72,312" size="52,34" group="n15_hbzk" fontSize="24" text="玩家"/>
+    <text id="n48_g7bh" name="n48" xy="275,312" size="100,34" group="n15_hbzk" fontSize="24" text="布阵详情"/>
+    <text id="n49_g7bh" name="n49" xy="510,312" size="100,34" group="n15_hbzk" fontSize="24" text="布阵时间"/>
+    <list id="n50_g7bh" name="list_dailyDuelBuff" xy="66,367" size="571,300" group="n15_hbzk" overflow="scroll" defaultItem="ui://8rnw66xwg7bh12">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <group id="n15_hbzk" name="group_popup1" xy="0,30" size="701,796" advanced="true"/>
+    <loader id="n71_e8yx" name="n71" xy="2,163" size="694,623" group="n58_g7bh" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <image id="n72_e8yx" name="n72" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="162,193" size="377,38" group="n58_g7bh"/>
+    <text id="n73_e8yx" name="label_title" xy="255,190" size="191,39" group="n58_g7bh" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="未议价成员"/>
+    <text id="n54_g7bh" name="label_str52" xy="140,248" size="52,34" group="n58_g7bh" fontSize="24" color="#161819" text="成员"/>
+    <text id="n56_g7bh" name="label_str107" xy="420,248" size="148,34" group="n58_g7bh" fontSize="24" color="#161819" text="上次登录时间"/>
+    <list id="n57_g7bh" name="label_merchant" xy="27,284" size="640,414" group="n58_g7bh" overflow="scroll" lineGap="10" defaultItem="ui://8rnw66xwg7bh13" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n74_e8yx" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="634,135" group="n58_g7bh"/>
+    <group id="n58_g7bh" name="group_popup2" xy="2,135" size="710,651" visible="false" advanced="true"/>
+    <loader id="n59_g7bh" name="n59" xy="33,49" size="634,756" group="n66_g7bh" url="ui://qnktu1ilk1vlm3" fill="scaleFree"/>
+    <text id="n62_g7bh" name="label_str139" xy="87,132" size="92,32" group="n66_g7bh" fontSize="22" color="#16191a" vAlign="middle" text="试炼层级"/>
+    <text id="n63_g7bh" name="label_str76" xy="311,132" size="92,32" group="n66_g7bh" fontSize="22" color="#16191a" vAlign="middle" text="挑战奖励"/>
+    <text id="n64_g7bh" name="label_str140" xy="522,132" size="92,32" group="n66_g7bh" fontSize="22" color="#16191a" vAlign="middle" text="悬赏奖励"/>
+    <list id="n65_g7bh" name="list_monster" xy="61,166" size="580,526" group="n66_g7bh" overflow="scroll" lineGap="9" defaultItem="ui://8rnw66xwg7bh14" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n68_m2rj" name="n68" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="141,78" size="419,38" group="n66_g7bh"/>
+    <richtext id="n69_m2rj" name="label_str123" xy="296,75" size="116,39" group="n66_g7bh" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="帮派旗帜"/>
+    <text id="n70_m2rj" name="label_str125" xy="185,711" size="354,64" group="n66_g7bh" fontSize="22" color="#16191a" align="center" vAlign="middle" autoSize="none" text="每照成指定能量数伤害会为帮派成员带回悬赏宝箱x1"/>
+    <group id="n66_g7bh" name="group_popup3" xy="33,49" size="634,756" visible="false" advanced="true"/>
+  </displayList>
+</component>

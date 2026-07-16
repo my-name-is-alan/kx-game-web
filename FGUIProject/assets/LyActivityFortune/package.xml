@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ygxt77oi">
+  <resources>
+    <component id="jd3s0" name="LyActivityFortune.xml" path="/" exported="true"/>
+    <image id="jd3s1" name="bg_yunshi.png" path="/res/"/>
+    <component id="n7n62" name="group_main.xml" path="/"/>
+    <component id="8fbs3" name="group_itemtask.xml" path="/"/>
+    <component id="8fbs5" name="group_itemgift.xml" path="/"/>
+    <image id="8fbs6" name="frame_huodongdiban.png" path="/res/"/>
+    <image id="ryu97" name="frame_yaoqinghaoyoudiban3mengban.png" path="/res/"/>
+    <image id="ryu99" name="frame_ruyichouqian.png" path="/res/" exported="true"/>
+    <image id="jw70a" name="frame_hong.png" path="/res/"/>
+    <component id="jw70b" name="bar_progress.xml" path="/"/>
+    <component id="jw70c" name="group_scoreicon.xml" path="/"/>
+    <image id="jw70d" name="frame_difendikuang.png" path="/res/"/>
+    <component id="a1dwe" name="GroupItem2.xml" path="/"/>
+    <image id="a1dwf" name="btn_gailv.png" path="/res/"/>
+    <component id="a1dwh" name="btn_rate.xml" path="/"/>
+    <image id="d4jsi" name="frame_baisedi.png" path="/res/"/>
+    <image id="d4jsj" name="frame_daojudikuangyuan.png" path="/res/"/>
+    <image id="d4jsk" name="frame_daojudikuangyuan2.png" path="/res/"/>
+    <component id="d4jsl" name="group_drawitem.xml" path="/"/>
+    <component id="gfx3m" name="btn_empty.xml" path="/"/>
+    <image id="d4dbn" name="frame_ziyuanxiangqingbuchongshuoming2.png" path="/res/"/>
+    <image id="pidbo" name="frame_ruyimenkeqian.png" path="/res/" exported="true"/>
+    <image id="pidbp" name="frame_ruyimijiqian.png" path="/res/" exported="true"/>
+    <image id="pidbq" name="frame_ruyishenbingqian.png" path="/res/" exported="true"/>
+    <image id="pidbr" name="frame_ruyixialvqian.png" path="/res/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

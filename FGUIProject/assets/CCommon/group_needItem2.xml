@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="83,35">
+  <displayList>
+    <richtext id="n65_me8j" name="label_number" xy="39,1" size="44,34" font="ui://27utqbizps391v" fontSize="24" color="#b24444" vAlign="middle" leading="0" ubb="true" text="213"/>
+    <loader id="n66_me8j" name="loader_item" xy="0,0" size="35,35" aspect="true" url="ui://27utqbizme8jr4" align="center" vAlign="middle" fill="scale"/>
+  </displayList>
+  <relation target="n65_me8j" sidePair="rightext-right"/>
+</component>

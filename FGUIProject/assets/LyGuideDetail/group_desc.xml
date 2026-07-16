@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="634,630">
+  <displayList>
+    <image id="n12_vcsd" name="n12" src="k1vlm3" fileName="res/frame_public3.png" pkg="qnktu1il" xy="0,0" size="634,630"/>
+    <image id="n6_s742" name="n6" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="105,32" size="422,38"/>
+    <text id="n2_cymh" name="label_title" xy="290,30" size="58,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" letterSpacing="-2" ubb="true" autoClearText="true" text="概率">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n7_s742" name="n7" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="24,84" size="584,515"/>
+    <list id="n11_s742" name="list_item" xy="42,96" size="553,487" overflow="scroll" lineGap="5" defaultItem="ui://53vimotaul33d" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

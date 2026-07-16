@@ -1,0 +1,118 @@
+
+zd_skills_bglhz_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bglhz_fsq/bglhz_fsq_00
+  rotate: true
+  xy: 2, 950
+  size: 58, 112
+  orig: 108, 180
+  offset: 17, 39
+  index: -1
+images/bglhz_fsq/bglhz_fsq_02
+  rotate: true
+  xy: 2, 841
+  size: 87, 161
+  orig: 108, 180
+  offset: 9, 13
+  index: -1
+images/bglhz_fsq/bglhz_fsq_04
+  rotate: true
+  xy: 618, 924
+  size: 84, 164
+  orig: 108, 180
+  offset: 9, 10
+  index: -1
+images/bglhz_fsq/bglhz_fsq_06
+  rotate: true
+  xy: 451, 926
+  size: 82, 165
+  orig: 108, 180
+  offset: 11, 11
+  index: -1
+images/bglhz_fsq/bglhz_fsq_08
+  rotate: true
+  xy: 283, 928
+  size: 80, 166
+  orig: 108, 180
+  offset: 13, 10
+  index: -1
+images/bglhz_fsq/bglhz_fsq_10
+  rotate: true
+  xy: 116, 930
+  size: 78, 165
+  orig: 108, 180
+  offset: 13, 11
+  index: -1
+images/bglhz_xl/bglhz_xl_00
+  rotate: true
+  xy: 784, 923
+  size: 85, 129
+  orig: 198, 198
+  offset: 62, 18
+  index: -1
+images/bglhz_xl/bglhz_xl_02
+  rotate: false
+  xy: 811, 749
+  size: 168, 167
+  orig: 198, 198
+  offset: 19, 6
+  index: -1
+images/bglhz_xl/bglhz_xl_04
+  rotate: true
+  xy: 179, 592
+  size: 176, 177
+  orig: 198, 198
+  offset: 16, 6
+  index: -1
+images/bglhz_xl/bglhz_xl_06
+  rotate: true
+  xy: 358, 585
+  size: 176, 184
+  orig: 198, 198
+  offset: 16, 8
+  index: -1
+images/bglhz_xl/bglhz_xl_08
+  rotate: false
+  xy: 2, 616
+  size: 175, 173
+  orig: 198, 198
+  offset: 15, 16
+  index: -1
+images/bglhz_xl/bglhz_xl_10
+  rotate: true
+  xy: 642, 755
+  size: 166, 167
+  orig: 198, 198
+  offset: 20, 15
+  index: -1
+images/bglhz_xl/bglhz_xl_12
+  rotate: false
+  xy: 476, 763
+  size: 164, 159
+  orig: 198, 198
+  offset: 22, 18
+  index: -1
+images/bglhz_xl/bglhz_xl_14
+  rotate: false
+  xy: 308, 770
+  size: 166, 154
+  orig: 198, 198
+  offset: 19, 23
+  index: -1
+images/bglhz_xl/bglhz_xl_16
+  rotate: false
+  xy: 165, 791
+  size: 141, 135
+  orig: 198, 198
+  offset: 32, 33
+  index: -1
+images/bglhz_xl/bglhz_xl_18
+  rotate: false
+  xy: 915, 918
+  size: 93, 90
+  orig: 198, 198
+  offset: 54, 55
+  index: -1

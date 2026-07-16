@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,901" designImageOffsetX="-536" designImageOffsetY="-448">
+  <displayList>
+    <loader id="n32_e8yx" name="n32" xy="27,27" size="696,874" url="ui://qnktu1ilpugclw" align="center" vAlign="middle" fill="scaleFree"/>
+    <image id="n33_e8yx" name="n33" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="188,57" size="374,38"/>
+    <component id="n34_e8yx" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,0"/>
+    <list id="n31_hbzk" name="list_task" xy="50,109" size="650,728" overflow="scroll" lineGap="10" defaultItem="ui://8rnw66xwdjmf1z" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n35_e8yx" name="label_bxl" xy="320,54" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="帮派旗帜"/>
+  </displayList>
+</component>

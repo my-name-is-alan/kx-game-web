@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,41">
+  <displayList>
+    <image id="n4_7yma" name="n4" src="7yma3" fileName="res/frame_liaotianchangkuang.png" xy="0,-4"/>
+    <image id="n0_riam" name="n0" src="j3rv3l" fileName="ui/icon_chat.png" pkg="27utqbiz" xy="0,0" scale="1.1,1.1"/>
+    <richtext id="n2_riam" name="label_content" xy="55,4" size="680,32" touchable="false" fontSize="22" color="#475050" vAlign="middle" ubb="true" autoSize="none" text=""/>
+  </displayList>
+</component>

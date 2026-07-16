@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,110">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n30_ro4e" name="n30" src="ro4e15" fileName="res/frame_baowudengjidiban2.png" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n38_ro4e" name="n38" src="ro4e16" fileName="res/frame_baowudengjidiban3.png" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n39_ro4e" name="n39" src="ro4e18" fileName="res/frame_qianghua.png" xy="475,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n33_ro4e" name="img_star1" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="140,11"/>
+    <image id="n34_ro4e" name="img_star2" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="165,11"/>
+    <image id="n35_ro4e" name="img_star3" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="190,11"/>
+    <image id="n36_ro4e" name="img_star4" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="215,11"/>
+    <image id="n37_ro4e" name="img_star5" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="240,11"/>
+    <text id="n31_ro4e" name="label_level" xy="15,9" size="118,34" font="ui://27utqbizps391v" fontSize="24" color="#d4841b" vAlign="middle" autoClearText="true" text="宝物等级："/>
+    <richtext id="n32_ro4e" name="label_desc" xy="15,47" size="610,32" fontSize="22" color="#c85231" ubb="true" autoSize="height" autoClearText="true" text="效果：[color=#00FF00]{0}[/color]"/>
+  </displayList>
+</component>

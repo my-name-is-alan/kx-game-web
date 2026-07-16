@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64">
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n5_mchc" name="n5" src="mchco4" fileName="res/frame_lingxingzi2.png" xy="8,7"/>
+    <image id="n6_mchc" name="n6" src="mchco3" fileName="res/frame_lingxingzi.png" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n7_mchc" name="label_number" xy="5,14" size="54,32" font="ui://27utqbizps391v" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#6045a6" strokeSize="2" text="100"/>
+    <image id="n8_i1bp" name="n8" src="i1bpo9" fileName="res/frame_lingxingzi3.png" xy="-43,65"/>
+    <text id="n9_i1bp" name="n9" xy="-25,71" size="112,47" font="ui://27utqbizps391v" fontSize="18" color="#ffffff" leading="2" autoSize="none" text="明日从雾隐核心出发"/>
+  </displayList>
+</component>

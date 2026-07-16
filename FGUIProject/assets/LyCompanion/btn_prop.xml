@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_svlp" name="loader_back" xy="0,0" size="100,100" url="ui://27utqbizewyh3"/>
+    <loader id="n4_svlp" name="loader_icon" xy="-1,-1" size="100,100"/>
+    <image id="n7_svlp" name="n7" src="niv33g" fileName="ui/item_btndown.png" pkg="27utqbiz" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <component id="n11_svlp" name="btn_frame" src="svlpx" fileName="btn_item.xml" xy="0,0"/>
+    <graph id="n15_g02y" name="btn_select" xy="0,0" size="100,100" type="rect" lineColor="#00000000" fillColor="#00ffffff">
+      <gearDisplay controller="button" pages="1,3"/>
+    </graph>
+    <image id="n17_g02y" name="img_count" src="y9su54" fileName="ui/frame_menke level.png" pkg="27utqbiz" xy="46,69" size="52,28" group="n19_g02y" visible="false">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <text id="n18_g02y" name="label_count" xy="57,71" size="37,29" group="n19_g02y" fontSize="20" color="#ffffff" vAlign="middle" strokeColor="#000000" strokeSize="2" autoClearText="true" text="123">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <group id="n19_g02y" name="group_count" xy="46,69" size="52,31" advanced="true"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

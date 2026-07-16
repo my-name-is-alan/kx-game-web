@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root id="1" expGrow="10" overflowExpExpr="(a-b)*130+c" newAccountBonusesId="10006">
+  <level>
+    <item level="1" exp="100" name="初出茅庐·前期一阶" baseAttrs="100,15,3,100"/>
+    <item level="2" exp="120" name="初出茅庐·前期二阶" baseAttrs="58,9,1,5"/>
+    <item level="3" exp="140" name="初出茅庐·前期三阶" baseAttrs="66,10,2,5"/>
+    <item level="4" exp="150" name="初出茅庐·前期四阶" baseAttrs="92,14,2,5"/>
+    <item level="5" exp="100" name="初出茅庐·前期五阶" baseAttrs="131,19,3,5"/>
+    <item level="6" exp="160" name="初出茅庐·中期一阶" baseAttrs="101,15,3,5"/>
+    <item level="7" exp="200" name="初出茅庐·中期二阶" baseAttrs="123,19,3,5"/>
+    <item level="8" exp="230" name="初出茅庐·中期三阶" baseAttrs="104,15,2,5"/>
+    <item level="9" exp="250" name="初出茅庐·中期四阶" baseAttrs="91,14,3,5"/>
+    <item level="10" exp="230" name="初出茅庐·中期五阶" baseAttrs="100,15,2,10"/>
+    <item level="11" exp="220" name="初出茅庐·后期一阶" baseAttrs="8,1,0,10"/>
+    <item level="12" exp="240" name="初出茅庐·后期二阶" baseAttrs="19,3,1,5"/>
+    <item level="13" exp="260" name="初出茅庐·后期三阶" baseAttrs="20,3,0,5"/>
+    <item level="14" exp="280" name="初出茅庐·后期四阶" baseAttrs="20,3,1,5"/>
+    <item level="15" exp="300" name="初出茅庐·后期五阶" baseAttrs="20,3,0,5"/>
+    <item level="16" exp="180" name="江湖小虾米·前期一阶" baseAttrs="263,39,7,5"/>
+    <item level="17" exp="190" name="江湖小虾米·前期二阶" baseAttrs="26,4,1,5"/>
+    <item level="18" exp="200" name="江湖小虾米·前期三阶" baseAttrs="26,4,0,5"/>
+    <item level="19" exp="210" name="江湖小虾米·前期四阶" baseAttrs="27,4,1,5"/>
+    <item level="20" exp="220" name="江湖小虾米·前期五阶" baseAttrs="28,5,1,10"/>
+    <item level="21" exp="230" name="江湖小虾米·前期六阶" baseAttrs="26,4,1,5"/>
+    <item level="22" exp="240" name="江湖小虾米·前期七阶" baseAttrs="26,4,0,5"/>
+    <item level="23" exp="250" name="江湖小虾米·中期一阶" baseAttrs="30,5,1,5"/>
+    <item level="24" exp="260" name="江湖小虾米·中期二阶" baseAttrs="30,5,1,10"/>
+    <item level="25" exp="270" name="江湖小虾米·中期三阶" baseAttrs="30,5,1,5"/>
+    <item level="26" exp="280" name="江湖小虾米·中期四阶" baseAttrs="30,5,1,5"/>
+    <item level="27" exp="290" name="江湖小虾米·中期五阶" baseAttrs="30,5,1,5"/>
+    <item level="28" exp="300" name="江湖小虾米·中期六阶" baseAttrs="30,5,1,10"/>
+    <item level="29" exp="310" name="江湖小虾米·中期七阶" baseAttrs="30,5,1,5"/>
+    <item level="30" exp="320" name="江湖小虾米·后期一阶" baseAttrs="40,6,1,5"/>
+    <item level="31" exp="330" name="江湖小虾米·后期二阶" baseAttrs="40,6,1,5"/>
+    <item level="32" exp="340" name="江湖小虾米·后期三阶" baseAttrs="40,6,1,10"/>
+    <item level="33" exp="350" name="江湖小虾米·后期四阶" baseAttrs="40,6,1,5"/>
+    <item level="34" exp="360" name="江湖小虾米·后期五阶" baseAttrs="40,6,1,5"/>
+    <item level="35" exp="370" name="江湖小虾米·后期六阶" baseAttrs="40,6,1,5"/>
+    <item level="36" exp="330" name="少年歌行·前期一阶" baseAttrs="520,79,13,10"/>
+    <item level="37" exp="360" name="少年歌行·前期二阶" baseAttrs="45,7,1,5"/>
+    <item level="38" exp="390" name="少年歌行·前期三阶" baseAttrs="45,7,1,5"/>
+    <item level="39" exp="420" name="少年歌行·前期四阶" baseAttrs="45,7,1,5"/>
+    <item level="40" exp="450" name="少年歌行·前期五阶" baseAttrs="45,7,1,10"/>
+    <item level="41" exp="480" name="少年歌行·前期六阶" baseAttrs="45,7,1,5"/>
+    <item level="42" exp="510" name="少年歌行·前期七阶" baseAttrs="45,7,1,5"/>
+    <item level="43" exp="540" name="少年歌行·中期一阶" baseAttrs="59,9,1,5"/>
+    <item level="44" exp="570" name="少年歌行·中期二阶" baseAttrs="59,9,1,10"/>
+    <item level="45" exp="600" name="少年歌行·中期三阶" baseAttrs="59,9,1,5"/>
+    <item level="46" exp="630" name="少年歌行·中期四阶" baseAttrs="59,9,1,5"/>
+    <item level="47" exp="660" name="少年歌行·中期五阶" baseAttrs="59,9,1,5"/>
+    <item level="48" exp="690" name="少年歌行·中期六阶" baseAttrs="59,9,1,10"/>
+    <item level="49" exp="720" name="少年歌行·中期七阶" baseAttrs="59,9,1,5"/>
+    <item level="50" exp="750" name="少年歌行·后期一阶" baseAttrs="79,12,2,5"/>
+    <item level="51" exp="780" name="少年歌行·后期二阶" baseAttrs="79,12,2,5"/>
+    <item level="52" exp="810" name="少年歌行·后期三阶" baseAttrs="79,12,2,10"/>
+    <item level="53" exp="840" name="少年歌行·后期四阶" baseAttrs="79,12,2,5"/>
+    <item level="54" exp="870" name="少年歌行·后期五阶" baseAttrs="79,12,2,5"/>
+    <item level="55" exp="900" name="少年歌行·后期六阶" baseAttrs="79,12,2,5"/>
+    <item level="56" exp="820" name="鲜衣怒马·前期一阶" baseAttrs="1027,156,26,10"/>
+    <item level="57" exp="840" name="鲜衣怒马·前期二阶" baseAttrs="128,19,3,5"/>
+    <item level="58" exp="860" name="鲜衣怒马·前期三阶" baseAttrs="128,19,3,5"/>
+    <item level="59" exp="880" name="鲜衣怒马·前期四阶" baseAttrs="128,19,3,5"/>
+    <item level="60" exp="900" name="鲜衣怒马·前期五阶" baseAttrs="128,19,3,10"/>
+    <item level="61" exp="920" name="鲜衣怒马·前期六阶" baseAttrs="128,19,3,5"/>
+    <item level="62" exp="940" name="鲜衣怒马·前期七阶" baseAttrs="128,19,3,5"/>
+    <item level="63" exp="960" name="鲜衣怒马·前期八阶" baseAttrs="128,19,3,5"/>
+    <item level="64" exp="980" name="鲜衣怒马·前期九阶" baseAttrs="128,19,3,10"/>
+    <item level="65" exp="1000" name="鲜衣怒马·前期十阶" baseAttrs="128,19,3,5"/>
+    <item level="66" exp="1020" name="鲜衣怒马·前期十一阶" baseAttrs="128,19,3,5"/>
+    <item level="67" exp="1040" name="鲜衣怒马·前期十二阶" baseAttrs="128,19,3,5"/>
+    <item level="68" exp="1060" name="鲜衣怒马·前期十三阶" baseAttrs="128,19,3,10"/>
+    <item level="69" exp="1080" name="鲜衣怒马·前期十四阶" baseAttrs="128,19,3,5"/>
+    <item level="70" exp="1100" name="鲜衣怒马·中期一阶" baseAttrs="128,19,3,5"/>
+    <item level="71" exp="1120" name="鲜衣怒马·中期二阶" baseAttrs="128,19,3,5"/>
+    <item level="72" exp="1140" name="鲜衣怒马·中期三阶" baseAttrs="128,19,3,10"/>
+    <item level="73" exp="1160" name="鲜衣怒马·中期四阶" baseAttrs="128,19,3,5"/>
+    <item level="74" exp="1180" name="鲜衣怒马·中期五阶" baseAttrs="128,19,3,5"/>
+    <item level="75" exp="1200" name="鲜衣怒马·中期六阶" baseAttrs="128,19,3,5"/>
+    <item level="76" exp="1220" name="鲜衣怒马·中期七阶" baseAttrs="128,19,3,10"/>
+    <item level="77" exp="1240" name="鲜衣怒马·中期八阶" baseAttrs="128,19,3,5"/>
+    <item level="78" exp="1260" name="鲜衣怒马·中期九阶" baseAttrs="128,19,3,5"/>
+    <item level="79" exp="1280" name="鲜衣怒马·中期十阶" baseAttrs="128,19,3,5"/>
+    <item level="80" exp="1300" name="鲜衣怒马·中期十一阶" baseAttrs="128,19,3,10"/>
+    <item level="81" exp="1320" name="鲜衣怒马·中期十二阶" baseAttrs="128,19,3,5"/>
+    <item level="82" exp="1340" name="鲜衣怒马·中期十三阶" baseAttrs="128,19,3,5"/>
+    <item level="83" exp="1360" name="鲜衣怒马·中期十四阶" baseAttrs="128,19,3,5"/>
+    <item level="84" exp="1380" name="鲜衣怒马·后期一阶" baseAttrs="128,19,3,10"/>
+    <item level="85" exp="1400" name="鲜衣怒马·后期二阶" baseAttrs="128,19,3,5"/>
+    <item level="86" exp="1420" name="鲜衣怒马·后期三阶" baseAttrs="128,19,3,5"/>
+    <item level="87" exp="1440" name="鲜衣怒马·后期四阶" baseAttrs="128,19,3,5"/>
+    <item level="88" exp="1460" name="鲜衣怒马·后期五阶" baseAttrs="128,19,3,10"/>
+    <item level="89" exp="1480" name="鲜衣怒马·后期六阶" baseAttrs="128,19,3,5"/>
+    <item level="90" exp="1500" name="鲜衣怒马·后期七阶" baseAttrs="128,19,3,5"/>
+    <item level="91" exp="1520" name="鲜衣怒马·后期八阶" baseAttrs="128,19,3,5"/>
+    <item level="92" exp="1540" name="鲜衣怒马·后期九阶" baseAttrs="128,19,4,5"/>
+    <item level="93" exp="1560" name="鲜衣怒马·后期十阶" baseAttrs="128,19,4,5"/>
+    <item level="94" exp="1580" name="鲜衣怒马·后期十一阶" baseAttrs="128,19,4,5"/>
+    <item level="95" exp="1600" name="鲜衣怒马·后期十二阶" baseAttrs="128,19,4,5"/>
+    <item level="96" exp="1340" name="侠客行·前期一阶" baseAttrs="1664,252,44,5"/>
+    <item level="97" exp="1380" name="侠客行·前期二阶" baseAttrs="294,42,9,5"/>
+    <item level="98" exp="1420" name="侠客行·前期三阶" baseAttrs="295,40,8,5"/>
+    <item level="99" exp="1460" name="侠客行·前期四阶" baseAttrs="294,44,9,5"/>
+    <item level="100" exp="1500" name="侠客行·前期五阶" baseAttrs="295,45,7,5"/>
+    <item level="101" exp="1540" name="侠客行·前期六阶" baseAttrs="294,45,7,5"/>
+    <item level="102" exp="1580" name="侠客行·前期七阶" baseAttrs="295,44,7,5"/>
+    <item level="103" exp="1620" name="侠客行·前期八阶" baseAttrs="294,44,8,5"/>
+    <item level="104" exp="1660" name="侠客行·前期九阶" baseAttrs="295,44,7,5"/>
+    <item level="105" exp="1700" name="侠客行·前期十阶" baseAttrs="294,44,8,5"/>
+    <item level="106" exp="1740" name="侠客行·前期十一阶" baseAttrs="295,44,7,5"/>
+    <item level="107" exp="1780" name="侠客行·前期十二阶" baseAttrs="294,44,8,5"/>
+    <item level="108" exp="1820" name="侠客行·前期十三阶" baseAttrs="295,44,7,10"/>
+    <item level="109" exp="1860" name="侠客行·前期十四阶" baseAttrs="294,45,8,5"/>
+    <item level="110" exp="1900" name="侠客行·前期十五阶" baseAttrs="295,44,7,5"/>
+    <item level="111" exp="1940" name="侠客行·前期十六阶" baseAttrs="294,44,8,5"/>
+    <item level="112" exp="1980" name="侠客行·前期十七阶" baseAttrs="295,44,7,5"/>
+    <item level="113" exp="2020" name="侠客行·前期十八阶" baseAttrs="294,44,8,5"/>
+    <item level="114" exp="2060" name="侠客行·前期十九阶" baseAttrs="295,44,7,5"/>
+    <item level="115" exp="2100" name="侠客行·前期二十阶" baseAttrs="294,45,8,5"/>
+    <item level="116" exp="2140" name="侠客行·中期一阶" baseAttrs="295,44,6,10"/>
+    <item level="117" exp="2180" name="侠客行·中期二阶" baseAttrs="436,66,11,5"/>
+    <item level="118" exp="2220" name="侠客行·中期三阶" baseAttrs="436,66,11,5"/>
+    <item level="119" exp="2260" name="侠客行·中期四阶" baseAttrs="436,66,11,5"/>
+    <item level="120" exp="2300" name="侠客行·中期五阶" baseAttrs="436,66,11,5"/>
+    <item level="121" exp="2340" name="侠客行·中期六阶" baseAttrs="436,66,11,5"/>
+    <item level="122" exp="2380" name="侠客行·中期七阶" baseAttrs="436,66,11,5"/>
+    <item level="123" exp="2420" name="侠客行·中期八阶" baseAttrs="436,66,11,5"/>
+    <item level="124" exp="2460" name="侠客行·中期九阶" baseAttrs="436,66,11,5"/>
+    <item level="125" exp="2500" name="侠客行·中期十阶" baseAttrs="436,66,11,5"/>
+    <item level="126" exp="2540" name="侠客行·中期十一阶" baseAttrs="436,66,11,5"/>
+    <item level="127" exp="2580" name="侠客行·中期十二阶" baseAttrs="436,66,11,5"/>
+    <item level="128" exp="2620" name="侠客行·中期十三阶" baseAttrs="436,66,11,5"/>
+    <item level="129" exp="2660" name="侠客行·中期十四阶" baseAttrs="436,66,11,5"/>
+    <item level="130" exp="2700" name="侠客行·中期十五阶" baseAttrs="436,66,11,5"/>
+    <item level="131" exp="2740" name="侠客行·中期十六阶" baseAttrs="436,66,11,5"/>
+    <item level="132" exp="2780" name="侠客行·中期十七阶" baseAttrs="436,66,11,5"/>
+    <item level="133" exp="2820" name="侠客行·中期十八阶" baseAttrs="436,66,11,5"/>
+    <item level="134" exp="2860" name="侠客行·中期十九阶" baseAttrs="436,66,11,5"/>
+    <item level="135" exp="2900" name="侠客行·中期二十阶" baseAttrs="436,66,11,5"/>
+    <item level="136" exp="2940" name="侠客行·后期一阶" baseAttrs="587,89,15,5"/>
+    <item level="137" exp="2980" name="侠客行·后期二阶" baseAttrs="587,89,15,5"/>
+    <item level="138" exp="3020" name="侠客行·后期三阶" baseAttrs="587,89,15,5"/>
+    <item level="139" exp="3060" name="侠客行·后期四阶" baseAttrs="587,89,15,5"/>
+    <item level="140" exp="3100" name="侠客行·后期五阶" baseAttrs="587,89,15,5"/>
+    <item level="141" exp="3140" name="侠客行·后期六阶" baseAttrs="587,89,15,5"/>
+    <item level="142" exp="3180" name="侠客行·后期七阶" baseAttrs="587,89,15,5"/>
+    <item level="143" exp="3220" name="侠客行·后期八阶" baseAttrs="587,89,15,5"/>
+    <item level="144" exp="3260" name="侠客行·后期九阶" baseAttrs="587,89,15,5"/>
+    <item level="145" exp="3300" name="侠客行·后期十阶" baseAttrs="587,89,15,5"/>
+    <item level="146" exp="3340" name="侠客行·后期十一阶" baseAttrs="587,89,15,10"/>
+    <item level="147" exp="3380" name="侠客行·后期十二阶" baseAttrs="587,89,15,5"/>
+    <item level="148" exp="3420" name="侠客行·后期十三阶" baseAttrs="587,89,15,5"/>
+    <item level="149" exp="3460" name="侠客行·后期十四阶" baseAttrs="587,89,15,10"/>
+    <item level="150" exp="3500" name="侠客行·后期十五阶" baseAttrs="587,89,15,5"/>
+    <item level="151" exp="3540" name="侠客行·后期十六阶" baseAttrs="587,89,15,5"/>
+    <item level="152" exp="3580" name="侠客行·后期十七阶" baseAttrs="587,89,15,5"/>
+    <item level="153" exp="3620" name="侠客行·后期十八阶" baseAttrs="587,89,15,5"/>
+    <item level="154" exp="3660" name="侠客行·后期十九阶" baseAttrs="587,89,15,10"/>
+    <item level="155" exp="3700" name="侠客行·后期二十阶" baseAttrs="587,89,15,5"/>
+    <item level="156" exp="3050" name="踏雪无痕·前期一阶" baseAttrs="7631,1156,193,5"/>
+    <item level="157" exp="3100" name="踏雪无痕·前期二阶" baseAttrs="1174,168,28,10"/>
+    <item level="158" exp="3150" name="踏雪无痕·前期三阶" baseAttrs="1174,168,28,5"/>
+    <item level="159" exp="3200" name="踏雪无痕·前期四阶" baseAttrs="1174,173,29,5"/>
+    <item level="160" exp="3250" name="踏雪无痕·前期五阶" baseAttrs="1174,178,29,10"/>
+    <item level="161" exp="3300" name="踏雪无痕·前期六阶" baseAttrs="1174,178,29,5"/>
+    <item level="162" exp="3350" name="踏雪无痕·前期七阶" baseAttrs="1174,178,29,5"/>
+    <item level="163" exp="3400" name="踏雪无痕·前期八阶" baseAttrs="1174,178,29,5"/>
+    <item level="164" exp="3450" name="踏雪无痕·前期九阶" baseAttrs="1174,178,29,5"/>
+    <item level="165" exp="3500" name="踏雪无痕·前期十阶" baseAttrs="1174,178,29,10"/>
+    <item level="166" exp="3550" name="踏雪无痕·前期十一阶" baseAttrs="1174,178,29,5"/>
+    <item level="167" exp="3600" name="踏雪无痕·前期十二阶" baseAttrs="1174,178,29,5"/>
+    <item level="168" exp="3650" name="踏雪无痕·前期十三阶" baseAttrs="1174,178,29,10"/>
+    <item level="169" exp="3700" name="踏雪无痕·前期十四阶" baseAttrs="1174,178,29,5"/>
+    <item level="170" exp="3750" name="踏雪无痕·前期十五阶" baseAttrs="1174,178,29,5"/>
+    <item level="171" exp="3800" name="踏雪无痕·前期十六阶" baseAttrs="1174,178,29,10"/>
+    <item level="172" exp="3850" name="踏雪无痕·前期十七阶" baseAttrs="1174,178,29,5"/>
+    <item level="173" exp="3900" name="踏雪无痕·前期十八阶" baseAttrs="1174,178,29,5"/>
+    <item level="174" exp="3950" name="踏雪无痕·前期十九阶" baseAttrs="1174,178,29,10"/>
+    <item level="175" exp="4000" name="踏雪无痕·前期二十阶" baseAttrs="1174,178,29,5"/>
+    <item level="176" exp="4050" name="踏雪无痕·前期二十一阶" baseAttrs="1174,178,29,5"/>
+    <item level="177" exp="4100" name="踏雪无痕·前期二十二阶" baseAttrs="1174,178,29,10"/>
+    <item level="178" exp="4150" name="踏雪无痕·前期二十三阶" baseAttrs="1174,178,29,5"/>
+    <item level="179" exp="4200" name="踏雪无痕·前期二十四阶" baseAttrs="1174,178,29,5"/>
+    <item level="180" exp="4250" name="踏雪无痕·前期二十五阶" baseAttrs="1174,178,29,10"/>
+    <item level="181" exp="4300" name="踏雪无痕·前期二十六阶" baseAttrs="1174,168,28,5"/>
+    <item level="182" exp="4350" name="踏雪无痕·前期二十七阶" baseAttrs="1174,168,28,5"/>
+    <item level="183" exp="4400" name="踏雪无痕·中期一阶" baseAttrs="2000,300,50,10"/>
+    <item level="184" exp="4450" name="踏雪无痕·中期二阶" baseAttrs="2000,300,50,5"/>
+    <item level="185" exp="4500" name="踏雪无痕·中期三阶" baseAttrs="2000,300,50,5"/>
+    <item level="186" exp="4550" name="踏雪无痕·中期四阶" baseAttrs="2000,300,50,5"/>
+    <item level="187" exp="4600" name="踏雪无痕·中期五阶" baseAttrs="2000,300,50,10"/>
+    <item level="188" exp="4650" name="踏雪无痕·中期六阶" baseAttrs="2000,300,50,5"/>
+    <item level="189" exp="4700" name="踏雪无痕·中期七阶" baseAttrs="2000,300,50,5"/>
+    <item level="190" exp="4750" name="踏雪无痕·中期八阶" baseAttrs="2000,300,50,5"/>
+    <item level="191" exp="4800" name="踏雪无痕·中期九阶" baseAttrs="2000,300,50,5"/>
+    <item level="192" exp="4850" name="踏雪无痕·中期十阶" baseAttrs="2000,300,50,5"/>
+    <item level="193" exp="4900" name="踏雪无痕·中期十一阶" baseAttrs="2000,300,50,5"/>
+    <item level="194" exp="4950" name="踏雪无痕·中期十二阶" baseAttrs="2000,300,50,10"/>
+    <item level="195" exp="5000" name="踏雪无痕·中期十三阶" baseAttrs="2000,300,50,5"/>
+    <item level="196" exp="5050" name="踏雪无痕·中期十四阶" baseAttrs="2000,300,50,5"/>
+    <item level="197" exp="5100" name="踏雪无痕·中期十五阶" baseAttrs="2000,300,50,10"/>
+    <item level="198" exp="5150" name="踏雪无痕·中期十六阶" baseAttrs="2000,300,50,5"/>
+    <item level="199" exp="5200" name="踏雪无痕·中期十七阶" baseAttrs="2000,300,50,5"/>
+    <item level="200" exp="5250" name="踏雪无痕·中期十八阶" baseAttrs="2000,300,50,5"/>
+    <item level="201" exp="5300" name="踏雪无痕·中期十九阶" baseAttrs="2000,300,50,5"/>
+    <item level="202" exp="5350" name="踏雪无痕·中期二十阶" baseAttrs="2000,300,50,10"/>
+    <item level="203" exp="5400" name="踏雪无痕·中期二十一阶" baseAttrs="2000,300,50,5"/>
+    <item level="204" exp="5450" name="踏雪无痕·中期二十二阶" baseAttrs="2000,300,50,5"/>
+    <item level="205" exp="5500" name="踏雪无痕·中期二十三阶" baseAttrs="2000,300,50,10"/>
+    <item level="206" exp="5550" name="踏雪无痕·中期二十四阶" baseAttrs="2000,300,50,5"/>
+    <item level="207" exp="5600" name="踏雪无痕·中期二十五阶" baseAttrs="2000,300,50,5"/>
+    <item level="208" exp="5650" name="踏雪无痕·中期二十六阶" baseAttrs="2007,300,50,10"/>
+    <item level="209" exp="5700" name="踏雪无痕·中期二十七阶" baseAttrs="2007,300,50,5"/>
+    <item level="210" exp="5750" name="踏雪无痕·后期一阶" baseAttrs="2875,420,72,5"/>
+    <item level="211" exp="5800" name="踏雪无痕·后期二阶" baseAttrs="2875,420,72,10"/>
+    <item level="212" exp="5850" name="踏雪无痕·后期三阶" baseAttrs="2875,420,72,5"/>
+    <item level="213" exp="5900" name="踏雪无痕·后期四阶" baseAttrs="2875,420,72,5"/>
+    <item level="214" exp="5950" name="踏雪无痕·后期五阶" baseAttrs="2874,432,74,10"/>
+    <item level="215" exp="6000" name="踏雪无痕·后期六阶" baseAttrs="2875,432,72,5"/>
+    <item level="216" exp="6050" name="踏雪无痕·后期七阶" baseAttrs="2874,431,71,5"/>
+    <item level="217" exp="6100" name="踏雪无痕·后期八阶" baseAttrs="2875,432,72,5"/>
+    <item level="218" exp="6150" name="踏雪无痕·后期九阶" baseAttrs="2875,432,72,5"/>
+    <item level="219" exp="6200" name="踏雪无痕·后期十阶" baseAttrs="2875,432,72,5"/>
+    <item level="220" exp="6250" name="踏雪无痕·后期十一阶" baseAttrs="2875,432,72,5"/>
+    <item level="221" exp="6300" name="踏雪无痕·后期十二阶" baseAttrs="2875,432,72,5"/>
+    <item level="222" exp="6350" name="踏雪无痕·后期十三阶" baseAttrs="2875,432,72,5"/>
+    <item level="223" exp="6400" name="踏雪无痕·后期十四阶" baseAttrs="2875,432,72,5"/>
+    <item level="224" exp="6450" name="踏雪无痕·后期十五阶" baseAttrs="2875,432,72,5"/>
+    <item level="225" exp="6500" name="踏雪无痕·后期十六阶" baseAttrs="2875,432,72,5"/>
+    <item level="226" exp="6550" name="踏雪无痕·后期十七阶" baseAttrs="2875,432,72,5"/>
+    <item level="227" exp="6600" name="踏雪无痕·后期十八阶" baseAttrs="2875,432,72,5"/>
+    <item level="228" exp="6650" name="踏雪无痕·后期十九阶" baseAttrs="2875,432,72,5"/>
+    <item level="229" exp="6700" name="踏雪无痕·后期二十阶" baseAttrs="2875,432,72,5"/>
+    <item level="230" exp="6750" name="踏雪无痕·后期二十一阶" baseAttrs="2875,432,72,5"/>
+    <item level="231" exp="6800" name="踏雪无痕·后期二十二阶" baseAttrs="2875,432,72,10"/>
+    <item level="232" exp="6850" name="踏雪无痕·后期二十三阶" baseAttrs="2875,432,72,5"/>
+    <item level="233" exp="6900" name="踏雪无痕·后期二十四阶" baseAttrs="2875,432,72,5"/>
+    <item level="234" exp="6950" name="踏雪无痕·后期二十五阶" baseAttrs="2875,432,72,5"/>
+    <item level="235" exp="7000" name="踏雪无痕·后期二十六阶" baseAttrs="2875,432,72,5"/>
+    <item level="236" exp="5540" name="剑来·前期一阶" baseAttrs="66900,10021,1671,20"/>
+    <item level="237" exp="5580" name="剑来·前期二阶" baseAttrs="5128,777,129,5"/>
+    <item level="238" exp="5620" name="剑来·前期三阶" baseAttrs="5241,794,132,5"/>
+    <item level="239" exp="5660" name="剑来·前期四阶" baseAttrs="5432,823,137,5"/>
+    <item level="240" exp="5700" name="剑来·前期五阶" baseAttrs="5583,846,141,5"/>
+    <item level="241" exp="5740" name="剑来·前期六阶" baseAttrs="5735,850,142,5"/>
+    <item level="242" exp="5780" name="剑来·前期七阶" baseAttrs="5887,870,145,5"/>
+    <item level="243" exp="5820" name="剑来·前期八阶" baseAttrs="6038,900,150,5"/>
+    <item level="244" exp="5860" name="剑来·前期九阶" baseAttrs="6190,920,153,5"/>
+    <item level="245" exp="5900" name="剑来·前期十阶" baseAttrs="6342,950,158,5"/>
+    <item level="246" exp="5940" name="剑来·前期十一阶" baseAttrs="6493,970,162,10"/>
+    <item level="247" exp="5980" name="剑来·前期十二阶" baseAttrs="6645,1007,168,5"/>
+    <item level="248" exp="6020" name="剑来·前期十三阶" baseAttrs="6797,1024,171,10"/>
+    <item level="249" exp="6060" name="剑来·前期十四阶" baseAttrs="6870,1030,172,5"/>
+    <item level="250" exp="6100" name="剑来·前期十五阶" baseAttrs="7008,1051,175,5"/>
+    <item level="251" exp="6140" name="剑来·前期十六阶" baseAttrs="7185,1074,179,5"/>
+    <item level="252" exp="6180" name="剑来·前期十七阶" baseAttrs="7268,1080,180,5"/>
+    <item level="253" exp="6220" name="剑来·前期十八阶" baseAttrs="7306,1085,181,10"/>
+    <item level="254" exp="6260" name="剑来·前期十九阶" baseAttrs="7502,1100,183,5"/>
+    <item level="255" exp="6300" name="剑来·前期二十阶" baseAttrs="7600,1150,192,5"/>
+    <item level="256" exp="6340" name="剑来·前期二十一阶" baseAttrs="7800,1182,197,5"/>
+    <item level="257" exp="6380" name="剑来·前期二十二阶" baseAttrs="8000,1212,202,5"/>
+    <item level="258" exp="6420" name="剑来·前期二十三阶" baseAttrs="8151,1235,206,10"/>
+    <item level="259" exp="6460" name="剑来·前期二十四阶" baseAttrs="8303,1258,210,5"/>
+    <item level="260" exp="6500" name="剑来·前期二十五阶" baseAttrs="8455,1281,214,5"/>
+    <item level="261" exp="6540" name="剑来·前期二十六阶" baseAttrs="8606,1304,217,5"/>
+    <item level="262" exp="6580" name="剑来·前期二十七阶" baseAttrs="8758,1327,221,5"/>
+    <item level="263" exp="6620" name="剑来·前期二十八阶" baseAttrs="8910,1350,225,5"/>
+    <item level="264" exp="6660" name="剑来·前期二十九阶" baseAttrs="9225,1390,232,10"/>
+    <item level="265" exp="6700" name="剑来·前期三十阶" baseAttrs="9377,1399,233,5"/>
+    <item level="266" exp="6740" name="剑来·前期三十一阶" baseAttrs="9529,1423,237,5"/>
+    <item level="267" exp="6780" name="剑来·前期三十二阶" baseAttrs="9667,1435,239,10"/>
+    <item level="268" exp="6820" name="剑来·前期三十三阶" baseAttrs="9810,1436,239,5"/>
+    <item level="269" exp="6860" name="剑来·前期三十四阶" baseAttrs="9920,1480,247,5"/>
+    <item level="270" exp="6900" name="剑来·中期一阶" baseAttrs="10135,1521,253,10"/>
+    <item level="271" exp="6940" name="剑来·中期二阶" baseAttrs="10287,1559,260,5"/>
+    <item level="272" exp="6980" name="剑来·中期三阶" baseAttrs="10439,1582,264,5"/>
+    <item level="273" exp="7020" name="剑来·中期四阶" baseAttrs="10590,1605,267,5"/>
+    <item level="274" exp="7060" name="剑来·中期五阶" baseAttrs="10742,1628,271,5"/>
+    <item level="275" exp="7100" name="剑来·中期六阶" baseAttrs="10894,1651,275,5"/>
+    <item level="276" exp="7140" name="剑来·中期七阶" baseAttrs="11046,1674,279,10"/>
+    <item level="277" exp="7180" name="剑来·中期八阶" baseAttrs="11198,1697,283,5"/>
+    <item level="278" exp="7220" name="剑来·中期九阶" baseAttrs="11349,1720,287,5"/>
+    <item level="279" exp="7260" name="剑来·中期十阶" baseAttrs="15630,2368,395,5"/>
+    <item level="280" exp="7300" name="剑来·中期十一阶" baseAttrs="13584,2058,343,10"/>
+    <item level="281" exp="7340" name="剑来·中期十二阶" baseAttrs="13054,1983,331,5"/>
+    <item level="282" exp="7380" name="剑来·中期十三阶" baseAttrs="12373,1735,289,5"/>
+    <item level="283" exp="7420" name="剑来·中期十四阶" baseAttrs="12108,1734,288,10"/>
+    <item level="284" exp="7460" name="剑来·中期十五阶" baseAttrs="13070,1980,330,5"/>
+    <item level="285" exp="7500" name="剑来·中期十六阶" baseAttrs="13368,2025,338,5"/>
+    <item level="286" exp="7540" name="剑来·中期十七阶" baseAttrs="13673,2072,345,5"/>
+    <item level="287" exp="7580" name="剑来·中期十八阶" baseAttrs="13985,2119,353,5"/>
+    <item level="288" exp="7620" name="剑来·中期十九阶" baseAttrs="14303,2167,361,5"/>
+    <item level="289" exp="7660" name="剑来·中期二十阶" baseAttrs="14629,2217,369,10"/>
+    <item level="290" exp="7700" name="剑来·中期二十一阶" baseAttrs="14963,2267,378,5"/>
+    <item level="291" exp="7740" name="剑来·中期二十二阶" baseAttrs="15304,2319,386,5"/>
+    <item level="292" exp="7780" name="剑来·中期二十三阶" baseAttrs="15653,2372,395,5"/>
+    <item level="293" exp="7820" name="剑来·中期二十四阶" baseAttrs="16010,2426,404,5"/>
+    <item level="294" exp="7860" name="剑来·中期二十五阶" baseAttrs="16375,2481,414,10"/>
+    <item level="295" exp="7900" name="剑来·中期二十六阶" baseAttrs="16748,2538,423,5"/>
+    <item level="296" exp="7940" name="剑来·中期二十七阶" baseAttrs="17130,2595,433,5"/>
+    <item level="297" exp="7980" name="剑来·中期二十八阶" baseAttrs="17521,2655,442,5"/>
+    <item level="298" exp="8020" name="剑来·中期二十九阶" baseAttrs="17920,2715,453,5"/>
+    <item level="299" exp="8060" name="剑来·中期三十阶" baseAttrs="18329,2777,463,10"/>
+    <item level="300" exp="8100" name="剑来·中期三十一阶" baseAttrs="18747,2840,473,5"/>
+    <item level="301" exp="8140" name="剑来·中期三十二阶" baseAttrs="19179,2884,481,5"/>
+    <item level="302" exp="8180" name="剑来·中期三十三阶" baseAttrs="19612,2771,462,5"/>
+    <item level="303" exp="8220" name="剑来·中期三十四阶" baseAttrs="20059,2839,473,5"/>
+    <item level="304" exp="8260" name="剑来·后期一阶" baseAttrs="20516,3008,502,10"/>
+    <item level="305" exp="8300" name="剑来·后期二阶" baseAttrs="20316,3078,513,5"/>
+    <item level="306" exp="8340" name="剑来·后期三阶" baseAttrs="20722,3140,523,5"/>
+    <item level="307" exp="8380" name="剑来·后期四阶" baseAttrs="21137,3203,534,5"/>
+    <item level="308" exp="8420" name="剑来·后期五阶" baseAttrs="21560,3267,544,5"/>
+    <item level="309" exp="8460" name="剑来·后期六阶" baseAttrs="21991,3332,555,5"/>
+    <item level="310" exp="8500" name="剑来·后期七阶" baseAttrs="22431,3399,566,5"/>
+    <item level="311" exp="8540" name="剑来·后期八阶" baseAttrs="22879,3467,578,5"/>
+    <item level="312" exp="8580" name="剑来·后期九阶" baseAttrs="23337,3536,589,10"/>
+    <item level="313" exp="8620" name="剑来·后期十阶" baseAttrs="23803,3607,601,5"/>
+    <item level="314" exp="8660" name="剑来·后期十一阶" baseAttrs="24280,3679,613,5"/>
+    <item level="315" exp="8700" name="剑来·后期十二阶" baseAttrs="24765,3752,625,5"/>
+    <item level="316" exp="8740" name="剑来·后期十三阶" baseAttrs="25260,3827,638,5"/>
+    <item level="317" exp="8780" name="剑来·后期十四阶" baseAttrs="25766,3904,651,10"/>
+    <item level="318" exp="8820" name="剑来·后期十五阶" baseAttrs="26281,3982,664,5"/>
+    <item level="319" exp="8860" name="剑来·后期十六阶" baseAttrs="26807,4062,677,5"/>
+    <item level="320" exp="8900" name="剑来·后期十七阶" baseAttrs="27343,4110,685,5"/>
+    <item level="321" exp="8940" name="剑来·后期十八阶" baseAttrs="27890,4158,693,5"/>
+    <item level="322" exp="8980" name="剑来·后期十九阶" baseAttrs="28447,4258,710,10"/>
+    <item level="323" exp="9020" name="剑来·后期二十阶" baseAttrs="29016,4358,726,5"/>
+    <item level="324" exp="9060" name="剑来·后期二十一阶" baseAttrs="29597,4358,726,5"/>
+    <item level="325" exp="9100" name="剑来·后期二十二阶" baseAttrs="30189,4358,726,5"/>
+    <item level="326" exp="9140" name="剑来·后期二十三阶" baseAttrs="30792,4485,748,5"/>
+    <item level="327" exp="9180" name="剑来·后期二十四阶" baseAttrs="31391,4740,793,10"/>
+    <item level="328" exp="9220" name="剑来·后期二十五阶" baseAttrs="32000,4648,773,5"/>
+    <item level="329" exp="9260" name="剑来·后期二十六阶" baseAttrs="32640,4945,824,5"/>
+    <item level="330" exp="9300" name="剑来·后期二十七阶" baseAttrs="33293,5044,841,5"/>
+    <item level="331" exp="9340" name="剑来·后期二十八阶" baseAttrs="33959,5145,858,5"/>
+    <item level="332" exp="9380" name="剑来·后期二十九阶" baseAttrs="34638,5248,875,10"/>
+    <item level="333" exp="9420" name="剑来·后期三十阶" baseAttrs="35331,5353,892,5"/>
+    <item level="334" exp="9460" name="剑来·后期三十一阶" baseAttrs="36037,5460,910,5"/>
+    <item level="335" exp="9500" name="剑来·后期三十二阶" baseAttrs="36758,5569,928,5"/>
+    <item level="336" exp="9050" name="入神坐照·前期一阶" baseAttrs="469844,70113,11685,10"/>
+    <item level="337" exp="9100" name="入神坐照·前期二阶" baseAttrs="46570,7056,1176,5"/>
+    <item level="338" exp="9150" name="入神坐照·前期三阶" baseAttrs="47501,7197,1200,5"/>
+    <item level="339" exp="9200" name="入神坐照·前期四阶" baseAttrs="48451,7341,1224,5"/>
+    <item level="340" exp="9250" name="入神坐照·前期五阶" baseAttrs="49420,7488,1248,5"/>
+    <item level="341" exp="9300" name="入神坐照·前期六阶" baseAttrs="50409,7638,1273,5"/>
+    <item level="342" exp="9350" name="入神坐照·前期七阶" baseAttrs="51417,7790,1298,5"/>
+    <item level="343" exp="9400" name="入神坐照·前期八阶" baseAttrs="52445,7946,1324,5"/>
+    <item level="344" exp="9450" name="入神坐照·前期九阶" baseAttrs="53494,8105,1351,5"/>
+    <item level="345" exp="9500" name="入神坐照·前期十阶" baseAttrs="54564,8267,1378,5"/>
+    <item level="346" exp="9550" name="入神坐照·前期十一阶" baseAttrs="55655,8433,1405,5"/>
+    <item level="347" exp="9600" name="入神坐照·前期十二阶" baseAttrs="56769,8601,1434,10"/>
+    <item level="348" exp="9650" name="入神坐照·前期十三阶" baseAttrs="57904,8773,1462,5"/>
+    <item level="349" exp="9700" name="入神坐照·前期十四阶" baseAttrs="59062,8949,1491,5"/>
+    <item level="350" exp="9750" name="入神坐照·前期十五阶" baseAttrs="60243,9128,1521,5"/>
+    <item level="351" exp="9800" name="入神坐照·前期十六阶" baseAttrs="61448,9310,1552,10"/>
+    <item level="352" exp="9850" name="入神坐照·前期十七阶" baseAttrs="62677,9497,1583,5"/>
+    <item level="353" exp="9900" name="入神坐照·前期十八阶" baseAttrs="63931,9686,1614,5"/>
+    <item level="354" exp="9950" name="入神坐照·前期十九阶" baseAttrs="65209,9880,1647,5"/>
+    <item level="355" exp="10000" name="入神坐照·前期二十阶" baseAttrs="66513,10078,1680,10"/>
+    <item level="356" exp="10050" name="入神坐照·前期二十一阶" baseAttrs="67844,10279,1713,5"/>
+    <item level="357" exp="10100" name="入神坐照·前期二十二阶" baseAttrs="69201,10485,1747,5"/>
+    <item level="358" exp="10150" name="入神坐照·前期二十三阶" baseAttrs="70585,10695,1782,5"/>
+    <item level="359" exp="10200" name="入神坐照·前期二十四阶" baseAttrs="71996,10909,1818,10"/>
+    <item level="360" exp="10250" name="入神坐照·前期二十五阶" baseAttrs="73436,11127,1854,5"/>
+    <item level="361" exp="10300" name="入神坐照·前期二十六阶" baseAttrs="74905,11349,1892,5"/>
+    <item level="362" exp="10350" name="入神坐照·前期二十七阶" baseAttrs="76403,11576,1929,5"/>
+    <item level="363" exp="10400" name="入神坐照·前期二十八阶" baseAttrs="77931,11808,1968,10"/>
+    <item level="364" exp="10450" name="入神坐照·前期二十九阶" baseAttrs="79490,11051,1842,5"/>
+    <item level="365" exp="10500" name="入神坐照·前期三十阶" baseAttrs="81079,11284,1881,5"/>
+    <item level="366" exp="10550" name="入神坐照·前期三十一阶" baseAttrs="82593,11514,1919,5"/>
+    <item level="367" exp="10600" name="入神坐照·前期三十二阶" baseAttrs="84355,12781,2131,10"/>
+    <item level="368" exp="10650" name="入神坐照·前期三十三阶" baseAttrs="85750,12992,2165,5"/>
+    <item level="369" exp="10700" name="入神坐照·前期三十四阶" baseAttrs="87465,13252,2209,5"/>
+    <item level="370" exp="10750" name="入神坐照·前期三十五阶" baseAttrs="89214,13517,2253,5"/>
+    <item level="371" exp="10800" name="入神坐照·前期三十六阶" baseAttrs="90999,13788,2298,10"/>
+    <item level="372" exp="10850" name="入神坐照·前期三十七阶" baseAttrs="92819,14063,2344,5"/>
+    <item level="373" exp="10900" name="入神坐照·前期三十八阶" baseAttrs="94675,14345,2391,5"/>
+    <item level="374" exp="10950" name="入神坐照·前期三十九阶" baseAttrs="96568,14632,2439,5"/>
+    <item level="375" exp="11000" name="入神坐照·前期四十阶" baseAttrs="98410,13794,2298,10"/>
+    <item level="376" exp="11050" name="入神坐照·中期一阶" baseAttrs="100400,15055,2509,5"/>
+    <item level="377" exp="11100" name="入神坐照·中期二阶" baseAttrs="102200,15485,2581,5"/>
+    <item level="378" exp="11150" name="入神坐照·中期三阶" baseAttrs="104244,15795,2632,5"/>
+    <item level="379" exp="11200" name="入神坐照·中期四阶" baseAttrs="106329,16110,2685,5"/>
+    <item level="380" exp="11250" name="入神坐照·中期五阶" baseAttrs="108455,16433,2739,10"/>
+    <item level="381" exp="11300" name="入神坐照·中期六阶" baseAttrs="110625,16761,2794,5"/>
+    <item level="382" exp="11350" name="入神坐照·中期七阶" baseAttrs="112837,17097,2849,5"/>
+    <item level="383" exp="11400" name="入神坐照·中期八阶" baseAttrs="115094,17438,2906,5"/>
+    <item level="384" exp="11450" name="入神坐照·中期九阶" baseAttrs="117396,17787,2965,5"/>
+    <item level="385" exp="11500" name="入神坐照·中期十阶" baseAttrs="119744,18143,3024,10"/>
+    <item level="386" exp="11550" name="入神坐照·中期十一阶" baseAttrs="122138,18506,3084,5"/>
+    <item level="387" exp="11600" name="入神坐照·中期十二阶" baseAttrs="124581,18375,3063,5"/>
+    <item level="388" exp="11650" name="入神坐照·中期十三阶" baseAttrs="127042,18248,3041,5"/>
+    <item level="389" exp="11700" name="入神坐照·中期十四阶" baseAttrs="130008,18698,3116,5"/>
+    <item level="390" exp="11750" name="入神坐照·中期十五阶" baseAttrs="132207,20032,3345,10"/>
+    <item level="391" exp="11800" name="入神坐照·中期十六阶" baseAttrs="134165,20328,3388,5"/>
+    <item level="392" exp="11850" name="入神坐照·中期十七阶" baseAttrs="137068,20768,3461,5"/>
+    <item level="393" exp="11900" name="入神坐照·中期十八阶" baseAttrs="139810,21183,3531,5"/>
+    <item level="394" exp="11950" name="入神坐照·中期十九阶" baseAttrs="142606,21607,3601,5"/>
+    <item level="395" exp="12000" name="入神坐照·中期二十阶" baseAttrs="145458,22039,3673,10"/>
+    <item level="396" exp="12050" name="入神坐照·中期二十一阶" baseAttrs="148367,22480,3747,5"/>
+    <item level="397" exp="12100" name="入神坐照·中期二十二阶" baseAttrs="151335,22929,3822,5"/>
+    <item level="398" exp="12150" name="入神坐照·中期二十三阶" baseAttrs="154361,23388,3898,5"/>
+    <item level="399" exp="12200" name="入神坐照·中期二十四阶" baseAttrs="157449,23856,3976,5"/>
+    <item level="400" exp="12250" name="入神坐照·中期二十五阶" baseAttrs="160598,24333,4055,10"/>
+    <item level="401" exp="12300" name="入神坐照·中期二十六阶" baseAttrs="163809,24820,4137,5"/>
+    <item level="402" exp="12350" name="入神坐照·中期二十七阶" baseAttrs="167086,25316,4219,5"/>
+    <item level="403" exp="12400" name="入神坐照·中期二十八阶" baseAttrs="170427,25822,4304,5"/>
+    <item level="404" exp="12450" name="入神坐照·中期二十九阶" baseAttrs="173836,26339,4390,5"/>
+    <item level="405" exp="12500" name="入神坐照·中期三十阶" baseAttrs="177313,26866,4478,10"/>
+    <item level="406" exp="12550" name="入神坐照·中期三十一阶" baseAttrs="180859,27403,4567,5"/>
+    <item level="407" exp="12600" name="入神坐照·中期三十二阶" baseAttrs="184476,27700,4617,5"/>
+    <item level="408" exp="12650" name="入神坐照·中期三十三阶" baseAttrs="188166,28000,4667,5"/>
+    <item level="409" exp="12700" name="入神坐照·中期三十四阶" baseAttrs="191929,26659,4443,5"/>
+    <item level="410" exp="12750" name="入神坐照·中期三十五阶" baseAttrs="195767,26666,4444,10"/>
+    <item level="411" exp="12800" name="入神坐照·中期三十六阶" baseAttrs="199683,30255,5042,5"/>
+    <item level="412" exp="12850" name="入神坐照·中期三十七阶" baseAttrs="203676,30860,5143,5"/>
+    <item level="413" exp="12900" name="入神坐照·中期三十八阶" baseAttrs="207750,31477,5246,5"/>
+    <item level="414" exp="12950" name="入神坐照·中期三十九阶" baseAttrs="211906,32106,5349,10"/>
+    <item level="415" exp="13000" name="入神坐照·中期四十阶" baseAttrs="217800,33000,5500,5"/>
+    <item level="416" exp="13050" name="入神坐照·后期一阶" baseAttrs="217800,32300,5390,5"/>
+    <item level="417" exp="13100" name="入神坐照·后期二阶" baseAttrs="223943,33931,5655,5"/>
+    <item level="418" exp="13150" name="入神坐照·后期三阶" baseAttrs="228422,34609,5768,5"/>
+    <item level="419" exp="13200" name="入神坐照·后期四阶" baseAttrs="232990,35302,5884,5"/>
+    <item level="420" exp="13250" name="入神坐照·后期五阶" baseAttrs="237650,36008,6001,5"/>
+    <item level="421" exp="13300" name="入神坐照·后期六阶" baseAttrs="242403,36728,6121,5"/>
+    <item level="422" exp="13350" name="入神坐照·后期七阶" baseAttrs="247251,37462,6244,5"/>
+    <item level="423" exp="13400" name="入神坐照·后期八阶" baseAttrs="252196,38212,6369,10"/>
+    <item level="424" exp="13450" name="入神坐照·后期九阶" baseAttrs="257240,38976,6496,5"/>
+    <item level="425" exp="13500" name="入神坐照·后期十阶" baseAttrs="262385,39755,6626,5"/>
+    <item level="426" exp="13550" name="入神坐照·后期十一阶" baseAttrs="267633,40550,6758,5"/>
+    <item level="427" exp="13600" name="入神坐照·后期十二阶" baseAttrs="272985,41361,6894,5"/>
+    <item level="428" exp="13650" name="入神坐照·后期十三阶" baseAttrs="278445,42189,7031,10"/>
+    <item level="429" exp="13700" name="入神坐照·后期十四阶" baseAttrs="284014,42018,7003,5"/>
+    <item level="430" exp="13750" name="入神坐照·后期十五阶" baseAttrs="289694,41111,6852,5"/>
+    <item level="431" exp="13800" name="入神坐照·后期十六阶" baseAttrs="295452,42222,7037,5"/>
+    <item level="432" exp="13850" name="入神坐照·后期十七阶" baseAttrs="301397,45666,7613,14"/>
+    <item level="433" exp="13900" name="入神坐照·后期十八阶" baseAttrs="307425,46580,7763,5"/>
+    <item level="434" exp="13950" name="入神坐照·后期十九阶" baseAttrs="313573,47511,7919,5"/>
+    <item level="435" exp="14000" name="入神坐照·后期二十阶" baseAttrs="319845,48461,8077,5"/>
+    <item level="436" exp="14050" name="入神坐照·后期二十一阶" baseAttrs="326242,49431,8238,6"/>
+    <item level="437" exp="14100" name="入神坐照·后期二十二阶" baseAttrs="332767,50419,8403,5"/>
+    <item level="438" exp="14150" name="入神坐照·后期二十三阶" baseAttrs="339422,51428,8571,5"/>
+    <item level="439" exp="14200" name="入神坐照·后期二十四阶" baseAttrs="346210,52456,8743,5"/>
+    <item level="440" exp="14250" name="入神坐照·后期二十五阶" baseAttrs="353135,53505,8918,5"/>
+    <item level="441" exp="14300" name="入神坐照·后期二十六阶" baseAttrs="360197,54575,9096,10"/>
+    <item level="442" exp="14350" name="入神坐照·后期二十七阶" baseAttrs="367401,55667,9278,5"/>
+    <item level="443" exp="14400" name="入神坐照·后期二十八阶" baseAttrs="374749,56780,9463,5"/>
+    <item level="444" exp="14450" name="入神坐照·后期二十九阶" baseAttrs="382244,57916,9653,5"/>
+    <item level="445" exp="14500" name="入神坐照·后期三十阶" baseAttrs="389889,59074,9846,5"/>
+    <item level="446" exp="14550" name="入神坐照·后期三十一阶" baseAttrs="397687,60256,10043,10"/>
+    <item level="447" exp="14600" name="入神坐照·后期三十二阶" baseAttrs="405641,61461,10243,5"/>
+    <item level="448" exp="14650" name="入神坐照·后期三十三阶" baseAttrs="413753,62690,10448,5"/>
+    <item level="449" exp="14700" name="入神坐照·后期三十四阶" baseAttrs="422029,63944,10657,5"/>
+    <item level="450" exp="14750" name="入神坐照·后期三十五阶" baseAttrs="430469,65223,10870,5"/>
+    <item level="451" exp="14800" name="入神坐照·后期三十六阶" baseAttrs="439079,66527,11088,10"/>
+    <item level="452" exp="14850" name="入神坐照·后期三十七阶" baseAttrs="447860,67858,11310,5"/>
+    <item level="453" exp="14900" name="入神坐照·后期三十八阶" baseAttrs="456817,69215,11536,5"/>
+    <item level="454" exp="14950" name="入神坐照·后期三十九阶" baseAttrs="465954,70599,11767,5"/>
+    <item level="455" exp="15000" name="入神坐照·后期四十阶" baseAttrs="475273,72011,12002,5"/>
+    <item level="456" exp="15170" name="羽化·前期一阶" baseAttrs="5731139,846213,141038,10"/>
+    <item level="457" exp="15240" name="羽化·前期二阶" baseAttrs="267200,40485,6747,5"/>
+    <item level="458" exp="15310" name="羽化·前期三阶" baseAttrs="271208,41092,6849,5"/>
+    <item level="459" exp="15380" name="羽化·前期四阶" baseAttrs="275276,41709,6951,5"/>
+    <item level="460" exp="15450" name="羽化·前期五阶" baseAttrs="279405,42334,7056,5"/>
+    <item level="461" exp="15520" name="羽化·前期六阶" baseAttrs="283596,42969,7162,5"/>
+    <item level="462" exp="15590" name="羽化·前期七阶" baseAttrs="287850,43614,7269,5"/>
+    <item level="463" exp="15660" name="羽化·前期八阶" baseAttrs="292168,44268,7378,5"/>
+    <item level="464" exp="15730" name="羽化·前期九阶" baseAttrs="296551,44932,7489,5"/>
+    <item level="465" exp="15800" name="羽化·前期十阶" baseAttrs="300999,45606,7601,10"/>
+    <item level="466" exp="15870" name="羽化·前期十一阶" baseAttrs="305514,46290,7715,5"/>
+    <item level="467" exp="15940" name="羽化·前期十二阶" baseAttrs="310097,46984,7831,5"/>
+    <item level="468" exp="16010" name="羽化·前期十三阶" baseAttrs="314748,47689,7948,5"/>
+    <item level="469" exp="16080" name="羽化·前期十四阶" baseAttrs="319469,48404,8067,5"/>
+    <item level="470" exp="16150" name="羽化·前期十五阶" baseAttrs="324261,49130,8188,10"/>
+    <item level="471" exp="16220" name="羽化·前期十六阶" baseAttrs="329125,49867,8311,5"/>
+    <item level="472" exp="16290" name="羽化·前期十七阶" baseAttrs="334062,50615,8436,5"/>
+    <item level="473" exp="16360" name="羽化·前期十八阶" baseAttrs="339073,51375,8562,5"/>
+    <item level="474" exp="16430" name="羽化·前期十九阶" baseAttrs="344159,52145,8691,5"/>
+    <item level="475" exp="16500" name="羽化·前期二十阶" baseAttrs="349321,52927,8821,10"/>
+    <item level="476" exp="16570" name="羽化·前期二十一阶" baseAttrs="354561,53721,8954,5"/>
+    <item level="477" exp="16640" name="羽化·前期二十二阶" baseAttrs="359880,54527,9088,5"/>
+    <item level="478" exp="16710" name="羽化·前期二十三阶" baseAttrs="365278,55345,9224,5"/>
+    <item level="479" exp="16780" name="羽化·前期二十四阶" baseAttrs="370757,56175,9363,5"/>
+    <item level="480" exp="16850" name="羽化·前期二十五阶" baseAttrs="376318,57018,9503,10"/>
+    <item level="481" exp="16920" name="羽化·前期二十六阶" baseAttrs="381963,57873,9646,5"/>
+    <item level="482" exp="16990" name="羽化·前期二十七阶" baseAttrs="387693,58741,9790,5"/>
+    <item level="483" exp="17060" name="羽化·前期二十八阶" baseAttrs="393508,59622,9937,5"/>
+    <item level="484" exp="17130" name="羽化·前期二十九阶" baseAttrs="399411,60517,10086,5"/>
+    <item level="485" exp="17200" name="羽化·前期三十阶" baseAttrs="405402,61425,10237,10"/>
+    <item level="486" exp="17270" name="羽化·前期三十一阶" baseAttrs="411483,62346,10391,5"/>
+    <item level="487" exp="17340" name="羽化·前期三十二阶" baseAttrs="417655,63281,10547,5"/>
+    <item level="488" exp="17410" name="羽化·前期三十三阶" baseAttrs="423920,64230,10705,5"/>
+    <item level="489" exp="17480" name="羽化·前期三十四阶" baseAttrs="430279,65194,10866,5"/>
+    <item level="490" exp="17550" name="羽化·前期三十五阶" baseAttrs="436733,66172,11029,10"/>
+    <item level="491" exp="17620" name="羽化·前期三十六阶" baseAttrs="443284,67164,11194,5"/>
+    <item level="492" exp="17690" name="羽化·前期三十七阶" baseAttrs="449933,68172,11362,5"/>
+    <item level="493" exp="17760" name="羽化·前期三十八阶" baseAttrs="456682,66989,11165,5"/>
+    <item level="494" exp="17830" name="羽化·前期三十九阶" baseAttrs="463532,65200,10867,5"/>
+    <item level="495" exp="17900" name="羽化·前期四十阶" baseAttrs="470485,67000,11167,10"/>
+    <item level="496" exp="17970" name="羽化·前期四十一阶" baseAttrs="477543,68700,11450,5"/>
+    <item level="497" exp="18040" name="羽化·前期四十二阶" baseAttrs="484706,69000,11500,5"/>
+    <item level="498" exp="18110" name="羽化·前期四十三阶" baseAttrs="491976,70000,11650,5"/>
+    <item level="499" exp="18180" name="羽化·前期四十四阶" baseAttrs="497336,75353,12558,10"/>
+    <item level="500" exp="18250" name="羽化·前期四十五阶" baseAttrs="497336,75353,12558,5"/>
+    <item level="501" exp="18320" name="羽化·前期四十六阶" baseAttrs="497336,75353,12558,5"/>
+    <item level="502" exp="18390" name="羽化·前期四十七阶" baseAttrs="394428,57694,9584,15"/>
+    <item level="503" exp="18460" name="羽化·中期一阶" baseAttrs="472200,70800,11800,5"/>
+    <item level="504" exp="18530" name="羽化·中期二阶" baseAttrs="472200,70800,11800,5"/>
+    <item level="505" exp="18600" name="羽化·中期三阶" baseAttrs="486500,73000,12200,5"/>
+    <item level="506" exp="18670" name="羽化·中期四阶" baseAttrs="496230,75186,12531,5"/>
+    <item level="507" exp="18740" name="羽化·中期五阶" baseAttrs="506155,76690,12782,5"/>
+    <item level="508" exp="18810" name="羽化·中期六阶" baseAttrs="516278,78224,13037,5"/>
+    <item level="509" exp="18880" name="羽化·中期七阶" baseAttrs="526603,79788,13298,5"/>
+    <item level="510" exp="18950" name="羽化·中期八阶" baseAttrs="537135,81384,13564,5"/>
+    <item level="511" exp="19020" name="羽化·中期九阶" baseAttrs="547878,83012,13835,5"/>
+    <item level="512" exp="19090" name="羽化·中期十阶" baseAttrs="558836,84672,14112,5"/>
+    <item level="513" exp="19160" name="羽化·中期十一阶" baseAttrs="570012,86365,14394,5"/>
+    <item level="514" exp="19230" name="羽化·中期十二阶" baseAttrs="581413,88093,14682,5"/>
+    <item level="515" exp="19300" name="羽化·中期十三阶" baseAttrs="593041,89855,14976,10"/>
+    <item level="516" exp="19370" name="羽化·中期十四阶" baseAttrs="604902,91652,15275,5"/>
+    <item level="517" exp="19440" name="羽化·中期十五阶" baseAttrs="617000,93485,15581,5"/>
+    <item level="518" exp="19510" name="羽化·中期十六阶" baseAttrs="629340,95354,15892,5"/>
+    <item level="519" exp="19580" name="羽化·中期十七阶" baseAttrs="641926,97262,16210,5"/>
+    <item level="520" exp="19650" name="羽化·中期十八阶" baseAttrs="654765,99207,16534,10"/>
+    <item level="521" exp="19720" name="羽化·中期十九阶" baseAttrs="667860,101191,16865,5"/>
+    <item level="522" exp="19790" name="羽化·中期二十阶" baseAttrs="681217,103215,17202,5"/>
+    <item level="523" exp="19860" name="羽化·中期二十一阶" baseAttrs="694842,105279,17547,5"/>
+    <item level="524" exp="19930" name="羽化·中期二十二阶" baseAttrs="708739,107385,17897,5"/>
+    <item level="525" exp="20000" name="羽化·中期二十三阶" baseAttrs="722913,109532,18255,5"/>
+    <item level="526" exp="20070" name="羽化·中期二十四阶" baseAttrs="737372,111723,18620,10"/>
+    <item level="527" exp="20140" name="羽化·中期二十五阶" baseAttrs="752119,113957,18993,5"/>
+    <item level="528" exp="20210" name="羽化·中期二十六阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="529" exp="20280" name="羽化·中期二十七阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="530" exp="20350" name="羽化·中期二十八阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="531" exp="20420" name="羽化·中期二十九阶" baseAttrs="795906,120592,20099,10"/>
+    <item level="532" exp="20490" name="羽化·中期三十阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="533" exp="20560" name="羽化·中期三十一阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="534" exp="20630" name="羽化·中期三十二阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="535" exp="20700" name="羽化·中期三十三阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="536" exp="20770" name="羽化·中期三十四阶" baseAttrs="795906,120592,20099,10"/>
+    <item level="537" exp="20840" name="羽化·中期三十五阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="538" exp="20910" name="羽化·中期三十六阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="539" exp="20980" name="羽化·中期三十七阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="540" exp="21050" name="羽化·中期三十八阶" baseAttrs="795906,120592,20099,10"/>
+    <item level="541" exp="21120" name="羽化·中期三十九阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="542" exp="21190" name="羽化·中期四十阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="543" exp="21260" name="羽化·中期四十一阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="544" exp="21330" name="羽化·中期四十二阶" baseAttrs="795906,120592,20099,10"/>
+    <item level="545" exp="21400" name="羽化·中期四十三阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="546" exp="21470" name="羽化·中期四十四阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="547" exp="21540" name="羽化·中期四十五阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="548" exp="21610" name="羽化·中期四十六阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="549" exp="21680" name="羽化·中期四十七阶" baseAttrs="795906,120592,20099,10"/>
+    <item level="550" exp="21750" name="羽化·后期一阶" baseAttrs="-3610108,-588535,-98160,10"/>
+    <item level="551" exp="21820" name="羽化·后期二阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="552" exp="21890" name="羽化·后期三阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="553" exp="21960" name="羽化·后期四阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="554" exp="22030" name="羽化·后期五阶" baseAttrs="795906,120592,20099,10"/>
+    <item level="555" exp="22100" name="羽化·后期六阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="556" exp="22170" name="羽化·后期七阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="557" exp="22240" name="羽化·后期八阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="558" exp="22310" name="羽化·后期九阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="559" exp="22380" name="羽化·后期十阶" baseAttrs="795906,120592,20099,10"/>
+    <item level="560" exp="22450" name="羽化·后期十一阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="561" exp="22520" name="羽化·后期十二阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="562" exp="22590" name="羽化·后期十三阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="563" exp="22660" name="羽化·后期十四阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="564" exp="22730" name="羽化·后期十五阶" baseAttrs="795906,120592,20099,10"/>
+    <item level="565" exp="22800" name="羽化·后期十六阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="566" exp="22870" name="羽化·后期十七阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="567" exp="22940" name="羽化·后期十八阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="568" exp="23010" name="羽化·后期十九阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="569" exp="23080" name="羽化·后期二十阶" baseAttrs="795906,120592,20099,10"/>
+    <item level="570" exp="23150" name="羽化·后期二十一阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="571" exp="23220" name="羽化·后期二十二阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="572" exp="23290" name="羽化·后期二十三阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="573" exp="23360" name="羽化·后期二十四阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="574" exp="23430" name="羽化·后期二十五阶" baseAttrs="795906,120592,20099,10"/>
+    <item level="575" exp="23500" name="羽化·后期二十六阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="576" exp="23570" name="羽化·后期二十七阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="577" exp="23640" name="羽化·后期二十八阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="578" exp="23710" name="羽化·后期二十九阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="579" exp="23780" name="羽化·后期三十阶" baseAttrs="795906,120592,20099,10"/>
+    <item level="580" exp="23850" name="羽化·后期三十一阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="581" exp="23920" name="羽化·后期三十二阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="582" exp="23990" name="羽化·后期三十三阶" baseAttrs="795906,120592,20099,5"/>
+    <item level="583" exp="24060" name="羽化·后期三十四阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="584" exp="24130" name="羽化·后期三十五阶" baseAttrs="942480,142800,23800,10"/>
+    <item level="585" exp="24200" name="羽化·后期三十六阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="586" exp="24270" name="羽化·后期三十七阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="587" exp="24340" name="羽化·后期三十八阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="588" exp="24410" name="羽化·后期三十九阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="589" exp="24480" name="羽化·后期四十阶" baseAttrs="942480,142800,23800,10"/>
+    <item level="590" exp="24550" name="羽化·后期四十一阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="591" exp="24620" name="羽化·后期四十二阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="592" exp="24690" name="羽化·后期四十三阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="593" exp="24760" name="羽化·后期四十四阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="594" exp="24830" name="羽化·后期四十五阶" baseAttrs="942480,142800,23800,10"/>
+    <item level="595" exp="24900" name="羽化·后期四十六阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="596" exp="26310" name="返璞归真·前期一阶" baseAttrs="25795528,3908413,651402,5"/>
+    <item level="597" exp="26420" name="返璞归真·前期二阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="598" exp="26530" name="返璞归真·前期三阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="599" exp="26640" name="返璞归真·前期四阶" baseAttrs="942480,142800,23800,10"/>
+    <item level="600" exp="26750" name="返璞归真·前期五阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="601" exp="26860" name="返璞归真·前期六阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="602" exp="26970" name="返璞归真·前期七阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="603" exp="27080" name="返璞归真·前期八阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="604" exp="27190" name="返璞归真·前期九阶" baseAttrs="942480,142800,23800,10"/>
+    <item level="605" exp="27300" name="返璞归真·前期十阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="606" exp="27410" name="返璞归真·前期十一阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="607" exp="27520" name="返璞归真·前期十二阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="608" exp="27630" name="返璞归真·前期十三阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="609" exp="27740" name="返璞归真·前期十四阶" baseAttrs="942480,142800,23800,10"/>
+    <item level="610" exp="27850" name="返璞归真·前期十五阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="611" exp="27960" name="返璞归真·前期十六阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="612" exp="28070" name="返璞归真·前期十七阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="613" exp="28180" name="返璞归真·前期十八阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="614" exp="28290" name="返璞归真·前期十九阶" baseAttrs="942480,142800,23800,10"/>
+    <item level="615" exp="28400" name="返璞归真·前期二十阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="616" exp="28510" name="返璞归真·前期二十一阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="617" exp="28620" name="返璞归真·前期二十二阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="618" exp="28730" name="返璞归真·前期二十三阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="619" exp="28840" name="返璞归真·前期二十四阶" baseAttrs="942480,142800,23800,10"/>
+    <item level="620" exp="28950" name="返璞归真·前期二十五阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="621" exp="29060" name="返璞归真·前期二十六阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="622" exp="29170" name="返璞归真·前期二十七阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="623" exp="29280" name="返璞归真·前期二十八阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="624" exp="29390" name="返璞归真·前期二十九阶" baseAttrs="942480,142800,23800,10"/>
+    <item level="625" exp="29500" name="返璞归真·前期三十阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="626" exp="29610" name="返璞归真·前期三十一阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="627" exp="29720" name="返璞归真·前期三十二阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="628" exp="29830" name="返璞归真·前期三十三阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="629" exp="29940" name="返璞归真·前期三十四阶" baseAttrs="942480,142800,23800,10"/>
+    <item level="630" exp="30050" name="返璞归真·前期三十五阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="631" exp="30160" name="返璞归真·前期三十六阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="632" exp="30270" name="返璞归真·前期三十七阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="633" exp="30380" name="返璞归真·前期三十八阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="634" exp="30490" name="返璞归真·前期三十九阶" baseAttrs="942480,142800,23800,10"/>
+    <item level="635" exp="30600" name="返璞归真·前期四十阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="636" exp="30710" name="返璞归真·前期四十一阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="637" exp="30820" name="返璞归真·前期四十二阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="638" exp="30930" name="返璞归真·前期四十三阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="639" exp="31040" name="返璞归真·前期四十四阶" baseAttrs="942480,142800,23800,10"/>
+    <item level="640" exp="31150" name="返璞归真·前期四十五阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="641" exp="31260" name="返璞归真·前期四十六阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="642" exp="31370" name="返璞归真·前期四十七阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="643" exp="31480" name="返璞归真·前期四十八阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="644" exp="31590" name="返璞归真·前期四十九阶" baseAttrs="942480,142800,23800,5"/>
+    <item level="645" exp="31700" name="返璞归真·前期五十阶" baseAttrs="1063020,161064,26844,5"/>
+    <item level="646" exp="31810" name="返璞归真·前期五十一阶" baseAttrs="980000,148485,24747,5"/>
+    <item level="647" exp="31920" name="返璞归真·前期五十二阶" baseAttrs="960000,145455,24242,5"/>
+    <item level="648" exp="32030" name="返璞归真·前期五十三阶" baseAttrs="960000,145455,24242,5"/>
+    <item level="649" exp="32140" name="返璞归真·前期五十四阶" baseAttrs="942480,116484,19455,10"/>
+    <item level="650" exp="32250" name="返璞归真·中期一阶" baseAttrs="1000000,142800,23800,10"/>
+    <item level="651" exp="32360" name="返璞归真·中期二阶" baseAttrs="960000,145455,24242,5"/>
+    <item level="652" exp="32470" name="返璞归真·中期三阶" baseAttrs="965184,146240,24373,5"/>
+    <item level="653" exp="32580" name="返璞归真·中期四阶" baseAttrs="970396,147030,24505,5"/>
+    <item level="654" exp="32690" name="返璞归真·中期五阶" baseAttrs="975636,147824,24637,10"/>
+    <item level="655" exp="32800" name="返璞归真·中期六阶" baseAttrs="980905,148622,24770,5"/>
+    <item level="656" exp="32910" name="返璞归真·中期七阶" baseAttrs="986201,149424,24904,5"/>
+    <item level="657" exp="33020" name="返璞归真·中期八阶" baseAttrs="991527,150231,25039,5"/>
+    <item level="658" exp="33130" name="返璞归真·中期九阶" baseAttrs="996881,151043,25174,5"/>
+    <item level="659" exp="33240" name="返璞归真·中期十阶" baseAttrs="1002264,151858,25310,10"/>
+    <item level="660" exp="33350" name="返璞归真·中期十一阶" baseAttrs="1007677,152678,25446,5"/>
+    <item level="661" exp="33460" name="返璞归真·中期十二阶" baseAttrs="1013118,153503,25584,5"/>
+    <item level="662" exp="33570" name="返璞归真·中期十三阶" baseAttrs="1018589,154332,25722,5"/>
+    <item level="663" exp="33680" name="返璞归真·中期十四阶" baseAttrs="1024089,155165,25861,5"/>
+    <item level="664" exp="33790" name="返璞归真·中期十五阶" baseAttrs="1029619,156003,26000,10"/>
+    <item level="665" exp="33900" name="返璞归真·中期十六阶" baseAttrs="1035179,156845,26141,5"/>
+    <item level="666" exp="34010" name="返璞归真·中期十七阶" baseAttrs="1040769,157692,26282,5"/>
+    <item level="667" exp="34120" name="返璞归真·中期十八阶" baseAttrs="1046389,158544,26424,5"/>
+    <item level="668" exp="34230" name="返璞归真·中期十九阶" baseAttrs="1052040,159400,26567,5"/>
+    <item level="669" exp="34340" name="返璞归真·中期二十阶" baseAttrs="1057721,160261,26710,10"/>
+    <item level="670" exp="34450" name="返璞归真·中期二十一阶" baseAttrs="1063433,161126,26854,5"/>
+    <item level="671" exp="34560" name="返璞归真·中期二十二阶" baseAttrs="1069175,161996,26999,5"/>
+    <item level="672" exp="34670" name="返璞归真·中期二十三阶" baseAttrs="1074949,162871,27145,5"/>
+    <item level="673" exp="34780" name="返璞归真·中期二十四阶" baseAttrs="1080753,163751,27292,5"/>
+    <item level="674" exp="34890" name="返璞归真·中期二十五阶" baseAttrs="1086589,164635,27439,5"/>
+    <item level="675" exp="35000" name="返璞归真·中期二十六阶" baseAttrs="1092457,165524,27587,10"/>
+    <item level="676" exp="35110" name="返璞归真·中期二十七阶" baseAttrs="1098356,166418,27736,5"/>
+    <item level="677" exp="35220" name="返璞归真·中期二十八阶" baseAttrs="1104287,167316,27886,5"/>
+    <item level="678" exp="35330" name="返璞归真·中期二十九阶" baseAttrs="1110251,168220,28037,5"/>
+    <item level="679" exp="35440" name="返璞归真·中期三十阶" baseAttrs="1116246,169128,28188,10"/>
+    <item level="680" exp="35550" name="返璞归真·中期三十一阶" baseAttrs="1122274,170041,28340,5"/>
+    <item level="681" exp="35660" name="返璞归真·中期三十二阶" baseAttrs="1128334,170960,28493,5"/>
+    <item level="682" exp="35770" name="返璞归真·中期三十三阶" baseAttrs="1134427,171883,28647,5"/>
+    <item level="683" exp="35880" name="返璞归真·中期三十四阶" baseAttrs="1140553,172811,28802,5"/>
+    <item level="684" exp="35990" name="返璞归真·中期三十五阶" baseAttrs="1146712,173744,28957,10"/>
+    <item level="685" exp="36100" name="返璞归真·中期三十六阶" baseAttrs="1152904,174682,29114,5"/>
+    <item level="686" exp="36210" name="返璞归真·中期三十七阶" baseAttrs="1159130,175626,29271,5"/>
+    <item level="687" exp="36320" name="返璞归真·中期三十八阶" baseAttrs="1165389,176574,29429,5"/>
+    <item level="688" exp="36430" name="返璞归真·中期三十九阶" baseAttrs="1171682,177528,29588,5"/>
+    <item level="689" exp="36540" name="返璞归真·中期四十阶" baseAttrs="1178009,178486,29748,10"/>
+    <item level="690" exp="36650" name="返璞归真·中期四十一阶" baseAttrs="1184371,179450,29908,5"/>
+    <item level="691" exp="36760" name="返璞归真·中期四十二阶" baseAttrs="1190766,180419,30070,5"/>
+    <item level="692" exp="36870" name="返璞归真·中期四十三阶" baseAttrs="1197196,181393,30232,5"/>
+    <item level="693" exp="36980" name="返璞归真·中期四十四阶" baseAttrs="1203661,180000,30000,5"/>
+    <item level="694" exp="37090" name="返璞归真·中期四十五阶" baseAttrs="1210161,170780,28463,10"/>
+    <item level="695" exp="37200" name="返璞归真·中期四十六阶" baseAttrs="1216696,160000,26667,5"/>
+    <item level="696" exp="37310" name="返璞归真·中期四十七阶" baseAttrs="1223266,160000,26667,5"/>
+    <item level="697" exp="37420" name="返璞归真·中期四十八阶" baseAttrs="1229872,150000,25000,5"/>
+    <item level="698" exp="37530" name="返璞归真·中期四十九阶" baseAttrs="1236513,150000,25000,5"/>
+    <item level="699" exp="37640" name="返璞归真·中期五十阶" baseAttrs="1243190,160000,26667,10"/>
+    <item level="700" exp="37750" name="返璞归真·中期五十一阶" baseAttrs="1249903,170000,28333,5"/>
+    <item level="701" exp="37860" name="返璞归真·中期五十二阶" baseAttrs="1256653,170000,28333,5"/>
+    <item level="702" exp="37970" name="返璞归真·中期五十三阶" baseAttrs="1263439,180000,30000,5"/>
+    <item level="703" exp="38080" name="返璞归真·中期五十四阶" baseAttrs="1267099,191984,31967,5"/>
+    <item level="704" exp="38190" name="返璞归真·后期一阶" baseAttrs="1277120,193504,32250,10"/>
+    <item level="705" exp="38300" name="返璞归真·后期二阶" baseAttrs="1281973,194238,32373,5"/>
+    <item level="706" exp="38410" name="返璞归真·后期三阶" baseAttrs="1286845,194976,32496,5"/>
+    <item level="707" exp="38520" name="返璞归真·后期四阶" baseAttrs="1291735,195717,32620,5"/>
+    <item level="708" exp="38630" name="返璞归真·后期五阶" baseAttrs="1296643,196461,32744,5"/>
+    <item level="709" exp="38740" name="返璞归真·后期六阶" baseAttrs="1301570,197208,32868,5"/>
+    <item level="710" exp="38850" name="返璞归真·后期七阶" baseAttrs="1306516,197957,32993,10"/>
+    <item level="711" exp="38960" name="返璞归真·后期八阶" baseAttrs="1311481,198709,33118,5"/>
+    <item level="712" exp="39070" name="返璞归真·后期九阶" baseAttrs="1316465,199464,33244,5"/>
+    <item level="713" exp="39180" name="返璞归真·后期十阶" baseAttrs="1321467,200222,33370,5"/>
+    <item level="714" exp="39290" name="返璞归真·后期十一阶" baseAttrs="1326489,200983,33497,5"/>
+    <item level="715" exp="39400" name="返璞归真·后期十二阶" baseAttrs="1331530,201747,33624,10"/>
+    <item level="716" exp="39510" name="返璞归真·后期十三阶" baseAttrs="1336589,202514,33752,5"/>
+    <item level="717" exp="39620" name="返璞归真·后期十四阶" baseAttrs="1341668,203283,33881,5"/>
+    <item level="718" exp="39730" name="返璞归真·后期十五阶" baseAttrs="1346767,204056,34009,5"/>
+    <item level="719" exp="39840" name="返璞归真·后期十六阶" baseAttrs="1351884,204831,34138,5"/>
+    <item level="720" exp="39950" name="返璞归真·后期十七阶" baseAttrs="1357022,205609,34268,10"/>
+    <item level="721" exp="40060" name="返璞归真·后期十八阶" baseAttrs="1362178,206391,34398,5"/>
+    <item level="722" exp="40170" name="返璞归真·后期十九阶" baseAttrs="1367355,207175,34529,5"/>
+    <item level="723" exp="40280" name="返璞归真·后期二十阶" baseAttrs="1372551,207962,34660,5"/>
+    <item level="724" exp="40390" name="返璞归真·后期二十一阶" baseAttrs="1377766,208752,34792,5"/>
+    <item level="725" exp="40500" name="返璞归真·后期二十二阶" baseAttrs="1383002,209546,34924,10"/>
+    <item level="726" exp="40610" name="返璞归真·后期二十三阶" baseAttrs="1388257,210342,35057,5"/>
+    <item level="727" exp="40720" name="返璞归真·后期二十四阶" baseAttrs="1393533,211141,35190,5"/>
+    <item level="728" exp="40830" name="返璞归真·后期二十五阶" baseAttrs="1398828,211944,35324,5"/>
+    <item level="729" exp="40940" name="返璞归真·后期二十六阶" baseAttrs="1404143,212749,35458,5"/>
+    <item level="730" exp="41050" name="返璞归真·后期二十七阶" baseAttrs="1409479,213557,35593,10"/>
+    <item level="731" exp="41160" name="返璞归真·后期二十八阶" baseAttrs="1414835,214369,35728,5"/>
+    <item level="732" exp="41270" name="返璞归真·后期二十九阶" baseAttrs="1420212,215184,35864,5"/>
+    <item level="733" exp="41380" name="返璞归真·后期三十阶" baseAttrs="1425608,216001,36000,5"/>
+    <item level="734" exp="41490" name="返璞归真·后期三十一阶" baseAttrs="1431026,216822,36137,5"/>
+    <item level="735" exp="41600" name="返璞归真·后期三十二阶" baseAttrs="1436464,217646,36274,10"/>
+    <item level="736" exp="41710" name="返璞归真·后期三十三阶" baseAttrs="1441922,218473,36412,5"/>
+    <item level="737" exp="41820" name="返璞归真·后期三十四阶" baseAttrs="1447402,219303,36551,5"/>
+    <item level="738" exp="41930" name="返璞归真·后期三十五阶" baseAttrs="1452902,220137,36689,5"/>
+    <item level="739" exp="42040" name="返璞归真·后期三十六阶" baseAttrs="1458423,220973,36829,5"/>
+    <item level="740" exp="42150" name="返璞归真·后期三十七阶" baseAttrs="1463965,221813,36969,10"/>
+    <item level="741" exp="42260" name="返璞归真·后期三十八阶" baseAttrs="1469528,222656,37109,5"/>
+    <item level="742" exp="42370" name="返璞归真·后期三十九阶" baseAttrs="1475112,223502,37250,5"/>
+    <item level="743" exp="42480" name="返璞归真·后期四十阶" baseAttrs="1480717,224351,37392,5"/>
+    <item level="744" exp="42590" name="返璞归真·后期四十一阶" baseAttrs="1486344,225204,37534,5"/>
+    <item level="745" exp="42700" name="返璞归真·后期四十二阶" baseAttrs="1491992,226059,37677,10"/>
+    <item level="746" exp="42810" name="返璞归真·后期四十三阶" baseAttrs="1497662,226918,37820,5"/>
+    <item level="747" exp="42920" name="返璞归真·后期四十四阶" baseAttrs="1503353,227781,37963,5"/>
+    <item level="748" exp="43030" name="返璞归真·后期四十五阶" baseAttrs="1509066,228646,38108,5"/>
+    <item level="749" exp="43140" name="返璞归真·后期四十六阶" baseAttrs="1514800,229515,38253,5"/>
+    <item level="750" exp="43250" name="返璞归真·后期四十七阶" baseAttrs="1520556,230387,38398,10"/>
+    <item level="751" exp="43360" name="返璞归真·后期四十八阶" baseAttrs="1526334,231263,38544,5"/>
+    <item level="752" exp="43470" name="返璞归真·后期四十九阶" baseAttrs="1532134,232142,38690,5"/>
+    <item level="753" exp="43580" name="返璞归真·后期五十阶" baseAttrs="1537957,233024,38837,5"/>
+    <item level="754" exp="43690" name="返璞归真·后期五十一阶" baseAttrs="1548283,203299,33936,5"/>
+    <item level="755" exp="43800" name="返璞归真·后期五十二阶" baseAttrs="1549667,234798,39133,10"/>
+  </level>
+  <phase>
+    <item id="1" level="1" name="初出茅庐·前期" phaseName="初出茅庐" task="0,0,0" damage=""/>
+    <item id="2" level="5" name="初出茅庐·中期" phaseName="初出茅庐" task="40001,40002,40003" damage="30,30,33"/>
+    <item id="3" level="10" name="初出茅庐·后期" phaseName="初出茅庐" task="40004,40005,40006" damage="30,30,33"/>
+    <item id="4" level="15" name="江湖小虾米·前期" phaseName="江湖小虾米" task="40007,40008,40009" damage="22,23,24,25"/>
+    <item id="5" level="22" name="江湖小虾米·中期" phaseName="江湖小虾米" task="40010,40011,40012" damage="22,23,24,25"/>
+    <item id="6" level="29" name="江湖小虾米·后期" phaseName="江湖小虾米" task="40013,40014,40015" damage="22,23,24,25"/>
+    <item id="7" level="35" name="少年歌行·前期" phaseName="少年歌行" task="40016,40017,40018" damage="17,18,19,21,20"/>
+    <item id="8" level="42" name="少年歌行·中期" phaseName="少年歌行" task="40019,40020,40021" damage="17,18,19,21,20"/>
+    <item id="9" level="49" name="少年歌行·后期" phaseName="少年歌行" task="40022,40023,40024" damage="17,18,19,21,20"/>
+    <item id="10" level="55" name="鲜衣怒马·前期" phaseName="鲜衣怒马" task="40025,40026,40027" damage="15,16,12,18,17,16"/>
+    <item id="11" level="69" name="鲜衣怒马·中期" phaseName="鲜衣怒马" task="40028,40029,40030" damage="15,16,12,18,17,16"/>
+    <item id="12" level="83" name="鲜衣怒马·后期" phaseName="鲜衣怒马" task="40031,40032,40033" damage="15,16,12,18,17,16"/>
+    <item id="13" level="95" name="侠客行·前期" phaseName="侠客行" task="40034,40035,40036" damage="11,12,16,12,14,11,15"/>
+    <item id="14" level="115" name="侠客行·中期" phaseName="侠客行" task="40037,40038,40039" damage="11,12,16,12,14,11,15"/>
+    <item id="15" level="135" name="侠客行·后期" phaseName="侠客行" task="40040,40041,40042" damage="11,12,16,12,14,11,15"/>
+    <item id="16" level="155" name="踏雪无痕·前期" phaseName="踏雪无痕" task="40043,40044,40045" damage="10,11,15,12,14,10,14,11"/>
+    <item id="17" level="182" name="踏雪无痕·中期" phaseName="踏雪无痕" task="40046,40047,40048" damage="10,11,15,12,14,10,14,11"/>
+    <item id="18" level="209" name="踏雪无痕·后期" phaseName="踏雪无痕" task="40049,40050,40051" damage="10,11,15,12,14,10,14,11"/>
+    <item id="19" level="235" name="剑来·前期" phaseName="剑来" task="40052,40053,40054" damage="8,10,9,7,15,10,12,11,12"/>
+    <item id="20" level="269" name="剑来·中期" phaseName="剑来" task="40055,40056,40057" damage="8,10,9,7,15,10,12,11,12"/>
+    <item id="21" level="303" name="剑来·后期" phaseName="剑来" task="40058,40059,40060" damage="8,10,9,7,15,10,12,11,12"/>
+    <item id="22" level="335" name="入神坐照·前期" phaseName="入神坐照" task="40061,40062,40063" damage="8,10,9,7,15,10,12,11,12"/>
+    <item id="23" level="375" name="入神坐照·中期" phaseName="入神坐照" task="40064,40065,40066" damage="8,10,9,7,15,10,12,11,12"/>
+    <item id="24" level="415" name="入神坐照·后期" phaseName="入神坐照" task="40067,40068,40069" damage="8,10,9,7,15,10,12,11,12"/>
+    <item id="25" level="455" name="羽化·前期" phaseName="羽化" task="40070,40071,40072" damage="8,9,7,10,12,11,10,9,12,7"/>
+    <item id="26" level="502" name="羽化·中期" phaseName="羽化" task="40073,40074,40075" damage="8,9,7,10,12,11,10,9,12,7"/>
+    <item id="27" level="549" name="羽化·后期" phaseName="羽化" task="40076,40077,40078" damage="8,9,7,10,12,11,10,9,12,7"/>
+    <item id="28" level="595" name="返璞归真·前期" phaseName="返璞归真" task="40079,40080,40081" damage="8,9,7,10,12,11,10,9,12,7"/>
+    <item id="29" level="649" name="返璞归真·中期" phaseName="返璞归真" task="40082,40083,40084" damage="8,9,7,10,12,11,10,9,12,7"/>
+    <item id="30" level="703" name="返璞归真·后期" phaseName="返璞归真" task="40085,40086,40087" damage="8,9,7,10,12,11,10,9,12,7"/>
+  </phase>
+  <names>
+    <item id="1" firstName="剑侠" midName="凌霄羽"/>
+    <item id="2" firstName="刀客" midName="剑无痕"/>
+    <item id="3" firstName="剑神" midName="墨风痕"/>
+    <item id="4" firstName="武尊" midName="风云客"/>
+    <item id="5" firstName="宗师" midName="霜刃影"/>
+    <item id="6" firstName="剑圣" midName="云锦轩"/>
+    <item id="7" firstName="剑魔" midName="影流烟"/>
+    <item id="8" firstName="刀圣" midName="寒星澈"/>
+    <item id="9" firstName="刀魔" midName="雪飘零"/>
+    <item id="10" firstName="武痴" midName="洛水痕"/>
+    <item id="11" firstName="游侠" midName="洛水寒"/>
+    <item id="12" firstName="独行" midName="刀光寒"/>
+    <item id="13" firstName="浪人" midName="烟雨遥"/>
+    <item id="14" firstName="豪侠" midName="剑归心"/>
+    <item id="15" firstName="剑仙" midName="逐风辰"/>
+    <item id="16" firstName="刀仙" midName="慕容轩"/>
+    <item id="17" firstName="盟主" midName="晨曦逸"/>
+    <item id="18" firstName="护法" midName="楚留香"/>
+    <item id="19" firstName="散人" midName="玄霄隐"/>
+    <item id="20" firstName="行者" midName="萧剑寒"/>
+    <item id="21" firstName="隐士" midName="竹影飞"/>
+    <item id="22" firstName="剑影" midName="柳如烟"/>
+    <item id="23" firstName="刀魂" midName="逸尘风"/>
+    <item id="24" firstName="剑锋" midName="叶孤城"/>
+    <item id="25" firstName="剑舞" midName="霜月影"/>
+    <item id="26" firstName="刀舞" midName="霜月痕"/>
+    <item id="27" firstName="剑意" midName="寒月影"/>
+    <item id="28" firstName="刀意" midName="炎阳侠"/>
+    <item id="29" firstName="武道" midName="炎阳剑"/>
+    <item id="30" firstName="剑心" midName="剑凌天"/>
+    <item id="31" firstName="刀心" midName="墨云殇"/>
+    <item id="32" firstName="剑魄" midName="寒星落"/>
+    <item id="33" firstName="剑歌" midName="南宫傲"/>
+    <item id="34" firstName="刀歌" midName="雷霆破"/>
+    <item id="35" firstName="剑痕" midName="雷霆怒"/>
+    <item id="36" firstName="武魂" midName="瑾瑜寒"/>
+    <item id="37" firstName="剑鸣" midName="剑影寒"/>
+    <item id="38" firstName="刀鸣" midName="逐梦尘"/>
+    <item id="39" firstName="剑风" midName="霜雪剑"/>
+    <item id="40" firstName="刀风" midName="辰逸云"/>
+    <item id="41" firstName="剑光" midName="辰逸风"/>
+    <item id="42" firstName="刀光" midName="寒光破"/>
+    <item id="43" firstName="武灵" midName="墨香寒"/>
+    <item id="44" firstName="剑霸" midName="剑光寒"/>
+    <item id="45" firstName="刀霸" midName="傲雪鹰"/>
+    <item id="46" firstName="大侠" midName="傲雪寒"/>
+    <item id="47" firstName="刀影" midName="剑惊风"/>
+    <item id="48" firstName="剑隐" midName="沧浪侠"/>
+    <item id="49" firstName="刀隐" midName="沧浪剑"/>
+    <item id="50" firstName="侠客" midName="幽兰影"/>
+    <item id="51" firstName="剑侠" midName="剑破云"/>
+    <item id="52" firstName="刀客" midName="剑追风"/>
+    <item id="53" firstName="剑神" midName="霁月痕"/>
+    <item id="54" firstName="武尊" midName="霁月寒"/>
+    <item id="55" firstName="宗师" midName="曦月侠"/>
+    <item id="56" firstName="剑圣" midName="曦月剑"/>
+    <item id="57" firstName="剑魔" midName="剑舞蝶"/>
+    <item id="58" firstName="刀圣" midName="墨璃殇"/>
+    <item id="59" firstName="刀魔" midName="剑归鞘"/>
+    <item id="60" firstName="武痴" midName="凌霄侠"/>
+    <item id="61" firstName="游侠" midName="凌霄剑"/>
+    <item id="62" firstName="独行" midName="剑如霜"/>
+    <item id="63" firstName="浪人" midName="剑凌霄"/>
+    <item id="64" firstName="豪侠" midName="寒霜影"/>
+    <item id="65" firstName="剑仙" midName="寒霜破"/>
+    <item id="66" firstName="刀仙" midName="绝影侠"/>
+    <item id="67" firstName="盟主" midName="绝影剑"/>
+    <item id="68" firstName="护法" midName="剑舞雪"/>
+    <item id="69" firstName="散人" midName="逸风剑"/>
+    <item id="70" firstName="行者" midName="剑醉人"/>
+    <item id="71" firstName="隐士" midName="流水寒"/>
+    <item id="72" firstName="剑影" midName="剑映雪"/>
+    <item id="73" firstName="刀魂" midName="晨曦侠"/>
+    <item id="74" firstName="剑锋" midName="凌波影"/>
+    <item id="75" firstName="剑舞" midName="晨曦剑"/>
+    <item id="76" firstName="刀舞" midName="剑飞霜"/>
+    <item id="77" firstName="剑意" midName="墨痕侠"/>
+    <item id="78" firstName="刀意" midName="剑流烟"/>
+    <item id="79" firstName="武道" midName="孤星寒"/>
+    <item id="80" firstName="剑心" midName="墨痕剑"/>
+    <item id="81" firstName="刀心" midName="剑舞梅"/>
+    <item id="82" firstName="剑魄" midName="剑飞鸿"/>
+    <item id="83" firstName="剑歌" midName="碧月侠"/>
+    <item id="84" firstName="刀歌" midName="霜影侠"/>
+    <item id="85" firstName="剑痕" midName="剑断水"/>
+    <item id="86" firstName="武魂" midName="碧月剑"/>
+    <item id="87" firstName="剑鸣" midName="幽梦影"/>
+    <item id="88" firstName="刀鸣" midName="霜影剑"/>
+    <item id="89" firstName="剑风" midName="剑惊云"/>
+    <item id="90" firstName="刀风" midName="幽梦剑"/>
+    <item id="91" firstName="剑光" midName="剑破山"/>
+    <item id="92" firstName="刀光" midName="晨曦鹰"/>
+    <item id="93" firstName="武灵" midName="剑舞空"/>
+    <item id="94" firstName="剑霸" midName="寒云侠"/>
+    <item id="95" firstName="刀霸" midName="晨曦寒"/>
+    <item id="96" firstName="大侠" midName="剑心诀"/>
+    <item id="97" firstName="刀影" midName="寒云剑"/>
+    <item id="98" firstName="剑隐" midName="霜影寒"/>
+    <item id="99" firstName="刀隐" midName="剑如歌"/>
+    <item id="100" firstName="侠客" midName="墨羽飞"/>
+    <item id="101" firstName="剑侠" midName="凌风侠"/>
+    <item id="102" firstName="刀客" midName="剑锋寒"/>
+    <item id="103" firstName="剑神" midName="逐风侠"/>
+    <item id="104" firstName="武尊" midName="剑破军"/>
+    <item id="105" firstName="宗师" midName="逐风剑"/>
+    <item id="106" firstName="剑圣" midName="凌云侠"/>
+    <item id="107" firstName="剑魔" midName="剑追日"/>
+    <item id="108" firstName="刀圣" midName="玄冰侠"/>
+    <item id="109" firstName="刀魔" midName="凌云剑"/>
+    <item id="110" firstName="武痴" midName="剑映波"/>
+    <item id="111" firstName="游侠" midName="玄冰剑"/>
+    <item id="112" firstName="独行" midName="雷霆侠"/>
+    <item id="113" firstName="浪人" midName="剑舞霞"/>
+    <item id="114" firstName="豪侠" midName="霜凌侠"/>
+    <item id="115" firstName="剑仙" midName="剑破星"/>
+    <item id="116" firstName="刀仙" midName="霜凌剑"/>
+    <item id="117" firstName="盟主" midName="剑舞霓"/>
+    <item id="118" firstName="护法" midName="影无痕"/>
+    <item id="119" firstName="散人" midName="剑飞燕"/>
+    <item id="120" firstName="行者" midName="寒江客"/>
+    <item id="121" firstName="隐士" midName="楚天行"/>
+    <item id="122" firstName="剑影" midName="辰星剑"/>
+    <item id="123" firstName="刀魂" midName="萧寒月"/>
+    <item id="124" firstName="剑锋" midName="寒烟客"/>
+    <item id="125" firstName="剑舞" midName="霜月剑"/>
+    <item id="126" firstName="刀舞" midName="慕容瑾"/>
+    <item id="127" firstName="剑意" midName="玄冥子"/>
+    <item id="128" firstName="刀意" midName="花映雪"/>
+    <item id="129" firstName="武道" midName="凌云霄"/>
+    <item id="130" firstName="剑心" midName="风影剑"/>
+    <item id="131" firstName="刀心" midName="白飞鸿"/>
+    <item id="132" firstName="剑魄" midName="林清风"/>
+    <item id="133" firstName="剑歌" midName="寒星剑"/>
+    <item id="134" firstName="刀歌" midName="独步风"/>
+    <item id="135" firstName="剑痕" midName="碧空剑"/>
+    <item id="136" firstName="武魂" midName="龙飞云"/>
+    <item id="137" firstName="剑鸣" midName="幽泉剑"/>
+    <item id="138" firstName="刀鸣" midName="逐梦剑"/>
+    <item id="139" firstName="剑风" midName="燕回风"/>
+    <item id="140" firstName="刀风" midName="司徒凌"/>
+    <item id="141" firstName="剑光" midName="幻影剑"/>
+    <item id="142" firstName="刀光" midName="陆轻尘"/>
+    <item id="143" firstName="武灵" midName="沧浪客"/>
+    <item id="144" firstName="剑霸" midName="剑影飞"/>
+    <item id="145" firstName="刀霸" midName="霍长歌"/>
+    <item id="146" firstName="大侠" midName="寒锋剑"/>
+    <item id="147" firstName="刀影" midName="程飞燕"/>
+    <item id="148" firstName="剑隐" midName="炎龙剑"/>
+    <item id="149" firstName="刀隐" midName="李月华"/>
+    <item id="150" firstName="侠客" midName="幻月剑"/>
+    <item id="151" firstName="剑侠" midName="段凌霄"/>
+    <item id="152" firstName="刀客" midName="令狐遥"/>
+    <item id="153" firstName="剑神" midName="风破剑"/>
+    <item id="154" firstName="武尊" midName="杨破空"/>
+    <item id="155" firstName="宗师" midName="剑归尘"/>
+    <item id="156" firstName="剑圣" midName="玄影剑"/>
+    <item id="157" firstName="剑魔" midName="小雨轩"/>
+    <item id="158" firstName="刀圣" midName="岳轻鸿"/>
+    <item id="159" firstName="刀魔" midName="霜刃客"/>
+    <item id="160" firstName="武痴" midName="雷霆剑"/>
+    <item id="161" firstName="游侠" midName="东方瑾"/>
+    <item id="162" firstName="独行" midName="殷无痕"/>
+    <item id="163" firstName="浪人" midName="剑流霜"/>
+    <item id="164" firstName="豪侠" midName="韦寒星"/>
+    <item id="165" firstName="剑仙" midName="寒江雪"/>
+    <item id="166" firstName="刀仙" midName="影月剑"/>
+    <item id="167" firstName="盟主" midName="苗凌波"/>
+    <item id="168" firstName="护法" midName="谢飞鸿"/>
+    <item id="169" firstName="散人" midName="石惊天"/>
+    <item id="170" firstName="行者" midName="凌云客"/>
+    <item id="171" firstName="隐士" midName="虚无痕"/>
+    <item id="172" firstName="剑影" midName="剑飞尘"/>
+    <item id="173" firstName="刀魂" midName="剑影月"/>
+    <item id="174" firstName="剑锋" midName="阿飞雪"/>
+    <item id="175" firstName="剑舞" midName="剑舞天"/>
+    <item id="176" firstName="刀舞" midName="郭破晓"/>
+    <item id="177" firstName="剑意" midName="黄天逸"/>
+    <item id="178" firstName="刀意" midName="寒霜剑"/>
+    <item id="179" firstName="武道" midName="墨云剑"/>
+    <item id="180" firstName="剑心" midName="狄风影"/>
+    <item id="181" firstName="刀心" midName="丘云岚"/>
+    <item id="182" firstName="剑魄" midName="梅寒影"/>
+    <item id="183" firstName="剑歌" midName="欧阳雪"/>
+    <item id="184" firstName="刀歌" midName="令狐梦"/>
+    <item id="185" firstName="剑痕" midName="乔峰云"/>
+    <item id="186" firstName="武魂" midName="慕容梦"/>
+    <item id="187" firstName="剑鸣" midName="王寒烟"/>
+    <item id="188" firstName="刀鸣" midName="钟飞雪"/>
+    <item id="189" firstName="剑风" midName="木飞鸿"/>
+    <item id="190" firstName="刀风" midName="丐帮侠"/>
+    <item id="191" firstName="剑光" midName="逍遥子"/>
+    <item id="192" firstName="刀光" midName="无双影"/>
+    <item id="193" firstName="武灵" midName="天山客"/>
+    <item id="194" firstName="剑霸" midName="剑仙缘"/>
+    <item id="195" firstName="刀霸" midName="墨霜寒"/>
+    <item id="196" firstName="大侠" midName="风霜剑"/>
+    <item id="197" firstName="刀影" midName="烟雨客"/>
+    <item id="198" firstName="剑隐" midName="凌霄客"/>
+    <item id="199" firstName="刀隐" midName="寒江月"/>
+    <item id="200" firstName="侠客" midName="羽飞霜"/>
+    <item id="201" firstName="剑侠" midName="云破晓"/>
+    <item id="202" firstName="刀客" midName="辰星宇"/>
+    <item id="203" firstName="剑神" midName="墨无痕"/>
+    <item id="204" firstName="武尊" midName="霜雪影"/>
+    <item id="205" firstName="宗师" midName="凌风行"/>
+    <item id="206" firstName="剑圣" midName="影破空"/>
+    <item id="207" firstName="剑魔" midName="晨曦舞"/>
+    <item id="208" firstName="刀圣" midName="萧剑心"/>
+    <item id="209" firstName="刀魔" midName="花落影"/>
+    <item id="210" firstName="武痴" midName="欧阳韵"/>
+    <item id="211" firstName="游侠" midName="白羽飞"/>
+    <item id="212" firstName="独行" midName="林幽梦"/>
+    <item id="213" firstName="浪人" midName="独步天"/>
+    <item id="214" firstName="豪侠" midName="龙战云"/>
+    <item id="215" firstName="剑仙" midName="燕归鸿"/>
+    <item id="216" firstName="刀仙" midName="司徒寒"/>
+    <item id="217" firstName="盟主" midName="陆寒烟"/>
+    <item id="218" firstName="护法" midName="霍凌波"/>
+    <item id="219" firstName="散人" midName="程飞雪"/>
+    <item id="220" firstName="行者" midName="李轻尘"/>
+    <item id="221" firstName="隐士" midName="段飞鸿"/>
+    <item id="222" firstName="剑影" midName="令狐剑"/>
+    <item id="223" firstName="刀魂" midName="杨凌云"/>
+    <item id="224" firstName="剑锋" midName="小梦云"/>
+    <item id="225" firstName="剑舞" midName="岳轻烟"/>
+    <item id="226" firstName="刀舞" midName="东方飞"/>
+    <item id="227" firstName="剑意" midName="殷寒星"/>
+    <item id="228" firstName="刀意" midName="韦云凌"/>
+    <item id="229" firstName="武道" midName="苗飞燕"/>
+    <item id="230" firstName="剑心" midName="谢无痕"/>
+    <item id="231" firstName="刀心" midName="石天逸"/>
+    <item id="232" firstName="剑魄" midName="虚云影"/>
+    <item id="233" firstName="剑歌" midName="阿风影"/>
+    <item id="234" firstName="刀歌" midName="郭飞云"/>
+    <item id="235" firstName="剑痕" midName="黄凌霄"/>
+    <item id="236" firstName="武魂" midName="狄破空"/>
+    <item id="237" firstName="剑鸣" midName="丘月寒"/>
+    <item id="238" firstName="刀鸣" midName="梅影雪"/>
+    <item id="239" firstName="剑风" midName="欧阳剑"/>
+    <item id="240" firstName="刀风" midName="令狐飞"/>
+    <item id="241" firstName="剑光" midName="乔峰影"/>
+    <item id="242" firstName="刀光" midName="慕容剑"/>
+    <item id="243" firstName="武灵" midName="王飞鸿"/>
+    <item id="244" firstName="剑霸" midName="钟破晓"/>
+    <item id="245" firstName="刀霸" midName="木云逸"/>
+    <item id="246" firstName="大侠" midName="丐帮影"/>
+    <item id="247" firstName="刀影" midName="寒星影"/>
+    <item id="248" firstName="剑隐" midName="羽飞鸿"/>
+    <item id="249" firstName="刀隐" midName="云破尘"/>
+    <item id="250" firstName="侠客" midName="辰星寒"/>
+    <item id="251" firstName="剑侠" midName="墨风歌"/>
+    <item id="252" firstName="刀客" midName="霜雪寒"/>
+    <item id="253" firstName="剑神" midName="洛水云"/>
+    <item id="254" firstName="武尊" midName="凌风剑"/>
+    <item id="255" firstName="宗师" midName="影舞月"/>
+    <item id="256" firstName="剑圣" midName="萧无痕"/>
+    <item id="257" firstName="剑魔" midName="慕容风"/>
+    <item id="258" firstName="刀圣" midName="花落雪"/>
+    <item id="259" firstName="刀魔" midName="欧阳飞"/>
+    <item id="260" firstName="武痴" midName="白云痕"/>
+    <item id="261" firstName="游侠" midName="林寒烟"/>
+    <item id="262" firstName="独行" midName="独步影"/>
+    <item id="263" firstName="浪人" midName="龙飞雪"/>
+    <item id="264" firstName="豪侠" midName="燕归云"/>
+    <item id="265" firstName="剑仙" midName="司徒月"/>
+    <item id="266" firstName="刀仙" midName="陆云影"/>
+    <item id="267" firstName="盟主" midName="霍风痕"/>
+    <item id="268" firstName="护法" midName="程破晓"/>
+    <item id="269" firstName="散人" midName="李寒星"/>
+    <item id="270" firstName="行者" midName="段剑心"/>
+    <item id="271" firstName="隐士" midName="令狐影"/>
+    <item id="272" firstName="剑影" midName="杨云梦"/>
+    <item id="273" firstName="刀魂" midName="小飞鸿"/>
+    <item id="274" firstName="剑锋" midName="岳剑痕"/>
+    <item id="275" firstName="剑舞" midName="东方剑"/>
+    <item id="276" firstName="刀舞" midName="殷云寒"/>
+    <item id="277" firstName="剑意" midName="韦风凌"/>
+    <item id="278" firstName="刀意" midName="苗飞雪"/>
+    <item id="279" firstName="武道" midName="谢轻尘"/>
+    <item id="280" firstName="剑心" midName="石云影"/>
+    <item id="281" firstName="刀心" midName="虚月寒"/>
+    <item id="282" firstName="剑魄" midName="阿影飞"/>
+    <item id="283" firstName="剑歌" midName="黄剑心"/>
+    <item id="284" firstName="刀歌" midName="狄寒星"/>
+    <item id="285" firstName="剑痕" midName="丘云飞"/>
+    <item id="286" firstName="武魂" midName="梅月影"/>
+    <item id="287" firstName="剑鸣" midName="欧阳风"/>
+    <item id="288" firstName="刀鸣" midName="令狐寒"/>
+    <item id="289" firstName="剑风" midName="慕容飞"/>
+    <item id="290" firstName="刀风" midName="王剑痕"/>
+    <item id="291" firstName="剑光" midName="钟破尘"/>
+    <item id="292" firstName="刀光" midName="木影飞"/>
+    <item id="293" firstName="武灵" midName="丐帮风"/>
+    <item id="294" firstName="剑霸" midName="柳飞霜"/>
+    <item id="295" firstName="刀霸" midName="云飞扬"/>
+    <item id="296" firstName="大侠" midName="江流水"/>
+    <item id="297" firstName="刀影" midName="岳无涯"/>
+    <item id="298" firstName="剑隐" midName="雷震天"/>
+    <item id="299" firstName="刀隐" midName="石破空"/>
+    <item id="300" firstName="侠客" midName="梅长风"/>
+    <item id="301" firstName="刀光" midName="兰陵笑"/>
+    <item id="302" firstName="武灵" midName="竹影摇"/>
+    <item id="303" firstName="剑霸" midName="菊香隐"/>
+    <item id="304" firstName="刀霸" midName="松涛鸣"/>
+    <item id="305" firstName="大侠" midName="柏岩峰"/>
+    <item id="306" firstName="刀影" midName="桃夭夭"/>
+    <item id="307" firstName="剑隐" midName="柳絮飘"/>
+  </names>
+</root>

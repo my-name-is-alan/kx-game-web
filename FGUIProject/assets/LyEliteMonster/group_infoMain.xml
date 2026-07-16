@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="745,904">
+  <displayList>
+    <image id="n55_y9su" name="n55" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="26,28" size="693,876"/>
+    <loader id="n71_y9su" name="Loader_qua" xy="54,78" size="392,480" url="ui://xcpqvzp3y9su1c" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <loader3D id="n38_ccr6" name="loader3d_spine" xy="584,511" pivot="0.5,2" anchor="true" size="2,2" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <text id="n39_ccr6" name="label_skill" xy="85,156" size="344,60" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" autoClearText="true" text="水泡 2级">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n67_y9su" name="label_grade" xy="346,99" pivot="1,0" size="41,36" font="ui://27utqbizps391v" fontSize="26" color="#16191a" text="1级"/>
+    <text id="n41_ccr6" name="label_name" xy="85,86" size="231,54" font="ui://27utqbizps391v" fontSize="40" color="#16191a" vAlign="middle" autoSize="shrink" text="邀月">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <richtext id="n42_ccr6" name="label_skilDes" xy="89,225" size="340,153" fontSize="22" color="#16191a" ubb="true" autoSize="none" text="第一回合">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <list id="n43_ccr6" name="list_arrts" xy="58,408" size="329,97" layout="flow_hz" overflow="scroll" lineGap="-7" colGap="54" defaultItem="ui://xcpqvzp3y9su21" align="center" autoClearItems="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n46_ccr6" name="label_next" xy="367,596" size="300,29" font="ui://27utqbizps391v" fontSize="20" color="#d52e26" vAlign="middle" autoSize="none" text="连击+3.4%">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n59_y9su" name="label_nextGrade" xy="278,595" size="143,29" font="ui://27utqbizps391v" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="连击+3.4%">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n47_ccr6" name="btn_eliteM" src="j2yt6" fileName="btn_eliteM.xml" xy="321,620">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n56_y9su" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="660,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n57_y9su" name="n57" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="83,210">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n58_y9su" name="n58" src="rvb53f" fileName="ui/dec_partition_line.png" pkg="27utqbiz" xy="83,390">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n60_y9su" name="pro_level" src="y9su22" fileName="ProgressBar2.xml" xy="90,560">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <ProgressBar value="1" max="4"/>
+    </component>
+    <text id="n70_y9su" name="n70" xy="132,487" size="263,36" fontSize="18" color="#d52e26" vAlign="middle" autoSize="none" text="所有精怪">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n72_y9su" name="btn_deploy" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="403,777">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n73_y9su" name="btn_up" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="132,775">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n61_y9su" name="group_nextLevel0" src="y9su23" fileName="group_fiveLevel.xml" xy="79,547" group="n74_y9su"/>
+    <component id="n63_y9su" name="group_nextLevel1" src="y9su23" fileName="group_fiveLevel.xml" xy="214,547" group="n74_y9su"/>
+    <component id="n64_y9su" name="group_nextLevel2" src="y9su23" fileName="group_fiveLevel.xml" xy="346,546" group="n74_y9su"/>
+    <component id="n65_y9su" name="group_nextLevel3" src="y9su23" fileName="group_fiveLevel.xml" xy="480,546" group="n74_y9su"/>
+    <component id="n66_y9su" name="skillBtn" src="m1jm2a" fileName="skilBtn.xml" xy="612,546" group="n74_y9su"/>
+    <group id="n74_y9su" name="n74" xy="79,546" size="583,51" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n68_y9su" name="n68" src="y9su56" fileName="ui/frame_hint.png" pkg="27utqbiz" xy="331,500" size="323,42" group="n76_m1jm">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n69_y9su" name="n69" xy="363,502" size="263,36" group="n76_m1jm" fontSize="20" color="#fcfcfc" vAlign="middle" autoSize="none" text="门客门客门客门客门客">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n76_m1jm" name="group_des" xy="331,500" size="323,42" visible="false" advanced="true"/>
+    <component id="n77_t6w7" name="btn_info" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="361,66"/>
+    <component id="n81_bl0w" name="btn_down" src="cgkl3r" fileName="btn_normal_color3.xml" pkg="qnktu1il" xy="405,776" visible="false"/>
+    <component id="n82_i11v" name="btn_last" src="ehs5d" fileName="btn_arrowbig.xml" pkg="27utqbiz" xy="37,460"/>
+    <component id="n83_i11v" name="btn_next" src="ehs5d" fileName="btn_arrowbig.xml" pkg="27utqbiz" xy="665,460" rotation="180"/>
+  </displayList>
+</component>

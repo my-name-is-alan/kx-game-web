@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,810" overflow="hidden">
+  <displayList>
+    <image id="n30_tkum" name="n30" src="tkumrq" fileName="ui/frame_public4-2.png" pkg="27utqbiz" xy="-4,65" group="n33_tkum"/>
+    <loader id="n20_o66p" name="loader_poster" xy="123,96" size="594,688" group="n33_tkum" url="ui://f7l7y9v7pl2s4" clearOnPublish="true"/>
+    <loader3D id="n24_o66p" name="loader_spine_pet" xy="260,530" pivot="0.5,1" anchor="true" size="2,2" group="n33_tkum" scale="0.8,0.8" animation="" skin="" loop="true"/>
+    <loader3D id="n23_o66p" name="loader_spine_role" xy="430,560" pivot="0.5,1" anchor="true" size="2,2" group="n33_tkum" animation="" skin="" loop="true"/>
+    <component id="n35_n4fq" name="btn_reward" src="n4fqf" fileName="btn_chapter.xml" xy="640,105" group="n33_tkum"/>
+    <image id="n16_vkas" name="n16" src="vkasa" fileName="res/frame_enemy name.png" xy="516,185" group="n33_tkum"/>
+    <text id="n3_zts0" name="label_monster" xy="530,209" size="42,200" group="n33_tkum" font="ui://27utqbizps391v" fontSize="30" color="#16191a" align="center" vAlign="middle" leading="0" autoSize="shrink" text=""/>
+    <image id="n21_o66p" name="n21" src="o66pb" fileName="ui/frame_subsidiary avatar low.png" pkg="27utqbiz" xy="645,285" group="n38_qyy6"/>
+    <list id="n22_o66p" name="list_elite" xy="681,441" pivot="0.5,0.5" anchor="true" size="100,360" group="n38_qyy6" scale="0.54,0.54" lineGap="30" defaultItem="ui://27utqbizo66p4w"/>
+    <group id="n38_qyy6" name="group_elite" xy="631,261" size="100,360" group="n33_tkum" advanced="true"/>
+    <image id="n17_vkas" name="n17" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="330,551" group="n33_tkum"/>
+    <text id="n9_zts0" name="label_info" xy="385,573" size="10,55" group="n33_tkum" font="ui://27utqbizvkas4q" fontSize="32" letterSpacing="-15" text=""/>
+    <component id="n40_qmvs" name="btn_info" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="531,147" group="n33_tkum"/>
+    <text id="n4_zts0" name="label_reward" xy="140,638" size="10,36" group="n33_tkum" fontSize="26" color="#16191a" vAlign="middle" bold="true" text=""/>
+    <list id="n5_zts0" name="list_item" xy="136,680" size="422,100" group="n33_tkum" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha" vAlign="middle"/>
+    <component id="n13_vkas" name="btn_battle" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="490,694" group="n33_tkum"/>
+    <group id="n33_tkum" name="group_outright" xy="-4,65" size="773,762" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <image id="n31_tkum" name="n31" src="tkumrp" fileName="ui/frame_public4-1.png" pkg="27utqbiz" xy="-4,64" group="n32_tkum"/>
+    <image id="n34_tkum" name="n34" src="tkumrr" fileName="ui/frame_public4-3.png" pkg="27utqbiz" xy="37,445" group="n32_tkum"/>
+    <text id="n2_zts0" name="label_stage" xy="24,153" size="70,303" group="n32_tkum" font="ui://27utqbizps391v" fontSize="50" color="#53634a" align="center" vAlign="middle" autoSize="shrink" text="">
+      <relation target="" sidePair="top-top"/>
+    </text>
+    <text id="n12_oj5o" name="label_chapter" xy="39,481" size="42,250" group="n32_tkum" fontSize="32" color="#cee29e" align="center" vAlign="middle" autoSize="shrink" text="">
+      <relation target="" sidePair="top-top"/>
+    </text>
+    <group id="n32_tkum" name="group_outleft" xy="-4,64" size="134,762" advanced="true">
+      <relation target="" sidePair="left-left"/>
+    </group>
+  </displayList>
+</component>

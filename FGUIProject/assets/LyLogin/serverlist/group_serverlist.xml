@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,750">
+  <displayList>
+    <image id="n9_crwd" name="n9" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="25,-70" size="702,830"/>
+    <component id="n12_crwd" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="664,-31"/>
+    <richtext id="n10_crwd" name="label_title" xy="52,-36" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="仓&lt;库&lt;"/>
+    <image id="n14_crwd" name="n14" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="325,70" size="356,560"/>
+    <image id="n13_crwd" name="n13" src="crwdz" fileName="serverlist/frame_fuwuqifengexian.png" xy="305,68"/>
+    <list id="n2_k5hx" name="list_item" xy="65,70" size="224,550" overflow="scroll" margin="10,0,0,0" lineGap="20" defaultItem="ui://2rd1913icrwd12" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <list id="n0_k5hx" name="list_server" xy="340,70" size="326,550" layout="flow_hz" overflow="scroll" margin="10,0,0,0" lineGap="10" defaultItem="ui://2rd1913icrwd13" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n20_vcsd" name="title1" xy="210,657" size="220,58" font="ui://27utqbizps391v" fontSize="26" vAlign="middle" autoSize="shrink" singleLine="true" text=""/>
+    <loader id="n21_vcsd" name="loader_status1" xy="160,661" size="50,50" url="ui://2rd1913icrwd16" align="center" vAlign="middle"/>
+    <text id="n18_vcsd" name="title2" xy="380,657" size="220,58" font="ui://27utqbizps391v" fontSize="26" vAlign="middle" autoSize="shrink" singleLine="true" text=""/>
+    <loader id="n19_vcsd" name="loader_status2" xy="330,661" size="50,50" url="ui://2rd1913icrwd15" align="center" vAlign="middle"/>
+    <text id="n16_vcsd" name="title3" xy="550,657" size="220,58" font="ui://27utqbizps391v" fontSize="26" vAlign="middle" autoSize="shrink" singleLine="true" text=""/>
+    <loader id="n17_vcsd" name="loader_status3" xy="500,661" size="50,50" url="ui://2rd1913icrwd14" align="center" vAlign="middle"/>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="501,39">
+  <displayList>
+    <richtext id="n28_mnt8" name="label_attr1" xy="0,3" size="197,39" fontSize="28" color="#333333" ubb="true" autoSize="none" text="生命1552"/>
+    <image id="n29_li64" name="n29" src="mnt87" fileName="res/btn_jt.png" xy="199,1" size="40,38" flip="hz"/>
+    <richtext id="n30_li64" name="label_attr2" xy="304,0" size="197,39" fontSize="28" color="#333333" ubb="true" autoSize="none" text="生命1552"/>
+  </displayList>
+</component>

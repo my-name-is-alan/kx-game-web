@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="780,985">
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1_cvor" name="n1" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="704,932" alpha="0.998"/>
+    <richtext id="n2_cvor" name="label_title" xy="20,27" size="210,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="备战">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n3_cvor" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="639,38">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n4_cvor" name="n4" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="562,751"/>
+    <component id="n5_cvor" name="btn_sj" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="354,925" size="171,60">
+      <Button checked="true" title="筑城积粮" controller="c1" page="0"/>
+    </component>
+    <component id="n6_cvor" name="btn_jg" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="526,925" size="171,60">
+      <Button title="成员列表" controller="c1" page="1"/>
+    </component>
+    <loader id="n7_cvor" name="loader_city" xy="26,93" size="236,211" group="n44_cvor" aspect="true" url="ui://i35cf1mqk7xe22" align="right" fill="scale"/>
+    <image id="n9_cvor" name="star3" src="jv6udu18a" fileName="res/icon_level12.png" xy="110,283" group="n12_cvor"/>
+    <image id="n10_cvor" name="star2" src="jv6udu18a" fileName="res/icon_level12.png" xy="133,283" group="n12_cvor"/>
+    <image id="n11_cvor" name="star1" src="jv6udu18a" fileName="res/icon_level12.png" xy="156,283" group="n12_cvor"/>
+    <group id="n12_cvor" name="n12" xy="110,283" size="74,30" group="n44_cvor" advanced="true" layout="hz" colGap="-5" excludeInvisibles="true"/>
+    <image id="n13_cvor" name="n13" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="283,125" size="392,184" group="n44_cvor"/>
+    <image id="n32_cvor" name="n32" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="30,350" size="645,232" group="n44_cvor"/>
+    <image id="n33_cvor" name="n33" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="31,599" size="644,231" group="n44_cvor"/>
+    <text id="n14_cvor" name="label_clanname" xy="300,139" size="241,39" group="n44_cvor" font="ui://27utqbizps391v" fontSize="28" color="#16191a" autoSize="shrink" text="超欧俱乐部"/>
+    <text id="n15_cvor" name="label_clanLevel" xy="537,149" size="56,29" group="n44_cvor" fontSize="20" color="#2b841c" text="1级别"/>
+    <component id="n16_cvor" name="pro_hp" src="jhmn2n" fileName="ProgressBar1.xml" xy="304,180" size="369,20" group="n44_cvor" touchable="false">
+      <ProgressBar value="15" max="100"/>
+    </component>
+    <text id="n17_cvor" name="n17" xy="303,208" size="114,29" group="n44_cvor" fontSize="20" color="#16191a" autoSize="none" text="当前效果："/>
+    <text id="n18_cvor" name="n18" xy="302,236" size="114,29" group="n44_cvor" fontSize="20" color="#16191a" autoSize="none" text="下级效果："/>
+    <text id="n20_cvor" name="label_hpAdd" xy="413,208" size="44,29" group="n44_cvor" fontSize="20" color="#2b841c" text="生命"/>
+    <text id="n21_cvor" name="label_nextHpAdd" xy="413,236" size="182,29" group="n44_cvor" fontSize="20" color="#2b841c" autoSize="none" text="生命"/>
+    <richtext id="n22_cvor" name="label_look" xy="579,275" size="110,29" group="n44_cvor" fontSize="20" color="#2b841c" vAlign="middle" autoSize="none" underline="true" text="查看详情"/>
+    <text id="n23_cvor" name="n23" xy="42,360" size="114,29" group="n44_cvor" fontSize="20" color="#16191a" autoSize="none" text="贡献效果："/>
+    <text id="n24_cvor" name="n24" xy="43,389" size="114,29" group="n44_cvor" fontSize="20" color="#16191a" autoSize="none" text="贡献次数："/>
+    <text id="n25_cvor" name="n25" xy="43,418" size="114,29" group="n44_cvor" fontSize="20" color="#16191a" autoSize="none" text="获得："/>
+    <text id="n26_cvor" name="n26" xy="43,610" size="114,29" group="n44_cvor" fontSize="20" color="#16191a" autoSize="none" text="贡献效果："/>
+    <text id="n27_cvor" name="n27" xy="44,639" size="114,29" group="n44_cvor" fontSize="20" color="#16191a" autoSize="none" text="贡献次数："/>
+    <text id="n28_cvor" name="n28" xy="44,668" size="114,29" group="n44_cvor" fontSize="20" color="#16191a" autoSize="none" text="获得："/>
+    <list id="n29_cvor" name="list_item" xy="81,465" size="543,101" group="n44_cvor" layout="row" overflow="scroll" scroll="horizontal" colGap="15" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n30_cvor" name="list_item2" xy="82,714" size="543,101" group="n44_cvor" layout="row" overflow="scroll" scroll="horizontal" colGap="15" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n31_cvor" name="label_addExp1" xy="154,360" size="111,29" group="n44_cvor" fontSize="20" color="#2b841c" text="等级经验+1"/>
+    <component id="n34_cvor" name="group_needItem1" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="521,358" group="n44_cvor">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n35_cvor" name="group_needItem2" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="522,608" group="n44_cvor">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n36_cvor" name="btn_gx1" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="478,396" size="195,52" group="n44_cvor" aspect="true">
+      <Button title="贡献" titleFontSize="32"/>
+    </component>
+    <component id="n37_cvor" name="btn_gx2" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="476,646" size="195,52" group="n44_cvor" aspect="true">
+      <Button title="一键贡献" titleFontSize="32"/>
+    </component>
+    <text id="n38_cvor" name="n38" xy="180,856" size="443,29" group="n44_cvor" fontSize="20" color="#e86146" autoSize="none" text="城池破损将导致进攻伤害下降至50%"/>
+    <text id="n40_cvor" name="label_time" xy="374,856" size="85,29" group="n44_cvor" visible="false" fontSize="20" color="#2b841c" align="center" autoSize="shrink" text="等级"/>
+    <text id="n41_cvor" name="label_gxNumber1" xy="152,390" size="28,29" group="n44_cvor" fontSize="20" color="#2b841c" text="10"/>
+    <text id="n42_cvor" name="label_addExp2" xy="154,610" size="44,29" group="n44_cvor" fontSize="20" color="#2b841c" text="等级"/>
+    <text id="n43_cvor" name="label_gxNumber2" xy="152,640" size="44,29" group="n44_cvor" fontSize="20" color="#2b841c" text="不限"/>
+    <group id="n44_cvor" name="n44" xy="26,93" size="663,792" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <text id="n47_cvor" name="n47" xy="79,116" size="114,29" group="n75_m4h7" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="人数："/>
+    <text id="n48_cvor" name="label_clanNumber" xy="143,116" size="28,29" group="n75_m4h7" fontSize="20" color="#2b841c" vAlign="middle" text="55"/>
+    <text id="n49_cvor" name="n49" xy="77,144" size="114,29" group="n75_m4h7" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="基础生命:"/>
+    <text id="n74_m4h7" name="n74" xy="129,855" size="443,29" group="n75_m4h7" fontSize="20" color="#e86146" align="center" vAlign="middle" autoSize="none" text="*开战后，城池等级和生命将会锁定"/>
+    <text id="n50_cvor" name="label_baseHp" xy="187,144" size="28,29" group="n75_m4h7" fontSize="20" color="#2b841c" text="55"/>
+    <text id="n51_cvor" name="n51" xy="349,116" size="114,29" group="n75_m4h7" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="城池等级："/>
+    <text id="n52_cvor" name="label_clanLevel2" xy="458,116" size="28,29" group="n75_m4h7" fontSize="20" color="#2b841c" vAlign="middle" text="55"/>
+    <text id="n53_cvor" name="n53" xy="349,144" size="114,29" group="n75_m4h7" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="总生命："/>
+    <text id="n54_cvor" name="label_allHp" xy="437,144" size="28,29" group="n75_m4h7" fontSize="20" color="#2b841c" vAlign="middle" text="10"/>
+    <list id="n64_m4h7" name="list_all" xy="31,183" size="648,526" group="n75_m4h7" overflow="scroll" lineGap="-4" defaultItem="ui://i35cf1mqm4h7du19f" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n72_m4h7" name="n72" src="ltemkr" fileName="ui/frame_ranking .png" pkg="27utqbiz" xy="28,716" size="644,125" group="n75_m4h7"/>
+    <component id="n65_m4h7" name="group_title" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="303,700" group="n75_m4h7" scale="0.934,0.934"/>
+    <text id="n66_m4h7" name="label_name" xy="185,733" size="124,34" group="n75_m4h7" fontSize="24" color="#16191a" autoSize="shrink" text="慕数"/>
+    <image id="n67_m4h7" name="n67" src="kpgndu18u" fileName="res/frame_force of arms.png" xy="491,709" size="176,74" group="n75_m4h7" aspect="true"/>
+    <text id="n68_m4h7" name="label_combatPower" xy="544,723" size="138,39" group="n75_m4h7" font="ui://27utqbizvkas4q" fontSize="22" color="#cc6600" vAlign="middle" leading="0" letterSpacing="-8" text="531231"/>
+    <text id="n69_m4h7" name="y111" xy="178,794" size="114,34" group="n75_m4h7" fontSize="22" color="#16191a" autoSize="none" text="生命："/>
+    <component id="n70_m4h7" name="pro_selfhp" src="jhmn2n" fileName="ProgressBar1.xml" xy="247,799" size="368,20" group="n75_m4h7" touchable="false">
+      <ProgressBar value="15" max="100"/>
+    </component>
+    <component id="n71_m4h7" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="55,730" group="n75_m4h7"/>
+    <group id="n75_m4h7" name="n75" xy="28,116" size="654,768" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+  </displayList>
+</component>

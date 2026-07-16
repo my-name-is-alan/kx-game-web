@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,158">
+  <displayList>
+    <image id="n0_uudv" name="n0" src="uudv1" fileName="res/frame_yaoqinghaoyoudiban3.png" xy="0,0"/>
+    <text id="n1_uudv" name="label_name" xy="30,17" size="44,29" font="ui://27utqbizps391v" fontSize="20" color="#16191a" vAlign="middle" text="邀请"/>
+    <list id="n2_uudv" name="list_item" xy="30,52" size="430,100" scale="0.9,0.9" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha"/>
+    <component id="n4_uudv" name="bar_count" src="abrum" fileName="bar_count.xml" pkg="27utqbiz" xy="350,22">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <component id="n5_uudv" name="btn_take" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="425,70"/>
+    <component id="n6_uudv" name="btn_go" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="425,70"/>
+    <image id="n7_uudv" name="img_done" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="455,70"/>
+    <text id="n8_uudv" name="label_done" xy="394,77" size="277,44" font="ui://27utqbizps391v" fontSize="32" color="#f3ffec" align="center" vAlign="middle" autoSize="none" text=""/>
+  </displayList>
+</component>

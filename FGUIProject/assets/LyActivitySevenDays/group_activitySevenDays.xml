@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,586">
+  <displayList>
+    <image id="n21_cnrn" name="n21" src="bae43" fileName="res/frame_sign in.png" xy="0,-275" group="n12_ne2h"/>
+    <component id="n1_ne2h" name="group_day1" src="ne2h2" fileName="group_dayItem.xml" xy="96,95" group="n12_ne2h"/>
+    <component id="n3_ne2h" name="group_day2" src="ne2h2" fileName="group_dayItem.xml" xy="282,95" group="n12_ne2h"/>
+    <component id="n5_ne2h" name="group_day4" src="ne2h2" fileName="group_dayItem.xml" xy="96,224" group="n12_ne2h"/>
+    <component id="n7_ne2h" name="group_day6" src="ne2h2" fileName="group_dayItem.xml" xy="469,224" group="n12_ne2h"/>
+    <component id="n15_rp91" name="group_day3" src="rp918" fileName="group_dayItem1.xml" xy="469,95" group="n12_ne2h"/>
+    <component id="n16_rp91" name="group_day5" src="rp918" fileName="group_dayItem1.xml" xy="282,224" group="n12_ne2h"/>
+    <component id="n17_rp91" name="group_day7" src="rp919" fileName="group_dayItem2.xml" xy="95,354" group="n12_ne2h"/>
+    <component id="n20_rp91" name="btn_sevenDays" src="ehs5f" fileName="btn_paygroup.xml" pkg="27utqbiz" xy="244,500" group="n12_ne2h"/>
+    <image id="n24_cnrn" name="n24" src="cnrnuu" fileName="ui/btn_aqua.png" pkg="27utqbiz" xy="277,512" group="n27_cnrn"/>
+    <text id="n26_cnrn" name="label_str2" xy="316,513" size="94,42" group="n27_cnrn" font="ui://27utqbizps391v" fontSize="30" color="#54988d" vAlign="middle" autoClearText="true" text="已签到"/>
+    <group id="n27_cnrn" name="group_ok" xy="277,512" size="176,46" group="n12_ne2h" advanced="true"/>
+    <image id="n22_cnrn" name="n22" src="cnrnd" fileName="res/frame_catchline.png" xy="200,60" group="n12_ne2h"/>
+    <text id="n23_cnrn" name="label_str4" xy="231,62" size="292,34" group="n12_ne2h" fontSize="24" color="#ffed7d" vAlign="middle" autoClearText="true" text="签到七天可获随机传说门客"/>
+    <group id="n12_ne2h" name="n12" xy="0,-275" size="750,1024" advanced="true"/>
+  </displayList>
+</component>

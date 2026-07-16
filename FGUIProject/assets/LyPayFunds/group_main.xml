@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <image id="n27_liu3" name="n27" src="liu3du176" fileName="comombg/frame_tanchuang.png" pkg="27utqbiz" xy="-5,-85" size="774,994">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </image>
+    <loader3D id="n26_cgob" name="loader_effect3" xy="374,418" size="1,1" animation="" skin="" loop="true"/>
+    <image id="n22_hldt" name="n22" src="hldt5k" fileName="res/frame_xiuweijijinbg.png" xy="17,125">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <loader3D id="n24_cgob" name="loader_effect" xy="54,59" size="1,1" animation="" skin="" loop="true"/>
+    <image id="n19_hldt" name="n19" src="hldt5m" fileName="res/word_xiuweijijin.png" xy="70,-19">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n21_hldt" name="n21" src="pq7g8" fileName="res/frame_maoxianjijinbg.png" xy="17,125">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n3_hdhb" name="n3" src="pq7gd" fileName="res/word_maoxianjijin.png" xy="52,-36">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n23_hldt" name="n23" src="hldt5l" fileName="res/frame_zhutangjijinbg.png" xy="17,125">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n16_lyzz" name="n16" src="hdhb5b" fileName="res/word_zhutangjijin.png" xy="61,-25">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n20_hldt" name="n20" src="hldt5i" fileName="res/frame_jiliutajijinbg.png" xy="17,125">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <image id="n15_lyzz" name="n15" src="pq7gc" fileName="res/word_jiliutajijin.png" xy="45,-71">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <component id="n1_hdhb" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="647,-20"/>
+    <component id="n4_hdhb" name="btn_pay" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="391,233"/>
+    <component id="n5_hdhb" name="btn_preview" src="hdhb5c" fileName="btn_preview.xml" xy="45,241"/>
+    <text id="n6_hdhb" name="label_tips" xy="642,81" size="10,42" font="ui://27utqbizps391v" fontSize="30" color="#fffcb0" vAlign="middle" strokeColor="#e57928" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n7_hdhb" name="label_desc1" xy="667,145" size="10,39" font="ui://27utqbizps391v" fontSize="28" color="#f5f3ef" vAlign="middle" strokeColor="#d2721c" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <richtext id="n8_hdhb" name="label_desc2" xy="657,185" size="10,34" font="ui://27utqbizps391v" fontSize="24" color="#5c504f" vAlign="middle" text="">
+      <relation target="" sidePair="right-right"/>
+    </richtext>
+    <image id="n9_hdhb" name="n9" src="pq7g0" fileName="res/frame_chaozhifuli.png" xy="274,331"/>
+    <image id="n11_hdhb" name="n11" src="pq7g7" fileName="res/frame_jichufuli.png" xy="38,331"/>
+    <text id="n12_hdhb" name="label_tab1" xy="4,335" size="303,29" font="ui://27utqbizps391v" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n13_hdhb" name="label_tab2" xy="325,335" size="331,29" font="ui://27utqbizps391v" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n14_hdhb" name="list_item" xy="41,371" size="660,473" overflow="scroll" defaultItem="ui://5w4f3ir7hdhb5d">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader3D id="n25_cgob" name="loader_effect1" xy="384,218" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

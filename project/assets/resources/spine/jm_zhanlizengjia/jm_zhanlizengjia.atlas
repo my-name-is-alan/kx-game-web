@@ -1,0 +1,90 @@
+
+jm_zhanlizengjia.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01/jm_zhanlizengjia
+  rotate: false
+  xy: 2, 322
+  size: 233, 68
+  orig: 240, 86
+  offset: 2, 4
+  index: -1
+01/jm_zhanlizengjia02
+  rotate: false
+  xy: 237, 250
+  size: 228, 66
+  orig: 240, 86
+  offset: 7, 0
+  index: -1
+01/jm_zhanlizengjia03
+  rotate: false
+  xy: 235, 189
+  size: 237, 59
+  orig: 240, 86
+  offset: 3, 4
+  index: -1
+01/jm_zhanlizengjia04
+  rotate: false
+  xy: 2, 126
+  size: 230, 58
+  orig: 240, 86
+  offset: 5, 2
+  index: -1
+01/jm_zhanlizengjia05
+  rotate: false
+  xy: 237, 396
+  size: 234, 76
+  orig: 240, 86
+  offset: 2, 4
+  index: -1
+01/jm_zhanlizengjia06
+  rotate: false
+  xy: 2, 186
+  size: 231, 65
+  orig: 240, 86
+  offset: 2, 2
+  index: -1
+01/jm_zhanlizengjia07
+  rotate: false
+  xy: 237, 318
+  size: 231, 76
+  orig: 240, 86
+  offset: 2, 3
+  index: -1
+01/jm_zhanlizengjia08
+  rotate: false
+  xy: 234, 69
+  size: 237, 56
+  orig: 240, 86
+  offset: 3, 3
+  index: -1
+01/jm_zhanlizengjia09
+  rotate: false
+  xy: 235, 127
+  size: 231, 60
+  orig: 240, 86
+  offset: 0, 2
+  index: -1
+01/jm_zhanlizengjia10
+  rotate: false
+  xy: 2, 392
+  size: 233, 80
+  orig: 240, 86
+  offset: 0, 3
+  index: -1
+01/jm_zhanlizengjia11
+  rotate: false
+  xy: 2, 65
+  size: 216, 59
+  orig: 240, 86
+  offset: 17, 3
+  index: -1
+01/jm_zhanlizengjia12
+  rotate: false
+  xy: 2, 253
+  size: 233, 67
+  orig: 240, 86
+  offset: 0, 3
+  index: -1

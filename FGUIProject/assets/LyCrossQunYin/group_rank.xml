@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="701,1093">
+  <displayList>
+    <image id="n36_bhy6" name="n36" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="-6,-12" size="702,1105"/>
+    <image id="n51_ryaq" name="n51" src="ryaqu19p" fileName="ui/bg_kaifubang.png" pkg="27utqbiz" xy="15,84"/>
+    <richtext id="n37_bhy6" name="label_title" xy="21,22" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="仓&lt;库&lt;"/>
+    <component id="n40_bhy6" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="627,31"/>
+    <image id="n52_ryaq" name="n52" src="uzk85f" fileName="ui/frame_rank list.png" pkg="27utqbiz" xy="29,543"/>
+    <text id="n41_bhy6" name="label_rank" xy="77,545" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <text id="n42_bhy6" name="label_name" xy="307,545" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#8c571d" vAlign="middle" text=""/>
+    <list id="n44_bhy6" name="list_rank" xy="47,584" size="580,384" overflow="scroll" lineGap="10" defaultItem="ui://5gmha8dnknxo8"/>
+    <component id="n47_bhy6" name="group_player1" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="94,439"/>
+    <component id="n48_bhy6" name="group_player0" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="299,372"/>
+    <component id="n49_bhy6" name="group_player2" src="gk3od" fileName="group_player.xml" pkg="27utqbiz" xy="514,439"/>
+    <image id="n53_ryaq" name="n53" src="ltemkr" fileName="ui/frame_ranking .png" pkg="27utqbiz" xy="29,969"/>
+    <image id="n54_ryaq" name="img_empty_mask" src="mjzcu16u" fileName="ui/pic_no data.png" pkg="27utqbiz" xy="159,641"/>
+    <image id="n55_ryaq" name="n55" src="ryaqu19r" fileName="ui/frame_tips_02.png" pkg="27utqbiz" xy="29,960"/>
+    <text id="n45_bhy6" name="label_selfrank" xy="87,1000" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#16191a" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n56_ryaq" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="175,970" scale="0.8,0.8"/>
+    <image id="n39_bhy6" name="n39" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="548,910"/>
+  </displayList>
+</component>

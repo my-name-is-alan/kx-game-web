@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="538,34">
+  <displayList>
+    <text id="n44_g7bh" name="label_name" xy="0,0" size="100,34" fontSize="24" text="玩家名字"/>
+    <text id="n46_g7bh" name="label_dailyDuelBuffTime" xy="402,0" size="76,34" fontSize="24" text="三天前"/>
+    <text id="n47_glyr" name="label_isDailyDuelBuff" xy="234,0" size="76,34" fontSize="24" text="已布阵"/>
+  </displayList>
+</component>

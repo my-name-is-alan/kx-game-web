@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="316,276">
+  <displayList>
+    <image id="n62_g0p7" name="n62" src="g0p7u" fileName="res/frame_mijidi.png" xy="0,0"/>
+    <loader id="n63_g0p7" name="loader_icon" xy="67,47" size="182,182" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n64_g0p7" name="loader_detail" xy="223,45" size="100,100" url="ui://qaf45antijfmq" align="center" vAlign="middle" fill="scale"/>
+    <text id="n65_g0p7" name="label_name" xy="82,208" size="151,50" font="ui://27utqbizps391v" fontSize="37" color="#fff5bf" align="center" vAlign="middle" strokeColor="#e39000" strokeSize="2" autoClearText="true" text="九阴真经">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

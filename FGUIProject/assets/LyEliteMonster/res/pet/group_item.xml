@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="88,88">
+  <controller name="pos" exported="true" pages="0,,1,,3," selected="2"/>
+  <displayList>
+    <loader id="n35_me8j" name="loader_bg" xy="0,0" size="88,88" url="ui://xcpqvzp3me8jqe"/>
+    <text id="n36_me8j" name="label_number" xy="48,52" size="28,22" fontSize="14" color="#ffffff" strokeColor="#000000" strokeSize="2" text="999"/>
+    <loader id="n37_me8j" name="loader_icon" xy="6,11" size="66,57" url="ui://27utqbizrvb52t" align="center" vAlign="middle" fill="scale"/>
+    <component id="n39_g946" name="last_time1" src="me8jr8" fileName="res/pet/group_lastTimes.xml" xy="93,-7">
+      <gearDisplay controller="pos" pages="1,3"/>
+      <gearXY controller="pos" pages="3" values="93,-7" default="-32,-7"/>
+    </component>
+  </displayList>
+</component>

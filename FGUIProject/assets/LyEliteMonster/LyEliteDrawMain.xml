@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="751,1334">
+  <displayList>
+    <image id="n75_vp1r" name="n75" src="vp1rph" fileName="res/pet/res/menke_ck_bj.png" xy="0,68"/>
+    <loader3D id="n67_l1tk" name="loader_role" xy="368,571" size="1,1" animation="" skin="" loop="true"/>
+    <loader3D id="n68_l1tk" name="loader_dask" xy="375,607" size="1,1" animation="" skin="" loop="true"/>
+    <component id="n55_cgkl" name="btn_one" src="cgkl3e" fileName="btn_Draw1.xml" xy="100,848"/>
+    <component id="n56_cgkl" name="btn_five" src="cgkl3h" fileName="btn_Draw10.xml" xy="425,853"/>
+    <component id="n59_cgkl" name="group_add1" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="18,174" scale="1.2,1.2"/>
+    <component id="n60_cgkl" name="group_add2" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="18,220" scale="1.2,1.2"/>
+    <text id="n62_cgkl" name="label_drawTimes" xy="251,188" size="252,42" fontSize="24" color="#dc9846" align="center" vAlign="middle" autoSize="shrink" text="每天最多可招募999次"/>
+    <component id="n66_ltem" name="btn_close" src="ltemkl" fileName="btn_close3.xml" pkg="27utqbiz" xy="671,161"/>
+    <component id="n45_t6w7" name="btn_gl" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="23,1217"/>
+    <text id="n22_d3qo" name="label_baodi" xy="54,1289" size="499,47" visible="false" fontSize="24" color="#ca4e37" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="再喝59杯">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n23_d3qo" name="label_glDesc" xy="89,1249" size="159,36" fontSize="24" color="#e5ac76" vAlign="middle" letterSpacing="2" autoSize="none" underline="true" strokeColor="#000000" strokeSize="2" text="吸引概率">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n80_vp1r" name="btn_ad" src="vp1rxu" fileName="btn_adRefresh1.xml" pkg="27utqbiz" xy="653,783"/>
+    <component id="n82_c3ih" name="btn_skip" src="c3ihdu17k" fileName="btn_gou.xml" xy="579,1253">
+      <Button checked="true" title="跳过动画"/>
+    </component>
+    <component id="n88_c3ih" name="btn_zs" src="c3ihdu17m" fileName="btn_zsCard.xml" xy="531,624"/>
+    <component id="n89_c3ih" name="btn_card" src="c3ihdu17n" fileName="btn_unite.xml" xy="7,607"/>
+    <component id="n111_rgsw" name="group_left" src="rgswdu1a6" fileName="itemframe/GroupItem_leftQp.xml" pkg="27utqbiz" xy="-9,511"/>
+    <component id="n113_rgsw" name="group_right" src="rgswdu18h" fileName="itemframe/GroupItem_rightQp.xml" pkg="27utqbiz" xy="630,514"/>
+    <image id="n96_isy4" name="n96" src="c3ihdu16y" fileName="2.0/mk_kuandi.png" xy="24,1077"/>
+    <text id="n102_isy4" name="label_score" xy="48,1195" size="35,32" font="ui://27utqbizps391v" fontSize="20" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" text="0"/>
+    <component id="n97_isy4" name="draw" src="isy4du182" fileName="group_drop1.xml" xy="42,1155" size="504,83"/>
+    <image id="n104_isy4" name="n104" src="c3ihdu17h" fileName="2.0/mk_jiantou.png" xy="529,1187"/>
+    <image id="n105_isy4" name="n105" src="isy4du183" fileName="2.0/mk_bg_di.png" xy="570,1103"/>
+    <loader3D id="n106_isy4" name="loader_bx" xy="634,1166" size="1,1" animation="" skin="" loop="true"/>
+    <image id="n107_isy4" name="n107" src="c3ihdu17c" fileName="2.0/mk_di_01.png" xy="581,1197"/>
+    <text id="n108_isy4" name="n108" xy="590,1198" size="86,32" font="ui://27utqbizps391v" fontSize="22" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" text="200"/>
+    <component id="n109_bdat" name="btn_bx" src="isy4du17v" fileName="goroup_gift.xml" xy="587,1121" alpha="0.002"/>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="304,52">
+  <displayList>
+    <loader id="n20_j2mx" name="loader_bg" xy="2,4" size="178,41" url="ui://27utqbizj2mxhl" fill="scaleFree"/>
+    <text id="n21_j2mx" name="label_now" xy="2,-1" size="178,52" fontSize="28" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="2" text="0"/>
+    <image id="n23_j2mx" name="img_up" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="192,42" size="34,21" group="n26_s52d" aspect="true" rotation="-90"/>
+    <image id="n24_j2mx" name="img_down" src="j2mxff" fileName="ui/icon_jiantouDown.png" pkg="27utqbiz" xy="192,9" group="n26_s52d" visible="false"/>
+    <group id="n26_s52d" name="group_arrow" xy="192,9" size="34,54" group="n27_dbzf" advanced="true"/>
+    <text id="n17_gqn0" name="next" xy="220,6" size="107,39" group="n27_dbzf" fontSize="28" color="#16191a" vAlign="middle" ubb="true" autoClearText="true" text="01Q231"/>
+    <group id="n27_dbzf" name="n27" xy="192,6" size="135,57" advanced="true" layout="hz" colGap="-6" excludeInvisibles="true"/>
+  </displayList>
+</component>

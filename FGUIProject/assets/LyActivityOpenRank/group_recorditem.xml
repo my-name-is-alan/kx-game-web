@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="670,204">
+  <displayList>
+    <loader id="n38_a0tr" name="loader_bg" xy="5,3" size="660,196" url="ui://6fyplu3lliu31d" align="center" vAlign="middle" autoSize="true" clearOnPublish="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n53_kluz" name="img_xuwei" src="kluz1o" fileName="record/pic_vacant.png" xy="58,67" visible="false"/>
+    <image id="n49_py3x" name="img_lock" src="liu31m" fileName="record/pic_lock.png" xy="594,74" visible="false"/>
+    <loader id="n48_liu3" name="loader_title" xy="401,65" size="50,50" url="ui://6fyplu3llr1w7" align="center" vAlign="middle" clearOnPublish="true"/>
+    <image id="n46_liu3" name="n46" src="liu31l" fileName="record/frame_baidi.png" xy="326,125" size="200,32"/>
+    <text id="n43_a0tr" name="label_desc" xy="421,125" size="10,32" fontSize="22" color="#16191a" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n44_lain" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="634,11" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+    <component id="n50_py3x" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="90,35" visible="false"/>
+    <text id="n52_py3x" name="label_name" xy="131,140" size="19,37" visible="false" fontSize="26" color="#fbeffe" align="center" vAlign="middle" strokeColor="#4c7fc3" strokeSize="2" autoClearText="true" text="1">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ngwvvpmv">
+  <resources>
+    <component id="fdj40" name="LyActivityShop.xml" path="/" exported="true"/>
+    <component id="fdj41" name="group_main.xml" path="/"/>
+    <component id="fdj42" name="group_shopitem.xml" path="/"/>
+    <component id="pwnl3" name="LyActivityShopBuy.xml" path="/" exported="true"/>
+    <component id="pwnl4" name="group_buy.xml" path="/"/>
+    <component id="f8bh6" name="slider_count_grip.xml" path="/"/>
+    <component id="f8bh7" name="slider_count.xml" path="/"/>
+    <image id="qj9z8" name="frame_shangpudiban.png" path="/res/"/>
+    <image id="qj9z9" name="frame_shangpudiban2.png" path="/res/"/>
+    <image id="qj9za" name="frame_yubi.png" path="/res/"/>
+    <image id="qj9zb" name="word_shangpu.png" path="/res/"/>
+    <image id="qj9zc" name="word_shouqing.png" path="/res/"/>
+    <image id="i6m8d" name="btn_point.png" path="/res/"/>
+    <image id="nbmce" name="frame_tehui.png" path="/res/"/>
+    <image id="nbmcf" name="frame_xianshi.png" path="/res/"/>
+    <image id="nbmcg" name="frame_zhekoubiaoqian.png" path="/res/"/>
+    <image id="nbmch" name="word_0.png" path="/res/"/>
+    <image id="nbmci" name="word_1.png" path="/res/"/>
+    <image id="nbmcj" name="word_2.png" path="/res/"/>
+    <image id="nbmck" name="word_3.png" path="/res/"/>
+    <image id="nbmcl" name="word_4.png" path="/res/"/>
+    <image id="nbmcm" name="word_5.png" path="/res/"/>
+    <image id="nbmcn" name="word_6.png" path="/res/"/>
+    <image id="nbmco" name="word_7.png" path="/res/"/>
+    <image id="nbmcp" name="word_8.png" path="/res/"/>
+    <image id="nbmcq" name="word_9.png" path="/res/"/>
+    <font id="nbmcr" name="bmp_shopNum.fnt" path="/res/" exported="true"/>
+    <image id="nbmcs" name="frame_mianfei.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n0_me8j" name="btn_back" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n1_me8j" name="mian" src="me8jpo" fileName="res/pet/main_LyBuddyMass.xml" xy="21,77">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_9s31" name="group_gailv" src="9s31rr" fileName="res/pet/group_gailv.xml" xy="0,1" visible="false">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n5_g946" name="group_shuax" src="g946rx" fileName="res/pet/group_refreshHaven.xml" xy="0,0" visible="false">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n6_jqsw" name="btn_Mask" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334" visible="false" alpha="0">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

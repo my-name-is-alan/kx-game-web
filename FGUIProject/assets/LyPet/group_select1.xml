@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="697,952">
+  <controller name="c1" pages="0,,1," selected="0">
+    <remark page="0" value="未选"/>
+    <remark page="1" value="已选"/>
+  </controller>
+  <displayList>
+    <loader id="n63_oxm5" name="n63" xy="0,0" size="697,952" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <component id="n8_kmnd" name="group_devourerPet" src="kmndf" fileName="group_devourpet.xml" xy="26,72" size="644,234"/>
+    <graph id="n50_81of" name="n50" xy="26,623" size="644,162" type="rect" lineSize="0" fillColor="#ffe2e7e1"/>
+    <image id="n61_i809" name="n61" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="153,637" size="383,38"/>
+    <text id="n22_kmnd" name="label_sy" xy="282,633" size="126,39" font="ui://27utqbizps391v" fontSize="28" color="#333333" align="center" vAlign="middle" autoSize="none" text="吞噬收益"/>
+    <text id="n25_kmnd" name="label_cg" xy="66,861" size="585,61" alpha="0.75" font="ui://27utqbizps391v" fontSize="20" color="#767676" align="center" vAlign="middle" autoSize="none" text="提升被动技能等级或则和爱说大话几哦啊是哦撒能等级或则和爱说大话几哦啊是哦撒"/>
+    <component id="n39_kmnd" name="group_preyPet" src="kmndf" fileName="group_devourpet.xml" xy="26,357" size="644,234">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <graph id="n45_81of" name="group_select" xy="26,375" size="645,228" group="n31_kmnd" type="rect" lineSize="0" fillColor="#ffe2e7e1"/>
+    <text id="n30_kmnd" name="label_zk" xy="153,534" size="377,34" group="n31_kmnd" fontSize="22" color="#767676" align="center" vAlign="middle" autoSize="none" text="止咳吞噬阿斯基地啊u似乎"/>
+    <image id="n42_81of" name="n42" src="81of58" fileName="res1/btn_add.png" xy="291,418" size="154,154" group="n31_kmnd" scale="0.7,0.7"/>
+    <group id="n31_kmnd" name="n31" xy="26,375" size="645,228" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <text id="n32_kmnd" name="label_zw" xy="158,685" size="374,29" fontSize="20" color="#333333" align="center" vAlign="middle" autoSize="none" text="暂无收益，请选择被吞sk萨格i撒帝国">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n33_kmnd" name="label_addLevel" xy="184,686" size="327,29" group="n37_kmnd" fontSize="20" color="#333333" align="center" vAlign="middle" autoSize="none" text="随机替身嘎松i和阿松后悔 "/>
+    <text id="n34_kmnd" name="label_petAttr1" xy="135,728" size="117,34" group="n37_kmnd" fontSize="24" color="#4d6d6a" align="center" vAlign="middle" text="生命+54%"/>
+    <text id="n35_kmnd" name="label_petAttr2" xy="285,728" size="117,34" group="n37_kmnd" fontSize="24" color="#4d6d6a" align="center" vAlign="middle" text="生命+54%"/>
+    <text id="n36_kmnd" name="label_petAttr3" xy="433,728" size="117,34" group="n37_kmnd" fontSize="24" color="#4d6d6a" align="center" vAlign="middle" text="生命+54%"/>
+    <group id="n37_kmnd" name="n37" xy="135,686" size="415,76" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n43_81of" name="btn_devourpet" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="239,799" size="212,58" scale="0.9,0.9">
+      <Button title="吞噬"/>
+    </component>
+    <image id="n54_inps" name="n54" src="lu9o4d" fileName="ui/dec_arrow_monthly card.png" pkg="27utqbiz" xy="363,358" size="38,44" rotation="180"/>
+  </displayList>
+</component>

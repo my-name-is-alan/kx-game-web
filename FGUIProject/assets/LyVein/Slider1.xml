@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="385,23" extention="Slider">
+  <displayList>
+    <graph id="n0_jw70" name="n0" xy="0,0" size="385,23" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_jw70" name="bar" xy="5,3" size="375,17" type="rect" lineSize="0" fillColor="#ff3399ff"/>
+    <component id="n2_jw70" name="grip" src="jw703i" fileName="Slider1_grip.xml" xy="360,-5" size="25,30">
+      <relation target="n1_jw70" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider titleType="valueAndmax" wholeNumbers="true"/>
+</component>

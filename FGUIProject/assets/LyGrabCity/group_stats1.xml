@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="317,71">
+  <displayList>
+    <richtext id="n10_m4h7" name="label_des" xy="0,0" size="317,32" fontSize="22" color="#16191a" vAlign="middle" ubb="true" autoSize="none" text="城池等级："/>
+    <text id="n11_m4h7" name="label_jc" xy="0,36" size="116,35" fontSize="22" color="#16191a" vAlign="middle" autoSize="none" text="效果："/>
+    <text id="n12_m4h7" name="label_attr" xy="71,37" size="92,32" fontSize="22" color="#2b841c" vAlign="middle" text="城池生命"/>
+  </displayList>
+</component>

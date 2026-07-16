@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n17_cwvx" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n18_qo8n" name="n18" xy="33,222" size="683,847" group="n16_cwvx" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <component id="n29_qo8n" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="665,262" group="n16_cwvx"/>
+    <image id="n22_qo8n" name="n22" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="65,386" size="620,80" group="n16_cwvx"/>
+    <image id="n21_qo8n" name="n21" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="174,334" size="419,38" group="n16_cwvx"/>
+    <list id="n3_cwvx" name="list_attr1" xy="99,394" size="586,65" group="n16_cwvx" layout="flow_hz" overflow="scroll" colGap="45" defaultItem="ui://2uzp0flscwvx1c">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n23_qo8n" name="n23" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="171,485" size="419,38" group="n16_cwvx"/>
+    <text id="n4_cwvx" name="label_jcsx" xy="325,333" size="128,39" group="n16_cwvx" font="ui://27utqbizps391v" fontSize="28" color="#333333" vAlign="middle" autoClearText="true" text="基础属性1"/>
+    <image id="n24_qo8n" name="n24" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="65,537" size="620,80" group="n16_cwvx"/>
+    <list id="n6_cwvx" name="list_attr2" xy="101,546" size="586,65" group="n16_cwvx" layout="flow_hz" overflow="scroll" colGap="45" defaultItem="ui://2uzp0flscwvx1c">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n7_cwvx" name="label_zdsx" xy="325,483" size="128,39" group="n16_cwvx" font="ui://27utqbizps391v" fontSize="28" color="#333333" vAlign="middle" autoClearText="true" text="战斗属性1"/>
+    <richtext id="n8_cwvx" name="label_xxsx" xy="53,247" size="154,56" group="n16_cwvx" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" ubb="true" strokeColor="#000000" strokeSize="3" autoClearText="true" text="[size=42]详[/size]细属性"/>
+    <image id="n25_qo8n" name="n25" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="64,688" size="620,80" group="n16_cwvx"/>
+    <list id="n11_cwvx" name="list_attr3" xy="101,696" size="586,65" group="n16_cwvx" layout="flow_hz" overflow="scroll" colGap="45" defaultItem="ui://2uzp0flscwvx1c">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n26_qo8n" name="n26" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="173,637" size="419,38" group="n16_cwvx"/>
+    <text id="n12_cwvx" name="label_xxkx" xy="325,635" size="128,39" group="n16_cwvx" font="ui://27utqbizps391v" fontSize="28" color="#333333" vAlign="middle" autoClearText="true" text="战斗抗性1"/>
+    <image id="n28_qo8n" name="n28" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="64,837" size="620,155" group="n16_cwvx"/>
+    <list id="n13_cwvx" name="list_attr4" xy="101,844" size="586,140" group="n16_cwvx" layout="flow_hz" overflow="scroll" colGap="45" defaultItem="ui://2uzp0flscwvx1c">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n27_qo8n" name="n27" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="172,788" size="419,38" group="n16_cwvx"/>
+    <text id="n14_cwvx" name="label_zdkx" xy="326,786" size="116,39" group="n16_cwvx" font="ui://27utqbizps391v" fontSize="28" color="#333333" vAlign="middle" autoClearText="true" text="特殊属性"/>
+    <image id="n20_qo8n" name="n20" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="587,903" group="n16_cwvx"/>
+    <group id="n16_cwvx" name="n16" xy="33,222" size="772,889" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

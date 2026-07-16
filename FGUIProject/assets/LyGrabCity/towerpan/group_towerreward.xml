@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900">
+  <displayList>
+    <image id="n7_knid" name="n7" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="30,25" size="690,870"/>
+    <component id="n8_knid" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,0"/>
+    <image id="n9_knid" name="n9" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="164,61" size="432,38"/>
+    <text id="n10_knid" name="label_title" xy="179,60" size="400,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n4_aao6" name="list_reward" xy="51,120" size="648,573" overflow="scroll" lineGap="10" defaultItem="ui://i35cf1mqj4mudu194" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n11_syjq" name="group_final" src="syjqdu196" fileName="towerpan/group_towerrewarditem2.xml" xy="41,694"/>
+  </displayList>
+</component>

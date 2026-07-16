@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,80">
+  <displayList>
+    <image id="n4_o66p" name="n4" src="o66p4x" fileName="ui/frame_subsidiary explanation.png" xy="0,0" size="200,80">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5_jyo5" name="n5" src="jyo5wi" fileName="ui/dec_connect1.png" xy="6,30"/>
+    <text id="n1_o66p" name="label_name" xy="30,5" size="10,34" font="ui://27utqbizps391v" fontSize="24" color="#f1f6f7" strokeColor="#000000" text="">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <text id="n2_o66p" name="label_level" xy="160,5" size="10,32" fontSize="22" color="#64df72" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n3_o66p" name="label_desc" xy="10,46" size="180,32" fontSize="22" color="#f1f6f7" align="center" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

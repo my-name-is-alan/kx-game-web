@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,840">
+  <displayList>
+    <image id="n72_wnc2" name="n72" src="wnc220" fileName="pet/frame_xialvhuhuandiban.png" xy="24,0"/>
+    <image id="n73_wnc2" name="n73" src="ro4e1g" fileName="elite/frame_touming2.png" xy="49,460" size="652,260"/>
+    <image id="n68_x9bu" name="n68" src="ro4e1a" fileName="res/frame_jiantou.png" xy="316,172"/>
+    <image id="n79_wnc2" name="n79" src="wnc222" fileName="pet/frame_shuxingdi.png" xy="-97,472"/>
+    <image id="n76_wnc2" name="n76" src="kluzh" fileName="res/frame_fengexian.png" xy="213,44"/>
+    <text id="n77_wnc2" name="label_title" xy="301,25" size="148,49" font="ui://27utqbizps391v" fontSize="36" color="#f4e9d5" align="center" vAlign="middle" autoClearText="true" text="选择侠侣">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n59_ro4e" name="btn_comfirm" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,740"/>
+    <component id="n62_ro4e" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="646,-45"/>
+    <component id="n83_wnc2" name="group_model" src="wnc224" fileName="pet/group_petmodel1.xml" xy="78,80"/>
+    <component id="n84_wnc2" name="group_model2" src="wnc224" fileName="pet/group_petmodel1.xml" xy="465,80"/>
+    <text id="n80_wnc2" name="label_recruitingAttr1" xy="191,470" size="92,29" font="ui://27utqbizps391v" fontSize="20" color="#6ad958" vAlign="middle" autoClearText="true" text="生命+12%"/>
+    <text id="n81_wnc2" name="label_recruitingAttr2" xy="325,470" size="92,29" font="ui://27utqbizps391v" fontSize="20" color="#6ad958" vAlign="middle" autoClearText="true" text="生命+12%"/>
+    <text id="n82_wnc2" name="label_recruitingAttr3" xy="477,470" size="92,29" font="ui://27utqbizps391v" fontSize="20" color="#6ad958" vAlign="middle" autoClearText="true" text="生命+12%"/>
+    <text id="n69_x9bu" name="label_level" xy="260,518" size="230,34" font="ui://27utqbizps391v" fontSize="24" color="#c2695b" align="center" vAlign="middle" autoClearText="true" text="参战技能（等级{0}）">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n78_wnc2" name="label_desc" xy="75,553" size="600,31" font="ui://27utqbizps391v" fontSize="22" color="#c2695b" vAlign="middle" autoSize="height" autoClearText="true" text="参战技能（等级{0}）"/>
+  </displayList>
+</component>

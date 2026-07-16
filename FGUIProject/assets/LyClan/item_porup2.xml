@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,60">
+  <displayList>
+    <graph id="n48_e8yx" name="n48" xy="0,0" size="640,60" type="rect" lineSize="0" fillColor="#fff4eee5"/>
+    <text id="n44_g7bh" name="label_name" xy="16,12" size="240,36" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" text="玩家名字"/>
+    <text id="n46_g7bh" name="label_time" xy="400,12" size="146,36" fontSize="26" color="#16191a" vAlign="middle" text="13：34：44"/>
+  </displayList>
+</component>

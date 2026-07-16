@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200">
+  <displayList>
+    <graph id="n2_syjq" name="graph_click" xy="0,100" size="200,100" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff"/>
+    <loader3D id="n0_j4mu" name="loader_spine" xy="99,198" size="2,2" animation="" skin="" loop="true"/>
+    <component id="n1_j4mu" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="50,0"/>
+  </displayList>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="184,102" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_vp1r" name="n0" src="vp1r5q" fileName="res/btn_7days.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_vp1r" name="n1" src="vp1r5q" fileName="res/btn_7days.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_vp1r" name="n2" src="vp1r5q" fileName="res/btn_7days.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_vp1r" name="n3" src="vp1r5q" fileName="res/btn_7days.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_vp1r" name="title" xy="0,6" size="184,50" font="ui://27utqbizps391v" fontSize="36" color="#ffb26e" align="center" vAlign="middle" autoSize="none" strokeColor="#964f10" strokeSize="3" singleLine="true" text="6">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n7_vp1r" name="des" xy="32,41" size="123,41" fontSize="24" color="#232423" align="center" vAlign="middle" autoSize="none" text="雇佣7天"/>
+  </displayList>
+  <Button/>
+</component>

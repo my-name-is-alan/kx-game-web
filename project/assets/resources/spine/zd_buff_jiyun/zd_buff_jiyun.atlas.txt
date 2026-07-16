@@ -1,0 +1,20 @@
+
+zd_buff_jiyun.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zd_buff_jiyun_01
+  rotate: false
+  xy: 2, 39
+  size: 92, 86
+  orig: 93, 86
+  offset: 1, 0
+  index: -1
+zd_buff_jiyun_02
+  rotate: false
+  xy: 96, 88
+  size: 29, 37
+  orig: 30, 39
+  offset: 1, 1
+  index: -1

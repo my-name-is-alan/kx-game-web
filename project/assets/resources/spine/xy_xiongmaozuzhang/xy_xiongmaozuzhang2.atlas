@@ -1,0 +1,111 @@
+
+xy_xiongmaozuzhang2.png
+size: 221,221
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiaoxiong1_1
+  rotate: true
+  xy: 74, 7
+  size: 45, 30
+  orig: 46, 31
+  offset: 1, 1
+  index: -1
+xiaoxiong1_2
+  rotate: false
+  xy: 2, 54
+  size: 89, 83
+  orig: 90, 84
+  offset: 1, 0
+  index: -1
+xiaoxiong1_3
+  rotate: false
+  xy: 145, 21
+  size: 28, 43
+  orig: 30, 43
+  offset: 1, 0
+  index: -1
+xiaoxiong1_4
+  rotate: false
+  xy: 175, 41
+  size: 38, 23
+  orig: 40, 25
+  offset: 1, 2
+  index: -1
+xiaoxiong1_5
+  rotate: false
+  xy: 93, 67
+  size: 68, 68
+  orig: 70, 70
+  offset: 1, 1
+  index: -1
+xiaoxiong1_6
+  rotate: false
+  xy: 163, 66
+  size: 44, 28
+  orig: 44, 30
+  offset: 0, 1
+  index: -1
+xiaoxiong1_biyan
+  rotate: false
+  xy: 198, 168
+  size: 16, 12
+  orig: 17, 14
+  offset: 1, 1
+  index: -1
+xiaoxiong2_1
+  rotate: false
+  xy: 163, 96
+  size: 56, 39
+  orig: 59, 39
+  offset: 0, 0
+  index: -1
+xiaoxiong2_2
+  rotate: false
+  xy: 2, 139
+  size: 97, 80
+  orig: 98, 80
+  offset: 1, 0
+  index: -1
+xiaoxiong2_3
+  rotate: false
+  xy: 2, 2
+  size: 35, 50
+  orig: 37, 51
+  offset: 1, 0
+  index: -1
+xiaoxiong2_4
+  rotate: true
+  xy: 101, 137
+  size: 82, 95
+  orig: 84, 98
+  offset: 1, 2
+  index: -1
+xiaoxiong2_5
+  rotate: true
+  xy: 106, 6
+  size: 59, 37
+  orig: 61, 39
+  offset: 1, 1
+  index: -1
+xiaoxiong2_6
+  rotate: false
+  xy: 39, 3
+  size: 33, 49
+  orig: 35, 51
+  offset: 1, 1
+  index: -1
+xiaoxiong2_biyan1
+  rotate: true
+  xy: 198, 197
+  size: 22, 17
+  orig: 24, 18
+  offset: 1, 0
+  index: -1
+xiaoxiong2_biyan2
+  rotate: true
+  xy: 198, 182
+  size: 13, 17
+  orig: 14, 18
+  offset: 1, 1
+  index: -1

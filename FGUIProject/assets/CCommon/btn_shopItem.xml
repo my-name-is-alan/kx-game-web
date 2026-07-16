@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="215,300" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n3_jis8" name="title" xy="57,29" size="100,38" fontSize="24" align="center" vAlign="middle" autoSize="none" singleLine="true" text="仙桃"/>
+    <text id="n6_jis8" name="label_limit" xy="26,179" size="162,38" fontSize="24" color="#ff0000" align="center" vAlign="middle" autoSize="none" text="每日限购：1"/>
+    <component id="n7_jis8" name="btn_buy" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="0,235"/>
+    <component id="n8_knxo" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" xy="57,74"/>
+  </displayList>
+  <Button/>
+</component>

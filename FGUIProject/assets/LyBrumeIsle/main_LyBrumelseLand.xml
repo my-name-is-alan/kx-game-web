@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1700">
+  <controller name="event" exported="true" pages="0,,1,,2,,3,,5," selected="0"/>
+  <controller name="layer" exported="true" pages="0,&lt;=2层,1,3层" selected="0"/>
+  <displayList>
+    <loader id="n69_gm8n" name="loader_land" xy="0,0" pivot="0.5,0.5" size="750,1700" url="ui://h1d08dw1h8u4w" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n99_mchc" name="pro" src="mchco7" fileName="res/ProgressBar3.xml" xy="79,88" size="583,15">
+      <gearDisplay controller="layer" pages="1"/>
+      <relation target="" sidePair="top-top"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <image id="n79_io2q" name="n79" src="io2qnq" fileName="res/frame_wuyindaobiaotidiban.png" xy="7,178" group="n95_io2q"/>
+    <text id="n80_io2q" name="label_name" xy="276,183" size="196,54" group="n95_io2q" font="ui://27utqbizps391v" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="雾隐核心"/>
+    <text id="n81_io2q" name="n81" xy="264,226" size="176,54" group="n95_io2q" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="距离抉择地点："/>
+    <text id="n32_gm8n" name="label_scTimes" xy="430,237" size="76,34" group="n95_io2q" fontSize="24" color="#fadd9f" vAlign="middle" autoSize="none" text="9/10"/>
+    <component id="n68_gm8n" name="btn_point" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="482,234" group="n95_io2q" scale="1.2,1.2"/>
+    <text id="n29_gm8n" name="n29" xy="289,268" size="114,32" group="n94_io2q" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#16191a" strokeSize="2" text="安全时间："/>
+    <text id="n34_gm8n" name="label_antime" xy="396,268" pivot="0.5,0.5" size="82,32" group="n94_io2q" fontSize="22" color="#ff0000" align="center" vAlign="middle" autoSize="shrink" strokeColor="#16191a" strokeSize="2" autoClearText="true" text="000000"/>
+    <group id="n94_io2q" name="group_so" xy="289,268" size="189,32" group="n95_io2q" advanced="true"/>
+    <group id="n95_io2q" name="n95" xy="7,178" size="736,156" advanced="true"/>
+    <component id="n49_gm8n" name="btn_attack" src="h8u429" fileName="Button1.xml" xy="285,958" group="n64_gm8n">
+      <gearDisplay controller="event" pages="1,2,3"/>
+      <Button icon="ui://h1d08dw1h8u411"/>
+    </component>
+    <loader3D id="n38_gm8n" name="loader_monster" xy="373,848" size="1,1" group="n52_gm8n" scale="0.9,0.9" animation="" skin="" loop="true"/>
+    <image id="n44_gm8n" name="n44" src="gm8n2i" fileName="ui/frame_heidi.png" pkg="27utqbiz" xy="141,858" group="n52_gm8n"/>
+    <text id="n41_gm8n" name="label_monStername" xy="295,860" size="157,46" group="n52_gm8n" font="ui://27utqbizps391v" fontSize="32" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" autoSize="shrink" strokeColor="#b4593d" strokeSize="2" text="神秘地窟"/>
+    <component id="n39_gm8n" name="btn_monsterPoint" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="222,837" group="n52_gm8n" scale="1.2,1.2"/>
+    <component id="n46_gm8n" name="btn_mark" src="h8u42b" fileName="btn_com.xml" xy="529,850" group="n52_gm8n">
+      <gearDisplay controller="event" pages="1"/>
+      <Button icon="ui://h1d08dw1h8u4z"/>
+    </component>
+    <image id="n47_gm8n" name="img_alardyMark" src="h8u417" fileName="res/btn_yibiaoji.png" xy="539,872" group="n52_gm8n">
+      <gearDisplay controller="event" pages="1"/>
+    </image>
+    <component id="n50_gm8n" name="btn_raoguo" src="h8u42b" fileName="btn_com.xml" xy="475,1056" group="n52_gm8n">
+      <Button icon="ui://h1d08dw1h8u414"/>
+    </component>
+    <component id="n54_gm8n" name="bar_hp" src="gm8ndu16n" fileName="bar_level7.xml" pkg="27utqbiz" xy="226,917" size="295,21" group="n52_gm8n">
+      <ProgressBar value="77" max="100"/>
+    </component>
+    <text id="n51_gm8n" name="label_attackTime" xy="282,1153" size="185,29" group="n52_gm8n" fontSize="20" color="#e14b4b" align="center" vAlign="middle" autoSize="none" strokeColor="#181a1a" strokeSize="2" text=""/>
+    <text id="n55_gm8n" name="label_hp" xy="226,914" size="296,29" group="n52_gm8n" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#2c2b26" strokeSize="2" text="35"/>
+    <loader3D id="n71_q0fr" name="loader_attack" xy="370,556" size="1,1" group="n52_gm8n" animation="" skin="" loop="true"/>
+    <group id="n52_gm8n" name="n52" xy="141,556" size="474,626" group="n64_gm8n" advanced="true">
+      <gearDisplay controller="event" pages="1,3"/>
+    </group>
+    <loader id="n60_gm8n" name="loader_other" xy="10,359" size="749,661" group="n63_gm8n" url="ui://h1d08dw1bbplnh" align="center" vAlign="middle"/>
+    <image id="n57_gm8n" name="n57" src="h8u426" fileName="res/frame_guaiwuname.png" xy="149,836" group="n63_gm8n"/>
+    <text id="n58_gm8n" name="label_otherName" xy="309,831" size="132,44" group="n63_gm8n" font="ui://27utqbizps391v" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#c05f38" strokeSize="2" text="失心狂民"/>
+    <text id="n59_gm8n" name="label_otherDes" xy="190,878" size="387,52" group="n63_gm8n" fontSize="20" color="#ffffff" autoSize="none" strokeColor="#1c1e23" strokeSize="2" text="在"/>
+    <group id="n63_gm8n" name="n63" xy="10,359" size="749,661" group="n64_gm8n" advanced="true">
+      <gearDisplay controller="event" pages="2,5"/>
+    </group>
+    <group id="n64_gm8n" name="group_event" xy="10,359" size="749,823" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n73_bbpl" name="btn_choose" src="h8u429" fileName="Button1.xml" xy="289,1010">
+      <gearDisplay controller="event" pages="5"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://h1d08dw1bbplnn"/>
+    </component>
+    <loader3D id="n5_gm8n" name="loader3d_denglong" xy="375,835" size="1,1" group="n65_gm8n" scale="0.9,0.9" animation="" skin="" loop="true"/>
+    <component id="n6_gm8n" name="btn_search" src="h8u42b" fileName="btn_com.xml" xy="218,643" size="325,402" group="n65_gm8n"/>
+    <component id="n8_gm8n" name="group_add" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="295,1091" group="n65_gm8n"/>
+    <image id="n9_gm8n" name="n9" src="10pydu16m" fileName="ui/frame_leijishouyi.png" pkg="27utqbiz" xy="285,1054" size="183,28" group="n65_gm8n"/>
+    <text id="n10_gm8n" name="label_xh" xy="298,1054" size="173,29" group="n65_gm8n" fontSize="20" color="#ffffff" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#100f16" strokeSize="2" text="本次消耗体力：20"/>
+    <text id="n77_qe5j" name="label_hftime" xy="293,1133" size="173,29" group="n65_gm8n" fontSize="20" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#100f16" strokeSize="2" text="1231"/>
+    <group id="n65_gm8n" name="group_search" xy="218,643" size="325,519" advanced="true">
+      <gearDisplay controller="event" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n11_gm8n" name="n11" src="h8u41j" fileName="res/frame_gerenxinxi.png" xy="18,1365" group="n66_gm8n"/>
+    <image id="n88_io2q" name="n88" src="h8u4v" fileName="res/frame_fengexian2.png" xy="41,1403" size="494,6" group="n66_gm8n"/>
+    <component id="n12_gm8n" name="Group_Hard" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="35,1388" group="n66_gm8n" visible="false"/>
+    <text id="n13_gm8n" name="label_myRank" xy="44,1368" size="176,34" group="n66_gm8n" fontSize="24" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" autoSize="shrink" strokeColor="#000000" strokeSize="2" text="个人排行：4399"/>
+    <text id="n14_gm8n" name="label_myScore" xy="318,1368" size="225,34" group="n66_gm8n" fontSize="24" color="#ffe082" vAlign="middle" letterSpacing="-1" autoSize="shrink" strokeColor="#000000" strokeSize="2" text="获得积分："/>
+    <image id="n15_gm8n" name="n15" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="35,1402" group="n66_gm8n"/>
+    <text id="n16_gm8n" name="label_combatPower" xy="88,1417" size="156,42" group="n66_gm8n" font="ui://27utqbizvkas4q" fontSize="24" color="#cc6600" vAlign="middle" leading="0" letterSpacing="-8" text="531231"/>
+    <component id="n18_gm8n" name="bar_energy" src="gm8n2g" fileName="ProgressBar1.xml" xy="92,1476" size="406,22" group="n66_gm8n">
+      <ProgressBar value="99" max="100"/>
+    </component>
+    <text id="n17_gm8n" name="n17" xy="46,1469" size="47,32" group="n66_gm8n" fontSize="22" color="#53e9bd" vAlign="middle" letterSpacing="-1" strokeColor="#100f16" strokeSize="2" text="精力"/>
+    <text id="n28_gm8n" name="label_lsScore" xy="318,1411" size="226,34" group="n66_gm8n" fontSize="24" color="#ffffff" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#16191a" strokeSize="2" text="临时积分：">
+      <gearDisplay controller="layer" pages="1"/>
+    </text>
+    <group id="n66_gm8n" name="n66" xy="18,1365" size="540,140" group="n97_kpgn" advanced="true"/>
+    <component id="n67_gm8n" name="Group_Chat" src="h8md27" fileName="Group_Chat.xml" pkg="27utqbiz" xy="0,1517" group="n97_kpgn"/>
+    <component id="n4_gm8n" name="btn_shop" src="gm8n2f" fileName="btn_shop.xml" xy="0,1235" size="306,113" group="n97_kpgn" visible="false"/>
+    <component id="n89_io2q" name="btn_reward" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="105,1567" group="n97_kpgn">
+      <Button icon="ui://27utqbizql4f26"/>
+    </component>
+    <component id="n90_io2q" name="btn_rank" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="193,1567" group="n97_kpgn">
+      <Button icon="ui://27utqbizrg021n"/>
+    </component>
+    <component id="n91_io2q" name="btn_gift" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="282,1567" group="n97_kpgn">
+      <Button icon="ui://h1d08dw1h8u413"/>
+    </component>
+    <component id="n92_io2q" name="btn_note" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="370,1567" group="n97_kpgn">
+      <Button icon="ui://h1d08dw1h8u410"/>
+    </component>
+    <component id="n93_io2q" name="btn_chests" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="458,1567" group="n97_kpgn">
+      <Button icon="ui://h1d08dw1h8u412"/>
+    </component>
+    <component id="n61_gm8n" name="btn_close" src="h8u4u19t" fileName="btn_blueback.xml" pkg="27utqbiz" xy="9,1590" group="n97_kpgn"/>
+    <component id="n22_gm8n" name="btn_skipAnim" src="gm8nmi" fileName="btn_checkbox(1).xml" xy="548,1288" group="n97_kpgn"/>
+    <component id="n74_iey1" name="btn_needSkip" src="gm8nmi" fileName="btn_checkbox(1).xml" xy="539,1275" size="49,47" group="n97_kpgn" scale="1.5,1.5" alpha="0"/>
+    <component id="n19_gm8n" name="btn_sx" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="545,1567" group="n97_kpgn">
+      <Button icon="ui://h1d08dw1h8u415"/>
+    </component>
+    <component id="n20_gm8n" name="btn_rz" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="632,1567" group="n97_kpgn">
+      <Button icon="ui://27utqbizrg021o"/>
+    </component>
+    <image id="n23_gm8n" name="n23" src="h8u4u" fileName="res/frame_gerenxinxi2.png" xy="564,1372" group="n62_gm8n"/>
+    <component id="n96_c1f4" name="btn_point2" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="666,1335" group="n62_gm8n"/>
+    <text id="n82_io2q" name="n82" xy="627,1372" size="72,25" group="n62_gm8n" fontSize="17" color="#ffffff" align="center" vAlign="middle" text="雾隐血刃"/>
+    <image id="n31_gm8n" name="n31" src="gm8nu19u" fileName="iconitems/Props-wuyinxuedao.png" pkg="27utqbiz" xy="598,1371" size="27,27" group="n62_gm8n" aspect="true"/>
+    <text id="n35_gm8n" name="label_down" xy="686,1444" size="59,25" group="n62_gm8n" fontSize="17" color="#fab953" vAlign="middle" autoSize="none" strokeColor="#16191a" strokeSize="2" text="1"/>
+    <text id="n30_gm8n" name="n30" xy="603,1441" size="173,32" group="n62_gm8n" fontSize="17" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#16191a" strokeSize="2" text="战败掉落："/>
+    <text id="n83_io2q" name="n83" xy="603,1420" size="173,32" group="n62_gm8n" fontSize="17" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#16191a" strokeSize="2" text="本次探索："/>
+    <text id="n84_io2q" name="label_ts" xy="688,1424" size="59,25" group="n62_gm8n" fontSize="17" color="#fab953" vAlign="middle" autoSize="none" strokeColor="#16191a" strokeSize="2" text="1000"/>
+    <text id="n85_io2q" name="n85" xy="603,1398" size="173,32" group="n62_gm8n" fontSize="17" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#16191a" strokeSize="2" text="已经拥有："/>
+    <text id="n86_io2q" name="label_ownClanScore" xy="688,1402" size="59,25" group="n62_gm8n" fontSize="17" color="#fab953" vAlign="middle" autoSize="none" strokeColor="#16191a" strokeSize="2" text="1"/>
+    <group id="n62_gm8n" name="layer3" xy="564,1335" size="212,138" group="n97_kpgn" advanced="true">
+      <gearDisplay controller="layer" pages="1"/>
+    </group>
+    <group id="n97_kpgn" name="n97" xy="0,1235" size="776,442" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <image id="n76_qe5j" name="bgen" src="qe5jno" fileName="res/hong_g.png" xy="-3,0" size="750,1700" alpha="0">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <component id="n100_mchc" name="group_task" src="mchco6" fileName="group_task.xml" xy="552,327"/>
+  </displayList>
+  <transition name="t0" options="4" frameRate="30">
+    <item time="0" type="Scale" target="n69_gm8n" tween="true" startValue="1,1" endValue="1.2,1.2" duration="30"/>
+    <item time="0" type="XY" target="n69_gm8n" tween="true" startValue="-,0" endValue="-,-60" duration="6"/>
+    <item time="6" type="XY" target="n69_gm8n" tween="true" startValue="-,-60" endValue="-,0" duration="6"/>
+    <item time="12" type="XY" target="n69_gm8n" tween="true" startValue="-,0" endValue="-,-60" duration="6" ease="Linear"/>
+    <item time="18" type="XY" target="n69_gm8n" tween="true" startValue="-,-60" endValue="-,0" duration="6" ease="Linear"/>
+    <item time="24" type="XY" target="n69_gm8n" tween="true" startValue="-,0" endValue="-,-60" duration="6" ease="Linear"/>
+    <item time="30" type="Scale" target="n69_gm8n" tween="true" startValue="1.2,1.2" endValue="1,1" duration="18"/>
+    <item time="30" type="XY" target="n69_gm8n" tween="true" startValue="-,-60" endValue="-,0" duration="6" ease="Linear"/>
+  </transition>
+  <transition name="red" options="4">
+    <item time="0" type="Alpha" target="n76_qe5j" value="0"/>
+    <item time="0" type="Alpha" target="n76_qe5j" value="0"/>
+    <item time="0" type="Alpha" target="n76_qe5j" tween="true" startValue="0" endValue="0.3" duration="1"/>
+    <item time="1" type="Alpha" target="n76_qe5j" tween="true" startValue="0.3" endValue="1" duration="6"/>
+    <item time="13" type="Alpha" target="n76_qe5j" value="0.3"/>
+    <item time="13" type="Alpha" target="n76_qe5j" tween="true" startValue="0.3" endValue="1" duration="6"/>
+    <item time="19" type="Alpha" target="n76_qe5j" tween="true" startValue="1" endValue="0.3" duration="6"/>
+    <item time="25" type="Alpha" target="n76_qe5j" tween="true" startValue="0.3" endValue="1" duration="6"/>
+    <item time="31" type="Alpha" target="n76_qe5j" tween="true" startValue="1" endValue="0" duration="1"/>
+  </transition>
+  <transition name="t2" options="4">
+    <item time="0" type="Scale" target="n34_gm8n" tween="true" startValue="1,1" endValue="1.2,1.2" duration="5"/>
+    <item time="5" type="Scale" target="n34_gm8n" tween="true" startValue="1.2,1.2" endValue="1,1" duration="6"/>
+  </transition>
+</component>

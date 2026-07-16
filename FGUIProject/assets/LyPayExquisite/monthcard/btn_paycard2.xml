@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,100" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n5_omjr" name="n5" src="omjr2q" fileName="monthcard/btn_zhongshenka.png" xy="-32,-73"/>
+    <text id="n4_lu9o" name="title" xy="0,0" size="120,100" font="ui://27utqbizps391v" fontSize="36" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#5a4434" singleLine="true" autoClearText="true" text="123">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

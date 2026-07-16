@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetY="-366">
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n118_mnt8" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n194_niv3" name="n194" xy="24,576" size="700,246" group="n155_mnt8" url="ui://27utqbizrvb52y" fill="scaleFree"/>
+    <image id="n198_niv3" name="n198" src="rvb53c" fileName="ui/dec_tihuanzhanshi_frame_top_left_corner.png" pkg="27utqbiz" xy="46,626" group="n155_mnt8"/>
+    <image id="n195_niv3" name="n195" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="186,642" size="499,156" group="n155_mnt8"/>
+    <loader id="n196_niv3" name="img_quality" xy="43,580" size="662,46" group="n155_mnt8" url="ui://27utqbizrvb53a" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n47_mnt8" name="label_name" xy="75,582" size="595,42" group="n155_mnt8" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" strokeSize="3" text="【当前装备】【极品】名字"/>
+    <list id="n163_mnt8" name="list_attr" xy="222,652" size="213,143" group="n155_mnt8" lineGap="1" defaultItem="ui://27utqbizmnt82z" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n197_niv3" name="img_icon" src="niv33k" fileName="itemframe/EquipItem.xml" pkg="27utqbiz" xy="69,637" group="n155_mnt8"/>
+    <text id="n209_pl5w" name="label_buff" xy="454,654" size="215,29" group="n155_mnt8" fontSize="20" color="#2b841c" autoSize="height" autoClearText="true" text="[腾蛇]"/>
+    <group id="n155_mnt8" name="n155" xy="24,576" size="700,246" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <loader id="n191_niv3" name="n191" xy="24,826" size="700,382" group="n156_mnt8" url="ui://27utqbizrvb52y" fill="scaleFree"/>
+    <image id="n199_niv3" name="n199" src="rvb53c" fileName="ui/dec_tihuanzhanshi_frame_top_left_corner.png" pkg="27utqbiz" xy="46,878" group="n156_mnt8"/>
+    <image id="n200_niv3" name="n200" src="rvb53d" fileName="ui/dec_tihuanzhanshi_frame_low_right_corner.png" pkg="27utqbiz" xy="575,1130" group="n156_mnt8"/>
+    <image id="n192_niv3" name="n192" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="194,891" size="493,202" group="n156_mnt8"/>
+    <loader id="n193_niv3" name="img_qualityNew" xy="43,831" size="662,46" group="n156_mnt8" url="ui://27utqbizrvb53a" align="center" vAlign="middle" fill="scaleFree"/>
+    <list id="n161_mnt8" name="list_attrNew" xy="223,941" size="213,150" group="n156_mnt8" lineGap="3" defaultItem="ui://27utqbizmnt82z" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n137_mnt8" name="label_nameNew" xy="82,833" size="583,42" group="n156_mnt8" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" autoSize="none" strokeColor="#000000" strokeSize="3" text="【新装备】【极品】名字"/>
+    <text id="n148_mnt8" name="n148" xy="219,900" size="76,39" group="n156_mnt8" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" autoSize="none" text="武力"/>
+    <text id="n149_mnt8" name="label_addNew" xy="297,898" size="76,42" group="n156_mnt8" font="ui://27utqbizps391v" fontSize="30" color="#16191a" vAlign="middle" text="+999"/>
+    <component id="n201_niv3" name="img_iconNew" src="niv33k" fileName="itemframe/EquipItem.xml" pkg="27utqbiz" xy="69,887" group="n156_mnt8"/>
+    <component id="n203_qow0" name="btn_attach1" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="293,1132" size="188,54" group="n156_mnt8">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n204_qow0" name="btn_attach" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="395,1139" size="188,54" group="n156_mnt8">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button titleFontSize="28"/>
+    </component>
+    <text id="n210_pl5w" name="label_newbuff" xy="455,906" size="215,29" group="n156_mnt8" fontSize="20" color="#2b841c" autoSize="height" autoClearText="true" text="[腾蛇]"/>
+    <component id="n205_qow0" name="btn_breakdown" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="164,1136" size="188,54" group="n156_mnt8">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button titleFontSize="28"/>
+    </component>
+    <component id="n207_qow0" name="btn_automatic" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="435,1087" group="n156_mnt8">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button titleColor="#767676" titleFontSize="20"/>
+    </component>
+    <group id="n156_mnt8" name="n156" xy="24,826" size="700,396" advanced="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

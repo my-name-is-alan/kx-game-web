@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="fuzg58b6">
+  <resources>
+    <component id="riam0" name="LyChatRoom.xml" path="/" exported="true"/>
+    <image id="riam1" name="emoji_01.png" path="/emoji/" exported="true"/>
+    <image id="riam2" name="frame_biaoqingbaoall.png" path="/res/" scale="9grid" scale9grid="220,100,246,84"/>
+    <image id="riam3" name="frame_jingjie.png" path="/res/"/>
+    <image id="riam4" name="frame_jingjie2.png" path="/res/"/>
+    <image id="riam5" name="frame_jingjie3.png" path="/res/"/>
+    <image id="riam6" name="frame_liaotiankuang.png" path="/res/" scale="9grid" scale9grid="20,20,158,10"/>
+    <image id="riam7" name="frame_shurukuang.png" path="/res/"/>
+    <image id="riam8" name="icon_biaoqingbao.png" path="/res/"/>
+    <component id="riam9" name="btn_emoji.xml" path="/"/>
+    <component id="riama" name="group_chatmain.xml" path="/"/>
+    <component id="riamg" name="group_chatitem.xml" path="/"/>
+    <component id="g1enh" name="group_right.xml" path="/"/>
+    <component id="g1eni" name="group_left.xml" path="/"/>
+    <image id="g1enj" name="frame_liaotiankuang1.png" path="/res/" scale="9grid" scale9grid="20,20,158,10"/>
+    <component id="g1enk" name="group_emoji.xml" path="/"/>
+    <component id="vx99l" name="group_emojiitem.xml" path="/"/>
+    <image id="rtrvm" name="frame_angry.png" path="/emoji/" exported="true"/>
+    <image id="rtrvn" name="frame_speechless.png" path="/emoji/" exported="true"/>
+    <image id="rtrvo" name="frame_sleep.png" path="/emoji/" exported="true"/>
+    <image id="rtrvp" name="frame_sigh.png" path="/emoji/" exported="true"/>
+    <image id="rtrvq" name="frame_see.png" path="/emoji/" exported="true"/>
+    <image id="rtrvr" name="frame_sad.png" path="/emoji/" exported="true"/>
+    <image id="rtrvs" name="frame_please.png" path="/emoji/" exported="true"/>
+    <image id="rtrvt" name="frame_lovely.png" path="/emoji/" exported="true"/>
+    <image id="rtrvu" name="frame_love.png" path="/emoji/" exported="true"/>
+    <image id="rtrvv" name="frame_kiss.png" path="/emoji/" exported="true"/>
+    <image id="rtrvw" name="frame_Ignoringyou.png" path="/emoji/" exported="true"/>
+    <image id="rtrvx" name="frame_heartbreak.png" path="/emoji/" exported="true"/>
+    <image id="rtrvy" name="frame_happy.png" path="/emoji/" exported="true"/>
+    <image id="rtrvz" name="frame_handsome.png" path="/emoji/" exported="true"/>
+    <image id="rtrv10" name="frame_halo.png" path="/emoji/" exported="true"/>
+    <image id="rtrv11" name="frame_good.png" path="/emoji/" exported="true"/>
+    <image id="rtrv12" name="frame_flower.png" path="/emoji/" exported="true"/>
+    <image id="rtrv13" name="frame_doubt.png" path="/emoji/" exported="true"/>
+    <image id="rtrv14" name="frame_disdainful.png" path="/emoji/" exported="true"/>
+    <image id="rtrv15" name="frame_cry.png" path="/emoji/" exported="true"/>
+    <image id="rtrv16" name="frame_corpse.png" path="/emoji/" exported="true"/>
+    <image id="rtrv17" name="frame_bye.png" path="/emoji/" exported="true"/>
+    <image id="rtrv18" name="frame_weep.png" path="/emoji/" exported="true"/>
+    <image id="rtrv19" name="frame_wipesweat.png" path="/emoji/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

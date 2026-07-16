@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="648,158">
+  <displayList>
+    <image id="n18_cxwh" name="n18" src="q96923" fileName="res/frame_doufadi.png" xy="0,0"/>
+    <component id="n17_pm6p" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="30,29"/>
+    <richtext id="n11_ofdw" name="label_name" xy="166,23" size="172,34" fontSize="24" color="#16191a" vAlign="middle" ubb="true" text="啊实打实大苏打"/>
+    <text id="n25_cxwh" name="label_time" xy="594,23" size="10,34" fontSize="24" color="#5b9f57" align="right" vAlign="middle" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <image id="n24_cxwh" name="n24" src="q9692a" fileName="res/frame_fengexian.png" xy="168,64" size="440,6"/>
+    <text id="n6_f2ag" name="label_new" xy="166,73" size="10,34" fontSize="24" color="#cc5f57" vAlign="middle" text=""/>
+    <text id="n5_f2ag" name="label_rank" xy="166,73" size="10,34" fontSize="24" color="#5180a6" vAlign="middle" text=""/>
+    <text id="n26_q969" name="label_server" xy="166,110" size="10,34" fontSize="24" color="#5180a6" vAlign="middle" text=""/>
+    <component id="n28_113zk" name="loader_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="471,119" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+</component>

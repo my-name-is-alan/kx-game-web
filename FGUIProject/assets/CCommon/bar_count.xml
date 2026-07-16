@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="282,26" extention="ProgressBar">
+  <displayList>
+    <image id="n0_abru" name="n0" src="abruk" fileName="ui/frame_progress bar.png" xy="-18,0" size="304,26">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_abru" name="bar" src="abrul" fileName="ui/frame_progress bar2.png" xy="3,4" size="279,18"/>
+    <text id="n2_abru" name="title" xy="0,-2" size="282,29" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#330000" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,490">
+  <displayList>
+    <image id="n65_fii3" name="n65" src="fii32m" fileName="res/frame_daojudi.png" xy="55,0"/>
+    <image id="n57_ro4e" name="n57" src="ro4e1g" fileName="elite/frame_touming2.png" xy="83,33" size="584,304">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n59_ro4e" name="btn_comfirm" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,385"/>
+    <component id="n62_ro4e" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="662,-45"/>
+    <list id="n64_fii3" name="list_equip" xy="165,40" size="460,320" scale="0.9,0.9" layout="flow_hz" overflow="hidden" lineGap="10" colGap="20" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n66_fii3" name="label_name" xy="336,346" size="76,34" fontSize="24" color="#814a3e" align="center" vAlign="middle" autoClearText="true" text="未选择">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n67_fii3" name="label_count" xy="261,445" size="227,34" fontSize="24" color="#c85231" align="center" vAlign="middle" autoClearText="true" text="今日剩余次数：{0}次">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

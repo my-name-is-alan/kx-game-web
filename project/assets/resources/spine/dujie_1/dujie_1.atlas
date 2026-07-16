@@ -1,0 +1,48 @@
+
+dujie_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+suo
+  rotate: false
+  xy: 854, 700
+  size: 144, 108
+  orig: 144, 110
+  offset: 0, 1
+  index: -1
+suo_1
+  rotate: false
+  xy: 469, 687
+  size: 180, 79
+  orig: 202, 93
+  offset: 0, 0
+  index: -1
+suo_2
+  rotate: false
+  xy: 2, 699
+  size: 465, 299
+  orig: 465, 299
+  offset: 0, 0
+  index: -1
+suo_3_1
+  rotate: false
+  xy: 469, 768
+  size: 383, 230
+  orig: 398, 230
+  offset: 0, 0
+  index: -1
+suo_3_2
+  rotate: true
+  xy: 854, 810
+  size: 188, 97
+  orig: 188, 97
+  offset: 0, 0
+  index: -1
+suo_5
+  rotate: false
+  xy: 651, 688
+  size: 147, 78
+  orig: 208, 132
+  offset: 24, 12
+  index: -1

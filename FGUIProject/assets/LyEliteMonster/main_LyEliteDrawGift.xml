@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="773,1134">
+  <displayList>
+    <image id="n0_isy4" name="n0" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="704,1104" alpha="0.998"/>
+    <richtext id="n1_isy4" name="label_title" xy="24,29" size="210,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" text="门客">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n3_isy4" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="640,39">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n5_isy4" name="n5" src="c3ihdu17d" fileName="2.0/mk_baoxiang_tap1.png" xy="28,113"/>
+    <component id="n23_isy4" name="group_pro" src="isy4du17y" fileName="drap.xml" xy="39,191" size="460,139"/>
+    <image id="n25_isy4" name="n25" src="c3ihdu17h" fileName="2.0/mk_jiantou.png" xy="481,285"/>
+    <loader id="n27_isy4" name="n27" xy="521,176" size="137,137" aspect="true" url="ui://27utqbizdi0rwb" align="center" fill="scale"/>
+    <image id="n28_isy4" name="n28" src="c3ihdu17c" fileName="2.0/mk_di_01.png" xy="539,292"/>
+    <text id="n29_isy4" name="n29" xy="549,292" size="86,32" font="ui://27utqbizps391v" fontSize="22" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" text="200"/>
+    <list id="n36_isy4" name="list_n" xy="18,374" size="657,685" overflow="scroll" lineGap="-8" defaultItem="ui://xcpqvzp3isy4du189" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n2_isy4" name="n2" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="555,926"/>
+    <component id="n37_h7ne" name="group_null" src="io2qnr" fileName="group_kkry.xml" pkg="27utqbiz" xy="125,496" visible="false"/>
+  </displayList>
+</component>

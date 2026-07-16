@@ -1,0 +1,20 @@
+
+zq_heye.png
+size: 455,455
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bowen
+  rotate: false
+  xy: 2, 388
+  size: 265, 65
+  orig: 265, 65
+  offset: 0, 0
+  index: -1
+heye
+  rotate: false
+  xy: 269, 376
+  size: 184, 77
+  orig: 184, 77
+  offset: 0, 0
+  index: -1

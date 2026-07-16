@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="230,89">
+  <displayList>
+    <image id="n114_hsrt" name="n114" src="j3rv3y" fileName="ui/frame_economy.png" pkg="27utqbiz" xy="0,0" size="230,89"/>
+    <text id="n115_hsrt" name="label_name" xy="89,9" size="52,34" fontSize="24" color="#ffeca4" align="center" vAlign="middle" autoClearText="true" text="名字">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n116_hsrt" name="label_server" xy="77,44" size="76,34" fontSize="24" color="#e6dac2" align="center" vAlign="middle" autoClearText="true" text="服务器">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

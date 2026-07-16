@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,560">
+  <displayList>
+    <image id="n17_k1vl" name="n17" src="k1vlm3" fileName="res/frame_public3.png" pkg="qnktu1il" xy="29,0" size="690,560"/>
+    <image id="n18_k1vl" name="n18" src="k1vlm2" fileName="res/frame_top_layer.png" pkg="qnktu1il" xy="59,100" size="630,340"/>
+    <image id="n19_k1vl" name="n19" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="158,40" size="431,38"/>
+    <text id="n20_k1vl" name="label_title" xy="370,39" size="10,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n1_aao6" name="label_desc" xy="370,390" size="10,32" fontSize="22" color="#16191a" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n7_j5iz" name="group_attr8" src="qhxyd" fileName="group_attr8.xml" xy="125,120"/>
+    <component id="n16_j5iz" name="btn_cancel" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="120,460"/>
+    <component id="n15_j5iz" name="btn_comfirm" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="420,460"/>
+  </displayList>
+</component>

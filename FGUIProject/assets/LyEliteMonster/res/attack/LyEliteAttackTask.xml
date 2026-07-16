@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="659,991">
+  <displayList>
+    <image id="n50_ltem" name="n50" src="l3tj2o" fileName="res/attack/pic_renwu.png" xy="15,0"/>
+    <text id="n51_ltem" name="desc" xy="393,188" size="231,29" fontSize="20" color="#ffffff" align="right" letterSpacing="-1" autoSize="none" strokeColor="#ce713e" strokeSize="2" text="任务每日0点重置"/>
+    <list id="n52_ltem" name="list_all" xy="0,276" size="659,715" overflow="scroll" defaultItem="ui://xcpqvzp3ltem3y">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,97 @@
+
+zd_gw_dandao_leidian.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tu/leidian/zd_gw_dandao_leidian01
+  rotate: false
+  xy: 62, 106
+  size: 65, 249
+  orig: 66, 252
+  offset: 0, 0
+  index: -1
+tu/leidian/zd_gw_dandao_leidian02
+  rotate: false
+  xy: 210, 106
+  size: 64, 249
+  orig: 66, 252
+  offset: 2, 0
+  index: -1
+tu/leidian/zd_gw_dandao_leidian03
+  rotate: false
+  xy: 370, 2
+  size: 60, 246
+  orig: 66, 252
+  offset: 5, 0
+  index: -1
+tu/leidian/zd_gw_dandao_leidian04
+  rotate: false
+  xy: 2, 103
+  size: 58, 252
+  orig: 66, 252
+  offset: 2, 0
+  index: -1
+tu/zd_gw_dandao_leidian_
+  rotate: false
+  xy: 210, 36
+  size: 158, 68
+  orig: 165, 71
+  offset: 3, 2
+  index: -1
+tu/zd_gw_dandao_leidian_0
+  rotate: true
+  xy: 276, 120
+  size: 128, 55
+  orig: 128, 55
+  offset: 0, 0
+  index: -1
+tu/zd_gw_dandao_leidian_1
+  rotate: true
+  xy: 291, 250
+  size: 255, 111
+  orig: 257, 113
+  offset: 1, 1
+  index: -1
+tu/zd_gw_dandao_leidian_2
+  rotate: false
+  xy: 2, 357
+  size: 287, 148
+  orig: 288, 150
+  offset: 1, 1
+  index: -1
+tu/zd_gw_dandao_leidian_3
+  rotate: true
+  xy: 129, 84
+  size: 132, 79
+  orig: 134, 80
+  offset: 0, 1
+  index: -1
+tu/zd_gw_dandao_leidian_4
+  rotate: true
+  xy: 129, 218
+  size: 137, 79
+  orig: 137, 80
+  offset: 0, 1
+  index: -1
+tu/zd_gw_dandao_leidian_5
+  rotate: true
+  xy: 62, 66
+  size: 38, 27
+  orig: 40, 29
+  offset: 1, 1
+  index: -1
+tu/zd_gw_dandao_leidian_6
+  rotate: false
+  xy: 2, 75
+  size: 19, 26
+  orig: 20, 28
+  offset: 0, 1
+  index: -1
+tu/zd_gw_dandao_leidian_7
+  rotate: false
+  xy: 2, 62
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1

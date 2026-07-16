@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,406">
+  <displayList>
+    <image id="n17_bbpl" name="n17" src="h8u41e" fileName="res/frame_biaoji.png" xy="0,0"/>
+    <loader id="n13_bbpl" name="loader_now" xy="552,25" size="108,66" url="ui://h1d08dw1h8u41g"/>
+    <text id="n12_bbpl" name="n12" xy="270,128" size="323,32" fontSize="20" vAlign="middle" autoSize="none" text="生命："/>
+    <text id="n11_bbpl" name="label_desc" xy="269,193" size="323,32" fontSize="20" vAlign="middle" autoSize="none" text="击败"/>
+    <list id="n9_bbpl" name="list_item" xy="273,231" size="477,100" scale="0.73,0.73" layout="row" overflow="scroll" scroll="horizontal" colGap="17" defaultItem="ui://27utqbizewyha" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader3D id="n8_bbpl" name="loader3d_monster" xy="126,314" size="1,1" scale="0.7,0.7" animation="" skin="" loop="true"/>
+    <text id="n7_bbpl" name="label_monstername" xy="215,40" size="241,58" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#67765c" strokeSize="2" text="失心狂民"/>
+    <component id="n14_bbpl" name="bar_hp" src="gqduv9" fileName="bar_level2.xml" pkg="27utqbiz" xy="267,155" size="369,38">
+      <ProgressBar value="50" max="100"/>
+    </component>
+  </displayList>
+</component>

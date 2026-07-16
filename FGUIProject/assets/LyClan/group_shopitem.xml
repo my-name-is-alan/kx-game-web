@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="192,262">
+  <displayList>
+    <image id="n8_hl71" name="n8" src="u96x1f" fileName="res/frame_store.png" xy="0,0"/>
+    <text id="n2_fdj4" name="label_name" xy="17,17" size="158,36" fontSize="26" color="#fffafa" align="center" vAlign="middle" autoSize="shrink" strokeColor="#48739c" strokeSize="3" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n0_fdj4" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="51,61" scale="0.88,0.88"/>
+    <image id="n16_m2rj" name="group_over" src="m2rj94" fileName="res3/btn_yishouqing.png" xy="20,169" visible="false"/>
+    <text id="n3_fdj4" name="label_limit" xy="-3,149" size="198,29" group="n17_m2rj" fontSize="20" color="#d12929" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n19_r41c" name="btn_buy" src="r41cmi" fileName="btn_normal1_2.xml" pkg="qnktu1il" xy="-11,171" group="n17_m2rj" scale="0.8,0.8"/>
+    <group id="n17_m2rj" name="group_buy" xy="-11,149" size="214,80" advanced="true"/>
+    <loader id="n13_m2rj" name="n13" xy="0,0" size="192,262" group="n15_m2rj" alpha="0.7" url="ui://8rnw66xwu96x1f" color="#000000"/>
+    <image id="n12_m2rj" name="n12" src="ql4f2b" fileName="res3/frame_blockade.png" xy="8,90" group="n15_m2rj"/>
+    <text id="n14_m2rj" name="label_lock" xy="25,92" size="141,56" group="n15_m2rj" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" text="帮派头衔达到神庭阶级解锁"/>
+    <group id="n15_m2rj" name="group_lock" xy="0,0" size="192,262" visible="false" advanced="true"/>
+  </displayList>
+</component>

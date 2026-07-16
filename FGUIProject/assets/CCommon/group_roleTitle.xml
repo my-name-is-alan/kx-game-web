@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="202,101">
+  <displayList>
+    <loader3D id="n12_ujwx" name="loader3d_ch" xy="102,50" pivot="0.5,0.5" size="1,1" scale="0.42,0.42" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <loader id="n10_ujwx" name="loader_ch" xy="0,0" pivot="0.5,0.5" size="202,101" aspect="true" scale="0.7,0.7" url="ui://27utqbiziny5u173" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n13_9jvz" name="loader_phase" xy="0,0" size="202,101" aspect="true" url="ui://27utqbiziny5u173" align="center" vAlign="middle" fill="scale" clearOnPublish="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

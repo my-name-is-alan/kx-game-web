@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5w4f3ir7">
+  <resources>
+    <component id="pq7g59" name="LyPayFunds.xml" path="/" exported="true"/>
+    <image id="pq7g0" name="frame_chaozhifuli.png" path="/res/"/>
+    <image id="pq7g1" name="frame_daojuxiangqingzhuneirongkuang.png" path="/res/"/>
+    <image id="pq7g2" name="frame_ewaijianglitiao.png" path="/res/"/>
+    <image id="pq7g3" name="frame_ewaijianglizonglan.png" path="/res/"/>
+    <image id="pq7g4" name="frame_jianglijindukuai.png" path="/res/"/>
+    <image id="pq7g5" name="frame_jianglijindukuai2.png" path="/res/"/>
+    <image id="pq7g6" name="frame_jiangliliebiao.png" path="/res/"/>
+    <image id="pq7g7" name="frame_jichufuli.png" path="/res/"/>
+    <image id="pq7g8" name="frame_maoxianjijinbg.png" path="/res/"/>
+    <image id="pq7g9" name="frame_shujindutiao.png" path="/res/"/>
+    <image id="pq7ga" name="frame_shujindutiao2.png" path="/res/"/>
+    <image id="pq7gc" name="word_jiliutajijin.png" path="/res/"/>
+    <image id="pq7gd" name="word_maoxianjijin.png" path="/res/"/>
+    <component id="pq7gf" name="group_main.xml" path="/"/>
+    <image id="hdhb5a" name="btn_goumaiyulan.png" path="/res/"/>
+    <image id="hdhb5b" name="word_zhutangjijin.png" path="/res/"/>
+    <component id="hdhb5c" name="btn_preview.xml" path="/"/>
+    <component id="hdhb5d" name="group_itemlist.xml" path="/"/>
+    <component id="fnqv5e" name="LyPayFundPreview.xml" path="/" exported="true"/>
+    <component id="fnqv5f" name="group_preview.xml" path="/"/>
+    <component id="fnqv5g" name="group_previtem.xml" path="/"/>
+    <component id="bza85h" name="group_item.xml" path="/"/>
+    <image id="hldt5i" name="frame_jiliutajijinbg.png" path="/res/"/>
+    <image id="hldt5k" name="frame_xiuweijijinbg.png" path="/res/"/>
+    <image id="hldt5l" name="frame_zhutangjijinbg.png" path="/res/"/>
+    <image id="hldt5m" name="word_xiuweijijin.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

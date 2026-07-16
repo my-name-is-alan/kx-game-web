@@ -1,0 +1,76 @@
+
+ch_chengbatianxia.png
+size: 544,544
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beiban
+  rotate: false
+  xy: 2, 403
+  size: 509, 139
+  orig: 525, 148
+  offset: 8, 6
+  index: -1
+long
+  rotate: true
+  xy: 245, 112
+  size: 195, 150
+  orig: 195, 150
+  offset: 0, 0
+  index: -1
+shan
+  rotate: true
+  xy: 397, 158
+  size: 149, 136
+  orig: 151, 138
+  offset: 1, 1
+  index: -1
+shan2
+  rotate: false
+  xy: 310, 3
+  size: 155, 107
+  orig: 157, 109
+  offset: 1, 1
+  index: -1
+shan3
+  rotate: false
+  xy: 2, 2
+  size: 88, 80
+  orig: 90, 82
+  offset: 1, 1
+  index: -1
+shan4
+  rotate: true
+  xy: 467, 65
+  size: 91, 63
+  orig: 93, 65
+  offset: 1, 1
+  index: -1
+yueliang
+  rotate: true
+  xy: 96, 91
+  size: 216, 147
+  orig: 249, 210
+  offset: 24, 16
+  index: -1
+yun
+  rotate: false
+  xy: 92, 10
+  size: 216, 72
+  orig: 216, 72
+  offset: 0, 0
+  index: -1
+yun2
+  rotate: true
+  xy: 2, 84
+  size: 223, 92
+  orig: 352, 92
+  offset: 0, 0
+  index: -1
+yunwu
+  rotate: false
+  xy: 2, 309
+  size: 484, 92
+  orig: 484, 92
+  offset: 0, 0
+  index: -1

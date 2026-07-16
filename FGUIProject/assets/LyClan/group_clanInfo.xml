@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1112">
+  <displayList>
+    <loader id="n1_hbzk" name="n1" xy="24,0" size="701,1112" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <image id="n47_e8yx" name="n47" src="r2p37g" fileName="res3/bg_bangpai2.png" xy="53,102"/>
+    <graph id="n49_e8yx" name="n49" xy="277,202" size="376,107" type="rect" lineSize="0" fillColor="#ffe1f7f9" corner="6"/>
+    <richtext id="n4_hbzk" name="label_bxl" xy="48,33" size="257,49" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]帮[/size]派信息"/>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <list id="n35_hbzk" name="list_people" xy="54,394" size="640,672" overflow="scroll" lineGap="10" defaultItem="ui://8rnw66xwg7bhu" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n41_id3d" name="img_flag" xy="88,122" size="161,161" url="ui://27utqbizd373uw" align="center" vAlign="middle" fill="scale"/>
+    <text id="n44_id3d" name="label_guid" xy="278,169" size="159,29" fontSize="20" color="#737d80" vAlign="middle" text="帮派编号：12138"/>
+    <text id="n45_id3d" name="label_declaration" xy="296,214" size="342,79" fontSize="24" autoSize="none" text="上线上线"/>
+    <image id="n51_e8yx" name="n51" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="84,273" scale="0.7,0.7"/>
+    <text id="n52_e8yx" name="label_combatPower" xy="124,283" size="60,42" scale="0.7,0.7" font="ui://27utqbizvkas4q" fontSize="24" vAlign="middle" letterSpacing="-8" text="12"/>
+    <text id="n53_e8yx" name="label_number" xy="593,133" size="67,29" fontSize="20" color="#16191a" vAlign="middle" text="100/10"/>
+    <image id="n54_e8yx" name="n54" src="ql4f2j" fileName="res3/icon_renshu.png" xy="574,138" size="18,20"/>
+    <text id="n55_e8yx" name="label_name" xy="341,125" size="132,42" font="ui://27utqbizps391v" fontSize="30" color="#16191a" vAlign="middle" text="七道轮回 "/>
+    <text id="n56_e8yx" name="label_level" xy="278,128" size="60,36" fontSize="26" color="#16191a" vAlign="middle" text="81级"/>
+  </displayList>
+</component>

@@ -1,0 +1,174 @@
+
+dy_lv_mahan.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bozi
+  rotate: true
+  xy: 406, 460
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+dao
+  rotate: true
+  xy: 217, 162
+  size: 116, 145
+  orig: 116, 146
+  offset: 0, 0
+  index: -1
+jian
+  rotate: true
+  xy: 2, 127
+  size: 118, 209
+  orig: 119, 209
+  offset: 1, 0
+  index: -1
+jianshi
+  rotate: true
+  xy: 51, 485
+  size: 15, 44
+  orig: 15, 44
+  offset: 0, 0
+  index: -1
+jiao1
+  rotate: true
+  xy: 147, 342
+  size: 64, 148
+  orig: 66, 157
+  offset: 0, 9
+  index: -1
+jiao2
+  rotate: true
+  xy: 2, 361
+  size: 56, 143
+  orig: 76, 154
+  offset: 11, 11
+  index: -1
+mei1
+  rotate: false
+  xy: 34, 492
+  size: 15, 8
+  orig: 15, 8
+  offset: 0, 0
+  index: -1
+mei2
+  rotate: false
+  xy: 2, 496
+  size: 8, 4
+  orig: 8, 4
+  offset: 0, 0
+  index: -1
+peishi
+  rotate: true
+  xy: 155, 408
+  size: 54, 178
+  orig: 56, 178
+  offset: 2, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 335, 359
+  size: 99, 100
+  orig: 99, 100
+  offset: 0, 0
+  index: -1
+shentihou
+  rotate: true
+  xy: 359, 463
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+shoubil1
+  rotate: true
+  xy: 292, 464
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+shoubil2
+  rotate: false
+  xy: 450, 416
+  size: 50, 84
+  orig: 51, 84
+  offset: 1, 0
+  index: -1
+shoubir1
+  rotate: false
+  xy: 71, 419
+  size: 82, 52
+  orig: 84, 52
+  offset: 2, 0
+  index: -1
+shoubir2
+  rotate: true
+  xy: 226, 467
+  size: 33, 64
+  orig: 33, 64
+  offset: 0, 0
+  index: -1
+shoul
+  rotate: true
+  xy: 97, 479
+  size: 21, 26
+  orig: 21, 26
+  offset: 0, 0
+  index: -1
+shour
+  rotate: false
+  xy: 125, 473
+  size: 29, 27
+  orig: 29, 27
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 2, 443
+  size: 40, 67
+  orig: 40, 67
+  offset: 0, 0
+  index: -1
+xiabai1
+  rotate: true
+  xy: 297, 280
+  size: 77, 195
+  orig: 77, 195
+  offset: 0, 0
+  index: -1
+xiabai2
+  rotate: true
+  xy: 2, 247
+  size: 93, 213
+  orig: 93, 213
+  offset: 0, 0
+  index: -1
+yanbi1
+  rotate: false
+  xy: 12, 495
+  size: 7, 5
+  orig: 7, 5
+  offset: 0, 0
+  index: -1
+yanbi2
+  rotate: false
+  xy: 21, 493
+  size: 11, 7
+  orig: 11, 7
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: false
+  xy: 156, 469
+  size: 68, 31
+  orig: 69, 31
+  offset: 0, 0
+  index: -1
+yifu
+  rotate: false
+  xy: 364, 65
+  size: 121, 213
+  orig: 121, 214
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="710,873">
+  <controller name="c1" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="有奖励"/>
+    <remark page="1" value="无奖励"/>
+  </controller>
+  <displayList>
+    <image id="n121_kuu9" name="n121" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="-3,23" size="696,849"/>
+    <image id="n126_kuu9" name="n126" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="21,426" size="642,313">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <text id="n114_v3t5" name="label_content" xy="37,117" size="630,223" fontSize="24" color="#16191a" autoSize="none" text="        尊敬">
+      <gearSize controller="c1" pages="1" values="630,510,1,1" default="630,223,1,1"/>
+    </text>
+    <list id="n115_v3t5" name="list_prop" xy="40,450" size="611,238" layout="flow_hz" overflow="scroll" lineGap="14" colGap="26" lineItemCount="5" defaultItem="ui://27utqbizewyha">
+      <gearDisplay controller="c1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n125_kuu9" name="btn_delect" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="248,758" size="190,52">
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n124_kuu9" name="btn_get" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="248,756" size="190,52">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button title="一键领取" titleFontSize="30"/>
+    </component>
+    <text id="n122_kuu9" name="label_title" xy="251,57" pivot="0.5,0.5" size="207,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" text="门客羁绊门客羁绊"/>
+    <image id="n123_kuu9" name="n123" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="117,59" pivot="0.5,0.5" size="476,38">
+      <relation target="n122_kuu9" sidePair="width-width"/>
+    </image>
+    <component id="n128_kuu9" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="632,0"/>
+    <text id="n131_d4db" name="label_name" xy="209,353" size="422,34" group="n133_d4db" fontSize="24" color="#16191a" align="right" vAlign="middle" autoSize="none" text="发件人：天山长老"/>
+    <text id="n132_d4db" name="label_time" xy="210,382" size="423,34" group="n133_d4db" fontSize="24" color="#16191a" align="right" vAlign="middle" autoSize="none" text="发件时间：2024/3/22"/>
+    <group id="n133_d4db" name="n133" xy="209,353" size="424,63" advanced="true">
+      <gearXY controller="c1" pages="1" values="209,649" default="209,353"/>
+    </group>
+  </displayList>
+</component>

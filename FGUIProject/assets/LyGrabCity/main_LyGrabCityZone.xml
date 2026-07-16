@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" overflow="scroll" scrollBarFlags="2944">
+  <displayList>
+    <component id="n3_jhmn" name="draw_main" src="jv6udu18b" fileName="draw_city.xml" xy="0,0" size="750,1334">
+      <relation target="" sidePair="top-top"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="630,496">
+  <displayList>
+    <image id="n1_l2d7" name="n1" src="l2d766" fileName="LyActivationOpen/dec_circle.png" xy="164,24"/>
+    <image id="n2_l2d7" name="n2" src="l2d767" fileName="LyActivationOpen/dec_cloud1.png" xy="99,53"/>
+    <image id="n3_l2d7" name="n3" src="l2d768" fileName="LyActivationOpen/dec_cloud2.png" xy="404,34"/>
+    <image id="n4_l2d7" name="n4" src="l2d769" fileName="LyActivationOpen/dec_function name.png" xy="150,228"/>
+    <image id="n5_l2d7" name="n5" src="l2d76a" fileName="LyActivationOpen/frame_open.png" xy="0,-134"/>
+    <image id="n6_l2d7" name="n6" src="l2d76b" fileName="LyActivationOpen/word_xingongnengkaiqi.png" xy="185,14"/>
+    <loader id="n9_l2d7" name="img_icon" xy="290,156" size="50,50" url="ui://27utqbizln3osv" align="center" vAlign="middle"/>
+    <image id="n11_l2d7" name="n11" src="l2d769" fileName="LyActivationOpen/dec_function name.png" xy="336,228" flip="hz"/>
+    <text id="n12_feen" name="label_dec" xy="303,270" size="23,26" fontSize="18" color="#e6cea0" align="center" vAlign="middle" strokeColor="#9e3f06" text="sa">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader id="n15_feen" name="img_title" xy="276,213" size="78,50" url="ui://27utqbizfeente" align="center" vAlign="middle"/>
+  </displayList>
+</component>

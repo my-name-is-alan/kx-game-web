@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n7_gxp4" name="n0" src="gxp411" fileName="giftgroup/btn_qiehuanyuandian2.png" xy="17,17">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n4_gxp4" name="n1" src="gxp4y" fileName="giftgroup/btn_qiehuanyuandian1.png" xy="2,2">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n8_gxp4" name="n2" src="gxp411" fileName="giftgroup/btn_qiehuanyuandian2.png" xy="17,17">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n6_gxp4" name="n3" src="gxp4y" fileName="giftgroup/btn_qiehuanyuandian1.png" xy="2,2">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

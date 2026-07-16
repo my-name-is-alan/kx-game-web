@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n68_gcnf" name="btn_backMask" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n56_gcnf" name="n56" xy="30,485" size="694,378" group="n74_pe7y" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <component id="n57_gcnf" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,459" group="n74_pe7y"/>
+    <image id="n58_gcnf" name="n58" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="161,536" size="421,38" group="n74_pe7y"/>
+    <text id="n59_gcnf" name="label_title" xy="311,535" size="116,39" group="n74_pe7y" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" text="超级刷新">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n65_gcnf" name="btn_sure" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="136,743" size="216,58" group="n74_pe7y">
+      <Button titleFontSize="32"/>
+    </component>
+    <text id="n73_pe7y" name="label_desc" xy="115,614" size="537,75" group="n74_pe7y" fontSize="28" color="#16191a" autoSize="shrink" text="观看视频后"/>
+    <component id="n75_pe7y" name="btn_ad" src="pe7ym9" fileName="btn_normal1_Ad.xml" pkg="qnktu1il" xy="393,742" group="n74_pe7y">
+      <Button titleFontSize="28"/>
+    </component>
+    <group id="n74_pe7y" name="n74" xy="30,459" size="720,404" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

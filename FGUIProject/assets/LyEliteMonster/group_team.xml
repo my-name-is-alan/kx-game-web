@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="604,102" overflow="hidden">
+  <displayList>
+    <image id="n23_s742" name="n23" src="s74225" fileName="res/main/frame_ranking.png" xy="1,17"/>
+    <component id="n24_s742" name="loader_icon0" src="j2yt6" fileName="btn_eliteM.xml" xy="88,-7"/>
+    <component id="n25_s742" name="loader_icon1" src="j2yt6" fileName="btn_eliteM.xml" xy="194,-7"/>
+    <component id="n26_s742" name="loader_icon2" src="j2yt6" fileName="btn_eliteM.xml" xy="300,-7" size="99,138"/>
+    <richtext id="n10_j2yt" name="label_xuhao" xy="15,32" size="50,44" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="3" text="1"/>
+    <component id="n27_s742" name="btn_up" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="431,30" size="160,50"/>
+    <image id="n28_s742" name="n28" src="y9su1g" fileName="res/main/frame_currently selected.png" xy="438,37" group="n29_s742"/>
+    <richtext id="n14_j2yt" name="n14" xy="460,33" size="103,44" group="n29_s742" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" autoSize="none" strokeColor="#16191a" strokeSize="2" text="当前"/>
+    <group id="n29_s742" name="group_now" xy="438,33" size="184,44" advanced="true"/>
+  </displayList>
+</component>

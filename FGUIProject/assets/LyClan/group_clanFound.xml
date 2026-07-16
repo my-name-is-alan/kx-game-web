@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,908">
+  <displayList>
+    <loader id="n34_jos6" name="n34" xy="27,30" size="696,878" url="ui://qnktu1ilpugclw" align="center" vAlign="middle" fill="scaleFree"/>
+    <image id="n46_ql4f" name="n46" src="ql4f2g" fileName="res3/bg_bangpai1.png" xy="44,54"/>
+    <component id="n2_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,0"/>
+    <image id="n36_jos6" name="n36" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="192,83" size="374,38"/>
+    <richtext id="n37_jos6" name="label_bxl" xy="320,81" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="帮派旗帜"/>
+    <text id="n16_hbzk" name="label_str87" xy="82,410" size="118,42" font="ui://27utqbizps391v" fontSize="30" color="#16191a" vAlign="middle" leading="0" letterSpacing="-2" autoClearText="true" text="帮派名字"/>
+    <text id="n17_hbzk" name="label_str88" xy="82,455" size="118,42" font="ui://27utqbizps391v" fontSize="30" color="#16191a" vAlign="middle" letterSpacing="-2" text="帮派宣言"/>
+    <text id="n18_hbzk" name="label_str89" xy="82,597" size="118,42" font="ui://27utqbizps391v" fontSize="30" color="#16191a" vAlign="middle" letterSpacing="-2" text="帮派公告"/>
+    <image id="n40_jos6" name="n40" src="jos61i" fileName="res2/frame_write.png" xy="222,411" size="458,46"/>
+    <image id="n39_jos6" name="n39" src="jos61i" fileName="res2/frame_write.png" xy="82,502" size="598,90"/>
+    <image id="n38_jos6" name="n38" src="jos61i" fileName="res2/frame_write.png" xy="82,642" size="598,90"/>
+    <text id="n25_hbzk" name="label_declaration" xy="113,513" size="523,66" fontSize="24" color="#16191a" autoSize="none" text="" input="true"/>
+    <text id="n26_hbzk" name="label_name" xy="230,415" size="436,37" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="" input="true"/>
+    <text id="n41_jos6" name="label_notice" xy="113,653" size="523,66" fontSize="24" color="#16191a" autoSize="none" text="" input="true"/>
+    <component id="n28_g7bh" name="btn_clan" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="271,824">
+      <Button title="创建帮派" titleFontSize="34"/>
+    </component>
+    <component id="n30_g7bh" name="group_stone" src="ql4f2v" fileName="group_stone.xml" xy="313,788">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n31_g7bh" name="btn_needApply" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="281,736">
+      <Button title="允许随机加入"/>
+    </component>
+    <loader id="n32_g7bh" name="img_flag" xy="303,170" size="137,155" url="ui://27utqbizql4fui" align="center" vAlign="middle"/>
+    <component id="n48_ql4f" name="btn_clanFlag" src="ql4f2u" fileName="btn_set.xml" xy="393,277"/>
+  </displayList>
+</component>

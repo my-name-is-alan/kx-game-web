@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="686,1000">
+  <displayList>
+    <image id="n141_10pyd" name="n141" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="-1,-1" size="655,797"/>
+    <text id="n87_me8j" name="n87" xy="347,3" size="270,32" fontSize="22" color="#5f8fa1" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="派遣侠侣可以获得挂机收益"/>
+    <component id="n89_me8j" name="btn_point" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="597,-6" size="78,50"/>
+    <richtext id="n90_me8j" name="n90" xy="262,45" size="270,32" visible="false" fontSize="22" color="#757575" vAlign="middle" leading="0" autoSize="none" underline="true" text="队长加成"/>
+    <list id="n117_me8j" name="list_allTeam" xy="3,37" size="657,753" overflow="scroll" lineGap="2" defaultItem="ui://xcpqvzp3me8jri" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n118_me8j" name="loader_getJf" xy="-157,862" size="94,92" group="n128_me8j" url="ui://xcpqvzp3me8jr1"/>
+    <image id="n119_me8j" name="img_pro" src="me8jr2" fileName="res/pet/res/frame_jifenzong2.png" xy="-138,875" group="n128_me8j" fillMethod="vt" fillOrigin="1" fillAmount="32"/>
+    <group id="n128_me8j" name="n128" xy="-157,862" size="94,92" visible="false" advanced="true"/>
+    <component id="n121_me8j" name="group_Crystalnumber" src="me8jrj" fileName="res/pet/group_needItem2.xml" xy="42,805" size="83,35" pkg="27utqbiz">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n122_me8j" name="btn_refresh" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="-269,744" size="190,50" visible="false">
+      <Button title="刷新祝福" titleFontSize="30"/>
+    </component>
+    <component id="n123_me8j" name="btn_get" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="425,862" size="190,50">
+      <Button titleFontSize="30"/>
+    </component>
+    <richtext id="n124_me8j" name="label_buff" xy="-327,804" size="270,32" visible="false" fontSize="22" color="#757575" vAlign="middle" leading="0" autoSize="none" underline="true" text="光之祝福"/>
+    <component id="n125_me8j" name="btn_buff" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="-337,793" visible="false"/>
+    <component id="n126_me8j" name="btn_ks" src="me8jrk" fileName="res/pet/res/btn_gj.xml" xy="32,841"/>
+    <text id="n129_me8j" name="n129" xy="145,850" size="84,29" group="n133_me8j" fontSize="20" color="#16191a" align="right" vAlign="middle" leading="0" text="总速率："/>
+    <loader id="n130_me8j" name="loader_icon" xy="217,848" size="31,31" group="n133_me8j" aspect="true" url="ui://27utqbizy9su1m" align="center" vAlign="middle" fill="scale"/>
+    <text id="n132_me8j" name="label_allTimeAdd" xy="252,849" size="28,29" group="n133_me8j" fontSize="20" color="#2b841c" vAlign="middle" leading="0" text="32"/>
+    <group id="n133_me8j" name="n133" xy="145,848" size="135,31" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <image id="n136_10pyd" name="n136" src="10pyds7" fileName="res/pet/res/frame_dangqianjifen.png" xy="3,3" size="220,36">
+      <relation target="n138_10pyd" sidePair="rightext-right"/>
+    </image>
+    <text id="n137_10pyd" name="n137" xy="16,4" size="170,29" fontSize="20" color="#5a4324" vAlign="middle" autoSize="none" text="当前积分："/>
+    <image id="n142_10pyd" name="n142" src="10pydu16m" fileName="res/pet/res/frame_leijishouyi.png" xy="139,888" pkg="27utqbiz"/>
+    <text id="n138_10pyd" name="label_nowScore" xy="106,2" size="60,34" fontSize="24" color="#5a4324" vAlign="middle" autoClearText="true" text="7777"/>
+    <loader id="n139_10pyd" name="loader_icon2" xy="237,888" size="31,31" aspect="true" visible="false" url="ui://27utqbizy9su1m" align="center" vAlign="middle" fill="scale"/>
+    <text id="n120_me8j" name="label_pro" xy="244,884" size="161,36" fontSize="20" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#16191a" strokeSize="2" text="22600/50000"/>
+    <text id="n140_10pyd" name="n139" xy="122,885" size="135,36" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#16191a" strokeSize="2" text="累计收益:"/>
+  </displayList>
+</component>

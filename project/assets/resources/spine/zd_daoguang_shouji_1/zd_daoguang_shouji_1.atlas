@@ -1,0 +1,69 @@
+
+zd_daoguang_shouji_1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wx_msjyd_hit_00000
+  rotate: false
+  xy: 573, 607
+  size: 196, 196
+  orig: 225, 225
+  offset: 16, 14
+  index: -1
+wx_msjyd_hit_00001
+  rotate: true
+  xy: 386, 634
+  size: 184, 185
+  orig: 225, 225
+  offset: 22, 21
+  index: -1
+wx_msjyd_hit_00002
+  rotate: true
+  xy: 205, 643
+  size: 175, 179
+  orig: 225, 225
+  offset: 26, 28
+  index: -1
+wx_msjyd_hit_00003
+  rotate: false
+  xy: 574, 805
+  size: 201, 173
+  orig: 225, 225
+  offset: 13, 33
+  index: -1
+wx_msjyd_hit_00004
+  rotate: false
+  xy: 2, 646
+  size: 201, 174
+  orig: 225, 225
+  offset: 13, 34
+  index: -1
+wx_msjyd_hit_00006
+  rotate: false
+  xy: 777, 805
+  size: 201, 173
+  orig: 225, 225
+  offset: 13, 34
+  index: -1
+wx_msjyd_hit_00008
+  rotate: false
+  xy: 367, 820
+  size: 205, 158
+  orig: 225, 225
+  offset: 11, 37
+  index: -1
+wx_msjyd_hit_00010
+  rotate: false
+  xy: 157, 822
+  size: 208, 156
+  orig: 225, 225
+  offset: 9, 39
+  index: -1
+wx_msjyd_hit_00013
+  rotate: false
+  xy: 2, 836
+  size: 153, 142
+  orig: 225, 225
+  offset: 31, 42
+  index: -1

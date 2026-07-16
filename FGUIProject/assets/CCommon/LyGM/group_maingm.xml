@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900">
+  <displayList>
+    <image id="n7_ibj8" name="n7" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="30,0" size="690,920"/>
+    <component id="n8_ibj8" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,-26"/>
+    <image id="n9_ibj8" name="n9" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="164,35" size="432,38"/>
+    <text id="n10_ibj8" name="label_title" xy="179,34" size="400,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="测试指令">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n2_u71x" name="list_item" xy="46,80" size="653,805" overflow="scroll" scrollBarRes="ui://27utqbizu71x1g," defaultItem="ui://27utqbizu71x14" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

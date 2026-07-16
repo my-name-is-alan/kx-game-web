@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="742,904">
+  <displayList>
+    <image id="n1_agvw" name="n1" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="28,26" size="696,878"/>
+    <component id="n3_agvw" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="664,0"/>
+    <image id="n20_tojh" name="n20" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="187,59" size="376,38"/>
+    <text id="n21_tojh" name="n21" xy="343,55" size="73,40" font="ui://27utqbizps391v" fontSize="29" vAlign="middle" letterSpacing="-3" autoSize="none" text="管理"/>
+    <component id="n23_tojh" name="pro_tili" src="tojh1h" fileName="ProgressBar1.xml" xy="104,153">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <image id="n24_tojh" name="n23" src="fml916" fileName="res/pic_escorter1.png" xy="76,121" group="n57_rzrw"/>
+    <text id="n56_rzrw" name="n56" xy="72,189" size="108,32" group="n57_rzrw" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#16191a" strokeSize="2" text="当前状态"/>
+    <group id="n57_rzrw" name="n24" xy="72,121" size="108,100" advanced="true"/>
+    <image id="n25_tojh" name="img_pos4" src="fml9r" fileName="res/icon_escorter condition4.png.png" xy="0,141"/>
+    <image id="n26_tojh" name="img_pos3" src="fml9s" fileName="res/icon_escorter condition3.png.png" xy="0,141"/>
+    <image id="n27_tojh" name="img_pos2" src="fml9t" fileName="res/icon_escorter condition2.png.png" xy="0,141"/>
+    <image id="n28_tojh" name="img_pos1" src="fml9u" fileName="res/icon_escorter condition1.png" xy="0,141"/>
+    <image id="n37_tojh" name="n37" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="64,295" size="622,537"/>
+    <list id="n52_tojh" name="list_all" xy="81,321" size="598,504" overflow="scroll" lineGap="-14" defaultItem="ui://rtusdzu1tojh1i" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n29_tojh" name="btn_gy" xy="215,228" size="320,126" url="ui://rtusdzu1fml9z"/>
+    <text id="n30_tojh" name="label_free" xy="230,277" size="87,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" vAlign="middle" letterSpacing="-1" autoSize="shrink" strokeColor="#bb922f" strokeSize="2" text="闲 1】"/>
+    <text id="n31_tojh" name="label_all" xy="444,277" size="87,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" vAlign="middle" letterSpacing="-1" autoSize="shrink" strokeColor="#bb922f" strokeSize="2" text="【1】 总 "/>
+    <image id="n34_tojh" name="n34" src="fml91e" fileName="res/frame_control-escorter1.png" xy="330,307"/>
+    <text id="n36_tojh" name="label_number" xy="326,271" size="92,32" fontSize="22" color="#d63326" align="center" vAlign="middle" autoSize="shrink" autoClearText="true" text="400/699"/>
+    <text id="n35_tojh" name="n35" xy="347,302" size="52,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#bb922f" strokeSize="2" text="雇佣"/>
+    <loader id="n53_j655" name="loader_item" xy="361,249" size="26,26" aspect="true" touchable="false" url="ui://27utqbizy9su1m" align="center" vAlign="middle" fill="scale"/>
+    <richtext id="n55_rzrw" name="n55" xy="335,186" size="378,35" fontSize="20" color="#996317" vAlign="middle" autoSize="none" text="(镖师体力越多,    收集资源效率越高)"/>
+    <image id="n59_syru" name="img_no" src="syru57" fileName="res/pic_no escorter.png" xy="263,439"/>
+    <component id="n60_chaq" name="btn_find" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="536,837" size="164,48">
+      <Button title="前往探寻" titleFontSize="30"/>
+    </component>
+  </displayList>
+</component>

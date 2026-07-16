@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="541,493" overflow="scroll">
+  <displayList>
+    <richtext id="n0_cymh" name="label_text" xy="0,0" size="541,31" fontSize="22" color="#16191a" ubb="true" autoSize="height" text="[font=ui://27utqbizps391v]怎么说[/font]">
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+  </displayList>
+</component>

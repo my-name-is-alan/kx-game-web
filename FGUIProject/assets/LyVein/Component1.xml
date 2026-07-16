@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="198,52">
+  <displayList>
+    <loader id="n14_gqn0" name="n14" xy="0,1" size="198,50" url="ui://27utqbizrvb535" fill="scaleFree"/>
+    <richtext id="n15_gqn0" name="n15" xy="36,0" size="125,52" fontSize="30" align="center" vAlign="middle" ubb="true" autoSize="none" text="123"/>
+    <component id="n16_syru" name="n16" src="fixkg" fileName="LyHaven.xml" pkg="rtusdzu1" xy="-622,-629"/>
+  </displayList>
+</component>

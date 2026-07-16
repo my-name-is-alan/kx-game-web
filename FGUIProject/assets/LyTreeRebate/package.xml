@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6p9hmbcd">
+  <resources>
+    <component id="t18c0" name="LyTreeRebate.xml" path="/" exported="true"/>
+    <component id="t18c1" name="group_main.xml" path="/"/>
+    <image id="t18c2" name="bg_jubaopen.png" path="/res/"/>
+    <image id="t18c3" name="btn_lingqu.png" path="/res/"/>
+    <image id="t18c4" name="frame_jubaopen.png" path="/res/"/>
+    <image id="t18ca" name="frame_meirirenwu.png" path="/res/"/>
+    <image id="t18cc" name="frame_yicunchu.png" path="/res/"/>
+    <component id="t18ce" name="btn_take.xml" path="/"/>
+    <component id="t18ck" name="group_task.xml" path="/"/>
+    <component id="t18cm" name="group_drawitem.xml" path="/"/>
+    <image id="t18cr" name="frame_jinzhuqiu.png" path="/res/"/>
+    <component id="t18cs" name="btn_empty.xml" path="/"/>
+    <component id="ncm8t" name="LyTreeRebateGift.xml" path="/" exported="true"/>
+    <component id="ncm8u" name="main_gift.xml" path="/"/>
+    <component id="ncm8v" name="group_paygiftitem.xml" path="/"/>
+    <image id="ncm810" name="frame_orange banner.png" path="/res/"/>
+    <image id="ncm811" name="btn_libao.png" path="/res/"/>
+    <component id="ncm812" name="btn_gifts.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

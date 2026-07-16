@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="584,47">
+  <displayList>
+    <loader id="n3_hi08" name="loader_now" xy="189,0" size="206,42" url="ui://27utqbizl3tjhp" fill="scaleFree"/>
+    <text id="n1_hi08" name="label_now" xy="223,-6" size="144,56" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="0%"/>
+    <loader id="n4_hi08" name="loader_next" xy="403,0" size="180,42" url="ui://27utqbizj2mxhl" fill="scaleFree"/>
+    <text id="n2_hi08" name="label_next" xy="424,-7" size="144,56" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="0%"/>
+    <graph id="n6_nogk" name="n6" xy="403,0" size="181,42" type="rect" lineSize="0" lineColor="#7fffffff" fillColor="#7fffffff"/>
+    <text id="n10_gcnf" name="label_name" xy="0,2" size="182,38" fontSize="26" color="#ffffff" align="right" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="凡品"/>
+  </displayList>
+</component>

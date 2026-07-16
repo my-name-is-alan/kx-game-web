@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,600" overflow="scroll">
+  <displayList>
+    <text id="n0_cymh" name="label_text" xy="0,0" size="600,685" fontSize="20" autoSize="none" text=""/>
+  </displayList>
+</component>

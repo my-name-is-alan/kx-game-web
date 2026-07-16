@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="771,1131">
+  <displayList>
+    <image id="n1_m789" name="n1" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="700,1123"/>
+    <richtext id="n2_m789" name="label_title" xy="23,19" size="235,77" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" text="日志"/>
+    <component id="n3_m789" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="641,37" size="78,78"/>
+    <list id="n25_bbpl" name="list_all" xy="16,117" size="666,955" overflow="scroll" lineGap="-27" defaultItem="ui://h1d08dw1bbpln8" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n4_m789" name="n4" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="553,923"/>
+    <component id="n26_bbpl" name="btn_point" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="149,74" scale="1.2,1.2"/>
+    <text id="n5_m789" name="label_xzNumber" xy="26,109" size="172,32" fontSize="22" color="#16191a" autoSize="none" text="邪祖次数：30"/>
+    <component id="n27_io2q" name="group_null" src="io2qnr" fileName="group_kkry.xml" xy="135,379" visible="false" pkg="27utqbiz"/>
+  </displayList>
+</component>

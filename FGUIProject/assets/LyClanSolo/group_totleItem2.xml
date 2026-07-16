@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="669,178">
+  <displayList>
+    <image id="n0_cgkl" name="label_number" src="a0tr1e" fileName="ui/frame_huodongdiban.png" pkg="27utqbiz" xy="1,0" size="668,176"/>
+    <image id="n12_ltem" name="n12" src="lqjl42" fileName="ui/frame_orange banner2.png" pkg="27utqbiz" xy="35,22" size="285,36"/>
+    <text id="n1_cgkl" name="label_des" xy="74,22" size="209,34" font="ui://27utqbizps391v" fontSize="24" color="#fff3ef" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" singleLine="true" text="镇邪镇邪镇邪镇邪镇邪镇邪"/>
+    <list id="n4_cgkl" name="list_item" xy="37,69" size="496,108" scale="0.82,0.82" layout="flow_hz" overflow="scroll" scroll="horizontal" colGap="23" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <image id="n6_cgkl" name="n6" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="457,83" group="n8_cgkl"/>
+    <text id="n7_cgkl" name="n7" xy="490,90" size="108,42" group="n8_cgkl" font="ui://27utqbizps391v" fontSize="30" color="#f3ffec" vAlign="middle" autoSize="none" text="已领取"/>
+    <group id="n8_cgkl" name="get" xy="457,83" size="158,58" advanced="true"/>
+    <text id="n11_ltem" name="label_day" xy="455,46" size="153,38" fontSize="20" color="#b44949" align="center" vAlign="middle" autoSize="none" text="每日限购：1"/>
+    <component id="n14_tk2y" name="btn_go" src="r41cmi" fileName="btn_normal1_2.xml" pkg="qnktu1il" xy="440,84" size="188,52">
+      <Button titleFontSize="30"/>
+    </component>
+    <component id="n15_ah07" name="group_rebeatfan" src="t09vdu1ai" fileName="group_rebeatfan.xml" pkg="27utqbiz" xy="570,42" visible="false"/>
+  </displayList>
+</component>

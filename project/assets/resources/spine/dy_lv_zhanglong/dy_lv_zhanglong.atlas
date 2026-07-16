@@ -1,0 +1,174 @@
+
+dy_lv_zhanglong.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fa1
+  rotate: true
+  xy: 257, 297
+  size: 28, 37
+  orig: 28, 37
+  offset: 0, 0
+  index: -1
+fa2
+  rotate: true
+  xy: 84, 4
+  size: 20, 35
+  orig: 20, 35
+  offset: 0, 0
+  index: -1
+fa3
+  rotate: false
+  xy: 271, 182
+  size: 100, 113
+  orig: 109, 116
+  offset: 9, 0
+  index: -1
+jio1
+  rotate: false
+  xy: 230, 13
+  size: 55, 127
+  orig: 55, 127
+  offset: 0, 0
+  index: -1
+jio2
+  rotate: true
+  xy: 88, 29
+  size: 60, 140
+  orig: 60, 140
+  offset: 0, 0
+  index: -1
+mei1
+  rotate: false
+  xy: 2, 2
+  size: 14, 7
+  orig: 14, 7
+  offset: 0, 0
+  index: -1
+mei2
+  rotate: true
+  xy: 133, 2
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 234, 389
+  size: 98, 121
+  orig: 98, 121
+  offset: 0, 0
+  index: -1
+shoubil1
+  rotate: false
+  xy: 2, 11
+  size: 41, 78
+  orig: 41, 79
+  offset: 0, 0
+  index: -1
+shoubil2
+  rotate: false
+  xy: 45, 26
+  size: 41, 63
+  orig: 41, 63
+  offset: 0, 0
+  index: -1
+shoubir1
+  rotate: true
+  xy: 234, 327
+  size: 60, 56
+  orig: 60, 56
+  offset: 0, 0
+  index: -1
+shoubir2
+  rotate: true
+  xy: 163, 291
+  size: 31, 54
+  orig: 31, 54
+  offset: 0, 0
+  index: -1
+shoul
+  rotate: true
+  xy: 45, 2
+  size: 22, 37
+  orig: 22, 37
+  offset: 0, 0
+  index: -1
+shour
+  rotate: false
+  xy: 219, 293
+  size: 36, 29
+  orig: 36, 29
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 159, 95
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: true
+  xy: 2, 91
+  size: 197, 155
+  orig: 197, 155
+  offset: 0, 0
+  index: -1
+xiabai1
+  rotate: false
+  xy: 159, 142
+  size: 110, 147
+  orig: 110, 150
+  offset: 0, 3
+  index: -1
+xiabai2
+  rotate: false
+  xy: 2, 290
+  size: 98, 220
+  orig: 100, 220
+  offset: 0, 0
+  index: -1
+xiabai3
+  rotate: false
+  xy: 102, 324
+  size: 130, 186
+  orig: 131, 205
+  offset: 0, 19
+  index: -1
+yanbi1
+  rotate: false
+  xy: 18, 5
+  size: 11, 4
+  orig: 11, 4
+  offset: 0, 0
+  index: -1
+yanbi2
+  rotate: false
+  xy: 31, 7
+  size: 9, 2
+  orig: 9, 2
+  offset: 0, 0
+  index: -1
+yanbip1
+  rotate: true
+  xy: 121, 11
+  size: 16, 10
+  orig: 16, 10
+  offset: 0, 0
+  index: -1
+yanbip2
+  rotate: true
+  xy: 133, 15
+  size: 12, 10
+  orig: 12, 10
+  offset: 0, 0
+  index: -1
+yaoshi1
+  rotate: true
+  xy: 102, 291
+  size: 31, 59
+  orig: 31, 59
+  offset: 0, 0
+  index: -1

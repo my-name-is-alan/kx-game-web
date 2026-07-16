@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,620">
+  <displayList>
+    <image id="n30_iclb" name="n30" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="30,0" size="690,620"/>
+    <image id="n34_k1vl" name="n34" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="169,40" size="412,38"/>
+    <image id="n33_k1vl" name="n33" src="rvb52x" fileName="ui/frame_top_layer.png" pkg="27utqbiz" xy="64,95" size="620,420">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n1_aao6" name="label_title" xy="370,40" size="10,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n23_xq64" name="btn_detail" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="39,16"/>
+    <component id="n36_k1vl" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="654,-24"/>
+    <richtext id="n17_xq64" name="label_desc" xy="370,112" size="10,34" fontSize="24" color="#16191a" align="center" vAlign="middle" ubb="true" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n18_xq64" name="label_prop1" xy="100,178" size="10,39" fontSize="28" color="#16191a" text=""/>
+    <text id="n19_xq64" name="label_prop2" xy="100,248" size="10,39" fontSize="28" color="#16191a" text=""/>
+    <text id="n20_xq64" name="label_prop3" xy="100,318" size="10,39" fontSize="28" color="#16191a" text=""/>
+    <text id="n21_xq64" name="label_prop4" xy="100,388" size="10,39" fontSize="28" color="#16191a" text=""/>
+    <text id="n22_xq64" name="label_prop5" xy="100,458" size="10,39" fontSize="28" color="#16191a" text=""/>
+    <component id="n25_v8pe" name="combo_prop1" src="v8pem" fileName="combo_prop1.xml" pkg="27utqbiz" xy="270,170">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n26_v8pe" name="combo_prop2" src="v8pem" fileName="combo_prop1.xml" pkg="27utqbiz" xy="270,240">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n27_v8pe" name="combo_prop3" src="v8pem" fileName="combo_prop1.xml" pkg="27utqbiz" xy="270,310">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n28_v8pe" name="combo_prop4" src="v8pem" fileName="combo_prop1.xml" pkg="27utqbiz" xy="270,380">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n29_v8pe" name="combo_prop5" src="v8pem" fileName="combo_prop1.xml" pkg="27utqbiz" xy="270,450">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n35_k1vl" name="btn_comfirm" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="268,535"/>
+  </displayList>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="99,138" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n4_j2yt" name="laoder_qua" xy="3,19" size="93,89" url="ui://27utqbizewyh5" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n5_j2yt" name="laoder_icon" xy="3,19" size="93,89" fill="scaleFree"/>
+    <image id="n6_j2yt" name="img_gou" src="u71x12" fileName="ui/img_gou.png" pkg="27utqbiz" xy="53,5" visible="false"/>
+    <image id="n16_y9su" name="n16" src="y9su54" fileName="ui/frame_menke level.png" pkg="27utqbiz" xy="46,85" group="n17_y9su"/>
+    <richtext id="n7_j2yt" name="label_grade" xy="-7,82" size="99,28" group="n17_y9su" fontSize="18" color="#ffffff" align="right" vAlign="middle" autoSize="none" strokeColor="#000000" text="1级"/>
+    <group id="n17_y9su" name="group_grade" xy="-7,82" size="103,28" visible="false" advanced="true"/>
+    <component id="n8_d3qo" name="pro_suip" src="d3qo8" fileName="ProgressBar1.xml" xy="21,115" group="n18_s742">
+      <ProgressBar max="100"/>
+    </component>
+    <image id="n15_y9su" name="n15" src="y9su51" fileName="ui/frame_have&amp;use2.png" pkg="27utqbiz" xy="2,109" group="n18_s742"/>
+    <image id="n11_y9su" name="n11" src="y9su1m" fileName="ui/icon_piece.png" pkg="27utqbiz" xy="4,112" group="n18_s742"/>
+    <text id="n9_d3qo" name="label_suip" xy="26,108" pivot="0.5,0.5" size="66,29" group="n18_s742" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="2/333"/>
+    <group id="n18_s742" name="group_suip" xy="2,108" size="94,29" advanced="true"/>
+    <text id="n19_nogk" name="label_sore" xy="5,126" size="88,29" fontSize="18" color="#4f9a1c" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="111-123"/>
+    <image id="n21_bl0w" name="img_up" src="bl0wpg" fileName="res/main/icon_working.png" xy="-2,12" visible="false"/>
+    <component id="n22_gq5l" name="n22" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="2,19" size="94,89" group="n24_gq5l"/>
+    <image id="n23_gq5l" name="n23" src="ar1l16" fileName="ui/icon_lock.png" pkg="27utqbiz" xy="53,21" group="n24_gq5l"/>
+    <group id="n24_gq5l" name="group_suo" xy="2,19" size="94,89" visible="false" advanced="true"/>
+    <image id="n25_xk2q" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="74,14" visible="false"/>
+    <text id="n26_bdat" name="label_name" xy="1,106" size="98,29" fontSize="20" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="邀月"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

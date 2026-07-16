@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="irbjwyuf">
+  <resources>
+    <component id="l7ic0" name="LyClanSolo.xml" path="/" exported="true"/>
+    <component id="l7ic1" name="btn_close.xml" path="/"/>
+    <component id="l7ic5" name="btn_battle.xml" path="/"/>
+    <component id="l7ic6" name="LyClanSoloMain.xml" path="/" exported="true"/>
+    <component id="l7ic7" name="LyClanSoloBuff.xml" path="/" exported="true"/>
+    <image id="l7ic8" name="pic_jiac.png" path="/res/"/>
+    <image id="l7ic9" name="frame_table.png" path="/res/"/>
+    <image id="l7icb" name="frame_duihuakuang.png" path="/res/" scale="9grid" scale9grid="29,17,58,34"/>
+    <component id="l7icc" name="LyClanSoloTisp.xml" path="/" exported="true"/>
+    <component id="l7ice" name="LyClanSoloAward.xml" path="/" exported="true"/>
+    <component id="l7icf" name="LyClanSoloRank.xml" path="/" exported="true"/>
+    <component id="l7icg" name="group_clanRank.xml" path="/"/>
+    <component id="l7ich" name="item_rank.xml" path="/"/>
+    <image id="l7icl" name="frame_ddd.png" path="/res/"/>
+    <component id="l7icm" name="LyClanSoloGift.xml" path="/" exported="true"/>
+    <image id="ljrso" name="frame_reward_no2.png" path="/res/" exported="true" scale="9grid" scale9grid="166,191,334,23"/>
+    <image id="ljrsp" name="frame_reward_no3.png" path="/res/" exported="true" scale="9grid" scale9grid="166,192,334,20"/>
+    <image id="ljrsq" name="frame_reward_no4.png" path="/res/" exported="true" scale="9grid" scale9grid="166,197,334,21"/>
+    <image id="ljrsr" name="frame_reward_no1.png" path="/res/" exported="true" scale="9grid" scale9grid="166,196,334,22"/>
+    <component id="ljrst" name="item_clanSoloAwards.xml" path="/"/>
+    <component id="ljrsu" name="group_clanSoloAward.xml" path="/"/>
+    <component id="ljrsw" name="item_clanSoloAward.xml" path="/" exported="true"/>
+    <component id="ljrsx" name="group_rankitem.xml" path="/"/>
+    <component id="ljrsy" name="LyClanSoloShop.xml" path="/" exported="true"/>
+    <image id="ljrs10" name="frame_store.png" path="/res/"/>
+    <image id="ljrs11" name="btn_yishouqing.png" path="/res3/"/>
+    <image id="ljrs12" name="frame_blockade.png" path="/res3/"/>
+    <component id="ljrs13" name="group_clanSoloShop.xml" path="/"/>
+    <component id="ljrs14" name="LyClanSoloTask.xml" path="/" exported="true"/>
+    <component id="ljrs16" name="group_clanSoloTask.xml" path="/"/>
+    <component id="ljrs17" name="group_clanSoloGift.xml" path="/"/>
+    <component id="ljrs18" name="LyClanSoloLog.xml" path="/" exported="true"/>
+    <component id="ljrs19" name="group_clanSoloLog.xml" path="/"/>
+    <component id="ljrs1c" name="item_clanSoloLog.xml" path="/"/>
+    <component id="ljrs1f" name="LyClanSoloPassport.xml" path="/" exported="true"/>
+    <image id="ljrs1g" name="pic_banner.png" path="/res/"/>
+    <image id="ljrs1h" name="word_ggzj.png" path="/res/" exported="true"/>
+    <image id="ljrs1i" name="frame_ggzjdk.png" path="/res/"/>
+    <image id="ljrs1j" name="frame_ggzjbt.png" path="/res/" scale="9grid" scale9grid="69,9,138,18"/>
+    <image id="ljrs1k" name="frame_ggzjbtdk.png" path="/res/"/>
+    <image id="ljrs1l" name="frame_ggzjdk1.png" path="/res/"/>
+    <image id="ljrs1m" name="frame_jiangliliebiao.png" path="/res/"/>
+    <component id="n7df1o" name="item_clanSoloPassport.xml" path="/"/>
+    <component id="n7df1p" name="group_clanSoloFund.xml" path="/"/>
+    <component id="n7df1s" name="group_clanSoloTisp.xml" path="/"/>
+    <component id="n7df1t" name="group_serverName.xml" path="/"/>
+    <component id="n7df1u" name="group_clanSoloBuff.xml" path="/"/>
+    <component id="n7df1v" name="group_clanSoloMain.xml" path="/"/>
+    <image id="87eo1w" name="frame_jichufuli.png" path="/res/"/>
+    <image id="87eo1x" name="frame_shirupozhu.png" path="/res/"/>
+    <image id="87eo1y" name="frame_suoxiangpimi.png" path="/res/"/>
+    <component id="87eo1z" name="LyClanSoloPassportGift.xml" path="/" exported="true"/>
+    <image id="87eo20" name="word_srpz.png" path="/res/" exported="true"/>
+    <image id="87eo21" name="frame_czjl.png" path="/res/"/>
+    <image id="ksar23" name="frame_sld.png" path="/res/"/>
+    <image id="ksar24" name="frame_first-recharge.png" path="/res3/" scale="9grid" scale9grid="34,32,10,17"/>
+    <image id="ksar25" name="dec_star1.png" path="/res3/"/>
+    <image id="ksar26" name="dec_star2.png" path="/res3/"/>
+    <component id="ksar27" name="group_clanSoloPassportGift.xml" path="/"/>
+    <component id="ksar29" name="item_clanSoloMain1.xml" path="/"/>
+    <image id="pc232a" name="bg_pibei.png" path="/res3/" atlas="alone_npot"/>
+    <image id="pc232b" name="frame_pipeimingdi.png" path="/res3/" scale="9grid" scale9grid="187,22,374,44"/>
+    <component id="pc232d" name="group_battleLoad.xml" path="/"/>
+    <image id="ig8m2e" name="bg_like.png" path="/res/" atlas="alone_npot"/>
+    <image id="ig8m2f" name="bg_pibei.png" path="/res/" atlas="alone_npot"/>
+    <image id="ig8m2g" name="bg_dandaofuhui.png" path="/res/" atlas="alone_npot"/>
+    <image id="ig8m2h" name="bg_fight.png" path="/res/" atlas="alone_npot"/>
+    <image id="ig8m2i" name="frame_jifen&amp;paiming.png" path="/res/"/>
+    <image id="ig8m2j" name="btn_match.png" path="/res/"/>
+    <image id="ig8m2k" name="pic_battle.png" path="/res/"/>
+    <image id="ig8m2l" name="word_match.png" path="/res/" exported="true"/>
+    <image id="ig8m2m" name="frame_paiqiansulv.png" path="/res/"/>
+    <image id="ig8m2p" name="frame_rank1.png" path="/res/"/>
+    <image id="ig8m2q" name="frame_rank3.png" path="/res/"/>
+    <image id="ig8m2r" name="frame_rank2.png" path="/res/"/>
+    <image id="ig8m2s" name="frame_ranking1.png" path="/res/"/>
+    <image id="ig8m2t" name="frame_ranking2.png" path="/res/"/>
+    <image id="ig8m2u" name="frame_ranking3.png" path="/res/"/>
+    <component id="ig8m2w" name="item_clanRank2.xml" path="/"/>
+    <component id="ig8m2x" name="item_clanRank1.xml" path="/"/>
+    <component id="ig8m2y" name="item_clanRank3.xml" path="/"/>
+    <image id="ig8m2z" name="word_like.png" path="/res/"/>
+    <component id="ig8m31" name="btn_battle2.xml" path="/"/>
+    <image id="ig8m32" name="word_challenge.png" path="/res/"/>
+    <image id="ig8m33" name="frame_liansheng.png" path="/res/"/>
+    <image id="ig8m34" name="frame_info.png" path="/res/"/>
+    <image id="ig8m35" name="icon_renshu.png" path="/res/"/>
+    <image id="ig8m36" name="frame_fight score1.png" path="/res/"/>
+    <image id="ig8m37" name="frame_fight score2.png" path="/res/"/>
+    <image id="ig8m3d" name="word_logo2.png" path="/res3/"/>
+    <image id="ig8m3e" name="word_logo1.png" path="/res3/"/>
+    <image id="ig8m3g" name="frame_diyiming2.png" path="/res/"/>
+    <component id="ig8m3h" name="item_clanSoloLike.xml" path="/"/>
+    <component id="hzwj3j" name="item_clanSoloMain2.xml" path="/"/>
+    <component id="hzwj3k" name="item_clanSoloMain3.xml" path="/"/>
+    <image id="w4ww3l" name="icon_jiacheng1.png" path="/res3/" exported="true"/>
+    <image id="w4ww3m" name="icon_jiacheng2.png" path="/res3/" exported="true"/>
+    <image id="w4ww3n" name="icon_jiacheng3.png" path="/res3/" exported="true"/>
+    <image id="ds913o" name="frame_jifendi.png" path="/res3/"/>
+    <image id="ds913p" name="word_back.png" path="/res/" exported="true"/>
+    <component id="ds913q" name="LyClanSoloBattleResult.xml" path="/" exported="true"/>
+    <component id="ds913s" name="group_clanSoloBattleResult.xml" path="/"/>
+    <image id="ds913t" name="word_qikaidesheng.png" path="/res/" exported="true"/>
+    <image id="ds913u" name="word_xiaoshiniudao.png" path="/res/" exported="true"/>
+    <image id="ds913v" name="word_chushibuli.png" path="/res/" exported="true"/>
+    <image id="ds913w" name="word_dahuoquansheng.png" path="/res/" exported="true"/>
+    <image id="g6rs3x" name="word_notice.png" path="/res3/"/>
+    <component id="g6rs3y" name="LyClanSoloAttr.xml" path="/" exported="true"/>
+    <component id="g6rs3z" name="group_clanSoloAttr.xml" path="/"/>
+    <image id="g6rs41" name="word_dandaofuhui.png" path="/res/"/>
+    <image id="bo7u42" name="word_shirupozhu.png" path="/res/" exported="true"/>
+    <image id="bo7u43" name="word_suoxiangpimi.png" path="/res/" exported="true"/>
+    <image id="kzgt44" name="word_logo2.png" path="/res/"/>
+    <image id="bbpl45" name="word_logo1.png" path="/res/"/>
+    <component id="tk2y46" name="group_totleItem2.xml" path="/" exported="true"/>
+    <image id="10lj84a" name="frame_introduce.png" path="/res3/" scale="9grid" scale9grid="20,11,12,7"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

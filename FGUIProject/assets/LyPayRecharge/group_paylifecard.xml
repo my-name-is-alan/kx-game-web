@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,800">
+  <displayList>
+    <graph id="n0_f4zx" name="n0" xy="0,0" size="750,800" type="rect" fillColor="#ff999999"/>
+    <component id="n1_f4zx" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="677,-2"/>
+    <component id="n8_f4zx" name="btn_pay" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,722"/>
+    <component id="n14_lyu7" name="btn_take" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="267,724"/>
+    <image id="n15_lyu7" name="n15" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="296,722" group="n17_lyu7"/>
+    <text id="n16_lyu7" name="label_take" xy="236,729" size="277,44" group="n17_lyu7" font="ui://27utqbizps391v" fontSize="32" color="#f3ffec" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n17_lyu7" name="group_take" xy="236,722" size="277,58" advanced="true"/>
+    <richtext id="n18_lyu7" name="label_desc" xy="185,222" size="380,368" fontSize="30" ubb="true" autoSize="none" text=""/>
+  </displayList>
+</component>

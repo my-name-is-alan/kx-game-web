@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="542,180">
+  <displayList>
+    <loader3D id="n14_92au" name="loader_spine" xy="225,67" size="1,1" scale="1.2,1.2" animation="" skin="" loop="true"/>
+    <image id="n9_njmh" name="n9" src="njmhsp" fileName="ui/frame_new force of arms.png" pkg="27utqbiz" xy="30,0" size="346,180" group="n11_hnc7"/>
+    <text id="n4_ves4" name="label_power" xy="128,67" size="215,55" group="n11_hnc7" font="ui://27utqbizvkas4q" fontSize="32" letterSpacing="-10" text="10000亿"/>
+    <text id="n5_ves4" name="label_red" xy="303,69" size="246,52" group="n12_hnc7" font="ui://27utqbizl6so18" fontSize="48" letterSpacing="-10" text="-112.34亿"/>
+    <image id="n8_ves4" name="img_red" src="ves4so" fileName="ui/icon_-down.png" pkg="27utqbiz" xy="513,72" group="n12_hnc7"/>
+    <text id="n6_ves4" name="label_green" xy="303,69" size="246,52" group="n12_hnc7" font="ui://27utqbizqv9i1s" fontSize="48" letterSpacing="-10" text="+112.34亿"/>
+    <image id="n7_ves4" name="img_green" src="ves4sn" fileName="ui/icon_+up.png" pkg="27utqbiz" xy="513,72" group="n12_hnc7"/>
+    <group id="n12_hnc7" name="n12" xy="303,69" size="246,52" group="n11_hnc7" advanced="true"/>
+    <group id="n11_hnc7" name="n11" xy="30,0" size="519,180" advanced="true"/>
+    <loader3D id="n15_92au" name="loader_spine2" xy="131,99" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+  <transition name="t0">
+    <item time="8" type="Alpha" target="n12_hnc7" tween="true" startValue="1" endValue="0" duration="16"/>
+    <item time="8" type="XY" target="n12_hnc7" tween="true" startValue="343,67" endValue="219,67" duration="16"/>
+  </transition>
+</component>

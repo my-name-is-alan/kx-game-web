@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="duw28jhb">
+  <resources>
+    <component id="uuuk0" name="LyLoginCreateRole.xml" path="/" exported="true"/>
+    <image id="fd9y2" name="01.png" path="/res/"/>
+    <component id="fd9y3" name="group_icon.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

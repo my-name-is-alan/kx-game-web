@@ -1,0 +1,153 @@
+
+ch_wulinshenhua.png
+size: 742,742
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beiban
+  rotate: false
+  xy: 2, 616
+  size: 499, 124
+  orig: 520, 130
+  offset: 11, 3
+  index: -1
+huoyan2_1
+  rotate: false
+  xy: 448, 352
+  size: 184, 103
+  orig: 184, 108
+  offset: 0, 0
+  index: -1
+huoyan2_2
+  rotate: false
+  xy: 476, 234
+  size: 112, 116
+  orig: 112, 116
+  offset: 0, 0
+  index: -1
+huoyan2_3
+  rotate: false
+  xy: 510, 32
+  size: 38, 34
+  orig: 38, 34
+  offset: 0, 0
+  index: -1
+lvjing1_1
+  rotate: false
+  xy: 653, 505
+  size: 87, 97
+  orig: 95, 99
+  offset: 5, 1
+  index: -1
+lvjing1_2
+  rotate: false
+  xy: 590, 253
+  size: 87, 97
+  orig: 95, 99
+  offset: 1, 1
+  index: -1
+lvjing1_3
+  rotate: false
+  xy: 2, 423
+  size: 426, 191
+  orig: 519, 289
+  offset: 43, 43
+  index: -1
+lvjing2
+  rotate: false
+  xy: 2, 305
+  size: 444, 116
+  orig: 503, 124
+  offset: 31, 4
+  index: -1
+seban
+  rotate: false
+  xy: 2, 201
+  size: 472, 102
+  orig: 513, 104
+  offset: 24, 1
+  index: -1
+taiyang_1
+  rotate: false
+  xy: 287, 68
+  size: 269, 131
+  orig: 308, 145
+  offset: 15, 9
+  index: -1
+taiyang_2
+  rotate: false
+  xy: 2, 25
+  size: 283, 174
+  orig: 318, 187
+  offset: 2, 0
+  index: -1
+tx/jm_zhanlizengjia
+  rotate: false
+  xy: 503, 604
+  size: 220, 59
+  orig: 240, 86
+  offset: 12, 8
+  index: -1
+tx/jm_zhanlizengjia02
+  rotate: true
+  xy: 558, 13
+  size: 219, 52
+  orig: 240, 86
+  offset: 10, 9
+  index: -1
+tx/jm_zhanlizengjia03
+  rotate: true
+  xy: 612, 31
+  size: 220, 52
+  orig: 240, 86
+  offset: 10, 8
+  index: -1
+tx/jm_zhanlizengjia04
+  rotate: true
+  xy: 666, 31
+  size: 220, 52
+  orig: 240, 86
+  offset: 10, 8
+  index: -1
+tx/jm_zhanlizengjia05
+  rotate: true
+  xy: 679, 283
+  size: 220, 52
+  orig: 240, 86
+  offset: 9, 8
+  index: -1
+tx/jm_zhanlizengjia06
+  rotate: false
+  xy: 430, 457
+  size: 220, 70
+  orig: 240, 86
+  offset: 9, 7
+  index: -1
+tx/jm_zhanlizengjia07
+  rotate: false
+  xy: 430, 529
+  size: 221, 73
+  orig: 240, 86
+  offset: 8, 6
+  index: -1
+tx/jm_zhanlizengjia08
+  rotate: false
+  xy: 430, 529
+  size: 221, 73
+  orig: 240, 86
+  offset: 9, 7
+  index: -1
+tx/jm_zhanlizengjia09
+  rotate: false
+  xy: 287, 11
+  size: 221, 55
+  orig: 240, 86
+  offset: 9, 8
+  index: -1
+tx/jm_zhanlizengjia10
+  rotate: false
+  xy: 503, 665
+  size: 220, 75
+  orig: 240, 86
+  offset: 9, 8
+  index: -1

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="yhkdb7e3">
+  <resources>
+    <component id="mxxu3p" name="LyTheurgy.xml" path="/" exported="true"/>
+    <component id="p5o43q" name="LyTheurgyInfo.xml" path="/" exported="true"/>
+    <component id="p5o43r" name="btn_gou2.xml" path="/" exported="true"/>
+    <component id="p5o43s" name="LyTheurgyDraw.xml" path="/" exported="true"/>
+    <image id="p5o43t" name="20.png" path="/res/main/"/>
+    <component id="p5o43u" name="btn_add.xml" path="/"/>
+    <image id="p5o43v" name="23.png" path="/res/main/"/>
+    <component id="p5o43x" name="LyTheurgyGroup.xml" path="/" exported="true"/>
+    <image id="p5o44d" name="23(1).png" path="/res/main/"/>
+    <component id="p5o44e" name="group_the.xml" path="/" exported="true"/>
+    <component id="p5o44f" name="LyTheurgyGroupInfo.xml" path="/" exported="true"/>
+    <component id="l87x4h" name="LyTheurgySeal.xml" path="/" exported="true"/>
+    <component id="l87x4i" name="group_seal.xml" path="/" exported="true"/>
+    <image id="k70e4j" name="bg_cangjinggebeijing.png" path="/res/"/>
+    <image id="k70e4k" name="frame_yuan3.png" path="/res/" exported="true"/>
+    <image id="k70e4l" name="frame_grade3.png" path="/res/" exported="true"/>
+    <image id="k70e4m" name="frame_kuang3.png" path="/res/" exported="true"/>
+    <image id="k70e4n" name="frame_dj3.png" path="/res/" exported="true"/>
+    <image id="k70e4o" name="frame_name3.png" path="/res/" exported="true"/>
+    <image id="k70e4p" name="frame_yuan1.png" path="/res/" exported="true"/>
+    <image id="k70e4q" name="frame_grade1.png" path="/res/" exported="true"/>
+    <image id="k70e4r" name="frame_kuang1.png" path="/res/" exported="true"/>
+    <image id="k70e4s" name="frame_dj1.png" path="/res/" exported="true"/>
+    <image id="k70e4t" name="frame_name1.png" path="/res/" exported="true"/>
+    <image id="k70e4u" name="frame_yuan2.png" path="/res/" exported="true"/>
+    <image id="k70e4v" name="frame_grade2.png" path="/res/" exported="true"/>
+    <image id="k70e4w" name="frame_kuang2.png" path="/res/" exported="true"/>
+    <image id="k70e4x" name="frame_dj2.png" path="/res/" exported="true"/>
+    <image id="k70e4y" name="frame_name2.png" path="/res/" exported="true"/>
+    <image id="k70e4z" name="frame_yuan4.png" path="/res/" exported="true"/>
+    <image id="k70e50" name="frame_grade4.png" path="/res/" exported="true"/>
+    <image id="k70e51" name="frame_kuang4.png" path="/res/" exported="true"/>
+    <image id="k70e52" name="frame_dj4.png" path="/res/" exported="true"/>
+    <image id="k70e53" name="frame_name4.png" path="/res/" exported="true"/>
+    <image id="k70e54" name="frame_lingxijingshu.png" path="/res/"/>
+    <image id="k70e55" name="frame_juexuejingshu.png" path="/res/"/>
+    <image id="k70e56" name="frame_cangjinggejingshudi.png" path="/res/"/>
+    <image id="k70e58" name="btn_miji2.png" path="/res/"/>
+    <image id="k70e59" name="btn_miji.png" path="/res/"/>
+    <image id="k70e5a" name="bg_mijibg.png" path="/res/"/>
+    <image id="k70e5b" name="frame_neigongjingshu.png" path="/res/"/>
+    <component id="k70e5k" name="btn_choose.xml" path="/"/>
+    <image id="k70e5n" name="frame_mijitianjiadi.png" path="/res/" exported="true"/>
+    <image id="k70e5o" name="icon_seal0.png" path="/res/" exported="true"/>
+    <image id="k70e5p" name="icon_seal4.png" path="/res/" exported="true"/>
+    <image id="k70e5q" name="icon_seal2.png" path="/res/" exported="true"/>
+    <image id="k70e5r" name="icon_seal1.png" path="/res/" exported="true"/>
+    <image id="k70e5s" name="icon_new.png" path="/res/"/>
+    <image id="k70e5u" name="icon_shengji2.png" path="/res/"/>
+    <image id="k70e5v" name="icon_seal3.png" path="/res/" exported="true"/>
+    <image id="k70edy" name="frame_mj3.png" path="/res/" exported="true"/>
+    <image id="k70edz" name="frame_mj1.png" path="/res/" exported="true"/>
+    <image id="k70ee0" name="frame_mj2.png" path="/res/" exported="true"/>
+    <image id="k70ee1" name="frame_mj4.png" path="/res/" exported="true"/>
+    <component id="k70ee2" name="group_theurgy.xml" path="/" exported="true"/>
+    <component id="hhz9e3" name="LyTheurgyMain.xml" path="/"/>
+    <image id="hhz9e4" name="frame_infoBg4.png" path="/res/" exported="true"/>
+    <component id="hhz9e6" name="btn_chongzhi.xml" path="/"/>
+    <image id="hhz9e7" name="btn_shuaixn.png" path="/res/"/>
+    <image id="hhz9e8" name="frame_chuzhandihuang.png" path="/res/"/>
+    <image id="hhz9ef" name="btn_add.png" path="/res/" exported="true"/>
+    <image id="hhz9eh" name="frame_prop add box.png" path="/res/" exported="true"/>
+    <image id="hhz9ej" name="frame_zhezhao.png" path="/res/"/>
+    <component id="hhz9el" name="LyTheurgyInfoMain.xml" path="/"/>
+    <component id="hhz9em" name="LyTheurgyTuPo.xml" path="/" exported="true"/>
+    <image id="hhz9eo" name="frame_neirongdiban.png" path="/res/"/>
+    <image id="hhz9ep" name="frame_neirongdiban2.png" path="/res/"/>
+    <image id="iuxmeu" name="word-juexue.png" path="/res/"/>
+    <image id="iuxmev" name="word-lingxi.png" path="/res/"/>
+    <image id="iuxmew" name="word-neigong.png" path="/res/"/>
+    <image id="iuxmex" name="word-waigong.png" path="/res/"/>
+    <component id="iuxmey" name="LyTheurgyDrawMain.xml" path="/"/>
+    <component id="8cb1ez" name="LyTheurgySealMain.xml" path="/"/>
+    <image id="8cb1f2" name="frame_congratulation.png" path="/res/"/>
+    <component id="t6w7et" name="group_jiban.xml" path="/" exported="true"/>
+    <component id="t6w72b" name="group_jbInfo.xml" path="/" exported="true"/>
+    <component id="iqt4f5" name="LyTheurgyGroupInfoMain.xml" path="/"/>
+    <component id="iqt4f6" name="group_mainGL.xml" path="/" exported="true"/>
+    <component id="iqt4f7" name="group_gv.xml" path="/" exported="true"/>
+    <component id="iqt4f8" name="LyTheurgyTuPoMain.xml" path="/"/>
+    <component id="ldglf9" name="group_getSeal.xml" path="/" exported="true"/>
+    <image id="ldglfa" name="word_level_up.png" path="/res/" exported="true"/>
+    <image id="ldglfb" name="frame_typeDi4.png" path="/res/" exported="true"/>
+    <image id="ldglfc" name="frame_typeDi1.png" path="/res/" exported="true"/>
+    <image id="ldglfd" name="frame_typeDi3.png" path="/res/" exported="true"/>
+    <image id="ldglfe" name="frame_typeDi2.png" path="/res/" exported="true"/>
+    <image id="l3tjff" name="icon_shengji.png" path="/res/"/>
+    <component id="s5qhjq" name="LyTheurgyRewardTen.xml" path="/" exported="true"/>
+    <image id="s5qhjr" name="frame_draw4.png" path="/res/" exported="true"/>
+    <image id="s5qhjs" name="frame_sort21.png" path="/res/" exported="true"/>
+    <image id="s5qhjt" name="frame_sort23.png" path="/res/" exported="true"/>
+    <image id="s5qhju" name="frame_sort22.png" path="/res/" exported="true"/>
+    <image id="s5qhjv" name="frame_sort24.png" path="/res/" exported="true"/>
+    <image id="s5qhjw" name="frame_draw3.png" path="/res/" exported="true"/>
+    <image id="s5qhjx" name="frame_lvse5.png" path="/res/"/>
+    <image id="s5qhjy" name="frame_sort31.png" path="/res/" exported="true"/>
+    <image id="s5qhjz" name="frame_sort33.png" path="/res/" exported="true"/>
+    <image id="s5qhk0" name="frame_sort32.png" path="/res/" exported="true"/>
+    <image id="s5qhk1" name="frame_sort34.png" path="/res/" exported="true"/>
+    <image id="s5qhk2" name="frame_zise5.png" path="/res/"/>
+    <image id="s5qhk4" name="frame_sort41.png" path="/res/" exported="true"/>
+    <image id="s5qhk5" name="frame_sort43.png" path="/res/" exported="true"/>
+    <image id="s5qhk6" name="frame_sort42.png" path="/res/" exported="true"/>
+    <image id="s5qhk7" name="frame_sort44.png" path="/res/" exported="true"/>
+    <image id="s5qhk8" name="frame_draw2.png" path="/res/" exported="true"/>
+    <image id="s5qhk9" name="frame_huangse5.png" path="/res/"/>
+    <image id="s5qhka" name="frame_sort11.png" path="/res/" exported="true"/>
+    <image id="s5qhkb" name="frame_sort13.png" path="/res/" exported="true"/>
+    <image id="s5qhkc" name="frame_sort12.png" path="/res/" exported="true"/>
+    <image id="s5qhkd" name="frame_sort14.png" path="/res/" exported="true"/>
+    <image id="s5qhke" name="frame_lanse5.png" path="/res/"/>
+    <component id="s5qhkg" name="group_drawTen.xml" path="/" exported="true"/>
+    <component id="s5qhkh" name="group_drawTenMain.xml" path="/"/>
+    <image id="ejo7ki" name="frame_draw1.png" path="/res/" exported="true"/>
+    <image id="ejo7kj" name="f_bagualianhuanzhang.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7kk" name="y_hunyuanwuji.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7kl" name="y_huofengniepan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7km" name="y_jiletiandao.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7kn" name="y_jingangbuhuaijue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ko" name="y_jingangjing.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7kp" name="y_jiuyangshengong.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7kq" name="y_juanyunjue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7kr" name="y_kuihuadianxueshou.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ks" name="y_laihongquyan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7kt" name="y_leigushi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ku" name="y_lianxingduopo.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7kv" name="y_lianxinjue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7kw" name="y_lingbobu.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7kx" name="y_lingxiyizhi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ky" name="y_lingxubu.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7kz" name="y_hunyuanqi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7l0" name="y_luojingjue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7l1" name="y_hanshanquan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7l2" name="y_guixishu.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7l3" name="y_bailijianfa.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7l4" name="y_beimingshengong.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7l5" name="y_budongrushan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7l6" name="y_chifengrantian.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7l7" name="y_cuixin.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7l8" name="y_diaocan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7l9" name="y_dudingxiegong.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7la" name="y_dujuantixue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lb" name="y_fangweidujian.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lc" name="y_feijiangshi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ld" name="y_feipulingkong.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7le" name="y_fenghuangyufei.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lf" name="y_fenghuo.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lg" name="y_fuliuhuifeng.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lh" name="y_fulongtanri.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7li" name="y_hanmeiaojianjue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lj" name="y_luojingxiashi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lk" name="y_mianlicangzhen.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ll" name="y_mieshenjueyidao.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lm" name="y_xiejia.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ln" name="y_xingchenyefeng.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lo" name="y_xingluoyunsan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lp" name="y_xingyuetonghui.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lq" name="y_xixingdafa.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lr" name="y_xuweihuasheng.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ls" name="y_yangguansandie.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lt" name="y_yaorizhuoyun.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lu" name="y_yuanyangyoutian.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lv" name="y_yuedumijing.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lw" name="y_yuluoqianren.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lx" name="y_yuluoyanfan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ly" name="y_yunkaiyueming.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7lz" name="y_yunvjianfa.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7m0" name="y_yunxiaoyuji.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7m1" name="y_xiaoyaoshi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7m2" name="y_wuyingjiao.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7m3" name="y_wuqingxi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7m4" name="y_wanjianguizong.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7m5" name="y_nianhuazhi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7m6" name="y_poyuenongying.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7m7" name="y_qiankundanuoyi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7m8" name="y_qianlongyidong.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7m9" name="y_qingxinjue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ma" name="y_qingxinzhou.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mb" name="y_qishangquan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mc" name="y_bagualianhuanzhang.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7md" name="y_queyaojinwei.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7me" name="y_sanfenguiyuanqi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mf" name="y_shirijianfa.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mg" name="y_taijishenjian.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mh" name="y_tayuezhaixing.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mi" name="y_tianfuchuoxueci.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mj" name="y_tiebushan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mk" name="y_tongxinjue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ml" name="y_ranmudao.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mm" name="y_zhanyishibadie.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mn" name="yuan_11110.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mo" name="f_zhanyishibadie.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mp" name="f_hunyuanwuji.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mq" name="f_huofengniepan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mr" name="f_jiletiandao.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ms" name="f_jingangbuhuaijue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mt" name="f_jingangjing.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mu" name="f_jiuyangshengong.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mv" name="f_juanyunjue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mw" name="f_kuihuadianxueshou.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mx" name="f_laihongquyan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7my" name="f_leigushi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7mz" name="f_lianxingduopo.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7n0" name="f_lianxinjue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7n1" name="f_lingbobu.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7n2" name="f_lingxiyizhi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7n3" name="f_lingxubu.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7n4" name="f_hunyuanqi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7n5" name="f_luojingjue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7n6" name="f_hanshanquan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7n7" name="f_guixishu.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7n8" name="f_bailijianfa.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7n9" name="f_beimingshengong.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7na" name="f_budongrushan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nb" name="f_chifengrantian.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nc" name="f_cuixin.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nd" name="f_diaocan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ne" name="f_dudingxiegong.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nf" name="f_dujuantixue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ng" name="f_fangweidujian.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nh" name="f_feijiangshi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ni" name="f_feipulingkong.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nj" name="f_fenghuangyufei.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nk" name="f_fenghuo.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nl" name="f_fuliuhuifeng.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nm" name="f_fulongtanri.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nn" name="f_hanmeiaojianjue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7no" name="f_luojingxiashi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7np" name="f_mianlicangzhen.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nq" name="f_mieshenjueyidao.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nr" name="f_xiejia.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ns" name="f_xingchenyefeng.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nt" name="f_xingluoyunsan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nu" name="f_xingyuetonghui.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nv" name="f_xixingdafa.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nw" name="f_xuweihuasheng.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nx" name="f_yangguansandie.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ny" name="f_yaorizhuoyun.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7nz" name="f_yuanyangyoutian.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7o0" name="f_yuedumijing.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7o1" name="f_yuluoqianren.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7o2" name="f_yuluoyanfan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7o3" name="f_yunkaiyueming.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7o4" name="f_yunvjianfa.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7o5" name="f_yunxiaoyuji.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7o6" name="f_xiaoyaoshi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7o7" name="f_wuyingjiao.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7o8" name="f_wuqingxi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7o9" name="f_wanjianguizong.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7oa" name="f_nianhuazhi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ob" name="f_poyuenongying.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7oc" name="f_qiankundanuoyi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7od" name="f_qianlongyidong.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7oe" name="f_qingxinjue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7of" name="f_qingxinzhou.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7og" name="f_qishangquan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7oh" name="f_zhishouxieyou.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7oi" name="f_queyaojinwei.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7oj" name="f_sanfenguiyuanqi.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ok" name="f_shirijianfa.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7ol" name="f_taijishenjian.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7om" name="f_tayuezhaixing.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7on" name="f_tianfuchuoxueci.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7oo" name="f_tiebushan.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7op" name="f_tongxinjue.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7oq" name="f_ranmudao.png" path="/theurgy/" exported="true"/>
+    <image id="ejo7or" name="y_zhishouxieyou.png" path="/theurgy/" exported="true"/>
+    <image id="jxkqou" name="frame_miji.png" path="/res/"/>
+    <image id="jxkqov" name="frame_suipian2.png" path="/res/"/>
+    <image id="sex8ox" name="frame_yinjidiban.png" path="/res/"/>
+    <image id="sex8oz" name="bg_miji.png" path="/res/"/>
+    <image id="sex8p0" name="frame_fengexian.png" path="/res/"/>
+    <image id="sex8p3" name="frame_infoBg2.png" path="/res/" exported="true"/>
+    <image id="sex8p4" name="frame_infoBg3.png" path="/res/" exported="true"/>
+    <image id="sex8p5" name="frame_infoBg1.png" path="/res/" exported="true"/>
+    <component id="8u8ip7" name="group_reset.xml" path="/" exported="true"/>
+    <component id="8u8ipa" name="word_level_up2.xml" path="/" exported="true"/>
+    <image id="gcnfpb" name="frame_xin2.png" path="/res/"/>
+    <component id="gcnfpc" name="word_level_up.xml" path="/"/>
+    <component id="krp3pd" name="group_the2.xml" path="/" exported="true"/>
+    <component id="krp3pg" name="LyTheurgyInfoPlayerMain.xml" path="/"/>
+    <component id="krp3ph" name="LyTheurgyInfoPlayer.xml" path="/" exported="true"/>
+    <component id="s8napj" name="group_seal1.xml" path="/" exported="true"/>
+    <image id="d7qmpk" name="frame_zanwushuju.png" path="/res/"/>
+    <component id="k3c2pl" name="label_skillDes_Com.xml" path="/"/>
+    <component id="kx2gpm" name="label_skillDest.xml" path="/"/>
+    <component id="r41cpo" name="LyTheurgyInfoStronger.xml" path="/" exported="true"/>
+    <component id="r41cpp" name="LyTheurgyInfoStrongerMain.xml" path="/"/>
+	<image id="p8lspq" name="frame_mijixuanzhongkuang.png" path="/res/"/>
+    <component id="p8lspr" name="btn_drawTenFrame.xml" path="/"/>
+    <image id="rgswpr" name="btn_bigyuan.png" path="/2.0/"/>
+    <image id="rgswpt" name="miji_bg05.png" path="/2.0/" scale="9grid" scale9grid="11,6,22,12"/>
+    <image id="rgswpu" name="miji_bg08.png" path="/2.0/"/>
+    <image id="rgswpw" name="word_dunwu.png" path="/2.0/"/>
+    <image id="rgswpx" name="word_mijiidunwu.png" path="/2.0/"/>
+    <image id="rgswpy" name="word_xiaohaotongxinyu.png" path="/2.0/"/>
+    <image id="rgswpz" name="xialv_bg1000.png" path="/2.0/"/>
+    <image id="rgswq0" name="zsk_miji_1.png" path="/2.0/"/>
+    <image id="rgswq1" name="zsk_miji_2.png" path="/2.0/"/>
+    <image id="rgswq2" name="zsk_xialv_1.png" path="/2.0/"/>
+    <image id="rgswq3" name="zsk_xialv_2.png" path="/2.0/"/>
+    <image id="rgswq7" name="frame_zhuanpan3.png" path="/2.0/"/>
+    <image id="rgswq8" name="frame_zhuanpan2.png" path="/2.0/"/>
+    <image id="rgswq9" name="frame_zhuanpan1.png" path="/2.0/"/>
+    <image id="rgswqa" name="frame_suijimijisuipian.png" path="/2.0/" exported="true"/>
+    <image id="rgswqb" name="btn_qiehuandian.png" path="/2.0/"/>
+    <image id="rgswqc" name="btn_qiehuandian2.png" path="/2.0/"/>
+    <image id="rgswqd" name="btn_qiehuandian3.png" path="/2.0/"/>
+    <image id="rgswqe" name="btn_qiehuandian4.png" path="/2.0/"/>
+    <image id="rgswqf" name="frame_baoxiangbiaotidi.png" path="/2.0/"/>
+    <image id="rgswqg" name="frame_baoxiangbiaotidi2.png" path="/2.0/"/>
+    <image id="rgswqh" name="frame_jianglikuang.png" path="/2.0/"/>
+    <image id="rgswqj" name="frame_jianglikuang2.png" path="/2.0/"/>
+    <image id="rgswqk" name="frame_qipao.png" path="/2.0/"/>
+    <image id="rgswql" name="frame_shuliang.png" path="/2.0/"/>
+    <image id="rgswqm" name="frame_suijimiji.png" path="/2.0/"/>
+    <image id="rgswqr" name="frame_jianglikuang3.png" path="/2.0/"/>
+    <component id="rgswqt" name="btn_zs.xml" path="/2.0/"/>
+    <component id="rgswqv" name="LyTheurgyDrawGift.xml" path="/" exported="true"/>
+    <component id="rgswqw" name="group_drop1.xml" path="/"/>
+    <component id="rgswqx" name="pro_times.xml" path="/"/>
+    <image id="rgswqy" name="mk_jindutiao_di.png" path="/xz1/" scale="9grid" scale9grid="18,6,36,3"/>
+    <image id="rgswqz" name="mk_jindutiao.png" path="/xz1/" scale="9grid" scale9grid="18,7,36,2"/>
+    <component id="rgswr0" name="group_timesAward2.xml" path="/"/>
+    <image id="rgswr1" name="mk_mo01.png" path="/xz1/"/>
+    <image id="rgswr2" name="mk_mo02.png" path="/xz1/"/>
+    <component id="rgswr3" name="Button1.xml" path="/2.0/"/>
+    <component id="rgswr4" name="group_zpItem.xml" path="/"/>
+    <component id="rgswr5" name="main_LyTheurgyDrawGift.xml" path="/"/>
+    <image id="rgswr6" name="mk_di.png" path="/2.0/"/>
+    <component id="oi12r7" name="group_effect.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

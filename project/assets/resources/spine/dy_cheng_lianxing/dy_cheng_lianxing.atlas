@@ -1,0 +1,314 @@
+
+dy_cheng_lianxing.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lianxiang0
+  rotate: true
+  xy: 92, 992
+  size: 14, 22
+  orig: 14, 23
+  offset: 0, 1
+  index: -1
+lianxiang1
+  rotate: true
+  xy: 260, 985
+  size: 21, 51
+  orig: 21, 51
+  offset: 0, 0
+  index: -1
+lianxiang19
+  rotate: true
+  xy: 163, 713
+  size: 109, 163
+  orig: 118, 164
+  offset: 0, 0
+  index: -1
+lianxiang2
+  rotate: true
+  xy: 313, 984
+  size: 22, 52
+  orig: 22, 52
+  offset: 0, 0
+  index: -1
+lianxiang20
+  rotate: true
+  xy: 187, 988
+  size: 18, 48
+  orig: 18, 48
+  offset: 0, 0
+  index: -1
+lianxiang21
+  rotate: false
+  xy: 940, 957
+  size: 51, 49
+  orig: 51, 49
+  offset: 0, 0
+  index: -1
+lianxiang22
+  rotate: true
+  xy: 548, 978
+  size: 28, 55
+  orig: 28, 55
+  offset: 0, 0
+  index: -1
+lianxiang23
+  rotate: true
+  xy: 211, 933
+  size: 50, 62
+  orig: 50, 62
+  offset: 0, 0
+  index: -1
+lianxiang24
+  rotate: false
+  xy: 513, 680
+  size: 159, 128
+  orig: 159, 134
+  offset: 0, 0
+  index: -1
+lianxiang25
+  rotate: true
+  xy: 456, 981
+  size: 25, 49
+  orig: 25, 49
+  offset: 0, 0
+  index: -1
+lianxiang26
+  rotate: true
+  xy: 831, 968
+  size: 38, 50
+  orig: 40, 50
+  offset: 2, 0
+  index: -1
+lianxiang27
+  rotate: true
+  xy: 367, 983
+  size: 23, 48
+  orig: 23, 48
+  offset: 0, 0
+  index: -1
+lianxiang28
+  rotate: true
+  xy: 927, 878
+  size: 77, 79
+  orig: 77, 79
+  offset: 0, 0
+  index: -1
+lianxiang29
+  rotate: true
+  xy: 417, 983
+  size: 23, 37
+  orig: 23, 37
+  offset: 0, 0
+  index: -1
+lianxiang3
+  rotate: true
+  xy: 883, 960
+  size: 46, 55
+  orig: 46, 55
+  offset: 0, 0
+  index: -1
+lianxiang30
+  rotate: true
+  xy: 585, 907
+  size: 66, 109
+  orig: 69, 109
+  offset: 0, 0
+  index: -1
+lianxiang31
+  rotate: true
+  xy: 605, 977
+  size: 29, 76
+  orig: 29, 76
+  offset: 0, 0
+  index: -1
+lianxiang32
+  rotate: true
+  xy: 683, 975
+  size: 31, 72
+  orig: 31, 72
+  offset: 0, 0
+  index: -1
+lianxiang33
+  rotate: true
+  xy: 412, 918
+  size: 61, 84
+  orig: 61, 84
+  offset: 0, 0
+  index: -1
+lianxiang34
+  rotate: true
+  xy: 801, 773
+  size: 103, 177
+  orig: 103, 177
+  offset: 0, 0
+  index: -1
+lianxiang35
+  rotate: true
+  xy: 498, 912
+  size: 64, 85
+  orig: 64, 85
+  offset: 0, 0
+  index: -1
+lianxiang36
+  rotate: true
+  xy: 280, 531
+  size: 162, 212
+  orig: 171, 219
+  offset: 0, 7
+  index: -1
+lianxiang37
+  rotate: true
+  xy: 825, 884
+  size: 74, 100
+  orig: 74, 100
+  offset: 0, 0
+  index: -1
+lianxiang38
+  rotate: true
+  xy: 2, 870
+  size: 77, 200
+  orig: 77, 200
+  offset: 0, 0
+  index: -1
+lianxiang39
+  rotate: true
+  xy: 2, 949
+  size: 37, 207
+  orig: 37, 207
+  offset: 0, 0
+  index: -1
+lianxiang4
+  rotate: false
+  xy: 2, 998
+  size: 24, 8
+  orig: 24, 8
+  offset: 0, 0
+  index: -1
+lianxiang40
+  rotate: true
+  xy: 328, 695
+  size: 127, 183
+  orig: 127, 183
+  offset: 0, 0
+  index: -1
+lianxiang41
+  rotate: true
+  xy: 684, 794
+  size: 106, 115
+  orig: 106, 115
+  offset: 0, 0
+  index: -1
+lianxiang42
+  rotate: true
+  xy: 525, 810
+  size: 95, 157
+  orig: 95, 158
+  offset: 0, 1
+  index: -1
+lianxiang43
+  rotate: true
+  xy: 696, 902
+  size: 68, 127
+  orig: 68, 127
+  offset: 0, 0
+  index: -1
+lianxiang44
+  rotate: false
+  xy: 204, 838
+  size: 91, 89
+  orig: 95, 90
+  offset: 0, 0
+  index: -1
+lianxiang45
+  rotate: true
+  xy: 494, 445
+  size: 185, 234
+  orig: 185, 234
+  offset: 0, 0
+  index: -1
+lianxiang46
+  rotate: false
+  xy: 237, 987
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+lianxiang47
+  rotate: false
+  xy: 674, 632
+  size: 271, 139
+  orig: 288, 188
+  offset: 14, 13
+  index: -1
+lianxiang48
+  rotate: false
+  xy: 2, 570
+  size: 276, 141
+  orig: 313, 141
+  offset: 36, 0
+  index: -1
+lianxiang49
+  rotate: false
+  xy: 297, 824
+  size: 226, 86
+  orig: 250, 112
+  offset: 5, 14
+  index: -1
+lianxiang5
+  rotate: false
+  xy: 28, 996
+  size: 21, 10
+  orig: 21, 10
+  offset: 0, 0
+  index: -1
+lianxiang50
+  rotate: false
+  xy: 757, 972
+  size: 72, 34
+  orig: 72, 34
+  offset: 0, 0
+  index: -1
+lianxiang51
+  rotate: false
+  xy: 2, 764
+  size: 159, 104
+  orig: 160, 106
+  offset: 0, 1
+  index: -1
+lianxiang52
+  rotate: false
+  xy: 275, 929
+  size: 135, 52
+  orig: 135, 52
+  offset: 0, 0
+  index: -1
+lianxiang6
+  rotate: false
+  xy: 116, 991
+  size: 26, 15
+  orig: 26, 15
+  offset: 0, 0
+  index: -1
+lianxiang7
+  rotate: true
+  xy: 51, 994
+  size: 12, 39
+  orig: 12, 39
+  offset: 0, 0
+  index: -1
+lianxiang8
+  rotate: true
+  xy: 144, 991
+  size: 15, 41
+  orig: 15, 41
+  offset: 0, 0
+  index: -1
+lianxiang9
+  rotate: true
+  xy: 507, 979
+  size: 27, 39
+  orig: 27, 39
+  offset: 0, 0
+  index: -1

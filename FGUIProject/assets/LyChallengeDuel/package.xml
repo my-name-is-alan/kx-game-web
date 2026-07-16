@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="a20b95c1">
+  <resources>
+    <component id="ib4p2" name="LyChallengeDuelReward.xml" path="/" exported="true"/>
+    <component id="ib4p3" name="group_reward.xml" path="/"/>
+    <component id="ib4p4" name="group_rewarditem.xml" path="/"/>
+    <component id="ocrq5" name="LyChallengeDuelRecord.xml" path="/" exported="true"/>
+    <component id="ocrq7" name="group_record.xml" path="/"/>
+    <component id="f2ag8" name="group_recorditem.xml" path="/"/>
+    <component id="f2ag9" name="LyChallengeDuelMatch.xml" path="/" exported="true"/>
+    <component id="f2aga" name="group_match.xml" path="/"/>
+    <component id="f2agb" name="group_matchitem.xml" path="/"/>
+    <component id="ydqde" name="LyChallengeDuel.xml" path="/" exported="true"/>
+    <component id="ydqdf" name="group_rank.xml" path="/"/>
+    <component id="ydqdg" name="group_rankitem.xml" path="/"/>
+    <image id="ofdwi" name="icon_jiangli.png" path="/res/"/>
+    <image id="ofdwj" name="icon_rizhi.png" path="/res/"/>
+    <component id="ofdwk" name="btn_reward.xml" path="/"/>
+    <component id="ofdwl" name="btn_record.xml" path="/"/>
+    <component id="riamn" name="btn_tiaozhan.xml" path="/"/>
+    <image id="cxwho" name="frame_bai.png" path="/res/"/>
+    <image id="cxwhp" name="frame_doufadi.png" path="/res/"/>
+    <image id="cxwhr" name="frame_fangshou.png" path="/res/"/>
+    <image id="cxwhs" name="frame_miji.png" path="/res/"/>
+    <image id="cxwht" name="frame_sheng.png" path="/res/"/>
+    <image id="cxwhu" name="frame_tiaozhan.png" path="/res/"/>
+    <image id="cxwhv" name="btn_qiecuo.png" path="/res/"/>
+    <component id="cxwhw" name="btn_challenge.xml" path="/"/>
+    <image id="cxwhx" name="frame_fengexian.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,938">
+  <displayList>
+    <image id="n12_huv2" name="n12" src="huv21i" fileName="res/frame_scroll.png" xy="0,0"/>
+    <loader id="n20_huv2" name="loader_back" xy="0,42" size="750,854" url="ui://f7l7y9v7pl2sg" clearOnPublish="true"/>
+    <component id="n3_l22a" name="group_battle" src="l22a2" fileName="res/group_battle.xml" xy="0,0">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n25_lvip" name="group_progressboss" src="lvip21" fileName="res/group_progressboss.xml" xy="239,230" visible="false"/>
+    <component id="n6_l6so" name="group_start" src="l6soa" fileName="start/group_start.xml" xy="0,0">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n21_wym0" name="btn_speed" src="wym01m" fileName="res/btn_speed.xml" xy="609,828">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n22_g0ot" name="btn_skip" src="g0ot1o" fileName="res/btn_skip.xml" xy="503,842"/>
+    <text id="n7_fk6i" name="label_break" xy="376,971" size="10,36" fontSize="26" color="#a0a277" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <component id="n24_qjsv" name="btn_replay" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="41,763">
+      <Button title="重播"/>
+    </component>
+    <component id="n13_huv2" name="btn_detail" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="41,828">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button title="显示记录"/>
+    </component>
+    <image id="n15_huv2" name="n15" src="huv21j" fileName="res/frame_title of round.png" xy="0,90">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n16_huv2" name="n16" src="huv21b" fileName="res/des_left scroll.png" xy="0,-15"/>
+    <image id="n17_huv2" name="n17" src="huv21e" fileName="res/des_right scroll.png" xy="700,-15"/>
+    <image id="n18_huv2" name="n18" src="huv21c" fileName="res/des_ribbon_low_right_corner.png" xy="650,730">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <image id="n19_huv2" name="n19" src="huv21d" fileName="res/des_ribbon_top_left_corner.png" xy="0,10"/>
+    <text id="n2_sip8" name="label_round" xy="370,92" size="10,39" font="ui://27utqbizps391v" fontSize="28" color="#ffffff" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n26_oxdb" name="img_play_firstpay" src="oxdb25" fileName="res/word_jinengyulan.png" xy="160,800" visible="false"/>
+  </displayList>
+</component>

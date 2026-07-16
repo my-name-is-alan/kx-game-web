@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,480">
+  <displayList>
+    <loader3D id="n19_9zfv" name="loader_spine_elite1" xy="150,0" pivot="0.5,1" anchor="true" size="2,2" scale="0.8,0.8" animation="" skin="" loop="true"/>
+    <loader3D id="n20_9zfv" name="loader_spine_elite2" xy="375,-50" pivot="0.5,1" anchor="true" size="2,2" scale="0.8,0.8" animation="" skin="" loop="true"/>
+    <loader3D id="n21_9zfv" name="loader_spine_elite3" xy="600,0" pivot="0.5,1" anchor="true" size="2,2" scale="0.8,0.8" animation="" skin="" loop="true"/>
+    <component id="n7_m5aq" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="375,320" pivot="0.5,1" anchor="true"/>
+    <loader3D id="n8_m5aq" name="loader_spine_pet1" xy="600,370" pivot="0.5,1" anchor="true" size="2,2" scale="0.8,0.8" animation="" skin="" loop="true"/>
+    <loader3D id="n9_m5aq" name="loader_spine_pet2" xy="150,370" pivot="0.5,1" anchor="true" size="2,2" scale="0.8,0.8" animation="" skin="" loop="true"/>
+    <image id="n1_m5aq" name="n1" src="uzk861" fileName="ui/frame_bottom-rank.png" pkg="27utqbiz" xy="271,340"/>
+    <component id="n26_113zk" name="loader_title" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="375,281" pivot="0.5,0.5" anchor="true" scale="1.2,1.2"/>
+    <component id="n27_113zk" name="loader_phase" src="ujwx1u" fileName="group_roleTitle.xml" pkg="27utqbiz" xy="378,385" pivot="0.5,0.5" anchor="true" scale="0.8,0.8"/>
+    <image id="n17_9zfv" name="n17" src="9zfv1z" fileName="res/frame_rank0.png" xy="232,294"/>
+    <text id="n3_m5aq" name="label_name" xy="370,320" size="10,32" fontSize="22" color="#ffffff" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n18_9zfv" name="label_level" xy="284,317" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#ffffff" align="right" vAlign="middle" strokeColor="#000000" strokeSize="2" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n5_m5aq" name="label_server" xy="370,410" size="10,29" fontSize="20" color="#16191a" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n22_9zfv" name="btn_arrowbigL" src="ehs5d" fileName="btn_arrowbig.xml" pkg="27utqbiz" xy="20,0"/>
+    <component id="n23_9zfv" name="btn_arrowbigR" src="ehs5d" fileName="btn_arrowbig.xml" pkg="27utqbiz" xy="690,0" scale="-1,1"/>
+    <graph id="n24_ql8i" name="graph_player" xy="275,18" size="200,300" type="rect" lineColor="#03ffffff" fillColor="#03ffffff"/>
+  </displayList>
+</component>

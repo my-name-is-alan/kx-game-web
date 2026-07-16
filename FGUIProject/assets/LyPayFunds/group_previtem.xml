@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="630,136">
+  <displayList>
+    <image id="n8_fnqv" name="n8" src="pq7g2" fileName="res/frame_ewaijianglitiao.png" xy="-12,0"/>
+    <component id="n9_fnqv" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="60,18"/>
+    <text id="n10_fnqv" name="label_count" xy="200,50" size="10,36" fontSize="26" color="#c86a4b" vAlign="middle" text=""/>
+  </displayList>
+</component>

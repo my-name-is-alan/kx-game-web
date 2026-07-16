@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="620,140">
+  <displayList>
+    <component id="n5_riam" name="group_left" src="g1eni" fileName="group_left.xml" xy="0,0"/>
+    <component id="n18_g1en" name="group_right" src="g1enh" fileName="group_right.xml" xy="0,0"/>
+  </displayList>
+</component>

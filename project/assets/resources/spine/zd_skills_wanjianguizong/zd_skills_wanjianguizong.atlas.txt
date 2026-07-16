@@ -1,0 +1,236 @@
+
+zd_skills_wanjianguizong.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/wjgz_dj1/wjgz_dj1_28
+  rotate: true
+  xy: 2, 59
+  size: 442, 152
+  orig: 450, 239
+  offset: 0, 31
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_30
+  rotate: false
+  xy: 2, 850
+  size: 441, 172
+  orig: 450, 239
+  offset: 0, 31
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_32
+  rotate: false
+  xy: 2, 503
+  size: 440, 171
+  orig: 450, 239
+  offset: 0, 31
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_34
+  rotate: false
+  xy: 2, 676
+  size: 441, 172
+  orig: 450, 239
+  offset: 0, 31
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_36
+  rotate: false
+  xy: 445, 850
+  size: 441, 172
+  orig: 450, 239
+  offset: 0, 31
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_38
+  rotate: false
+  xy: 445, 693
+  size: 440, 155
+  orig: 450, 239
+  offset: 0, 31
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_40
+  rotate: true
+  xy: 156, 66
+  size: 435, 131
+  orig: 450, 239
+  offset: 0, 31
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_42
+  rotate: true
+  xy: 289, 64
+  size: 437, 123
+  orig: 450, 239
+  offset: 0, 31
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_44
+  rotate: true
+  xy: 414, 66
+  size: 435, 123
+  orig: 450, 239
+  offset: 0, 31
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_46
+  rotate: false
+  xy: 445, 599
+  size: 433, 92
+  orig: 450, 239
+  offset: 0, 70
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_48
+  rotate: true
+  xy: 539, 70
+  size: 433, 95
+  orig: 450, 239
+  offset: 0, 71
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_50
+  rotate: true
+  xy: 636, 72
+  size: 431, 97
+  orig: 450, 239
+  offset: 0, 72
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_52
+  rotate: true
+  xy: 735, 73
+  size: 430, 97
+  orig: 450, 239
+  offset: 0, 72
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_54
+  rotate: true
+  xy: 834, 76
+  size: 427, 96
+  orig: 450, 239
+  offset: 0, 72
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_58
+  rotate: false
+  xy: 444, 505
+  size: 413, 92
+  orig: 450, 239
+  offset: 0, 69
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_12
+  rotate: false
+  xy: 880, 562
+  size: 142, 129
+  orig: 270, 270
+  offset: 64, 79
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_14
+  rotate: false
+  xy: 888, 895
+  size: 134, 127
+  orig: 270, 270
+  offset: 66, 81
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_16
+  rotate: false
+  xy: 887, 709
+  size: 131, 123
+  orig: 270, 270
+  offset: 64, 85
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_24
+  rotate: false
+  xy: 888, 834
+  size: 133, 59
+  orig: 270, 270
+  offset: 58, 97
+  index: -1
+
+zd_skills_wanjianguizong2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect/wjgz_dj1/wjgz_dj1_24
+  rotate: false
+  xy: 558, 842
+  size: 395, 112
+  orig: 450, 239
+  offset: 47, 55
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_26
+  rotate: false
+  xy: 406, 708
+  size: 395, 132
+  orig: 450, 239
+  offset: 47, 47
+  index: -1
+effect/wjgz_dj1/wjgz_dj1_56
+  rotate: false
+  xy: 2, 858
+  size: 421, 96
+  orig: 450, 239
+  offset: 0, 69
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_00
+  rotate: false
+  xy: 2, 584
+  size: 148, 148
+  orig: 270, 270
+  offset: 61, 61
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_01
+  rotate: false
+  xy: 657, 498
+  size: 204, 204
+  orig: 270, 270
+  offset: 33, 33
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_02
+  rotate: true
+  xy: 463, 516
+  size: 190, 192
+  orig: 270, 270
+  offset: 40, 39
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_04
+  rotate: false
+  xy: 152, 577
+  size: 153, 152
+  orig: 270, 270
+  offset: 60, 64
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_06
+  rotate: true
+  xy: 307, 553
+  size: 153, 154
+  orig: 270, 270
+  offset: 60, 64
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_08
+  rotate: false
+  xy: 803, 704
+  size: 151, 136
+  orig: 270, 270
+  offset: 60, 67
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_10
+  rotate: false
+  xy: 2, 734
+  size: 143, 122
+  orig: 270, 270
+  offset: 64, 81
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_18
+  rotate: false
+  xy: 277, 731
+  size: 127, 125
+  orig: 270, 270
+  offset: 65, 85
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_20
+  rotate: false
+  xy: 147, 734
+  size: 128, 122
+  orig: 270, 270
+  offset: 63, 85
+  index: -1
+effect/wjgz_hit1/wjgz_hit1_22
+  rotate: false
+  xy: 425, 844
+  size: 131, 110
+  orig: 270, 270
+  offset: 60, 99
+  index: -1

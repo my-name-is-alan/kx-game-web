@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,300">
+  <displayList>
+    <image id="n5_jjoh" name="n5" src="jjoh7" fileName="res/frame_guide.png" xy="3,-250"/>
+    <text id="n3_myrs" name="label_name" xy="255,40" size="10,49" font="ui://27utqbizps391v" fontSize="36" color="#719e0f" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n1_myrs" name="label_desc" xy="95,117" size="560,140" fontSize="24" color="#16191a" autoSize="none" text=""/>
+    <text id="n6_jjoh" name="label_tips" xy="643,330" size="10,32" fontSize="22" color="#a0a277" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1000">
+  <displayList>
+    <image id="n12_1093u" name="n12" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="24,-75" size="701,1084"/>
+    <image id="n14_1093u" name="n14" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="569,804"/>
+    <component id="n8_knid" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="655,-40"/>
+    <richtext id="n13_1093u" name="label_title" xy="54,-62" size="235,77" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" text="礼包"/>
+    <image id="n38_mo4u" name="n38" src="k7xe7" fileName="zonglan/frame_zonglan5.png" xy="71,150" size="608,220"/>
+    <image id="n39_mo4u" name="n39" src="k7xe7" fileName="zonglan/frame_zonglan5.png" xy="71,485" size="608,435"/>
+    <image id="n33_mo4u" name="n33" src="k7xeb" fileName="zonglan/frame_zonglan.png" xy="71,105"/>
+    <image id="n40_mo4u" name="n40" src="k7xeb" fileName="zonglan/frame_zonglan.png" xy="71,440"/>
+    <image id="n18_1093u" name="n18" src="k7xe1e" fileName="guess/frame_biaoqian.png" xy="141,50"/>
+    <image id="n19_1093u" name="n19" src="k7xe1e" fileName="guess/frame_biaoqian.png" xy="141,385"/>
+    <text id="n20_1093u" name="label_sub1" xy="317,52" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#8c571d" align="center" vAlign="middle" autoClearText="true" text="活动日程">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n21_1093u" name="label_sub2" xy="317,387" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#8c571d" align="center" vAlign="middle" autoClearText="true" text="积分规则">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n37_mo4u" name="list_item1" xy="82,155" size="586,210" selectionMode="none" overflow="scroll" scrollBarFlags="128" lineGap="10" defaultItem="ui://i35cf1mqmo4uudu19l" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <list id="n27_1093u" name="list_item2" xy="82,490" size="586,425" selectionMode="none" overflow="scroll" lineGap="5" defaultItem="ui://i35cf1mqmo4uudu19k" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n41_mo4u" name="label_attr1" xy="121,110" size="56,37" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoClearText="true" text="日期">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n42_mo4u" name="label_attr2" xy="346,110" size="56,37" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoClearText="true" text="时间">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n43_mo4u" name="label_attr3" xy="566,110" size="56,37" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoClearText="true" text="战场">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n44_mo4u" name="label_noti1" xy="95,444" size="108,37" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoClearText="true" text="小组排名">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n45_mo4u" name="label_noti2" xy="346,444" size="56,37" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoClearText="true" text="连天">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n46_mo4u" name="label_noti3" xy="566,444" size="56,37" font="ui://27utqbizps391v" fontSize="26" color="#816c5d" align="center" vAlign="middle" autoClearText="true" text="战场">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n17_1093u" name="label_desc" xy="191,930" size="367,31" fontSize="22" color="#e86146" align="center" vAlign="middle" autoClearText="true" text="*积分每日累加，最终排名由积分决定">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

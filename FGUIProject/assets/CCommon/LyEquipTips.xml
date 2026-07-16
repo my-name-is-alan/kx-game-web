@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n0_ujwx" name="btn_back" src="v3t50" fileName="btn_back.xml" xy="-1,-120" alpha="0.01">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n2_ujwx" name="group_main" src="mqg9w" fileName="Group_Equip.xml" xy="85,523"/>
+  </displayList>
+</component>

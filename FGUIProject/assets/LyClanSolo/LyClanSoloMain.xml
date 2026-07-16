@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetX="-484" designImageOffsetY="-367">
+  <displayList>
+    <image id="n31_f9g2" name="n31" src="ig8m2h" fileName="res/bg_fight.png" xy="0,-183">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n35_f9g2" name="btn_close" src="l7ic1" fileName="btn_close.xml" xy="0,7">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <loader3D id="n66_phai" name="loader_spine_pet" xy="264,1278" pivot="0.5,1" anchor="true" size="2,2" group="n49_f9g2" scale="0.6,0.6" animation="" skin="" loop="true"/>
+    <component id="n67_phai" name="group_spine_ram" src="jl2et2" fileName="group_spine_ram.xml" pkg="27utqbiz" xy="150,1296" pivot="0.5,1" anchor="true" group="n49_f9g2" scale="0.7,0.7"/>
+    <image id="n65_ds91" name="n65" src="ds913o" fileName="res3/frame_jifendi.png" xy="82,1248" group="n49_f9g2"/>
+    <text id="n39_f9g2" name="label_winScoreChange" xy="84,1247" size="181,34" group="n49_f9g2" fontSize="24" color="#ffe082" align="center" vAlign="middle" autoSize="shrink" text="获取积分：99"/>
+    <text id="n40_f9g2" name="label_str80" xy="365,1245" size="343,34" group="n49_f9g2" fontSize="24" color="#ffffff" strokeColor="#000000" strokeSize="2" text="每减少5点经理所有属性衰减1%"/>
+    <image id="n42_f9g2" name="n42" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="361,1141" size="237,78" group="n49_f9g2"/>
+    <text id="n43_f9g2" name="label_combatPower" xy="417,1157" size="156,42" group="n49_f9g2" font="ui://27utqbizvkas4q" fontSize="24" color="#cc6600" vAlign="middle" leading="0" letterSpacing="-8" autoClearText="true" text="531231"/>
+    <component id="n45_f9g2" name="bar_energy" src="ig8mu1a1" fileName="bar_level5.xml" pkg="27utqbiz" xy="367,1224" group="n49_f9g2">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n46_f9g2" name="n46" xy="366,1215" size="48,32" group="n49_f9g2" fontSize="22" color="#53e9bd" strokeColor="#000000" strokeSize="2" text="精力"/>
+    <component id="n47_f9g2" name="bar_hp" src="ig8mu1a4" fileName="bar_level6.xml" pkg="27utqbiz" xy="1,1298" group="n49_f9g2">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n48_f9g2" name="btn_attr" src="o66p4u" fileName="btn_what.xml" pkg="27utqbiz" xy="645,1141" group="n49_f9g2"/>
+    <component id="n32_f9g2" name="btn_battleAll" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,974" group="n49_f9g2">
+      <Button title="一键挑战"/>
+    </component>
+    <component id="n33_f9g2" name="btn_skip" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="521,981" size="154,50" group="n49_f9g2">
+      <Button title="跳过战斗"/>
+    </component>
+    <image id="n41_f9g2" name="n41" src="ig8m33" fileName="res/frame_liansheng.png" xy="399,1028" group="n64_f9g2"/>
+    <text id="n44_f9g2" name="label_onceWinCount" xy="369,1054" size="314,94" group="n64_f9g2" font="ui://27utqbizig8mu1a0" fontSize="42" text="12连胜利"/>
+    <group id="n64_f9g2" name="group_onceWinCount" xy="369,1028" size="314,150" group="n49_f9g2" advanced="true"/>
+    <group id="n49_f9g2" name="n49" xy="1,974" size="750,352" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <image id="n50_f9g2" name="n50" src="ig8m34" fileName="res/frame_info.png" xy="24,111" group="n57_f9g2"/>
+    <text id="n51_f9g2" name="label_number" xy="57,186" size="69,26" group="n57_f9g2" fontSize="18" align="center" vAlign="middle" autoSize="none" text="12/12"/>
+    <text id="n52_f9g2" name="label_str50" xy="56,139" size="56,36" group="n57_f9g2" fontSize="26" color="#b62811" vAlign="middle" text="剩余"/>
+    <text id="n53_f9g2" name="label_clanName" xy="147,142" size="145,36" group="n57_f9g2" font="ui://27utqbizps391v" fontSize="26" color="#b64c3b" vAlign="middle" autoSize="shrink" text="尼尔康机械"/>
+    <text id="n54_f9g2" name="label_clanServer" xy="147,183" size="145,34" group="n57_f9g2" fontSize="24" color="#16191a" vAlign="middle" autoSize="shrink" autoClearText="true" text="屈服"/>
+    <image id="n55_f9g2" name="n55" src="ig8m35" fileName="res/icon_renshu.png" xy="41,189" group="n57_f9g2"/>
+    <loader id="n56_f9g2" name="img_flag" xy="293,125" size="100,98" group="n57_f9g2" touchable="false" url="ui://27utqbizql4ful" align="center" vAlign="middle" fill="scale"/>
+    <group id="n57_f9g2" name="n57" xy="24,111" size="382,119" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n58_f9g2" name="group_top1" src="ksar29" fileName="item_clanSoloMain1.xml" xy="275,235" group="n61_f9g2" visible="false"/>
+    <component id="n59_f9g2" name="group_top2" src="hzwj3j" fileName="item_clanSoloMain2.xml" xy="70,471" group="n61_f9g2" visible="false"/>
+    <component id="n60_f9g2" name="group_top3" src="hzwj3k" fileName="item_clanSoloMain3.xml" xy="467,471" group="n61_f9g2" visible="false"/>
+    <group id="n61_f9g2" name="n61" xy="70,235" size="604,736" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

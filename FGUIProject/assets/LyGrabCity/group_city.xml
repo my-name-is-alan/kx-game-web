@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,421">
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader3D id="n32_pqxt" name="loader_fire1" xy="243,132" size="1,1" group="n22_jhmn" animation="" skin="" loop="true"/>
+    <loader id="n8_jhmn" name="loader_city" xy="0,1" size="472,421" group="n22_jhmn" url="ui://i35cf1mqpqxtdu19l" align="center" vAlign="middle"/>
+    <image id="n23_jv6u" name="img_xiuzhan" src="jv6udu189" fileName="res/frame_xiuzhan.png" xy="280,25" group="n22_jhmn"/>
+    <component id="n14_jhmn" name="pro_hp" src="jhmn2n" fileName="ProgressBar1.xml" xy="124,332" size="243,20" group="n22_jhmn" touchable="false">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <loader id="n15_jhmn" name="loader_rank" xy="93,263" size="62,62" group="n22_jhmn" touchable="false" url="ui://i35cf1mqk7xe18"/>
+    <image id="n16_jhmn" name="n16" src="jhmn2o" fileName="res/frame_xichenqingquanname.png" xy="124,262" size="208,62" group="n22_jhmn"/>
+    <image id="n17_jhmn" name="n17" src="jhmn2p" fileName="res/frame_black.png" xy="136,231" group="n22_jhmn"/>
+    <image id="n11_jhmn" name="n11" src="gfx3pp" fileName="itemrank/frame_ranking_0.png" pkg="27utqbiz" xy="89,255" group="n29_jv6u"/>
+    <richtext id="n24_jv6u" name="label_rank" xy="93,267" size="64,48" group="n29_jv6u" touchable="false" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="2" text="3"/>
+    <group id="n29_jv6u" name="group_rank" xy="89,255" size="76,76" group="n22_jhmn" advanced="true"/>
+    <text id="n18_jhmn" name="label_name" xy="190,265" pivot="0.5,0.5" size="92,32" group="n22_jhmn" fontSize="22" color="#ffeca4" align="center" vAlign="middle" text="慕城竹山"/>
+    <image id="n25_jv6u" name="star3" src="jv6udu18a" fileName="res/icon_level12.png" xy="199,231" group="n28_jv6u"/>
+    <image id="n26_jv6u" name="star2" src="jv6udu18a" fileName="res/icon_level12.png" xy="222,231" group="n28_jv6u"/>
+    <image id="n27_jv6u" name="star1" src="jv6udu18a" fileName="res/icon_level12.png" xy="245,231" group="n28_jv6u"/>
+    <group id="n28_jv6u" name="n28" xy="199,231" size="74,30" group="n22_jhmn" advanced="true" layout="hz" colGap="-5" excludeInvisibles="true"/>
+    <text id="n19_jhmn" name="label_severName" xy="190,289" pivot="0.5,0.5" size="92,32" group="n22_jhmn" fontSize="22" color="#dbe9e6" align="center" vAlign="middle" text="慕城竹山"/>
+    <loader3D id="n30_85qw" name="loader_attack" xy="241,220" size="1,1" group="n22_jhmn" animation="" skin="" loop="true"/>
+    <loader3D id="n31_pqxt" name="loader_fire2" xy="235,213" size="1,1" group="n22_jhmn" animation="" skin="" loop="true"/>
+    <group id="n22_jhmn" name="n22" xy="0,1" size="472,421" advanced="true">
+      <gearXY controller="c1" pages="1" values="262,1" default="0,1"/>
+    </group>
+  </displayList>
+</component>

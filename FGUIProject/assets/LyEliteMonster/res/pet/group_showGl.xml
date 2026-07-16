@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="762,208">
+  <displayList>
+    <image id="n81_me8j" name="n81" src="me8jr0" fileName="res/pet/res/frame_jianglidi.png" xy="0,0"/>
+    <text id="n82_me8j" name="label_desc" xy="10,3" size="169,34" font="ui://27utqbizps391v" fontSize="20" vAlign="middle" leading="0" autoSize="none" text="稀有奖励："/>
+    <text id="n83_me8j" name="label_gv" xy="105,6" size="78,29" font="ui://27utqbizps391v" fontSize="20" color="#2b841c" vAlign="middle" leading="0" autoSize="none" text="1.00%"/>
+    <list id="n84_me8j" name="list_item" xy="9,48" size="753,159" scale="0.83,0.83" layout="flow_hz" colGap="15" defaultItem="ui://27utqbizo6qjf" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

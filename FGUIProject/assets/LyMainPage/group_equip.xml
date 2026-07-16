@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <loader3D id="n1_f23h" name="loader_spine_quality" xy="45,45" size="10,10" group="n3_wgjo" animation="" skin="" loop="true"/>
+    <loader id="n0_f23h" name="img_equip" xy="0,0" size="100,100" group="n3_wgjo" url="ui://27utqbizzo46fl" fill="scaleFree" clearOnPublish="true"/>
+    <group id="n3_wgjo" name="group_equip" xy="0,0" size="100,100" advanced="true"/>
+    <loader3D id="n2_wgjo" name="loader_spine_breakdown" xy="45,45" size="10,10" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

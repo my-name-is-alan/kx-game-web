@@ -1,0 +1,20 @@
+
+zq_dizi.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dizi
+  rotate: false
+  xy: 2, 213
+  size: 255, 44
+  orig: 255, 44
+  offset: 0, 0
+  index: -1
+shengzi
+  rotate: false
+  xy: 2, 123
+  size: 171, 88
+  orig: 178, 88
+  offset: 7, 0
+  index: -1

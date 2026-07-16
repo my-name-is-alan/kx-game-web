@@ -1,0 +1,76 @@
+
+zd_skills_fenghuangniepan_buff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hfnp_buff/hfnp_buff_00
+  rotate: false
+  xy: 385, 436
+  size: 94, 67
+  orig: 110, 90
+  offset: 9, 4
+  index: -1
+images/hfnp_buff/hfnp_buff_02
+  rotate: false
+  xy: 2, 370
+  size: 95, 69
+  orig: 110, 90
+  offset: 7, 4
+  index: -1
+images/hfnp_buff/hfnp_buff_04
+  rotate: false
+  xy: 99, 364
+  size: 94, 72
+  orig: 110, 90
+  offset: 4, 4
+  index: -1
+images/hfnp_buff/hfnp_buff_06
+  rotate: false
+  xy: 298, 360
+  size: 101, 74
+  orig: 110, 90
+  offset: 5, 4
+  index: -1
+images/hfnp_buff/hfnp_buff_08
+  rotate: false
+  xy: 401, 357
+  size: 102, 77
+  orig: 110, 90
+  offset: 5, 3
+  index: -1
+images/hfnp_buff/hfnp_buff_10
+  rotate: false
+  xy: 195, 363
+  size: 101, 73
+  orig: 110, 90
+  offset: 6, 5
+  index: -1
+images/hfnp_buff/hfnp_buff_12
+  rotate: false
+  xy: 2, 441
+  size: 95, 62
+  orig: 110, 90
+  offset: 11, 5
+  index: -1
+images/hfnp_buff/hfnp_buff_14
+  rotate: false
+  xy: 99, 439
+  size: 92, 64
+  orig: 110, 90
+  offset: 13, 4
+  index: -1
+images/hfnp_buff/hfnp_buff_16
+  rotate: false
+  xy: 193, 438
+  size: 94, 65
+  orig: 110, 90
+  offset: 11, 4
+  index: -1
+images/hfnp_buff/hfnp_buff_18
+  rotate: false
+  xy: 289, 438
+  size: 94, 65
+  orig: 110, 90
+  offset: 9, 4
+  index: -1

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,460">
+  <displayList>
+    <image id="n13_ql4f" name="back_win" src="osg9u" fileName="res/frame_bottom2.png" xy="0,13"/>
+    <list id="n2_ewyh" name="list_item" xy="375,209" pivot="0.5,0.5" anchor="true" size="600,140" group="n8_tkum" scale="1.2,1.2" layout="row" overflow="scroll" scroll="horizontal" colGap="20" defaultItem="ui://02ur49fwqav21u" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <loader3D id="n9_ui7m" name="loader_spine2" xy="374,209" size="2,2" group="n8_tkum" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center"/>
+    </loader3D>
+    <group id="n8_tkum" name="group_outani" xy="75,139" size="600,140" visible="false" advanced="true"/>
+    <text id="n11_qav2" name="label_dec" xy="137,52" size="476,61" fontSize="24" color="#f1eeeb" align="center" vAlign="middle" autoSize="shrink" text=""/>
+    <image id="n12_feen" name="title_win" src="feen1w" fileName="res/word_youlifaxian.png" xy="-1,-138"/>
+  </displayList>
+</component>

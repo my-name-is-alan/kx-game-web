@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root id="1001" name="单刀赴会" desc="xxx" type="4" needLevel="36" icon="xx" dayResetTime="0:00" physicalItemId="120036" challengeItemId="120037" passportMidPrice="3000" passportHighPrice="12800" passportMidStone="300" passportHighStone="1280" passportMidPriceTip="9000" passportHighPriceTip="38400" passportMidPayId="300" passportHighPayId="301" quickBattleWinCount="10" skipBattleWinCount="3" physicalRecoverInterval="180" playGuide="一、活动流程-1.单刀赴会活动分为准备期、战斗期、结算期。&lt;br/&gt;2.人数达到要求的帮派在准备期结束时将自动报名并获取活动资格。&lt;br/&gt;3.准备期结束时将自动锁定帮派名单与对应的成员名单，活动期间，退帮等操作不影响已锁定的帮派成员名单。&lt;br/&gt;4.战斗期可消耗体力或尖刀旗进行匹配，也可以消耗战书挑战或反击其他帮派。&lt;br/&gt;5.结算期将根据帮派积分与个人积分进行排名，并按照排名结果通过邮件发放奖励。@二、活动任务-1.分为个人任务与帮派任务。&lt;br/&gt;2.在战斗期匹配其他帮派，即可完成任务并获得奖励。@三、战斗-1.战斗期可挑战其他帮派，获得积分与声望奖励。&lt;br/&gt;2.挑战其他帮派时，可以临时获取基础属性加成，提高自己的战力。&lt;br/&gt;3.连续击败的对手越多，获取的积分越多，但自身的基础属性也会越低，直到当次挑战结束。&lt;br/&gt;4.击败对方帮派内所有玩家或自己血量归零时，挑战结束。&lt;br/&gt;5.活动内的属性变化与活动外无关。" recordListMax="30" numberLimit="2" matchLimit="10" bigClanLimit="2" activityStartTime="1721145600" clanRankMailTitle="单刀赴会帮派奖励" clanRankMailContent="单刀赴会活动已结束！您的帮派在单刀赴会中获得了{1}积分，最终排名为第{0}名，请及时收取奖励。" playerRankMailTitle="单刀赴会个人奖励" playerRankMailContent="单刀赴会活动已结束！您在单刀赴会中获得了{1}积分，最终排名为第{0}名，请及时收取奖励。">
+  <goods>
+    <item id="1" itemId="120001" count="5" dailyLimit="1" prestige="0" unlock="0"/>
+    <item id="2" itemId="130013" count="1" dailyLimit="1" prestige="1500" unlock="3000"/>
+    <item id="3" itemId="130024" count="1" dailyLimit="1" prestige="1800" unlock="3000"/>
+    <item id="4" itemId="141002" count="1" dailyLimit="1" prestige="3100" unlock="4000"/>
+    <item id="5" itemId="142003" count="1" dailyLimit="1" prestige="3700" unlock="4000"/>
+    <item id="6" itemId="120008" count="2000" dailyLimit="20" prestige="310" unlock="0"/>
+    <item id="7" itemId="120009" count="100" dailyLimit="5" prestige="930" unlock="0"/>
+    <item id="8" itemId="120014" count="10" dailyLimit="5" prestige="140" unlock="0"/>
+    <item id="9" itemId="120017" count="10" dailyLimit="100" prestige="63" unlock="0"/>
+    <item id="10" itemId="120022" count="10" dailyLimit="5" prestige="700" unlock="0"/>
+    <item id="11" itemId="120007" count="5" dailyLimit="10" prestige="780" unlock="0"/>
+    <item id="12" itemId="120004" count="10" dailyLimit="5" prestige="63" unlock="0"/>
+    <item id="13" itemId="120005" count="2" dailyLimit="5" prestige="180" unlock="0"/>
+    <item id="14" itemId="120020" count="20" dailyLimit="50" prestige="63" unlock="0"/>
+    <item id="15" itemId="120030" count="1" dailyLimit="3" prestige="47" unlock="0"/>
+    <item id="16" itemId="2" count="300" dailyLimit="500" prestige="1" unlock="0"/>
+  </goods>
+  <task>
+    <item id="1" type="1" bonusesId="382001" fightCount="1"/>
+    <item id="2" type="1" bonusesId="382002" fightCount="3"/>
+    <item id="3" type="1" bonusesId="382003" fightCount="5"/>
+    <item id="4" type="1" bonusesId="382004" fightCount="7"/>
+    <item id="5" type="1" bonusesId="382005" fightCount="9"/>
+    <item id="6" type="1" bonusesId="382006" fightCount="11"/>
+    <item id="7" type="1" bonusesId="382007" fightCount="13"/>
+    <item id="8" type="1" bonusesId="382008" fightCount="16"/>
+    <item id="9" type="1" bonusesId="382009" fightCount="19"/>
+    <item id="10" type="1" bonusesId="382010" fightCount="22"/>
+    <item id="11" type="1" bonusesId="382011" fightCount="25"/>
+    <item id="12" type="1" bonusesId="382012" fightCount="31"/>
+    <item id="13" type="1" bonusesId="382013" fightCount="37"/>
+    <item id="14" type="1" bonusesId="382014" fightCount="48"/>
+    <item id="15" type="1" bonusesId="382015" fightCount="60"/>
+    <item id="16" type="1" bonusesId="382016" fightCount="69"/>
+    <item id="17" type="1" bonusesId="382017" fightCount="81"/>
+    <item id="18" type="1" bonusesId="382018" fightCount="93"/>
+    <item id="19" type="1" bonusesId="382019" fightCount="105"/>
+    <item id="20" type="1" bonusesId="382020" fightCount="123"/>
+    <item id="21" type="1" bonusesId="382021" fightCount="143"/>
+    <item id="22" type="1" bonusesId="382022" fightCount="163"/>
+    <item id="23" type="1" bonusesId="382023" fightCount="183"/>
+    <item id="24" type="1" bonusesId="382024" fightCount="213"/>
+    <item id="25" type="1" bonusesId="382025" fightCount="229"/>
+    <item id="26" type="1" bonusesId="382026" fightCount="245"/>
+    <item id="27" type="1" bonusesId="382027" fightCount="261"/>
+    <item id="28" type="1" bonusesId="382028" fightCount="293"/>
+    <item id="29" type="2" bonusesId="381001" fightCount="25"/>
+    <item id="30" type="2" bonusesId="381002" fightCount="50"/>
+    <item id="31" type="2" bonusesId="381003" fightCount="75"/>
+    <item id="32" type="2" bonusesId="381004" fightCount="100"/>
+    <item id="33" type="2" bonusesId="381005" fightCount="125"/>
+    <item id="34" type="2" bonusesId="381006" fightCount="150"/>
+    <item id="35" type="2" bonusesId="381007" fightCount="175"/>
+    <item id="36" type="2" bonusesId="381008" fightCount="200"/>
+    <item id="37" type="2" bonusesId="381009" fightCount="250"/>
+    <item id="38" type="2" bonusesId="381010" fightCount="300"/>
+    <item id="39" type="2" bonusesId="381011" fightCount="350"/>
+    <item id="40" type="2" bonusesId="381012" fightCount="400"/>
+    <item id="41" type="2" bonusesId="381013" fightCount="450"/>
+    <item id="42" type="2" bonusesId="381014" fightCount="500"/>
+    <item id="43" type="2" bonusesId="381015" fightCount="600"/>
+  </task>
+  <gift>
+    <item id="1" bonusesId="380001" name="每日免费礼包" type="1" param="" dailyLimit="1"/>
+    <item id="2" bonusesId="380002" name="单刀赴会激励礼包" type="3" param="" dailyLimit="1"/>
+    <item id="3" bonusesId="380003" name="单刀赴会玉璧礼包" type="1" param="398" dailyLimit="4"/>
+    <item id="4" bonusesId="380004" name="单刀赴会特惠礼包" type="2" param="310" dailyLimit="1"/>
+    <item id="5" bonusesId="380005" name="单刀赴会高级礼包" type="2" param="311" dailyLimit="3"/>
+    <item id="6" bonusesId="380006" name="单刀赴会精选礼包" type="2" param="312" dailyLimit="3"/>
+    <item id="7" bonusesId="380007" name="单刀赴会豪华礼包" type="2" param="313" dailyLimit="3"/>
+    <item id="8" bonusesId="380008" name="单刀赴会秘藏礼包" type="2" param="314" dailyLimit="1"/>
+    <item id="9" bonusesId="380009" name="单刀赴会臻享礼包" type="2" param="315" dailyLimit="1"/>
+    <item id="10" bonusesId="380010" name="单刀赴会终极礼包" type="2" param="316" dailyLimit="5"/>
+  </gift>
+  <passport>
+    <item level="1" lowItemId="120001" lowItemCount="100" midItemId="120001" midItemCount="100" highItemId="120001" highItemCount="100" highItemId2="120001" highItemCount2="100" killCount="6"/>
+    <item level="2" lowItemId="120001" lowItemCount="100" midItemId="120001" midItemCount="100" highItemId="120001" highItemCount="100" highItemId2="120001" highItemCount2="100" killCount="6"/>
+    <item level="3" lowItemId="120001" lowItemCount="100" midItemId="120001" midItemCount="100" highItemId="120001" highItemCount="100" highItemId2="120001" highItemCount2="100" killCount="6"/>
+    <item level="4" lowItemId="120001" lowItemCount="100" midItemId="120001" midItemCount="100" highItemId="120001" highItemCount="100" highItemId2="120001" highItemCount2="100" killCount="6"/>
+    <item level="5" lowItemId="120001" lowItemCount="100" midItemId="120001" midItemCount="100" highItemId="120001" highItemCount="100" highItemId2="120001" highItemCount2="100" killCount="6"/>
+  </passport>
+  <rank>
+    <item id="1" serverDay="480" playerBonusesId="383015" clanBonusesId="384012" palaceId1="12" palaceId2="6" palaceId3="1"/>
+    <item id="2" serverDay="240" playerBonusesId="383014" clanBonusesId="384011" palaceId1="12" palaceId2="6" palaceId3="1"/>
+    <item id="3" serverDay="120" playerBonusesId="383013" clanBonusesId="384010" palaceId1="6" palaceId2="1" palaceId3="0"/>
+    <item id="4" serverDay="60" playerBonusesId="383012" clanBonusesId="384009" palaceId1="1" palaceId2="0" palaceId3="0"/>
+    <item id="5" serverDay="1" playerBonusesId="383001" clanBonusesId="384001" palaceId1="0" palaceId2="0" palaceId3="0"/>
+    <item id="6" serverDay="1" playerBonusesId="383002" clanBonusesId="384002" palaceId1="0" palaceId2="0" palaceId3="0"/>
+    <item id="7" serverDay="1" playerBonusesId="383003" clanBonusesId="384003" palaceId1="0" palaceId2="0" palaceId3="0"/>
+    <item id="8" serverDay="1" playerBonusesId="383004" clanBonusesId="384004" palaceId1="0" palaceId2="0" palaceId3="0"/>
+    <item id="9" serverDay="1" playerBonusesId="383005" clanBonusesId="384005" palaceId1="0" palaceId2="0" palaceId3="0"/>
+    <item id="10" serverDay="1" playerBonusesId="383006" clanBonusesId="384006" palaceId1="0" palaceId2="0" palaceId3="0"/>
+    <item id="11" serverDay="1" playerBonusesId="383007" clanBonusesId="384007" palaceId1="0" palaceId2="0" palaceId3="0"/>
+    <item id="12" serverDay="1" playerBonusesId="383008" clanBonusesId="384008" palaceId1="0" palaceId2="0" palaceId3="0"/>
+    <item id="13" serverDay="1" playerBonusesId="383009" clanBonusesId="0" palaceId1="0" palaceId2="0" palaceId3="0"/>
+    <item id="14" serverDay="1" playerBonusesId="383010" clanBonusesId="0" palaceId1="0" palaceId2="0" palaceId3="0"/>
+    <item id="15" serverDay="1" playerBonusesId="383011" clanBonusesId="0" palaceId1="0" palaceId2="0" palaceId3="0"/>
+  </rank>
+  <ranking>
+    <item id="1" playerRanking="1" clanRanking="1"/>
+    <item id="2" playerRanking="2" clanRanking="2"/>
+    <item id="3" playerRanking="3" clanRanking="3"/>
+    <item id="4" playerRanking="4,6" clanRanking="4"/>
+    <item id="5" playerRanking="7,10" clanRanking="5"/>
+    <item id="6" playerRanking="11,20" clanRanking="6,10"/>
+    <item id="7" playerRanking="21,30" clanRanking="11,20"/>
+    <item id="8" playerRanking="31,50" clanRanking="21,50"/>
+    <item id="9" playerRanking="51,100" clanRanking=""/>
+    <item id="10" playerRanking="101,200" clanRanking=""/>
+    <item id="11" playerRanking="201,2000" clanRanking=""/>
+  </ranking>
+  <buff>
+    <item id="1" value="20" cost="0"/>
+    <item id="2" value="50" cost="50"/>
+    <item id="3" value="100" cost="100"/>
+  </buff>
+  <score>
+    <item id="1" winCountRange="0,4" scale="500"/>
+    <item id="2" winCountRange="5" scale="450"/>
+    <item id="3" winCountRange="6" scale="400"/>
+    <item id="4" winCountRange="7" scale="350"/>
+    <item id="5" winCountRange="8" scale="300"/>
+    <item id="6" winCountRange="9" scale="250"/>
+    <item id="7" winCountRange="10" scale="200"/>
+    <item id="8" winCountRange="11" scale="150"/>
+    <item id="9" winCountRange="12,999" scale="100"/>
+  </score>
+  <energy>
+    <item id="1" winCountRange="0,10" decrease="25"/>
+    <item id="2" winCountRange="11,20" decrease="20"/>
+    <item id="3" winCountRange="21,24" decrease="10"/>
+    <item id="4" winCountRange="25,33" decrease="1"/>
+    <item id="5" winCountRange="34,99" decrease="0"/>
+  </energy>
+  <win>
+    <item id="1" title="出师不利" icon="word_chushibuli" winCountRange="0" text="本次出师不利，未击败【{0}】{1}的成员。"/>
+    <item id="2" title="小试牛刀" icon="word_xiaoshiniudao" winCountRange="1,9" text="出战顺利，首战告捷！击败【{0}】{1}的{2}名成员。"/>
+    <item id="3" title="旗开得胜" icon="word_qikaidesheng" winCountRange="10,20" text="您在本次战斗中以一当十，成功击败【{0}】{1}的{2}名成员。"/>
+    <item id="4" title="大获全胜" icon="word_dahuoquansheng" winCountRange="21,999" text="单枪匹马，大杀四方！成功击败【{0}】{1}的{2}名成员！"/>
+    <item id="5" title="大获全胜" icon="word_dahuoquansheng" winCountRange="-1" text="超群绝伦，天下无双！完全击溃【{0}】{1}，为帮派赢得大量积分！"/>
+  </win>
+</root>

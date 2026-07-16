@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="458,732">
+  <displayList>
+    <image id="n23_rp91" name="n23" src="rp9116" fileName="res2/frame_nametiao5.png" xy="-15,9"/>
+    <text id="n13_svlp" name="label_title" xy="186,10" size="82,29" font="ui://27utqbizps391v" fontSize="20" color="#897230" align="center" vAlign="middle" autoSize="none" text="啊啊啊"/>
+    <list id="n18_svlp" name="list_attr" xy="34,54" size="390,680" scroll="both" defaultItem="ui://l32lh3odsvlpz" align="center" vAlign="middle" scrollItemToViewOnClick="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

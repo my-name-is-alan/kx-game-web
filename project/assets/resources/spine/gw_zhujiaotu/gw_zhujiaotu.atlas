@@ -1,0 +1,153 @@
+
+gw_zhujiaotu.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dao1
+  rotate: true
+  xy: 161, 157
+  size: 157, 62
+  orig: 157, 62
+  offset: 0, 0
+  index: -1
+dao2
+  rotate: false
+  xy: 351, 356
+  size: 154, 51
+  orig: 154, 51
+  offset: 0, 0
+  index: -1
+er1
+  rotate: false
+  xy: 200, 64
+  size: 66, 70
+  orig: 66, 70
+  offset: 0, 0
+  index: -1
+er2
+  rotate: true
+  xy: 268, 74
+  size: 60, 71
+  orig: 60, 71
+  offset: 0, 0
+  index: -1
+kua
+  rotate: true
+  xy: 2, 100
+  size: 214, 62
+  orig: 214, 62
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 316
+  size: 211, 190
+  orig: 211, 190
+  offset: 0, 0
+  index: -1
+shoubir1
+  rotate: true
+  xy: 225, 136
+  size: 90, 130
+  orig: 90, 130
+  offset: 0, 0
+  index: -1
+shoubir2
+  rotate: false
+  xy: 2, 7
+  size: 59, 91
+  orig: 59, 91
+  offset: 0, 0
+  index: -1
+shoul
+  rotate: false
+  xy: 66, 146
+  size: 93, 168
+  orig: 93, 168
+  offset: 0, 0
+  index: -1
+shoul2
+  rotate: false
+  xy: 463, 257
+  size: 31, 25
+  orig: 31, 25
+  offset: 0, 0
+  index: -1
+shoul3
+  rotate: false
+  xy: 413, 97
+  size: 27, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1
+shour
+  rotate: false
+  xy: 200, 136
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 215, 364
+  size: 134, 142
+  orig: 134, 142
+  offset: 0, 0
+  index: -1
+tui1
+  rotate: true
+  xy: 66, 56
+  size: 88, 132
+  orig: 88, 132
+  offset: 0, 0
+  index: -1
+tui2
+  rotate: true
+  xy: 331, 257
+  size: 97, 130
+  orig: 98, 130
+  offset: 0, 0
+  index: -1
+weibo
+  rotate: true
+  xy: 225, 228
+  size: 134, 104
+  orig: 137, 104
+  offset: 0, 0
+  index: -1
+yaodaip1
+  rotate: true
+  xy: 63, 24
+  size: 30, 64
+  orig: 30, 64
+  offset: 0, 0
+  index: -1
+yaodaip2
+  rotate: false
+  xy: 463, 284
+  size: 43, 70
+  orig: 43, 70
+  offset: 0, 0
+  index: -1
+yifu1
+  rotate: true
+  xy: 351, 409
+  size: 97, 150
+  orig: 97, 150
+  offset: 0, 0
+  index: -1
+yifu2
+  rotate: true
+  xy: 357, 133
+  size: 122, 102
+  orig: 122, 102
+  offset: 0, 0
+  index: -1
+yifu3
+  rotate: false
+  xy: 341, 71
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1

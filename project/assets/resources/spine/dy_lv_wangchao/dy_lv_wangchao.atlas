@@ -1,0 +1,146 @@
+
+dy_lv_wangchao.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 37, 488
+  size: 33, 11
+  orig: 33, 12
+  offset: 0, 1
+  index: -1
+daizi
+  rotate: true
+  xy: 72, 484
+  size: 15, 44
+  orig: 15, 44
+  offset: 0, 0
+  index: -1
+jiao
+  rotate: true
+  xy: 78, 387
+  size: 57, 106
+  orig: 67, 115
+  offset: 4, 9
+  index: -1
+meinmao
+  rotate: false
+  xy: 2, 493
+  size: 33, 6
+  orig: 33, 6
+  offset: 0, 0
+  index: -1
+piaodai
+  rotate: true
+  xy: 342, 471
+  size: 28, 103
+  orig: 30, 103
+  offset: 2, 0
+  index: -1
+piaodai2
+  rotate: true
+  xy: 118, 479
+  size: 20, 53
+  orig: 20, 53
+  offset: 0, 0
+  index: -1
+qunbai
+  rotate: true
+  xy: 2, 275
+  size: 110, 159
+  orig: 116, 170
+  offset: 1, 11
+  index: -1
+qunbai2
+  rotate: true
+  xy: 335, 217
+  size: 112, 164
+  orig: 115, 164
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 163, 218
+  size: 111, 170
+  orig: 147, 179
+  offset: 22, 6
+  index: -1
+shouhou_1
+  rotate: true
+  xy: 447, 457
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 2, 391
+  size: 53, 74
+  orig: 65, 74
+  offset: 6, 0
+  index: -1
+wuqi
+  rotate: true
+  xy: 2, 446
+  size: 30, 206
+  orig: 40, 214
+  offset: 4, 4
+  index: -1
+yaodai
+  rotate: false
+  xy: 244, 472
+  size: 96, 27
+  orig: 96, 37
+  offset: 0, 0
+  index: -1
+ydabi
+  rotate: true
+  xy: 186, 354
+  size: 67, 79
+  orig: 77, 86
+  offset: 3, 0
+  index: -1
+yifu
+  rotate: true
+  xy: 267, 331
+  size: 74, 165
+  orig: 74, 165
+  offset: 0, 0
+  index: -1
+yjiao
+  rotate: true
+  xy: 283, 421
+  size: 48, 108
+  orig: 68, 119
+  offset: 9, 11
+  index: -1
+yshou
+  rotate: true
+  xy: 173, 478
+  size: 21, 35
+  orig: 21, 35
+  offset: 0, 0
+  index: -1
+zdabi
+  rotate: true
+  xy: 210, 423
+  size: 47, 71
+  orig: 47, 77
+  offset: 0, 0
+  index: -1
+zjianh
+  rotate: true
+  xy: 210, 477
+  size: 22, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+zxiaobi
+  rotate: true
+  xy: 393, 407
+  size: 48, 65
+  orig: 56, 65
+  offset: 8, 0
+  index: -1

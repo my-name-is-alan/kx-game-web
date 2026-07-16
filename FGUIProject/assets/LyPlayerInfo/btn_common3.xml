@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,120" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_kqmq" name="n0" src="kqmq1t" fileName="res2/frame_buff1.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_kqmq" name="n1" src="kqmq1s" fileName="res2/frame_buff5.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_kqmq" name="n2" src="kqmq1t" fileName="res2/frame_buff1.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_kqmq" name="n3" src="kqmq1s" fileName="res2/frame_buff5.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_kqmq" name="label_name" xy="0,0" size="120,120" group="n9_kqmq" font="ui://27utqbizps391v" fontSize="28" color="#cadec6" align="center" vAlign="middle" autoSize="none" strokeColor="#395534" strokeSize="2" singleLine="true" text="绝学">
+      <gearLook controller="button" default="1,0,0,0"/>
+      <gearColor controller="button" pages="1,3" values="#fff8c7,#6f4917|#fff8c7,#6f4917" default="#cadec6,#395534"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n9_kqmq" name="group_1" xy="0,0" size="120,120" visible="false" advanced="true"/>
+    <text id="n7_kqmq" name="label_name1" xy="-6,-10" size="120,120" group="n10_kqmq" font="ui://27utqbizps391v" fontSize="28" color="#cadec6" align="center" vAlign="middle" autoSize="none" strokeColor="#395534" strokeSize="2" singleLine="true" text="绝学">
+      <gearLook controller="button" default="1,0,0,0"/>
+      <gearColor controller="button" pages="1,3" values="#fff8c7,#6f4917|#fff8c7,#6f4917" default="#cadec6,#395534"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n8_kqmq" name="label_name2" xy="15,17" size="120,120" group="n10_kqmq" font="ui://27utqbizps391v" fontSize="22" color="#cadec6" align="center" vAlign="middle" autoSize="none" strokeColor="#395534" strokeSize="2" singleLine="true" text="绝学">
+      <gearLook controller="button" default="1,0,0,0"/>
+      <gearColor controller="button" pages="1,3" values="#fff8c7,#6f4917|#fff8c7,#6f4917" default="#cadec6,#395534"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n10_kqmq" name="group_2" xy="-6,-10" size="141,147" advanced="true"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

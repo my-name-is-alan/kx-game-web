@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,897">
+  <displayList>
+    <loader id="n1_hbzk" name="n1" xy="27,30" size="696,878" url="ui://qnktu1ilpugclw" align="center" vAlign="middle" fill="scaleFree"/>
+    <image id="n47_ql4f" name="n47" src="ql4f2g" fileName="res3/bg_bangpai1.png" xy="44,51"/>
+    <image id="n43_jos6" name="n43" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="192,81" size="374,38"/>
+    <richtext id="n4_hbzk" name="label_bxl" xy="321,78" size="116,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="帮派旗帜"/>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,0"/>
+    <list id="n35_hbzk" name="list_flag" xy="77,396" size="597,342" layout="flow_hz" overflow="scroll" lineGap="15" colGap="20" defaultItem="ui://8rnw66xwg7bh15" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n40_g7bh" name="btn_ok" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="271,811">
+      <Button title="更换" titleFontSize="32"/>
+    </component>
+    <loader id="n41_id3d" name="img_icon" xy="339,208" size="74,80" url="ui://27utqbizql4fui" align="center" vAlign="middle"/>
+    <text id="n42_u96x" name="label_str60" xy="265,775" size="224,32" visible="false" fontSize="22" color="#c25144" autoClearText="true" text="仅帮主可更换帮派旗帜"/>
+  </displayList>
+</component>

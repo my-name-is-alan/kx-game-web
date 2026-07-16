@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,780">
+  <displayList>
+    <image id="n63_p8ls" name="n63" src="p8ls2p" fileName="skill/frame_mijidi.png" xy="24,0"/>
+    <image id="n57_ro4e" name="n57" src="ro4e1g" fileName="elite/frame_touming2.png" xy="75,42" size="600,675">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <list id="n61_ro4e" name="list_item" xy="80,46" size="654,740" scale="0.9,0.9" layout="flow_hz" overflow="scroll" scrollBarFlags="64" defaultItem="ui://yhkdb7e3s5qhkg" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

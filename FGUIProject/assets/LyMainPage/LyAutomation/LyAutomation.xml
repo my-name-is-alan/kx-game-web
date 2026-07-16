@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://2uzp0flsrc7m4f" designImageOffsetY="-207">
+  <controller name="con_isAnd" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n0_f9xz" name="btn_close1" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_f9xz" name="group_main" src="nexh6x" fileName="LyAutomation/group_automation.xml" xy="37,283">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

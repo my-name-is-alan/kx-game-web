@@ -1,0 +1,13 @@
+
+zd_xy_bingchi_2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jltd_hit_2jie_00
+  rotate: false
+  xy: 2, 33
+  size: 142, 111
+  orig: 145, 112
+  offset: 2, 0
+  index: -1

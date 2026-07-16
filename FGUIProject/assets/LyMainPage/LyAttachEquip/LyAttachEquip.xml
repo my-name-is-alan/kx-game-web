@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetX="-162" designImageOffsetY="-104" designImageAlpha="67">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n118_mnt8" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n194_niv3" name="n194" xy="26,576" size="700,246" group="n155_mnt8" url="ui://27utqbizrvb52y" fill="scaleFree"/>
+    <image id="n198_niv3" name="n198" src="rvb53c" fileName="ui/dec_tihuanzhanshi_frame_top_left_corner.png" pkg="27utqbiz" xy="48,627" size="196,130" group="n155_mnt8"/>
+    <image id="n210_fe12" name="n210" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="189,641" size="500,160" group="n155_mnt8"/>
+    <loader id="n196_niv3" name="img_quality" xy="47,581" size="658,46" group="n155_mnt8" url="ui://27utqbizrvb53a" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n47_mnt8" name="label_name" xy="78,581" size="595,42" group="n155_mnt8" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="height" strokeColor="#000000" strokeSize="2" text="【当前装备】【极品】 酒葫芦"/>
+    <list id="n163_mnt8" name="list_attr" xy="223,654" size="213,153" group="n155_mnt8" lineGap="1" defaultItem="ui://27utqbizmnt82z">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n52_mnt8" name="label_dec1" xy="482,683" size="206,62" group="n174_mm97" fontSize="18" color="#2b841c" leading="0" autoSize="shrink" text="有概率完全不受伤害，这里需要两行表示"/>
+    <component id="n165_mnt8" name="group_attr1" src="mnt82z" fileName="group_equipAttr.xml" pkg="27utqbiz" xy="480,654" size="191,50" group="n174_mm97"/>
+    <group id="n174_mm97" name="group_special1" xy="480,654" size="208,91" group="n155_mnt8" advanced="true"/>
+    <text id="n56_mnt8" name="label_dec2" xy="481,753" size="209,64" group="n175_mm97" fontSize="18" color="#2b841c" leading="0" autoSize="shrink" text="攻击时有概率打晕对手，使其1回合无法行动"/>
+    <component id="n166_mnt8" name="group_attr2" src="mnt82z" fileName="group_equipAttr.xml" pkg="27utqbiz" xy="481,724" size="191,50" group="n175_mm97"/>
+    <group id="n175_mm97" name="group_special2" xy="481,724" size="209,93" group="n155_mnt8" advanced="true"/>
+    <component id="n197_niv3" name="img_icon" src="niv33k" fileName="itemframe/EquipItem.xml" pkg="27utqbiz" xy="72,637" size="106,168" group="n155_mnt8"/>
+    <group id="n155_mnt8" name="n155" xy="26,576" size="700,246" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <loader id="n191_niv3" name="n191" xy="28,826" size="700,382" group="n156_mnt8" url="ui://27utqbizrvb52y" fill="scaleFree"/>
+    <image id="n211_fe12" name="n211" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="191,887" size="500,206" group="n156_mnt8"/>
+    <image id="n199_niv3" name="n199" src="rvb53c" fileName="ui/dec_tihuanzhanshi_frame_top_left_corner.png" pkg="27utqbiz" xy="50,876" group="n156_mnt8"/>
+    <image id="n200_niv3" name="n200" src="rvb53d" fileName="ui/dec_tihuanzhanshi_frame_low_right_corner.png" pkg="27utqbiz" xy="580,1107" group="n156_mnt8"/>
+    <loader id="n193_niv3" name="img_qualityNew" xy="49,830" size="658,46" group="n156_mnt8" url="ui://27utqbizrvb535" align="center" vAlign="middle" fill="scaleFree"/>
+    <list id="n161_mnt8" name="list_attrNew" xy="227,943" size="213,142" group="n156_mnt8" lineGap="3" defaultItem="ui://27utqbizmnt82z">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n137_mnt8" name="label_nameNew" xy="65,829" size="617,42" group="n156_mnt8" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="【新装备】【极品】 酒葫芦"/>
+    <text id="n148_mnt8" name="label_str10" xy="222,898" size="60,39" group="n156_mnt8" font="ui://27utqbizps391v" fontSize="28" color="#16191a" vAlign="middle" text="武力"/>
+    <text id="n149_mnt8" name="label_addNew" xy="306,899" size="71,39" group="n156_mnt8" font="ui://27utqbizps391v" fontSize="28" color="#c33312" vAlign="middle" text="+999"/>
+    <loader id="n208_fe12" name="img_jt" xy="412,903" size="19,26" group="n156_mnt8" url="ui://27utqbizmnt82v" align="center" vAlign="middle" clearOnPublish="true">
+      <relation target="n149_mnt8" sidePair="left-right"/>
+    </loader>
+    <text id="n152_mnt8" name="label_th" xy="466,1101" size="184,26" group="n156_mnt8" fontSize="18" color="#2b841c" vAlign="middle" text="替换后自动分解原装备">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <text id="n141_mnt8" name="label_dec1New" xy="482,972" size="206,47" group="n172_e0po" fontSize="18" color="#2b841c" leading="0" autoSize="shrink" text="有概率完全不受伤害，这里需要两行表示"/>
+    <component id="n167_mnt8" name="group_attr1New" src="mnt82z" fileName="group_equipAttr.xml" pkg="27utqbiz" xy="483,942" group="n172_e0po"/>
+    <group id="n172_e0po" name="group_specialNew1" xy="482,942" size="206,77" group="n156_mnt8" advanced="true"/>
+    <text id="n146_mnt8" name="label_dec2New" xy="482,1045" size="206,47" group="n173_e0po" fontSize="18" color="#2b841c" leading="0" autoSize="none" text="减少对方的反击伤害"/>
+    <component id="n168_mnt8" name="group_attr2New" src="mnt82z" fileName="group_equipAttr.xml" pkg="27utqbiz" xy="483,1016" group="n173_e0po"/>
+    <group id="n173_e0po" name="group_specialNew2" xy="482,1016" size="206,76" group="n156_mnt8" advanced="true"/>
+    <component id="n201_niv3" name="img_iconNew" src="niv33k" fileName="itemframe/EquipItem.xml" pkg="27utqbiz" xy="74,883" group="n156_mnt8"/>
+    <component id="n207_q8va" name="btn_automatic" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="432,1096" size="311,45" group="n156_mnt8" scale="0.7,0.7">
+      <gearDisplay controller="c1" pages="0"/>
+      <Button titleFontSize="26"/>
+    </component>
+    <component id="n205_xq64" name="btn_attach" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="447,1139" size="188,52" group="n212_er9z">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n204_xq64" name="btn_breakdown" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="119,1139" size="188,52" group="n212_er9z">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <group id="n212_er9z" name="n212" xy="119,1139" size="516,52" group="n156_mnt8" advanced="true"/>
+    <component id="n213_psu4" name="btn_attach1" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="284,1139" size="188,52" group="n156_mnt8">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <group id="n156_mnt8" name="n156" xy="28,826" size="715,382" advanced="true">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+  </displayList>
+</component>

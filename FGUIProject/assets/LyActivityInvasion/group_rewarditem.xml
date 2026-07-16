@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="644,120">
+  <displayList>
+    <image id="n11_gfx3" name="n11" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="0,0" size="644,120"/>
+    <loader id="n7_lyjn" name="loader_rank" xy="90,60" pivot="0.5,0.5" anchor="true" size="100,100" align="center" vAlign="middle" autoSize="true"/>
+    <text id="n8_lyjn" name="label_rank" xy="0,39" size="180,42" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n10_lyjn" name="label_rank2" xy="0,40" size="180,42" font="ui://27utqbizps391v" fontSize="26" color="#16191a" align="center" vAlign="middle" autoSize="none" text=""/>
+    <list id="n1_ib4p" name="list_item" xy="180,15" size="500,100" scale="0.9,0.9" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha"/>
+  </displayList>
+</component>

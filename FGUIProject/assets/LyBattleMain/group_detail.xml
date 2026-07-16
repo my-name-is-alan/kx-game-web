@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,750">
+  <displayList>
+    <graph id="n3_cymh" name="n3" xy="0,0" size="750,750" type="rect" fillColor="#ffcccccc">
+      <relation target="" sidePair="height-height%,top-top%"/>
+    </graph>
+    <component id="n1_cymh" name="group_content" src="krkh18" fileName="group_content.xml" xy="0,0" size="750,750">
+      <relation target="" sidePair="height-height%,top-top%"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n3_loem" name="img_black" src="loemmf" fileName="res/memory_black.png" xy="0,0" size="750,1334" alpha="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_n7tl" name="img_circle" src="n7tl3" fileName="res/memory_bg_wait.png" xy="322,613" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n4_loem" name="label_tips" xy="370,743" size="10,36" alpha="0" font="ui://27utqbizps391v" fontSize="26" color="#ffffff" strokeColor="#000000" text="">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="trans_circle">
+    <item time="0" type="Alpha" target="n1_n7tl" value="0"/>
+    <item time="0" type="Alpha" target="n3_loem" value="0"/>
+    <item time="0" type="Alpha" target="n4_loem" value="0"/>
+    <item time="48" type="Alpha" target="n1_n7tl" tween="true" startValue="0" endValue="1" duration="12" ease="Quad.In"/>
+    <item time="48" type="Alpha" target="n3_loem" tween="true" startValue="0" endValue="0.5" duration="12" ease="Quad.In"/>
+    <item time="48" type="Alpha" target="n4_loem" tween="true" startValue="0" endValue="1" duration="12" ease="Quad.In"/>
+    <item time="60" type="Rotation" target="n1_n7tl" tween="true" startValue="0" endValue="360" duration="24" ease="Custom" customEase="2,0,0,0.4825,0.3625,0.1975,0.9275,1,0,1,1"/>
+  </transition>
+</component>

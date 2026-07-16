@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,240">
+  <displayList>
+    <list id="n23_qhxy" name="list_attr" xy="0,0" size="500,240" layout="flow_hz" defaultItem="ui://qy0p8c70qhxy9"/>
+    <component id="n24_ydqd" name="group_attr0" src="qhxy9" fileName="group_attr.xml" xy="50,0" group="n32_ydqd"/>
+    <component id="n25_ydqd" name="group_attr1" src="qhxy9" fileName="group_attr.xml" xy="150,0" group="n32_ydqd"/>
+    <component id="n26_ydqd" name="group_attr2" src="qhxy9" fileName="group_attr.xml" xy="250,0" group="n32_ydqd"/>
+    <component id="n27_ydqd" name="group_attr3" src="qhxy9" fileName="group_attr.xml" xy="350,0" group="n32_ydqd"/>
+    <component id="n28_ydqd" name="group_attr4" src="qhxy9" fileName="group_attr.xml" xy="0,100" group="n32_ydqd"/>
+    <component id="n29_ydqd" name="group_attr5" src="qhxy9" fileName="group_attr.xml" xy="100,100" group="n32_ydqd"/>
+    <component id="n30_ydqd" name="group_attr6" src="qhxy9" fileName="group_attr.xml" xy="200,100" group="n32_ydqd"/>
+    <component id="n31_ydqd" name="group_attr7" src="qhxy9" fileName="group_attr.xml" xy="300,100" group="n32_ydqd"/>
+    <group id="n32_ydqd" name="group_attr" xy="0,0" size="470,220" visible="false" advanced="true"/>
+  </displayList>
+</component>

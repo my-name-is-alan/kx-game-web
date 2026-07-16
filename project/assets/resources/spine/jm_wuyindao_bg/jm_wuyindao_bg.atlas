@@ -1,0 +1,160 @@
+
+jm_wuyindao_bg.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00010
+  rotate: false
+  xy: 1033, 706
+  size: 119, 122
+  orig: 119, 123
+  offset: 0, 0
+  index: -1
+00011
+  rotate: false
+  xy: 1945, 147
+  size: 79, 119
+  orig: 81, 120
+  offset: 1, 0
+  index: -1
+00012
+  rotate: false
+  xy: 1075, 576
+  size: 60, 50
+  orig: 60, 50
+  offset: 0, 0
+  index: -1
+00013
+  rotate: false
+  xy: 2026, 232
+  size: 20, 34
+  orig: 20, 35
+  offset: 0, 0
+  index: -1
+00014
+  rotate: false
+  xy: 975, 362
+  size: 52, 23
+  orig: 52, 23
+  offset: 0, 0
+  index: -1
+00015
+  rotate: false
+  xy: 754, 361
+  size: 163, 175
+  orig: 163, 175
+  offset: 0, 0
+  index: -1
+00016
+  rotate: false
+  xy: 1945, 82
+  size: 67, 63
+  orig: 67, 63
+  offset: 0, 0
+  index: -1
+00017
+  rotate: false
+  xy: 1945, 268
+  size: 81, 204
+  orig: 95, 208
+  offset: 6, 0
+  index: -1
+00018
+  rotate: false
+  xy: 975, 387
+  size: 114, 149
+  orig: 114, 149
+  offset: 0, 0
+  index: -1
+00019
+  rotate: false
+  xy: 1033, 547
+  size: 40, 79
+  orig: 40, 79
+  offset: 0, 0
+  index: -1
+00020
+  rotate: false
+  xy: 919, 372
+  size: 54, 164
+  orig: 54, 164
+  offset: 0, 0
+  index: -1
+000200
+  rotate: false
+  xy: 2014, 75
+  size: 31, 70
+  orig: 31, 70
+  offset: 0, 0
+  index: -1
+0006
+  rotate: false
+  xy: 754, 1702
+  size: 932, 172
+  orig: 932, 172
+  offset: 0, 0
+  index: -1
+0007
+  rotate: false
+  xy: 754, 1876
+  size: 1066, 170
+  orig: 1066, 170
+  offset: 0, 0
+  index: -1
+0009
+  rotate: false
+  xy: 2, 86
+  size: 1217, 258
+  orig: 1217, 258
+  offset: 0, 0
+  index: -1
+001
+  rotate: false
+  xy: 2, 346
+  size: 750, 1700
+  orig: 750, 1700
+  offset: 0, 0
+  index: -1
+002
+  rotate: false
+  xy: 1221, 100
+  size: 722, 372
+  orig: 722, 372
+  offset: 0, 0
+  index: -1
+0021
+  rotate: false
+  xy: 1317, 1506
+  size: 491, 194
+  orig: 602, 198
+  offset: 111, 0
+  index: -1
+003
+  rotate: false
+  xy: 754, 538
+  size: 277, 290
+  orig: 277, 298
+  offset: 0, 8
+  index: -1
+004
+  rotate: false
+  xy: 754, 830
+  size: 561, 870
+  orig: 567, 875
+  offset: 4, 4
+  index: -1
+005
+  rotate: false
+  xy: 1221, 474
+  size: 739, 354
+  orig: 744, 356
+  offset: 0, 1
+  index: -1
+22
+  rotate: false
+  xy: 1033, 628
+  size: 108, 76
+  orig: 108, 76
+  offset: 0, 0
+  index: -1

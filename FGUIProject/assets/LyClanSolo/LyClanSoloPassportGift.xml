@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetX="334" designImageOffsetY="-489" designImageAlpha="100">
+  <displayList>
+    <component id="n85_l7ic" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-133">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n87_i7m6" name="main" src="ksar27" fileName="group_clanSoloPassportGift.xml" xy="0,261">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

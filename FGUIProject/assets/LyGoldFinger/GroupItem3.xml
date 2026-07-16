@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,160">
+  <displayList>
+    <component id="n0_o6qj" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="0,-1"/>
+    <text id="n1_o6qj" name="label_name" xy="28,100" size="44,29" font="ui://27utqbizps391v" fontSize="20" color="#7c473c" align="center" vAlign="middle" autoClearText="true" text="碎片">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n2_ey4i" name="label_rate" xy="29,130" size="41,29" font="ui://27utqbizps391v" fontSize="20" color="#28b711" align="center" vAlign="middle" autoClearText="true" text="10%">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

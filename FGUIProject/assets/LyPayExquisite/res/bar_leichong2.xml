@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="254,20" extention="ProgressBar">
+  <displayList>
+    <image id="n5_h64q" name="n5" src="srilj" fileName="res/frame_progress bar.png" xy="-3,0" size="262,20">
+      <relation target="" sidePair="height-height,rightext-right,leftext-left"/>
+    </image>
+    <image id="n6_h64q" name="bar" src="srili" fileName="res/frame_progress bar now.png" xy="2,0" size="251,20">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <text id="n7_h269" name="title" xy="97,-7" size="60,34" fontSize="24" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" autoClearText="true" text="1231">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

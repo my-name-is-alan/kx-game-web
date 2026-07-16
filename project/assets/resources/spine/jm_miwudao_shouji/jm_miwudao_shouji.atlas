@@ -1,0 +1,132 @@
+
+jm_miwudao_shouji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tu/hit1/hit1_00
+  rotate: false
+  xy: 2, 855
+  size: 148, 148
+  orig: 270, 270
+  offset: 61, 61
+  index: -1
+tu/hit1/hit1_01
+  rotate: false
+  xy: 444, 277
+  size: 204, 204
+  orig: 270, 270
+  offset: 33, 33
+  index: -1
+tu/hit1/hit1_02
+  rotate: false
+  xy: 2, 301
+  size: 190, 192
+  orig: 270, 270
+  offset: 40, 39
+  index: -1
+tu/hit1/hit1_04
+  rotate: false
+  xy: 152, 851
+  size: 153, 152
+  orig: 270, 270
+  offset: 60, 64
+  index: -1
+tu/hit1/hit1_06
+  rotate: false
+  xy: 650, 255
+  size: 242, 208
+  orig: 270, 270
+  offset: 15, 41
+  index: -1
+tu/hit1/hit1_08
+  rotate: false
+  xy: 249, 488
+  size: 242, 188
+  orig: 270, 270
+  offset: 15, 41
+  index: -1
+tu/hit1/hit1_10
+  rotate: false
+  xy: 745, 465
+  size: 246, 190
+  orig: 270, 270
+  offset: 13, 44
+  index: -1
+tu/hit1/hit1_12
+  rotate: false
+  xy: 194, 296
+  size: 248, 190
+  orig: 270, 270
+  offset: 12, 44
+  index: -1
+tu/hit1/hit1_14
+  rotate: false
+  xy: 493, 483
+  size: 250, 188
+  orig: 270, 270
+  offset: 11, 47
+  index: -1
+tu/hit1/hit1_16
+  rotate: false
+  xy: 755, 657
+  size: 248, 187
+  orig: 270, 270
+  offset: 12, 47
+  index: -1
+tu/hit1/hit1_18
+  rotate: false
+  xy: 2, 495
+  size: 245, 187
+  orig: 270, 270
+  offset: 13, 47
+  index: -1
+tu/hit1/hit1_20
+  rotate: false
+  xy: 570, 673
+  size: 183, 171
+  orig: 270, 270
+  offset: 38, 50
+  index: -1
+tu/hit1/hit1_22
+  rotate: false
+  xy: 381, 678
+  size: 187, 166
+  orig: 270, 270
+  offset: 35, 52
+  index: -1
+tu/hit1/hit1_24
+  rotate: false
+  xy: 192, 684
+  size: 187, 162
+  orig: 270, 270
+  offset: 35, 53
+  index: -1
+tu/hit1/hit1_25
+  rotate: false
+  xy: 2, 689
+  size: 188, 160
+  orig: 270, 270
+  offset: 35, 52
+  index: -1
+tu/hit1/hit1_26
+  rotate: false
+  xy: 478, 846
+  size: 187, 157
+  orig: 270, 270
+  offset: 36, 51
+  index: -1
+tu/hit1/hit1_27
+  rotate: false
+  xy: 667, 846
+  size: 189, 157
+  orig: 270, 270
+  offset: 35, 52
+  index: -1
+tu/hit1/hit1_28
+  rotate: false
+  xy: 307, 848
+  size: 169, 155
+  orig: 270, 270
+  offset: 55, 54
+  index: -1

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="604,168">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n18_jru5" name="n18" src="jru54r" fileName="leitotal/frame_leichong.png" xy="0,0"/>
+    <image id="n26_h269" name="n26" src="h2695j" fileName="leitotal/frame_mingpai.png" xy="-41,-10" scale="0.7,0.7">
+      <gearDisplay controller="c2" pages="0"/>
+    </image>
+    <loader3D id="n23_jru5" name="loader_spine_main" xy="80,83" size="1,1" scale="0.15,0.15" animation="" skin="" loop="true">
+      <gearDisplay controller="c2" pages="0"/>
+    </loader3D>
+    <text id="n8_sril" name="label_name" xy="140,12" size="100,34" fontSize="24" color="#745d37" align="center" vAlign="middle" autoClearText="true" text="夏日礼包"/>
+    <list id="n12_sril" name="list_item" xy="140,71" size="320,100" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://27utqbizewyha" autoClearItems="true">
+      <gearDisplay controller="c2" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n19_jru5" name="bar_progress" src="tn2s49" fileName="res/bar_leichong.xml" xy="140,50" size="420,12">
+      <ProgressBar value="30" max="100"/>
+    </component>
+    <component id="n20_jru5" name="btn_goto" src="tn2s4k" fileName="res/btn_goto.xml" xy="406,103">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n21_jru5" name="btn_take" src="srilq" fileName="res/btn_paybuy.xml" xy="406,103">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <text id="n22_jru5" name="label_take" xy="441,105" size="88,39" font="ui://27utqbizps391v" fontSize="28" color="#b29f7e" align="center" vAlign="middle" autoClearText="true" text="已领取">
+      <gearDisplay controller="c1" pages="2"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n24_h269" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="41,44" scale="0.8,0.8">
+      <gearDisplay controller="c2" pages="1"/>
+    </component>
+    <graph id="n25_h269" name="graph_click" xy="31,34" size="100,100" type="rect" lineSize="0" lineColor="#03000000" fillColor="#03ffffff">
+      <gearDisplay controller="c2" pages="0"/>
+    </graph>
+    <loader id="n27_h269" name="loader_name" xy="-29,78" size="50,50" scale="0.3,0.3" align="center" vAlign="middle">
+      <gearDisplay controller="c2" pages="0"/>
+    </loader>
+  </displayList>
+</component>

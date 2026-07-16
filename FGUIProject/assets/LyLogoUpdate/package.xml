@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="adnnkcl6">
+  <resources>
+    <component id="xzpe0" name="LyLogoUpdate.xml" path="/" exported="true"/>
+    <component id="jloiu" name="bar_progress.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

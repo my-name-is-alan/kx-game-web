@@ -1,0 +1,55 @@
+
+jm_yunshi.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_yunshi_yun
+  rotate: false
+  xy: 179, 663
+  size: 364, 349
+  orig: 737, 562
+  offset: 0, 213
+  index: -1
+frame_chouqian
+  rotate: true
+  xy: 179, 204
+  size: 213, 190
+  orig: 213, 190
+  offset: 0, 0
+  index: -1
+frame_chouqian2
+  rotate: true
+  xy: 179, 151
+  size: 51, 166
+  orig: 51, 166
+  offset: 0, 0
+  index: -1
+frame_chouqian3
+  rotate: false
+  xy: 2, 2
+  size: 179, 36
+  orig: 179, 36
+  offset: 0, 0
+  index: -1
+frame_guang
+  rotate: false
+  xy: 2, 135
+  size: 175, 877
+  orig: 175, 878
+  offset: 0, 1
+  index: -1
+frame_guang_01
+  rotate: false
+  xy: 2, 40
+  size: 201, 93
+  orig: 201, 93
+  offset: 0, 0
+  index: -1
+yunyan
+  rotate: true
+  xy: 179, 419
+  size: 242, 199
+  orig: 242, 199
+  offset: 0, 0
+  index: -1

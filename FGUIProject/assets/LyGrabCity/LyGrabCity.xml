@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1700">
+  <controller name="pageState" exported="true" pages="0,,1,报名" selected="0"/>
+  <displayList>
+    <image id="n29_k7xe" name="n29" src="k7xe1l" fileName="res/bg_gongchengluedi.png" xy="0,1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n1_k7xe" name="n1" src="k7xe4" fileName="res/word_gongchengluedi.png" xy="111,358">
+      <relation target="" sidePair="top-top%"/>
+    </image>
+    <image id="n13_k7xe" name="n13" src="10lj849" fileName="ui/frame_server.png" pkg="27utqbiz" xy="58,510" size="644,99" group="n55_mchc"/>
+    <richtext id="n14_k7xe" name="label_moreSever" xy="547,558" size="116,42" group="n55_mchc" fontSize="22" color="#3fd83b" align="center" vAlign="middle" autoSize="shrink" underline="true" text="查看更多"/>
+    <text id="n15_k7xe" name="n15" xy="88,523" size="143,36" group="n55_mchc" fontSize="26" color="#671e0b" align="center" vAlign="middle" autoSize="none" text="活动时间："/>
+    <text id="n16_k7xe" name="label_openTime" xy="212,522" size="284,36" group="n55_mchc" fontSize="26" color="#671e0b" vAlign="middle" autoClearText="true" text="8/258/258/258/258/25"/>
+    <text id="n17_k7xe" name="n17" xy="90,560" size="143,36" group="n55_mchc" fontSize="26" color="#671e0b" align="center" vAlign="middle" autoSize="none" text="参与区服："/>
+    <text id="n18_k7xe" name="label_sever" xy="212,561" size="322,36" group="n55_mchc" fontSize="26" color="#671e0b" vAlign="middle" autoSize="shrink" autoClearText="true" text="参与区服：参与区服：参与区服："/>
+    <group id="n55_mchc" name="n55" xy="58,510" size="644,99" advanced="true">
+      <relation target="" sidePair="top-top%"/>
+    </group>
+    <image id="n38_k7xe" name="n38" src="k7xe2e" fileName="res/frame_baomingdi.png" xy="132,799" group="n43_k7xe"/>
+    <text id="n36_k7xe" name="n36" xy="289,806" size="111,47" group="n43_k7xe" fontSize="24" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" text="报名中："/>
+    <text id="n37_k7xe" name="label_signUp" xy="386,813" size="172,34" group="n43_k7xe" fontSize="24" color="#fadd9f" vAlign="middle" letterSpacing="-1" autoSize="none" text="02：31：58"/>
+    <text id="n41_k7xe" name="label_baomingdes" xy="174,873" size="403,47" group="n43_k7xe" fontSize="24" color="#fadd9f" align="center" vAlign="middle" autoSize="none" text="帮派排名前100名可获得参与资格"/>
+    <text id="n42_k7xe" name="n42" xy="157,904" size="441,47" group="n43_k7xe" fontSize="22" color="#de2424" align="center" vAlign="middle" autoSize="none" text="结算将按报名结束时的名单和职位发放奖励"/>
+    <text id="n39_k7xe" name="label_myRank" xy="222,846" size="186,34" group="n53_p4jp" fontSize="24" color="#ffffff" vAlign="middle" autoClearText="true" text="我的帮派排名：7"/>
+    <richtext id="n40_k7xe" name="label_goJoin" xy="408,842" size="116,42" group="n53_p4jp" fontSize="22" color="#3fd83b" align="center" vAlign="middle" autoSize="shrink" underline="true" text="前往加入"/>
+    <group id="n53_p4jp" name="n53" xy="222,842" size="302,42" group="n43_k7xe" advanced="true" layout="hz" excludeInvisibles="true"/>
+    <group id="n43_k7xe" name="group_signUp" xy="132,799" size="490,154" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n2_k7xe" name="n2" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="31,603" size="698,420" group="n12_k7xe"/>
+    <component id="n3_k7xe" name="btn_closeSever" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="663,581" group="n12_k7xe"/>
+    <image id="n4_k7xe" name="n4" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="165,645" size="419,38" group="n12_k7xe"/>
+    <image id="n5_k7xe" name="n5" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="57,696" size="639,292" group="n12_k7xe"/>
+    <text id="n6_k7xe" name="label_jointime" xy="217,716" size="42,34" group="n12_k7xe" fontSize="24" color="#16191a" vAlign="middle" autoClearText="true" text="5月"/>
+    <text id="n7_k7xe" name="label_SeverTitle" xy="178,644" size="400,39" group="n12_k7xe" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="参与区服">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n8_k7xe" name="n8" xy="108,715" size="138,36" group="n12_k7xe" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="活动日期："/>
+    <text id="n9_k7xe" name="n9" xy="108,753" size="150,36" group="n12_k7xe" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="参与服务器："/>
+    <list id="n10_k7xe" name="list_allSever" xy="241,754" size="425,155" group="n12_k7xe" layout="flow_hz" overflow="scroll" lineGap="-6" colGap="15" defaultItem="ui://i35cf1mqk7xe2a" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n11_k7xe" name="n11" xy="109,936" size="373,36" group="n12_k7xe" fontSize="24" color="#16191a" vAlign="middle" autoSize="none" text="参与帮派名单将在报名结束时锁定"/>
+    <group id="n12_k7xe" name="group_sever" xy="31,581" size="710,442" visible="false" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n46_k7xe" name="btn_join" src="k7xe2f" fileName="Button1.xml" xy="286,1235" group="n64_maep">
+      <Button icon="ui://i35cf1mqk7xe2h"/>
+    </component>
+    <text id="n47_k7xe" name="label_stateTime" xy="326,1201" pivot="0.5,0.5" size="97,34" group="n64_maep" fontSize="24" color="#ffffff" align="center" vAlign="middle" letterSpacing="-1" strokeColor="#16191a" strokeSize="2" autoClearText="true" text="备战中："/>
+    <image id="n49_k7xe" name="n49" src="gm8n2i" fileName="ui/frame_heidi.png" pkg="27utqbiz" xy="201,1404" size="347,69" group="n52_k7xe" aspect="true"/>
+    <text id="n50_k7xe" name="label_power" xy="351,1409" pivot="0.5,0.5" size="44,29" group="n52_k7xe" fontSize="20" color="#74d644" align="center" strokeColor="#16191a" strokeSize="2" autoClearText="true" text="体力"/>
+    <text id="n51_k7xe" name="label_powerTime" xy="351,1436" pivot="0.5,0.5" size="44,29" group="n52_k7xe" fontSize="20" color="#74d644" align="center" strokeColor="#16191a" strokeSize="2" autoClearText="true" text="恢复"/>
+    <group id="n52_k7xe" name="group_power" xy="201,1404" size="347,69" group="n64_maep" visible="false" advanced="true"/>
+    <group id="n64_maep" name="n64" xy="201,1201" size="347,272" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <image id="n56_maep" name="n56" src="maepudu19p" fileName="res/bg_like.png" xy="0,0" group="n63_maep">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n57_maep" name="btn_like" src="maepudu19q" fileName="btn_battle.xml" xy="289,1165" group="n63_maep" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://i35cf1mqmaepudu19s"/>
+    </component>
+    <component id="n58_maep" name="group_playerTop" src="maepudu19u" fileName="item_clanSoloLike.xml" xy="238,714" group="n63_maep">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n59_maep" name="group_clanTop2" src="maepudu19x" fileName="item_clanRank2.xml" xy="19,353" group="n62_maep" visible="false"/>
+    <component id="n60_maep" name="group_clanTop1" src="maepudu1a0" fileName="item_clanRank1.xml" xy="264,328" group="n62_maep" visible="false"/>
+    <component id="n61_maep" name="group_clanTop3" src="maepudu1a2" fileName="item_clanRank3.xml" xy="508,353" group="n62_maep" visible="false"/>
+    <group id="n62_maep" name="n62" xy="19,328" size="719,391" group="n63_maep" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <group id="n63_maep" name="group_state5" xy="0,0" size="750,1700" visible="false" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n33_k7xe" name="btn_assist" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="630,1180" size="90,90" group="n65_ms39">
+      <Button icon="ui://i35cf1mqk7xe1i"/>
+    </component>
+    <component id="n34_k7xe" name="btn_pileUp" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="630,1275" size="90,90" group="n65_ms39">
+      <Button icon="ui://i35cf1mqk7xe1c"/>
+    </component>
+    <component id="n35_k7xe" name="btn_tower" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="630,1370" size="90,90" group="n65_ms39">
+      <Button icon="ui://i35cf1mqk7xe1d"/>
+    </component>
+    <group id="n65_ms39" name="n65" xy="630,1180" size="90,280" advanced="true" layout="vt" lineGap="5" excludeInvisibles="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <component id="n30_k7xe" name="Group_Chat" src="h8md27" fileName="Group_Chat.xml" pkg="27utqbiz" xy="0,1486" group="n54_mchc"/>
+    <component id="n31_k7xe" name="btn_close" src="h8u4u19t" fileName="btn_blueback.xml" pkg="27utqbiz" xy="7,1563" group="n54_mchc"/>
+    <group id="n54_mchc" name="n54" xy="0,1486" size="751,161" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <component id="n19_k7xe" name="btn_reward" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="194,1542" group="n66_ms39">
+      <Button icon="ui://27utqbizql4f26"/>
+    </component>
+    <component id="n20_k7xe" name="btn_rank" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="284,1541" group="n66_ms39">
+      <Button icon="ui://27utqbizrg021n"/>
+    </component>
+    <component id="n22_k7xe" name="btn_allview" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="374,1542" group="n66_ms39">
+      <Button icon="ui://i35cf1mqk7xe1b"/>
+    </component>
+    <component id="n28_k7xe" name="btn_chests" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="464,1543" group="n66_ms39">
+      <Button icon="ui://i35cf1mqk7xe1f"/>
+    </component>
+    <component id="n23_k7xe" name="btn_fenzu" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="554,1542" group="n66_ms39">
+      <Button icon="ui://i35cf1mqk7xe1h"/>
+    </component>
+    <component id="n21_k7xe" name="btn_gift" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="644,1543" group="n66_ms39">
+      <Button icon="ui://i35cf1mqk7xe2b"/>
+    </component>
+    <group id="n66_ms39" name="n66" xy="194,1541" size="540,112" advanced="true" layout="hz" excludeInvisibles="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </group>
+  </displayList>
+</component>

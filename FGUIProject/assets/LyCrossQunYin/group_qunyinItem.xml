@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="225,350">
+  <displayList>
+    <text id="n0_jis8" name="label_combatPower" xy="27,122" size="171,34" fontSize="24" align="center" autoSize="none" text="妖力：1000"/>
+    <text id="n1_jis8" name="label_name" xy="75,167" size="134,34" fontSize="24" align="center" autoSize="none" text="名字"/>
+    <text id="n3_jis8" name="label_stage" xy="75,208" size="134,34" fontSize="24" align="center" autoSize="none" text="段位"/>
+    <graph id="n6_jis8" name="n6" xy="9,190" size="58,58" aspect="true" type="eclipse"/>
+    <text id="n5_jis8" name="label_rank" xy="6,203" size="64,34" fontSize="24" align="center" vAlign="middle" autoSize="none" text="1000"/>
+    <text id="n7_jis8" name="label_server" xy="75,249" size="134,34" fontSize="24" align="center" autoSize="none" text="服务器"/>
+    <loader3D id="n8_jis8" name="loader_spine_mount" xy="137,59" pivot="0.5,1" anchor="true" size="2,2" animation="" skin="" loop="true"/>
+    <loader3D id="n9_jis8" name="loader_spine_role" xy="134,61" pivot="0.5,1" anchor="true" size="2,2" animation="" skin="" loop="true"/>
+    <loader3D id="n10_jis8" name="loader_spine_pet" xy="98,62" pivot="0.5,1" anchor="true" size="2,2" animation="" skin="" loop="true"/>
+    <component id="n11_knxo" name="btn_speedBattle" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="0,292" size="90,58" group="n13_knxo">
+      <Button title="速战"/>
+    </component>
+    <component id="n12_knxo" name="btn_speedNumBattle" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="85,292" size="140,58" group="n13_knxo">
+      <Button title="速战1次"/>
+    </component>
+    <group id="n13_knxo" name="group_speed" xy="0,292" size="225,58" visible="false" advanced="true"/>
+    <component id="n4_jis8" name="btn_battle" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="5,292" visible="false">
+      <Button title="挑战"/>
+    </component>
+  </displayList>
+</component>

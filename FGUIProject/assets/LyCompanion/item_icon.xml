@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,106">
+  <displayList>
+    <loader id="n7_ln3o" name="n7" xy="0,0" size="106,106" url="ui://27utqbizj3rv3z" align="center" vAlign="middle"/>
+    <loader id="n8_ln3o" name="img_icon" xy="4,2" size="100,100" touchable="false" align="center" vAlign="middle"/>
+    <text id="n10_ln3o" name="label_name" xy="27,112" size="52,34" fontSize="24" align="center" vAlign="middle" text="熊猫">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

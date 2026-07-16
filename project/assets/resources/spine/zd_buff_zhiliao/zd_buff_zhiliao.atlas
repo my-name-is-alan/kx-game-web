@@ -1,0 +1,104 @@
+
+zd_buff_zhiliao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/wx_xlhf_00000
+  rotate: false
+  xy: 2, 26
+  size: 251, 210
+  orig: 275, 294
+  offset: 12, 13
+  index: -1
+images/wx_xlhf_00002
+  rotate: true
+  xy: 525, 755
+  size: 261, 244
+  orig: 275, 294
+  offset: 6, 13
+  index: -1
+images/wx_xlhf_00004
+  rotate: true
+  xy: 2, 494
+  size: 257, 262
+  orig: 275, 294
+  offset: 9, 13
+  index: -1
+images/wx_xlhf_00006
+  rotate: false
+  xy: 2, 753
+  size: 257, 263
+  orig: 275, 294
+  offset: 9, 13
+  index: -1
+images/wx_xlhf_00008
+  rotate: true
+  xy: 261, 759
+  size: 257, 262
+  orig: 275, 294
+  offset: 9, 13
+  index: -1
+images/wx_xlhf_00010
+  rotate: false
+  xy: 266, 498
+  size: 257, 259
+  orig: 275, 294
+  offset: 9, 14
+  index: -1
+images/wx_xlhf_00012
+  rotate: false
+  xy: 266, 239
+  size: 257, 257
+  orig: 275, 294
+  offset: 9, 15
+  index: -1
+images/wx_xlhf_00014
+  rotate: false
+  xy: 2, 238
+  size: 251, 254
+  orig: 275, 294
+  offset: 12, 16
+  index: -1
+images/wx_xlhf_00016
+  rotate: true
+  xy: 255, 4
+  size: 233, 249
+  orig: 275, 294
+  offset: 21, 19
+  index: -1
+images/wx_xlhf_00018
+  rotate: true
+  xy: 506, 32
+  size: 205, 244
+  orig: 275, 294
+  offset: 35, 22
+  index: -1
+images/wx_xlhf_00020
+  rotate: true
+  xy: 525, 412
+  size: 130, 208
+  orig: 275, 294
+  offset: 62, 47
+  index: -1
+images/wx_xlhf_00022
+  rotate: false
+  xy: 525, 544
+  size: 123, 209
+  orig: 275, 294
+  offset: 64, 50
+  index: -1
+images/wx_xlhf_00024
+  rotate: true
+  xy: 650, 643
+  size: 110, 204
+  orig: 275, 294
+  offset: 71, 52
+  index: -1
+images/wx_xlhf_00026
+  rotate: true
+  xy: 2, 2
+  size: 22, 53
+  orig: 275, 294
+  offset: 135, 118
+  index: -1

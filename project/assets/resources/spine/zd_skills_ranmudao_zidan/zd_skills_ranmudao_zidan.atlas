@@ -1,0 +1,27 @@
+
+zd_skills_ranmudao_zidan.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/effect/rmd_zd/rmd_zd_00
+  rotate: false
+  xy: 2, 615
+  size: 367, 304
+  orig: 400, 340
+  offset: 10, 18
+  index: -1
+images/effect/rmd_zd/rmd_zd_02
+  rotate: false
+  xy: 2, 2
+  size: 356, 304
+  orig: 400, 340
+  offset: 10, 18
+  index: -1
+images/effect/rmd_zd/rmd_zd_04
+  rotate: false
+  xy: 2, 308
+  size: 356, 305
+  orig: 400, 340
+  offset: 10, 18
+  index: -1

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="e4w4sulu">
+  <resources>
+    <component id="l3px15" name="btn_close1.xml" path="/res/"/>
+    <image id="l3px16" name="btn_small.png" path="/res/"/>
+    <image id="l3px18" name="btn_big.png" path="/res/"/>
+    <component id="l3px19" name="btn_big.xml" path="/res/"/>
+    <component id="l3px1a" name="btn_small3.xml" path="/res/"/>
+    <image id="l3px1c" name="frame_mengban.png" path="/res/"/>
+    <image id="l3px1e" name="frame_menkepian.png" path="/res/"/>
+    <image id="l3px1j" name="frame_chaozhi.png" path="/res/"/>
+    <component id="l3px1k" name="LyPaySevenGiftGroup2.xml" path="/" exported="true"/>
+    <component id="l3px1l" name="group_main.xml" path="/"/>
+    <component id="l3px1m" name="group_player.xml" path="/"/>
+    <image id="l3px1n" name="bg_meirilibao2.png" path="/res/" atlas="alone_npot"/>
+    <image id="l3px1o" name="btn_close2.png" path="/res/"/>
+    <image id="l3px1p" name="btn_small2.png" path="/res/"/>
+    <image id="l3px1q" name="frame_daoju2.png" path="/res/"/>
+    <image id="l3px1r" name="frame_kaifuxianding2.png" path="/res/"/>
+    <image id="l3px1s" name="frame_mengbanlan.png" path="/res/"/>
+    <image id="l3px1t" name="frame_name2.png" path="/res/"/>
+    <image id="l3px1u" name="frame_qianjing2.png" path="/res/"/>
+    <image id="l3px1v" name="frame_zhongshenyici2.png" path="/res/"/>
+    <component id="kdi01w" name="btn_plaint.xml" path="/"/>
+    <component id="isca1x" name="group_rate.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1700" opaque="false">
+  <displayList>
+    <image id="n27_jv6u" name="n27" src="jv6udu18m" fileName="res/frame_fanhuidi.png" xy="-1,118" group="n30_cvor"/>
+    <image id="n28_jv6u" name="n28" src="jv6udu18p" fileName="res/word_gongchengluedi (2).png" xy="36,168" group="n30_cvor"/>
+    <image id="n29_jv6u" name="n29" src="luwh7" fileName="ui/frame_lingquantips.png" pkg="27utqbiz" xy="-43,236" size="914,52" group="n30_cvor"/>
+    <text id="n22_jv6u" name="label_rankDes" xy="295,244" pivot="0.5,0.5" size="148,34" group="n30_cvor" font="ui://27utqbizps391v" fontSize="24" color="#c1ebea" align="center" vAlign="middle" text="本轮晋级排名"/>
+    <component id="n21_jv6u" name="btn_point" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="169,138" size="100,100" group="n30_cvor" scale="1.2,1.2"/>
+    <text id="n23_jv6u" name="label_time" xy="184,288" pivot="0.5,0.5" size="371,34" group="n30_cvor" fontSize="24" color="#ffeca4" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" autoClearText="true" text="第一轮"/>
+    <group id="n30_cvor" name="n30" xy="-43,118" size="914,204" advanced="true">
+      <relation target="" sidePair="top-top%"/>
+    </group>
+    <component id="n4_jv6u" name="Group_Chat" src="h8md27" fileName="Group_Chat.xml" pkg="27utqbiz" xy="0,1486">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n6_jv6u" name="cbox_group" src="jv6udu18e" fileName="combo_prop3.xml" xy="566,1425" size="178,43">
+      <relation target="" sidePair="bottom-bottom"/>
+      <ComboBox title="A组" visibleItemCount="10" direction="up"/>
+    </component>
+    <image id="n7_jv6u" name="n7" src="jv6udu18h" fileName="res/frame_gerenxinxi.png" xy="17,1327" group="n17_jv6u"/>
+    <image id="n8_jv6u" name="n8" src="jv6udu18i" fileName="res/frame_fengexian2.png" xy="29,1375" size="494,6" group="n17_jv6u"/>
+    <text id="n10_jv6u" name="label_name" xy="171,1338" size="176,34" group="n17_jv6u" fontSize="24" color="#ffffff" vAlign="middle" letterSpacing="-1" autoSize="shrink" strokeColor="#000000" strokeSize="2" text="个人排行：4399"/>
+    <component id="n14_jv6u" name="bar_hp" src="jv6udu18j" fileName="ProgressBar1(1).xml" xy="222,1390" size="277,22" group="n17_jv6u">
+      <ProgressBar value="99" max="100"/>
+    </component>
+    <text id="n15_jv6u" name="n15" xy="173,1383" size="47,32" group="n17_jv6u" fontSize="22" color="#53e9bd" vAlign="middle" letterSpacing="-1" strokeColor="#100f16" strokeSize="2" text="生命"/>
+    <text id="n16_jv6u" name="label_rank" xy="171,1423" size="226,34" group="n17_jv6u" fontSize="24" color="#ffffff" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#16191a" strokeSize="2" autoClearText="true" text="临时积分："/>
+    <loader id="n18_jv6u" name="icon_flag" xy="35,1342" size="114,114" group="n17_jv6u" url="ui://27utqbizql4fuq" fill="scale"/>
+    <group id="n17_jv6u" name="n17" xy="17,1327" size="540,140" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <component id="n25_jv6u" name="btn_gongcheng" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="11,1224" size="90,90">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button icon="ui://i35cf1mqk7xe1g"/>
+    </component>
+    <component id="n26_jv6u" name="btn_zhanbao" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="118,1225" size="90,90">
+      <relation target="" sidePair="bottom-bottom"/>
+      <Button icon="ui://i35cf1mqjv6udu18o"/>
+    </component>
+    <component id="n2_jv6u" name="btn_close" src="h8u4u19t" fileName="btn_blueback.xml" pkg="27utqbiz" xy="5,1565">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

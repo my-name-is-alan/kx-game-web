@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="660,136">
+  <displayList>
+    <image id="n13_qoto" name="n13" src="qoto3b" fileName="funds/frame_jichufuli.png" xy="0,0"/>
+    <image id="n14_qoto" name="n14" src="qoto39" fileName="funds/frame_chaozhilibao.png" xy="270,0"/>
+    <image id="n17_qoto" name="img_bar_gray" src="qoto3e" fileName="funds/frame_jijin_progress bar.png" xy="264,0" size="12,136" scale="1,0.5"/>
+    <image id="n19_qoto" name="img_bar_light" src="qoto3d" fileName="funds/frame_jijin_progress bar now.png" xy="264,0" size="12,136" scale="1,0.5"/>
+    <image id="n18_qoto" name="img_bar_gray1" src="qoto3e" fileName="funds/frame_jijin_progress bar.png" xy="264,68" size="12,136" scale="1,0.5"/>
+    <image id="n20_qoto" name="img_bar_light1" src="qoto3d" fileName="funds/frame_jijin_progress bar now.png" xy="264,68" size="12,136" scale="1,0.5"/>
+    <image id="n15_qoto" name="img_gray" src="qoto2t" fileName="funds/frame_progress point.png" xy="235,33" grayed="true"/>
+    <image id="n16_qoto" name="img_light" src="qoto2t" fileName="funds/frame_progress point.png" xy="235,33"/>
+    <text id="n9_q127" name="label_level" xy="200,50" size="140,34" font="ui://27utqbizps391v" fontSize="24" color="#ffefc9" align="center" vAlign="middle" autoSize="none" strokeColor="#54380f" strokeSize="2" autoClearText="true" text="1级"/>
+    <component id="n1_hdhb" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="85,18"/>
+    <list id="n4_hdhb" name="list_item" xy="285,-12" size="380,160" layout="flow_hz" margin="0,0,30,30" colGap="10" defaultItem="ui://kl5mxoqpqoto3p" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <transition name="t0" options="4" autoPlayRepeat="0">
+    <item time="0" type="Pivot" target="n1_hdhb" value="0.5,0.5"/>
+    <item time="0" type="Rotation" target="n1_hdhb" tween="true" startValue="0" endValue="20" duration="5" ease="Linear"/>
+    <item time="5" type="Rotation" target="n1_hdhb" tween="true" startValue="20" endValue="20" duration="5" ease="Linear"/>
+    <item time="10" type="Rotation" target="n1_hdhb" tween="true" startValue="20" endValue="-20" duration="5"/>
+    <item time="15" type="Rotation" target="n1_hdhb" tween="true" startValue="-20" endValue="0" duration="5" ease="Linear"/>
+    <item time="20" type="Rotation" target="n1_hdhb" tween="true" startValue="0" endValue="0" duration="4" ease="Linear"/>
+  </transition>
+</component>

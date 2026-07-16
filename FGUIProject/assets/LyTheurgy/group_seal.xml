@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="131,121">
+  <displayList>
+    <loader id="n23_hhz9" name="loader_dikuang" xy="25,1" size="84,84" url="ui://yhkdb7e3hhz9eh" fill="scale"/>
+    <loader id="n25_hhz9" name="loader_icon" xy="25,1" size="84,84" aspect="true" url="ui://yhkdb7e3hhz9ef" align="center" vAlign="middle" fill="scale"/>
+    <text id="n15_p5o4" name="label_name" xy="2,86" size="128,29" fontSize="20" color="#16191a" align="center" vAlign="middle" autoClearText="true" text="是的请问2饿2">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n16_p5o4" name="label_count" xy="96,57" pivot="1,0" size="10,26" font="ui://27utqbizps391v" fontSize="18" color="#ffffff" align="right" vAlign="middle" letterSpacing="-2" strokeColor="#000000" strokeSize="2" autoClearText="true" text=""/>
+    <text id="n32_8cb1" name="label_buff" xy="60,87" size="10,32" fontSize="22" color="#4d6d6a" align="center" vAlign="middle" autoClearText="true" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n30_hhz9" name="n30" src="hhz9ej" fileName="res/frame_zhezhao.png" xy="26,2" group="n31_hhz9"/>
+    <text id="n21_l87x" name="label_lock" xy="35,7" size="64,72" group="n31_hhz9" fontSize="22" color="#f57072" align="center" vAlign="middle" autoSize="none" text="25级解锁"/>
+    <group id="n31_hhz9" name="group_lock" xy="26,2" size="84,84" visible="false" advanced="true"/>
+    <image id="n33_kmfd" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="92,-5" visible="false"/>
+  </displayList>
+</component>

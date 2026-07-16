@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="586,103">
+  <displayList>
+    <image id="n7_i1bp" name="n7" src="k7xei" fileName="zonglan/frame_zonglan2.png" xy="0,0"/>
+    <loader id="n8_i1bp" name="icon_flag" xy="80,9" size="81,81" aspect="true" url="ui://27utqbizd373uv" fill="scale"/>
+    <text id="n9_i1bp" name="label_name" xy="162,8" size="192,33" fontSize="22" vAlign="middle" autoSize="none" text="超欧"/>
+    <text id="n11_i1bp" name="label_harm" xy="327,36" size="114,32" fontSize="22" align="center" vAlign="middle" autoSize="shrink" text="42.89%"/>
+    <loader id="n12_i1bp" name="loader_rank" xy="13,19" size="64,64" url="ui://i35cf1mqk7xe1a"/>
+    <text id="n13_i1bp" name="label_bzname" xy="160,34" size="192,33" fontSize="22" vAlign="middle" autoSize="none" text="帮柱"/>
+    <text id="n14_i1bp" name="label_severName" xy="162,60" size="230,33" fontSize="22" vAlign="middle" autoSize="shrink" text="服务器"/>
+    <text id="n15_i1bp" name="label_rank" xy="11,33" size="69,34" font="ui://27utqbizps391v" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="1"/>
+    <text id="n17_mv7y" name="label_score" xy="456,35" pivot="1,0" size="90,32" fontSize="22" align="right" vAlign="middle" autoSize="none" text="1400"/>
+    <image id="n18_mv7y" name="n18" src="ves4sn" fileName="ui/icon_+up.png" pkg="27utqbiz" xy="548,31" size="26,35" aspect="true"/>
+  </displayList>
+</component>

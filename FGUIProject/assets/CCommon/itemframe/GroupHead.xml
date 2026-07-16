@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <loader id="n4_ewyh" name="loader_back" xy="2,0" size="100,100" url="ui://27utqbizj3rv3z" align="center" vAlign="middle">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n6_pm6p" name="group_icon" src="pm6pt3" fileName="itemframe/group_icon.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n7_pm6p" name="btn_frame" src="pm6pt4" fileName="btn_player.xml" xy="0,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

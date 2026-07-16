@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="245,82">
+  <displayList>
+    <loader id="n2_xpuh" name="btn_challenge" xy="0,0" size="245,82" url="ui://2uzp0flsxpuh5y" align="center" vAlign="middle" clearOnPublish="true"/>
+    <text id="n3_xpuh" name="label_title" xy="224,7" size="10,34" font="ui://27utqbizps391v" fontSize="24" color="#16191a" align="right" vAlign="middle" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n1_wth4" name="label_desc" xy="224,48" size="10,26" fontSize="18" align="right" vAlign="middle" text="">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <image id="n5_adf1" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="223,0" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+</component>

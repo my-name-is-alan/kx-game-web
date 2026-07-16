@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n1_h5a9" name="group_main" src="h5a99" fileName="group_main.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader3D id="n6_vhjf" name="loader_yunwu" xy="374,666" size="2,2" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <component id="n4_thpg" name="btn_close" src="thpge" fileName="btn_close.xml" xy="0,30"/>
+    <component id="n2_thpg" name="btn_shenyu" src="thpgk" fileName="btn_shenyu.xml" xy="30,1160">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n7_qmvs" name="btn_detail" src="ar1l74" fileName="btn_plaint.xml" pkg="27utqbiz" xy="262,0"/>
+    <component id="n3_thpg" name="btn_xuanjinsi" src="thpgl" fileName="btn_xuanjinsi.xml" xy="150,1160">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n5_pwyq" name="btn_dianzan" src="pwyqo" fileName="btn_dianzan.xml" xy="510,1070">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n0_fi8l" name="group_chat" src="7yma1" fileName="Group_Chat.xml" xy="0,1293">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

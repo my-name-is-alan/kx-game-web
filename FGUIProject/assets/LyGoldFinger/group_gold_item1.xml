@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,400">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader3D id="n9_ro4e" name="loader_spine_main" xy="155,240" size="1,1" scale="0.5,0.5" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <loader id="n2_kluz" name="loader_name" xy="125,280" size="50,50" url="ui://j6s22r8hkluz4" align="center" vAlign="middle" clearOnPublish="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </loader>
+    <image id="n3_kluz" name="img_star1" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="87,337">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n4_kluz" name="img_star2" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="112,337">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n5_kluz" name="img_star3" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="137,337">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n6_kluz" name="img_star4" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="162,337">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n7_kluz" name="img_star5" src="gqduvm" fileName="itemframe/icon_level12.png" pkg="27utqbiz" xy="187,337">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n8_kluz" name="img_lock" src="kluzu" fileName="res/frame_jingqingqidai.png" xy="-96,106">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n10_wb4d" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="250,70" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+</component>

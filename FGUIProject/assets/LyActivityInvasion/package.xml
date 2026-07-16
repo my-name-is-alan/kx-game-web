@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7u60ig6l">
+  <resources>
+    <component id="id5m0" name="LyActivityInvasion.xml" path="/" exported="true"/>
+    <component id="palh1" name="group_main.xml" path="/"/>
+    <image id="hctqb" name="frame_enemy name.png" path="/res/"/>
+    <component id="hctqf" name="LyActivityInvasionRank.xml" path="/" exported="true"/>
+    <component id="hctqg" name="group_rank.xml" path="/"/>
+    <component id="hctqh" name="group_rankitem.xml" path="/"/>
+    <component id="lyjni" name="LyActivityInvasionReward.xml" path="/" exported="true"/>
+    <component id="lyjnj" name="group_reward.xml" path="/"/>
+    <component id="lyjnk" name="group_rewarditem.xml" path="/"/>
+    <component id="n4fqm" name="btn_chapter.xml" path="/"/>
+    <image id="n4fqo" name="icon_paihangjiangli.png" path="/res/"/>
+    <component id="n4fqp" name="btn_chapter2.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

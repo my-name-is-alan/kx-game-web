@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,36" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ef0l" name="n0" src="ef0l29" fileName="xianyuan/res/frame_xuanzhong.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ef0l" name="n1" src="ef0l29" fileName="xianyuan/res/frame_xuanzhong.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_ef0l" name="title" xy="49,-3" pivot="0.5,0.5" size="84,39" font="ui://27utqbizps391v" fontSize="28" color="#c8c5a7" align="center" vAlign="middle" letterSpacing="-2" singleLine="true" text="风云录">
+      <gearColor controller="button" pages="0,1,2,3" values="#c8c5a7,#000000|#fffbdb,#000000|#c8c5a7,#000000|#fffbdb,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n4_adf1" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="135,-8" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

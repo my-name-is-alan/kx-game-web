@@ -1,0 +1,118 @@
+
+ui_biaoju_tuoguan.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body_Z
+  rotate: true
+  xy: 2, 109
+  size: 73, 69
+  orig: 73, 69
+  offset: 0, 0
+  index: -1
+chibang_L
+  rotate: true
+  xy: 94, 37
+  size: 23, 14
+  orig: 23, 14
+  offset: 0, 0
+  index: -1
+chibang_R
+  rotate: true
+  xy: 110, 37
+  size: 23, 14
+  orig: 23, 14
+  offset: 0, 0
+  index: -1
+eye_L
+  rotate: false
+  xy: 2, 16
+  size: 21, 26
+  orig: 21, 26
+  offset: 0, 0
+  index: -1
+eye_R
+  rotate: false
+  xy: 60, 50
+  size: 27, 31
+  orig: 27, 31
+  offset: 0, 0
+  index: -1
+foot_L_Z
+  rotate: true
+  xy: 25, 21
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+foot_R_Z
+  rotate: false
+  xy: 89, 62
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+icon_12
+  rotate: false
+  xy: 2, 184
+  size: 119, 37
+  orig: 119, 37
+  offset: 0, 0
+  index: -1
+icon_12 (2)
+  rotate: false
+  xy: 123, 122
+  size: 98, 99
+  orig: 119, 116
+  offset: 12, 9
+  index: -1
+icon_13
+  rotate: false
+  xy: 73, 83
+  size: 92, 37
+  orig: 93, 37
+  offset: 0, 0
+  index: -1
+icon_14
+  rotate: true
+  xy: 112, 68
+  size: 13, 17
+  orig: 14, 17
+  offset: 1, 0
+  index: -1
+icon_15
+  rotate: true
+  xy: 2, 44
+  size: 63, 56
+  orig: 63, 56
+  offset: 0, 0
+  index: -1
+jiguang
+  rotate: false
+  xy: 60, 23
+  size: 32, 25
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: true
+  xy: 167, 38
+  size: 82, 49
+  orig: 82, 49
+  offset: 0, 0
+  index: -1
+yan
+  rotate: false
+  xy: 73, 141
+  size: 39, 41
+  orig: 39, 41
+  offset: 0, 0
+  index: -1
+zui
+  rotate: true
+  xy: 73, 124
+  size: 15, 41
+  orig: 15, 41
+  offset: 0, 0
+  index: -1

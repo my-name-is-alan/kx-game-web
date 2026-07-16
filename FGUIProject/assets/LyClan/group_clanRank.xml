@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1112" designImageOffsetX="-355" designImageOffsetY="-204">
+  <displayList>
+    <loader id="n1_hbzk" name="n1" xy="24,0" size="701,1124" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n4_hbzk" name="label_bxl" xy="46,28" size="257,49" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]帮[/size]派排名"/>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="662,39"/>
+    <list id="n35_hbzk" name="list_clan" xy="54,108" size="642,780" overflow="scroll" lineGap="10" defaultItem="ui://8rnw66xwg7bhy" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n51_e8yx" name="btn_item" xy="57,900" size="632,84" group="n50_10d11" url="ui://27utqbizltemkr"/>
+    <text id="n43_10d11" name="label_leaderName" xy="418,915" size="48,32" group="n50_10d11" visible="false" fontSize="22" color="#16191a" vAlign="middle" autoClearText="true" text="帮主"/>
+    <text id="n44_10d11" name="label_rank" xy="206,945" size="18,34" group="n50_10d11" fontSize="24" autoClearText="true" text="1"/>
+    <text id="n45_10d11" name="label_name" xy="205,908" size="138,39" group="n50_10d11" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="七道轮回 1"/>
+    <text id="n46_10d11" name="label_level" xy="359,908" size="48,39" group="n50_10d11" fontSize="28" color="#16191a" vAlign="middle" autoClearText="true" text="8级">
+      <relation target="n45_10d11" sidePair="right-right"/>
+    </text>
+    <loader id="n47_10d11" name="label_flag" xy="113,902" size="200,200" group="n50_10d11" scale="0.4,0.4" url="ui://27utqbizd373uv" align="center" vAlign="middle" autoSize="true" clearOnPublish="true"/>
+    <image id="n52_e8yx" name="n52" src="vkas4r" fileName="ui/frame_force of arms.png" pkg="27utqbiz" xy="475,904" group="n50_10d11"/>
+    <text id="n53_e8yx" name="label_combatPower" xy="525,921" size="60,42" group="n50_10d11" font="ui://27utqbizvkas4q" fontSize="24" vAlign="middle" leading="0" letterSpacing="-8" autoClearText="true" text="12"/>
+    <group id="n50_10d11" name="n50" xy="57,900" size="632,202"/>
+    <image id="n54_e8yx" name="n54" src="cb8k17" fileName="res/frame_shurukuang.png" xy="178,1008"/>
+    <text id="n36_hbzk" name="label_searchClanInfo" xy="190,1009" size="296,57" fontSize="24" color="#a7b6b3" vAlign="middle" autoSize="none" singleLine="true" text="" input="true" prompt="输入帮派名或帮派编号"/>
+    <text id="n55_e8yx" name="n55" xy="65,1018" size="108,36" font="ui://27utqbizps391v" fontSize="26" color="#1f6a50" text="查找帮派"/>
+    <component id="n57_e8yx" name="btn_searchClanInfo" src="jos61p" fileName="btn_search.xml" xy="526,1011">
+      <Button title="查询"/>
+    </component>
+    <image id="n58_e8yx" name="n58" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="576,925"/>
+  </displayList>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900">
+  <displayList>
+    <image id="n23_liu3" name="n23" src="liu3du176" fileName="comombg/frame_tanchuang.png" pkg="27utqbiz" xy="-6,-85" size="774,994">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </image>
+    <loader3D id="n22_cgob" name="loader_effect3" xy="374,418" size="1,1" animation="" skin="" loop="true"/>
+    <loader3D id="n21_cgob" name="loader_effect" xy="54,59" size="1,1" animation="" skin="" loop="true"/>
+    <image id="n15_lqjl" name="n15" src="lqjl45" fileName="giftdaily/word_chaozhilibao.png" xy="80,5"/>
+    <component id="n14_lqjl" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="647,-20"/>
+    <image id="n18_7mjc" name="n18" src="ef0l1y" fileName="ui/frame_time.png" pkg="27utqbiz" xy="504,44" size="170,28"/>
+    <text id="n19_7mjc" name="label_stone" xy="596,40" size="10,34" font="ui://27utqbizps391v" fontSize="24" color="#f6de9c" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n16_lqjl" name="n16" src="ef0l1y" fileName="ui/frame_time.png" pkg="27utqbiz" xy="444,80" size="230,28"/>
+    <text id="n17_lqjl" name="label_time" xy="439,79" size="240,29" font="ui://27utqbizps391v" fontSize="20" color="#f6de9c" align="center" vAlign="middle" autoSize="none" text=""/>
+    <list id="n11_cjmr" name="list_daily" xy="40,130" size="660,716" overflow="scroll" lineGap="10" defaultItem="ui://xebnjiy5gdpie" align="center">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+    </list>
+    <image id="n20_7mjc" name="n20" src="h6d7j" fileName="iconvalues/item_value4.png" pkg="27utqbiz" xy="510,38" size="40,40"/>
+  </displayList>
+</component>

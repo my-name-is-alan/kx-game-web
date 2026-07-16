@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n68_gcnf" name="btn_backMask" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <loader id="n56_gcnf" name="n56" xy="24,534" size="694,416" group="n79_pe7y" url="ui://qnktu1ilpugclw" fill="scaleFree">
+      <relation target="n73_pe7y" sidePair="bottomext-bottom"/>
+    </loader>
+    <component id="n57_gcnf" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="658,506" group="n79_pe7y"/>
+    <image id="n58_gcnf" name="n58" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="159,587" size="421,38" group="n79_pe7y"/>
+    <text id="n59_gcnf" name="label_title" xy="335,584" size="63,39" group="n79_pe7y" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" text="加速">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n73_pe7y" name="label_des" xy="125,665" size="513,76" group="n79_pe7y" fontSize="28" color="#161906" align="center" vAlign="middle" autoSize="height" autoClearText="true" text="takeAnimalFairylandQuickOnHookScoretakeAnimalFairyland">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n74_pe7y" name="btn" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="280,860" size="188,50" group="n79_pe7y">
+      <relation target="n56_gcnf" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n75_pe7y" name="group_needItem" src="eohi2" fileName="group_needItem.xml" pkg="27utqbiz" xy="317,820" group="n79_pe7y">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n56_gcnf" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n78_pe7y" name="btn_gou" src="x870lr" fileName="btn_checkbox.xml" pkg="qnktu1il" xy="246,763" group="n79_pe7y">
+      <relation target="n56_gcnf" sidePair="bottom-bottom"/>
+    </component>
+    <group id="n79_pe7y" name="n79" xy="24,506" size="712,444" advanced="true"/>
+  </displayList>
+</component>

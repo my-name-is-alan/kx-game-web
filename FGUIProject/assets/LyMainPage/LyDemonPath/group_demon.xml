@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="644,150">
+  <displayList>
+    <image id="n8_d7qm" name="n8" src="d7qm7h" fileName="LyDemonPath/res/frame_wudaomilu.png" xy="0,0"/>
+    <image id="n9_d7qm" name="n9" src="d7qm7i" fileName="LyDemonPath/res/frame_wudaomilu2.png" xy="20,15"/>
+    <loader id="n11_d7qm" name="loader_icon" xy="7,19" size="156,118" url="ui://27utqbizpktdym" align="center" vAlign="middle" fill="scaleMatchWidth" shrinkOnly="true" clearOnPublish="true"/>
+    <image id="n12_d7qm" name="n12" src="t6w7eu" fileName="ui/frame_link title.png" pkg="27utqbiz" xy="131,26" size="184,38">
+      <relation target="n13_d7qm" sidePair="rightext-right"/>
+    </image>
+    <richtext id="n13_d7qm" name="label_name" xy="157,26" size="52,34" font="ui://27utqbizps391v" fontSize="24" color="#dc8700" vAlign="middle" strokeColor="#ffffff" strokeSize="2" text="冒险"/>
+    <text id="n14_d7qm" name="label_des" xy="162,70" size="148,55" fontSize="20" color="#4d6d6a" leading="1" autoSize="shrink" text="论剑英豪，赢取丰厚资源资源资源"/>
+    <component id="n15_d7qm" name="gourp_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="336,28" scale="0.9,0.9"/>
+    <image id="n17_d7qm" name="n17" src="ar1l16" fileName="ui/icon_lock.png" pkg="27utqbiz" xy="515,36" group="n19_d7qm"/>
+    <text id="n18_d7qm" name="label_task" xy="465,61" size="136,54" group="n19_d7qm" fontSize="20" color="#cc5f57" leading="1" autoSize="height" text="还需要完成3个完成3个"/>
+    <group id="n19_d7qm" name="group_suo" xy="465,36" size="136,79" visible="false" advanced="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
+    <image id="n20_d7qm" name="n20" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="455,48" group="n22_d7qm"/>
+    <text id="n21_d7qm" name="n21" xy="488,55" size="108,42" group="n22_d7qm" font="ui://27utqbizps391v" fontSize="30" color="#f3ffec" vAlign="middle" autoSize="none" text="已领取"/>
+    <group id="n22_d7qm" name="get" xy="455,48" size="158,58" visible="false" advanced="true"/>
+    <component id="n16_d7qm" name="btn_get" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="439,52" size="188,52"/>
+  </displayList>
+</component>

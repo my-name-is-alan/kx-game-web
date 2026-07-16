@@ -1,0 +1,69 @@
+
+zd_sy_shendiao_gongji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jltd_hit_2jie_01
+  rotate: true
+  xy: 2, 889
+  size: 76, 78
+  orig: 236, 242
+  offset: 123, 121
+  index: -1
+jltd_hit_2jie_02
+  rotate: false
+  xy: 407, 797
+  size: 173, 168
+  orig: 236, 242
+  offset: 30, 37
+  index: -1
+jltd_hit_2jie_03
+  rotate: false
+  xy: 582, 791
+  size: 185, 174
+  orig: 236, 242
+  offset: 30, 37
+  index: -1
+jltd_hit_2jie_04
+  rotate: true
+  xy: 405, 577
+  size: 212, 215
+  orig: 236, 242
+  offset: 24, 11
+  index: -1
+jltd_hit_2jie_05
+  rotate: false
+  xy: 82, 820
+  size: 145, 145
+  orig: 236, 242
+  offset: 45, 37
+  index: -1
+jltd_hit_2jie_06
+  rotate: true
+  xy: 229, 802
+  size: 163, 176
+  orig: 236, 242
+  offset: 35, 36
+  index: -1
+jltd_hit_2jie_07
+  rotate: true
+  xy: 2, 625
+  size: 193, 202
+  orig: 236, 242
+  offset: 21, 23
+  index: -1
+jltd_hit_2jie_08
+  rotate: true
+  xy: 206, 599
+  size: 201, 197
+  orig: 236, 242
+  offset: 18, 28
+  index: -1
+jltd_hit_2jie_09
+  rotate: true
+  xy: 769, 783
+  size: 182, 196
+  orig: 236, 242
+  offset: 30, 29
+  index: -1

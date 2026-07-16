@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,850">
+  <displayList>
+    <image id="n68_p8ls" name="n68" src="wnc220" fileName="pet/frame_xialvhuhuandiban.png" xy="25,0"/>
+    <component id="n64_p8ls" name="group_left" src="p8ls2u" fileName="theurgy/group_theurgy_sel.xml" xy="45,50"/>
+    <component id="n65_p8ls" name="group_right" src="p8ls2u" fileName="theurgy/group_theurgy_sel.xml" xy="45,400"/>
+    <image id="n67_p8ls" name="n67" src="ro4e1a" fileName="res/frame_jiantou.png" xy="447,300" rotation="90"/>
+    <component id="n62_ro4e" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="662,-26"/>
+    <component id="n59_ro4e" name="btn_comfirm" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,741"/>
+    <text id="n66_p8ls" name="label_count" xy="261,700" size="227,34" fontSize="24" color="#c85231" align="center" vAlign="middle" autoClearText="true" text="今日剩余次数：{0}次">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

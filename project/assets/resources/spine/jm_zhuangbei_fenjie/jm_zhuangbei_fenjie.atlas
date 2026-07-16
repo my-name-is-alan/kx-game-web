@@ -1,0 +1,83 @@
+
+jm_zhuangbei_fenjie.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+srjf_xl/srjf_xl_00
+  rotate: true
+  xy: 211, 195
+  size: 100, 99
+  orig: 116, 115
+  offset: 5, 8
+  index: -1
+srjf_xl/srjf_xl_01
+  rotate: false
+  xy: 2, 196
+  size: 101, 103
+  orig: 116, 115
+  offset: 5, 7
+  index: -1
+srjf_xl/srjf_xl_03
+  rotate: true
+  xy: 108, 297
+  size: 103, 102
+  orig: 116, 115
+  offset: 5, 7
+  index: -1
+srjf_xl/srjf_xl_07
+  rotate: false
+  xy: 105, 197
+  size: 104, 98
+  orig: 116, 115
+  offset: 5, 9
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00002
+  rotate: false
+  xy: 212, 301
+  size: 100, 99
+  orig: 116, 115
+  offset: 8, 8
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00003
+  rotate: false
+  xy: 2, 94
+  size: 99, 100
+  orig: 116, 115
+  offset: 8, 7
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00004
+  rotate: false
+  xy: 103, 95
+  size: 99, 99
+  orig: 116, 115
+  offset: 8, 8
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00005
+  rotate: false
+  xy: 2, 301
+  size: 104, 99
+  orig: 116, 115
+  offset: 5, 8
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00006
+  rotate: true
+  xy: 304, 92
+  size: 101, 96
+  orig: 116, 115
+  offset: 7, 10
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00007
+  rotate: false
+  xy: 204, 95
+  size: 98, 98
+  orig: 116, 115
+  offset: 8, 9
+  index: -1
+wx_hmajj_s/wx_hmajj_s_00008
+  rotate: false
+  xy: 312, 220
+  size: 79, 79
+  orig: 116, 115
+  offset: 18, 18
+  index: -1

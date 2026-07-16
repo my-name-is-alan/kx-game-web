@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1050">
+  <displayList>
+    <image id="n7_qj9z" name="n7" src="qj9z8" fileName="res/frame_shangpudiban.png" xy="-15,-56"/>
+    <image id="n12_qj9z" name="n12" src="qj9zb" fileName="res/word_shangpu.png" xy="84,-38"/>
+    <component id="n11_qj9z" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="645,-81"/>
+    <image id="n14_ii8x" name="n14" src="qj9z9" fileName="res/frame_shangpudiban2.png" xy="40,134"/>
+    <list id="n1_fdj4" name="list_item" xy="31,139" size="688,860" layout="flow_hz" overflow="scroll" margin="0,0,38,0" lineGap="10" colGap="38" lineItemCount="3" defaultItem="ui://ngwvvpmvfdj42"/>
+    <image id="n16_hdbv" name="n16" src="iuxmer" fileName="ui/frame_shuliangzengjia.png" pkg="27utqbiz" xy="296,35"/>
+    <component id="n17_hdbv" name="btn_addchance" src="c50u3w" fileName="btn_add.xml" pkg="27utqbiz" xy="441,30"/>
+    <loader id="n18_hdbv" name="n18" xy="292,30" size="40,40" url="ui://27utqbizf4zx6o" fill="scale"/>
+    <text id="n19_hdbv" name="label_chance" xy="280,33" size="200,34" fontSize="24" color="#f6de9c" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair=""/>
+    </text>
+    <image id="n15_sbhj" name="n15" src="iuxmer" fileName="ui/frame_shuliangzengjia.png" pkg="27utqbiz" xy="503,35"/>
+    <component id="n6_ib4p" name="btn_add" src="c50u3w" fileName="btn_add.xml" pkg="27utqbiz" xy="648,30"/>
+    <loader id="n9_qj9z" name="n9" xy="499,30" size="40,40" url="ui://27utqbizh6d7j" fill="scale"/>
+    <text id="n10_qj9z" name="label_stone" xy="487,33" size="200,34" fontSize="24" color="#f6de9c" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair=""/>
+    </text>
+    <text id="n13_qj9z" name="label_tips" xy="642,68" size="10,29" fontSize="20" color="#f2d79b" align="right" vAlign="middle" text="">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n20_wuqz" name="label_time" xy="321,1003" size="108,37" fontSize="26" color="#99ff33" vAlign="middle" autoClearText="true" text="00:00:00">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

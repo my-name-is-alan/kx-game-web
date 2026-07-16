@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,445">
+  <displayList>
+    <loader id="n30_l7ic" name="n30" xy="27,23" size="696,422" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <image id="n31_l7ic" name="n31" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="162,65" size="419,38"/>
+    <graph id="n33_l7ic" name="n33" xy="55,118" size="638,286" type="rect" lineSize="0" fillColor="#ffe5e8e3"/>
+    <component id="n39_l7ic" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="661,0"/>
+    <text id="n32_l7ic" name="label_title" xy="278,63" size="191,39" group="n41_n7df" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="提示"/>
+    <text id="n34_l7ic" name="label_str83" xy="105,133" size="316,34" group="n41_n7df" fontSize="24" color="#e15530" vAlign="middle" text="一键挑战，将会进行下列操作"/>
+    <text id="n35_l7ic" name="label_str84" xy="106,174" size="272,34" group="n41_n7df" fontSize="24" color="#16191a" vAlign="middle" text="1.随机选中未挑战的对手;"/>
+    <text id="n36_l7ic" name="label_str85" xy="106,209" size="296,34" group="n41_n7df" fontSize="24" color="#16191a" vAlign="middle" text="2.挑战过程依旧会减少精力;"/>
+    <text id="n37_l7ic" name="label_str86" xy="106,245" size="519,34" group="n41_n7df" fontSize="24" color="#16191a" vAlign="middle" text="3.我方战败，精力为0或者击败所有对手才会结束"/>
+    <component id="n38_l7ic" name="btn_battle" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="265,335" group="n41_n7df">
+      <Button title="开始挑战" titleFontSize="30"/>
+    </component>
+    <group id="n41_n7df" name="group_1" xy="105,63" size="520,330" visible="false" advanced="true"/>
+    <text id="n42_n7df" name="n42" xy="278,64" size="191,39" group="n48_n7df" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="提示"/>
+    <text id="n49_n7df" name="label_clanSoloTime" xy="105,133" size="162,34" group="n48_n7df" fontSize="24" color="#16191a" vAlign="middle" text="活动日期：5月"/>
+    <text id="n50_n7df" name="label_servers" xy="105,174" size="107,34" group="n48_n7df" fontSize="24" color="#16191a" vAlign="middle" text="参与区服:"/>
+    <component id="n51_n7df" name="group_servers" src="n7df1t" fileName="group_serverName.xml" xy="220,174" group="n48_n7df"/>
+    <text id="n52_n7df" name="label_str30" xy="107,336" size="364,34" group="n48_n7df" fontSize="24" color="#16191a" vAlign="middle" text="参与帮派名单将在报名结束时锁定"/>
+    <group id="n48_n7df" name="group_2" xy="105,64" size="366,306" visible="false" advanced="true"/>
+  </displayList>
+</component>

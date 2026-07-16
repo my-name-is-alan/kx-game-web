@@ -1,0 +1,41 @@
+
+zd_attack_yuanchengshou.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/wx_ycpg_hit/wx_ycpg_hit_00000
+  rotate: false
+  xy: 188, 819
+  size: 196, 194
+  orig: 280, 280
+  offset: 43, 43
+  index: -1
+images/wx_ycpg_hit/wx_ycpg_hit_00002
+  rotate: false
+  xy: 799, 801
+  size: 214, 212
+  orig: 280, 280
+  offset: 34, 34
+  index: -1
+images/wx_ycpg_hit/wx_ycpg_hit_00004
+  rotate: false
+  xy: 589, 807
+  size: 208, 206
+  orig: 280, 280
+  offset: 39, 38
+  index: -1
+images/wx_ycpg_hit/wx_ycpg_hit_00006
+  rotate: false
+  xy: 386, 816
+  size: 201, 197
+  orig: 280, 280
+  offset: 41, 39
+  index: -1
+images/wx_ycpg_hit/wx_ycpg_hit_00008
+  rotate: false
+  xy: 2, 834
+  size: 184, 179
+  orig: 280, 280
+  offset: 49, 44
+  index: -1

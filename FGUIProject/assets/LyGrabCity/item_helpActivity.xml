@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="644,235">
+  <displayList>
+    <image id="n8_e8yx" name="n8" src="y9su1l" fileName="ui/frame_link.png" pkg="27utqbiz" xy="0,1"/>
+    <text id="n0_hbzk" name="label_dec" xy="29,185" size="118,34" fontSize="24" vAlign="middle" text="钓鱼100次"/>
+    <list id="n1_hbzk" name="list_bonuses" xy="26,68" size="331,100" scale="0.8,0.8" layout="row" overflow="scroll" scroll="horizontal" colGap="18" defaultItem="ui://27utqbizewyha">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n9_e8yx" name="bar_number" src="abrum" fileName="bar_count.xml" pkg="27utqbiz" xy="126,19" size="258,26">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n10_e8yx" name="btn_clanClaimRecharge" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="428,169">
+      <Button title="领取"/>
+    </component>
+    <image id="n11_e8yx" name="n11" src="v8per" fileName="ui/frame_reward_completed.png" pkg="27utqbiz" xy="458,168" group="n13_e8yx"/>
+    <text id="n12_e8yx" name="n12" xy="488,175" size="94,42" group="n13_e8yx" font="ui://27utqbizps391v" fontSize="30" color="#f3ffec" align="center" vAlign="middle" text="已完成"/>
+    <group id="n13_e8yx" name="label_state" xy="458,168" size="158,58" advanced="true"/>
+    <text id="n14_e8yx" name="n14" xy="22,16" size="100,34" fontSize="24" color="#16191a" vAlign="middle" text="达成人数"/>
+  </displayList>
+</component>

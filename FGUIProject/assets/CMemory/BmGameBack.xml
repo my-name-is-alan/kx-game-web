@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n3_hjd3" name="n3" src="n7tl0" fileName="res/memory_backwall.png" xy="-749,-97" size="750,1528">
+      <relation target="" sidePair="height-height%,middle-middle"/>
+    </image>
+    <image id="n7_eo0t" name="n7" src="n7tl0" fileName="res/memory_backwall.png" xy="0,-97" size="750,1528">
+      <relation target="" sidePair="height-height%,middle-middle"/>
+    </image>
+    <image id="n6_cg1e" name="n6" src="n7tl0" fileName="res/memory_backwall.png" xy="749,-97" size="750,1528">
+      <relation target="" sidePair="height-height%,middle-middle"/>
+    </image>
+    <image id="n4_hsna" name="n4" src="hsnamd" fileName="res/dec_wave.png" xy="0,-149" size="750,150">
+      <relation target="" sidePair="bottom-top"/>
+    </image>
+    <image id="n5_hsna" name="n5" src="hsnamd" fileName="res/dec_wave.png" xy="0,1333" size="750,150" flip="vt">
+      <relation target="" sidePair="top-bottom"/>
+    </image>
+  </displayList>
+  <transition name="trans_tips"/>
+</component>

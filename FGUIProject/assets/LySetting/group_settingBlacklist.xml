@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="715,904">
+  <displayList>
+    <image id="n0_i26e" name="n0" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,31" size="695,873"/>
+    <component id="n1_i26e" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="637,0"/>
+    <image id="n3_i26e" name="n3" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="157,65" size="376,38"/>
+    <text id="n4_i26e" name="label_str35" xy="249,64" size="191,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text="黑名单"/>
+    <list id="n6_wb1u" name="list_blacklistitem" xy="29,115" size="640,632" overflow="scroll" lineGap="10" defaultItem="ui://qr6acijci26e5x">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n7_wb1u" name="n7" src="wb1u5y" fileName="LySetting/frame_zhuangtailan.png" xy="26,782"/>
+    <image id="n8_wb1u" name="n8" src="wb1u5z" fileName="LySetting/icon_blacklist.png" xy="41,827"/>
+    <text id="n9_wb1u" name="label_str36" xy="38,795" size="366,32" font="ui://27utqbizps391v" fontSize="22" color="#16191a" vAlign="middle" leading="0" letterSpacing="-2" text="全部频道将屏蔽黑名单中玩家的聊天信息"/>
+    <text id="n10_wb1u" name="label_blockPlayerNum" xy="80,827" size="184,32" fontSize="22" color="#3a9c27" vAlign="middle" leading="0" text="黑名单上限：2/99"/>
+    <component id="n11_wb1u" name="btn_blockPlayerAll" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="440,799">
+      <Button title="一键移除"/>
+    </component>
+  </displayList>
+</component>

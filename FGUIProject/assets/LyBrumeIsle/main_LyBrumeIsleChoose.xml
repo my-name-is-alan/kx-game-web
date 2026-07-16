@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="770,928">
+  <displayList>
+    <image id="n0_q0fr" name="n0" src="rvb533" fileName="ui/frame_public.png" pkg="27utqbiz" xy="0,0" size="702,900"/>
+    <richtext id="n1_q0fr" name="label_title" xy="26,29" size="235,56" font="ui://27utqbizps391v" fontSize="42" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" strokeSize="3" singleLine="true" autoClearText="true" text="仓&lt;库&lt;"/>
+    <component id="n2_q0fr" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="638,41"/>
+    <image id="n4_q0fr" name="n4" src="rvb53b" fileName="ui/dec_tongyongtanchuan_low_right_corner.png" pkg="27utqbiz" xy="552,720"/>
+    <image id="n6_q0fr" name="n6" src="h8u46" fileName="res/frame_juezekuang.png" xy="14,109"/>
+    <image id="n7_q0fr" name="n7" src="h8u46" fileName="res/frame_juezekuang.png" xy="14,409"/>
+    <component id="n21_q0fr" name="btn_shengxing" src="q0frmk" fileName="Button2.xml" xy="87,467">
+      <Button icon="ui://h1d08dw1h8u4l"/>
+    </component>
+    <component id="n22_q0fr" name="btn_zhenfeng" src="q0frml" fileName="Button3.xml" xy="411,467">
+      <Button icon="ui://h1d08dw1h8u4t"/>
+    </component>
+    <image id="n10_q0fr" name="n10" src="h8u47" fileName="res/frame_juezexiaobiao.png" xy="43,134"/>
+    <image id="n11_q0fr" name="n11" src="h8u47" fileName="res/frame_juezexiaobiao.png" xy="369,134"/>
+    <text id="n12_q0fr" name="label_name1" xy="54,129" size="73,40" font="ui://27utqbizps391v" fontSize="27" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#557d6a" strokeSize="2" text="慎行"/>
+    <image id="n8_q0fr" name="n8" src="h8u47" fileName="res/frame_juezexiaobiao.png" xy="44,434" size="328,34" group="n50_c1f4"/>
+    <image id="n9_q0fr" name="n9" src="h8u47" fileName="res/frame_juezexiaobiao.png" xy="371,434" size="319,34" group="n50_c1f4"/>
+    <text id="n16_q0fr" name="label_name11" xy="55,431" size="123,40" group="n50_c1f4" font="ui://27utqbizps391v" fontSize="27" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#557d6a" strokeSize="2" text="玩家排名"/>
+    <text id="n17_q0fr" name="label_rank" xy="199,433" size="115,36" group="n50_c1f4" fontSize="21" color="#6faa8c" align="center" vAlign="middle" autoSize="none" text="1995"/>
+    <text id="n18_q0fr" name="label_name12" xy="382,431" size="123,40" group="n50_c1f4" font="ui://27utqbizps391v" fontSize="27" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#557d6a" strokeSize="2" text="玩家积分"/>
+    <text id="n19_q0fr" name="label_score" xy="527,432" size="115,36" group="n50_c1f4" fontSize="21" color="#6faa8c" align="center" vAlign="middle" autoSize="none" text="玩家积分"/>
+    <group id="n50_c1f4" name="n50" xy="44,431" size="646,40"/>
+    <text id="n13_q0fr" name="label_desc1" xy="139,131" size="188,36" fontSize="21" color="#6faa8c" align="center" vAlign="middle" autoSize="none" text="稳健行事,徐徐图之"/>
+    <text id="n14_q0fr" name="label_name2" xy="380,129" size="73,40" font="ui://27utqbizps391v" fontSize="27" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#557d6a" strokeSize="2" text="争锋"/>
+    <text id="n15_q0fr" name="label_desc2" xy="464,132" size="188,36" fontSize="21" color="#6faa8c" align="center" vAlign="middle" autoSize="none" text="稳健行事,徐徐图之"/>
+    <list id="n26_q0fr" name="list_item" xy="56,302" size="467,107" scale="0.61,0.61" layout="row" overflow="scroll" scroll="horizontal" lineGap="27" colGap="16" defaultItem="ui://27utqbizewyha" autoItemSize="false" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n25_q0fr" name="label_likaiDec" xy="53,181" size="271,116" fontSize="22" letterSpacing="1" ubb="true" autoSize="none" text="放弃本次离开"/>
+    <richtext id="n27_q0fr" name="label_likaiDec2" xy="378,181" size="271,116" fontSize="22" letterSpacing="1" ubb="true" autoSize="none" text="立刻"/>
+    <image id="n28_q0fr" name="n28" src="h8u41i" fileName="res/frame_fengexian.png" xy="341,133"/>
+    <text id="n29_q0fr" name="label_saveTime" xy="39,722" size="278,39" fontSize="24" color="#cc5f5a" letterSpacing="1" autoSize="none" autoClearText="true" text="安全"/>
+    <component id="n30_q0fr" name="btn_reward" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="31,762">
+      <Button icon="ui://27utqbizql4f26"/>
+    </component>
+    <component id="n31_q0fr" name="btn_rank" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="120,761">
+      <Button icon="ui://27utqbizrg021n"/>
+    </component>
+    <component id="n32_q0fr" name="btn_gift" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="208,762">
+      <Button icon="ui://h1d08dw1h8u413"/>
+    </component>
+    <component id="n33_q0fr" name="btn_note" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="296,762">
+      <Button icon="ui://h1d08dw1h8u410"/>
+    </component>
+    <component id="n34_q0fr" name="btn_chests" src="q8vak" fileName="btn_normalIcon.xml" pkg="27utqbiz" xy="384,762">
+      <Button icon="ui://h1d08dw1h8u412"/>
+    </component>
+    <text id="n64_c1f4" name="label_power" xy="254,724" pivot="1,0" size="424,34" fontSize="24" align="right" autoSize="none" autoClearText="true" text="剩余体力safeTimesafeTimemesafeTimemesafeTime"/>
+    <image id="n45_c1f4" name="n45" src="c1f4ns" fileName="res/frame_jueze2.png" xy="14,409" group="n65_c1f4"/>
+    <component id="n24_q0fr" name="btn_likai" src="q0frmm" fileName="Button4.xml" xy="415,506" group="n65_c1f4">
+      <Button icon="ui://h1d08dw1h8u4i"/>
+    </component>
+    <component id="n23_q0fr" name="btn_shenru" src="q0frmk" fileName="Button2.xml" xy="88,505" group="n65_c1f4">
+      <Button icon="ui://h1d08dw1h8u4k"/>
+    </component>
+    <image id="n51_c1f4" name="n51" src="c1f4nt" fileName="res/frame_juezexiaobiao2.png" xy="36,435" group="n65_c1f4"/>
+    <image id="n54_c1f4" name="n54" src="c1f4nt" fileName="res/frame_juezexiaobiao2.png" xy="35,471" group="n65_c1f4"/>
+    <image id="n62_c1f4" name="n62" src="c1f4nu" fileName="res/frame_juezexiaobiao3.png" xy="354,433" group="n65_c1f4"/>
+    <image id="n63_c1f4" name="n63" src="c1f4nu" fileName="res/frame_juezexiaobiao3.png" xy="354,471" group="n65_c1f4"/>
+    <richtext id="n39_q0fr" name="label_lsScore" xy="168,435" size="175,36" group="n65_c1f4" fontSize="20" color="#9a612b" align="center" vAlign="middle" letterSpacing="1" ubb="true" autoSize="shrink" autoClearText="true" text="88888-&gt;[color=#6FAA8C]1997[/color]"/>
+    <text id="n35_q0fr" name="n35" xy="54,431" size="136,36" group="n65_c1f4" font="ui://27utqbizps391v" fontSize="26" color="#ffffff" vAlign="middle" letterSpacing="1" autoSize="none" strokeColor="#9a612b" strokeSize="2" text="临时积分："/>
+    <richtext id="n52_c1f4" name="label_lkbeil" xy="176,472" size="166,36" group="n65_c1f4" fontSize="20" color="#9a612b" align="center" vAlign="middle" letterSpacing="1" ubb="true" autoSize="none" autoClearText="true" text="88888-&gt;[color=#6FAA8C]1997[/color]"/>
+    <text id="n53_c1f4" name="n53" xy="54,469" size="136,36" group="n65_c1f4" font="ui://27utqbizps391v" fontSize="26" color="#ffffff" vAlign="middle" letterSpacing="1" autoSize="none" strokeColor="#9a612b" strokeSize="2" text="离开倍数："/>
+    <richtext id="n57_c1f4" name="label_playerScore" xy="487,434" size="183,36" group="n65_c1f4" fontSize="20" color="#554e97" align="center" vAlign="middle" letterSpacing="1" ubb="true" autoSize="shrink" autoClearText="true" text="&lt;color=554e97&gt;1116.67万-&gt;&lt;color=#6FAA8C&gt;16.67万&lt;/color&gt;&lt;/color&gt;"/>
+    <richtext id="n60_c1f4" name="label_scoreRank" xy="501,471" size="161,36" group="n65_c1f4" fontSize="20" color="#554e97" align="center" vAlign="middle" letterSpacing="1" ubb="true" autoSize="none" autoClearText="true" text="88888-&gt;[color=#6FAA8C]1997[/color]"/>
+    <text id="n58_c1f4" name="label_" xy="372,431" size="136,36" group="n65_c1f4" font="ui://27utqbizps391v" fontSize="26" color="#ffffff" vAlign="middle" letterSpacing="1" autoSize="none" strokeColor="#554e97" strokeSize="2" text="玩家积分："/>
+    <text id="n61_c1f4" name="n61" xy="371,469" size="136,36" group="n65_c1f4" font="ui://27utqbizps391v" fontSize="26" color="#ffffff" vAlign="middle" letterSpacing="1" autoSize="none" strokeColor="#554e97" strokeSize="2" text="玩家排名："/>
+    <group id="n65_c1f4" name="group_zone3" xy="14,409" size="668,308" advanced="true"/>
+  </displayList>
+</component>

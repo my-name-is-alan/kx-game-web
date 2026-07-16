@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,780">
+  <displayList>
+    <image id="n63_p8ls" name="n63" src="p8ls2p" fileName="theurgy/frame_mijidi.png" xy="24,0"/>
+    <image id="n57_ro4e" name="n57" src="ro4e1g" fileName="elite/frame_touming2.png" xy="75,42" size="600,548">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n53_ro4e" name="btn_sub" src="bh805d" fileName="btn_reduct2.xml" pkg="27utqbiz" xy="198,620"/>
+    <component id="n54_ro4e" name="btn_add" src="bh805c" fileName="btn_add2.xml" pkg="27utqbiz" xy="526,620"/>
+    <image id="n55_ro4e" name="n55" src="bh805e" fileName="ui/frame_progress bar_all.png" pkg="27utqbiz" xy="248,627" size="252,20"/>
+    <component id="n56_ro4e" name="slider_count" src="ro4e1h" fileName="elite/slider_count.xml" xy="248,627" size="252,20">
+      <relation target="" sidePair="center-center"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n59_ro4e" name="btn_comfirm" src="pugcly" fileName="btn_normal1.xml" pkg="qnktu1il" xy="268,683"/>
+    <component id="n62_ro4e" name="btn_close" src="a0tr7a" fileName="btn_close2.xml" pkg="27utqbiz" xy="662,-45"/>
+    <list id="n61_ro4e" name="list_item" xy="80,46" size="654,600" scale="0.9,0.9" layout="flow_hz" overflow="scroll" scrollBarFlags="64" defaultItem="ui://yhkdb7e3s5qhkg" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n64_a8bs" name="n64" src="81of4e" fileName="frame_xialvkongkongruye.png" pkg="27utqbiz" xy="151,130" group="n66_a8bs"/>
+    <text id="n65_a8bs" name="label_empty" xy="301,445" size="148,34" group="n66_a8bs" font="ui://27utqbizps391v" fontSize="24" color="#767676" align="center" vAlign="middle" autoClearText="true" text="暂无可用侠侣">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n66_a8bs" name="group_empty" xy="151,130" size="448,349" visible="false" advanced="true"/>
+  </displayList>
+</component>

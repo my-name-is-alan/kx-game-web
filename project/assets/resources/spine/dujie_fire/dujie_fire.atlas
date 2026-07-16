@@ -1,0 +1,27 @@
+
+dujie_fire.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huo
+  rotate: false
+  xy: 2, 550
+  size: 1560, 1061
+  orig: 1560, 1733
+  offset: 0, 0
+  index: -1
+huoxin1
+  rotate: false
+  xy: 1564, 1562
+  size: 47, 49
+  orig: 54, 56
+  offset: 3, 4
+  index: -1
+huoxin2
+  rotate: false
+  xy: 1564, 1511
+  size: 27, 49
+  orig: 30, 57
+  offset: 2, 6
+  index: -1

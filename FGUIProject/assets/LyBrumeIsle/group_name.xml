@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="98,254">
+  <displayList>
+    <image id="n47_bbpl" name="n47" src="h8u41h" fileName="res/frame_dituname.png" xy="0,0"/>
+    <text id="n49_bbpl" name="label_name" xy="41,56" size="40,151" font="ui://27utqbizps391v" fontSize="30" color="#ffffff" leading="0" autoSize="none" strokeColor="#68619e" strokeSize="2" text="雾隐核心"/>
+  </displayList>
+</component>

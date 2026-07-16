@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="165,32">
+  <displayList>
+    <text id="n35_jzhd" name="label_txt" xy="0,0" size="64,32" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text="攻击"/>
+    <text id="n36_qow0" name="label_number" xy="47,0" size="67,29" fontSize="20" color="#4d6d6a" vAlign="middle" text="+9999"/>
+  </displayList>
+</component>

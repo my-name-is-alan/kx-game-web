@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900">
+  <displayList>
+    <image id="n103_ii8x" name="n103" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="30,0" size="690,900"/>
+    <component id="n104_ii8x" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="653,-25"/>
+    <image id="n105_ii8x" name="n105" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="164,36" size="432,38"/>
+    <text id="n106_ii8x" name="label_title" xy="179,35" size="400,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n107_ii8x" name="n107" src="r1meg" fileName="res/frame_equipment  name.png" xy="239,115"/>
+    <richtext id="n55_nxgl" name="label_stagelevel" xy="370,115" size="10,36" font="ui://27utqbizps391v" fontSize="26" color="#fff5ad" align="center" vAlign="middle" strokeColor="#b06936" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n56_nxgl" name="label_desc" xy="370,160" size="10,29" fontSize="20" color="#16191a" align="center" vAlign="middle" text="">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n125_em2r" name="n125" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="65,205" size="620,166" group="n15_i3vf">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n121_ii8x" name="n121" src="rvb53i" fileName="ui/frame_minor_title.png" pkg="27utqbiz" xy="90,235" group="n15_i3vf"/>
+    <text id="n8_i3vf" name="label_tipbase" xy="99,235" size="10,34" group="n15_i3vf" font="ui://27utqbizps391v" fontSize="24" color="#3cf200" vAlign="middle" strokeColor="#16191a" text=""/>
+    <text id="n98_nxgl" name="label_tipnone" xy="186,291" size="377,34" group="n15_i3vf" fontSize="20" color="#b24444" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n118_ii8x" name="n118" src="r1mei" fileName="res/frame_next.png" xy="475,286" group="n63_nxgl"/>
+    <text id="n58_nxgl" name="label_tipnext" xy="458,281" size="148,34" group="n63_nxgl" font="ui://27utqbizps391v" fontSize="20" color="#a76936" align="center" vAlign="middle" autoSize="none" text=""/>
+    <image id="n117_ii8x" name="n117" src="r1mej" fileName="res/frame_now.png" xy="322,286" group="n63_nxgl"/>
+    <text id="n57_nxgl" name="label_tipcurr" xy="306,281" size="148,34" group="n63_nxgl" font="ui://27utqbizps391v" fontSize="20" color="#4e6868" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n61_nxgl" name="label_name1" xy="160,325" size="148,34" group="n63_nxgl" font="ui://27utqbizps391v" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text=""/>
+    <text id="n59_nxgl" name="label_valc1" xy="306,325" size="148,34" group="n63_nxgl" fontSize="20" align="center" autoSize="none" text=""/>
+    <text id="n60_nxgl" name="label_valn1" xy="458,324" size="148,34" group="n63_nxgl" fontSize="20" color="#5d9e32" align="center" vAlign="middle" autoSize="none" text=""/>
+    <image id="n108_ii8x" name="n108" src="mnt82r" fileName="ui/n31.png" pkg="27utqbiz" xy="460,334" group="n63_nxgl" rotation="90"/>
+    <group id="n63_nxgl" name="group_name1" xy="160,281" size="446,78" group="n15_i3vf" advanced="true"/>
+    <group id="n15_i3vf" name="n15" xy="65,205" size="620,166" advanced="true"/>
+    <image id="n124_em2r" name="n124" src="rvb538" fileName="ui/frame_bottom_layer.png" pkg="27utqbiz" xy="65,380" size="620,360" group="n72_nxgl">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n122_ii8x" name="n122" src="rvb53i" fileName="ui/frame_minor_title.png" pkg="27utqbiz" xy="90,404" group="n72_nxgl"/>
+    <text id="n64_nxgl" name="label_tipbase_n" xy="100,403" size="10,34" group="n72_nxgl" font="ui://27utqbizps391v" fontSize="24" color="#3cf200" vAlign="middle" strokeColor="#16191a" text=""/>
+    <image id="n120_ii8x" name="n120" src="r1mej" fileName="res/frame_now.png" xy="322,454" group="n72_nxgl"/>
+    <text id="n65_nxgl" name="label_tipcurr_n" xy="306,449" size="148,34" group="n72_nxgl" font="ui://27utqbizps391v" fontSize="20" color="#4e6868" align="center" vAlign="middle" autoSize="none" text=""/>
+    <image id="n119_ii8x" name="n119" src="r1mei" fileName="res/frame_next.png" xy="475,454" group="n72_nxgl"/>
+    <text id="n66_nxgl" name="label_tipnext_n" xy="458,449" size="148,34" group="n72_nxgl" font="ui://27utqbizps391v" fontSize="20" color="#a76936" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n67_nxgl" name="label_name1_n" xy="160,490" size="148,34" group="n71_nxgl" font="ui://27utqbizps391v" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text=""/>
+    <text id="n68_nxgl" name="label_valc1_n" xy="306,490" size="148,34" group="n71_nxgl" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n69_nxgl" name="label_valn1_n" xy="458,489" size="148,34" group="n71_nxgl" fontSize="20" color="#5d9e32" align="center" vAlign="middle" autoSize="none" text=""/>
+    <image id="n109_ii8x" name="n109" src="mnt82r" fileName="ui/n31.png" pkg="27utqbiz" xy="460,500" group="n71_nxgl" rotation="90"/>
+    <group id="n71_nxgl" name="n71" xy="160,489" size="446,35" group="n72_nxgl" advanced="true"/>
+    <text id="n73_nxgl" name="label_name2_n" xy="160,530" size="148,34" group="n77_nxgl" font="ui://27utqbizps391v" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text=""/>
+    <text id="n74_nxgl" name="label_valc2_n" xy="307,530" size="148,34" group="n77_nxgl" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n75_nxgl" name="label_valn2_n" xy="459,529" size="148,34" group="n77_nxgl" fontSize="20" color="#5d9e32" align="center" vAlign="middle" autoSize="none" text=""/>
+    <image id="n110_ii8x" name="n110" src="mnt82r" fileName="ui/n31.png" pkg="27utqbiz" xy="460,540" group="n77_nxgl" rotation="90"/>
+    <group id="n77_nxgl" name="n77" xy="160,529" size="447,35" group="n72_nxgl" advanced="true"/>
+    <text id="n78_nxgl" name="label_name3_n" xy="160,570" size="148,34" group="n82_nxgl" font="ui://27utqbizps391v" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text=""/>
+    <text id="n79_nxgl" name="label_valc3_n" xy="307,570" size="148,34" group="n82_nxgl" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n80_nxgl" name="label_valn3_n" xy="459,569" size="148,34" group="n82_nxgl" fontSize="20" color="#5d9e32" align="center" vAlign="middle" autoSize="none" text=""/>
+    <image id="n111_ii8x" name="n111" src="mnt82r" fileName="ui/n31.png" pkg="27utqbiz" xy="460,578" group="n82_nxgl" rotation="90"/>
+    <group id="n82_nxgl" name="n82" xy="160,569" size="447,35" group="n72_nxgl" advanced="true"/>
+    <text id="n83_nxgl" name="label_name4_n" xy="160,610" size="148,34" group="n87_nxgl" font="ui://27utqbizps391v" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text=""/>
+    <text id="n84_nxgl" name="label_valc4_n" xy="306,610" size="148,34" group="n87_nxgl" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n85_nxgl" name="label_valn4_n" xy="458,609" size="148,34" group="n87_nxgl" fontSize="20" color="#5d9e32" align="center" vAlign="middle" autoSize="none" text=""/>
+    <image id="n112_ii8x" name="n112" src="mnt82r" fileName="ui/n31.png" pkg="27utqbiz" xy="460,619" group="n87_nxgl" rotation="90"/>
+    <group id="n87_nxgl" name="n87" xy="160,609" size="446,35" group="n72_nxgl" advanced="true"/>
+    <text id="n88_nxgl" name="label_name5_n" xy="160,650" size="148,34" group="n92_nxgl" font="ui://27utqbizps391v" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text=""/>
+    <text id="n89_nxgl" name="label_valc5_n" xy="307,650" size="148,34" group="n92_nxgl" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n90_nxgl" name="label_valn5_n" xy="459,649" size="148,34" group="n92_nxgl" fontSize="20" color="#5d9e32" align="center" vAlign="middle" autoSize="none" text=""/>
+    <image id="n113_ii8x" name="n113" src="mnt82r" fileName="ui/n31.png" pkg="27utqbiz" xy="460,659" group="n92_nxgl" rotation="90"/>
+    <group id="n92_nxgl" name="n92" xy="160,649" size="447,35" group="n72_nxgl" advanced="true"/>
+    <text id="n93_nxgl" name="label_name6_n" xy="160,690" size="148,34" group="n97_nxgl" font="ui://27utqbizps391v" fontSize="20" color="#16191a" vAlign="middle" autoSize="none" text=""/>
+    <text id="n94_nxgl" name="label_valc6_n" xy="307,690" size="148,34" group="n97_nxgl" fontSize="20" color="#16191a" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n95_nxgl" name="label_valn6_n" xy="459,689" size="148,34" group="n97_nxgl" fontSize="20" color="#5d9e32" align="center" vAlign="middle" autoSize="none" text=""/>
+    <image id="n114_ii8x" name="n114" src="mnt82r" fileName="ui/n31.png" pkg="27utqbiz" xy="460,699" group="n97_nxgl" rotation="90"/>
+    <group id="n97_nxgl" name="n97" xy="160,689" size="447,35" group="n72_nxgl" advanced="true"/>
+    <group id="n72_nxgl" name="n72" xy="65,380" size="620,360" advanced="true"/>
+    <component id="n123_ii8x" name="btn_upstage" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="268,804" group="n102_nxgl"/>
+    <loader id="n100_nxgl" name="loader_icon" xy="320,755" size="40,40" group="n102_nxgl" fill="scaleFree"/>
+    <text id="n101_nxgl" name="label_need" xy="370,760" size="10,32" group="n102_nxgl" fontSize="22" color="#16191a" vAlign="middle" text=""/>
+    <group id="n102_nxgl" name="group_upstage" xy="268,755" size="214,107" advanced="true"/>
+  </displayList>
+</component>

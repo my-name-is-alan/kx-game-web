@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="jk2302cn">
+  <resources>
+    <component id="myrs0" name="LyGuideStart.xml" path="/" exported="true"/>
+    <component id="myrs1" name="group_guidestart.xml" path="/"/>
+    <component id="myrs2" name="group_detail.xml" path="/"/>
+    <component id="qibp4" name="group_hand.xml" path="/"/>
+    <image id="qibp5" name="img_s.png" path="/res/"/>
+    <component id="ro686" name="group_handforce.xml" path="/"/>
+    <image id="jjoh7" name="frame_guide.png" path="/res/"/>
+    <image id="iny58" name="btn_tiaoguo.png" path="/res/"/>
+    <component id="iny59" name="btn_skip.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

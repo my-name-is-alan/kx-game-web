@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1156">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader id="n1_hbzk" name="n1" xy="24,0" size="701,1112" url="ui://27utqbizrvb533" fill="scaleFree"/>
+    <richtext id="n4_hbzk" name="label_bxl" xy="51,29" size="257,49" font="ui://27utqbizps391v" fontSize="36" color="#eddcba" vAlign="middle" ubb="true" autoSize="none" strokeColor="#191c1d" strokeSize="3" autoClearText="true" text="[size=42]商[/size]店"/>
+    <component id="n3_hbzk" name="btn_close1" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="672,40"/>
+    <list id="n32_u96x" name="list_shop" xy="80,119" size="598,937" layout="flow_hz" overflow="scroll" lineGap="13" colGap="10" defaultItem="ui://8rnw66xwu96x1e" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n34_srjz" name="group_gold" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="502,24"/>
+    <component id="n39_rajy" name="btn_shop1" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="29,1102">
+      <Button checked="true" title="帮派商店" controller="c1" page="0"/>
+    </component>
+    <component id="n40_rajy" name="btn_shop2" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="200,1102">
+      <Button title="战功商店" controller="c1" page="1"/>
+    </component>
+    <component id="n41_rajy" name="btn_shop3" src="bd1g91" fileName="btn_tab1.xml" pkg="27utqbiz" xy="370,1102" visible="false">
+      <Button title="战功商店" controller="c1" page="1"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,100" opaque="false">
+  <displayList>
+    <image id="n0_n7tl" name="n0" src="n7tl2" fileName="res/memory_bg_tiptitle.png" xy="7,15">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n1_n7tl" name="label_tip" xy="50,15" size="500,80" fontSize="28" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text=""/>
+  </displayList>
+</component>

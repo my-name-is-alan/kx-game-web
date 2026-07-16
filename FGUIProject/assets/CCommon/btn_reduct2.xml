@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="36,36" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_bh80" name="n0" src="y9su51" fileName="ui/frame_have&amp;use2.png" xy="0,0" size="36,36">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_bh80" name="n1" src="y9su51" fileName="ui/frame_have&amp;use2.png" xy="0,0" size="36,36">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_bh80" name="n2" src="y9su51" fileName="ui/frame_have&amp;use2.png" xy="0,0" size="36,36">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_bh80" name="n3" src="y9su51" fileName="ui/frame_have&amp;use2.png" xy="0,0" size="36,36">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4_bh80" name="n4" src="bh805b" fileName="ui/icon_-.png" xy="0,0"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

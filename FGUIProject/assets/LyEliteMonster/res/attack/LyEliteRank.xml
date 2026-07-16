@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="662,946">
+  <controller name="btn_change" exported="true" pages="0,,1," selected="0"/>
+  <controller name="c1" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n94_jhmn" name="n94" src="jhmndu18h" fileName="frame_classification.png" xy="-2,3" size="662,30"/>
+    <image id="n102_jhmn" name="n102" src="jhmndu1a3" fileName="res/frame_rank-me_horizontal.png" xy="-5,805"/>
+    <image id="n86_ipw4" name="img_nobody" src="ipw4du16n" fileName="res/main/frame_zanwushuju.png" xy="28,43" size="581,752" visible="false"/>
+    <text id="n81_ltem" name="n81" xy="287,923" pivot="0.5,0.5" size="86,32" fontSize="22" color="#a46819" align="center" vAlign="middle" letterSpacing="-2" text="积分通过"/>
+    <text id="n57_ltem" name="label_myScore" xy="215,860" size="164,36" fontSize="24" color="#864c01" vAlign="middle" letterSpacing="-1" autoSize="none" text="111111"/>
+    <text id="n91_jhmn" name="label_sort" xy="35,0" size="52,34" fontSize="24" color="#ffedbd" vAlign="middle" text="排名"/>
+    <text id="n92_jhmn" name="label_scoredesc" xy="211,0" size="100,34" fontSize="24" color="#ffedbd" vAlign="middle" text="玩家积分"/>
+    <text id="n93_jhmn" name="label_reward" xy="508,0" size="52,34" fontSize="24" color="#ffedbd" vAlign="middle" text="奖励"/>
+    <list id="n55_ltem" name="list_rank" xy="5,39" size="653,731" overflow="scroll" lineGap="-4" defaultItem="ui://xcpqvzp3jhmndu18m" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n98_jhmn" name="list_item" xy="394,826" size="340,100" scale="0.7,0.7" layout="flow_hz" overflow="scroll" scroll="horizontal" scrollBarFlags="128" colGap="7" defaultItem="ui://27utqbizewyha" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n99_jhmn" name="label_name" xy="215,829" size="164,36" fontSize="24" color="#864c01" vAlign="middle" letterSpacing="-1" autoSize="none" text="玩家"/>
+    <text id="n100_jhmn" name="label_rank" xy="14,842" size="100,39" font="ui://27utqbizps391v" fontSize="28" color="#fefffe" align="center" vAlign="middle" autoSize="shrink" strokeColor="#7b2f2f" autoClearText="true" text="4"/>
+    <component id="n101_jhmn" name="group_head" src="uzk85l" fileName="itemframe/GroupHead.xml" pkg="27utqbiz" xy="122,822" scale="0.8,0.8"/>
+    <image id="n104_rgsw" name="n104" src="rgswdu1a5" fileName="res/frame_costtoday.png" xy="-8,803"/>
+    <loader id="n105_rgsw" name="loader_jz" xy="-5,804" size="41,39" align="center" vAlign="middle" fill="scale"/>
+    <text id="n106_rgsw" name="label_xfdesc" xy="37,805" size="142,36" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" text="今日消费：2333"/>
+  </displayList>
+</component>

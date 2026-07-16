@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <email>
+    <item id="101" title="过期物品提示" content="尊敬得用户,你的物品{item_name}明天到期了，希望你尽快使用"/>
+    <item id="102" title="过期物品提示" content="尊敬得用户,你的物品{item_name}已经到期了。"/>
+  </email>
+</root>

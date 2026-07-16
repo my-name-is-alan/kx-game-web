@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="758,681">
+  <displayList>
+    <image id="n7_8g2x" name="back_lost" src="osg9v" fileName="res/frame_bottom3.png" xy="0,160" size="750,429"/>
+    <image id="n8_8g2x" name="n8" src="osg9x" fileName="res/frame_title3.png" xy="0,0" group="n10_8g2x"/>
+    <image id="n9_8g2x" name="n9" src="osg9z" fileName="res/word_baibei.png" xy="257,74" group="n10_8g2x"/>
+    <group id="n10_8g2x" name="n10" xy="0,0" size="750,212" advanced="true"/>
+    <richtext id="n11_8g2x" name="label_desc" xy="110,232" size="533,74" fontSize="22" color="#dfd1bf" align="center" ubb="true" autoSize="none" text="[color=#DFD689]eeeee[/color]通过对你造成[color=#E63C16]2.98[/color]的伤害，你被掠夺了[color=#E63C16]一个雾隐血刃[/color]"/>
+    <list id="n13_8g2x" name="list_item" xy="365,374" pivot="0.5,0.5" anchor="true" size="620,134" layout="flow_hz" overflow="scroll" scrollBarFlags="128" margin="16,0,0,0" colGap="30" defaultItem="ui://02ur49fwtclen" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+    </list>
+    <text id="n18_8g2x" name="n18" xy="259,634" size="238,36" alpha="0.7" fontSize="26" color="#e0e2ce" text="点击空白处关闭界面"/>
+    <richtext id="n19_8g2x" name="label_back" xy="219,493" size="320,32" fontSize="22" color="#dfd1bf" align="center" vAlign="middle" ubb="true" autoSize="none" text="即将返回 [color=#DFD689]雾隐岛[/color]"/>
+    <text id="n15_8g2x" name="n15" xy="245,435" size="143,36" group="n20_8g2x" fontSize="26" color="#eed57e" vAlign="middle" autoSize="none" text="持有数量："/>
+    <text id="n16_8g2x" name="label_befer" xy="389,435" size="49,36" group="n20_8g2x" fontSize="26" color="#e63c16" vAlign="middle" text="200"/>
+    <image id="n14_8g2x" name="n14" src="k70e5t" fileName="ui/icon_shengji.png" pkg="27utqbiz" xy="439,441" group="n20_8g2x"/>
+    <text id="n17_8g2x" name="label_now" xy="478,435" size="34,36" group="n20_8g2x" fontSize="26" color="#e63c16" vAlign="middle" text="20"/>
+    <group id="n20_8g2x" name="n20" xy="245,435" size="267,36" advanced="true" layout="hz" colGap="1" excludeInvisibles="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

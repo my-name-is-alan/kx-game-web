@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,200">
+  <displayList>
+    <loader3D id="n9_fzgo" name="loader_spine_back" xy="299,99" size="1,1" animation="" skin="" loop="true"/>
+    <image id="n8_h9lc" name="img_back" src="h9lcq5" fileName="rebate/frame_fanli tips.png" xy="44,-14"/>
+    <image id="n2_h9lc" name="n2" src="h9lcq2" fileName="rebate/word_zidongzhuanhuaweijinzhu.png" xy="97,12"/>
+    <image id="n3_h9lc" name="n3" src="h9lcpn" fileName="rebate/word_yi.png" xy="122,83"/>
+    <image id="n4_h9lc" name="n4" src="h9lcpo" fileName="rebate/word_fanli.png" xy="160,57"/>
+    <text id="n5_h9lc" name="label_chance" xy="289,70" size="175,72" font="ui://02ur49fwh9lcq3" fontSize="20" letterSpacing="-15" text="99.8"/>
+    <image id="n6_h9lc" name="n6" src="h9lcpt" fileName="rebate/word_yuan.png" xy="465,85">
+      <relation target="n5_h9lc" sidePair="left-right"/>
+    </image>
+    <text id="n7_h9lc" name="label_tips" xy="289,158" size="10,30" fontSize="21" color="#c8b8a8" align="center" vAlign="middle" autoClearText="true" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader3D id="n10_fzgo" name="loader_spine_light" xy="299,99" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

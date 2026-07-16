@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <loader3D id="n35_oi12" name="loader_effect" xy="49,49" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

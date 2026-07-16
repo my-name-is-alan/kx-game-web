@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="3dtw4164">
+  <resources>
+    <component id="hchg0" name="LyActivityKingMonster.xml" path="/" exported="true"/>
+    <component id="hchg1" name="group_main.xml" path="/"/>
+    <component id="hchg2" name="group_king.xml" path="/"/>
+    <image id="hnau5" name="frame_yaoqinghaoyoudibanmengban.png" path="/res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

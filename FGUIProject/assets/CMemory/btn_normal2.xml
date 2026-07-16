@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="214,58" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_pugc" name="n0" src="pugclu" fileName="res/btn_green.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_pugc" name="n1" src="pugclu" fileName="res/btn_green.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_pugc" name="n2" src="pugclu" fileName="res/btn_green.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_pugc" name="n3" src="pugclu" fileName="res/btn_green.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n6_gajk" name="loader_icon" xy="15,4" size="50,50" touchable="false" fill="scaleFree">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </loader>
+    <text id="n4_pugc" name="title" xy="0,0" size="214,58" font="ui://27utqbizps391v" fontSize="36" color="#16191a" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n7_adf1" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" xy="192,0" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

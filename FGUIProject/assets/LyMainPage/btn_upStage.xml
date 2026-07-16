@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="108,43" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n3_t0if" name="n3" src="t0if52" fileName="res/main2/btn_level up.png" xy="0,0" scale="0.8,0.8"/>
+    <image id="n4_t0if" name="n4" src="t0if53" fileName="res/main2/word_level up.png" xy="19,-11"/>
+    <component id="n6_yisi" name="group_break_point" src="yisi7x" fileName="group_break_point.xml" xy="-72,-79" touchable="false"/>
+    <image id="n5_jon9" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="86,0" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

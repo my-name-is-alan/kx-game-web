@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <loader3D id="n31_ro4e" name="loader_spine_bj" xy="374,666" size="1,1" animation="" skin="" loop="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader3D>
+    <image id="n9_kluz" name="n9" src="kluzh" fileName="res/frame_fengexian.png" xy="213,77"/>
+    <text id="n10_kluz" name="label_title" xy="301,58" size="148,49" font="ui://27utqbizps391v" fontSize="36" color="#f4e9d5" align="center" vAlign="middle" autoClearText="true" text="寻龙分金">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <list id="n30_kluz" name="list_golds" xy="75,170" size="600,990" overflow="scroll" defaultItem="ui://j6s22r8hkluzs" autoClearItems="true">
+      <relation target="" sidePair="topext-top,bottomext-bottom"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

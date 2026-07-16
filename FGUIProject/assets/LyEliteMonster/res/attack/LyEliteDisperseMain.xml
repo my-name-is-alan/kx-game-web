@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="712,1043">
+  <displayList>
+    <image id="n22_nogk" name="n22" src="pugclw" fileName="res/frame_public_tips.png" pkg="qnktu1il" xy="0,25" size="698,1018"/>
+    <image id="n27_nogk" name="n27" src="l3tj2i" fileName="res/attack/bg_shanzeitaofa1.png" xy="14,53"/>
+    <component id="n24_nogk" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="634,0"/>
+    <loader id="n25_nogk" name="loader_EliteQua" xy="110,66" size="78,322" url="ui://xcpqvzp3l3tj2j" autoSize="true"/>
+    <text id="n26_nogk" name="label_name" xy="132,146" size="40,164" font="ui://27utqbizps391v" fontSize="30" align="center" leading="0" autoSize="none" text="将级门客"/>
+    <image id="n28_nogk" name="n28" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="153,436" size="375,27">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n29_nogk" name="group_title" xy="284,430" size="117,39" font="ui://27utqbizps391v" fontSize="22" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="门客羁绊">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <list id="n35_nogk" name="list_Use" xy="155,502" size="405,102" scale="0.94,0.9" layout="row" colGap="13" defaultItem="ui://27utqbiznogk2r" autoItemSize="false" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n36_nogk" name="n36" src="rvb52w" fileName="ui/frame_vice_title.png" pkg="27utqbiz" xy="154,791" size="377,29">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <richtext id="n30_nogk" name="label_desScore" xy="180,470" size="324,29" fontSize="20" color="#16191a" align="center" vAlign="middle" leading="0" ubb="true" text="当前驱散镇压阵容当前驱散镇压阵容">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <text id="n37_nogk" name="group_title2" xy="271,785" size="142,39" font="ui://27utqbizps391v" fontSize="22" color="#16191a" align="center" vAlign="middle" letterSpacing="-3" autoSize="none" text="门客羁绊">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <list id="n38_nogk" name="list_Item" xy="171,828" size="405,102" scale="0.85,0.85" layout="row" colGap="13" defaultItem="ui://27utqbizewyha" autoItemSize="false" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n39_nogk" name="list_Elite" xy="83,596" size="545,192" layout="flow_hz" overflow="scroll" lineGap="2" colGap="7" lineItemCount="5" defaultItem="ui://xcpqvzp3j2yt6" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n40_nogk" name="n40" xy="222,987" size="240,29" fontSize="20" color="#16191a" align="center" vAlign="middle" leading="-7" autoSize="none" text="每日0点自动"/>
+    <component id="n42_nogk" name="btn_goDraw" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="126,931" size="188,50">
+      <Button titleFontSize="30"/>
+    </component>
+    <loader3D id="n43_mtsr" name="loader3D_monster" xy="369,412" size="1,1" animation="" skin="" loop="true"/>
+    <component id="n45_e9u4" name="btn_qusan" src="hl71m6" fileName="btn_normal1_1.xml" pkg="qnktu1il" xy="389,931" size="188,50">
+      <Button titleFontSize="30" icon="ui://27utqbizisiv2q"/>
+    </component>
+    <component id="n47_e9u4" name="group_add" src="iuxmes" fileName="group_add.xml" pkg="27utqbiz" xy="13,-11"/>
+    <text id="n49_e9u4" name="label_time" xy="185,-6" size="40,26" fontSize="18" color="#70d36b" vAlign="middle" text="当前"/>
+  </displayList>
+</component>

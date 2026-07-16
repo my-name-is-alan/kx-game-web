@@ -1,0 +1,97 @@
+
+zd_gw_yunzhonhe_qishou.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zysbd_xl_00
+  rotate: true
+  xy: 132, 865
+  size: 128, 143
+  orig: 160, 160
+  offset: 12, 9
+  index: -1
+zysbd_xl_01
+  rotate: true
+  xy: 422, 860
+  size: 133, 145
+  orig: 160, 160
+  offset: 13, 8
+  index: -1
+zysbd_xl_02
+  rotate: true
+  xy: 277, 864
+  size: 129, 143
+  orig: 160, 160
+  offset: 12, 8
+  index: -1
+zysbd_xl_03
+  rotate: false
+  xy: 569, 857
+  size: 142, 136
+  orig: 160, 160
+  offset: 12, 9
+  index: -1
+zysbd_xl_04
+  rotate: false
+  xy: 713, 857
+  size: 142, 136
+  orig: 160, 160
+  offset: 12, 12
+  index: -1
+zysbd_xl_05
+  rotate: false
+  xy: 2, 726
+  size: 142, 137
+  orig: 160, 160
+  offset: 12, 12
+  index: -1
+zysbd_xl_06
+  rotate: false
+  xy: 286, 718
+  size: 140, 140
+  orig: 160, 160
+  offset: 10, 10
+  index: -1
+zysbd_xl_07
+  rotate: false
+  xy: 428, 715
+  size: 140, 140
+  orig: 160, 160
+  offset: 10, 10
+  index: -1
+zysbd_xl_08
+  rotate: false
+  xy: 570, 715
+  size: 140, 140
+  orig: 160, 160
+  offset: 10, 10
+  index: -1
+zysbd_xl_09
+  rotate: false
+  xy: 712, 715
+  size: 140, 140
+  orig: 160, 160
+  offset: 10, 10
+  index: -1
+zysbd_xl_10
+  rotate: false
+  xy: 146, 724
+  size: 138, 138
+  orig: 160, 160
+  offset: 11, 11
+  index: -1
+zysbd_xl_12
+  rotate: false
+  xy: 857, 857
+  size: 136, 136
+  orig: 160, 160
+  offset: 12, 12
+  index: -1
+zysbd_xl_15
+  rotate: false
+  xy: 2, 865
+  size: 128, 128
+  orig: 160, 160
+  offset: 16, 16
+  index: -1

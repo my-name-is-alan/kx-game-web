@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageOffsetY="-274">
+  <controller name="c1" pages="0,,1," selected="0">
+    <remark page="0" value="未选"/>
+    <remark page="1" value="已选"/>
+  </controller>
+  <displayList>
+    <component id="n0_kmnd" name="btn_close" src="v3t50" fileName="btn_back.xml" pkg="27utqbiz" xy="0,-160">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_kmnd" name="group_petDevourpet" src="l2d77v" fileName="group_petDevourpet.xml" xy="30,164">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

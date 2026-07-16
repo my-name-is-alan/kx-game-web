@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="248,62">
+  <displayList>
+    <loader id="n0_puo9" name="n0" xy="0,0" size="248,62" url="ui://eawofj71i8096g"/>
+    <richtext id="n1_puo9" name="label_name" xy="11,3" size="84,29" fontSize="20" color="#ffffff" vAlign="middle" ubb="true" text="强化看看"/>
+    <text id="n2_puo9" name="label_level" xy="96,3" size="84,29" visible="false" fontSize="20" color="#a4c2ff" vAlign="middle" text="强化闪避">
+      <relation target="n1_puo9" sidePair=""/>
+    </text>
+    <text id="n3_puo9" name="label_dec" xy="11,31" size="136,29" fontSize="20" color="#ffffff" vAlign="middle" text="强化闪避+45%"/>
+  </displayList>
+</component>

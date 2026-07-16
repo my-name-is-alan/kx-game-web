@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,110" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n5_q8va" name="n5" xy="20,15" size="50,50" visible="false" type="eclipse" lineSize="0" fillColor="#ffb8a476"/>
+    <loader id="n4_q8va" name="icon" xy="10,10" size="70,70" align="center" vAlign="middle"/>
+    <text id="n3_q8va" name="title" xy="40,47" size="10,44" font="ui://27utqbizps391v" fontSize="32" color="#fff7eb" align="center" vAlign="middle" strokeColor="#231815" strokeSize="2" singleLine="true" autoClearText="true" text="">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n6_jo98" name="img_red_point" src="adf1m9" fileName="res/icon_red point.png" pkg="qnktu1il" xy="68,0" visible="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue=".8"/>
+</component>

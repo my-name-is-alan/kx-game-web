@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="713,410">
+  <displayList>
+    <loader id="n25_x66o" name="n25" xy="0,33" size="694,377" url="ui://qnktu1ilpugclw" fill="scaleFree"/>
+    <image id="n2_872v" name="n2" src="k1vlm1" fileName="res/frame_vice_title.png" pkg="qnktu1il" xy="147,81" size="419,38"/>
+    <text id="n3_872v" name="label_title" xy="261,80" size="191,39" font="ui://27utqbizps391v" fontSize="28" color="#16191a" align="center" vAlign="middle" letterSpacing="3" autoSize="none" text=""/>
+    <component id="n5_872v" name="btn_close" src="pugclx" fileName="btn_close.xml" pkg="qnktu1il" xy="635,0"/>
+    <image id="n30_glf5" name="n30" src="cgklkg" fileName="ui/frame_shurukuang.png" pkg="27utqbiz" xy="193,186" group="n18_872v"/>
+    <component id="n10_872v" name="btn_code" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="249,300" group="n18_872v"/>
+    <text id="n13_872v" name="label_code" xy="208,185" size="296,60" group="n18_872v" fontSize="24" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="as" input="true"/>
+    <group id="n18_872v" name="group_code" xy="193,185" size="326,173" visible="false" advanced="true"/>
+    <component id="n20_872v" name="btn_rename" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="249,299" group="n23_872v"/>
+    <image id="n31_glf5" name="n31" src="cgklkg" fileName="ui/frame_shurukuang.png" pkg="27utqbiz" xy="193,187" group="n23_872v"/>
+    <text id="n21_872v" name="label_name" xy="208,186" size="296,60" group="n23_872v" fontSize="24" color="#767676" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="as" input="true"/>
+    <text id="n24_872v" name="label_renameNum" xy="264,145" size="185,34" group="n23_872v" fontSize="24" color="#c9554d" text="今日已改名0/2次"/>
+    <component id="n37_wb1u" name="group_itemNum" src="nexh6c" fileName="group_itemNum.xml" xy="283,251" group="n23_872v">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <group id="n23_872v" name="group_rename" xy="193,145" size="326,212" visible="false" advanced="true"/>
+    <component id="n32_wb1u" name="btn_blessing" src="pugclz" fileName="btn_normal2.xml" pkg="qnktu1il" xy="249,299" group="n36_wb1u"/>
+    <image id="n33_wb1u" name="n33" src="cgklkg" fileName="ui/frame_shurukuang.png" pkg="27utqbiz" xy="193,187" group="n36_wb1u"/>
+    <text id="n34_wb1u" name="label_blessing" xy="208,184" size="296,60" group="n36_wb1u" fontSize="24" color="#767676" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="as" input="true"/>
+    <group id="n36_wb1u" name="group_blessing" xy="193,184" size="326,173" visible="false" advanced="true"/>
+  </displayList>
+</component>

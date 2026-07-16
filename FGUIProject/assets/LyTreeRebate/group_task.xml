@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="282,90">
+  <displayList>
+    <image id="n25_t18c" name="n25" src="t18ca" fileName="res/frame_meirirenwu.png" xy="0,0"/>
+    <component id="n23_szl0" name="group_item" src="ewyha" fileName="itemframe/GroupItem.xml" pkg="27utqbiz" xy="2,4" scale="0.76,0.76"/>
+    <text id="n4_o4rl" name="label_dec" xy="77,14" size="196,29" font="ui://27utqbizps391v" fontSize="20" color="#966955" vAlign="middle" leading="0" autoClearText="true" text="穿戴9件衣服撒旦速度">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n5_o4rl" name="label_task" xy="120,41" size="95,29" fontSize="20" align="right" vAlign="middle" autoClearText="true" text="(161/173)">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <loader3D id="n24_yqrs" name="loader_spine_get" xy="140,44" size="1,1" animation="" skin="" loop="true"/>
+  </displayList>
+</component>
