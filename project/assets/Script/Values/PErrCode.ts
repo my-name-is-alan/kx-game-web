@@ -193,7 +193,7 @@ export class PErrCode {
 	static pet_clear_skill_not_pet = 771; // 洗炼侠侣不存在
 	static pet_clear_skill_not_buff = 772; // 洗炼侠侣没有技能可以保存
 	static pet_clear_skill_not_lock_buff = 773; // 洗炼侠侣锁定技能失败
-	static pet_clear_skill_not_level = 773; // 洗炼侠侣有达到指定等级不能洗炼
+	static pet_clear_skill_not_level = 775; // 洗炼侠侣有达到指定等级不能洗炼
 	static pet_con_bonuse_not_exist = 774; // 奖励不存在
 	static explore_take_not_repository = 800; // 没有对应的任务库
 	static explore_take_not_repository_taskid = 801; // 任务库没有对应的任务

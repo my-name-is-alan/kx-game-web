@@ -2881,6 +2881,9 @@ export class GameServerData {
 		if (args.companions) {
 			companionData.companions = args.companions
 		}
+		if (args.companionAttrs) {
+			companionData.companionAttrs = args.companionAttrs
+		}
 	}
 	public on_addExploreStamina(args: any): void{
 		this.removeItems(args.itemRemoves);

@@ -45,7 +45,7 @@ export class LyCompanionLevel extends ViewLayer {
         this.uiPanel.getChild("label_str42", fgui.GLabel).text = StrVal.LYCOMPANION.STR42
         this.uiPanel.getChild("label_str44", fgui.GLabel).text = StrVal.LYCOMPANION.STR44
         let companionXml = LocaleData.getCompanionById(this.companionInfo.companionId)
-        img_quality.url = UtilsTool.stringFormat("ui://LyPet/frame_quality{0}", [companionXml.quality]);
+        img_quality.url = UtilsTool.stringFormat("ui://LyCompanion/companion_bg{0}", [companionXml.quality]);
         label_name.text = companionXml.name
 
         new SpinePlayer().loadSpineByModelId((spp:SpinePlayer) => {

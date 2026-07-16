@@ -405,11 +405,10 @@
     <soulSculpting id="4" qualityId="1" soulSculptingTier="4" requiredMaterialId="120010" requiredMaterialQuantity="11" attributeObtained="0" attrCorrespondingParameter="0" triggerStageEffect="0" triggerCorrespondingParameter="0"/>
   </soulSculpting>
   <refreshBuffGroup>
-    <refreshBuffGroup id="1" groupID="101" lockCnt="0" costID="1,160001,5"/>
-    <refreshBuffGroup id="2" groupID="101" lockCnt="1" costID="1,160001,10;1,161003,15"/>
-    <refreshBuffGroup id="3" groupID="101" lockCnt="2" costID="1,160001,20;1,161003,25"/>
-    <refreshBuffGroup id="4" groupID="101" lockCnt="3" costID="1,161003,35;1,160001,30"/>
-    <refreshBuffGroup id="5" groupID="101" lockCnt="4" costID="1,160001,40;1,161003,45"/>
+    <refreshBuffGroup id="1" groupID="101" lockCnt="0" costID="1,120012,5"/>
+    <refreshBuffGroup id="2" groupID="101" lockCnt="1" costID="1,120012,10;1,120013,15"/>
+    <refreshBuffGroup id="3" groupID="101" lockCnt="2" costID="1,120012,20;1,120013,25"/>
+    <refreshBuffGroup id="4" groupID="101" lockCnt="3" costID="1,120012,30;1,120013,35"/>
   </refreshBuffGroup>
   <specialGuarantees>
     <item id="1" consumption="100" bonuses="410001" box="131004"/>

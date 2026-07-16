@@ -67,7 +67,7 @@ export class LyEliteGet extends ViewLayer {
             label_nowLaevel.text = UtilsTool.stringFormat(StrVal.LYELITEMONSTER.STR37, [moseterInfo.own.level - 1])
         }
         skill_label.text = skillData.desc2
-        img_quality.url = UtilsTool.stringFormat("ui://LyPet/frame_quality{0}",[moseterInfo.proto.quality - 1])
+        img_quality.url = UtilsTool.stringFormat("ui://LyEliteMonster/frame_get{0}",[moseterInfo.proto.quality])
         label_name.text = moseterInfo.proto.name
         new SpinePlayer().loadSpineByModelId(null, loader_spine, moseterInfo.proto.modelId);
     }
