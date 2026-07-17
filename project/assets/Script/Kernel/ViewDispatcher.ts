@@ -342,10 +342,11 @@ export class ViewDispatcher {
                     }
                 } else {
                     if (obj._label && obj.font == pi) {
-                        let label = obj._label;
-                        label.useSystemFont = false;
-                        label.font = fgui.getFontByName(pi);
-                        label.updateRenderData(true);
+                        // 通过 FairyGUI 自己的 setter 重新解析已注册字体，兼容未导出 getFontByName 的运行库。
+                        let fontName = obj.font;
+                        obj.font = null;
+                        obj.font = fontName;
+                        obj._label.updateRenderData(true);
                     }
                 }
             } else if (obj instanceof fgui.GList) { // 对象池里会隐藏。
