@@ -5,47 +5,23 @@ $repo = Split-Path -Parent $PSScriptRoot
 $project = Join-Path $repo 'project'
 $vendor = Join-Path $repo 'FairyGUI-cocoscreator-ccc3.0/source'
 $expectedDependency = 'file:../FairyGUI-cocoscreator-ccc3.0/source'
+$expectedFairyGuiHash = '03CE74C888044545ECD9B37076371EABED830754D7BE0E6AFF9AEB9209BDAC65'
 
 function Fail([string]$Message) {
-    throw "[fairygui mask dependency contract] $Message"
+    throw "[fairygui compatibility contract] $Message"
 }
 
-function Assert-DeferredMaskInversion(
-    [string]$Path,
-    [string]$Label,
-    [string]$SetMaskMarker,
-    [string]$ReadyMarker,
-    [string]$NextMethodMarker
-) {
-    $text = Get-Content -Raw -LiteralPath $Path
-    $setMaskAt = $text.IndexOf($SetMaskMarker, [StringComparison]::Ordinal)
-    $readyAt = if ($setMaskAt -ge 0) {
-        $text.IndexOf($ReadyMarker, $setMaskAt, [StringComparison]::Ordinal)
+function Assert-Contains([string]$Text, [string]$Needle, [string]$Label) {
+    if (-not $Text.Contains($Needle, [StringComparison]::Ordinal)) {
+        Fail "$Label is missing '$Needle'"
     }
-    else {
-        -1
-    }
-    if ($setMaskAt -lt 0 -or $readyAt -lt 0) {
-        Fail "$Label does not expose the expected setMask/onMaskReady implementation"
-    }
+}
 
-    $setMaskBody = $text.Substring($setMaskAt, $readyAt - $setMaskAt)
-    if ($setMaskBody.Contains('this._customMask.inverted = inverted', [StringComparison]::Ordinal)) {
-        Fail "$Label writes Mask.inverted before the mask renderer is ready"
-    }
-    if (-not $setMaskBody.Contains('this._inverted = inverted', [StringComparison]::Ordinal)) {
-        Fail "$Label does not retain the requested inversion state"
-    }
-
-    $nextMethodAt = $text.IndexOf($NextMethodMarker, $readyAt, [StringComparison]::Ordinal)
-    if ($nextMethodAt -lt 0) {
-        Fail "$Label is missing the method boundary after onMaskReady"
-    }
-    $readyBody = $text.Substring($readyAt, $nextMethodAt - $readyAt)
-    $typeAt = $readyBody.LastIndexOf('this._customMask.type', [StringComparison]::Ordinal)
-    $invertedAt = $readyBody.IndexOf('this._customMask.inverted = this._inverted', [StringComparison]::Ordinal)
-    if ($typeAt -lt 0 -or $invertedAt -lt 0 -or $invertedAt -lt $typeAt) {
-        Fail "$Label must apply Mask.inverted after selecting the renderer type"
+function Assert-Ordered([string]$Text, [string]$First, [string]$Second, [string]$Label) {
+    $firstAt = $Text.IndexOf($First, [StringComparison]::Ordinal)
+    $secondAt = $Text.IndexOf($Second, [StringComparison]::Ordinal)
+    if ($firstAt -lt 0 -or $secondAt -lt 0 -or $secondAt -le $firstAt) {
+        Fail "$Label does not keep '$Second' after '$First'"
     }
 }
 
@@ -54,18 +30,26 @@ if ([string]$packageJson.dependencies.'fairygui-cc' -cne $expectedDependency) {
     Fail "project/package.json must pin fairygui-cc to $expectedDependency"
 }
 
-Assert-DeferredMaskInversion `
-    (Join-Path $vendor 'src/GComponent.ts') `
-    'tracked TypeScript source' `
-    'public setMask(' `
-    'private onMaskReady()' `
-    'private onMaskContentChanged()'
-Assert-DeferredMaskInversion `
-    (Join-Path $vendor 'dist/fairygui.mjs') `
-    'tracked distributed module' `
-    'setMask(value, inverted) {' `
-    "`n    onMaskReady() {" `
-    "`n    onMaskContentChanged() {"
+$sourceText = Get-Content -Raw -LiteralPath (Join-Path $vendor 'src/GComponent.ts')
+Assert-Contains $sourceText 'private _invertedMask' 'tracked TypeScript source'
+Assert-Contains $sourceText 'this._invertedMask = inverted' 'tracked TypeScript source'
+Assert-Contains $sourceText 'Mask.Type.SPRITE_STENCIL' 'tracked TypeScript source'
+Assert-Contains $sourceText 'this._customMask.inverted = this._invertedMask' 'tracked TypeScript source'
+Assert-Ordered $sourceText 'this._customMask.type' 'this._customMask.inverted = this._invertedMask' 'tracked TypeScript source'
+
+$distPath = Join-Path $vendor 'dist/fairygui.mjs'
+$distText = Get-Content -Raw -LiteralPath $distPath
+$distHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $distPath).Hash
+if ($distHash -cne $expectedFairyGuiHash) {
+    Fail "tracked fairygui.mjs hash $distHash does not match the pinned Cocos 3.8 compatible build $expectedFairyGuiHash"
+}
+Assert-Contains $distText 'freeSpine()' 'tracked distributed module'
+Assert-Contains $distText 'Mask.Type.SPRITE_STENCIL' 'tracked distributed module'
+Assert-Contains $distText 'this._customMask.inverted = this._invertedMask' 'tracked distributed module'
+if ($distText.Contains('Mask.Type.IMAGE_STENCIL', [StringComparison]::Ordinal)) {
+    Fail 'tracked distributed module still uses deprecated IMAGE_STENCIL'
+}
+Assert-Ordered $distText 'this._customMask.type' 'this._customMask.inverted = this._invertedMask' 'tracked distributed module'
 
 $testRoot = Join-Path ([IO.Path]::GetTempPath()) ('hdhive-fairygui-contract-' + [guid]::NewGuid().ToString('N'))
 $testProject = Join-Path $testRoot 'project'
@@ -87,10 +71,10 @@ try {
         Pop-Location
     }
 
-    $trackedHash = (Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $vendor 'dist/fairygui.mjs')).Hash
-    $installedHash = (Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $testProject 'node_modules/fairygui-cc/dist/fairygui.mjs')).Hash
-    if ($installedHash -cne $trackedHash) {
-        Fail "clean npm ci installed FairyGUI hash $installedHash instead of tracked hash $trackedHash"
+    $installedPath = Join-Path $testProject 'node_modules/fairygui-cc/dist/fairygui.mjs'
+    $installedHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $installedPath).Hash
+    if ($installedHash -cne $expectedFairyGuiHash) {
+        Fail "clean npm ci installed FairyGUI hash $installedHash instead of pinned hash $expectedFairyGuiHash"
     }
 }
 finally {
@@ -104,4 +88,4 @@ finally {
     }
 }
 
-Write-Host 'FAIRYGUI_MASK_DEPENDENCY_CONTRACT_OK'
+Write-Host 'FAIRYGUI_COMPATIBILITY_DEPENDENCY_CONTRACT_OK'

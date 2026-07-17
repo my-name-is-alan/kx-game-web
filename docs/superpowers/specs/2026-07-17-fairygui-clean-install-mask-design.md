@@ -2,22 +2,25 @@
 
 ## Problem
 
-The local Web build and the attested production build compile the same game
-application chunk but different `fairygui-cc` implementations. The local
-`project/node_modules/fairygui-cc` contains a newer compatible implementation,
-while the lockfile resolves the public `fairygui-cc@1.1.1` tarball. The public
-tarball assigns `Mask.inverted` before selecting a mask renderer. Under Cocos
-Creator 3.8.1 this writes `stencilStage` through a null `subComp` and crashes
-while constructing the main-page avatar mask.
+The local Web build and the attested production build compiled the same game
+application chunk but different `fairygui-cc` implementations. The public
+`fairygui-cc@1.1.1` tarball lacked the project's Cocos 3.8 runtime APIs,
+including `GLoader3D.freeSpine`, and used the deprecated `IMAGE_STENCIL` mask
+path. Under Cocos Creator 3.8.1 this caused both the activity-list
+`freeSpine is not a function` crash and the main-page avatar `stencilStage`
+null crash.
 
 ## Chosen Design
 
-Use the already tracked FairyGUI source tree as the canonical local package.
+Use the tracked FairyGUI compatibility package as the canonical local package.
 Change the Cocos project dependency from the registry range to
 `file:../FairyGUI-cocoscreator-ccc3.0/source`, update its lockfile entry, and
-patch both the TypeScript source and distributed module so `inverted` is stored
-during `setMask` and applied only after `onMaskReady` has selected the renderer.
+pin the complete Cocos 3.8-compatible distributed module. Its mask code stores
+`inverted` during `setMask`, selects `SPRITE_STENCIL`/graphics renderers in
+`onMaskReady`, and applies inversion only after that renderer is ready.
 
+The pinned module hash is
+`03CE74C888044545ECD9B37076371EABED830754D7BE0E6AFF9AEB9209BDAC65`.
 This keeps clean `npm ci` builds offline-reproducible from the attested client
 commit and avoids depending on an untracked `node_modules` state.
 
@@ -32,10 +35,9 @@ commit and avoids depending on an untracked `node_modules` state.
 ## Verification
 
 1. A contract test must fail while the project still points to the registry
-   package or applies `inverted` before renderer selection.
-2. A clean temporary `npm ci --ignore-scripts` must install the tracked package
-   and its installed module must match the tracked distributed module hash.
+   package, uses `IMAGE_STENCIL`, or omits `freeSpine`.
+2. A clean temporary `npm ci --ignore-scripts` must install the pinned package
+   and its installed module must match the pinned distributed module hash.
 3. TypeScript compilation and the focused contract test must pass.
 4. A clean Cocos Web build must produce a dependency bundle where the old
    early `inverted` sequence is absent and the deferred sequence is present.
-
