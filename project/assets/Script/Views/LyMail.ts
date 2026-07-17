@@ -29,6 +29,7 @@ export class LyMail extends ViewLayer {
     private uiPanel:fgui.GComponent
     private img_null: fgui.GImage
     private label_number: fgui.GLabel
+    private mailListLocked:boolean = false
     public onViewCreate(_params:any):void {
         AudioManager.playEFT(VarVal.AUDIO_SOURCE.EFT_COMMOM_LAYER);
         this.mails = GameServerData.getInstance().getMails()
@@ -66,14 +67,21 @@ export class LyMail extends ViewLayer {
         })
 
         btn_alldelet.onClick(()=> {
+            if (this.mailListLocked) return
+            this.mailListLocked = true
+            this.list_mails.touchable = false
             UtilsUI.lockWait()
             GameServer.getInstance().send((args: any) => {
-                UtilsUI.unlockWait()
                 if (args.errorcode == 0) {
                     this.updataMail()
                 } else {
                     UtilsUI.showMsgTip(args.errorcode)
                 }
+                UtilsUI.unlockWait()
+                this._partner.callLater(() => {
+                    this.mailListLocked = false
+                    this.list_mails.touchable = true
+                })
             } ,"quickDeleteMails", null)
         })
 
@@ -84,6 +92,11 @@ export class LyMail extends ViewLayer {
 
     private initMail(index: number, child: fgui.GComponent): void {
         let mail = this.mails[index]
+        if (!mail) {
+            child.visible = false
+            return
+        }
+        child.visible = true
         let con_read = child.getController("con_read")
         child.getChild("title_text").text = mail.title
         child.getChild("time_text").text = UtilsTool.TimeToDateStr(mail.createTime) 
@@ -103,8 +116,13 @@ export class LyMail extends ViewLayer {
     }
 
     private mailOnClick(onClickitem: fgui.GObject) {
-        let index = this.list_mails.childIndexToItemIndex(this.list_mails.getChildIndex(onClickitem))
+        if (this.mailListLocked) return
+        let childIndex = this.list_mails.getChildIndex(onClickitem)
+        if (childIndex < 0) return
+        let index = this.list_mails.childIndexToItemIndex(childIndex)
+        if (index < 0 || index >= this.mails.length) return
         let mail = this.mails[index]
+        if (!mail || mail.id == null) return
         UtilsUI.lockWait()
         GameServer.getInstance().send((args: any) => {
             UtilsUI.unlockWait()
