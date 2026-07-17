@@ -132,6 +132,26 @@ export class LyActivityShopBuy extends ViewLayer {
         
         let label_cost:fgui.GTextField = group_main.getChild("label_cost");
         let loader_icon:fgui.GLoader3D = group_main.getChild("loader_icon");
+        let dynamic_cost:fgui.GRichTextField = null;
+        if (isDynamicBazaar) {
+            dynamic_cost = new fgui.GRichTextField();
+            dynamic_cost.name = "bazaar_dynamic_cost";
+            dynamic_cost.setPosition(30, 345);
+            dynamic_cost.setSize(380, 50);
+            dynamic_cost.fontSize = 22;
+            dynamic_cost.align = fgui.AlignType.Center;
+            dynamic_cost.verticalAlign = fgui.VertAlignType.Middle;
+            dynamic_cost.ubbEnabled = true;
+            dynamic_cost.touchable = false;
+            dynamic_cost.color = label_cost.color;
+            group_main.addChild(dynamic_cost);
+            loader_icon.visible = false;
+            label_cost.visible = false;
+        }
+        let setCostText = (text:string):void => {
+            if (dynamic_cost) dynamic_cost.text = text;
+            else label_cost.text = text;
+        }
         let btn_buy:fgui.GButton = group_main.getChild("btn_buy");
         btn_buy.text = StrVal.ACTIVITY_SHOPBUY.STR5;
         if (costBonuseItem.type == VarVal.bonusType.item) {
@@ -159,7 +179,7 @@ export class LyActivityShopBuy extends ViewLayer {
                 quoteRequestSequence++;
                 quoteReady = false;
                 btn_buy.enabled = false;
-                label_cost.text = "配置已更新";
+                setCostText("配置已更新");
                 UtilsUI.showMsgTip("坊市配置已更新，请重新登录");
                 return;
             }
@@ -187,14 +207,14 @@ export class LyActivityShopBuy extends ViewLayer {
             if (currentPaymentKind == "blocked") {
                 quoteReady = false;
                 btn_buy.enabled = false;
-                label_cost.text = "不可购买";
+                setCostText("不可购买");
                 return;
             }
             if (selectedCount == lastRequestedQuoteCount) return;
             lastRequestedQuoteCount = selectedCount;
             quoteReady = false;
             btn_buy.enabled = false;
-            label_cost.text = "报价中...";
+            setCostText("报价中...");
             quoteRequestSequence++;
             let requestSequence = quoteRequestSequence;
             GameServer.getInstance().send((args:any) => {
@@ -205,10 +225,7 @@ export class LyActivityShopBuy extends ViewLayer {
                 }
                 if (args && args.errorcode == 0 && args.quote) {
                     let quote = args.quote;
-                    let moneyCost = Math.max(Math.floor(Number(quote.moneyCost) || 0), 0);
-                    let stoneCost = Math.max(Math.floor(Number(quote.stoneCost) || 0), 0);
-                    let voucherCost = Math.max(Math.floor(Number(quote.voucherCost) || 0), 0);
-                    label_cost.text = "灵石" + moneyCost + " / 玉璧" + stoneCost + " / 代金券" + voucherCost;
+                    setCostText(LyActivityShop.formatBazaarQuoteRichText(quote));
                     updateRewardCount(Number(quote.actualItems));
                     quoteReady = true;
                     btn_buy.enabled = true;

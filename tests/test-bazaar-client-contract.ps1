@@ -72,9 +72,15 @@ Assert-Match $shop 'remainingOrderItems\s*/\s*unitItemCount' "dynamic selectable
 Assert-Match $shop 'currentPaymentKind' "current payment kind is not read"
 Assert-Match $shop 'remainingOrderItems' "remaining order items are not read"
 Assert-Match $shop 'nextTierBoundary' "next tier boundary is not read"
-Assert-Match $shop '支付：' "list does not display current payment kind"
-Assert-Match $shop '剩余额度：' "list does not display remaining quota"
-Assert-Match $shop '下一阶梯：' "list does not display the next tier"
+Assert-Match $shop 'new fgui\.GRichTextField\(\)' "dynamic list price does not use rich text"
+Assert-Match $shop 'ubbEnabled\s*=\s*true' "dynamic quote icons are not enabled"
+Assert-Match $shop 'UtilsUI\.getItemIconUrl' "dynamic quote does not reuse currency icons"
+Assert-Match $shop '\[img\]' "dynamic quote does not emit icon markup"
+Assert-Match $shop 'if\s*\(value\s*>\s*0\)' "zero-cost currencies are not omitted"
+Assert-Match $shop 'label_limit\.visible\s*=\s*false' "dynamic card limit row is still visible"
+foreach ($phrase in @("支付：", "剩余额度：", "下一阶梯：")) {
+    Assert-NotMatch $shop ([regex]::Escape($phrase)) "dynamic cards still render $phrase"
+}
 Assert-Match $shop 'if\s*\(!isDynamicBazaar\)' "legacy bazaar fallback branch is missing"
 Assert-Match $shop 'mode\s*==\s*2' "legacy voucher mode is no longer supported"
 
@@ -82,7 +88,7 @@ Assert-Match $buy '"bazaarQuotePurchase"' "quantity selection does not request b
 Assert-Match $buy 'quoteRequestSequence' "quote responses are not sequenced"
 Assert-Match $buy 'requestSequence\s*!==\s*quoteRequestSequence' "stale quote responses are not ignored"
 foreach ($field in @("moneyCost", "stoneCost", "voucherCost", "actualItems")) {
-    Assert-Match $buy $field "authoritative quote field $field is not consumed"
+    Assert-Match ($shop + "`n" + $buy) $field "authoritative quote field $field is not consumed"
 }
 Assert-Match $buy 'policyVersion\s*:\s*policyVersion' "dynamic request does not carry policyVersion"
 Assert-Match $buy 'isDynamicBazaar\s*\?\s*"shopBuy"' "dynamic purchase is not routed through shopBuy"
@@ -92,6 +98,8 @@ Assert-Match $buy '坊市配置已更新，请重新登录' "version mismatch me
 Assert-Match $buy 'policyMismatchLatched' "version mismatch is not terminal for the dialog"
 Assert-Match $buy 'if \(policyMismatchLatched\) return' "stale policy continues sending quote or purchase requests"
 Assert-Match $buy 'formatBazaarError' "protocol errors are not mapped to user-facing messages"
+Assert-Match $buy 'formatBazaarQuoteRichText' "purchase quote does not share icon formatting"
+Assert-NotMatch $buy '"灵石"\s*\+\s*moneyCost' "purchase quote still spells out currencies"
 Assert-NotMatch $buy 'UtilsUI\.showMsgTip\(args\.bazaarError\)' "raw internal Bazaar error codes leak to players"
 Assert-NotMatch $buy '(?i)retryBazaar|bazaarRetry' "version mismatch must not retry"
 Assert-NotMatch $buy '\b(price|trustedPrice|clientPrice)\s*:' "purchase payload contains a client-trusted price"

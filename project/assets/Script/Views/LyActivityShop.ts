@@ -189,10 +189,7 @@ export class LyActivityShop extends ViewLayer {
             btn_buy.visible = true;
             let label_limit:fgui.GTextField = child.getChild("label_limit");
             if (shopData.isDynamicBazaar) {
-                let nextTier = shopData.nextTierBoundary > 0 ? String(shopData.nextTierBoundary) : "无";
-                label_limit.text = "支付：" + LyActivityShop.formatBazaarPaymentKind(shopData.currentPaymentKind)
-                    + "  剩余额度：" + shopData.remainingOrderItems
-                    + "  下一阶梯：" + nextTier;
+                label_limit.text = "";
                 if (shopData.currentPaymentKind == "blocked" || shopData.buy_remain <= 0) {
                     btn_buy.visible = false;
                     selIdx = 2;
@@ -213,15 +210,45 @@ export class LyActivityShop extends ViewLayer {
             let label_need:fgui.GTextField = child.getChild("label_need");
             let label_need1:fgui.GTextField = child.getChild("label_need1");
             let label_need2:fgui.GTextField = child.getChild("label_need2");
+            let icon_original = child.getChild("n7");
+            let icon_discount = child.getChild("n17");
+            let quote_field = LyActivityShop.getOrCreateBazaarQuoteField(child);
             if (shopData.isDynamicBazaar) {
-                label_need.text = LyActivityShop.formatBazaarQuote(shopData.quote);
-                label_need1.text = "";
-                label_need2.text = "";
+                label_limit.visible = false;
+                label_need.visible = false;
+                label_need1.visible = false;
+                label_need2.visible = false;
+                icon_original.visible = false;
+                icon_discount.visible = false;
+                quote_field.visible = selIdx != 2;
+                quote_field.text = LyActivityShop.formatBazaarQuoteRichText(shopData.quote);
             } else if (selIdx == 0) {
+                label_limit.visible = true;
+                label_need.visible = true;
+                label_need1.visible = true;
+                label_need2.visible = true;
+                icon_original.visible = true;
+                icon_discount.visible = true;
+                quote_field.visible = false;
                 label_need.text = String(shopData.src_price);
             } else if (selIdx == 1) {
+                label_limit.visible = true;
+                label_need.visible = true;
+                label_need1.visible = true;
+                label_need2.visible = true;
+                icon_original.visible = true;
+                icon_discount.visible = true;
+                quote_field.visible = false;
                 label_need1.text = String(shopData.src_price);
                 label_need2.text = String(shopData.dst_price);
+            } else {
+                label_limit.visible = true;
+                label_need.visible = true;
+                label_need1.visible = true;
+                label_need2.visible = true;
+                icon_original.visible = true;
+                icon_discount.visible = true;
+                quote_field.visible = false;
             }
         }
         this.onViewUpdate(null);
@@ -303,21 +330,36 @@ export class LyActivityShop extends ViewLayer {
         return true;
     }
 
-    public static formatBazaarPaymentKind(kind:string):string {
-        let paymentKind = LyActivityShop.normalizeBazaarPaymentKind(kind);
-        if (paymentKind == "original") return "原价";
-        if (paymentKind == "money") return "灵石";
-        if (paymentKind == "stone") return "玉璧";
-        if (paymentKind == "voucher") return "代金券";
-        return "不可购买";
+    private static getOrCreateBazaarQuoteField(parent:fgui.GComponent):fgui.GRichTextField {
+        let quoteField = parent.getChild("bazaar_quote") as fgui.GRichTextField;
+        if (!quoteField) {
+            quoteField = new fgui.GRichTextField();
+            quoteField.name = "bazaar_quote";
+            quoteField.setPosition(4, 181);
+            quoteField.setSize(170, 42);
+            quoteField.fontSize = 20;
+            quoteField.align = fgui.AlignType.Center;
+            quoteField.verticalAlign = fgui.VertAlignType.Middle;
+            quoteField.ubbEnabled = true;
+            quoteField.touchable = false;
+            parent.addChild(quoteField);
+        }
+        return quoteField;
     }
 
-    public static formatBazaarQuote(quote:any):string {
-        if (!quote) return "以服务端结算为准";
-        let moneyCost = Math.max(Math.floor(Number(quote.moneyCost) || 0), 0);
-        let stoneCost = Math.max(Math.floor(Number(quote.stoneCost) || 0), 0);
-        let voucherCost = Math.max(Math.floor(Number(quote.voucherCost) || 0), 0);
-        return "灵石" + moneyCost + " / 玉璧" + stoneCost + " / 代金券" + voucherCost;
+    public static formatBazaarQuoteRichText(quote:any):string {
+        if (!quote) return "报价中...";
+        let parts:Array<string> = [];
+        let addCurrency = (cost:any, type:any):void => {
+            let value = Math.max(Math.floor(Number(cost) || 0), 0);
+            if (value > 0) {
+                parts.push("[img]" + UtilsUI.getItemIconUrl(type) + "[/img]" + value);
+            }
+        }
+        addCurrency(quote.moneyCost, VarVal.bonusType.money);
+        addCurrency(quote.stoneCost, VarVal.bonusType.stone);
+        addCurrency(quote.voucherCost, VarVal.bonusType.chance);
+        return parts.length > 0 ? parts.join("  ") : "免费";
     }
 
     private static getBazaarPolicyItem(activityShop:any, id:number):any {
