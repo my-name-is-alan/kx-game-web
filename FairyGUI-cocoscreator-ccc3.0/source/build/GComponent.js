@@ -28,7 +28,8 @@ export class GComponent extends GObject {
         this._alignOffset = new Vec2();
         this._container = new Node("Container");
         this._container.layer = UIConfig.defaultUILayer;
-        this._container.addComponent(UITransform).setAnchorPoint(0, 1);
+        this._containerUITrans = this._container.addComponent(UITransform);
+        this._containerUITrans.setAnchorPoint(0, 1);
         this._node.addChild(this._container);
     }
     dispose() {
@@ -64,7 +65,7 @@ export class GComponent extends GObject {
     }
     addChildAt(child, index) {
         if (!child)
-            throw "child is null";
+            throw new Error("child is null");
         var numChildren = this._children.length;
         if (index >= 0 && index <= numChildren) {
             if (child.parent == this) {
@@ -92,7 +93,7 @@ export class GComponent extends GObject {
             return child;
         }
         else {
-            throw "Invalid child index";
+            throw new Error("Invalid child index");
         }
     }
     getInsertPosForSortingChild(target) {
@@ -133,7 +134,7 @@ export class GComponent extends GObject {
             return child;
         }
         else {
-            throw "Invalid child index";
+            throw new Error("Invalid child index");
         }
     }
     removeChildren(beginIndex, endIndex, dispose) {
@@ -150,7 +151,7 @@ export class GComponent extends GObject {
         if (index >= 0 && index < this.numChildren)
             return this._children[index];
         else
-            throw "Invalid child index";
+            throw new Error("Invalid child index");
     }
     getChild(name, classType) {
         var cnt = this._children.length;
@@ -212,7 +213,7 @@ export class GComponent extends GObject {
     setChildIndex(child, index) {
         var oldIndex = this._children.indexOf(child);
         if (oldIndex == -1)
-            throw "Not a child of this container";
+            throw new Error("Not a child of this container");
         if (child.sortingOrder != 0) //no effect
             return;
         var cnt = this._children.length;
@@ -225,7 +226,7 @@ export class GComponent extends GObject {
     setChildIndexBefore(child, index) {
         var oldIndex = this._children.indexOf(child);
         if (oldIndex == -1)
-            throw "Not a child of this container";
+            throw new Error("Not a child of this container");
         if (child.sortingOrder != 0) //no effect
             return oldIndex;
         var cnt = this._children.length;
@@ -259,7 +260,7 @@ export class GComponent extends GObject {
         var index1 = this._children.indexOf(child1);
         var index2 = this._children.indexOf(child2);
         if (index1 == -1 || index2 == -1)
-            throw "Not a child of this container";
+            throw new Error("Not a child of this container");
         this.swapChildrenAt(index1, index2);
     }
     swapChildrenAt(index1, index2) {
@@ -302,7 +303,7 @@ export class GComponent extends GObject {
     removeController(c) {
         var index = this._controllers.indexOf(c);
         if (index == -1)
-            throw "controller not exists";
+            throw new Error("controller not exists");
         c.parent = null;
         this._controllers.splice(index, 1);
         var length = this._children.length;
@@ -599,7 +600,7 @@ export class GComponent extends GObject {
         if (this._scrollPane)
             this._scrollPane.onOwnerSizeChanged();
         else
-            this._container._uiProps.uiTransformComp.setContentSize(this.viewWidth, this.viewHeight);
+            this._containerUITrans.setContentSize(this.viewWidth, this.viewHeight);
     }
     handleGrayedChanged() {
         var c = this.getController("grayed");
@@ -634,7 +635,7 @@ export class GComponent extends GObject {
             s_vec2.set(pt);
             s_vec2.x += this._container.position.x;
             s_vec2.y += this._container.position.y;
-            let clippingSize = this._container._uiProps.uiTransformComp.contentSize;
+            let clippingSize = this._containerUITrans.contentSize;
             if (s_vec2.x < 0 || s_vec2.y < 0 || s_vec2.x >= clippingSize.width || s_vec2.y >= clippingSize.height)
                 return null;
         }

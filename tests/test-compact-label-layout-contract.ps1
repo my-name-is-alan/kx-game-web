@@ -22,8 +22,8 @@ if ($refreshSource -match 'label_level\.text\s*=\s*petBuffLevel\(') {
     throw 'The compact passive-skill level badge must not append the global maximum.'
 }
 
-if ($veinSource -notmatch 'btn_back\.text\s*=\s*""') {
-    throw 'The cultivation back button must explicitly suppress its package title.'
+if ($veinSource -match 'btn_back\.text\s*=') {
+    throw 'The cultivation view must keep the package-authored back-button title instead of overriding it at runtime.'
 }
 
 Write-Output 'Compact label layout contract passed.'

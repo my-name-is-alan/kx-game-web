@@ -37,7 +37,6 @@ import { LyItemPetTips } from "../Views/LyItemPetTips";
 import { PointRedData, PointRedType } from "./PointRedData";
 import { LyItemRewardForge } from "../Views/LyItemRewardForge";
 import { LyPetBuffTips } from "../Views/LyPetBuffTips";
-import { petBuffLevel } from "../Views/PetTransferDisplay";
 import { LyEquipTips } from "../Views/LyEquipTips";
 import { LyPayRecharge } from "../Views/LyPayRecharge";
 import { FmDropItemTo, FmJumpItemTo } from "../Views/FmDropItemTo";
@@ -2190,7 +2189,7 @@ export class UtilsUI {
         } 
         title.strokeColor = colorStr
         title.text = buff.buffName
-        label_level.text = petBuffLevel(buffData.buffLevel)
+        label_level.text = String(buffData.buffLevel)
         img_quality.url = UtilsTool.stringFormat("ui://CCommon/frame_fangkuaidi{0}", [buff.buffQuality]);
         let group_level: fgui.GGraph = group_buff.getChild("group_level")
         group_level.visible = true

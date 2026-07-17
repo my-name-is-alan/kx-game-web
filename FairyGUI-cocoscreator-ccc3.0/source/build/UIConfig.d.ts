@@ -20,6 +20,7 @@ export declare class UIConfig {
     static tooltipsWin: string;
     static defaultComboBoxVisibleItemCount: number;
     static touchScrollSensitivity: number;
+    static loaderAssetsBundleName: string;
     static touchDragSensitivity: number;
     static clickDragSensitivity: number;
     static bringWindowToFrontOnClick: boolean;

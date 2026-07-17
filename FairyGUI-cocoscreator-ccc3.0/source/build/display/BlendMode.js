@@ -1,4 +1,6 @@
-import { gfx, RenderComponent } from "cc";
+// The Cocos 3.8 runtime exports UIRenderer, while the bundled editor declaration omits it.
+// @ts-ignore
+import { gfx, UIRenderer } from "cc";
 export var BlendMode;
 (function (BlendMode) {
     BlendMode[BlendMode["Normal"] = 0] = "Normal";
@@ -17,7 +19,7 @@ export var BlendMode;
 export class BlendModeUtils {
     static apply(node, blendMode) {
         let f = factors[blendMode];
-        let renderers = node.getComponentsInChildren(RenderComponent);
+        let renderers = node.getComponentsInChildren(UIRenderer);
         renderers.forEach(element => {
             element.srcBlendFactor = f[0];
             element.dstBlendFactor = f[1];

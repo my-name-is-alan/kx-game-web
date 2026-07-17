@@ -33,11 +33,14 @@ foreach ($name in $viewFiles) {
         $text -match 'devourLevel\s*%\s*5') {
         throw "$name still calculates unbounded star resources directly"
     }
+    if ($text -match 'petTransferProgress\(') {
+        throw "$name injects extended transfer progress into a compact label"
+    }
 }
 
 $allViews = ($viewFiles | ForEach-Object { Get-Content -Raw (Join-Path $viewsRoot $_) }) -join "`n"
-if ($allViews -match 'petTransferProgress\(' -or $allViews -match 'petBuffLevel\(') {
-    throw "compact companion labels must not render extended progress or maximum text"
+if ($allViews -match 'petBuffLevel\(') {
+    throw "compact passive badges must not render the extended /999 formatter"
 }
 
 $tips = Get-Content -Raw (Join-Path $viewsRoot "LyPetBuffTips.ts")
@@ -46,8 +49,8 @@ if ($tips -notmatch 'petBuffValue\(' -or $tips -match 'buffParams\[buffData\.buf
 }
 
 $utilsUI = Get-Content -Raw (Join-Path $root "project/assets/Script/Kernel/UtilsUI.ts")
-if ($utilsUI -notmatch 'petBuffLevel\(buffData\.buffLevel\)') {
-    throw "shared pet passive renderer does not display the 999 level limit"
+if ($utilsUI -match 'petBuffLevel\(' -or $utilsUI -notmatch 'String\(buffData\.buffLevel\)') {
+    throw "shared pet passive renderer must keep the original compact numeric level"
 }
 
 $devour = Get-Content -Raw (Join-Path $viewsRoot "LyPetDevourpet.ts")

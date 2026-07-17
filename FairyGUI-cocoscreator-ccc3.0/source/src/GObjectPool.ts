@@ -56,7 +56,6 @@ export class GObjectPool {
         arr.push(obj);
     }
 
-    /** Iterate objects currently hidden in the pool without removing them. */
     public scanAll(callback: (obj: GObject) => void): void {
         if (!callback)
             return;

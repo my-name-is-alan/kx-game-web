@@ -43,7 +43,6 @@ export class GObjectPool {
         this._count++;
         arr.push(obj);
     }
-    /** Iterate objects currently hidden in the pool without removing them. */
     scanAll(callback) {
         if (!callback)
             return;

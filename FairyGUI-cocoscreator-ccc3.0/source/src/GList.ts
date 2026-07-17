@@ -853,7 +853,7 @@ export class GList extends GComponent {
             this.checkVirtualList();
 
             if (index >= this._virtualItems.length)
-                throw "Invalid child index: " + index + ">" + this._virtualItems.length;
+                throw new Error("Invalid child index: " + index + ">" + this._virtualItems.length);
 
             if (this._loop)
                 index = Math.floor(this._firstIndex / this._numItems) * this._numItems + index;
@@ -960,11 +960,11 @@ export class GList extends GComponent {
     private _setVirtual(loop: boolean): void {
         if (!this._virtual) {
             if (!this._scrollPane)
-                throw "Virtual list must be scrollable!";
+                throw new Error("Virtual list must be scrollable!");
 
             if (loop) {
                 if (this._layout == ListLayoutType.FlowHorizontal || this._layout == ListLayoutType.FlowVertical)
-                    throw "Loop list is not supported for FlowHorizontal or FlowVertical layout!";
+                    throw new Error("Loop list is not supported for FlowHorizontal or FlowVertical layout!");
 
                 this._scrollPane.bouncebackEffect = false;
             }
@@ -978,7 +978,7 @@ export class GList extends GComponent {
                 this._itemSize = new Size(0, 0);
                 var obj: GObject = this.getFromPool(null);
                 if (!obj) {
-                    throw "Virtual List must have a default list item resource.";
+                    throw new Error("Virtual List must have a default list item resource.");
                 }
                 else {
                     this._itemSize.width = obj.width;
@@ -1018,7 +1018,7 @@ export class GList extends GComponent {
     public set numItems(value: number) {
         if (this._virtual) {
             if (this.itemRenderer == null)
-                throw "Set itemRenderer first!";
+                throw new Error("Set itemRenderer first!");
 
             this._numItems = value;
             if (this._loop)

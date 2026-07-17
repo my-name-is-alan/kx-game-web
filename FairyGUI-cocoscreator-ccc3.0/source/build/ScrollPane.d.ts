@@ -8,6 +8,7 @@ export declare class ScrollPane extends Component {
     private _owner;
     private _container;
     private _maskContainer;
+    private _maskContainerUITrans;
     private _scrollType;
     private _scrollStep;
     private _mouseWheelStep;

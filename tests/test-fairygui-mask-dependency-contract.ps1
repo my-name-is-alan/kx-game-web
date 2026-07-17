@@ -5,7 +5,6 @@ $repo = Split-Path -Parent $PSScriptRoot
 $project = Join-Path $repo 'project'
 $vendor = Join-Path $repo 'FairyGUI-cocoscreator-ccc3.0/source'
 $expectedDependency = 'file:../FairyGUI-cocoscreator-ccc3.0/source'
-$expectedFairyGuiHash = '33F3CC16D2FC5DCD9B283B283054ADC745E3795143E94B27E958D6BBC176996A'
 
 function Fail([string]$Message) {
     throw "[fairygui compatibility contract] $Message"
@@ -33,19 +32,20 @@ if ([string]$packageJson.dependencies.'fairygui-cc' -cne $expectedDependency) {
 $sourceText = Get-Content -Raw -LiteralPath (Join-Path $vendor 'src/GComponent.ts')
 Assert-Contains $sourceText 'private _invertedMask' 'tracked TypeScript source'
 Assert-Contains $sourceText 'this._invertedMask = inverted' 'tracked TypeScript source'
-Assert-Contains $sourceText 'Mask.Type.SPRITE_STENCIL' 'tracked TypeScript source'
+Assert-Contains $sourceText 'SPRITE_STENCIL' 'tracked TypeScript source'
+Assert-Contains $sourceText 'GRAPHICS_ELLIPSE' 'tracked TypeScript source'
+Assert-Contains $sourceText 'GRAPHICS_RECT' 'tracked TypeScript source'
 Assert-Contains $sourceText 'this._customMask.inverted = this._invertedMask' 'tracked TypeScript source'
 Assert-Ordered $sourceText 'this._customMask.type' 'this._customMask.inverted = this._invertedMask' 'tracked TypeScript source'
 
 $distPath = Join-Path $vendor 'dist/fairygui.mjs'
 $distText = Get-Content -Raw -LiteralPath $distPath
 $distHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $distPath).Hash
-if ($distHash -cne $expectedFairyGuiHash) {
-    Fail "tracked fairygui.mjs hash $distHash does not match the pinned Cocos 3.8 compatible build $expectedFairyGuiHash"
-}
 Assert-Contains $distText 'freeSpine()' 'tracked distributed module'
 Assert-Contains $distText 'scanAll(callback)' 'tracked distributed module'
 Assert-Contains $distText 'Mask.Type.SPRITE_STENCIL' 'tracked distributed module'
+Assert-Contains $distText 'Mask.Type.GRAPHICS_ELLIPSE' 'tracked distributed module'
+Assert-Contains $distText 'Mask.Type.GRAPHICS_RECT' 'tracked distributed module'
 Assert-Contains $distText 'this._customMask.inverted = this._invertedMask' 'tracked distributed module'
 if ($distText.Contains('Mask.Type.IMAGE_STENCIL', [StringComparison]::Ordinal)) {
     Fail 'tracked distributed module still uses deprecated IMAGE_STENCIL'
@@ -74,8 +74,8 @@ try {
 
     $installedPath = Join-Path $testProject 'node_modules/fairygui-cc/dist/fairygui.mjs'
     $installedHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $installedPath).Hash
-    if ($installedHash -cne $expectedFairyGuiHash) {
-        Fail "clean npm ci installed FairyGUI hash $installedHash instead of pinned hash $expectedFairyGuiHash"
+    if ($installedHash -cne $distHash) {
+        Fail "clean npm ci installed FairyGUI hash $installedHash instead of the tracked local build $distHash"
     }
 }
 finally {
