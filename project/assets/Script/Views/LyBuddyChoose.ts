@@ -17,7 +17,7 @@ import { Color, color, math } from "cc";
 import { GameServer } from "../Kernel/GameServer";
 import { GuideManager } from "../Kernel/GuideManager";
 import { LocaleUser } from "../Kernel/LocaleUser";
-import { applyPetTransferStars, petTransferProgress } from "./PetTransferDisplay";
+import { applyPetTransferStars } from "./PetTransferDisplay";
 
 export class LyBuddyChoose extends ViewLayer {
     public constructor() {
@@ -167,7 +167,6 @@ export class LyBuddyChoose extends ViewLayer {
                      starArr.push(starItem)
                  }
                  applyPetTransferStars(starArr, petData.own.devourLevel)
-                 label_speed.text += "  " + petTransferProgress(petData.own.devourLevel)
                  group_noOwn.visible = false
                  img_up.visible = petData.isUp
                  if (petData.isUp) {

@@ -106,7 +106,9 @@ export class LyVein extends ViewLayer {
     ]
     public onViewCreate(_params:any): void {
         AudioManager.playEFT(VarVal.AUDIO_SOURCE.EFT_COMMOM_LAYER);
-        this.getUiPanel().getChild("btn_back", fgui.GButton).onClick(()=>{
+        const btn_back = this.getUiPanel().getChild("btn_back", fgui.GButton)
+        btn_back.text = ""
+        btn_back.onClick(()=>{
             ViewDispatcher.pushViewEvent(null, ViewDispatcher.EVENT_DESTROY, LyVein, 0, null)
         });
         ViewDispatcher.pushViewEvent(null, ViewDispatcher.EVENT_UPDATE, LyMainPage, 0, {berakVeinAuto: true})

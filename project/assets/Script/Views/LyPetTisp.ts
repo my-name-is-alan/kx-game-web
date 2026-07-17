@@ -13,7 +13,7 @@ import { StrVal } from "../Values/StrVal";
 import { LocaleData } from "../Kernel/LocaleData";
 import { VarVal } from "../Values/VarVal";
 import { SpinePlayer } from "../Kernel/SpinePlayer";
-import { applyPetTransferStars, petTransferProgress } from "./PetTransferDisplay";
+import { applyPetTransferStars } from "./PetTransferDisplay";
 
 export class LyPetTisp extends ViewLayer {
     public constructor() {
@@ -40,10 +40,6 @@ export class LyPetTisp extends ViewLayer {
         }, loader_spine, pet.modelId);
         let label_petName: fgui.GTextField = this.uiPanel.getChild("label_petName")
         label_petName.text = UtilsTool.stringFormat("[color={0}]{1}[/color]", [this.onColor(pet.quality), pet.name])
-        if (_params.type == 2) {
-            label_petName.text += "  " + petTransferProgress(_params.oldPet.devourLevel)
-                + " → " + petTransferProgress(_params.pet.devourLevel)
-        }
         let list_buff: fgui.GList = this.uiPanel.getChild("list_buff")
 
         list_buff.itemRenderer = ((index: number, obj: fgui.GComponent) => {

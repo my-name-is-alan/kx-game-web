@@ -29,7 +29,7 @@ import { AudioManager } from "../Kernel/AudioManager";
 import { LyPayExquisite, PayExquisitePage } from "./LyPayExquisite";
 import { LyPetRecruitpet } from "./LyPetRecruitpet";
 import { LyPayUniteWeekCard } from "./LyPayUniteWeekCard";
-import { applyPetTransferStars, petTransferProgress } from "./PetTransferDisplay";
+import { applyPetTransferStars } from "./PetTransferDisplay";
 
 export class LyPet extends ViewLayer {
     public constructor() {
@@ -725,7 +725,6 @@ export class LyPet extends ViewLayer {
             } else {
                 label_petLevel.text = UtilsTool.stringFormat(StrVal.LYPET.STR9, [petData.level])
             }
-            label_petLevel.text += "  " + petTransferProgress(petData.devourLevel)
             let label_petAttr1: fgui.GLabel = this.uiPanel.getChild("label_petAttr1")
             label_petAttr1.text = UtilsTool.stringFormat(StrVal.LYPET.STR1, [petData.healthPercentage])
             let label_petAttr2: fgui.GLabel = this.uiPanel.getChild("label_petAttr2")
@@ -898,7 +897,6 @@ export class LyPet extends ViewLayer {
 
                 obj.getChild("group_isLock").visible = val.isLock == 1
                 obj.getChild("label_level").text = UtilsTool.stringFormat(StrVal.LYPET.STR9, [val.level])
-                    + "  " + petTransferProgress(val.devourLevel)
                 let img_icon: fgui.GLoader = obj.getChild("img_icon")
                 let pet = LocaleData.getPetProto(val.protoId)
                 let showInfo = LocaleData.getModelShowInfo(String(pet.modelId));

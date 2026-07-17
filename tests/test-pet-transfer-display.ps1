@@ -33,14 +33,11 @@ foreach ($name in $viewFiles) {
         $text -match 'devourLevel\s*%\s*5') {
         throw "$name still calculates unbounded star resources directly"
     }
-    if ($text -notmatch 'petTransferProgress\(') {
-        throw "$name does not display the exact extended transfer progress"
-    }
 }
 
 $allViews = ($viewFiles | ForEach-Object { Get-Content -Raw (Join-Path $viewsRoot $_) }) -join "`n"
-if ($allViews -notmatch 'petBuffLevel\(') {
-    throw "extended passive levels are not displayed through the bounded formatter"
+if ($allViews -match 'petTransferProgress\(' -or $allViews -match 'petBuffLevel\(') {
+    throw "compact companion labels must not render extended progress or maximum text"
 }
 
 $tips = Get-Content -Raw (Join-Path $viewsRoot "LyPetBuffTips.ts")

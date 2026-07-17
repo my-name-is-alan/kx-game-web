@@ -7,7 +7,7 @@
 import * as fgui from "fairygui-cc";
 import { ViewLayer } from "../Kernel/ViewLayer";
 import { UtilsTool } from "../Kernel/UtilsTool";
-import { applyPetTransferStars, petBuffLevel, petTransferProgress } from "./PetTransferDisplay";
+import { applyPetTransferStars } from "./PetTransferDisplay";
 import { GameServer } from "../Kernel/GameServer";
 import { UtilsUI } from "../Kernel/UtilsUI";
 import { ViewDispatcher } from "../Kernel/ViewDispatcher";
@@ -56,7 +56,6 @@ export class LyPetRefreshBuff extends ViewLayer {
 
         this.initialize()
         this.uiPanel.getChild("label_str129").text = StrVal.LYPET.STR129
-            + "  " + petTransferProgress(this.petProto.devourLevel)
         let pet = LocaleData.getPetProto(this.petProto.protoId)
         new SpinePlayer().loadSpineByModelId((spp: SpinePlayer) => {
             spp.playAnimation(VarVal.SPINE_ANI_NAME.stand, true);
@@ -260,7 +259,7 @@ export class LyPetRefreshBuff extends ViewLayer {
 
             title.strokeColor = colorStr
             title.text = buff.buffName
-            label_level.text = petBuffLevel(item1.buffLevel)
+            label_level.text = String(item1.buffLevel)
             img_quality.url = UtilsTool.stringFormat("ui://CCommon/frame_fangkuaidi{0}", [buff.buffQuality]);
             let group_level: fgui.GGraph = group_buff.getChild("group_level")
             group_level.visible = true

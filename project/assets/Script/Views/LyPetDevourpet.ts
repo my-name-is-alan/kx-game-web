@@ -17,7 +17,7 @@ import { LyPet } from "./LyPet";
 import { LyPetTisp } from "./LyPetTisp";
 import { VarVal } from "../Values/VarVal";
 import { SpinePlayer } from "../Kernel/SpinePlayer";
-import { applyPetTransferStars, PET_TRANSFER_MAX, petTransferProgress } from "./PetTransferDisplay";
+import { applyPetTransferStars, PET_TRANSFER_MAX } from "./PetTransferDisplay";
 
 export class LyPetDevourpet extends ViewLayer {
     public constructor() {
@@ -71,7 +71,6 @@ export class LyPetDevourpet extends ViewLayer {
         let group_devourerPet: fgui.GComponent = this.group_select1.getChild("group_devourerPet")
         group_devourerPet.getChild("label_name").text = petInfo.name
         group_devourerPet.getChild("label_level").text = UtilsTool.stringFormat(StrVal.LYPET.STR9, [this.devourerPet.level])
-            + "  " + petTransferProgress(this.devourerPet.devourLevel)
 
         let petProto: any = LocaleData.getPetProto(this.devourerPet.protoId)
         LyPetDevourpet.onPetGroup(group_devourerPet, this.devourerPet)
@@ -98,7 +97,6 @@ export class LyPetDevourpet extends ViewLayer {
         list_preyPet.itemRenderer = ((index: number, obj: fgui.GComponent) => {
             obj.getChild("label_name").text = samePet[index].proto.name
             obj.getChild("label_level").text = UtilsTool.stringFormat(StrVal.LYPET.STR9, [samePet[index].level])
-                + "  " + petTransferProgress(samePet[index].devourLevel)
             obj.getChild("img_lock").visible = samePet[index].isLock == 1
 
             obj.getChild("img_quality", fgui.GLoader).url = UtilsTool.stringFormat("ui://LyPet/frame{0}", [samePet[index].proto.quality]);
@@ -243,7 +241,6 @@ export class LyPetDevourpet extends ViewLayer {
 
         this.group_preyPet.getChild("label_name").text = petInfo.name
         this.group_preyPet.getChild("label_level").text = UtilsTool.stringFormat(StrVal.LYPET.STR9, [preyPet.level])
-            + "  " + petTransferProgress(preyPet.devourLevel)
         let petProto1: any = LocaleData.getPetProto(preyPet.protoId)
         this.group_preyPet.getChild("img_quality", fgui.GLoader).url = UtilsTool.stringFormat("ui://LyPet/frame{0}", [petProto1.quality]);
 
@@ -259,7 +256,6 @@ export class LyPetDevourpet extends ViewLayer {
             Math.max(0, Number(this.devourerPet.devourLevel) || 0)
             + Math.max(0, Number(preyPet.devourLevel) || 0) + 1)
         label_addLevel.text = UtilsTool.stringFormat(StrVal.LYPET.STR107, [devourLevel])
-            + "  " + petTransferProgress(devourLevel)
 
         let label_petAttr1: fgui.GLabel = this.group_select1.getChild("label_petAttr1")
         label_petAttr1.text = UtilsTool.stringFormat(StrVal.LYPET.STR1, [devourLevel * Number(qualityArr[2])])
