@@ -300,7 +300,9 @@ export class ViewDispatcher {
         } else if (obj instanceof fgui.GLoader3D) {
             if (obj.content && refSpine) {
                 let skeletonData = (<sp.Skeleton>obj.content).skeletonData;
-                refSpine[skeletonData.uuid] = skeletonData;
+                if (skeletonData && skeletonData.uuid) {
+                    refSpine[skeletonData.uuid] = skeletonData;
+                }
             }
         } else if (obj instanceof fgui.GList) { // 对象池里会隐藏。
             ViewDispatcher.viewCollectFguiTexUsed(obj, ref, refSpine);
