@@ -16,6 +16,7 @@ import { UtilsTool } from "../Kernel/UtilsTool";
 import { GameServer } from "../Kernel/GameServer";
 import { LocaleData } from "../Kernel/LocaleData";
 import { LyActivityShop } from "./LyActivityShop";
+import { Color, EditBox, HorizontalTextAlignment, VerticalTextAlignment } from "cc";
 
 export interface ShopBuy {
     costBonuseItem:BonuseItem,
@@ -129,6 +130,68 @@ export class LyActivityShopBuy extends ViewLayer {
         let label_num:fgui.GTextField = group_main.getChild("label_num");
         let slider_count:fgui.GSlider = group_main.getChild("slider_count");
         let btn_add:fgui.GButton = group_main.getChild("btn_add");
+        let quantityInput:fgui.GTextInput = null;
+        let btn_max:fgui.GGraph = null;
+        let syncingQuantityInput:boolean = false;
+        if (isDynamicBazaar) {
+            let rowX = label_num.x + label_num.width / 2 - 115;
+            let rowY = label_num.y;
+            let rowHeight = Math.max(label_num.height, 36);
+            label_num.visible = false;
+
+            let quantityTitle = new fgui.GTextField();
+            quantityTitle.name = "bazaar_count_title";
+            quantityTitle.text = "数量：";
+            quantityTitle.setPosition(rowX, rowY);
+            quantityTitle.setSize(70, rowHeight);
+            quantityTitle.fontSize = label_num.fontSize;
+            quantityTitle.color = label_num.color;
+            quantityTitle.align = HorizontalTextAlignment.RIGHT;
+            quantityTitle.verticalAlign = VerticalTextAlignment.CENTER;
+            quantityTitle.touchable = false;
+            group_main.addChild(quantityTitle);
+
+            let quantityInputBackground = new fgui.GGraph();
+            quantityInputBackground.name = "bazaar_count_input_background";
+            quantityInputBackground.setPosition(rowX + 75, rowY);
+            quantityInputBackground.setSize(90, rowHeight);
+            quantityInputBackground.drawRect(1, new Color(126, 78, 42, 255), new Color(255, 248, 220, 255), [5]);
+            quantityInputBackground.touchable = false;
+            group_main.addChild(quantityInputBackground);
+
+            quantityInput = new fgui.GTextInput();
+            quantityInput.name = "bazaar_count_input";
+            quantityInput.setPosition(rowX + 75, rowY);
+            quantityInput.setSize(90, rowHeight);
+            quantityInput.fontSize = label_num.fontSize;
+            quantityInput.color = new Color(90, 52, 30, 255);
+            quantityInput.align = HorizontalTextAlignment.CENTER;
+            quantityInput.verticalAlign = VerticalTextAlignment.CENTER;
+            quantityInput.singleLine = true;
+            quantityInput.maxLength = 10;
+            quantityInput._editBox.inputMode = EditBox.InputMode.NUMERIC;
+            group_main.addChild(quantityInput);
+
+            btn_max = new fgui.GGraph();
+            btn_max.name = "bazaar_btn_max";
+            btn_max.setPosition(rowX + 175, rowY);
+            btn_max.setSize(55, rowHeight);
+            btn_max.drawRect(1, new Color(151, 84, 36, 255), new Color(210, 137, 55, 255), [5]);
+            btn_max.touchable = true;
+            group_main.addChild(btn_max);
+
+            let labelMax = new fgui.GTextField();
+            labelMax.name = "bazaar_label_max";
+            labelMax.text = "最大";
+            labelMax.setPosition(rowX + 175, rowY);
+            labelMax.setSize(55, rowHeight);
+            labelMax.fontSize = Math.max(label_num.fontSize - 2, 16);
+            labelMax.color = new Color(255, 255, 255, 255);
+            labelMax.align = HorizontalTextAlignment.CENTER;
+            labelMax.verticalAlign = VerticalTextAlignment.CENTER;
+            labelMax.touchable = false;
+            group_main.addChild(labelMax);
+        }
         
         let label_cost:fgui.GTextField = group_main.getChild("label_cost");
         let loader_icon:fgui.GLoader3D = group_main.getChild("loader_icon");
@@ -139,8 +202,8 @@ export class LyActivityShopBuy extends ViewLayer {
             dynamic_cost.setPosition(30, 345);
             dynamic_cost.setSize(380, 50);
             dynamic_cost.fontSize = 22;
-            dynamic_cost.align = fgui.AlignType.Center;
-            dynamic_cost.verticalAlign = fgui.VertAlignType.Middle;
+            dynamic_cost.align = HorizontalTextAlignment.CENTER;
+            dynamic_cost.verticalAlign = VerticalTextAlignment.CENTER;
             dynamic_cost.ubbEnabled = true;
             dynamic_cost.touchable = false;
             dynamic_cost.color = label_cost.color;
@@ -148,9 +211,13 @@ export class LyActivityShopBuy extends ViewLayer {
             loader_icon.visible = false;
             label_cost.visible = false;
         }
-        let setCostText = (text:string):void => {
-            if (dynamic_cost) dynamic_cost.text = text;
-            else label_cost.text = text;
+        let setCostText = (text:string, isEnough:boolean = true):void => {
+            if (dynamic_cost) {
+                dynamic_cost.text = text;
+                dynamic_cost.color = isEnough ? label_cost.color : UtilsUI.getEnoughColor(false);
+            } else {
+                label_cost.text = text;
+            }
         }
         let btn_buy:fgui.GButton = group_main.getChild("btn_buy");
         btn_buy.text = StrVal.ACTIVITY_SHOPBUY.STR5;
@@ -225,10 +292,17 @@ export class LyActivityShopBuy extends ViewLayer {
                 }
                 if (args && args.errorcode == 0 && args.quote) {
                     let quote = args.quote;
-                    setCostText(LyActivityShop.formatBazaarQuoteRichText(quote));
+                    let affordability = getBazaarQuoteAffordability(quote, {
+                        money:Number(GameServerData.getInstance().getValueTypeCount(VarVal.bonusType.money)) || 0,
+                        stone:Number(GameServerData.getInstance().getValueTypeCount(VarVal.bonusType.stone)) || 0,
+                        voucher:Number(GameServerData.getInstance().getValueTypeCount(VarVal.bonusType.chance)) || 0,
+                    });
+                    let quoteText = LyActivityShop.formatBazaarQuoteRichText(quote);
+                    if (!affordability.affordable) quoteText += "  货币不足";
+                    setCostText(quoteText, affordability.affordable);
                     updateRewardCount(Number(quote.actualItems));
-                    quoteReady = true;
-                    btn_buy.enabled = true;
+                    quoteReady = affordability.affordable;
+                    btn_buy.enabled = affordability.affordable;
                 } else {
                     showBazaarRequestError(args);
                 }
@@ -239,8 +313,20 @@ export class LyActivityShopBuy extends ViewLayer {
             });
         }
 
+        let syncQuantityInput = (count:number):void => {
+            if (!quantityInput) return;
+            let text = String(count);
+            if (quantityInput.text == text) return;
+            syncingQuantityInput = true;
+            quantityInput.text = text;
+            syncingQuantityInput = false;
+        }
+
         let onValueChange:Function = () => {
-            if (slider_count.value <= 0) {
+            if (isDynamicBazaar) {
+                slider_count.value = normalizeBazaarPurchaseCount(slider_count.value, slider_maxvalue);
+                syncQuantityInput(slider_count.value);
+            } else if (slider_count.value <= 0) {
                 slider_count.value = 1;
             }
             let unitItemCount = isDynamicBazaar ? Number(shopData.unitItemCount) : Number(bonuseItem.count);
@@ -255,19 +341,54 @@ export class LyActivityShopBuy extends ViewLayer {
                 label_cost.color = UtilsUI.getEnoughColor(need > 0 ? (curr_coin >= need) : true)
             }
         }
+
+        let applySelectedCount = (rawValue:any):void => {
+            let count = normalizeBazaarPurchaseCount(rawValue, slider_maxvalue);
+            slider_count.value = count;
+            syncQuantityInput(count);
+            onValueChange();
+        }
+
         slider_count.on(fgui.Event.STATUS_CHANGED, onValueChange);
         btn_sub.onClick(() => {
             if (slider_count.value > 1) {
-                slider_count.value = slider_count.value - 1;
-                onValueChange();
+                applySelectedCount(slider_count.value - 1);
             }
         })
         btn_add.onClick(() => {
             if (slider_count.value < slider_maxvalue) {
-                slider_count.value = slider_count.value + 1;
-                onValueChange();
+                applySelectedCount(slider_count.value + 1);
             }
         })
+        if (quantityInput) {
+            quantityInput.on(fgui.Event.TEXT_CHANGE, () => {
+                if (syncingQuantityInput) return;
+                let rawValue = String(quantityInput.text || "").trim();
+                let digits = rawValue.replace(/\D/g, "");
+                if (digits != rawValue) {
+                    syncingQuantityInput = true;
+                    quantityInput.text = digits;
+                    syncingQuantityInput = false;
+                }
+                if (digits.length == 0) {
+                    quoteRequestSequence++;
+                    lastRequestedQuoteCount = -1;
+                    quoteReady = false;
+                    btn_buy.enabled = false;
+                    setCostText("请输入数量");
+                    return;
+                }
+                applySelectedCount(digits);
+            });
+            quantityInput.on(fgui.Event.Submit, () => {
+                applySelectedCount(quantityInput.text);
+            });
+        }
+        if (btn_max) {
+            btn_max.onClick(() => {
+                applySelectedCount(slider_maxvalue);
+            });
+        }
 
         // 初始化当前购买数量
         if (isDynamicBazaar) {
@@ -280,6 +401,9 @@ export class LyActivityShopBuy extends ViewLayer {
         slider_maxvalue = Math.min(slider_maxvalue, params.maxCount);
         slider_count.max = slider_maxvalue;
         slider_count.value = 1;
+        if (quantityInput) {
+            quantityInput.maxLength = Math.max(String(slider_maxvalue).length, 1);
+        }
         onValueChange();
 
         btn_buy.onClick(() => {
@@ -340,4 +464,40 @@ function formatBazaarError(args:any):string | number {
     let code = args && typeof args.bazaarError == "string" ? args.bazaarError : "";
     return BAZAAR_ERROR_MESSAGES[code]
         || (args && Number.isFinite(Number(args.errorcode)) ? Number(args.errorcode) : -1);
+}
+
+export interface BazaarQuoteBalances {
+    money:number,
+    stone:number,
+    voucher:number,
+}
+
+export interface BazaarQuoteAffordability {
+    affordable:boolean,
+    insufficientKinds:string[],
+}
+
+export function getBazaarQuoteAffordability(quote:any, balances:BazaarQuoteBalances):BazaarQuoteAffordability {
+    let insufficientKinds:string[] = [];
+    let valid = quote != null;
+    let compare = (kind:string, rawCost:any, rawBalance:any):void => {
+        let cost = Number(rawCost || 0);
+        let balance = Number(rawBalance || 0);
+        if (!Number.isFinite(cost) || cost < 0 || !Number.isFinite(balance)) {
+            valid = false;
+        } else if (cost > balance) {
+            insufficientKinds.push(kind);
+        }
+    };
+    compare("money", quote && quote.moneyCost, balances.money);
+    compare("stone", quote && quote.stoneCost, balances.stone);
+    compare("voucher", quote && quote.voucherCost, balances.voucher);
+    return { affordable:valid && insufficientKinds.length == 0, insufficientKinds:insufficientKinds };
+}
+
+export function normalizeBazaarPurchaseCount(value:any, maxCount:any):number {
+    let normalizedMaxCount = Math.max(Math.floor(Number(maxCount) || 0), 1);
+    let count = Math.floor(Number(value));
+    if (!Number.isFinite(count) || count < 1) count = 1;
+    return Math.min(count, normalizedMaxCount);
 }
