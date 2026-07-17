@@ -41,4 +41,13 @@ export class GObjectPool {
         this._count++;
         arr.push(obj);
     }
+    scanAll(callback) {
+        if (!callback)
+            return;
+        for (var url in this._pool) {
+            var arr = this._pool[url];
+            for (var i = 0; i < arr.length; i++)
+                callback(arr[i]);
+        }
+    }
 }

@@ -1712,6 +1712,7 @@ declare module 'fairygui-cc/GObjectPool' {
         get count(): number;
         getObject(url: string): GObject;
         returnObject(obj: GObject): void;
+        scanAll(callback: (obj: GObject) => void): void;
     }
 }
 

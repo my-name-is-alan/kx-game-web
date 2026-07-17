@@ -5,7 +5,7 @@ $repo = Split-Path -Parent $PSScriptRoot
 $project = Join-Path $repo 'project'
 $vendor = Join-Path $repo 'FairyGUI-cocoscreator-ccc3.0/source'
 $expectedDependency = 'file:../FairyGUI-cocoscreator-ccc3.0/source'
-$expectedFairyGuiHash = '03CE74C888044545ECD9B37076371EABED830754D7BE0E6AFF9AEB9209BDAC65'
+$expectedFairyGuiHash = '72C44D92EBAD3060F7AE6913EB43E229626241A93D3A2354CB6BC49AA9D19073'
 
 function Fail([string]$Message) {
     throw "[fairygui compatibility contract] $Message"
@@ -44,6 +44,7 @@ if ($distHash -cne $expectedFairyGuiHash) {
     Fail "tracked fairygui.mjs hash $distHash does not match the pinned Cocos 3.8 compatible build $expectedFairyGuiHash"
 }
 Assert-Contains $distText 'freeSpine()' 'tracked distributed module'
+Assert-Contains $distText 'scanAll(callback)' 'tracked distributed module'
 Assert-Contains $distText 'Mask.Type.SPRITE_STENCIL' 'tracked distributed module'
 Assert-Contains $distText 'this._customMask.inverted = this._invertedMask' 'tracked distributed module'
 if ($distText.Contains('Mask.Type.IMAGE_STENCIL', [StringComparison]::Ordinal)) {
