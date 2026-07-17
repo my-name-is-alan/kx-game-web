@@ -40,21 +40,6 @@ export interface BazaarPolicyItemSnapshot {
     quote?:BazaarQuoteSnapshot,
 }
 
-export interface BazaarQuoteCurrency {
-    type:any,
-    amount:number,
-}
-
-export interface BazaarQuoteViewOptions {
-    name:string,
-    x:number,
-    y:number,
-    width:number,
-    height:number,
-    fontSize:number,
-    feedbackHeight?:number,
-}
-
 export interface ShopBuyData {
     show_type:number, // 当前显示的折扣类型，非本身折扣类型
     buy_max:number, // 可购买
@@ -227,14 +212,7 @@ export class LyActivityShop extends ViewLayer {
             let label_need2:fgui.GTextField = child.getChild("label_need2");
             let icon_original = child.getChild("n7");
             let icon_discount = child.getChild("n17");
-            let quoteView = LyActivityShop.getOrCreateBazaarQuoteView(child, {
-                name:"bazaar_quote_view",
-                x:4,
-                y:181,
-                width:170,
-                height:42,
-                fontSize:18,
-            });
+            let quote_field = LyActivityShop.getOrCreateBazaarQuoteField(child);
             if (shopData.isDynamicBazaar) {
                 label_limit.visible = false;
                 label_need.visible = false;
@@ -242,13 +220,8 @@ export class LyActivityShop extends ViewLayer {
                 label_need2.visible = false;
                 icon_original.visible = false;
                 icon_discount.visible = false;
-                quoteView.visible = selIdx != 2;
-                LyActivityShop.renderBazaarQuoteView(
-                    quoteView,
-                    shopData.quote,
-                    label_need.color,
-                    shopData.quote ? "" : "报价中..."
-                );
+                quote_field.visible = selIdx != 2;
+                quote_field.text = LyActivityShop.formatBazaarQuoteRichText(shopData.quote);
             } else if (selIdx == 0) {
                 label_limit.visible = true;
                 label_need.visible = true;
@@ -256,7 +229,7 @@ export class LyActivityShop extends ViewLayer {
                 label_need2.visible = true;
                 icon_original.visible = true;
                 icon_discount.visible = true;
-                quoteView.visible = false;
+                quote_field.visible = false;
                 label_need.text = String(shopData.src_price);
             } else if (selIdx == 1) {
                 label_limit.visible = true;
@@ -265,7 +238,7 @@ export class LyActivityShop extends ViewLayer {
                 label_need2.visible = true;
                 icon_original.visible = true;
                 icon_discount.visible = true;
-                quoteView.visible = false;
+                quote_field.visible = false;
                 label_need1.text = String(shopData.src_price);
                 label_need2.text = String(shopData.dst_price);
             } else {
@@ -275,7 +248,7 @@ export class LyActivityShop extends ViewLayer {
                 label_need2.visible = true;
                 icon_original.visible = true;
                 icon_discount.visible = true;
-                quoteView.visible = false;
+                quote_field.visible = false;
             }
         }
         this.onViewUpdate(null);
@@ -357,98 +330,36 @@ export class LyActivityShop extends ViewLayer {
         return true;
     }
 
-    public static getBazaarQuoteCurrencies(quote:any):Array<BazaarQuoteCurrency> {
-        if (!quote) return [];
-        let parts:Array<BazaarQuoteCurrency> = [];
-        let addCurrency = (rawAmount:any, type:any):void => {
-            let amount = Math.max(Math.floor(Number(rawAmount) || 0), 0);
-            if (amount > 0) parts.push({type:type, amount:amount});
+    private static getOrCreateBazaarQuoteField(parent:fgui.GComponent):fgui.GRichTextField {
+        let quoteField = parent.getChild("bazaar_quote") as fgui.GRichTextField;
+        if (!quoteField) {
+            quoteField = new fgui.GRichTextField();
+            quoteField.name = "bazaar_quote";
+            quoteField.setPosition(4, 181);
+            quoteField.setSize(170, 42);
+            quoteField.fontSize = 20;
+            quoteField.align = fgui.AlignType.Center;
+            quoteField.verticalAlign = fgui.VertAlignType.Middle;
+            quoteField.ubbEnabled = true;
+            quoteField.touchable = false;
+            parent.addChild(quoteField);
+        }
+        return quoteField;
+    }
+
+    public static formatBazaarQuoteRichText(quote:any):string {
+        if (!quote) return "报价中...";
+        let parts:Array<string> = [];
+        let addCurrency = (cost:any, type:any):void => {
+            let value = Math.max(Math.floor(Number(cost) || 0), 0);
+            if (value > 0) {
+                parts.push("[img]" + UtilsUI.getItemIconUrl(type) + "[/img]" + value);
+            }
         }
         addCurrency(quote.moneyCost, VarVal.bonusType.money);
         addCurrency(quote.stoneCost, VarVal.bonusType.stone);
         addCurrency(quote.voucherCost, VarVal.bonusType.chance);
-        return parts;
-    }
-
-    public static getOrCreateBazaarQuoteView(parent:fgui.GComponent,
-        options:BazaarQuoteViewOptions):fgui.GComponent {
-        let view = parent.getChild(options.name) as fgui.GComponent;
-        if (view) return view;
-
-        view = new fgui.GComponent();
-        view.name = options.name;
-        view.setPosition(options.x, options.y);
-        view.setSize(options.width, options.height);
-        view.touchable = false;
-        parent.addChild(view);
-
-        let feedbackHeight = Math.max(Math.floor(Number(options.feedbackHeight) || 0), 0);
-        let rowHeight = options.height - feedbackHeight;
-        let slotWidth = options.width / 3;
-        for (let i = 0; i < 3; i++) {
-            let loader = new fgui.GLoader();
-            loader.name = "currency_icon_" + i;
-            loader.setPosition(i * slotWidth, Math.max((rowHeight - 20) / 2, 0));
-            loader.setSize(20, 20);
-            loader.touchable = false;
-            view.addChild(loader);
-
-            let amount = new fgui.GTextField();
-            amount.name = "currency_amount_" + i;
-            amount.setPosition(i * slotWidth + 20, 0);
-            amount.setSize(slotWidth - 20, rowHeight);
-            amount.fontSize = options.fontSize;
-            amount.autoSize = fgui.AutoSizeType.Shrink;
-            amount.verticalAlign = fgui.VertAlignType.Middle;
-            amount.touchable = false;
-            view.addChild(amount);
-        }
-
-        let status = new fgui.GTextField();
-        status.name = "quote_status";
-        status.setPosition(0, 0);
-        status.setSize(options.width, rowHeight);
-        status.fontSize = options.fontSize;
-        status.align = fgui.AlignType.Center;
-        status.verticalAlign = fgui.VertAlignType.Middle;
-        status.touchable = false;
-        view.addChild(status);
-
-        let feedback = new fgui.GTextField();
-        feedback.name = "quote_feedback";
-        feedback.setPosition(0, rowHeight);
-        feedback.setSize(options.width, feedbackHeight);
-        feedback.fontSize = Math.max(options.fontSize - 2, 16);
-        feedback.align = fgui.AlignType.Center;
-        feedback.verticalAlign = fgui.VertAlignType.Middle;
-        feedback.touchable = false;
-        view.addChild(feedback);
-        return view;
-    }
-
-    public static renderBazaarQuoteView(view:fgui.GComponent, quote:any, color:any,
-        statusText:string = "", feedbackText:string = ""):void {
-        let parts = LyActivityShop.getBazaarQuoteCurrencies(quote);
-        let status = view.getChild("quote_status") as fgui.GTextField;
-        let feedback = view.getChild("quote_feedback") as fgui.GTextField;
-        for (let i = 0; i < 3; i++) {
-            let loader = view.getChild("currency_icon_" + i) as fgui.GLoader;
-            let amount = view.getChild("currency_amount_" + i) as fgui.GTextField;
-            let part = parts[i];
-            loader.visible = !!part;
-            amount.visible = !!part;
-            if (part) {
-                loader.url = UtilsUI.getItemIconUrl(part.type);
-                amount.text = String(part.amount);
-                amount.color = color;
-            }
-        }
-        status.text = statusText || (quote && parts.length == 0 ? "免费" : "");
-        status.color = color;
-        status.visible = status.text.length > 0;
-        feedback.text = feedbackText;
-        feedback.color = color;
-        feedback.visible = feedback.text.length > 0;
+        return parts.length > 0 ? parts.join("  ") : "免费";
     }
 
     private static getBazaarPolicyItem(activityShop:any, id:number):any {

@@ -5,7 +5,7 @@
     "version": "3.8.1"
   },
   "dependencies": {
-    "fairygui-cc": "file:../FairyGUI-cocoscreator-ccc3.0/source",
+    "fairygui-cc": "^1.1.1",
     "jszip": "^3.10.1"
   }
 }

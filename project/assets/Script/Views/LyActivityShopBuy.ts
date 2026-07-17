@@ -195,27 +195,28 @@ export class LyActivityShopBuy extends ViewLayer {
         
         let label_cost:fgui.GTextField = group_main.getChild("label_cost");
         let loader_icon:fgui.GLoader3D = group_main.getChild("loader_icon");
-        let dynamicQuoteView:fgui.GComponent = null;
+        let dynamic_cost:fgui.GRichTextField = null;
         if (isDynamicBazaar) {
-            dynamicQuoteView = LyActivityShop.getOrCreateBazaarQuoteView(group_main, {
-                name:"bazaar_dynamic_quote_view",
-                x:30,
-                y:345,
-                width:380,
-                height:50,
-                fontSize:22,
-                feedbackHeight:20,
-            });
+            dynamic_cost = new fgui.GRichTextField();
+            dynamic_cost.name = "bazaar_dynamic_cost";
+            dynamic_cost.setPosition(30, 345);
+            dynamic_cost.setSize(380, 50);
+            dynamic_cost.fontSize = 22;
+            dynamic_cost.align = HorizontalTextAlignment.CENTER;
+            dynamic_cost.verticalAlign = VerticalTextAlignment.CENTER;
+            dynamic_cost.ubbEnabled = true;
+            dynamic_cost.touchable = false;
+            dynamic_cost.color = label_cost.color;
+            group_main.addChild(dynamic_cost);
             loader_icon.visible = false;
             label_cost.visible = false;
         }
-        let setCostStatus = (text:string, isEnough:boolean = true):void => {
-            let color = isEnough ? label_cost.color : UtilsUI.getEnoughColor(false);
-            if (dynamicQuoteView) {
-                LyActivityShop.renderBazaarQuoteView(dynamicQuoteView, null, color, text);
+        let setCostText = (text:string, isEnough:boolean = true):void => {
+            if (dynamic_cost) {
+                dynamic_cost.text = text;
+                dynamic_cost.color = isEnough ? label_cost.color : UtilsUI.getEnoughColor(false);
             } else {
                 label_cost.text = text;
-                label_cost.color = color;
             }
         }
         let btn_buy:fgui.GButton = group_main.getChild("btn_buy");
@@ -245,7 +246,7 @@ export class LyActivityShopBuy extends ViewLayer {
                 quoteRequestSequence++;
                 quoteReady = false;
                 btn_buy.enabled = false;
-                setCostStatus("配置已更新");
+                setCostText("配置已更新");
                 UtilsUI.showMsgTip("坊市配置已更新，请重新登录");
                 return;
             }
@@ -273,14 +274,14 @@ export class LyActivityShopBuy extends ViewLayer {
             if (currentPaymentKind == "blocked") {
                 quoteReady = false;
                 btn_buy.enabled = false;
-                setCostStatus("不可购买");
+                setCostText("不可购买");
                 return;
             }
             if (selectedCount == lastRequestedQuoteCount) return;
             lastRequestedQuoteCount = selectedCount;
             quoteReady = false;
             btn_buy.enabled = false;
-            setCostStatus("报价中...");
+            setCostText("报价中...");
             quoteRequestSequence++;
             let requestSequence = quoteRequestSequence;
             GameServer.getInstance().send((args:any) => {
@@ -296,16 +297,9 @@ export class LyActivityShopBuy extends ViewLayer {
                         stone:Number(GameServerData.getInstance().getValueTypeCount(VarVal.bonusType.stone)) || 0,
                         voucher:Number(GameServerData.getInstance().getValueTypeCount(VarVal.bonusType.chance)) || 0,
                     });
-                    let quoteColor = affordability.affordable
-                        ? label_cost.color
-                        : UtilsUI.getEnoughColor(false);
-                    LyActivityShop.renderBazaarQuoteView(
-                        dynamicQuoteView,
-                        quote,
-                        quoteColor,
-                        "",
-                        affordability.affordable ? "" : "货币不足"
-                    );
+                    let quoteText = LyActivityShop.formatBazaarQuoteRichText(quote);
+                    if (!affordability.affordable) quoteText += "  货币不足";
+                    setCostText(quoteText, affordability.affordable);
                     updateRewardCount(Number(quote.actualItems));
                     quoteReady = affordability.affordable;
                     btn_buy.enabled = affordability.affordable;
@@ -381,7 +375,7 @@ export class LyActivityShopBuy extends ViewLayer {
                     lastRequestedQuoteCount = -1;
                     quoteReady = false;
                     btn_buy.enabled = false;
-                    setCostStatus("请输入数量");
+                    setCostText("请输入数量");
                     return;
                 }
                 applySelectedCount(digits);

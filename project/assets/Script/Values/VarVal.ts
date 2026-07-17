@@ -88,7 +88,7 @@ export class VarVal {
     }
     static PRELOAD_FGUIS = { // 这里是游戏开始前的预加载，不明白就不用改它。
         [VarVal.PACKAGE_FGUIS.CMemory]:true,
-        [VarVal.PACKAGE_FGUIS.CCommon]:true,
+        // [VarVal.PACKAGE_FGUIS.CCommon]:true,
         [VarVal.PACKAGE_FGUIS.LyLogin]:true,
         [VarVal.PACKAGE_FGUIS.LyLogoUpdate]:true,
         [VarVal.PACKAGE_FGUIS.LyMainPage]:true
