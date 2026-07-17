@@ -535,15 +535,21 @@ export class GList extends GComponent {
         }
     }
     onClickItem(evt) {
+        if (!this._node)
+            return;
         if (this._scrollPane && this._scrollPane.isDragged)
             return;
         var item = GObject.cast(evt.currentTarget);
+        if (!item || item.isDisposed)
+            return;
         this.setSelectionOnEvent(item, evt);
         if (this._scrollPane && this.scrollItemToViewOnClick)
             this._scrollPane.scrollToView(item, true);
         this.dispatchItemEvent(item, evt);
     }
     dispatchItemEvent(item, evt) {
+        if (!this._node)
+            return;
         this._node.emit(FUIEvent.CLICK_ITEM, item, evt);
     }
     setSelectionOnEvent(item, evt) {

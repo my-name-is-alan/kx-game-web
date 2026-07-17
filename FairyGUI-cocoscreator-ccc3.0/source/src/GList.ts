@@ -630,10 +630,14 @@ export class GList extends GComponent {
     }
 
     private onClickItem(evt: FUIEvent): void {
+        if (!this._node)
+            return;
         if (this._scrollPane && this._scrollPane.isDragged)
             return;
 
         var item: GObject = GObject.cast(<Node>evt.currentTarget);
+        if (!item || item.isDisposed)
+            return;
         this.setSelectionOnEvent(item, evt);
 
         if (this._scrollPane && this.scrollItemToViewOnClick)
@@ -643,6 +647,8 @@ export class GList extends GComponent {
     }
 
     protected dispatchItemEvent(item: GObject, evt: FUIEvent): void {
+        if (!this._node)
+            return;
         this._node.emit(FUIEvent.CLICK_ITEM, item, evt);
     }
 

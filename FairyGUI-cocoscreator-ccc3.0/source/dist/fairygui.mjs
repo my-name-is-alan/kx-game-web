@@ -6320,6 +6320,7 @@ class GRichTextField extends GTextField {
     }
     createRenderer() {
         this._richText = this._node.addComponent(RichText);
+        this._richText.string = "";
         this._richText.handleTouchEvent = false;
         this.autoSize = AutoSizeType.None;
         this._richText.imageAtlas = imageAtlas;
@@ -13859,15 +13860,21 @@ class GList extends GComponent {
         }
     }
     onClickItem(evt) {
+        if (!this._node)
+            return;
         if (this._scrollPane && this._scrollPane.isDragged)
             return;
         var item = GObject.cast(evt.currentTarget);
+        if (!item || item.isDisposed)
+            return;
         this.setSelectionOnEvent(item, evt);
         if (this._scrollPane && this.scrollItemToViewOnClick)
             this._scrollPane.scrollToView(item, true);
         this.dispatchItemEvent(item, evt);
     }
     dispatchItemEvent(item, evt) {
+        if (!this._node)
+            return;
         this._node.emit(Event.CLICK_ITEM, item, evt);
     }
     setSelectionOnEvent(item, evt) {
