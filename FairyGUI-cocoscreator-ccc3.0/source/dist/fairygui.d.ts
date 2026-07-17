@@ -2029,6 +2029,8 @@ declare module 'fairygui-cc/event/Event' {
         static TOUCH_MOVE: string;
         static TOUCH_END: string;
         static CLICK: string;
+        static CLICK_BEFORE: string;
+        static TOUCH_END_LATE: string;
         static ROLL_OVER: string;
         static ROLL_OUT: string;
         static MOUSE_WHEEL: string;

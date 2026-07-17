@@ -7,6 +7,8 @@ export class Event extends CCEvent {
     public static TOUCH_MOVE: string = "fui_touch_move";
     public static TOUCH_END: string = "fui_touch_end";
     public static CLICK: string = "fui_click";
+    public static CLICK_BEFORE: string = "fui_click_before";
+    public static TOUCH_END_LATE: string = "fui_touch_end_late";
     public static ROLL_OVER: string = "fui_roll_over";
     public static ROLL_OUT: string = "fui_roll_out";
     public static MOUSE_WHEEL: string = "fui_mouse_wheel"

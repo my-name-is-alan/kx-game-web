@@ -182,16 +182,16 @@ export class LyGuideStart extends ViewLayer {
     private showGroupGuideDelay():void {
         let gggObject:fgui.GComponent = this.guideObject;
         if (gggObject) {
-            let global = gggObject.localToGlobal();
-            global = this.getUiPanel().globalToLocal(global.x, global.y);
-            let gggWidth = gggObject.width * gggObject.scaleX;
-            let gggHeight = gggObject.height * gggObject.scaleY;
-            let showX = global.x; // 真实显示位置。
-            let showY = global.y; // 真实显示位置。
-            if (gggObject.pivotAsAnchor) {
-                showX -= gggWidth * gggObject.pivotX;
-                showY -= gggHeight * gggObject.pivotY;
-            }
+            // Convert the complete target bounds through world space. Using only the
+            // target's own scale loses the transforms of nested panels and virtual lists.
+            let targetX = gggObject.pivotAsAnchor ? -gggObject.width * gggObject.pivotX : 0;
+            let targetY = gggObject.pivotAsAnchor ? -gggObject.height * gggObject.pivotY : 0;
+            let worldRect = gggObject.localToGlobalRect(targetX, targetY, gggObject.width, gggObject.height);
+            let localRect = this.getUiPanel().globalToLocalRect(worldRect.x, worldRect.y, worldRect.width, worldRect.height);
+            let showX = Math.min(localRect.x, localRect.x + localRect.width);
+            let showY = Math.min(localRect.y, localRect.y + localRect.height);
+            let gggWidth = Math.abs(localRect.width);
+            let gggHeight = Math.abs(localRect.height);
             // 遮罩位置
             let graph_hole:fgui.GGraph = this.group_guide.getChild("graph_hole");
             /* 矩形

@@ -140,10 +140,22 @@ export class InputProcessor extends Component {
         target.node.dispatchEvent(evt);
 
         evt.unuse();
+        evt.type = FUIEvent.CLICK_BEFORE;
+        evt.bubbles = true;
+
+        target.node.dispatchEvent(evt);
+
+        evt.unuse();
         evt.type = FUIEvent.CLICK;
         evt.bubbles = true;
 
         target.node.dispatchEvent(evt);
+
+        evt.unuse();
+        evt.type = FUIEvent.TOUCH_END_LATE;
+        evt.bubbles = false;
+
+        this.node.dispatchEvent(evt);
 
         returnEvent(evt);
     }
@@ -243,10 +255,21 @@ export class InputProcessor extends Component {
 
         ti.target = this.clickTest(ti);
         if (ti.target) {
-            evt2 = this.getEvent(ti, ti.target, FUIEvent.CLICK, true);
-            ti.target.node.dispatchEvent(evt2);
+            const clickTarget = ti.target;
+            evt2 = this.getEvent(ti, clickTarget, FUIEvent.CLICK_BEFORE, true);
+            clickTarget.node.dispatchEvent(evt2);
             returnEvent(evt2);
+
+            if (clickTarget.node) {
+                evt2 = this.getEvent(ti, clickTarget, FUIEvent.CLICK, true);
+                clickTarget.node.dispatchEvent(evt2);
+                returnEvent(evt2);
+            }
         }
+
+        evt2 = this.getEvent(ti, this._owner, FUIEvent.TOUCH_END_LATE, false);
+        this.node.dispatchEvent(evt2);
+        returnEvent(evt2);
 
         if (sys.isMobile)     //on mobile platform, trigger RollOut on up event, but not on PC
             this.handleRollOver(ti, null);
