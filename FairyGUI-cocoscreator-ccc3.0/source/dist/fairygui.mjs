@@ -10021,6 +10021,7 @@ class GComponent extends GObject {
         this._sortingChildCount = 0;
         this._childrenRenderOrder = ChildrenRenderOrder.Ascent;
         this._apexIndex = 0;
+        this._inverted = false;
         this._node.name = "GComponent";
         this._children = new Array();
         this._controllers = new Array();
@@ -10509,7 +10510,7 @@ class GComponent extends GObject {
             value.node.on(Node.EventType.TRANSFORM_CHANGED, this.onMaskContentChanged, this);
             value.node.on(Node.EventType.SIZE_CHANGED, this.onMaskContentChanged, this);
             value.node.on(Node.EventType.ANCHOR_CHANGED, this.onMaskContentChanged, this);
-            this._customMask.inverted = inverted;
+            this._inverted = inverted;
             if (this._node.activeInHierarchy)
                 this.onMaskReady();
             else
@@ -10546,6 +10547,7 @@ class GComponent extends GObject {
             else
                 this._customMask.type = Mask.Type.RECT;
         }
+        this._customMask.inverted = this._inverted;
     }
     onMaskContentChanged() {
         let maskNode = this._customMask.node;

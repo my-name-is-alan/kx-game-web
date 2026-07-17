@@ -25,6 +25,7 @@ export class GComponent extends GObject {
     private _applyingController?: Controller;
     private _rectMask?: Mask;
     private _maskContent?: GObject;
+    private _inverted: boolean = false;
 
     protected _margin: Margin;
     protected _trackBounds: boolean;
@@ -633,7 +634,7 @@ export class GComponent extends GObject {
             value.node.on(Node.EventType.SIZE_CHANGED, this.onMaskContentChanged, this);
             value.node.on(Node.EventType.ANCHOR_CHANGED, this.onMaskContentChanged, this);
 
-            this._customMask.inverted = inverted;
+            this._inverted = inverted;
             if (this._node.activeInHierarchy)
                 this.onMaskReady();
             else
@@ -674,6 +675,8 @@ export class GComponent extends GObject {
             else
                 this._customMask.type = Mask.Type.RECT;
         }
+
+        this._customMask.inverted = this._inverted;
     }
 
     private onMaskContentChanged() {
