@@ -1,4 +1,5 @@
 import { UIPackage } from "./UIPackage";
+import { Event } from "./event/Event";
 export class GObjectPool {
     constructor() {
         this._count = 0;
@@ -33,6 +34,7 @@ export class GObjectPool {
         var url = obj.resourceURL;
         if (!url)
             return;
+        obj.node.emit(Event.RETURNPOOL_BEFORE);
         var arr = this._pool[url];
         if (arr == null) {
             arr = new Array();
@@ -40,5 +42,15 @@ export class GObjectPool {
         }
         this._count++;
         arr.push(obj);
+    }
+    /** Iterate objects currently hidden in the pool without removing them. */
+    scanAll(callback) {
+        if (!callback)
+            return;
+        for (var url in this._pool) {
+            var arr = this._pool[url];
+            for (var i = 0; i < arr.length; i++)
+                callback(arr[i]);
+        }
     }
 }

@@ -13,6 +13,8 @@ export class Event extends CCEvent {
 
     public static DISPLAY: string = "fui_display";
     public static UNDISPLAY: string = "fui_undisplay";
+    public static DISPOSE_BEFORE: string = "fui_dispose_before";
+    public static RETURNPOOL_BEFORE: string = "fui_returnpool_before";
     public static GEAR_STOP: string = "fui_gear_stop";
     public static LINK: string = "fui_text_link";
     public static Submit: string = "editing-return";

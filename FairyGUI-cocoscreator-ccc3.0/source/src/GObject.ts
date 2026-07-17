@@ -641,6 +641,7 @@ export class GObject {
         if (!n)
             return;
 
+        n.emit(FUIEvent.DISPOSE_BEFORE);
         this.removeFromParent();
         this._relations.dispose();
 

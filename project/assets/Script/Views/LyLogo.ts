@@ -146,7 +146,7 @@ export class LyLogo extends ViewLayer {
                     // 重新加载？
                     console.warn("预加载资源失败->", name);
                 }
-            }, name, VarVal.PRELOAD_FGUIS[name] ? false : true);
+            }, name, false);
         }
     }
 

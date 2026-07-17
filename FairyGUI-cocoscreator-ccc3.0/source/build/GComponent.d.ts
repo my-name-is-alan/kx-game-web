@@ -15,6 +15,7 @@ export declare class GComponent extends GObject {
     private _applyingController?;
     private _rectMask?;
     private _maskContent?;
+    private _invertedMask;
     protected _margin: Margin;
     protected _trackBounds: boolean;
     protected _boundsChanged: boolean;

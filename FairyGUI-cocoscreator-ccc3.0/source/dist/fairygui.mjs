@@ -1,4 +1,4 @@
-import { gfx, RenderComponent, Event as Event$1, Vec2, Node, game, director, macro, Color, Layers, Font, resources, UITransform, UIOpacity, Rect, Component, Vec3, Graphics, misc, Sprite, Size, view, BufferAsset, AssetManager, Asset, assetManager, Texture2D, SpriteFrame, BitmapFont, sp, dragonBones, ImageAsset, AudioClip, path, Label, LabelOutline, LabelShadow, RichText, SpriteAtlas, sys, EventMouse, EventTarget, Mask, math, isValid, View, AudioSourceComponent, EditBox } from 'cc';
+import { gfx, RenderComponent, Event as Event$1, Vec2, Node, game, director, macro, Color, Layers, Font, resources, Vec3, Rect, UITransform, UIOpacity, Component, Graphics, misc, Sprite, Size, view, ImageAsset, AudioClip, BufferAsset, AssetManager, Asset, assetManager, Texture2D, SpriteFrame, BitmapFont, sp, dragonBones, path, Label, LabelOutline, LabelShadow, SpriteAtlas, RichText, sys, EventMouse, EventTarget, Mask, math, isValid, View, AudioSourceComponent, EditBox } from 'cc';
 import { EDITOR } from 'cc/env';
 
 var ButtonMode;
@@ -236,7 +236,7 @@ const factors = [
     [gfx.BlendFactor.ONE, gfx.BlendFactor.ZERO],
     [gfx.BlendFactor.SRC_ALPHA, gfx.BlendFactor.ONE_MINUS_SRC_ALPHA],
     [gfx.BlendFactor.SRC_ALPHA, gfx.BlendFactor.ONE_MINUS_SRC_ALPHA],
-    [gfx.BlendFactor.SRC_ALPHA, gfx.BlendFactor.ONE_MINUS_SRC_ALPHA],
+    [gfx.BlendFactor.SRC_ALPHA, gfx.BlendFactor.ONE_MINUS_SRC_ALPHA], //custom2
 ];
 
 class Event extends Event$1 {
@@ -273,6 +273,8 @@ Event.ROLL_OUT = "fui_roll_out";
 Event.MOUSE_WHEEL = "fui_mouse_wheel";
 Event.DISPLAY = "fui_display";
 Event.UNDISPLAY = "fui_undisplay";
+Event.DISPOSE_BEFORE = "fui_dispose_before";
+Event.RETURNPOOL_BEFORE = "fui_returnpool_before";
 Event.GEAR_STOP = "fui_gear_stop";
 Event.LINK = "fui_text_link";
 Event.Submit = "editing-return";
@@ -2927,6 +2929,7 @@ class GObject {
         let n = this._node;
         if (!n)
             return;
+        n.emit(Event.DISPOSE_BEFORE);
         this.removeFromParent();
         this._relations.dispose();
         this._node = null;
@@ -5846,6 +5849,7 @@ class GTextField extends GObject {
     }
     createRenderer() {
         this._label = this._node.addComponent(Label);
+        this._label.string = "";
         this.autoSize = AutoSizeType.Both;
     }
     set text(value) {
@@ -10019,6 +10023,7 @@ class GComponent extends GObject {
     constructor() {
         super();
         this._sortingChildCount = 0;
+        this._invertedMask = false;
         this._childrenRenderOrder = ChildrenRenderOrder.Ascent;
         this._apexIndex = 0;
         this._node.name = "GComponent";
@@ -10509,7 +10514,7 @@ class GComponent extends GObject {
             value.node.on(Node.EventType.TRANSFORM_CHANGED, this.onMaskContentChanged, this);
             value.node.on(Node.EventType.SIZE_CHANGED, this.onMaskContentChanged, this);
             value.node.on(Node.EventType.ANCHOR_CHANGED, this.onMaskContentChanged, this);
-            this._customMask.inverted = inverted;
+            this._invertedMask = inverted;
             if (this._node.activeInHierarchy)
                 this.onMaskReady();
             else
@@ -10536,16 +10541,17 @@ class GComponent extends GObject {
     onMaskReady() {
         this.off(Event.DISPLAY, this.onMaskReady, this);
         if (this._maskContent instanceof GImage) {
-            this._customMask.type = Mask.Type.IMAGE_STENCIL;
+            this._customMask.type = Mask.Type.SPRITE_STENCIL;
             this._customMask.alphaThreshold = 0.0001;
             this._customMask.spriteFrame = this._maskContent._content.spriteFrame;
         }
         else if (this._maskContent instanceof GGraph) {
             if (this._maskContent.type == 2)
-                this._customMask.type = Mask.Type.ELLIPSE;
+                this._customMask.type = Mask.Type.GRAPHICS_ELLIPSE;
             else
-                this._customMask.type = Mask.Type.RECT;
+                this._customMask.type = Mask.Type.GRAPHICS_RECT;
         }
+        this._customMask.inverted = this._invertedMask;
     }
     onMaskContentChanged() {
         let maskNode = this._customMask.node;
@@ -11253,6 +11259,17 @@ class Window extends GComponent {
 }
 
 class GRoot extends GComponent {
+    static get inst() {
+        if (!GRoot._inst)
+            throw 'Call GRoot.create first!';
+        return GRoot._inst;
+    }
+    static create() {
+        GRoot._inst = new GRoot();
+        director.getScene().getChildByName('Canvas').addChild(GRoot._inst.node);
+        GRoot._inst.onWinResize();
+        return GRoot._inst;
+    }
     constructor() {
         super();
         this._node.name = "GRoot";
@@ -11272,17 +11289,6 @@ class GRoot extends GComponent {
             View.instance.on('canvas-resize', this._thisOnResized);
             window.addEventListener('orientationchange', this._thisOnResized);
         }
-    }
-    static get inst() {
-        if (!GRoot._inst)
-            throw 'Call GRoot.create first!';
-        return GRoot._inst;
-    }
-    static create() {
-        GRoot._inst = new GRoot();
-        director.getScene().getChildByName('Canvas').addChild(GRoot._inst.node);
-        GRoot._inst.onWinResize();
-        return GRoot._inst;
     }
     onDestroy() {
         View.instance.off('design-resolution-changed', this.onWinResize, this);
@@ -11794,6 +11800,7 @@ class GObjectPool {
         var url = obj.resourceURL;
         if (!url)
             return;
+        obj.node.emit(Event.RETURNPOOL_BEFORE);
         var arr = this._pool[url];
         if (arr == null) {
             arr = new Array();
@@ -11801,6 +11808,16 @@ class GObjectPool {
         }
         this._count++;
         arr.push(obj);
+    }
+    /** Iterate objects currently hidden in the pool without removing them. */
+    scanAll(callback) {
+        if (!callback)
+            return;
+        for (var url in this._pool) {
+            var arr = this._pool[url];
+            for (var i = 0; i < arr.length; i++)
+                callback(arr[i]);
+        }
     }
 }
 
@@ -12459,8 +12476,7 @@ class GLoader3D extends GObject {
             this.setDragonBones(this._contentItem.asset, this._contentItem.atlasAsset, this._contentItem.skeletonAnchor);
     }
     setSpine(asset, anchor, pma) {
-        this.url = null;
-        this.clearContent();
+        this.freeSpine();
         let node = new Node();
         this._container.addChild(node);
         node.layer = UIConfig.defaultUILayer;
@@ -12472,9 +12488,13 @@ class GLoader3D extends GObject {
         this.onChangeSpine();
         this.updateLayout();
     }
+    freeSpine() {
+        if (this._content) {
+            this._content.destroy();
+        }
+    }
     setDragonBones(asset, atlasAsset, anchor, pma) {
-        this.url = null;
-        this.clearContent();
+        this.freeDragonBones();
         let node = new Node();
         node.layer = UIConfig.defaultUILayer;
         this._container.addChild(node);
@@ -12490,9 +12510,20 @@ class GLoader3D extends GObject {
         this.onChangeDragonBones();
         this.updateLayout();
     }
+    freeDragonBones() {
+        if (this._content) {
+            this._content.destroy();
+        }
+    }
     onChange() {
-        this.onChangeSpine();
-        this.onChangeDragonBones();
+        if (this._contentItem == null)
+            return;
+        if (this._contentItem.type == PackageItemType.Spine) {
+            this.onChangeSpine();
+        }
+        if (this._contentItem.type == PackageItemType.DragonBones) {
+            this.onChangeDragonBones();
+        }
     }
     onChangeSpine() {
         if (!(this._content instanceof sp.Skeleton))
@@ -12836,6 +12867,24 @@ class GLabel extends GComponent {
             }
             else
                 buffer.skip(13);
+        }
+        str = buffer.readS();
+        if (str != null) {
+            this._sound = str;
+            if (buffer.readBool()) {
+                this._soundVolumeScale = buffer.readFloat();
+            }
+            this._node.on(Event.CLICK, this.onClick_1, this);
+        }
+    }
+    onClick_1() {
+        if (this._sound) {
+            var pi = UIPackage.getItemByURL(this._sound);
+            if (pi) {
+                var sound = pi.owner.getItemAsset(pi);
+                if (sound)
+                    GRoot.inst.playOneShotSound(sound, this._soundVolumeScale);
+            }
         }
     }
 }
@@ -16963,6 +17012,11 @@ UIObjectFactory.extensions = {};
 Decls.UIObjectFactory = UIObjectFactory;
 
 class DragDropManager {
+    static get inst() {
+        if (!DragDropManager._inst)
+            DragDropManager._inst = new DragDropManager();
+        return DragDropManager._inst;
+    }
     constructor() {
         this._agent = new GLoader();
         this._agent.draggable = true;
@@ -16973,11 +17027,6 @@ class DragDropManager {
         this._agent.verticalAlign = VertAlignType.Middle;
         this._agent.sortingOrder = 1000000;
         this._agent.on(Event.DRAG_END, this.onDragEnd, this);
-    }
-    static get inst() {
-        if (!DragDropManager._inst)
-            DragDropManager._inst = new DragDropManager();
-        return DragDropManager._inst;
     }
     get dragAgent() {
         return this._agent;

@@ -11,6 +11,8 @@ export declare class Event extends CCEvent {
     static MOUSE_WHEEL: string;
     static DISPLAY: string;
     static UNDISPLAY: string;
+    static DISPOSE_BEFORE: string;
+    static RETURNPOOL_BEFORE: string;
     static GEAR_STOP: string;
     static LINK: string;
     static Submit: string;

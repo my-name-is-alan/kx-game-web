@@ -687,7 +687,9 @@ declare module 'fairygui-cc/GLoader3D' {
         protected loadContent(): void;
         protected loadFromPackage(itemURL: string): void;
         setSpine(asset: sp.SkeletonData, anchor: Vec2, pma?: boolean): void;
+        freeSpine(): void;
         setDragonBones(asset: dragonBones.DragonBonesAsset, atlasAsset: dragonBones.DragonBonesAtlasAsset, anchor: Vec2, pma?: boolean): void;
+        freeDragonBones(): void;
         protected loadExternal(): void;
         protected handleSizeChanged(): void;
         protected handleAnchorChanged(): void;
@@ -1704,6 +1706,8 @@ declare module 'fairygui-cc/GObjectPool' {
         get count(): number;
         getObject(url: string): GObject;
         returnObject(obj: GObject): void;
+        /** Iterate objects currently hidden in the pool without removing them. */
+        scanAll(callback: (obj: GObject) => void): void;
     }
 }
 
@@ -2030,6 +2034,8 @@ declare module 'fairygui-cc/event/Event' {
         static MOUSE_WHEEL: string;
         static DISPLAY: string;
         static UNDISPLAY: string;
+        static DISPOSE_BEFORE: string;
+        static RETURNPOOL_BEFORE: string;
         static GEAR_STOP: string;
         static LINK: string;
         static Submit: string;

@@ -1470,12 +1470,20 @@ export class PointRedData {
 	 * 清除绑定的UI对象。
 	 * */
 	private clearChildAttach(child:PointRedNode): void {
-		if (child.attach) {
-			this.updateManualPoint(child.attach.gObject, false);
-			child.attach.gObject.off(fgui.Event.DISPOSE_BEFORE, child.attach.onDispose);
-			child.attach.gObject.off(fgui.Event.RETURNPOOL_BEFORE, child.attach.onReturnPool);
-			child.attach = undefined;
+		const attach = child.attach;
+		if (!attach) {
+			return;
 		}
+
+		// 先断开树上的引用，避免销毁事件回调重入；已销毁对象的 node 已为 null，不能再调用 off。
+		child.attach = undefined;
+		if (attach.gObject.isDisposed) {
+			return;
+		}
+
+		this.updateManualPoint(attach.gObject, false);
+		attach.gObject.off(fgui.Event.DISPOSE_BEFORE, attach.onDispose);
+		attach.gObject.off(fgui.Event.RETURNPOOL_BEFORE, attach.onReturnPool);
 	}
 
 	/**
