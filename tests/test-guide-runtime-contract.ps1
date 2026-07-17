@@ -23,12 +23,14 @@ if ($beforeIndex -lt 0 -or $clickIndex -lt 0 -or $lateIndex -lt 0 -or
     throw 'Guide click events must dispatch in CLICK_BEFORE -> CLICK -> TOUCH_END_LATE order.'
 }
 
-if ($guideSource -notmatch 'localToGlobalRect\(' -or $guideSource -notmatch 'globalToLocalRect\(') {
-    throw 'Guide target geometry must be converted as a world rectangle.'
+if ($guideSource -notmatch 'gggObject\.localToGlobal\(\)' -or
+    $guideSource -notmatch 'getUiPanel\(\)\.globalToLocal\(' -or
+    $guideSource -notmatch 'width\s*\*\s*gggObject\.scaleX' -or
+    $guideSource -notmatch 'height\s*\*\s*gggObject\.scaleY') {
+    throw 'Guide target geometry must keep the package-tested point conversion and local scale calculation.'
 }
-if ($guideSource -match 'width\s*\*\s*gggObject\.scaleX' -or
-    $guideSource -match 'height\s*\*\s*gggObject\.scaleY') {
-    throw 'Guide target geometry must not ignore ancestor transforms.'
+if ($guideSource -match 'localToGlobalRect\(' -or $guideSource -match 'globalToLocalRect\(') {
+    throw 'Guide target geometry must not use the Cocos Rect conversion that offsets package targets.'
 }
 
 Write-Host 'Guide runtime contract passed.'

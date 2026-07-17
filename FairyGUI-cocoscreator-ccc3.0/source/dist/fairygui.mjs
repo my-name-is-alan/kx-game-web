@@ -5851,7 +5851,6 @@ class GTextField extends GObject {
     }
     createRenderer() {
         this._label = this._node.addComponent(Label);
-        this._label.string = "";
         this.autoSize = AutoSizeType.Both;
     }
     set text(value) {
@@ -6322,7 +6321,6 @@ class GRichTextField extends GTextField {
     }
     createRenderer() {
         this._richText = this._node.addComponent(RichText);
-        this._richText.string = "";
         this._richText.handleTouchEvent = false;
         this.autoSize = AutoSizeType.None;
         this._richText.imageAtlas = imageAtlas;

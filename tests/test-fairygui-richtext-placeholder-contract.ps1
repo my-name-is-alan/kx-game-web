@@ -3,6 +3,8 @@ $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $vendorRoot = Join-Path $repoRoot 'FairyGUI-cocoscreator-ccc3.0/source'
 $targets = @(
+    'src/GTextField.ts',
+    'build/GTextField.js',
     'src/GRichTextField.ts',
     'build/GRichTextField.js',
     'dist/fairygui.mjs'
@@ -10,13 +12,10 @@ $targets = @(
 
 foreach ($target in $targets) {
     $text = Get-Content -Raw -LiteralPath (Join-Path $vendorRoot $target)
-    $renderer = 'this._richText = this._node.addComponent(RichText);'
-    $clear = 'this._richText.string = "";'
-    $rendererAt = $text.IndexOf($renderer, [StringComparison]::Ordinal)
-    $clearAt = $text.IndexOf($clear, [StringComparison]::Ordinal)
-    if ($rendererAt -lt 0 -or $clearAt -le $rendererAt -or $clearAt -gt ($rendererAt + 160)) {
-        throw "$target does not clear the Cocos RichText placeholder immediately after renderer creation"
+    if ($text.Contains('this._label.string = "";', [StringComparison]::Ordinal) -or
+        $text.Contains('this._richText.string = "";', [StringComparison]::Ordinal)) {
+        throw "$target writes an empty renderer string during construction and can overwrite the package text on Cocos 3.8"
     }
 }
 
-Write-Output 'FairyGUI RichText placeholder contract passed.'
+Write-Output 'FairyGUI text renderer construction contract passed.'

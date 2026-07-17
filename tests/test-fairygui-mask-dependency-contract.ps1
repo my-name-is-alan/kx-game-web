@@ -5,7 +5,7 @@ $repo = Split-Path -Parent $PSScriptRoot
 $project = Join-Path $repo 'project'
 $vendor = Join-Path $repo 'FairyGUI-cocoscreator-ccc3.0/source'
 $expectedDependency = 'file:../FairyGUI-cocoscreator-ccc3.0/source'
-$expectedFairyGuiHash = '92359F86B40E278067302256FD2110FED168BDCF91FD1133C2BE11D6F00BF835'
+$expectedFairyGuiHash = '33F3CC16D2FC5DCD9B283B283054ADC745E3795143E94B27E958D6BBC176996A'
 
 function Fail([string]$Message) {
     throw "[fairygui compatibility contract] $Message"
