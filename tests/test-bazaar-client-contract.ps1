@@ -104,6 +104,18 @@ Assert-NotMatch $buy 'UtilsUI\.showMsgTip\(args\.bazaarError\)' "raw internal Ba
 Assert-NotMatch $buy '(?i)retryBazaar|bazaarRetry' "version mismatch must not retry"
 Assert-NotMatch $buy '\b(price|trustedPrice|clientPrice)\s*:' "purchase payload contains a client-trusted price"
 Assert-Match $buy '"bazaarVoucherBuy"' "legacy voucher purchase route was removed"
+Assert-Match $buy 'new fgui\.GTextInput\(\)' "dynamic purchase count input is missing"
+Assert-Match $buy 'EditBox\.InputMode\.NUMERIC' "dynamic purchase input does not open a numeric keyboard"
+Assert-Match $buy 'fgui\.Event\.TEXT_CHANGE' "typed purchase quantities are not observed"
+Assert-Match $buy 'bazaar_btn_max' "dynamic purchase maximum shortcut is missing"
+Assert-Match $buy 'normalizeBazaarPurchaseCount' "purchase quantities are not normalized"
+Assert-Match $buy 'Math\.min\([^\r\n]*maxCount' "purchase quantities are not capped at the server maximum"
+Assert-Match $buy 'getBazaarQuoteAffordability' "dynamic quote affordability is not evaluated"
+foreach ($type in @('money', 'stone', 'chance')) {
+    Assert-Match $buy "getValueTypeCount\(VarVal\.bonusType\.$type\)" "dynamic quote does not read the live $type balance"
+}
+Assert-Match $buy '货币不足' "insufficient currency feedback is missing"
+Assert-Match $buy 'btn_buy\.enabled\s*=\s*affordability\.affordable' "insufficient quotes do not disable purchase"
 
 $quoteCalls = [regex]::Matches($buy, '"bazaarQuotePurchase"').Count
 if ($quoteCalls -ne 1) {
