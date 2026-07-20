@@ -51,5 +51,23 @@ if ($utilsSource -notmatch 'loader_spine_equip\s*&&\s*equipEffectId') {
 if ($utilsSource -match 'loadSpineEffAndShow\(loader_spine_equip,\s*VarVal\.UI_EFF\["equip_"\s*\+\s*qualityType\]') {
     throw 'Equipment rendering must not pass an unchecked effect lookup to loadSpineEffAndShow.'
 }
+if ($utilsSource -notmatch 'con_star\.pageCount\s*>\s*0') {
+    throw 'Equipment star rendering must guard the FairyGUI controller page count.'
+}
+if ($utilsSource -notmatch 'selectedIndex\s*=\s*\(Math\.max\(starNum,\s*1\)\s*-\s*1\)\s*%\s*con_star\.pageCount') {
+    throw 'Equipment stars must cycle within the FairyGUI controller pages for reused high-quality tiers.'
+}
+
+$tier16Qualities = @($equip.root.quality.item | Where-Object { [int]$_.star -eq 16 } | Sort-Object { [int]$_.id })
+if ($tier16Qualities.Count -le 5) {
+    throw 'This regression must exercise more qualities than the five FairyGUI star pages.'
+}
+foreach ($quality in $tier16Qualities) {
+    $starCount = @($tier16Qualities | Where-Object { [int]$_.id -le [int]$quality.id }).Count
+    $selectedIndex = ($starCount - 1) % 5
+    if ($selectedIndex -lt 0 -or $selectedIndex -ge 5) {
+        throw "Equipment quality $($quality.id) resolves to invalid star controller index $selectedIndex."
+    }
+}
 
 Write-Host 'FISHING_HIGH_QUALITY_EQUIP_CONTRACT_OK'

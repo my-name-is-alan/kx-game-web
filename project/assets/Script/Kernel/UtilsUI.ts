@@ -1563,7 +1563,11 @@ export class UtilsUI {
                     group_star.visible = true
                     let starNum = LocaleData.getEquipStarNumByStar(qualityXml.id, qualityXml.star)
                     let con_star :fgui.Controller = group_star.getController("con_star")
-                    con_star.selectedIndex = starNum - 1
+                    if (con_star && con_star.pageCount > 0) {
+                        // High qualities reuse the last visual tier. Keep their 1-5 star
+                        // presentation cycling within the pages provided by FairyGUI.
+                        con_star.selectedIndex = (Math.max(starNum, 1) - 1) % con_star.pageCount
+                    }
                     for (let i = 0; i < 5; i++) {
                         let star:fgui.GLoader = group_star.getChild("img_star"+(i+1))
                         star.url = UtilsTool.stringFormat("ui://CCommon/icon_level{0}", [qualityXml.star])
