@@ -304,6 +304,9 @@ export class LyEvolution extends ViewLayer {
         })
 
         this.btn_up.onClick(()=> {
+            if (!this.levelNext) {
+                return
+            }
             let nextMoney: number = this.levelNext.money
             if (this.baseInfo.money >= nextMoney) {
                 UtilsUI.lockWait()
@@ -381,7 +384,7 @@ export class LyEvolution extends ViewLayer {
             this.group_up.visible = false
         }
         this.label_des1.text = UtilsTool.stringFormat(StrVal.LYEVOLUTION.STR3, [this.baseInfo.evolutionLevel]) 
-        this.label_des2.text = UtilsTool.stringFormat(StrVal.LYEVOLUTION.STR4, [this.baseInfo.evolutionLevel + 1]) 
+        this.label_des2.text = this.levelNext ? UtilsTool.stringFormat(StrVal.LYEVOLUTION.STR4, [this.baseInfo.evolutionLevel + 1]) : ""
         this.list_show.numItems = this.levelNowQua.length
         this.list_reward.numItems = this.materials.length
         this.img_no.visible = true
@@ -408,7 +411,7 @@ export class LyEvolution extends ViewLayer {
             this.label_timeDes.color = new Color(255, 255, 255)
             this.label_time.color = new Color(255, 255, 255)
         }
-        else{
+        else if (this.levelNext) {
             this.c1Con.selectedIndex = 0
             this.img_no.visible = true
             this.img_ing.visible = false
@@ -418,6 +421,14 @@ export class LyEvolution extends ViewLayer {
             this.label_time.text = UtilsTool.parseTimeToString(this.levelNext.time * 60)
             this.label_timeDes.color = new Color(22, 25, 26)
             this.label_time.color = new Color(48, 161, 45)
+        } else {
+            this.c1Con.selectedIndex = 0
+            this.img_no.visible = true
+            this.img_ing.visible = false
+            this.group_up.visible = false
+            this.group_speed.visible = false
+            this.label_timeDes.text = ""
+            this.label_time.text = ""
         }
 
         
@@ -442,16 +453,18 @@ export class LyEvolution extends ViewLayer {
         this.baseInfo = GameServerData.getInstance().getPlayerFullInfo().base
         this.levelData = LocaleData.getEvolutionByLevel(this.baseInfo.evolutionLevel)
         this.adData = GameServerData.getInstance().getAdData(4)
+        this.levelNowQua = []
+        this.levelNowWei = []
         if (this.levelData) {
             this.levelNowQua = this.levelData.quality.split(",")
             this.levelNowWei = this.levelData.qualityDropWeight.split(",")
         }
         this.levelNext = LocaleData.getEvolutionByLevel(this.baseInfo.evolutionLevel + 1)
+        this.levelNextQua = []
+        this.levelNextWei = []
         if (this.levelNext) {
             this.levelNextQua = this.levelNext.quality.split(",")
             this.levelNextWei = this.levelNext.qualityDropWeight.split(",")
-        }else{
-           
         }
 
         for (let index = 0; index < this.levelNowQua.length; index++) {
@@ -576,17 +589,25 @@ export class LyEvolution extends ViewLayer {
     }
 
     public static cnaUpLevel(): boolean{
-        let baseInfo = GameServerData.getInstance().getPlayerFullInfo().base
-        let nextMoney = LocaleData.getEvolutionByLevel(baseInfo.evolutionLevel + 1).money
-        if (baseInfo.evolveFinishTime != 0) {
+        let fullInfo = GameServerData.getInstance().getPlayerFullInfo()
+        if (!fullInfo || !fullInfo.base) {
             return false
         }
-        return baseInfo.money >= Number(nextMoney) 
+        let baseInfo = fullInfo.base
+        let levelNext = LocaleData.getEvolutionByLevel(baseInfo.evolutionLevel + 1)
+        if (!levelNext || baseInfo.evolveFinishTime != 0) {
+            return false
+        }
+        return baseInfo.money >= Number(levelNext.money)
     }
 
 
     public static canAddSpeed(): boolean{
-        let baseInfo = GameServerData.getInstance().getPlayerFullInfo().base
+        let fullInfo = GameServerData.getInstance().getPlayerFullInfo()
+        if (!fullInfo || !fullInfo.base) {
+            return false
+        }
+        let baseInfo = fullInfo.base
         if (baseInfo.evolveFinishTime == 0) {
             return false
         }
