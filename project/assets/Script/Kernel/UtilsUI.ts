@@ -1530,8 +1530,9 @@ export class UtilsUI {
         let qualityXml = LocaleData.getEquipQualityProto(equipInst.quality)
         let star: string = qualityXml.star
         let qualityType: number = star == "0" ? equipInst.quality : Number(star)
-        if (Number(equipInst.quality) > 4) {
-            UtilsUI.loadSpineEffAndShow(loader_spine_equip, VarVal.UI_EFF["equip_" + qualityType], true);
+        const equipEffectId = VarVal.UI_EFF["equip_" + qualityType] || VarVal.UI_EFF.equip_15
+        if (Number(equipInst.quality) > 4 && loader_spine_equip && equipEffectId) {
+            UtilsUI.loadSpineEffAndShow(loader_spine_equip, equipEffectId, true);
         }
         let loader_back:fgui.GLoader = group_item.getChild("loader_back");
         let loader_icon:fgui.GLoader = group_item.getChild("loader_icon");
