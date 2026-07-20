@@ -58,6 +58,49 @@
     <item level="55" money="22500000" time="105033" bonusesId1="500005" bonusesId2="500015" quality="47,48,49,50,51,52,53,54,55" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
     <item level="56" money="23000000" time="106653" bonusesId1="500005" bonusesId2="500015" quality="48,49,50,51,52,53,54,55,56" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
     <item level="57" money="23500000" time="108273" bonusesId1="500005" bonusesId2="500015" quality="49,50,51,52,53,54,55,56,57" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="58" money="24000000" time="109893" bonusesId1="500005" bonusesId2="500015" quality="50,51,52,53,54,55,56,57,58" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="59" money="24500000" time="111513" bonusesId1="500005" bonusesId2="500015" quality="51,52,53,54,55,56,57,58,59" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="60" money="25000000" time="113133" bonusesId1="500005" bonusesId2="500015" quality="52,53,54,55,56,57,58,59,60" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="61" money="25500000" time="114753" bonusesId1="500005" bonusesId2="500015" quality="53,54,55,56,57,58,59,60,61" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="62" money="26000000" time="116373" bonusesId1="500005" bonusesId2="500015" quality="54,55,56,57,58,59,60,61,62" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="63" money="26500000" time="117993" bonusesId1="500005" bonusesId2="500015" quality="55,56,57,58,59,60,61,62,63" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="64" money="27000000" time="119613" bonusesId1="500005" bonusesId2="500015" quality="56,57,58,59,60,61,62,63,64" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="65" money="27500000" time="121233" bonusesId1="500005" bonusesId2="500015" quality="57,58,59,60,61,62,63,64,65" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="66" money="28000000" time="122853" bonusesId1="500005" bonusesId2="500015" quality="58,59,60,61,62,63,64,65,66" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="67" money="28500000" time="124473" bonusesId1="500005" bonusesId2="500015" quality="59,60,61,62,63,64,65,66,67" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="68" money="29000000" time="126093" bonusesId1="500005" bonusesId2="500015" quality="60,61,62,63,64,65,66,67,68" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="69" money="29500000" time="127713" bonusesId1="500005" bonusesId2="500015" quality="61,62,63,64,65,66,67,68,69" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="70" money="30000000" time="129333" bonusesId1="500005" bonusesId2="500015" quality="62,63,64,65,66,67,68,69,70" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="71" money="30500000" time="130953" bonusesId1="500005" bonusesId2="500015" quality="63,64,65,66,67,68,69,70,71" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="72" money="31000000" time="132573" bonusesId1="500005" bonusesId2="500015" quality="64,65,66,67,68,69,70,71,72" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="73" money="31500000" time="134193" bonusesId1="500005" bonusesId2="500015" quality="65,66,67,68,69,70,71,72,73" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="74" money="32000000" time="135813" bonusesId1="500005" bonusesId2="500015" quality="66,67,68,69,70,71,72,73,74" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="75" money="32500000" time="137433" bonusesId1="500005" bonusesId2="500015" quality="67,68,69,70,71,72,73,74,75" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="76" money="33000000" time="139053" bonusesId1="500005" bonusesId2="500015" quality="68,69,70,71,72,73,74,75,76" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="77" money="33500000" time="140673" bonusesId1="500005" bonusesId2="500015" quality="69,70,71,72,73,74,75,76,77" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="78" money="34000000" time="142293" bonusesId1="500005" bonusesId2="500015" quality="70,71,72,73,74,75,76,77,78" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="79" money="34500000" time="143913" bonusesId1="500005" bonusesId2="500015" quality="71,72,73,74,75,76,77,78,79" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="80" money="35000000" time="145533" bonusesId1="500005" bonusesId2="500015" quality="72,73,74,75,76,77,78,79,80" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="81" money="35500000" time="147153" bonusesId1="500005" bonusesId2="500015" quality="73,74,75,76,77,78,79,80,81" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="82" money="36000000" time="148773" bonusesId1="500005" bonusesId2="500015" quality="74,75,76,77,78,79,80,81,82" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="83" money="36500000" time="150393" bonusesId1="500005" bonusesId2="500015" quality="75,76,77,78,79,80,81,82,83" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="84" money="37000000" time="152013" bonusesId1="500005" bonusesId2="500015" quality="76,77,78,79,80,81,82,83,84" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="85" money="37500000" time="153633" bonusesId1="500005" bonusesId2="500015" quality="77,78,79,80,81,82,83,84,85" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="86" money="38000000" time="155253" bonusesId1="500005" bonusesId2="500015" quality="78,79,80,81,82,83,84,85,86" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="87" money="38500000" time="156873" bonusesId1="500005" bonusesId2="500015" quality="79,80,81,82,83,84,85,86,87" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="88" money="39000000" time="158493" bonusesId1="500005" bonusesId2="500015" quality="80,81,82,83,84,85,86,87,88" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="89" money="39500000" time="160113" bonusesId1="500005" bonusesId2="500015" quality="81,82,83,84,85,86,87,88,89" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="90" money="40000000" time="161733" bonusesId1="500005" bonusesId2="500015" quality="82,83,84,85,86,87,88,89,90" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="91" money="40500000" time="163353" bonusesId1="500005" bonusesId2="500015" quality="83,84,85,86,87,88,89,90,91" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="92" money="41000000" time="164973" bonusesId1="500005" bonusesId2="500015" quality="84,85,86,87,88,89,90,91,92" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="93" money="41500000" time="166593" bonusesId1="500005" bonusesId2="500015" quality="85,86,87,88,89,90,91,92,93" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="94" money="42000000" time="168213" bonusesId1="500005" bonusesId2="500015" quality="86,87,88,89,90,91,92,93,94" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="95" money="42500000" time="169833" bonusesId1="500005" bonusesId2="500015" quality="87,88,89,90,91,92,93,94,95" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="96" money="43000000" time="171453" bonusesId1="500005" bonusesId2="500015" quality="88,89,90,91,92,93,94,95,96" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="97" money="43500000" time="173073" bonusesId1="500005" bonusesId2="500015" quality="89,90,91,92,93,94,95,96,97" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="98" money="44000000" time="174693" bonusesId1="500005" bonusesId2="500015" quality="90,91,92,93,94,95,96,97,98" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
+    <item level="99" money="44500000" time="176313" bonusesId1="500005" bonusesId2="500015" quality="91,92,93,94,95,96,97,98,99" qualityDropWeight="5376,2898,977,482,194,64,8,1,0"/>
+    <item level="100" money="45000000" time="177933" bonusesId1="500005" bonusesId2="500015" quality="92,93,94,95,96,97,98,99,100" qualityDropWeight="5353,2873,1018,497,187,62,9,1,0"/>
   </evolution>
   <stamina>
     <item count="1" level="1"/>

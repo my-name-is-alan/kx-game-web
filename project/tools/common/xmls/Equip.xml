@@ -79,6 +79,49 @@
     <item id="55" name="神武1星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
     <item id="56" name="神武2星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
     <item id="57" name="神武3星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="58" name="神武4星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="59" name="神武5星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="60" name="神武1星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="61" name="神武2星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="62" name="神武3星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="63" name="神武4星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="64" name="神武5星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="65" name="神武1星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="66" name="神武2星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="67" name="神武3星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="68" name="神武4星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="69" name="神武5星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="70" name="神武1星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="71" name="神武2星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="72" name="神武3星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="73" name="神武4星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="74" name="神武5星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="75" name="神武1星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="76" name="神武2星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="77" name="神武3星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="78" name="神武4星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="79" name="神武5星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="80" name="神武1星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="81" name="神武2星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="82" name="神武3星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="83" name="神武4星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="84" name="神武5星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="85" name="神武1星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="86" name="神武2星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="87" name="神武3星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="88" name="神武4星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="89" name="神武5星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="90" name="神武1星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="91" name="神武2星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="92" name="神武3星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="93" name="神武4星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="94" name="神武5星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="95" name="神武1星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="96" name="神武2星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="97" name="神武3星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="98" name="神武4星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="99" name="神武5星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
+    <item id="100" name="神武1星" star="16" combatAttrValue="419.1" resistanceAttrValue="191.1"/>
   </quality>
   <equip>
     <item id="10101" quality="1" slot="1" name="木剑" icon="icon_weapons_1_01"/>
@@ -1089,6 +1132,198 @@
     <item id="11282" quality="82" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
     <item id="11283" quality="83" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
     <item id="11284" quality="84" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="10185" quality="85" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10186" quality="86" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10187" quality="87" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10188" quality="88" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10189" quality="89" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10190" quality="90" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10191" quality="91" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10192" quality="92" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10193" quality="93" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10194" quality="94" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10195" quality="95" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10196" quality="96" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10197" quality="97" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10198" quality="98" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10199" quality="99" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10200" quality="100" slot="1" name="幻焰裂空斧" icon="icon_weapons_1_16"/>
+    <item id="10285" quality="85" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10286" quality="86" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10287" quality="87" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10288" quality="88" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10289" quality="89" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10290" quality="90" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10291" quality="91" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10292" quality="92" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10293" quality="93" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10294" quality="94" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10295" quality="95" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10296" quality="96" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10297" quality="97" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10298" quality="98" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10299" quality="99" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10300" quality="100" slot="2" name="幻紫鎏金冠" icon="icon_Hat_1_16"/>
+    <item id="10385" quality="85" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10386" quality="86" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10387" quality="87" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10388" quality="88" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10389" quality="89" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10390" quality="90" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10391" quality="91" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10392" quality="92" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10393" quality="93" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10394" quality="94" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10395" quality="95" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10396" quality="96" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10397" quality="97" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10398" quality="98" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10399" quality="99" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10400" quality="100" slot="3" name="幻紫鎏金铠" icon="icon_chest protection_1_16"/>
+    <item id="10485" quality="85" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10486" quality="86" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10487" quality="87" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10488" quality="88" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10489" quality="89" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10490" quality="90" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10491" quality="91" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10492" quality="92" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10493" quality="93" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10494" quality="94" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10495" quality="95" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10496" quality="96" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10497" quality="97" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10498" quality="98" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10499" quality="99" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10500" quality="100" slot="4" name="幻梦迷踪鞋" icon="icon_shoes_1_16"/>
+    <item id="10585" quality="85" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10586" quality="86" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10587" quality="87" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10588" quality="88" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10589" quality="89" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10590" quality="90" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10591" quality="91" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10592" quality="92" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10593" quality="93" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10594" quality="94" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10595" quality="95" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10596" quality="96" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10597" quality="97" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10598" quality="98" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10599" quality="99" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10600" quality="100" slot="5" name="星辰宝带" icon="icon_belt_1_16"/>
+    <item id="10685" quality="85" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10686" quality="86" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10687" quality="87" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10688" quality="88" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10689" quality="89" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10690" quality="90" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10691" quality="91" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10692" quality="92" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10693" quality="93" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10694" quality="94" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10695" quality="95" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10696" quality="96" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10697" quality="97" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10698" quality="98" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10699" quality="99" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10700" quality="100" slot="6" name="幻紫肩甲" icon="icon_shoulder armour_1_16"/>
+    <item id="10785" quality="85" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10786" quality="86" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10787" quality="87" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10788" quality="88" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10789" quality="89" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10790" quality="90" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10791" quality="91" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10792" quality="92" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10793" quality="93" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10794" quality="94" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10795" quality="95" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10796" quality="96" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10797" quality="97" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10798" quality="98" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10799" quality="99" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10800" quality="100" slot="7" name="天谕护腿" icon="icon_Leg warmers_1_16"/>
+    <item id="10885" quality="85" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10886" quality="86" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10887" quality="87" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10888" quality="88" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10889" quality="89" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10890" quality="90" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10891" quality="91" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10892" quality="92" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10893" quality="93" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10894" quality="94" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10895" quality="95" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10896" quality="96" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10897" quality="97" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10898" quality="98" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10899" quality="99" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10900" quality="100" slot="8" name="天谕神护" icon="icon_pants_1_16"/>
+    <item id="10985" quality="85" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10986" quality="86" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10987" quality="87" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10988" quality="88" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10989" quality="89" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10990" quality="90" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10991" quality="91" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10992" quality="92" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10993" quality="93" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10994" quality="94" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10995" quality="95" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10996" quality="96" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10997" quality="97" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10998" quality="98" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="10999" quality="99" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="11000" quality="100" slot="9" name="天罡武灵" icon="icon_cape_1_16"/>
+    <item id="11085" quality="85" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11086" quality="86" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11087" quality="87" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11088" quality="88" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11089" quality="89" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11090" quality="90" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11091" quality="91" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11092" quality="92" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11093" quality="93" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11094" quality="94" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11095" quality="95" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11096" quality="96" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11097" quality="97" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11098" quality="98" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11099" quality="99" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11100" quality="100" slot="10" name="龙首彩鳞旗" icon="icon_Flags_1_16"/>
+    <item id="11185" quality="85" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11186" quality="86" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11187" quality="87" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11188" quality="88" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11189" quality="89" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11190" quality="90" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11191" quality="91" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11192" quality="92" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11193" quality="93" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11194" quality="94" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11195" quality="95" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11196" quality="96" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11197" quality="97" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11198" quality="98" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11199" quality="99" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11200" quality="100" slot="11" name="混元天珠" icon="icon_Jade pendants_1_16"/>
+    <item id="11285" quality="85" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11286" quality="86" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11287" quality="87" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11288" quality="88" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11289" quality="89" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11290" quality="90" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11291" quality="91" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11292" quality="92" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11293" quality="93" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11294" quality="94" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11295" quality="95" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11296" quality="96" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11297" quality="97" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11298" quality="98" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11299" quality="99" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
+    <item id="11300" quality="100" slot="12" name="混元武魂袍" icon="icon_clothes_1_16"/>
   </equip>
   <extra>
     <item id="1010000001" quality="5" slot="1" name="碧波刃" icon="icon_weapons_1_05" level="80" attrs="4473,671,112,92,0,0,0,0,0,5,0,0,0,0,0,0"/>
